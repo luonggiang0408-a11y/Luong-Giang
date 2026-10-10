@@ -1,0 +1,23 @@
+{
+ "skill_name": "english-drill-builder",
+ "evals": [
+  {
+   "id": 1,
+   "prompt": "Đây là list từ vựng bài 26 - Sport trong Vocabulary in Use (đã dán bên dưới). Tạo cho tôi bộ bài tập tương tác có nghe giống bộ giới từ hôm trước.",
+   "expected_output": "content.json with sections of contextual mc/tx questions at i+1, validator run with no errors, index.html + audio built, published private artifact with link and a short summary",
+   "files": []
+  },
+  {
+   "id": 2,
+   "prompt": "Tôi đang học giới từ chỉ chuyển động (into, out of, through, across, along, past). Làm bài tập ngắn khoảng 30 câu, mỗi câu có tình huống cụ thể.",
+   "expected_output": "One or two sections, tx-heavy, every sentence in a situation, unambiguous answers, Vietnamese reasons and translations",
+   "files": []
+  },
+  {
+   "id": 3,
+   "prompt": "Bài tập hôm trước tôi làm sai nhiều câu về in time/on time và assurance/insurance. Làm thêm một bộ ngắn ôn đúng mấy điểm đó, khó hơn một chút.",
+   "expected_output": "Short set that recycles the weak spots from profile/learner.md in new situations at slightly higher difficulty, plus updated profile after delivery",
+   "files": []
+  }
+ ]
+}

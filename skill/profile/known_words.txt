@@ -1,0 +1,99 @@
+# Words the learner is assumed to understand without help (about A1-B1 core).
+# Used by scripts/validate_content.py to spot "hidden" new words. One or more words per line.
+# Grow this file: after a session, append the target words the learner got right so the next
+# set can be calibrated one step higher. Lines starting with # are comments.
+
+# function words
+a an the this that these those i me my mine you your yours he him his she her hers it its we us our they them their
+am is are was were be been being do does did done have has had having will would can could shall should may might must
+and or but so because if when while although though even until since before after as than then too very also just only not no yes
+in on at by for with without about from to of into onto out off up down over under through across along between among near next beside behind
+who what which where when why how whose any some every each all both either neither another other more most much many few little less least
+here there now today tomorrow yesterday always usually often sometimes never again still already yet soon ago ever really quite rather
+one two three four five six seven eight nine ten eleven twelve twenty thirty forty fifty hundred thousand first second third last next
+monday tuesday wednesday thursday friday saturday sunday january february march april may june july august september october november december
+morning afternoon evening night day week month year time hour minute moment weekend summer winter spring autumn
+# people and places
+man woman boy girl child children baby friend family mother father mum dad brother sister son daughter wife husband parents people person
+teacher student class school university college office company work job boss manager team customer client staff worker
+house home flat room kitchen bathroom bedroom garden door window floor wall table desk chair bed street road city town village country shop store
+supermarket market restaurant cafe hotel bank station airport hospital library park beach lake river sea mountain
+# things
+book pen paper phone computer laptop email letter message picture film movie music radio tv car bus train plane bike ticket bag money price
+water food milk coffee tea bread rice meat fish chicken egg eggs fruit vegetable apple orange potato tomato cheese sugar salt cake pizza soup salad dinner lunch breakfast meal
+clothes shirt shoes dress jacket hat towel key card cup glass plate knife spoon
+weather rain snow sun wind hot cold warm cool
+# verbs
+go goes went gone going come came coming get got getting give gave given take took taken make made making see saw seen look looked watch
+say said tell told ask asked answer know knew think thought want wanted need needed like liked love loved hate help helped try tried
+use used work worked play played live lived stay stayed move moved leave left arrive arrived start started stop stopped finish finished begin began
+buy bought sell sold pay paid spend spent cost cost save saved wait waited meet met call called talk talked speak spoke
+eat ate drink drank cook cooked sleep slept walk walked run ran drive drove ride rode travel travelled fly flew
+read write wrote learn learned study studied teach taught remember forget forgot understand understood explain explained
+open opened close closed put keep kept bring brought carry hold held send sent turn turned show showed find found lose lost
+feel felt hear heard smell taste believe agree decide decided plan planned hope wish mean means happen happened
+cut add mix pour boil fry bake heat clean wash break broke broken hurt fall fell
+# adjectives and adverbs
+good bad great nice happy sad angry tired busy free ready sure sorry afraid worried interested different same easy difficult hard
+big small large long short old new young high low tall early late fast slow quick well better best worse worst
+right wrong true real important special favourite famous popular expensive cheap rich poor full empty clean dirty safe dangerous
+sweet sour hot spicy delicious tasty fresh raw
+# useful verbs-in-context and nouns
+idea problem question answer way thing things part kind lot lots top end side place number name word sentence story news result test exam
+holiday trip party game hobby sport hobby plan decision difference example reason chance mistake accident purpose
+please thank thanks hello hi ok okay
+
+# ---- seen and practised in session 1 (prepositions + savings/cooking/spices/compliance vocabulary, 2026-10) ----
+a abide about abroad absolutely accident account accounts across add added addict advice advisor
+afraid after agree airport all allowed along always am among amounts an and anna
+any apartment apple are aroma arrivals arrive art as asks assurance assure assuredly at
+attention austria away back bake baking ball bank banks bar barbecue basil be because
+before beginner below ben beside best between big bigger birthday bitter black bland board
+boil boiling bones bonus booking boss bought boy break breakfast breath briefing bright brochure
+broke broken broth brother brothers budget burn burnt buses business busy but buy buying
+by cake call called camera can can't canada candidates cannot car career careful case
+catch cd certificate chance check checks chef chefs chicken chili chilli chips chocolate choose
+cinnamon city classic clothes cloves coast coffee come company comparing complain complained comply concentrate
+connection contract cook cooker cooking cooks correct could cream credit crisps crispy cumin curry
+customer cv dad date day days deadline decided definitely delicious depends deposit describing desk
+dessert detail did different dinner dip dipping directions display dispute do does down drank
+dressing driver drivers driving during each early earn economy eggs employees end engage escape
+especially essay even every everyone everywhere exam example expensive expire explain factory family fast
+favourite fear fence fewer film finally financial fine finish fire first fish fixed flat
+flatmate flavour flavours flight floor follow food for free fresh friday fried friend from
+fry frying furious future gallery gardens garlic gave generally germany gets ginger giving glass
+glasses go goals goes going good got government grandma grandma's grandmother grass green grill
+guarantees habits had half hall hand happened hard has have he hear help her
+here hero high higher hiking his hobbies holiday home homework horrible hospital hour hours
+hurry i i'll i'm i've ice id idioms if illegal in information ingredients instead
+institution insurance interest interested interview invested is it italy job journey juice june keep
+keeps ketchup kicked kitchen know lake lan lands laptop large larger latest lattes leaflet
+leave leaves lemon lemongrass library like liked lime listen little lived local long longer
+looking looks lots loud loves low lower lunch made mai make makes making manager
+march margherita married mash maternity may maybe mean means meet meeting members menu met
+mild milk mine miss misses missing mistake mix moment monday money month more morning
+mother moving mum music must my near need needed needs neighbours never new news
+next night no non not note now obligated of offered offers office often oil
+old olive on one onion online only open opening or ordinary organizations other our
+out oven over owned paintings pan parcel pass passengers passport past pasta pay pays
+peel pen penalty people people's pepper per period person pharmacy pho phone photography picnic
+pie piece pizza place plan planning plans plate playing please policy possible post potatoes
+pound practices prefers price print problem product profit profits purpose put puts quiz race
+rage rains rainy ran rarely rate rates raw reached reaches reading ready real really
+recipe recipes regulations related rely renew rent rental renting repair restaurant results return returns
+river road roast rules run rushing safety said salad salary sale salt salty sauce
+saucepan save saver savers saves saving savings scent school security selling sells sentence september
+serve service sets shallot she shoe shoes shop shopping should shouted side sign signing
+simmering simple since sister sister's ski skiing skills slightly slow small smaller smell smells
+snacks so some something sorry soup soups sour soy spelling spend spender spends spice
+spicy spite start statement station stays step stir stirring stop strike strong student studied
+studying such sugar sunday supermarket sushi sweet switch system table takes talk talking tall
+taste tastes tasting tax taxi teacher team teaspoon tech ten tenant term terms than
+that the their them there these they think thinking this thought three through thursday
+time tip tired to today tom tomorrow tonight too took topping towel train travel
+trip trouble tunnel turmeric twenty twin twins two types uk umbrella under unexpected union
+unions until up us used using usually vase vegetable very vietnamese viewing village vinegar
+visitors vs wait waiting walked warm was wasabi water way we we're weather week
+weekdays well went were wet when whether which while who whole will with withdraw
+without work worked worry would write wrong year years yellow yesterday you young your
+yum

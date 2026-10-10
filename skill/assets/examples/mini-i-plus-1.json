@@ -1,0 +1,164 @@
+{
+ "meta": {
+  "title": "Luyện tập mẫu",
+  "eyebrow": "Trình độ B1 – B2 · Ví dụ i+1",
+  "h1": "Đi lại trong thành phố",
+  "lead": "Bộ mẫu nhỏ cho thấy các trường i+1: từ mới được suy ra từ ngữ cảnh, hiện nghĩa sau khi trả lời, và gợi ý tùy chọn.",
+  "storageKey": "mini-i-plus-1-v1",
+  "voice": "en-US-EmmaMultilingualNeural"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Giới từ khi đi lại",
+   "note": "<b>at</b> + điểm (the station) · <b>on</b> + phương tiện công cộng (on the train) · <b>by</b> + loại phương tiện (by bus) · <b>get on / off</b> khi lên xuống tàu xe.",
+   "targets": [
+    "commuter",
+    "platform"
+   ],
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Morning commute",
+     "s": "Every day, Linh goes to work ___ train, and she usually reads on the way.",
+     "o": [
+      "by",
+      "on",
+      "in"
+     ],
+     "a": "by",
+     "vi": "Ngày nào Linh cũng đi làm bằng tàu và thường đọc sách trên đường.",
+     "why": "by + loại phương tiện, không có mạo từ: by train, by bus.",
+     "new": [
+      {
+       "w": "commute",
+       "vi": "đi làm hằng ngày"
+      }
+     ],
+     "hint": "Phía sau là danh từ trơn (train), không có a hay the."
+    },
+    {
+     "type": "tx",
+     "ctx": "Crowded platform",
+     "s": "The train was so crowded that she had to stand ___ the platform until the next one came.",
+     "acc": [
+      "on"
+     ],
+     "vi": "Tàu đông đến mức cô phải đứng chờ trên sân ga cho đến chuyến sau.",
+     "why": "on the platform: đứng trên bề mặt sân ga.",
+     "new": [
+      {
+       "w": "platform",
+       "vi": "sân ga"
+      },
+      {
+       "w": "crowded",
+       "vi": "đông đúc"
+      },
+      {
+       "w": "stand",
+       "vi": "đứng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Getting home",
+     "s": "At 6 p.m. the commuters got ___ the train and went home.",
+     "o": [
+      "on",
+      "off",
+      "into"
+     ],
+     "a": "on",
+     "vi": "Lúc 6 giờ chiều, những người đi làm lên tàu và về nhà.",
+     "why": "get on the train = lên tàu; get off = xuống tàu.",
+     "new": [
+      {
+       "w": "commuters",
+       "vi": "người đi làm hằng ngày bằng phương tiện công cộng"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Từ vựng: tiền vé và lịch trình",
+   "note": "<b>fare</b> = tiền vé · <b>delay</b> = sự chậm trễ · <b>run late</b> = chạy trễ. <b>so … that</b> + mệnh đề chỉ kết quả.",
+   "targets": [
+    "fare",
+    "delay"
+   ],
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Ticket office",
+     "s": "The bus ___ went up by ten percent, so Tom now pays more every month.",
+     "o": [
+      "fare",
+      "delay",
+      "platform"
+     ],
+     "a": "fare",
+     "vi": "Giá vé xe buýt tăng mười phần trăm nên mỗi tháng Tom trả nhiều hơn.",
+     "why": "fare = tiền vé đi xe, tàu, máy bay.",
+     "new": [
+      {
+       "w": "fare",
+       "vi": "tiền vé"
+      },
+      {
+       "w": "percent",
+       "vi": "phần trăm"
+      }
+     ],
+     "hint": "Tom trả nhiều hơn mỗi tháng. Điều gì của xe buýt đã tăng?"
+    },
+    {
+     "type": "tx",
+     "ctx": "Station announcement",
+     "s": "Sorry for the ___ . The train is running twenty minutes late because of a signal problem.",
+     "acc": [
+      "delay"
+     ],
+     "vi": "Xin lỗi vì sự chậm trễ. Tàu đang chạy trễ hai mươi phút vì sự cố tín hiệu.",
+     "why": "delay = sự chậm trễ; ý được lặp lại ở câu sau (running late).",
+     "new": [
+      {
+       "w": "signal",
+       "vi": "tín hiệu"
+      },
+      {
+       "w": "announcement",
+       "vi": "thông báo (qua loa)"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Weekend plans",
+     "s": "The traffic was so heavy ___ we missed the start of the film.",
+     "o": [
+      "that",
+      "than",
+      "as"
+     ],
+     "a": "that",
+     "vi": "Giao thông đông đến mức chúng tôi lỡ phần đầu của bộ phim.",
+     "why": "so + adj + that + mệnh đề kết quả.",
+     "new": [
+      {
+       "w": "traffic",
+       "vi": "giao thông, xe cộ"
+      },
+      {
+       "w": "heavy",
+       "vi": "nặng; ở đây: đông, nhiều xe"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

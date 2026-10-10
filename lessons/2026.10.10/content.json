@@ -1,0 +1,245 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 10-10-2026",
+  "eyebrow": "Ôn tập hằng ngày · B1 – B2 · 10/10/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 2 từ: mackerel và scallop. Mỗi từ làm 2 câu viết, 2 câu chọn từ, 2 câu chọn nghĩa (12 câu). Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026-10-10-v2",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma2"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "<b>Viết 2 lần mỗi từ.</b> Đọc câu, nhìn gợi ý tiếng Việt (bấm Gợi ý) rồi gõ từ còn thiếu. Từ hôm nay: <b>mackerel</b> /ˈmækrəl/ = cá thu · <b>scallop</b> /ˈskæləp/ = sò điệp.",
+   "targets": [
+    "mackerel",
+    "scallop"
+   ],
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "At the fish market",
+     "s": "Mai bought a whole ___ for dinner. She will cook it with tomato sauce.",
+     "acc": [
+      "mackerel"
+     ],
+     "vi": "Mai mua nguyên một con cá thu cho bữa tối. Cô ấy sẽ nấu với sốt cà chua.",
+     "why": "mackerel = cá thu (danh từ; số nhiều viết giống số ít).",
+     "hint": "Loài cá, tiếng Việt là: cá thu."
+    },
+    {
+     "type": "tx",
+     "ctx": "In a restaurant",
+     "s": "Linh ordered grilled ___ with butter and garlic. They live in the sea, inside a flat round shell.",
+     "acc": [
+      "scallops",
+      "scallop"
+     ],
+     "vi": "Linh gọi sò điệp nướng với bơ và tỏi. Chúng sống ở biển, trong một cái vỏ tròn dẹt.",
+     "why": "scallop = sò điệp (số nhiều: scallops).",
+     "hint": "Hải sản có vỏ, tiếng Việt là: sò điệp.",
+     "new": [
+      {
+       "w": "shell",
+       "vi": "vỏ"
+      },
+      {
+       "w": "flat",
+       "vi": "dẹt, phẳng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "A fishing trip",
+     "s": "Tom caught three ___ this morning. He is going to grill them for lunch.",
+     "acc": [
+      "mackerel",
+      "mackerels"
+     ],
+     "vi": "Sáng nay Tom câu được ba con cá thu. Anh ấy sẽ nướng chúng cho bữa trưa.",
+     "why": "mackerel = cá thu (danh từ; số nhiều viết giống số ít). Ở đây số nhiều vẫn là mackerel.",
+     "hint": "Cá thu (ba con).",
+     "new": [
+      {
+       "w": "caught",
+       "vi": "đã bắt/câu được"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Seafood market",
+     "s": "The seller opened a ___ and showed us the soft white meat inside its shell.",
+     "acc": [
+      "scallop"
+     ],
+     "vi": "Người bán mở một con sò điệp và cho chúng tôi xem phần thịt trắng mềm bên trong vỏ.",
+     "why": "scallop = sò điệp (số nhiều: scallops).",
+     "hint": "Sò điệp (một con).",
+     "new": [
+      {
+       "w": "soft",
+       "vi": "mềm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "<b>Chọn từ 2 lần mỗi từ.</b> Đọc tình huống và chọn từ đúng điền vào chỗ trống.",
+   "targets": [
+    "mackerel",
+    "scallop"
+   ],
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Cleaning fish",
+     "s": "After cleaning the ___, Dad took out all the small bones before frying it.",
+     "o": [
+      "mackerel",
+      "scallop",
+      "butter"
+     ],
+     "a": "mackerel",
+     "vi": "Sau khi làm sạch con cá thu, bố lấy hết xương nhỏ ra rồi mới chiên.",
+     "why": "Có xương (bones) → là cá: mackerel.",
+     "hint": "Thứ gì có xương nhỏ?",
+     "new": [
+      {
+       "w": "bones",
+       "vi": "xương"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "At the beach restaurant",
+     "s": "Anna opened the shell and ate the soft, sweet ___ inside with lemon.",
+     "o": [
+      "scallop",
+      "mackerel",
+      "bread"
+     ],
+     "a": "scallop",
+     "vi": "Anna mở vỏ ra và ăn phần sò điệp mềm, ngọt bên trong với chanh.",
+     "why": "Có vỏ (shell) → scallop, không phải cá.",
+     "hint": "Thứ gì có vỏ?"
+    },
+    {
+     "type": "mc",
+     "ctx": "Lunch at home",
+     "s": "For lunch, we had grilled ___ with rice. The fish was fresh and the skin was crispy.",
+     "o": [
+      "mackerel",
+      "scallop",
+      "honey"
+     ],
+     "a": "mackerel",
+     "vi": "Bữa trưa chúng tôi ăn cá thu nướng với cơm. Cá tươi và da giòn.",
+     "why": "\"The fish\" → mackerel.",
+     "new": [
+      {
+       "w": "skin",
+       "vi": "da"
+      },
+      {
+       "w": "crispy",
+       "vi": "giòn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "In a restaurant",
+     "s": "The waiter said, \"These ___ come from the sea, and they live inside two round shells.\"",
+     "o": [
+      "scallops",
+      "mackerel",
+      "bananas"
+     ],
+     "a": "scallops",
+     "vi": "Người phục vụ nói: \"Sò điệp này lấy từ biển, chúng sống trong hai vỏ tròn.\"",
+     "why": "Sống trong hai cái vỏ → scallops.",
+     "hint": "Sống trong hai vỏ tròn."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "<b>Chọn nghĩa 2 lần mỗi từ.</b> Đọc câu trong tình huống rồi chọn nghĩa tiếng Việt đúng.",
+   "targets": [
+    "mackerel",
+    "scallop"
+   ],
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "At the market",
+     "s": "A seller says: \"Fresh mackerel! Only ten dollars a kilo!\" What does \"mackerel\" mean?",
+     "o": [
+      "cá thu",
+      "sò điệp",
+      "tôm"
+     ],
+     "a": "cá thu",
+     "vi": "Người bán nói: \"Cá thu tươi! Chỉ mười đô một ký!\"",
+     "why": "mackerel = cá thu. Bán theo ký, tươi → cá.",
+     "noblank": true,
+     "say": "Fresh mackerel! Only ten dollars a kilo!"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading a menu",
+     "s": "Nam reads the menu: \"Grilled scallops with garlic butter.\" What does \"scallops\" mean?",
+     "o": [
+      "sò điệp",
+      "cá thu",
+      "mực"
+     ],
+     "a": "sò điệp",
+     "vi": "Nam đọc thực đơn: \"Sò điệp nướng với bơ tỏi.\"",
+     "why": "scallop = sò điệp.",
+     "noblank": true,
+     "say": "Grilled scallops with garlic butter."
+    },
+    {
+     "type": "mc",
+     "ctx": "Family dinner",
+     "s": "Dad says: \"Mackerel is cheap, and my kids love it with rice.\" What is mackerel?",
+     "o": [
+      "một loại cá",
+      "một loại rau",
+      "một loại bánh"
+     ],
+     "a": "một loại cá",
+     "vi": "Bố nói: \"Cá thu rẻ, và con tôi thích ăn với cơm.\"",
+     "why": "mackerel = cá thu, một loại cá.",
+     "noblank": true,
+     "say": "Mackerel is cheap, and my kids love it with rice."
+    },
+    {
+     "type": "mc",
+     "ctx": "Seafood talk",
+     "s": "Lan says: \"Scallops live in the sea inside a shell, and many people eat them with butter.\" What are scallops?",
+     "o": [
+      "sò điệp",
+      "cá thu",
+      "rau biển"
+     ],
+     "a": "sò điệp",
+     "vi": "Lan nói: \"Sò điệp sống ở biển trong một cái vỏ, và nhiều người ăn chúng với bơ.\"",
+     "why": "scallop = sò điệp (có vỏ).",
+     "noblank": true,
+     "say": "Scallops live in the sea inside a shell, and many people eat them with butter."
+    }
+   ]
+  }
+ ]
+}

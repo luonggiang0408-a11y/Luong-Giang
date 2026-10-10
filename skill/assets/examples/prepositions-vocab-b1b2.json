@@ -1,0 +1,1450 @@
+{
+ "meta": {
+  "title": "Giới Từ & Từ Vựng",
+  "eyebrow": "Trình độ B1 – B2 · Giới từ và từ vựng",
+  "h1": "Giới từ & Từ vựng",
+  "lead": "Mỗi câu gắn với một tình huống cụ thể: ngân hàng, bếp, văn phòng, sân bay. Chọn hoặc gõ đáp án, kết quả hiện ngay kèm giải thích và bản dịch.",
+  "storageKey": "gioi-tu-tu-vung-v1",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma1"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Thời gian & nơi chốn",
+   "note": "<b>at</b> = giờ, điểm · <b>on</b> = ngày, bề mặt · <b>in</b> = tháng, năm, không gian. <b>for</b> + khoảng thời gian, <b>since</b> + mốc thời gian. <b>by</b> = chậm nhất vào lúc đó, <b>until</b> = kéo dài đến lúc đó.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Job interview",
+     "s": "Please arrive ___ 8.45 so we have time to talk before the other candidates come.",
+     "o": [
+      "at",
+      "on",
+      "in"
+     ],
+     "a": "at",
+     "vi": "Vui lòng đến lúc 8:45 để chúng ta có thời gian nói chuyện trước khi các ứng viên khác tới.",
+     "why": "Giờ cụ thể dùng at."
+    },
+    {
+     "type": "mc",
+     "ctx": "Booking a taxi",
+     "s": "Your flight lands ___ Thursday morning, so the driver will wait in the arrivals hall.",
+     "o": [
+      "at",
+      "on",
+      "in"
+     ],
+     "a": "on",
+     "vi": "Chuyến bay của bạn hạ cánh vào sáng thứ Năm, nên tài xế sẽ chờ ở sảnh đến.",
+     "why": "Thứ trong tuần (kể cả Thursday morning) dùng on."
+    },
+    {
+     "type": "tx",
+     "ctx": "Moving abroad",
+     "s": "We're moving to Canada ___ ten days' time.",
+     "acc": [
+      "in"
+     ],
+     "vi": "Mười ngày nữa chúng tôi sẽ chuyển sang Canada.",
+     "why": "in + khoảng thời gian + time = sau bao lâu nữa. Không dùng after."
+    },
+    {
+     "type": "mc",
+     "ctx": "Manager asks about your CV",
+     "s": "I've worked for this bank ___ 2019, so I know the system well.",
+     "o": [
+      "for",
+      "since",
+      "during"
+     ],
+     "a": "since",
+     "vi": "Tôi làm ở ngân hàng này từ năm 2019 nên tôi biết rõ hệ thống.",
+     "why": "since + mốc thời gian trong quá khứ (2019)."
+    },
+    {
+     "type": "mc",
+     "ctx": "Apartment viewing",
+     "s": "I've lived in this flat ___ three years, but I'm looking for something bigger.",
+     "o": [
+      "for",
+      "since",
+      "during"
+     ],
+     "a": "for",
+     "vi": "Tôi sống ở căn hộ này được ba năm, nhưng tôi đang tìm nhà rộng hơn.",
+     "why": "for + khoảng thời gian (three years)."
+    },
+    {
+     "type": "mc",
+     "ctx": "Teacher sets homework",
+     "s": "Your essay must be on my desk ___ Friday at the latest.",
+     "o": [
+      "until",
+      "by",
+      "during"
+     ],
+     "a": "by",
+     "vi": "Bài luận của các em phải có trên bàn cô chậm nhất là thứ Sáu.",
+     "why": "by = không muộn hơn mốc đó. until = kéo dài liên tục đến mốc đó."
+    },
+    {
+     "type": "mc",
+     "ctx": "Library sign",
+     "s": "The library stays open ___ 10 p.m. on weekdays.",
+     "o": [
+      "by",
+      "until",
+      "in"
+     ],
+     "a": "until",
+     "vi": "Thư viện mở cửa đến 10 giờ tối các ngày trong tuần.",
+     "why": "until: hành động (mở cửa) kéo dài đến lúc đó."
+    },
+    {
+     "type": "mc",
+     "ctx": "Missing the train?",
+     "s": "I ran all the way to the station and got there ___ time to catch the 7.15 train.",
+     "o": [
+      "in",
+      "on",
+      "at"
+     ],
+     "a": "in",
+     "vi": "Tôi chạy suốt đến nhà ga và kịp giờ lên chuyến tàu 7:15.",
+     "why": "in time = kịp (trước khi sự việc bắt đầu). on time = đúng giờ."
+    },
+    {
+     "type": "tx",
+     "ctx": "Phone call",
+     "s": "Sorry, I can't talk now. I'm busy ___ the moment.",
+     "acc": [
+      "at"
+     ],
+     "vi": "Xin lỗi, bây giờ tôi không nói chuyện được. Lúc này tôi đang bận.",
+     "why": "at the moment = ngay lúc này (không nói in this moment)."
+    },
+    {
+     "type": "tx",
+     "ctx": "Meeting a friend",
+     "s": "I'll meet you ___ the airport, next to the information desk.",
+     "acc": [
+      "at"
+     ],
+     "vi": "Mình sẽ gặp bạn ở sân bay, cạnh quầy thông tin.",
+     "why": "at + địa điểm như một điểm hẹn (airport, bus stop, work)."
+    },
+    {
+     "type": "mc",
+     "ctx": "Giving directions",
+     "s": "The pharmacy is ___ the bank and the post office. You cannot miss it.",
+     "o": [
+      "between",
+      "among",
+      "beside"
+     ],
+     "a": "between",
+     "vi": "Hiệu thuốc nằm giữa ngân hàng và bưu điện. Bạn không thể bỏ lỡ.",
+     "why": "between: giữa hai vật. among: giữa nhiều vật."
+    },
+    {
+     "type": "mc",
+     "ctx": "Hiking trip",
+     "s": "We walked ___ the river for two hours before we reached the village.",
+     "o": [
+      "across",
+      "along",
+      "through"
+     ],
+     "a": "along",
+     "vi": "Chúng tôi đi dọc bờ sông hai tiếng mới đến làng.",
+     "why": "along = dọc theo. across = băng qua. through = xuyên qua."
+    },
+    {
+     "type": "mc",
+     "ctx": "On a train",
+     "s": "The train goes ___ a long tunnel before it reaches the coast.",
+     "o": [
+      "through",
+      "over",
+      "past"
+     ],
+     "a": "through",
+     "vi": "Con tàu chạy xuyên qua một đường hầm dài trước khi tới bờ biển.",
+     "why": "through = xuyên qua một không gian bao quanh."
+    },
+    {
+     "type": "tx",
+     "ctx": "Flatmate note",
+     "s": "Please do not leave your wet towel ___ the floor!",
+     "acc": [
+      "on"
+     ],
+     "vi": "Làm ơn đừng để khăn tắm ướt trên sàn nhà!",
+     "why": "on + bề mặt (floor, desk, wall)."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Động từ / tính từ + giới từ",
+   "note": "Học giới từ như một phần của cụm: depend <b>on</b>, rely <b>on</b>, good <b>at</b>, interested <b>in</b>, afraid <b>of</b>, different <b>from</b>. Sau giới từ dùng V-ing. <b>shout to</b> = gọi cho ai nghe; <b>shout at</b> = quát ai.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "A team meeting",
+     "s": "Sorry, I do not agree ___ you about the budget.",
+     "acc": [
+      "with"
+     ],
+     "vi": "Xin lỗi, tôi không đồng ý với bạn về ngân sách.",
+     "why": "agree with sb."
+    },
+    {
+     "type": "tx",
+     "ctx": "Exam week",
+     "s": "Do not worry ___ the results. You studied really hard.",
+     "acc": [
+      "about"
+     ],
+     "vi": "Đừng lo về kết quả. Bạn đã học rất chăm.",
+     "why": "worry about sth."
+    },
+    {
+     "type": "tx",
+     "ctx": "Shopping addict",
+     "s": "She spends half her salary ___ clothes.",
+     "acc": [
+      "on"
+     ],
+     "vi": "Cô ấy tiêu một nửa tiền lương vào quần áo.",
+     "why": "spend money on sth."
+    },
+    {
+     "type": "tx",
+     "ctx": "Planning a holiday",
+     "s": "We're thinking ___ renting a car in Italy.",
+     "acc": [
+      "of",
+      "about"
+     ],
+     "vi": "Chúng tôi đang nghĩ đến chuyện thuê xe ở Ý.",
+     "why": "think of / about + V-ing = dự định, cân nhắc."
+    },
+    {
+     "type": "tx",
+     "ctx": "Restaurant",
+     "s": "I would like to complain ___ the slow service.",
+     "acc": [
+      "about"
+     ],
+     "vi": "Tôi muốn phàn nàn về việc phục vụ chậm.",
+     "why": "complain about sth."
+    },
+    {
+     "type": "tx",
+     "ctx": "Restaurant",
+     "s": "She complained ___ the manager, but he did not listen.",
+     "acc": [
+      "to"
+     ],
+     "vi": "Cô ấy phàn nàn với quản lý, nhưng ông ấy không nghe.",
+     "why": "complain to sb (about sth)."
+    },
+    {
+     "type": "tx",
+     "ctx": "Picnic plans",
+     "s": "Whether we go depends ___ the weather.",
+     "acc": [
+      "on"
+     ],
+     "vi": "Có đi hay không còn tùy vào thời tiết.",
+     "why": "depend on (không dùng depend of)."
+    },
+    {
+     "type": "tx",
+     "ctx": "At work",
+     "s": "You can rely ___ Tom. He never misses a deadline.",
+     "acc": [
+      "on"
+     ],
+     "vi": "Bạn có thể tin cậy Tom. Anh ấy không bao giờ trễ hạn.",
+     "why": "rely on sb."
+    },
+    {
+     "type": "tx",
+     "ctx": "Studying at home",
+     "s": "I cannot concentrate ___ my homework with that loud music playing.",
+     "acc": [
+      "on"
+     ],
+     "vi": "Tôi không thể tập trung làm bài với tiếng nhạc ồn như vậy.",
+     "why": "concentrate on sth."
+    },
+    {
+     "type": "tx",
+     "ctx": "Fear",
+     "s": "My sister is afraid ___ driving at night.",
+     "acc": [
+      "of"
+     ],
+     "vi": "Chị tôi sợ lái xe ban đêm.",
+     "why": "be afraid of + V-ing / N."
+    },
+    {
+     "type": "tx",
+     "ctx": "Hobbies",
+     "s": "Lan is really interested ___ photography. She takes her camera everywhere.",
+     "acc": [
+      "in"
+     ],
+     "vi": "Lan rất quan tâm đến nhiếp ảnh. Cô ấy mang máy ảnh đi mọi nơi.",
+     "why": "be interested in."
+    },
+    {
+     "type": "tx",
+     "ctx": "Twins",
+     "s": "Tom is very different ___ his twin brother.",
+     "acc": [
+      "from",
+      "to"
+     ],
+     "vi": "Tom rất khác người anh em song sinh của mình.",
+     "why": "different from (Anh-Anh còn dùng to)."
+    },
+    {
+     "type": "tx",
+     "ctx": "Tech trouble",
+     "s": "Something is wrong ___ my laptop. It will not switch on.",
+     "acc": [
+      "with"
+     ],
+     "vi": "Laptop của tôi có trục trặc gì đó. Nó không bật lên được.",
+     "why": "something is wrong with sth."
+    },
+    {
+     "type": "mc",
+     "ctx": "Across a lake",
+     "s": "Mai shouted ___ her friend so that he could hear her from the other side.",
+     "o": [
+      "to",
+      "at"
+     ],
+     "a": "to",
+     "vi": "Mai gọi to cho bạn để anh ấy nghe được từ bờ bên kia.",
+     "why": "shout to = gọi to để người kia nghe."
+    },
+    {
+     "type": "mc",
+     "ctx": "Road rage",
+     "s": "The driver was furious and shouted ___ the boy who had kicked a ball at his car.",
+     "o": [
+      "to",
+      "at"
+     ],
+     "a": "at",
+     "vi": "Người lái xe nổi giận và quát cậu bé đã đá bóng vào xe của ông.",
+     "why": "shout at = quát tháo, thường vì giận."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Cụm giới từ cố định",
+   "note": "<b>by</b> mistake / accident / chance / hand · <b>on</b> purpose / strike / display / business · <b>in</b> a hurry / detail / future / time. <b>in the end</b> = cuối cùng; <b>at the end of</b> = ở phần cuối của.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Office",
+     "s": "I am so sorry! I took your pen ___ mistake. I thought it was mine.",
+     "o": [
+      "by",
+      "on",
+      "in"
+     ],
+     "a": "by",
+     "vi": "Xin lỗi bạn! Tôi lấy nhầm bút của bạn. Tôi tưởng nó là của tôi.",
+     "why": "by mistake = do nhầm lẫn."
+    },
+    {
+     "type": "mc",
+     "ctx": "Kitchen accident",
+     "s": "He did not mean to break the plate. It happened ___ accident.",
+     "o": [
+      "by",
+      "on",
+      "in"
+     ],
+     "a": "by",
+     "vi": "Anh ấy không cố ý làm vỡ đĩa. Chuyện xảy ra do vô ý.",
+     "why": "by accident = vô tình."
+    },
+    {
+     "type": "mc",
+     "ctx": "A broken vase",
+     "s": "She never liked that vase, so I think she broke it ___ purpose.",
+     "o": [
+      "by",
+      "on",
+      "in"
+     ],
+     "a": "on",
+     "vi": "Cô ấy chưa bao giờ thích cái bình đó, nên tôi nghĩ cô ấy cố ý làm vỡ.",
+     "why": "on purpose = cố ý (trái nghĩa by accident)."
+    },
+    {
+     "type": "mc",
+     "ctx": "Supermarket",
+     "s": "I met my old teacher ___ chance in the supermarket yesterday.",
+     "o": [
+      "by",
+      "on",
+      "in"
+     ],
+     "a": "by",
+     "vi": "Hôm qua tôi tình cờ gặp thầy giáo cũ ở siêu thị.",
+     "why": "by chance = tình cờ."
+    },
+    {
+     "type": "mc",
+     "ctx": "Art gallery",
+     "s": "The new paintings are ___ display in the gallery until the end of June.",
+     "o": [
+      "on",
+      "in",
+      "by"
+     ],
+     "a": "on",
+     "vi": "Các bức tranh mới được trưng bày ở phòng tranh đến hết tháng Sáu.",
+     "why": "on display = đang được trưng bày."
+    },
+    {
+     "type": "mc",
+     "ctx": "City news",
+     "s": "There are no buses today because the drivers are ___ strike.",
+     "o": [
+      "on",
+      "in",
+      "by"
+     ],
+     "a": "on",
+     "vi": "Hôm nay không có xe buýt vì các tài xế đang đình công.",
+     "why": "on strike = đình công."
+    },
+    {
+     "type": "mc",
+     "ctx": "Rushing",
+     "s": "Sorry, I cannot stop. I am ___ a hurry to catch my train.",
+     "o": [
+      "in",
+      "on",
+      "at"
+     ],
+     "a": "in",
+     "vi": "Xin lỗi, tôi không dừng lại được. Tôi đang vội bắt tàu.",
+     "why": "in a hurry = vội."
+    },
+    {
+     "type": "mc",
+     "ctx": "Customer service",
+     "s": "Please explain the problem ___ detail so that we can help you.",
+     "o": [
+      "in",
+      "on",
+      "by"
+     ],
+     "a": "in",
+     "vi": "Xin hãy giải thích vấn đề thật chi tiết để chúng tôi hỗ trợ bạn.",
+     "why": "in detail = chi tiết."
+    },
+    {
+     "type": "tx",
+     "ctx": "Shoe shop",
+     "s": "These shoes are expensive because they are all made ___ hand.",
+     "acc": [
+      "by"
+     ],
+     "vi": "Đôi giày này đắt vì tất cả đều làm bằng tay.",
+     "why": "by hand = làm thủ công."
+    },
+    {
+     "type": "mc",
+     "ctx": "Business trip",
+     "s": "My boss is in Germany ___ business this week.",
+     "o": [
+      "on",
+      "in",
+      "by"
+     ],
+     "a": "on",
+     "vi": "Tuần này sếp tôi đang đi công tác ở Đức.",
+     "why": "on business = đi công tác."
+    },
+    {
+     "type": "mc",
+     "ctx": "Long journey",
+     "s": "We were tired of waiting, so ___ the end we went home.",
+     "o": [
+      "at",
+      "in",
+      "on"
+     ],
+     "a": "in",
+     "vi": "Chúng tôi chán chờ đợi, nên cuối cùng chúng tôi về nhà.",
+     "why": "in the end = cuối cùng, rốt cuộc."
+    },
+    {
+     "type": "mc",
+     "ctx": "Film night",
+     "s": "The hero finally gets married ___ the end of the film.",
+     "o": [
+      "at",
+      "in",
+      "on"
+     ],
+     "a": "at",
+     "vi": "Cuối phim, chàng anh hùng cuối cùng cũng kết hôn.",
+     "why": "at the end of + N = ở phần cuối của thứ gì."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Tuân thủ & hợp đồng",
+   "note": "<b>abide by</b> / <b>comply with</b> + quy định · <b>be obligated to</b> + V · <b>run out of</b> + N = hết · <b>run out</b> = hết hạn (expire) · <b>engage in</b> + N = tham gia, dính líu vào. Phân biệt <b>assurance</b> (lời cam đoan) và <b>insurance</b> (bảo hiểm).",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "Factory safety briefing",
+     "s": "All visitors must ___ by the safety rules while they are in the factory.",
+     "acc": [
+      "abide"
+     ],
+     "vi": "Mọi khách tham quan phải tuân thủ các quy tắc an toàn khi ở trong nhà máy.",
+     "why": "abide by + quy tắc = tuân thủ. Sau must dùng động từ nguyên mẫu."
+    },
+    {
+     "type": "tx",
+     "ctx": "Airport security",
+     "s": "Passengers must ___ with all security regulations, or they will not be allowed to board.",
+     "acc": [
+      "comply"
+     ],
+     "vi": "Hành khách phải tuân thủ mọi quy định an ninh, nếu không sẽ không được lên máy bay.",
+     "why": "comply with + regulations = tuân thủ."
+    },
+    {
+     "type": "mc",
+     "ctx": "Neighbours",
+     "s": "The two neighbours had a long ___ over who owned the fence between their gardens.",
+     "o": [
+      "dispute",
+      "assurance",
+      "insurance"
+     ],
+     "a": "dispute",
+     "vi": "Hai người hàng xóm tranh cãi lâu về việc ai sở hữu hàng rào giữa hai khu vườn.",
+     "why": "dispute (n) = tranh chấp, cuộc tranh cãi."
+    },
+    {
+     "type": "mc",
+     "ctx": "Customer service",
+     "s": "The manager gave us her ___ that the problem would be fixed by Monday.",
+     "o": [
+      "assurance",
+      "insurance",
+      "dispute"
+     ],
+     "a": "assurance",
+     "vi": "Quản lý cam đoan với chúng tôi rằng vấn đề sẽ được sửa xong trước thứ Hai.",
+     "why": "assurance = lời bảo đảm, cam đoan."
+    },
+    {
+     "type": "tx",
+     "ctx": "Online shop",
+     "s": "Do not worry. I can ___ you that your parcel will arrive tomorrow.",
+     "acc": [
+      "assure"
+     ],
+     "vi": "Đừng lo. Tôi đảm bảo với bạn rằng bưu kiện sẽ đến vào ngày mai.",
+     "why": "assure sb that + mệnh đề = đảm bảo với ai rằng."
+    },
+    {
+     "type": "mc",
+     "ctx": "Team meeting",
+     "s": "Will the new system save us time? \"Assuredly!\" said the manager. Here, assuredly means ...",
+     "o": [
+      "definitely",
+      "maybe",
+      "rarely"
+     ],
+     "a": "definitely",
+     "vi": "Hệ thống mới có giúp tiết kiệm thời gian không? Quản lý đáp: chắc chắn rồi!",
+     "why": "assuredly (adv) = chắc chắn, không còn nghi ngờ.",
+     "noblank": true
+    },
+    {
+     "type": "mc",
+     "ctx": "Ski trip",
+     "s": "Before going skiing in Austria, Ben bought travel ___ in case of an accident.",
+     "o": [
+      "insurance",
+      "assurance",
+      "dispute"
+     ],
+     "a": "insurance",
+     "vi": "Trước khi đi trượt tuyết ở Áo, Ben mua bảo hiểm du lịch phòng khi có tai nạn.",
+     "why": "insurance = bảo hiểm (hợp đồng bồi thường)."
+    },
+    {
+     "type": "tx",
+     "ctx": "Rental contract",
+     "s": "Under the contract, the tenant is ___ to pay the rent on the first day of every month.",
+     "acc": [
+      "obligated"
+     ],
+     "vi": "Theo hợp đồng, người thuê có nghĩa vụ trả tiền nhà vào ngày đầu tiên mỗi tháng.",
+     "why": "be obligated to + V = có nghĩa vụ phải làm gì."
+    },
+    {
+     "type": "tx",
+     "ctx": "Coffee shop",
+     "s": "Sorry, we have run out ___ milk, so there are no lattes today.",
+     "acc": [
+      "of"
+     ],
+     "vi": "Xin lỗi, chúng tôi hết sữa nên hôm nay không có latte.",
+     "why": "run out of + N = hết, cạn."
+    },
+    {
+     "type": "mc",
+     "ctx": "Passport check",
+     "s": "My passport will run out in March, so I must renew it. Here, run out means ...",
+     "o": [
+      "expire",
+      "escape",
+      "finish a race"
+     ],
+     "a": "expire",
+     "vi": "Hộ chiếu của tôi sẽ hết hạn vào tháng Ba, nên tôi phải làm mới.",
+     "why": "run out (không có of) = hết hạn, hết hiệu lực (expire).",
+     "noblank": true
+    },
+    {
+     "type": "tx",
+     "ctx": "Company policy",
+     "s": "Our company does not engage ___ any illegal practices.",
+     "acc": [
+      "in"
+     ],
+     "vi": "Công ty chúng tôi không tham gia vào bất kỳ hoạt động bất hợp pháp nào.",
+     "why": "engage in + N = tham gia vào, dính líu vào."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "Gia vị & vị giác",
+   "note": "Vị: <b>bitter</b> (đắng) · <b>bland</b> (nhạt) · <b>salty</b> (mặn) · <b>spicy</b> (cay) · <b>sour</b> (chua). Anh-Anh viết <b>chilli sauce</b>, Anh-Mỹ viết <b>chili sauce</b>.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Cooking pho",
+     "s": "The cook burnt a piece of ___ over the fire and added it to the broth for a warm, slightly spicy aroma.",
+     "o": [
+      "ginger",
+      "ketchup",
+      "vinegar"
+     ],
+     "a": "ginger",
+     "vi": "Đầu bếp nướng cháy xém một miếng gừng trên lửa rồi cho vào nước dùng để có mùi thơm ấm, hơi cay.",
+     "why": "ginger = gừng."
+    },
+    {
+     "type": "mc",
+     "ctx": "Making curry",
+     "s": "To make the chicken curry bright yellow, add a teaspoon of ___.",
+     "o": [
+      "turmeric",
+      "basil",
+      "shallot"
+     ],
+     "a": "turmeric",
+     "vi": "Để món cà ri gà có màu vàng tươi, hãy cho một thìa cà phê nghệ.",
+     "why": "turmeric = nghệ."
+    },
+    {
+     "type": "tx",
+     "ctx": "Tom yum soup",
+     "s": "Tom yum soup smells of fresh ___, a tall grass with a lemon scent.",
+     "acc": [
+      "lemongrass"
+     ],
+     "vi": "Súp Tom yum thơm mùi sả tươi, một loại cỏ cao có hương chanh.",
+     "why": "lemongrass = sả."
+    },
+    {
+     "type": "mc",
+     "ctx": "Fast food",
+     "s": "Dad put ___ on his chips, but Mum prefers vinegar.",
+     "o": [
+      "ketchup",
+      "turmeric",
+      "broth mix"
+     ],
+     "a": "ketchup",
+     "vi": "Bố cho tương cà lên khoai chiên, còn mẹ thích dùng giấm hơn.",
+     "why": "ketchup = tương cà."
+    },
+    {
+     "type": "mc",
+     "ctx": "Dipping sauce",
+     "s": "Vietnamese dipping sauce is made from ___, sugar, lime juice and chilli.",
+     "o": [
+      "fish sauce",
+      "soy sauce",
+      "ketchup"
+     ],
+     "a": "fish sauce",
+     "vi": "Nước chấm Việt Nam làm từ nước mắm, đường, nước cốt chanh và ớt.",
+     "why": "fish sauce = nước mắm."
+    },
+    {
+     "type": "mc",
+     "ctx": "Sushi bar",
+     "s": "At a sushi bar, you dip your sushi in ___ and a little wasabi.",
+     "o": [
+      "soy sauce",
+      "ketchup",
+      "vinegar"
+     ],
+     "a": "soy sauce",
+     "vi": "Ở quầy sushi, bạn chấm sushi vào nước tương và một chút mù tạt.",
+     "why": "soy sauce = nước tương (xì dầu)."
+    },
+    {
+     "type": "mc",
+     "ctx": "Salad dressing",
+     "s": "To make a simple salad dressing, mix olive oil, salt and a little ___.",
+     "o": [
+      "vinegar",
+      "ketchup",
+      "turmeric"
+     ],
+     "a": "vinegar",
+     "vi": "Để làm nước sốt salad đơn giản, trộn dầu ô liu, muối và một chút giấm.",
+     "why": "vinegar = giấm."
+    },
+    {
+     "type": "mc",
+     "ctx": "Pizza night",
+     "s": "Fresh ___ leaves are the classic green topping on a Margherita pizza.",
+     "o": [
+      "basil",
+      "garlic",
+      "turmeric"
+     ],
+     "a": "basil",
+     "vi": "Lá húng quế tươi là lớp phủ xanh kinh điển trên bánh pizza Margherita.",
+     "why": "basil = húng quế."
+    },
+    {
+     "type": "mc",
+     "ctx": "Date night",
+     "s": "Be careful on a date! Food with lots of ___ makes your breath smell.",
+     "o": [
+      "garlic",
+      "vinegar",
+      "ketchup"
+     ],
+     "a": "garlic",
+     "vi": "Cẩn thận khi đi hẹn hò! Món ăn nhiều tỏi làm hơi thở có mùi.",
+     "why": "garlic = tỏi."
+    },
+    {
+     "type": "mc",
+     "ctx": "Vietnamese cooking",
+     "s": "A ___ is a small, mild vegetable like an onion, often fried until crispy and added to soups.",
+     "o": [
+      "shallot",
+      "ginger",
+      "basil"
+     ],
+     "a": "shallot",
+     "vi": "Hành khô (củ hành tím) là loại củ nhỏ, vị dịu như hành, thường được chiên giòn rồi cho vào súp.",
+     "why": "shallot = hành tím, hành khô."
+    },
+    {
+     "type": "mc",
+     "ctx": "Soup tasting",
+     "s": "This soup tastes ___. It needs more salt, said Lan.",
+     "o": [
+      "bland",
+      "sour",
+      "bitter"
+     ],
+     "a": "bland",
+     "vi": "Món súp này nhạt quá. Cần thêm muối, Lan nói.",
+     "why": "bland = nhạt, ít vị."
+    },
+    {
+     "type": "mc",
+     "ctx": "Salty snacks",
+     "s": "The crisps were so ___ that I needed a big glass of water.",
+     "o": [
+      "salty",
+      "bland",
+      "sweet"
+     ],
+     "a": "salty",
+     "vi": "Gói khoai chiên mặn đến mức tôi phải uống một ly nước lớn.",
+     "why": "salty = mặn. Cấu trúc so + adj + that."
+    },
+    {
+     "type": "mc",
+     "ctx": "Fresh lemon",
+     "s": "Lemon juice without sugar tastes very ___.",
+     "o": [
+      "sour",
+      "salty",
+      "bland"
+     ],
+     "a": "sour",
+     "vi": "Nước chanh không đường có vị rất chua.",
+     "why": "sour = chua (trái nghĩa sweet)."
+    },
+    {
+     "type": "mc",
+     "ctx": "Morning coffee",
+     "s": "Strong black coffee with no milk or sugar has a ___ taste.",
+     "o": [
+      "bitter",
+      "bland",
+      "sweet"
+     ],
+     "a": "bitter",
+     "vi": "Cà phê đen đậm không sữa không đường có vị đắng.",
+     "why": "bitter = đắng."
+    },
+    {
+     "type": "tx",
+     "ctx": "UK vs US spelling",
+     "s": "In the UK, people write 'chilli sauce'. In the US, they write '___ sauce'.",
+     "acc": [
+      "chili"
+     ],
+     "vi": "Ở Anh người ta viết chilli sauce. Ở Mỹ người ta viết chili sauce.",
+     "why": "chilli (Anh) / chili (Mỹ)."
+    },
+    {
+     "type": "mc",
+     "ctx": "Busy student",
+     "s": "To save time, Lan used a ready-made ___ instead of simmering bones for hours.",
+     "o": [
+      "broth mix",
+      "black pepper",
+      "vinegar"
+     ],
+     "a": "broth mix",
+     "vi": "Để tiết kiệm thời gian, Lan dùng gói gia vị nấu nước dùng làm sẵn thay vì ninh xương hàng giờ.",
+     "why": "broth mix = gói gia vị / hỗn hợp nấu nước dùng."
+    },
+    {
+     "type": "tx",
+     "ctx": "At the dinner table",
+     "s": "Could you pass the salt and the black ___, please?",
+     "acc": [
+      "pepper"
+     ],
+     "vi": "Bạn đưa giúp tôi lọ muối và tiêu đen được không?",
+     "why": "black pepper = tiêu đen."
+    },
+    {
+     "type": "mc",
+     "ctx": "Spice shop",
+     "s": "Cinnamon, cumin and cloves are all types of ___.",
+     "o": [
+      "spice",
+      "sauce",
+      "onion"
+     ],
+     "a": "spice",
+     "vi": "Quế, thì là Ai Cập và đinh hương đều là các loại gia vị.",
+     "why": "spice = gia vị (thường là hạt, bột, vỏ cây khô)."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "Tiết kiệm & ngân hàng",
+   "note": "pay interest <b>on</b> sth · place money <b>in</b> sth · invest money <b>from</b> sth · put money away <b>for</b> a rainy day · call attention <b>to</b> sth · agree <b>not to</b> withdraw sth · <b>a saver</b> (người tiết kiệm) hay <b>a spender</b> (người tiêu nhiều).",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Two brothers",
+     "s": "My brother is a real ___. He spends his whole salary the day he gets it.",
+     "o": [
+      "spender",
+      "saver"
+     ],
+     "a": "spender",
+     "vi": "Anh trai tôi đúng là người tiêu xài. Anh ấy tiêu hết lương ngay hôm nhận.",
+     "why": "a saver or a spender: người hay tiết kiệm hay người hay tiêu."
+    },
+    {
+     "type": "tx",
+     "ctx": "Grandma's advice",
+     "s": "My grandmother always puts a little money away ___ a rainy day.",
+     "acc": [
+      "for"
+     ],
+     "vi": "Bà tôi luôn để dành một ít tiền phòng khi gặp lúc khó khăn.",
+     "why": "put money away for a rainy day."
+    },
+    {
+     "type": "mc",
+     "ctx": "Idioms",
+     "s": "To put money away for a rainy day means to ...",
+     "o": [
+      "save money for an unexpected problem",
+      "buy an umbrella",
+      "spend money when it rains"
+     ],
+     "a": "save money for an unexpected problem",
+     "vi": "Để dành tiền cho ngày mưa nghĩa là tiết kiệm phòng khi có sự cố bất ngờ.",
+     "why": "Thành ngữ: rainy day = lúc khó khăn bất ngờ.",
+     "noblank": true
+    },
+    {
+     "type": "tx",
+     "ctx": "Career advice",
+     "s": "Young people should start to ___ for the future as early as possible.",
+     "acc": [
+      "save"
+     ],
+     "vi": "Người trẻ nên bắt đầu tiết kiệm cho tương lai càng sớm càng tốt.",
+     "why": "save for the future."
+    },
+    {
+     "type": "tx",
+     "ctx": "Reading a brochure",
+     "s": "When you buy a CD, the bank keeps your money ___ a period of time, for example one year.",
+     "acc": [
+      "for"
+     ],
+     "vi": "Khi bạn mua CD, ngân hàng giữ tiền của bạn trong một khoảng thời gian, ví dụ một năm.",
+     "why": "for a period of time."
+    },
+    {
+     "type": "tx",
+     "ctx": "At the bank",
+     "s": "Anna went to the bank to open a ___ account so she could save for a new laptop.",
+     "acc": [
+      "savings"
+     ],
+     "vi": "Anna đến ngân hàng mở tài khoản tiết kiệm để dành tiền mua laptop mới.",
+     "why": "savings account = tài khoản tiết kiệm."
+    },
+    {
+     "type": "tx",
+     "ctx": "Quiz",
+     "s": "A bank is a financial ___ that looks after people's money.",
+     "acc": [
+      "institution"
+     ],
+     "vi": "Ngân hàng là một tổ chức tài chính giữ gìn tiền của mọi người.",
+     "why": "financial institution = tổ chức tài chính."
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading a statement",
+     "s": "The bank pays 2% ___ on every pound in my account each year.",
+     "o": [
+      "interest",
+      "insurance",
+      "assurance"
+     ],
+     "a": "interest",
+     "vi": "Ngân hàng trả 2% tiền lãi trên mỗi bảng trong tài khoản của tôi mỗi năm.",
+     "why": "interest = tiền lãi."
+    },
+    {
+     "type": "tx",
+     "ctx": "Economy news",
+     "s": "When the interest ___ goes up, savers earn more money from their savings.",
+     "acc": [
+      "rate"
+     ],
+     "vi": "Khi lãi suất tăng, người gửi tiền kiếm được nhiều hơn từ khoản tiết kiệm.",
+     "why": "interest rate = lãi suất."
+    },
+    {
+     "type": "tx",
+     "ctx": "Bank leaflet",
+     "s": "A certificate of ___, or CD, is a savings product offered by banks.",
+     "acc": [
+      "deposit"
+     ],
+     "vi": "Chứng chỉ tiền gửi (CD) là một sản phẩm tiết kiệm do ngân hàng cung cấp.",
+     "why": "certificate of deposit (CD)."
+    },
+    {
+     "type": "mc",
+     "ctx": "New customer",
+     "s": "To ___ a savings account, you usually need your ID and a small first deposit.",
+     "o": [
+      "start",
+      "withdraw",
+      "comply"
+     ],
+     "a": "start",
+     "vi": "Để mở tài khoản tiết kiệm, bạn thường cần giấy tờ tùy thân và một khoản gửi đầu nhỏ.",
+     "why": "start a savings account = mở tài khoản tiết kiệm."
+    },
+    {
+     "type": "tx",
+     "ctx": "Reading the terms",
+     "s": "Banks pay interest ___ the money in your account.",
+     "acc": [
+      "on"
+     ],
+     "vi": "Ngân hàng trả lãi trên số tiền trong tài khoản của bạn.",
+     "why": "pay interest on sth."
+    },
+    {
+     "type": "mc",
+     "ctx": "Comparing accounts",
+     "s": "Interest rates on ordinary savings accounts are generally ___, often below 1%.",
+     "o": [
+      "low",
+      "high"
+     ],
+     "a": "low",
+     "vi": "Lãi suất của tài khoản tiết kiệm thông thường nhìn chung thấp, thường dưới 1%.",
+     "why": "generally low = nhìn chung thấp."
+    },
+    {
+     "type": "mc",
+     "ctx": "Comparing offers",
+     "s": "Banks usually pay higher interest if you deposit ___ amounts for longer terms.",
+     "o": [
+      "larger",
+      "smaller",
+      "fewer"
+     ],
+     "a": "larger",
+     "vi": "Ngân hàng thường trả lãi cao hơn nếu bạn gửi số tiền lớn hơn trong kỳ hạn dài hơn.",
+     "why": "larger amounts, longer terms, higher interest."
+    },
+    {
+     "type": "tx",
+     "ctx": "Financial advisor",
+     "s": "The advisor called attention ___ the small print in the contract.",
+     "acc": [
+      "to"
+     ],
+     "vi": "Cố vấn lưu ý đến những dòng chữ nhỏ trong hợp đồng.",
+     "why": "call attention to sth = làm cho người khác chú ý đến."
+    },
+    {
+     "type": "mc",
+     "ctx": "Credit union",
+     "s": "Some credit unions are open only to people with a ___ connection, such as employees of a hospital.",
+     "o": [
+      "work-related",
+      "family",
+      "tax-free"
+     ],
+     "a": "work-related",
+     "vi": "Một số quỹ tín dụng chỉ mở cho những người có liên hệ công việc, chẳng hạn nhân viên một bệnh viện.",
+     "why": "work-related connection = liên hệ liên quan đến công việc."
+    },
+    {
+     "type": "tx",
+     "ctx": "Local news",
+     "s": "Credit unions are usually ___ organizations. They return profits to their members.",
+     "acc": [
+      "non-profit",
+      "nonprofit"
+     ],
+     "vi": "Quỹ tín dụng thường là tổ chức phi lợi nhuận. Họ chia lại lợi nhuận cho thành viên.",
+     "why": "non-profit organization."
+    },
+    {
+     "type": "mc",
+     "ctx": "Comparing",
+     "s": "Credit unions often pay ___ returns than big banks, because they do not need to make a profit.",
+     "o": [
+      "higher",
+      "lower"
+     ],
+     "a": "higher",
+     "vi": "Quỹ tín dụng thường trả lợi suất cao hơn các ngân hàng lớn vì họ không cần kiếm lợi nhuận.",
+     "why": "pay higher returns = trả lợi suất cao hơn."
+    },
+    {
+     "type": "mc",
+     "ctx": "CD rules",
+     "s": "If you withdraw money from a CD too early, you may have to pay a small ___.",
+     "o": [
+      "fine",
+      "assurance",
+      "dispute"
+     ],
+     "a": "fine",
+     "vi": "Nếu bạn rút tiền khỏi CD quá sớm, bạn có thể phải nộp một khoản phạt nhỏ.",
+     "why": "pay a small fine = nộp một khoản phạt nhỏ."
+    },
+    {
+     "type": "tx",
+     "ctx": "Car repair",
+     "s": "His car broke down, so he had to ___ his money early and pay a penalty.",
+     "acc": [
+      "withdraw"
+     ],
+     "vi": "Xe anh ấy hỏng nên anh phải rút tiền sớm và chịu phạt.",
+     "why": "withdraw money early = rút tiền trước hạn."
+    },
+    {
+     "type": "tx",
+     "ctx": "Signing a CD contract",
+     "s": "When you open a CD, you agree ___ to withdraw the money until the end of the term.",
+     "acc": [
+      "not"
+     ],
+     "vi": "Khi mở CD, bạn đồng ý không rút tiền cho đến hết kỳ hạn.",
+     "why": "agree not to + V."
+    },
+    {
+     "type": "tx",
+     "ctx": "Using a bonus",
+     "s": "She decided to place her bonus ___ a one-year CD.",
+     "acc": [
+      "in"
+     ],
+     "vi": "Cô ấy quyết định gửi khoản thưởng vào một CD kỳ hạn một năm.",
+     "why": "place money in sth."
+    },
+    {
+     "type": "tx",
+     "ctx": "Selling a car",
+     "s": "He invested the money ___ the sale of his car in a savings plan.",
+     "acc": [
+      "from"
+     ],
+     "vi": "Anh ấy đầu tư số tiền thu được từ việc bán xe vào một kế hoạch tiết kiệm.",
+     "why": "invest money from (nguồn tiền)."
+    },
+    {
+     "type": "tx",
+     "ctx": "US bank",
+     "s": "In the US, the government guarantees savings ___ to $250,000 per bank.",
+     "acc": [
+      "up"
+     ],
+     "vi": "Ở Mỹ, chính phủ bảo đảm tiền gửi lên đến 250.000 đô la cho mỗi ngân hàng.",
+     "why": "guarantee savings up to + số tiền."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "title": "Nấu ăn (Unit 25)",
+   "note": "<b>cook</b> + loại thực phẩm; <b>make</b> + món ăn. Người nấu giỏi là <i>a good cook</i> (không phải cooker). Nói <i>good <b>at</b> cooking</i>. Kem có nhiều <i>flavours</i>, không phải tastes.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Breakfast",
+     "s": "To make fried eggs, you ___ them in a frying pan.",
+     "o": [
+      "fry",
+      "boil",
+      "bake"
+     ],
+     "a": "fry",
+     "vi": "Để làm trứng chiên, bạn chiên trứng trong chảo.",
+     "why": "fry = chiên, rán."
+    },
+    {
+     "type": "mc",
+     "ctx": "Sunday lunch",
+     "s": "Grandma will ___ the chicken in the oven for an hour and a half.",
+     "o": [
+      "roast",
+      "boil",
+      "barbecue"
+     ],
+     "a": "roast",
+     "vi": "Bà sẽ quay gà trong lò khoảng một tiếng rưỡi.",
+     "why": "roast = quay (trong lò, có dầu)."
+    },
+    {
+     "type": "mc",
+     "ctx": "Birthday plans",
+     "s": "I am going to ___ a cake for my sister's birthday.",
+     "o": [
+      "bake",
+      "fry",
+      "grill"
+     ],
+     "a": "bake",
+     "vi": "Tôi sẽ nướng bánh cho sinh nhật chị gái.",
+     "why": "bake = nướng bánh (không dùng dầu)."
+    },
+    {
+     "type": "mc",
+     "ctx": "Sushi bar",
+     "s": "Sushi is often made with ___ fish.",
+     "o": [
+      "raw",
+      "roast",
+      "spicy"
+     ],
+     "a": "raw",
+     "vi": "Sushi thường làm từ cá sống.",
+     "why": "raw = sống, chưa nấu chín."
+    },
+    {
+     "type": "mc",
+     "ctx": "Making mash",
+     "s": "Before boiling the potatoes, you need to ___ them.",
+     "o": [
+      "peel",
+      "stir",
+      "taste"
+     ],
+     "a": "peel",
+     "vi": "Trước khi luộc khoai tây, bạn cần gọt vỏ.",
+     "why": "peel = gọt vỏ."
+    },
+    {
+     "type": "tx",
+     "ctx": "Making sauce",
+     "s": "Keep ___ the sauce so it does not burn.",
+     "acc": [
+      "stirring"
+     ],
+     "vi": "Cứ khuấy nước sốt để nó không bị cháy.",
+     "why": "keep + V-ing: stir the sauce."
+    },
+    {
+     "type": "mc",
+     "ctx": "Restaurant kitchen",
+     "s": "A ___ is a person who cooks food in a restaurant as a job.",
+     "o": [
+      "chef",
+      "cooker",
+      "flavour"
+     ],
+     "a": "chef",
+     "vi": "Đầu bếp là người nấu ăn ở nhà hàng như một nghề.",
+     "why": "chef = đầu bếp."
+    },
+    {
+     "type": "mc",
+     "ctx": "Talking about family",
+     "s": "My mother is a very good ___. Everyone loves her pasta.",
+     "o": [
+      "cook",
+      "cooker",
+      "cooking"
+     ],
+     "a": "cook",
+     "vi": "Mẹ tôi nấu ăn rất giỏi. Ai cũng thích món mì Ý của bà.",
+     "why": "a good cook = người nấu ăn giỏi. Cooker là cái bếp."
+    },
+    {
+     "type": "tx",
+     "ctx": "Describing skills",
+     "s": "My dad is good ___ cooking, especially fish.",
+     "acc": [
+      "at"
+     ],
+     "vi": "Bố tôi nấu ăn giỏi, nhất là món cá.",
+     "why": "be good at + V-ing (không dùng good in)."
+    },
+    {
+     "type": "mc",
+     "ctx": "Tonight",
+     "s": "I am ___ dessert tonight, a chocolate cake.",
+     "o": [
+      "making",
+      "cooking",
+      "baking it"
+     ],
+     "a": "making",
+     "vi": "Tối nay tôi làm món tráng miệng, một cái bánh sô-cô-la.",
+     "why": "make a dish / dessert (không nói cook dessert)."
+    },
+    {
+     "type": "tx",
+     "ctx": "Cooking tip",
+     "s": "Always ___ the soup before you serve it.",
+     "acc": [
+      "taste"
+     ],
+     "vi": "Luôn nếm súp trước khi dọn ra.",
+     "why": "taste = nếm thử."
+    },
+    {
+     "type": "mc",
+     "ctx": "After dinner",
+     "s": "That was absolutely ___! Can I have the recipe?",
+     "o": [
+      "delicious",
+      "horrible",
+      "bitter"
+     ],
+     "a": "delicious",
+     "vi": "Ngon tuyệt! Cho tôi xin công thức được không?",
+     "why": "delicious = rất ngon."
+    },
+    {
+     "type": "tx",
+     "ctx": "Ice cream shop",
+     "s": "The ice cream shop near my school sells twenty different ___.",
+     "acc": [
+      "flavours",
+      "flavors"
+     ],
+     "vi": "Tiệm kem gần trường tôi bán hai mươi hương vị khác nhau.",
+     "why": "flavour (Anh) / flavor (Mỹ). Không dùng different tastes."
+    },
+    {
+     "type": "mc",
+     "ctx": "Before you start",
+     "s": "Check that you have all the ___ before you start cooking.",
+     "o": [
+      "ingredients",
+      "recipes",
+      "chefs"
+     ],
+     "a": "ingredients",
+     "vi": "Hãy kiểm tra bạn có đủ nguyên liệu trước khi bắt đầu nấu.",
+     "why": "ingredient = nguyên liệu."
+    },
+    {
+     "type": "tx",
+     "ctx": "Beginner cook",
+     "s": "Since I am a beginner, I always follow the ___ step by step.",
+     "acc": [
+      "recipe"
+     ],
+     "vi": "Vì là người mới học, tôi luôn làm theo công thức từng bước.",
+     "why": "follow a recipe."
+    },
+    {
+     "type": "mc",
+     "ctx": "Pasta night",
+     "s": "Boil the pasta in a large ___ of water.",
+     "o": [
+      "saucepan",
+      "frying pan",
+      "oven"
+     ],
+     "a": "saucepan",
+     "vi": "Luộc mì trong một cái nồi lớn đựng nước.",
+     "why": "saucepan = nồi nhỏ có cán dùng để luộc, nấu."
+    },
+    {
+     "type": "tx",
+     "ctx": "Dessert menu",
+     "s": "Apple ___ with ice cream is my favourite dessert.",
+     "acc": [
+      "pie"
+     ],
+     "vi": "Bánh táo ăn với kem là món tráng miệng tôi thích nhất.",
+     "why": "pie /paɪ/ = bánh nướng nhân."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "Cấu trúc & ôn tổng hợp",
+   "note": "<b>so + adj + that</b> + mệnh đề (kết quả) · <b>even when</b> + mệnh đề (ngay cả khi) · <b>so that</b> + mệnh đề (mục đích) · <b>go back to work</b> = quay lại làm việc.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "At a restaurant",
+     "s": "The soup was ___ spicy that I could not finish it.",
+     "o": [
+      "so",
+      "such",
+      "too"
+     ],
+     "a": "so",
+     "vi": "Món súp cay đến mức tôi không ăn hết được.",
+     "why": "so + adj + that + S + V."
+    },
+    {
+     "type": "tx",
+     "ctx": "Opening an account",
+     "s": "The interest rate was so low ___ I decided not to open the account.",
+     "acc": [
+      "that"
+     ],
+     "vi": "Lãi suất thấp đến mức tôi quyết định không mở tài khoản.",
+     "why": "so + adj + that."
+    },
+    {
+     "type": "tx",
+     "ctx": "Saving habits",
+     "s": "Mai saves money ___ when her salary is small.",
+     "acc": [
+      "even"
+     ],
+     "vi": "Mai tiết kiệm tiền ngay cả khi lương của cô ấy thấp.",
+     "why": "even when + mệnh đề."
+    },
+    {
+     "type": "tx",
+     "ctx": "Shopping habits",
+     "s": "He always checks the price, ___ when he is buying something small.",
+     "acc": [
+      "even"
+     ],
+     "vi": "Anh ấy luôn xem giá, ngay cả khi chỉ mua món nhỏ.",
+     "why": "even when + mệnh đề."
+    },
+    {
+     "type": "mc",
+     "ctx": "Saving goals",
+     "s": "I put money away every month ___ I can travel next year.",
+     "o": [
+      "so that",
+      "because of",
+      "in spite of"
+     ],
+     "a": "so that",
+     "vi": "Tháng nào tôi cũng để dành tiền để năm sau có thể đi du lịch.",
+     "why": "so that + S + can/could = để mà (chỉ mục đích)."
+    },
+    {
+     "type": "tx",
+     "ctx": "Maternity leave",
+     "s": "After her maternity leave, Mai will ___ back to work in September.",
+     "acc": [
+      "go"
+     ],
+     "vi": "Sau kỳ nghỉ thai sản, Mai sẽ quay lại làm việc vào tháng Chín.",
+     "why": "go back to work = quay lại làm việc."
+    },
+    {
+     "type": "mc",
+     "ctx": "Choose the best sentence",
+     "s": "Which sentence is correct?",
+     "o": [
+      "The curry was so spicy that I drank three glasses of water.",
+      "The curry was so spicy as I drank three glasses of water.",
+      "The curry was such spicy that I drank three glasses of water."
+     ],
+     "a": "The curry was so spicy that I drank three glasses of water.",
+     "vi": "Món cà ri cay đến mức tôi uống ba ly nước.",
+     "why": "so + adj + that. Không dùng so ... as hoặc such + adj đơn lẻ.",
+     "noblank": true
+    }
+   ]
+  }
+ ]
+}
