@@ -108,7 +108,7 @@ async def main():
         async with sem:
             for k in range(4):
                 try:
-                    await edge_tts.Communicate(text, voice, rate=rate).save(path)
+                    await asyncio.wait_for(edge_tts.Communicate(text, voice, rate=rate).save(path), timeout=60)
                     return
                 except Exception:
                     await asyncio.sleep(1.5 * (k + 1))
