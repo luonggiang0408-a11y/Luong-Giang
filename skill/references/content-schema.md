@@ -71,6 +71,8 @@ a 118-question one is `assets/examples/prepositions-vocab-b1b2.json`.
 | `new` | no | `[{"w": word, "vi": gloss}]` for supporting new words; shown only after answering |
 | `hint` | no | Vietnamese nudge, shown on request before answering |
 | `say` | no | Text for the voice to read instead of `s` (use `___` for the blank). For awkward numbers, abbreviations, names |
+| `tw` | no | Target word or phrase of the question, in English (e.g. `natural disaster`). After answering, the page shows it with its IPA and a pronunciation button; `gen_audio.py` makes `w_<slug>.mp3` for it |
+| `ipa` | no | IPA of `tw`, e.g. `/ˈmækrəl/` (copy it from the vocabulary sheet). Shown next to `tw` after answering |
 | `noblank` | no | `true` if the question has no `___` |
 
 ## Audio naming (generated, do not write by hand)
@@ -88,3 +90,10 @@ structural edits.
 - each `new` item has `w` and `vi`;
 - warnings for long sentences, duplicates, words that are neither known nor glossed, and
   comprehension outside the target band.
+
+## Word pronunciation (daily vocabulary sets)
+
+- For every question of the target words set `tw` (and `ipa` when known). In "choose the word" (`mc` without
+  `noblank`) set `tw` to the correct option. Clicking any English option there plays that option's pronunciation
+  (`audio/w_<slug>.mp3`); `gen_audio.py` generates these files for all options automatically.
+- Do not list the target words in `meta.lead` or in a section `note`; the email already lists them.

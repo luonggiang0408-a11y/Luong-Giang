@@ -15,6 +15,9 @@ Needs:  pip install edge-tts   (uses Microsoft's online neural voices; the sente
 sent to that service, so do not put private data in exercise sentences).
 Existing files are kept, so re-running only fills in what is missing.
 
+Word pronunciation files: w_<slug>.mp3 for each question's "tw" (target word) and for the English
+options of mc questions without "noblank" (the page plays them when an option is clicked).
+
 Per-question override: add "say": "text to read" to a question to control pronunciation
 (e.g. spell out an abbreviation). Use ___ for the blank in "say" too.
 """
@@ -31,6 +34,28 @@ VARIANTS = {"b": ("blank", False), "f": ("full", False), "sb": ("blank", True), 
 def clean(t):
     t = re.sub(r"\b(\d{1,2})\.(\d{2})\b", r"\1:\2", t)  # 8.45 -> 8:45 so it is read as a time
     return re.sub(r"\s+", " ", t.replace("_____", "blank")).strip()
+
+
+def slug(t):
+    return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+
+
+def word_texts(data):
+    """Single words/phrases whose pronunciation the page can play on its own:
+    the target word (q.tw) of every question and the English options of 'choose the word' questions."""
+    found = {}
+    for sec in data["sections"]:
+        for q in sec["qs"]:
+            items = []
+            if q.get("tw"):
+                items.append(q["tw"])
+            if q.get("type") == "mc" and not q.get("noblank"):
+                items += q.get("o", [])
+            for t in items:
+                k = slug(t)
+                if k and k not in found:
+                    found[k] = re.sub(r"\s+", " ", t.replace("...", " ")).strip()
+    return found
 
 
 def texts(q):
@@ -70,6 +95,9 @@ async def main():
                 kind, slow = VARIANTS[v]
                 jobs.append((os.path.join(out_dir, f"{sec['id']}q{i}_{v}.mp3"),
                              clean(blank if kind == "blank" else full), a.slow if slow else "+0%"))
+
+    for k, t in word_texts(data).items():
+        jobs.append((os.path.join(out_dir, f"w_{k}.mp3"), t, "+0%"))
 
     sem = asyncio.Semaphore(a.concurrency)
     failed = []

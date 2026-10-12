@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>__TITLE__</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,6 +81,10 @@ input.blank.bad{border-color:var(--bad);color:var(--bad);background:var(--bad-bg
 .fb p{margin:4px 0 0}
 .vi{color:var(--muted);font-size:14px}
 .retry{align-self:flex-start}
+.wordline{margin:8px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.wordline b{font-size:16px}
+.wordline .ipa{color:var(--muted);font-size:15px}
+.wordline .say{padding:4px 12px 4px 8px}
 .newwords{color:var(--ink);font-size:14px}
 .newwords span{white-space:normal}
 .hintrow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
@@ -212,6 +218,29 @@ input.blank.bad{border-color:var(--bad);color:var(--bad);background:var(--bad-bg
     if(p&&p.catch)p.catch(fail);
   }
 
+  /* ---------- single word pronunciation (audio/w_<slug>.mp3, browser voice as fallback) ---------- */
+  const slug=t=>String(t).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+  function playWord(text,btn){
+    stopAudio();
+    const clean=String(text).replace(/\.\.\./g,' ').replace(/\s+/g,' ').trim();
+    if(!clean)return;
+    const a=new Audio('audio/w_'+slug(text)+'.mp3'+(DATA.meta.audioVersion?'?v='+DATA.meta.audioVersion:''));
+    audio=a;cur={id:'w',kind:'audio',paused:false};
+    let failed=false;
+    const fail=()=>{
+      if(failed||audio!==a)return;failed=true;audio=null;cur=null;
+      if(!CAN_SPEAK)return;
+      const u=new SpeechSynthesisUtterance(clean);
+      u.lang='en-US';if(voice){u.voice=voice;u.lang=voice.lang;}u.rate=0.9;
+      speechSynthesis.speak(u);
+    };
+    a.onplaying=()=>{btn&&btn.classList.add('on');};
+    a.onended=()=>{btn&&btn.classList.remove('on');if(audio===a){audio=null;cur=null;}};
+    a.onerror=fail;
+    const p=a.play();
+    if(p&&p.catch)p.catch(fail);
+  }
+
   /* ---------- render ---------- */
   function cardHTML(q){
     const st=state[q.id];
@@ -243,7 +272,7 @@ input.blank.bad{border-color:var(--bad);color:var(--bad);background:var(--bad-bg
     if(done){
       fb=`<div class="fb ${cls}" role="status"><span class="tag">${st.c?'Đúng':'Chưa đúng'}</span>`+
          (st.c?'':`Đáp án: <b>${esc(q.a)}</b>`)+
-         `<p>${esc(q.why)}</p><p class="vi">${esc(q.vi)}</p>${(q.new&&q.new.length)?`<p class="newwords"><b>Từ mới trong câu:</b> ${q.new.map(n=>`<span><b>${esc(n.w)}</b> = ${esc(n.vi)}</span>`).join('; ')}</p>`:''}</div>`+
+         (q.tw?`<p class="wordline"><b>${esc(q.tw)}</b>${q.ipa?`<span class="ipa">${esc(q.ipa)}</span>`:''}<button type="button" class="say" data-word="${esc(q.tw)}" aria-label="Phát âm ${esc(q.tw)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>Phát âm</button></p>`:'')+`<p>${esc(q.why)}</p><p class="vi">${esc(q.vi)}</p>${(q.new&&q.new.length)?`<p class="newwords"><b>Từ mới trong câu:</b> ${q.new.map(n=>`<span><b>${esc(n.w)}</b> = ${esc(n.vi)}</span>`).join('; ')}</p>`:''}</div>`+
          (!st.c?`<button type="button" class="ghost retry" data-retry="${q.id}">Thử lại câu này</button>`:'');
     }
     const icon=`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>`;
@@ -314,9 +343,10 @@ input.blank.bad{border-color:var(--bad);color:var(--bad);background:var(--bad-bg
     const t=e.target.closest('button');if(!t)return;
     if(t.dataset.hint){const id=t.dataset.hint;hintsOpen.has(id)?hintsOpen.delete(id):hintsOpen.add(id);refreshCard(id);return;}
     if(t.dataset.pause){togglePause(t.dataset.pause);return;}
+    if(t.dataset.word){playWord(t.dataset.word,t);return;}
     if(t.dataset.say){speak(t.dataset.say,!!t.dataset.slow,t);return;}
     if(t.dataset.tab){stopAudio();current=t.dataset.tab;renderAll();window.scrollTo({top:0});return;}
-    if(t.classList.contains('opt')){answer(t.dataset.q,t.dataset.v);return;}
+    if(t.classList.contains('opt')){const oq=byId[t.dataset.q];if(oq&&!oq.noblank)playWord(t.dataset.v,t);answer(t.dataset.q,t.dataset.v);return;}
     if(t.dataset.check){const i=$('in-'+t.dataset.check);answer(t.dataset.check,i?i.value:'');return;}
     if(t.dataset.retry){delete state[t.dataset.retry];save();refreshCard(t.dataset.retry);const i=$('in-'+t.dataset.retry);if(i)i.focus();return;}
     if(t.dataset.reset){byId&&SECTIONS.find(s=>s.id===t.dataset.reset).qs.forEach(q=>delete state[q.id]);save();renderAll();return;}

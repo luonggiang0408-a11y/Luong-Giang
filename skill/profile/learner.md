@@ -5,6 +5,7 @@ Read at the start of every set; update at the end (step 8 in SKILL.md). Keep it 
 ## Who
 - Native language: Vietnamese. Interface, explanations and translations in Vietnamese; English content in the exercises.
 - Level: B1 moving toward B2 (IELTS 5.0-5.5). Goal: IELTS and practical English.
+- UPDATE 2026-10-10: the learner said the examples were too easy (A2-B1). Write examples at B1+ to B2: 16-28 words, varied structures (relative clauses, conditionals, passive, although/whereas/despite), richer topics (news, work, study, health, environment, economy, technology), 1-3 inferable side words glossed in `new`, harder distractors of the same word class. Do not copy the simple example sentences from the vocabulary sheet.
 - Materials in use (under `D:\Hoc hanh\Ielts`): English Vocabulary in Use Pre-intermediate and Intermediate (4th ed.), Mindset for IELTS Foundation, Get Ready for IELTS Listening (A2+), grammar handouts (Mai Lan Hương), vocabulary review files in `Ôn tập từ vựng`.
 - Habit: studies unit by unit, asks for word lists with IPA / word class / definition / B1 example with translation, then collocations, then examples in context, then exercises.
 
