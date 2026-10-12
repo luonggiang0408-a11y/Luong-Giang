@@ -3,7 +3,7 @@ name: Tao am thanh Emma
 on:
   push:
     branches: [main]
-    paths: ['docs/index.html']
+    paths: ['docs/index.html', 'lessons/**/index.html']
   workflow_dispatch:
 
 permissions:
@@ -19,21 +19,23 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install edge-tts
-      - name: Generate mp3 for the latest lesson
+      - name: Publish every lesson under docs/<date>/ (audio generated when missing)
         run: |
-          LESSON=$(ls -d lessons/*/ | sort | tail -1)
-          echo "Lesson: $LESSON"
-          python skill/scripts/gen_audio.py "${LESSON}content.json" || true
-          find "${LESSON}audio" -type f -size -2k -delete
-          COUNT=$(ls "${LESSON}audio" | wc -l)
-          echo "mp3 files: $COUNT"
-          if [ "$COUNT" -gt 0 ]; then
-            rm -rf docs/audio
-            cp -r "${LESSON}audio" docs/audio
-          fi
-      - name: Commit audio
+          for L in lessons/*/; do
+            N=$(basename "$L")
+            mkdir -p "docs/$N"
+            cp "${L}index.html" "docs/$N/index.html"
+            if [ ! -d "docs/$N/audio" ] || [ -z "$(ls docs/$N/audio 2>/dev/null)" ]; then
+              python skill/scripts/gen_audio.py "${L}content.json" --out-dir "docs/$N/audio" || true
+              find "docs/$N/audio" -type f -size -2k -delete 2>/dev/null || true
+            fi
+            echo "$N: $(ls docs/$N/audio 2>/dev/null | wc -l) mp3"
+          done
+          LATEST=$(ls -d lessons/*/ | sort | tail -1 | xargs basename)
+          printf '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=%s/"><a href="%s/">Bai tap moi nhat: %s</a>\n' "$LATEST" "$LATEST" "$LATEST" > docs/index.html
+      - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add -A docs
-          git diff --cached --quiet || (git commit -m "Them am thanh Emma" && git push)
+          git diff --cached --quiet || (git commit -m "Dang bai tap theo ngay + am thanh Emma" && git push)
