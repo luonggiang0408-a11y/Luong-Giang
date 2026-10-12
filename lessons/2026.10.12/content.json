@@ -1,0 +1,2427 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 2026.10.12",
+  "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 12/10/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 16 từ. Mỗi từ làm 2 câu viết, 2 câu chọn từ, 2 câu chọn nghĩa (96 câu), mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.10.12-v4",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma20261012a"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "<b>Viết từ.</b> Đọc câu, xem gợi ý tiếng Việt rồi gõ từ/cụm từ còn thiếu vào chỗ trống.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "River walk",
+     "s": "Tourists who walk ___ the river at sunset often stop to photograph the old stone bridges, which were rebuilt after the flood last spring.",
+     "acc": [
+      "along"
+     ],
+     "vi": "Du khách đi dọc theo con sông lúc hoàng hôn thường dừng lại chụp ảnh những cây cầu đá cũ, vốn được xây lại sau trận lũ mùa xuân năm ngoái.",
+     "why": "along + địa điểm dài (sông, đường, bờ biển) = dọc theo.",
+     "hint": "Nghĩa: dọc theo.",
+     "new": [
+      {
+       "w": "rebuilt",
+       "vi": "xây lại"
+      },
+      {
+       "w": "flood",
+       "vi": "trận lũ"
+      }
+     ],
+     "tw": "along",
+     "ipa": "/əˈlɒŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Coastal tourism",
+     "s": "Several new cafés have opened ___ the coast road, whereas the inland villages remain quiet and almost empty.",
+     "acc": [
+      "along"
+     ],
+     "vi": "Nhiều quán cà phê mới đã mở dọc theo con đường ven biển, trong khi các làng nội địa vẫn yên tĩnh và gần như vắng người.",
+     "why": "along the coast road = dọc theo đường ven biển.",
+     "hint": "Nghĩa: dọc theo.",
+     "new": [
+      {
+       "w": "inland",
+       "vi": "nằm sâu trong đất liền"
+      },
+      {
+       "w": "remain",
+       "vi": "vẫn còn"
+      }
+     ],
+     "tw": "along",
+     "ipa": "/əˈlɒŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Shop problem",
+     "s": "The shop assistant apologised because the store had run ___ stock of the new phone, so customers had to order it online.",
+     "acc": [
+      "out of"
+     ],
+     "vi": "Nhân viên cửa hàng xin lỗi vì cửa hàng đã hết hàng chiếc điện thoại mới nên khách phải đặt online.",
+     "why": "run out of = hết, không còn.",
+     "hint": "Nghĩa: ra khỏi; hết (không còn).",
+     "new": [
+      {
+       "w": "stock",
+       "vi": "hàng tồn kho"
+      },
+      {
+       "w": "apologised",
+       "vi": "xin lỗi"
+      }
+     ],
+     "tw": "out of",
+     "ipa": "/ˈaʊt əv/"
+    },
+    {
+     "type": "tx",
+     "ctx": "School trip",
+     "s": "Despite the heavy rain, the children jumped ___ the school bus and ran into the hall to join the rehearsal for the concert.",
+     "acc": [
+      "out of"
+     ],
+     "vi": "Mặc cho mưa to, bọn trẻ nhảy ra khỏi xe buýt của trường và chạy vào hội trường để tham gia buổi tập cho buổi hòa nhạc.",
+     "why": "jump out of = nhảy ra khỏi.",
+     "hint": "Nghĩa: ra khỏi; hết (không còn).",
+     "new": [
+      {
+       "w": "rehearsal",
+       "vi": "buổi tập dượt"
+      },
+      {
+       "w": "concert",
+       "vi": "buổi hòa nhạc"
+      }
+     ],
+     "tw": "out of",
+     "ipa": "/ˈaʊt əv/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Evening study",
+     "s": "I am working ___ a master's degree in public health, which means I attend lectures in the evening after my shift at the hospital.",
+     "acc": [
+      "toward",
+      "towards"
+     ],
+     "vi": "Tôi đang nỗ lực hướng tới bằng thạc sĩ y tế công cộng, nghĩa là tôi học buổi tối sau ca làm ở bệnh viện.",
+     "why": "work toward = nỗ lực hướng tới (mục tiêu).",
+     "hint": "Nghĩa: về phía, hướng tới.",
+     "new": [
+      {
+       "w": "shift",
+       "vi": "ca làm việc"
+      },
+      {
+       "w": "public health",
+       "vi": "y tế công cộng"
+      }
+     ],
+     "tw": "toward",
+     "ipa": "/təˈwɔːd/ (/təˈwɔːdz/)"
+    },
+    {
+     "type": "tx",
+     "ctx": "Weather warning",
+     "s": "As the storm moved ___ the coast, residents of the low-lying areas were advised to leave and shelter in the community centre.",
+     "acc": [
+      "toward",
+      "towards"
+     ],
+     "vi": "Khi cơn bão tiến về phía bờ biển, người dân vùng trũng được khuyên rời đi và trú ở trung tâm cộng đồng.",
+     "why": "move toward = di chuyển về phía.",
+     "hint": "Nghĩa: về phía, hướng tới.",
+     "new": [
+      {
+       "w": "low-lying",
+       "vi": "thấp, trũng"
+      },
+      {
+       "w": "shelter",
+       "vi": "trú ẩn"
+      }
+     ],
+     "tw": "toward",
+     "ipa": "/təˈwɔːd/ (/təˈwɔːdz/)"
+    },
+    {
+     "type": "tx",
+     "ctx": "Airport security",
+     "s": "The security officer checked the passengers' bags ___, which explained why the queue moved so slowly that morning.",
+     "acc": [
+      "one by one"
+     ],
+     "vi": "Nhân viên an ninh kiểm tra từng chiếc túi của hành khách một, điều đó giải thích vì sao hàng đợi di chuyển chậm sáng hôm đó.",
+     "why": "one by one = lần lượt, từng cái một.",
+     "hint": "Nghĩa: lần lượt, từng cái một.",
+     "new": [
+      {
+       "w": "queue",
+       "vi": "hàng đợi"
+      },
+      {
+       "w": "security officer",
+       "vi": "nhân viên an ninh"
+      }
+     ],
+     "tw": "one by one",
+     "ipa": "/ˌwʌn baɪ ˈwʌn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Power cut",
+     "s": "As the electricity failed, the lights in the old harbour went out ___, and by midnight the whole town was completely dark.",
+     "acc": [
+      "one by one"
+     ],
+     "vi": "Khi điện hỏng, đèn ở bến cảng cũ tắt lần lượt, và đến nửa đêm cả thị trấn tối đen.",
+     "why": "go out one by one = tắt dần từng cái.",
+     "hint": "Nghĩa: lần lượt, từng cái một.",
+     "new": [
+      {
+       "w": "harbour",
+       "vi": "bến cảng"
+      },
+      {
+       "w": "electricity",
+       "vi": "điện"
+      }
+     ],
+     "tw": "one by one",
+     "ipa": "/ˌwʌn baɪ ˈwʌn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Charity warehouse",
+     "s": "At the charity warehouse, volunteers formed a chain to ___ the heavy boxes down the line, so nobody had to carry them alone.",
+     "acc": [
+      "pass"
+     ],
+     "vi": "Ở kho từ thiện, tình nguyện viên xếp thành chuỗi để chuyền các thùng nặng dọc theo hàng, nhờ vậy không ai phải khiêng một mình.",
+     "why": "pass sth down the line = chuyền thứ gì dọc theo hàng.",
+     "hint": "Nghĩa: chuyền thứ gì dọc theo hàng người.",
+     "new": [
+      {
+       "w": "charity",
+       "vi": "từ thiện"
+      },
+      {
+       "w": "warehouse",
+       "vi": "nhà kho"
+      }
+     ],
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Restaurant dinner",
+     "s": "Once the chef had checked every dish, the waiters ___ the plates down the line until they reached the guests at the far end of the long table.",
+     "acc": [
+      "passed",
+      "pass"
+     ],
+     "vi": "Khi đầu bếp kiểm tra xong từng món, các phục vụ chuyền đĩa dọc theo hàng cho đến khi tới khách ở đầu bàn dài.",
+     "why": "passed ... down the line = chuyền dọc theo hàng người.",
+     "hint": "Nghĩa: chuyền thứ gì dọc theo hàng người.",
+     "new": [
+      {
+       "w": "chef",
+       "vi": "đầu bếp"
+      },
+      {
+       "w": "far end",
+       "vi": "đầu xa"
+      }
+     ],
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Neighbourhood",
+     "s": "You don't need to drive to the pharmacy, because there is a small one just ___, next to the post office.",
+     "acc": [
+      "around the corner"
+     ],
+     "vi": "Bạn không cần lái xe đến hiệu thuốc, vì có một hiệu nhỏ ngay quanh góc đường, cạnh bưu điện.",
+     "why": "around the corner = quanh góc, rất gần.",
+     "hint": "Nghĩa: quanh góc đường; ngay gần đó.",
+     "new": [
+      {
+       "w": "pharmacy",
+       "vi": "hiệu thuốc"
+      },
+      {
+       "w": "post office",
+       "vi": "bưu điện"
+      }
+     ],
+     "tw": "around the corner",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Group project",
+     "s": "Although the exams still feel far away, the deadline for our final project is just ___, so we should start writing now.",
+     "acc": [
+      "around the corner"
+     ],
+     "vi": "Dù kỳ thi vẫn có vẻ xa, hạn nộp dự án cuối kỳ đã ngay gần rồi, nên chúng ta nên bắt đầu viết ngay.",
+     "why": "around the corner cũng dùng cho thời gian sắp đến.",
+     "hint": "Nghĩa: quanh góc đường; ngay gần đó.",
+     "new": [
+      {
+       "w": "deadline",
+       "vi": "hạn chót"
+      },
+      {
+       "w": "final project",
+       "vi": "dự án cuối kỳ"
+      }
+     ],
+     "tw": "around the corner",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Event planning",
+     "s": "Although the organisers sent three reminders, only half of the invited guests actually ___ at the opening ceremony.",
+     "acc": [
+      "showed up",
+      "show up"
+     ],
+     "vi": "Dù ban tổ chức gửi ba lời nhắc, chỉ một nửa khách mời thực sự có mặt ở lễ khai mạc.",
+     "why": "show up = xuất hiện, có mặt.",
+     "hint": "Nghĩa: xuất hiện, có mặt, đến.",
+     "new": [
+      {
+       "w": "reminders",
+       "vi": "lời nhắc"
+      },
+      {
+       "w": "ceremony",
+       "vi": "buổi lễ"
+      }
+     ],
+     "tw": "show up",
+     "ipa": "/ʃəʊ ʌp/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Job advice",
+     "s": "If you don't ___ on time for the interview, the manager may assume that you are not really interested in the job.",
+     "acc": [
+      "show up",
+      "turn up"
+     ],
+     "vi": "Nếu bạn không có mặt đúng giờ cho buổi phỏng vấn, quản lý có thể cho rằng bạn không thực sự quan tâm đến công việc.",
+     "why": "show up on time = đến đúng giờ.",
+     "hint": "Nghĩa: xuất hiện, có mặt, đến.",
+     "new": [
+      {
+       "w": "assume",
+       "vi": "cho rằng"
+      },
+      {
+       "w": "interview",
+       "vi": "phỏng vấn"
+      }
+     ],
+     "tw": "show up",
+     "ipa": "/ʃəʊ ʌp/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Workplace",
+     "s": "A good manager should ___ new employees settle in, for example by introducing them to colleagues and explaining the main procedures.",
+     "acc": [
+      "help"
+     ],
+     "vi": "Một quản lý tốt nên giúp nhân viên mới làm quen, chẳng hạn giới thiệu họ với đồng nghiệp và giải thích các quy trình chính.",
+     "why": "help sb do sth (không cần to).",
+     "hint": "Nghĩa: giúp ai làm gì.",
+     "new": [
+      {
+       "w": "settle in",
+       "vi": "làm quen, ổn định"
+      },
+      {
+       "w": "procedures",
+       "vi": "quy trình"
+      }
+     ],
+     "tw": "help somebody do something",
+     "ipa": "/help/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Health advice",
+     "s": "Regular exercise ___ people sleep better, whereas heavy meals late at night usually have the opposite effect.",
+     "acc": [
+      "helps",
+      "help"
+     ],
+     "vi": "Tập thể dục đều đặn giúp mọi người ngủ ngon hơn, trong khi bữa ăn nặng muộn thường có tác dụng ngược lại.",
+     "why": "helps + người + động từ nguyên mẫu.",
+     "hint": "Nghĩa: giúp ai làm gì.",
+     "new": [
+      {
+       "w": "whereas",
+       "vi": "trong khi (đối lập)"
+      },
+      {
+       "w": "opposite",
+       "vi": "ngược lại"
+      }
+     ],
+     "tw": "help somebody do something",
+     "ipa": "/help/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Travel guide",
+     "s": "The desert ___ for hundreds of kilometres in every direction, so travellers must carry enough water before leaving the last village.",
+     "acc": [
+      "stretches",
+      "stretch"
+     ],
+     "vi": "Sa mạc trải dài hàng trăm km theo mọi hướng, nên du khách phải mang đủ nước trước khi rời ngôi làng cuối cùng.",
+     "why": "stretch = trải dài (không gian).",
+     "hint": "Nghĩa: kéo dài, trải dài.",
+     "new": [
+      {
+       "w": "desert",
+       "vi": "sa mạc"
+      },
+      {
+       "w": "enough",
+       "vi": "đủ"
+      }
+     ],
+     "tw": "stretch",
+     "ipa": "/stretʃ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Busy week",
+     "s": "Her working week often ___ into the weekend when a project deadline approaches, which leaves her little time for her family.",
+     "acc": [
+      "stretches",
+      "stretch"
+     ],
+     "vi": "Tuần làm việc của cô thường kéo dài sang cuối tuần khi hạn dự án đến gần, khiến cô ít thời gian cho gia đình.",
+     "why": "stretch into = kéo dài sang (thời gian).",
+     "hint": "Nghĩa: kéo dài, trải dài.",
+     "new": [
+      {
+       "w": "deadline",
+       "vi": "hạn chót"
+      },
+      {
+       "w": "approaches",
+       "vi": "đến gần"
+      }
+     ],
+     "tw": "stretch",
+     "ipa": "/stretʃ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Digital habits",
+     "s": "Can you ___ living without a mobile phone for a whole week? Many teenagers say they would feel completely cut off from their friends.",
+     "acc": [
+      "imagine"
+     ],
+     "vi": "Bạn có thể tưởng tượng sống không có điện thoại cả tuần không? Nhiều thiếu niên nói họ sẽ thấy hoàn toàn bị cắt khỏi bạn bè.",
+     "why": "imagine + V-ing = tưởng tượng việc làm gì.",
+     "hint": "Nghĩa: tưởng tượng việc làm gì.",
+     "new": [
+      {
+       "w": "cut off",
+       "vi": "bị cách ly"
+      },
+      {
+       "w": "whole",
+       "vi": "cả"
+      }
+     ],
+     "tw": "imagine doing",
+     "ipa": "/ɪˈmædʒ.ɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Career change",
+     "s": "I can't ___ working in an office all day after spending ten years as a tour guide, because I love being outdoors.",
+     "acc": [
+      "imagine"
+     ],
+     "vi": "Tôi không thể tưởng tượng việc làm việc trong văn phòng cả ngày sau mười năm làm hướng dẫn viên, vì tôi thích ở ngoài trời.",
+     "why": "can't imagine + V-ing.",
+     "hint": "Nghĩa: tưởng tượng việc làm gì.",
+     "new": [
+      {
+       "w": "tour guide",
+       "vi": "hướng dẫn viên du lịch"
+      },
+      {
+       "w": "outdoors",
+       "vi": "ngoài trời"
+      }
+     ],
+     "tw": "imagine doing",
+     "ipa": "/ɪˈmædʒ.ɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Lecture hall",
+     "s": "I couldn't concentrate on the lecture ___, because the room next door was extremely noisy and the door wouldn't close.",
+     "acc": [
+      "all the way through"
+     ],
+     "vi": "Tôi không thể tập trung vào bài giảng từ đầu đến cuối, vì phòng bên cạnh cực kỳ ồn và cửa không đóng được.",
+     "why": "all the way through = xuyên suốt.",
+     "hint": "Nghĩa: xuyên suốt, từ đầu đến cuối.",
+     "new": [
+      {
+       "w": "concentrate",
+       "vi": "tập trung"
+      },
+      {
+       "w": "extremely",
+       "vi": "cực kỳ"
+      }
+     ],
+     "tw": "all the way through",
+     "ipa": "/ˌɔːl ðə weɪ ˈθruː/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Business report",
+     "s": "She read the 300-page report ___ before the meeting, which allowed her to question the figures in the final chapter.",
+     "acc": [
+      "all the way through"
+     ],
+     "vi": "Cô đọc báo cáo 300 trang từ đầu đến cuối trước cuộc họp, nhờ vậy cô có thể chất vấn số liệu ở chương cuối.",
+     "why": "read ... all the way through = đọc hết từ đầu đến cuối.",
+     "hint": "Nghĩa: xuyên suốt, từ đầu đến cuối.",
+     "new": [
+      {
+       "w": "figures",
+       "vi": "số liệu"
+      },
+      {
+       "w": "chapter",
+       "vi": "chương"
+      }
+     ],
+     "tw": "all the way through",
+     "ipa": "/ˌɔːl ðə weɪ ˈθruː/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Gardening",
+     "s": "Plants will grow quickly only if you put them ___, where they receive enough sunlight but are protected from strong wind.",
+     "acc": [
+      "in the right spot",
+      "in the right place"
+     ],
+     "vi": "Cây sẽ lớn nhanh chỉ khi bạn đặt chúng ở đúng vị trí, nơi có đủ nắng nhưng được che gió mạnh.",
+     "why": "in the right spot = ở đúng chỗ.",
+     "hint": "Nghĩa: ở đúng vị trí.",
+     "new": [
+      {
+       "w": "protected from",
+       "vi": "được bảo vệ khỏi"
+      },
+      {
+       "w": "receive",
+       "vi": "nhận được"
+      }
+     ],
+     "tw": "in the right spot",
+     "ipa": "/ɪn ðə raɪt spɒt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Football match",
+     "s": "The goalkeeper blamed the defender for not standing ___ when the opponents scored in the final minute of the match.",
+     "acc": [
+      "in the right spot",
+      "in the right place",
+      "at the right spot"
+     ],
+     "vi": "Thủ môn trách hậu vệ vì không đứng đúng vị trí khi đối thủ ghi bàn ở phút cuối trận.",
+     "why": "not in the right spot = đứng sai chỗ.",
+     "hint": "Nghĩa: ở đúng vị trí.",
+     "new": [
+      {
+       "w": "goalkeeper",
+       "vi": "thủ môn"
+      },
+      {
+       "w": "opponents",
+       "vi": "đối thủ"
+      }
+     ],
+     "tw": "in the right spot",
+     "ipa": "/ɪn ðə raɪt spɒt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Airport work",
+     "s": "Before each flight, the staff must ___ all the luggage into the cargo hold, which takes about forty minutes in a busy airport.",
+     "acc": [
+      "load"
+     ],
+     "vi": "Trước mỗi chuyến bay, nhân viên phải chất toàn bộ hành lý vào khoang hàng, mất khoảng bốn mươi phút ở sân bay bận rộn.",
+     "why": "load sth into sth = chất vào.",
+     "hint": "Nghĩa: chất, xếp thứ gì vào đâu.",
+     "new": [
+      {
+       "w": "cargo hold",
+       "vi": "khoang hàng"
+      },
+      {
+       "w": "luggage",
+       "vi": "hành lý"
+      }
+     ],
+     "tw": "load something into something",
+     "ipa": "/ləʊd/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Charity drive",
+     "s": "Having sorted the donated clothes, volunteers ___ them into a van and drove them to a shelter in the north of the city.",
+     "acc": [
+      "loaded"
+     ],
+     "vi": "Sau khi phân loại quần áo quyên góp, tình nguyện viên chất chúng lên xe tải nhỏ và chở đến nơi trú ẩn ở phía bắc thành phố.",
+     "why": "loaded ... into a van = chất lên xe.",
+     "hint": "Nghĩa: chất, xếp thứ gì vào đâu.",
+     "new": [
+      {
+       "w": "donated",
+       "vi": "được quyên góp"
+      },
+      {
+       "w": "shelter",
+       "vi": "nơi trú ẩn"
+      }
+     ],
+     "tw": "load something into something",
+     "ipa": "/ləʊd/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Visa advice",
+     "s": "The online form takes only ten minutes, yet ___ usually lasts several weeks because officials must check every document.",
+     "acc": [
+      "the whole process",
+      "whole process"
+     ],
+     "vi": "Biểu mẫu online chỉ mất mười phút, nhưng toàn bộ quá trình thường kéo dài vài tuần vì viên chức phải kiểm tra mọi giấy tờ.",
+     "why": "the whole process = toàn bộ quá trình.",
+     "hint": "Nghĩa: toàn bộ quá trình.",
+     "new": [
+      {
+       "w": "officials",
+       "vi": "viên chức"
+      },
+      {
+       "w": "document",
+       "vi": "giấy tờ"
+      }
+     ],
+     "tw": "the whole process",
+     "ipa": "/ðə həʊl ˈprəʊ.ses/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Factory tour",
+     "s": "Engineers installed cameras to monitor ___, from cutting the metal to painting the final product, so that errors could be found early.",
+     "acc": [
+      "the whole process",
+      "whole process"
+     ],
+     "vi": "Các kỹ sư lắp camera để theo dõi toàn bộ quá trình, từ cắt kim loại đến sơn sản phẩm cuối, để phát hiện lỗi sớm.",
+     "why": "monitor the whole process = giám sát toàn bộ quá trình.",
+     "hint": "Nghĩa: toàn bộ quá trình.",
+     "new": [
+      {
+       "w": "monitor",
+       "vi": "giám sát"
+      },
+      {
+       "w": "errors",
+       "vi": "lỗi"
+      }
+     ],
+     "tw": "the whole process",
+     "ipa": "/ðə həʊl ˈprəʊ.ses/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Daily commute",
+     "s": "It usually ___ me about an hour to get to the office, whereas my colleague, who lives nearby, walks there in ten minutes.",
+     "acc": [
+      "takes"
+     ],
+     "vi": "Tôi thường mất khoảng một giờ để đến văn phòng, trong khi đồng nghiệp sống gần đi bộ chỉ mười phút.",
+     "why": "It takes + người + khoảng thời gian + to V.",
+     "hint": "Nghĩa: mất bao lâu để hoàn thành.",
+     "new": [
+      {
+       "w": "commute",
+       "vi": "quãng đường đi làm"
+      },
+      {
+       "w": "nearby",
+       "vi": "gần đó"
+      }
+     ],
+     "tw": "take time",
+     "ipa": "/teɪk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Music lessons",
+     "s": "Learning to play the violin properly will ___ several years of daily practice, so beginners should not expect quick results.",
+     "acc": [
+      "take"
+     ],
+     "vi": "Học chơi vĩ cầm đúng cách sẽ mất nhiều năm luyện tập hằng ngày, nên người mới không nên mong kết quả nhanh.",
+     "why": "take + khoảng thời gian = mất bao lâu.",
+     "hint": "Nghĩa: mất bao lâu để hoàn thành.",
+     "new": [
+      {
+       "w": "violin",
+       "vi": "đàn vĩ cầm"
+      },
+      {
+       "w": "beginners",
+       "vi": "người mới bắt đầu"
+      }
+     ],
+     "tw": "take time",
+     "ipa": "/teɪk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Sports news",
+     "s": "The marathon winner finished in ___ two hours, setting a new record for the event, which is held every autumn.",
+     "acc": [
+      "just under"
+     ],
+     "vi": "Người thắng cuộc marathon về đích trong chưa đến hai giờ, lập kỷ lục mới cho giải được tổ chức mỗi mùa thu.",
+     "why": "just under = chưa đến, hơi dưới.",
+     "hint": "Nghĩa: chưa đến, ít hơn một chút.",
+     "new": [
+      {
+       "w": "marathon",
+       "vi": "cuộc chạy marathon"
+      },
+      {
+       "w": "record",
+       "vi": "kỷ lục"
+      }
+     ],
+     "tw": "just under",
+     "ipa": "/dʒʌst ˈʌn.dər/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Economy report",
+     "s": "Unemployment fell to ___ five percent last quarter, according to the statistics office, which surprised many economists.",
+     "acc": [
+      "just under"
+     ],
+     "vi": "Tỷ lệ thất nghiệp giảm xuống chưa đến năm phần trăm quý trước, theo cơ quan thống kê, khiến nhiều nhà kinh tế bất ngờ.",
+     "why": "just under five percent = hơi dưới 5%.",
+     "hint": "Nghĩa: chưa đến, ít hơn một chút.",
+     "new": [
+      {
+       "w": "unemployment",
+       "vi": "thất nghiệp"
+      },
+      {
+       "w": "quarter",
+       "vi": "quý"
+      }
+     ],
+     "tw": "just under",
+     "ipa": "/dʒʌst ˈʌn.dər/"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "<b>Chọn từ.</b> Đọc câu và chọn từ/cụm đúng nhất điền vào chỗ trống.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Urban planning",
+     "s": "Residents planted hundreds of trees ___ the motorway, hoping the greenery would reduce noise and absorb some of the pollution.",
+     "o": [
+      "along",
+      "under",
+      "until"
+     ],
+     "a": "along",
+     "vi": "Cư dân trồng hàng trăm cây dọc theo đường cao tốc, hy vọng cây xanh sẽ giảm tiếng ồn và hấp thụ bớt ô nhiễm.",
+     "why": "trồng cây dọc theo đường → along.",
+     "new": [
+      {
+       "w": "greenery",
+       "vi": "cây xanh"
+      },
+      {
+       "w": "absorb",
+       "vi": "hấp thụ"
+      }
+     ],
+     "tw": "along",
+     "ipa": "/əˈlɒŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cycling holiday",
+     "s": "If you cycle ___ the canal, you will pass several historic warehouses that have been turned into modern apartments.",
+     "o": [
+      "along",
+      "during",
+      "because"
+     ],
+     "a": "along",
+     "vi": "Nếu bạn đạp xe dọc theo con kênh, bạn sẽ đi qua vài nhà kho lịch sử đã được cải tạo thành căn hộ hiện đại.",
+     "why": "cycle along the canal = đạp xe dọc theo kênh.",
+     "new": [
+      {
+       "w": "warehouses",
+       "vi": "nhà kho"
+      },
+      {
+       "w": "turned into",
+       "vi": "được biến thành"
+      }
+     ],
+     "tw": "along",
+     "ipa": "/əˈlɒŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Office meeting",
+     "s": "Our printer ran ___ ink during the meeting, so we had to email the documents instead of handing them out.",
+     "o": [
+      "out of",
+      "away from",
+      "up to"
+     ],
+     "a": "out of",
+     "vi": "Máy in của chúng tôi hết mực giữa cuộc họp nên chúng tôi phải gửi email tài liệu thay vì phát tay.",
+     "why": "ran out of ink = hết mực.",
+     "new": [
+      {
+       "w": "handing out",
+       "vi": "phát ra"
+      }
+     ],
+     "tw": "out of",
+     "ipa": "/ˈaʊt əv/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Festival day",
+     "s": "By the end of the festival, the organisers were ___ water, so several volunteers drove into town to buy more bottles.",
+     "o": [
+      "out of",
+      "full of",
+      "afraid of"
+     ],
+     "a": "out of",
+     "vi": "Đến cuối lễ hội, ban tổ chức đã hết nước nên vài tình nguyện viên lái xe vào thị trấn mua thêm chai.",
+     "why": "be out of water = hết nước.",
+     "new": [
+      {
+       "w": "organisers",
+       "vi": "ban tổ chức"
+      },
+      {
+       "w": "volunteers",
+       "vi": "tình nguyện viên"
+      }
+     ],
+     "tw": "out of",
+     "ipa": "/ˈaʊt əv/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Company report",
+     "s": "The company has made great progress ___ its goal of becoming carbon neutral, although it still relies on diesel trucks for deliveries.",
+     "o": [
+      "toward",
+      "without",
+      "except"
+     ],
+     "a": "toward",
+     "vi": "Công ty đã đạt tiến bộ lớn hướng tới mục tiêu trung hòa carbon, dù vẫn dựa vào xe tải chạy dầu để giao hàng.",
+     "why": "progress toward a goal = tiến bộ hướng tới mục tiêu.",
+     "new": [
+      {
+       "w": "carbon neutral",
+       "vi": "trung hòa carbon"
+      },
+      {
+       "w": "relies on",
+       "vi": "phụ thuộc vào"
+      }
+     ],
+     "tw": "toward",
+     "ipa": "/təˈwɔːd/ (/təˈwɔːdz/)"
+    },
+    {
+     "type": "mc",
+     "ctx": "Airport taxi",
+     "s": "Seeing the sign for the airport, the driver turned the wheel ___ the left lane and slowed down before the busy junction.",
+     "o": [
+      "toward",
+      "behind",
+      "among"
+     ],
+     "a": "toward",
+     "vi": "Thấy biển chỉ đường ra sân bay, tài xế đánh lái về phía làn trái và giảm tốc trước ngã tư đông đúc.",
+     "why": "turn toward = rẽ về phía.",
+     "new": [
+      {
+       "w": "lane",
+       "vi": "làn đường"
+      },
+      {
+       "w": "junction",
+       "vi": "ngã tư"
+      }
+     ],
+     "tw": "toward",
+     "ipa": "/təˈwɔːd/ (/təˈwɔːdz/)"
+    },
+    {
+     "type": "mc",
+     "ctx": "Job interview",
+     "s": "Instead of answering all the questions at once, the candidate dealt with the panel's concerns ___, which made her answers much clearer.",
+     "o": [
+      "one by one",
+      "at the same time",
+      "all together"
+     ],
+     "a": "one by one",
+     "vi": "Thay vì trả lời hết cùng lúc, ứng viên giải quyết từng mối quan ngại của hội đồng một cách lần lượt, khiến câu trả lời rõ ràng hơn.",
+     "why": "từng vấn đề một → one by one.",
+     "new": [
+      {
+       "w": "candidate",
+       "vi": "ứng viên"
+      },
+      {
+       "w": "concerns",
+       "vi": "mối quan ngại"
+      }
+     ],
+     "tw": "one by one",
+     "ipa": "/ˌwʌn baɪ ˈwʌn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Mountain trail",
+     "s": "Because the footpath was extremely narrow, the walkers crossed the stream ___ to avoid slipping on the wet stones.",
+     "o": [
+      "one by one",
+      "side by side",
+      "back to back"
+     ],
+     "a": "one by one",
+     "vi": "Vì lối đi quá hẹp, những người đi bộ băng qua suối lần lượt từng người để tránh trượt trên đá ướt.",
+     "why": "đường hẹp → đi từng người một.",
+     "new": [
+      {
+       "w": "slipping",
+       "vi": "trượt chân"
+      },
+      {
+       "w": "stream",
+       "vi": "con suối"
+      }
+     ],
+     "tw": "one by one",
+     "ipa": "/ˌwʌn baɪ ˈwʌn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Village emergency",
+     "s": "When the bucket chain formed beside the burning barn, farmers began to ___, hoping to put out the flames before the wind grew stronger.",
+     "o": [
+      "pass them down the line",
+      "leave them by the road",
+      "hide them under bridge"
+     ],
+     "a": "pass them down the line",
+     "vi": "Khi chuỗi người xếp hàng bên cạnh kho thóc đang cháy, nông dân bắt đầu chuyền các xô dọc theo hàng, hy vọng dập lửa trước khi gió mạnh hơn.",
+     "why": "chuỗi người chuyền xô → pass them down the line.",
+     "new": [
+      {
+       "w": "barn",
+       "vi": "kho thóc"
+      },
+      {
+       "w": "flames",
+       "vi": "ngọn lửa"
+      }
+     ],
+     "tw": "pass them down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Moving day",
+     "s": "To finish loading the lorry quickly, the students decided to ___, because it was faster than each person walking to the van alone.",
+     "o": [
+      "pass the boxes down the line",
+      "break the boxes with hammers",
+      "forget the boxes at school"
+     ],
+     "a": "pass the boxes down the line",
+     "vi": "Để chất xe tải nhanh, sinh viên quyết định chuyền các thùng dọc theo hàng vì nhanh hơn việc từng người tự đi ra xe.",
+     "why": "đứng thành hàng chuyền thùng.",
+     "new": [
+      {
+       "w": "lorry",
+       "vi": "xe tải"
+      },
+      {
+       "w": "faster",
+       "vi": "nhanh hơn"
+      }
+     ],
+     "tw": "pass the boxes down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Property news",
+     "s": "Property prices in the area have risen because the new metro station is ___, which makes commuting to the city centre much easier.",
+     "o": [
+      "around the corner",
+      "out of order",
+      "by the way"
+     ],
+     "a": "around the corner",
+     "vi": "Giá nhà trong khu vực tăng vì ga tàu điện mới nằm ngay gần đó, giúp việc đi làm vào trung tâm dễ hơn nhiều.",
+     "why": "nhà ga ngay gần → around the corner.",
+     "new": [
+      {
+       "w": "commuting",
+       "vi": "đi làm hằng ngày"
+      },
+      {
+       "w": "metro",
+       "vi": "tàu điện"
+      }
+     ],
+     "tw": "around the corner",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Holiday shopping",
+     "s": "Holiday shoppers are already filling the high street, since the festival season is ___ and many shops are offering big discounts.",
+     "o": [
+      "around the corner",
+      "out of stock",
+      "in the end"
+     ],
+     "a": "around the corner",
+     "vi": "Người mua sắm dịp lễ đã đổ về phố chính vì mùa lễ hội sắp đến gần và nhiều cửa hàng giảm giá mạnh.",
+     "why": "sắp đến → around the corner.",
+     "new": [
+      {
+       "w": "high street",
+       "vi": "phố chính"
+      },
+      {
+       "w": "discounts",
+       "vi": "giảm giá"
+      }
+     ],
+     "tw": "around the corner",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Concert night",
+     "s": "The band was supposed to perform at eight, but the lead singer failed to ___, so the audience demanded their money back.",
+     "o": [
+      "show up",
+      "sit down",
+      "look after"
+     ],
+     "a": "show up",
+     "vi": "Ban nhạc lẽ ra biểu diễn lúc tám giờ, nhưng ca sĩ chính không xuất hiện nên khán giả đòi lại tiền.",
+     "why": "fail to show up = không đến.",
+     "new": [
+      {
+       "w": "audience",
+       "vi": "khán giả"
+      },
+      {
+       "w": "demanded",
+       "vi": "đòi hỏi"
+      }
+     ],
+     "tw": "show up",
+     "ipa": "/ʃəʊ ʌp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Beach cleaning",
+     "s": "Volunteers promised to help clean the beach, yet barely a dozen people ___ on Saturday morning, which disappointed the organisers.",
+     "o": [
+      "showed up",
+      "turned down",
+      "backed away"
+     ],
+     "a": "showed up",
+     "vi": "Tình nguyện viên hứa giúp dọn bãi biển, nhưng sáng thứ Bảy chỉ khoảng một chục người đến, khiến ban tổ chức thất vọng.",
+     "why": "barely a dozen showed up = chỉ vài người đến.",
+     "new": [
+      {
+       "w": "barely",
+       "vi": "vừa đủ, hầu như không"
+      },
+      {
+       "w": "disappointed",
+       "vi": "thất vọng"
+      }
+     ],
+     "tw": "showed up",
+     "ipa": "/ʃəʊ ʌp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Technology",
+     "s": "The new app is designed to ___ elderly users stay in touch with their families, even if they have never used a smartphone before.",
+     "o": [
+      "help",
+      "force",
+      "warn"
+     ],
+     "a": "help",
+     "vi": "Ứng dụng mới được thiết kế để giúp người lớn tuổi giữ liên lạc với gia đình, dù họ chưa từng dùng điện thoại thông minh.",
+     "why": "help + người + V nguyên mẫu.",
+     "new": [
+      {
+       "w": "elderly",
+       "vi": "lớn tuổi"
+      },
+      {
+       "w": "designed",
+       "vi": "được thiết kế"
+      }
+     ],
+     "tw": "help",
+     "ipa": "/help/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Home repair",
+     "s": "My neighbour, a retired engineer, kindly ___ me fix the broken heating, so I didn't have to pay a technician.",
+     "o": [
+      "helped",
+      "hoped",
+      "enjoyed"
+     ],
+     "a": "helped",
+     "vi": "Người hàng xóm, một kỹ sư đã nghỉ hưu, tốt bụng giúp tôi sửa hệ thống sưởi hỏng nên tôi không phải trả tiền thợ.",
+     "why": "helped me fix = giúp tôi sửa.",
+     "new": [
+      {
+       "w": "retired",
+       "vi": "đã nghỉ hưu"
+      },
+      {
+       "w": "technician",
+       "vi": "thợ kỹ thuật"
+      }
+     ],
+     "tw": "helped",
+     "ipa": "/help/"
+    },
+    {
+     "type": "mc",
+     "ctx": "City planning",
+     "s": "The new cycle path will ___ from the city centre to the coastal villages, a distance of nearly forty kilometres.",
+     "o": [
+      "stretch",
+      "shrink",
+      "collapse"
+     ],
+     "a": "stretch",
+     "vi": "Đường dành cho xe đạp mới sẽ trải dài từ trung tâm thành phố đến các làng ven biển, khoảng gần bốn mươi km.",
+     "why": "trải dài từ ... đến → stretch.",
+     "new": [
+      {
+       "w": "coastal",
+       "vi": "ven biển"
+      },
+      {
+       "w": "distance",
+       "vi": "khoảng cách"
+      }
+     ],
+     "tw": "stretch",
+     "ipa": "/stretʃ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Long meeting",
+     "s": "Although the meeting was planned for one hour, the discussion ___ across the whole afternoon because everyone had a different opinion.",
+     "o": [
+      "stretched",
+      "shrank",
+      "vanished"
+     ],
+     "a": "stretched",
+     "vi": "Dù cuộc họp dự kiến một giờ, cuộc thảo luận kéo dài cả buổi chiều vì ai cũng có ý kiến khác nhau.",
+     "why": "kéo dài về thời gian → stretched.",
+     "new": [
+      {
+       "w": "discussion",
+       "vi": "cuộc thảo luận"
+      },
+      {
+       "w": "opinion",
+       "vi": "ý kiến"
+      }
+     ],
+     "tw": "stretched",
+     "ipa": "/stretʃ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Energy news",
+     "s": "Few people can ___ paying double for electricity, but experts say bills may rise sharply if supplies remain unstable.",
+     "o": [
+      "imagine",
+      "hope",
+      "expect"
+     ],
+     "a": "imagine",
+     "vi": "Ít ai có thể tưởng tượng việc trả gấp đôi tiền điện, nhưng chuyên gia nói hóa đơn có thể tăng mạnh nếu nguồn cung còn bất ổn.",
+     "why": "imagine + V-ing (hope/expect + to V).",
+     "new": [
+      {
+       "w": "sharply",
+       "vi": "mạnh"
+      },
+      {
+       "w": "unstable",
+       "vi": "bất ổn"
+      }
+     ],
+     "tw": "imagine",
+     "ipa": "/ɪˈmædʒ.ɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Contract advice",
+     "s": "Before you sign the contract, ___ working abroad for several years: would you really be happy so far from your family?",
+     "o": [
+      "Imagine",
+      "Hope",
+      "Expect"
+     ],
+     "a": "Imagine",
+     "vi": "Trước khi ký hợp đồng, hãy tưởng tượng việc làm việc ở nước ngoài vài năm: bạn có thật sự vui khi xa gia đình đến vậy?",
+     "why": "Imagine + V-ing.",
+     "new": [
+      {
+       "w": "contract",
+       "vi": "hợp đồng"
+      },
+      {
+       "w": "abroad",
+       "vi": "ở nước ngoài"
+      }
+     ],
+     "tw": "Imagine",
+     "ipa": "/ɪˈmædʒ.ɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Flight delay",
+     "s": "Despite the long delay, passengers stayed calm ___ the journey, which impressed the cabin crew.",
+     "o": [
+      "all the way through",
+      "by the way",
+      "at the same time"
+     ],
+     "a": "all the way through",
+     "vi": "Dù chậm chuyến lâu, hành khách vẫn bình tĩnh xuyên suốt chuyến đi, khiến phi hành đoàn ấn tượng.",
+     "why": "xuyên suốt chuyến đi.",
+     "new": [
+      {
+       "w": "cabin crew",
+       "vi": "phi hành đoàn"
+      },
+      {
+       "w": "impressed",
+       "vi": "gây ấn tượng"
+      }
+     ],
+     "tw": "all the way through",
+     "ipa": "/ˌɔːl ðə weɪ ˈθruː/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Music review",
+     "s": "The singer kept smiling ___ the concert, even though she had lost her voice halfway and could hardly reach the high notes.",
+     "o": [
+      "all the way through",
+      "out of the blue",
+      "for no reason"
+     ],
+     "a": "all the way through",
+     "vi": "Ca sĩ cứ mỉm cười suốt buổi hòa nhạc, dù cô mất giọng giữa chừng và khó hát nổi nốt cao.",
+     "why": "suốt từ đầu đến cuối.",
+     "new": [
+      {
+       "w": "halfway",
+       "vi": "giữa chừng"
+      },
+      {
+       "w": "notes",
+       "vi": "nốt nhạc"
+      }
+     ],
+     "tw": "all the way through",
+     "ipa": "/ˌɔːl ðə weɪ ˈθruː/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Home network",
+     "s": "A wifi router works best when it is ___, for example in the middle of the house rather than behind a thick wall.",
+     "o": [
+      "in the right spot",
+      "in a hurry",
+      "on the other hand"
+     ],
+     "a": "in the right spot",
+     "vi": "Bộ phát wifi hoạt động tốt nhất khi ở đúng vị trí, ví dụ giữa nhà thay vì sau bức tường dày.",
+     "why": "đặt đúng chỗ → in the right spot.",
+     "new": [
+      {
+       "w": "router",
+       "vi": "bộ phát wifi"
+      },
+      {
+       "w": "thick",
+       "vi": "dày"
+      }
+     ],
+     "tw": "in the right spot",
+     "ipa": "/ɪn ðə raɪt spɒt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Rescue mission",
+     "s": "Thanks to careful planning, the rescue helicopter landed ___, just a few metres from the injured climbers.",
+     "o": [
+      "in the right spot",
+      "in two minds",
+      "on second thoughts"
+     ],
+     "a": "in the right spot",
+     "vi": "Nhờ lên kế hoạch cẩn thận, trực thăng cứu hộ hạ cánh đúng vị trí, chỉ cách những người leo núi bị thương vài mét.",
+     "why": "hạ cánh đúng chỗ.",
+     "new": [
+      {
+       "w": "rescue",
+       "vi": "cứu hộ"
+      },
+      {
+       "w": "climbers",
+       "vi": "người leo núi"
+      }
+     ],
+     "tw": "in the right spot",
+     "ipa": "/ɪn ðə raɪt spɒt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Farm work",
+     "s": "The farmers began to ___ the harvested apples into crates, so that they could be delivered to supermarkets by the afternoon.",
+     "o": [
+      "load",
+      "peel",
+      "recycle"
+     ],
+     "a": "load",
+     "vi": "Nông dân bắt đầu xếp táo đã thu hoạch vào các thùng để kịp giao cho siêu thị vào buổi chiều.",
+     "why": "xếp táo vào thùng → load.",
+     "new": [
+      {
+       "w": "harvested",
+       "vi": "đã thu hoạch"
+      },
+      {
+       "w": "crates",
+       "vi": "thùng đựng"
+      }
+     ],
+     "tw": "load",
+     "ipa": "/ləʊd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Computer trouble",
+     "s": "She tried to ___ too many files into the old laptop, so the system slowed down and finally crashed.",
+     "o": [
+      "load",
+      "pour",
+      "bury"
+     ],
+     "a": "load",
+     "vi": "Cô cố nạp quá nhiều tệp vào chiếc laptop cũ nên hệ thống chậm dần rồi bị treo.",
+     "why": "load files into = nạp vào.",
+     "new": [
+      {
+       "w": "crashed",
+       "vi": "bị treo, sập"
+      },
+      {
+       "w": "system",
+       "vi": "hệ thống"
+      }
+     ],
+     "tw": "load",
+     "ipa": "/ləʊd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking class",
+     "s": "Making cheese is simple in theory, but ___ requires patience, because the milk must rest for days before it is ready.",
+     "o": [
+      "the whole process",
+      "the whole story",
+      "the whole crowd"
+     ],
+     "a": "the whole process",
+     "vi": "Làm phô mai về lý thuyết thì đơn giản, nhưng toàn bộ quá trình đòi hỏi kiên nhẫn vì sữa phải nghỉ nhiều ngày.",
+     "why": "quá trình đòi hỏi kiên nhẫn.",
+     "new": [
+      {
+       "w": "patience",
+       "vi": "sự kiên nhẫn"
+      },
+      {
+       "w": "theory",
+       "vi": "lý thuyết"
+      }
+     ],
+     "tw": "the whole process",
+     "ipa": "/ðə həʊl ˈprəʊ.ses/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Recycling study",
+     "s": "Participants were asked to record ___ of recycling plastic bottles, from collection at home to delivery at the factory.",
+     "o": [
+      "the whole process",
+      "the whole building",
+      "the whole summer"
+     ],
+     "a": "the whole process",
+     "vi": "Người tham gia được yêu cầu ghi lại toàn bộ quá trình tái chế chai nhựa, từ thu gom ở nhà đến giao tới nhà máy.",
+     "why": "from ... to ... → toàn bộ quá trình.",
+     "new": [
+      {
+       "w": "participants",
+       "vi": "người tham gia"
+      },
+      {
+       "w": "collection",
+       "vi": "việc thu gom"
+      }
+     ],
+     "tw": "the whole process",
+     "ipa": "/ðə həʊl ˈprəʊ.ses/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Passport office",
+     "s": "How long does it ___ to renew a passport if you apply online instead of visiting the office in person?",
+     "o": [
+      "take",
+      "last",
+      "spend"
+     ],
+     "a": "take",
+     "vi": "Bạn mất bao lâu để gia hạn hộ chiếu nếu nộp online thay vì đến văn phòng trực tiếp?",
+     "why": "How long does it take to ...?",
+     "new": [
+      {
+       "w": "renew",
+       "vi": "gia hạn"
+      },
+      {
+       "w": "in person",
+       "vi": "trực tiếp"
+      }
+     ],
+     "tw": "take",
+     "ipa": "/teɪk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hospital advice",
+     "s": "The recovery after the operation may ___ six to eight weeks, although younger patients often heal faster.",
+     "o": [
+      "take",
+      "spend",
+      "make"
+     ],
+     "a": "take",
+     "vi": "Việc hồi phục sau ca phẫu thuật có thể mất sáu đến tám tuần, dù bệnh nhân trẻ thường lành nhanh hơn.",
+     "why": "take + khoảng thời gian.",
+     "new": [
+      {
+       "w": "recovery",
+       "vi": "sự hồi phục"
+      },
+      {
+       "w": "heal",
+       "vi": "lành lại"
+      }
+     ],
+     "tw": "take",
+     "ipa": "/teɪk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Car garage",
+     "s": "The repair bill came to ___ five hundred pounds, which was a relief because I had expected something much higher.",
+     "o": [
+      "just under",
+      "far beyond",
+      "well above"
+     ],
+     "a": "just under",
+     "vi": "Hóa đơn sửa xe chưa đến năm trăm bảng, tôi nhẹ nhõm vì đã nghĩ sẽ cao hơn nhiều.",
+     "why": "nhẹ nhõm vì thấp hơn → just under.",
+     "new": [
+      {
+       "w": "relief",
+       "vi": "sự nhẹ nhõm"
+      },
+      {
+       "w": "bill",
+       "vi": "hóa đơn"
+      }
+     ],
+     "tw": "just under",
+     "ipa": "/dʒʌst ˈʌn.dər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Concert tickets",
+     "s": "Tickets for the concert cost ___ fifty euros each, so a family of four can attend for less than two hundred.",
+     "o": [
+      "just under",
+      "just over",
+      "well over"
+     ],
+     "a": "just under",
+     "vi": "Vé hòa nhạc có giá chưa đến năm mươi euro mỗi vé, nên gia đình bốn người dự với chưa đến hai trăm.",
+     "why": "bốn vé < 200 → just under 50.",
+     "new": [
+      {
+       "w": "attend",
+       "vi": "tham dự"
+      },
+      {
+       "w": "euros",
+       "vi": "đồng euro"
+      }
+     ],
+     "tw": "just under",
+     "ipa": "/dʒʌst ˈʌn.dər/"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "<b>Chọn nghĩa.</b> Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Hotel guide",
+     "s": "The hotel is on a narrow road. Walking along it, you will see small markets, family restaurants and a few shops selling local crafts. What does \"along\" mean?",
+     "o": [
+      "dọc theo",
+      "băng qua",
+      "vòng quanh"
+     ],
+     "a": "dọc theo",
+     "vi": "Khách sạn nằm trên một con đường hẹp. Đi dọc theo đó, bạn sẽ thấy các chợ nhỏ, nhà hàng gia đình và vài cửa hàng bán đồ thủ công địa phương.",
+     "why": "walking along it = đi dọc theo con đường.",
+     "new": [
+      {
+       "w": "crafts",
+       "vi": "đồ thủ công"
+      }
+     ],
+     "noblank": true,
+     "say": "The hotel is on a narrow road. Walking along it, you will see small markets, family restaurants and a few shops selling local crafts.",
+     "tw": "along",
+     "ipa": "/əˈlɒŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Beach cleanup",
+     "s": "Volunteers placed large bins along the beach after the festival. Their aim was to stop plastic waste from drifting into the sea. What does \"along\" mean?",
+     "o": [
+      "dọc theo",
+      "ở phía sau",
+      "bên trong"
+     ],
+     "a": "dọc theo",
+     "vi": "Tình nguyện viên đặt các thùng rác lớn dọc theo bãi biển sau lễ hội. Mục tiêu là ngăn rác nhựa trôi ra biển.",
+     "why": "along the beach = dọc theo bãi biển.",
+     "new": [
+      {
+       "w": "drifting",
+       "vi": "trôi dạt"
+      }
+     ],
+     "noblank": true,
+     "say": "Volunteers placed large bins along the beach after the festival. Their aim was to stop plastic waste from drifting into the sea.",
+     "tw": "along",
+     "ipa": "/əˈlɒŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Phone problem",
+     "s": "My phone was nearly out of battery, so I borrowed a charger from a colleague. Without it, I could not have called a taxi. What does \"out of\" mean?",
+     "o": [
+      "hết (không còn)",
+      "ra khỏi",
+      "phía trên"
+     ],
+     "a": "hết (không còn)",
+     "vi": "Điện thoại của tôi gần hết pin nên tôi mượn đồng nghiệp cái sạc. Không có nó, tôi đã không thể gọi taxi.",
+     "why": "out of battery = hết pin.",
+     "new": [
+      {
+       "w": "charger",
+       "vi": "bộ sạc"
+      },
+      {
+       "w": "colleague",
+       "vi": "đồng nghiệp"
+      }
+     ],
+     "noblank": true,
+     "say": "My phone was nearly out of battery, so I borrowed a charger from a colleague. Without it, I could not have called a taxi.",
+     "tw": "out of",
+     "ipa": "/ˈaʊt əv/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hotel lift",
+     "s": "When the lift stopped, a woman stepped out of it carefully and thanked the engineer who had managed to open the doors. What does \"out of\" mean?",
+     "o": [
+      "ra khỏi",
+      "hết (không còn)",
+      "dọc theo"
+     ],
+     "a": "ra khỏi",
+     "vi": "Khi thang máy dừng, một người phụ nữ cẩn thận bước ra khỏi đó và cảm ơn kỹ sư đã mở được cửa.",
+     "why": "step out of = bước ra khỏi.",
+     "new": [
+      {
+       "w": "engineer",
+       "vi": "kỹ sư"
+      },
+      {
+       "w": "managed to",
+       "vi": "xoay xở được"
+      }
+     ],
+     "noblank": true,
+     "say": "When the lift stopped, a woman stepped out of it carefully and thanked the engineer who had managed to open the doors.",
+     "tw": "out of",
+     "ipa": "/ˈaʊt əv/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Mountain hike",
+     "s": "A group of hikers was walking toward the summit when thick fog came in. They decided to stop and wait for it to clear. What does \"toward\" mean?",
+     "o": [
+      "về phía, hướng tới",
+      "từ phía sau",
+      "thay vì"
+     ],
+     "a": "về phía, hướng tới",
+     "vi": "Một nhóm người leo núi đang đi về phía đỉnh thì sương mù dày kéo đến. Họ quyết định dừng lại chờ sương tan.",
+     "why": "toward the summit = về phía đỉnh núi.",
+     "new": [
+      {
+       "w": "summit",
+       "vi": "đỉnh núi"
+      },
+      {
+       "w": "fog",
+       "vi": "sương mù"
+      }
+     ],
+     "noblank": true,
+     "say": "A group of hikers was walking toward the summit when thick fog came in. They decided to stop and wait for it to clear.",
+     "tw": "toward",
+     "ipa": "/təˈwɔːd/ (/təˈwɔːdz/)"
+    },
+    {
+     "type": "mc",
+     "ctx": "Policy news",
+     "s": "The government is taking small steps toward reducing plastic waste, such as banning single-use bags in large supermarkets. What does \"toward\" mean?",
+     "o": [
+      "hướng tới",
+      "chống lại",
+      "bên cạnh"
+     ],
+     "a": "hướng tới",
+     "vi": "Chính phủ đang thực hiện những bước nhỏ hướng tới giảm rác nhựa, chẳng hạn cấm túi dùng một lần ở siêu thị lớn.",
+     "why": "steps toward = các bước hướng tới.",
+     "new": [
+      {
+       "w": "banning",
+       "vi": "cấm"
+      },
+      {
+       "w": "single-use",
+       "vi": "dùng một lần"
+      }
+     ],
+     "noblank": true,
+     "say": "The government is taking small steps toward reducing plastic waste, such as banning single-use bags in large supermarkets.",
+     "tw": "toward",
+     "ipa": "/təˈwɔːd/ (/təˈwɔːdz/)"
+    },
+    {
+     "type": "mc",
+     "ctx": "Classroom",
+     "s": "The teacher handed back the essays one by one, giving each student a short comment. She said this was fairer than reading feedback aloud to the whole class. What does \"one by one\" mean?",
+     "o": [
+      "lần lượt, từng cái một",
+      "cùng một lúc",
+      "thật nhanh"
+     ],
+     "a": "lần lượt, từng cái một",
+     "vi": "Giáo viên trả bài luận từng bài một, kèm nhận xét ngắn cho mỗi học sinh. Cô nói cách này công bằng hơn đọc nhận xét to trước cả lớp.",
+     "why": "one by one = lần lượt.",
+     "new": [
+      {
+       "w": "fairer",
+       "vi": "công bằng hơn"
+      },
+      {
+       "w": "aloud",
+       "vi": "thành tiếng"
+      }
+     ],
+     "noblank": true,
+     "say": "The teacher handed back the essays one by one, giving each student a short comment. She said this was fairer than reading feedback aloud to the whole class.",
+     "tw": "one by one",
+     "ipa": "/ˌwʌn baɪ ˈwʌn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Emergency room",
+     "s": "Doctors cannot treat all patients immediately after a major accident. They see them one by one, starting with the most serious injuries. What does \"one by one\" mean?",
+     "o": [
+      "lần lượt, từng người một",
+      "cùng nhau",
+      "ở đằng sau"
+     ],
+     "a": "lần lượt, từng người một",
+     "vi": "Bác sĩ không thể điều trị mọi bệnh nhân ngay sau một tai nạn lớn. Họ khám lần lượt từng người, bắt đầu với ca thương tích nặng nhất.",
+     "why": "one by one = từng người một.",
+     "new": [
+      {
+       "w": "injuries",
+       "vi": "thương tích"
+      },
+      {
+       "w": "treat",
+       "vi": "điều trị"
+      }
+     ],
+     "noblank": true,
+     "say": "Doctors cannot treat all patients immediately after a major accident. They see them one by one, starting with the most serious injuries.",
+     "tw": "one by one",
+     "ipa": "/ˌwʌn baɪ ˈwʌn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Concert hall",
+     "s": "At the concert, the front row passed the programmes down the line so that everyone sitting at the back could also have one. What does \"pass the programmes down the line\" mean?",
+     "o": [
+      "chuyền thứ gì dọc theo hàng người",
+      "đếm lại từng tờ",
+      "ném xuống sàn"
+     ],
+     "a": "chuyền thứ gì dọc theo hàng người",
+     "vi": "Ở buổi hòa nhạc, hàng đầu chuyền các tờ chương trình dọc theo hàng để người ngồi phía sau cũng có một tờ.",
+     "why": "passed ... down the line = chuyền dọc theo hàng.",
+     "new": [
+      {
+       "w": "programmes",
+       "vi": "tờ chương trình"
+      }
+     ],
+     "noblank": true,
+     "say": "At the concert, the front row passed the programmes down the line so that everyone sitting at the back could also have one.",
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Exam hall",
+     "s": "During the exam, the invigilator gave the first student a pile of papers and asked him to pass them down the line. What does \"pass them down the line\" mean?",
+     "o": [
+      "chuyền chúng dọc theo hàng người",
+      "giấu chúng đi",
+      "viết lại chúng"
+     ],
+     "a": "chuyền chúng dọc theo hàng người",
+     "vi": "Trong kỳ thi, giám thị đưa cho sinh viên đầu tiên một chồng giấy và nhờ em chuyền dọc theo hàng.",
+     "why": "pass them down the line = chuyền cho người kế tiếp.",
+     "new": [
+      {
+       "w": "invigilator",
+       "vi": "giám thị"
+      },
+      {
+       "w": "pile",
+       "vi": "chồng"
+      }
+     ],
+     "noblank": true,
+     "say": "During the exam, the invigilator gave the first student a pile of papers and asked him to pass them down the line.",
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel tip",
+     "s": "Our hotel is not on the main street, but don't worry. The best seafood restaurant in town is just around the corner. What does \"around the corner\" mean?",
+     "o": [
+      "quanh góc đường; ngay gần đó",
+      "ở rất xa",
+      "bên kia sông"
+     ],
+     "a": "quanh góc đường; ngay gần đó",
+     "vi": "Khách sạn của chúng tôi không nằm trên phố chính, nhưng đừng lo. Nhà hàng hải sản ngon nhất thị trấn ở ngay gần đó.",
+     "why": "around the corner = ngay gần.",
+     "new": [
+      {
+       "w": "seafood",
+       "vi": "hải sản"
+      }
+     ],
+     "noblank": true,
+     "say": "Our hotel is not on the main street, but don't worry. The best seafood restaurant in town is just around the corner.",
+     "tw": "around the corner",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Parents' choice",
+     "s": "Parents love the new nursery because it is only around the corner from the train station, so they can drop their children off on the way to work. What does \"around the corner\" mean?",
+     "o": [
+      "ngay gần đó",
+      "ở xa thị trấn",
+      "đã đóng cửa"
+     ],
+     "a": "ngay gần đó",
+     "vi": "Phụ huynh thích nhà trẻ mới vì nó ngay gần ga tàu, nên họ có thể đưa con đến trên đường đi làm.",
+     "why": "around the corner from = ngay gần.",
+     "new": [
+      {
+       "w": "nursery",
+       "vi": "nhà trẻ"
+      },
+      {
+       "w": "drop off",
+       "vi": "cho xuống/đưa đến"
+      }
+     ],
+     "noblank": true,
+     "say": "Parents love the new nursery because it is only around the corner from the train station, so they can drop their children off on the way to work.",
+     "tw": "around the corner",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "University",
+     "s": "Our lecturer waited for fifteen minutes, but nobody else showed up. In the end, she cancelled the tutorial and sent everyone an email. What does \"show up\" mean?",
+     "o": [
+      "xuất hiện, có mặt",
+      "rời đi",
+      "từ chối"
+     ],
+     "a": "xuất hiện, có mặt",
+     "vi": "Giảng viên đợi mười lăm phút nhưng không ai khác đến. Cuối cùng cô hủy buổi hướng dẫn và gửi email cho mọi người.",
+     "why": "nobody showed up = không ai đến.",
+     "new": [
+      {
+       "w": "tutorial",
+       "vi": "buổi học nhóm nhỏ"
+      },
+      {
+       "w": "cancelled",
+       "vi": "hủy"
+      }
+     ],
+     "noblank": true,
+     "say": "Our lecturer waited for fifteen minutes, but nobody else showed up. In the end, she cancelled the tutorial and sent everyone an email.",
+     "tw": "show up",
+     "ipa": "/ʃəʊ ʌp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Charity dinner",
+     "s": "A famous actor unexpectedly showed up at the charity dinner, and the guests rushed to take photos with him. What does \"show up\" mean?",
+     "o": [
+      "xuất hiện bất ngờ",
+      "bỏ về sớm",
+      "gửi quà"
+     ],
+     "a": "xuất hiện bất ngờ",
+     "vi": "Một diễn viên nổi tiếng bất ngờ xuất hiện ở bữa tối từ thiện và khách chạy tới chụp ảnh cùng anh.",
+     "why": "showed up = có mặt.",
+     "new": [
+      {
+       "w": "unexpectedly",
+       "vi": "bất ngờ"
+      },
+      {
+       "w": "rushed",
+       "vi": "vội vã"
+      }
+     ],
+     "noblank": true,
+     "say": "A famous actor unexpectedly showed up at the charity dinner, and the guests rushed to take photos with him.",
+     "tw": "show up",
+     "ipa": "/ʃəʊ ʌp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "University",
+     "s": "Many universities now run mentoring schemes. Older students help first-year students adapt to campus life, which reduces the number of people who drop out. What does \"help first-year students adapt\" mean?",
+     "o": [
+      "giúp ai làm gì",
+      "ép ai làm gì",
+      "cấm ai làm gì"
+     ],
+     "a": "giúp ai làm gì",
+     "vi": "Nhiều trường đại học nay có chương trình cố vấn. Sinh viên khóa trên giúp sinh viên năm nhất thích nghi với đời sống trường, nhờ đó ít người bỏ học hơn.",
+     "why": "help sb do sth = giúp ai làm gì.",
+     "new": [
+      {
+       "w": "mentoring",
+       "vi": "cố vấn"
+      },
+      {
+       "w": "adapt",
+       "vi": "thích nghi"
+      },
+      {
+       "w": "drop out",
+       "vi": "bỏ học"
+      }
+     ],
+     "noblank": true,
+     "say": "Many universities now run mentoring schemes. Older students help first-year students adapt to campus life, which reduces the number of people who drop out.",
+     "tw": "help somebody do something",
+     "ipa": "/help/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health news",
+     "s": "Doctors say that a short walk after dinner can help people control their blood sugar, especially if they are at risk of diabetes. What does \"help people control\" mean?",
+     "o": [
+      "giúp ai làm gì",
+      "bắt ai làm gì",
+      "đề nghị ai làm gì"
+     ],
+     "a": "giúp ai làm gì",
+     "vi": "Bác sĩ nói đi bộ ngắn sau bữa tối có thể giúp người ta kiểm soát đường huyết, nhất là người có nguy cơ tiểu đường.",
+     "why": "help people control = giúp mọi người kiểm soát.",
+     "new": [
+      {
+       "w": "blood sugar",
+       "vi": "đường huyết"
+      },
+      {
+       "w": "diabetes",
+       "vi": "bệnh tiểu đường"
+      }
+     ],
+     "noblank": true,
+     "say": "Doctors say that a short walk after dinner can help people control their blood sugar, especially if they are at risk of diabetes.",
+     "tw": "help somebody do something",
+     "ipa": "/help/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hotel view",
+     "s": "From the hotel balcony, you can see a long beach that stretches along the coast for miles, with palm trees on one side. What does \"stretches\" mean?",
+     "o": [
+      "trải dài",
+      "thu hẹp",
+      "bị cắt đứt"
+     ],
+     "a": "trải dài",
+     "vi": "Từ ban công khách sạn, bạn nhìn thấy bãi biển dài trải dọc bờ biển hàng dặm, một bên là hàng cọ.",
+     "why": "stretch = trải dài.",
+     "new": [
+      {
+       "w": "palm trees",
+       "vi": "cây cọ"
+      },
+      {
+       "w": "balcony",
+       "vi": "ban công"
+      }
+     ],
+     "noblank": true,
+     "say": "From the hotel balcony, you can see a long beach that stretches along the coast for miles, with palm trees on one side.",
+     "tw": "stretch",
+     "ipa": "/stretʃ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Education news",
+     "s": "The summer holiday stretches over three months in many countries, so some parents struggle to find childcare for such a long period. What does \"stretches\" mean?",
+     "o": [
+      "kéo dài",
+      "bị hủy",
+      "lặp lại"
+     ],
+     "a": "kéo dài",
+     "vi": "Kỳ nghỉ hè kéo dài ba tháng ở nhiều nước nên một số phụ huynh khó tìm người trông trẻ cho quãng dài như vậy.",
+     "why": "stretches over three months = kéo dài ba tháng.",
+     "new": [
+      {
+       "w": "childcare",
+       "vi": "trông giữ trẻ"
+      },
+      {
+       "w": "struggle",
+       "vi": "gặp khó khăn"
+      }
+     ],
+     "noblank": true,
+     "say": "The summer holiday stretches over three months in many countries, so some parents struggle to find childcare for such a long period.",
+     "tw": "stretch",
+     "ipa": "/stretʃ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Architecture",
+     "s": "When the architect asked the residents to imagine living in a house without walls, they laughed. Then she showed them her design for an open-plan home. What does \"imagine living\" mean?",
+     "o": [
+      "tưởng tượng việc làm gì",
+      "phản đối việc làm gì",
+      "tránh việc làm gì"
+     ],
+     "a": "tưởng tượng việc làm gì",
+     "vi": "Khi kiến trúc sư bảo cư dân tưởng tượng sống trong ngôi nhà không có tường, họ bật cười. Rồi cô cho họ xem thiết kế nhà không vách ngăn.",
+     "why": "imagine living = tưởng tượng việc sống.",
+     "new": [
+      {
+       "w": "open-plan",
+       "vi": "không gian mở, ít vách ngăn"
+      },
+      {
+       "w": "design",
+       "vi": "thiết kế"
+      }
+     ],
+     "noblank": true,
+     "say": "When the architect asked the residents to imagine living in a house without walls, they laughed. Then she showed them her design for an open-plan home.",
+     "tw": "imagine doing",
+     "ipa": "/ɪˈmædʒ.ɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Science talk",
+     "s": "Climate scientists often ask us to imagine growing crops in a desert, and then explain which technologies could make this possible. What does \"imagine growing\" mean?",
+     "o": [
+      "tưởng tượng việc làm gì",
+      "hối hận về việc làm gì",
+      "từ chối làm gì"
+     ],
+     "a": "tưởng tượng việc làm gì",
+     "vi": "Các nhà khoa học khí hậu thường yêu cầu chúng ta tưởng tượng việc trồng trọt trên sa mạc, rồi giải thích công nghệ nào có thể biến điều đó thành hiện thực.",
+     "why": "imagine growing = tưởng tượng việc trồng.",
+     "new": [
+      {
+       "w": "crops",
+       "vi": "cây trồng"
+      },
+      {
+       "w": "technologies",
+       "vi": "công nghệ"
+      }
+     ],
+     "noblank": true,
+     "say": "Climate scientists often ask us to imagine growing crops in a desert, and then explain which technologies could make this possible.",
+     "tw": "imagine doing",
+     "ipa": "/ɪˈmædʒ.ɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Book club",
+     "s": "The novel was long and slow at first. However, I read it all the way through because I wanted to know how the story ended. What does \"all the way through\" mean?",
+     "o": [
+      "xuyên suốt, từ đầu đến cuối",
+      "bỏ dở giữa chừng",
+      "chỉ đọc vài trang"
+     ],
+     "a": "xuyên suốt, từ đầu đến cuối",
+     "vi": "Cuốn tiểu thuyết dài và lúc đầu chậm. Tuy nhiên tôi đọc hết từ đầu đến cuối vì muốn biết truyện kết thúc ra sao.",
+     "why": "all the way through = đến tận cuối.",
+     "new": [
+      {
+       "w": "novel",
+       "vi": "tiểu thuyết"
+      }
+     ],
+     "noblank": true,
+     "say": "The novel was long and slow at first. However, I read it all the way through because I wanted to know how the story ended.",
+     "tw": "all the way through",
+     "ipa": "/ˌɔːl ðə weɪ ˈθruː/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Sports coaching",
+     "s": "The coach told the athletes to keep running all the way through the final lap, even if their legs felt tired. What does \"all the way through\" mean?",
+     "o": [
+      "xuyên suốt, đến hết",
+      "dừng lại sớm",
+      "chạy ngược lại"
+     ],
+     "a": "xuyên suốt, đến hết",
+     "vi": "Huấn luyện viên bảo các vận động viên cứ chạy suốt đến hết vòng cuối, dù chân mệt.",
+     "why": "all the way through = đến hết.",
+     "new": [
+      {
+       "w": "athletes",
+       "vi": "vận động viên"
+      },
+      {
+       "w": "lap",
+       "vi": "vòng đua"
+      }
+     ],
+     "noblank": true,
+     "say": "The coach told the athletes to keep running all the way through the final lap, even if their legs felt tired.",
+     "tw": "all the way through",
+     "ipa": "/ˌɔːl ðə weɪ ˈθruː/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Shop display",
+     "s": "The shop owner moved the bestselling items to the front window. Now they are in the right spot, and customers can see them as soon as they walk past. What does \"in the right spot\" mean?",
+     "o": [
+      "ở đúng vị trí",
+      "đang bị hỏng",
+      "quá đắt"
+     ],
+     "a": "ở đúng vị trí",
+     "vi": "Chủ cửa hàng chuyển các mặt hàng bán chạy ra cửa sổ phía trước. Giờ chúng ở đúng vị trí và khách thấy ngay khi đi ngang.",
+     "why": "in the right spot = đặt đúng chỗ.",
+     "new": [
+      {
+       "w": "bestselling",
+       "vi": "bán chạy"
+      },
+      {
+       "w": "display",
+       "vi": "trưng bày"
+      }
+     ],
+     "noblank": true,
+     "say": "The shop owner moved the bestselling items to the front window. Now they are in the right spot, and customers can see them as soon as they walk past.",
+     "tw": "in the right spot",
+     "ipa": "/ɪn ðə raɪt spɒt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Interior design",
+     "s": "Good lighting makes a huge difference in a small flat, but only if the lamps are in the right spot and don't shine directly into your eyes. What does \"in the right spot\" mean?",
+     "o": [
+      "ở đúng vị trí",
+      "đang cháy",
+      "bị đổi màu"
+     ],
+     "a": "ở đúng vị trí",
+     "vi": "Ánh sáng tốt tạo khác biệt lớn trong căn hộ nhỏ, nhưng chỉ khi đèn ở đúng vị trí và không chiếu thẳng vào mắt.",
+     "why": "in the right spot = đúng chỗ.",
+     "new": [
+      {
+       "w": "lighting",
+       "vi": "ánh sáng"
+      },
+      {
+       "w": "shine",
+       "vi": "chiếu sáng"
+      }
+     ],
+     "noblank": true,
+     "say": "Good lighting makes a huge difference in a small flat, but only if the lamps are in the right spot and don't shine directly into your eyes.",
+     "tw": "in the right spot",
+     "ipa": "/ɪn ðə raɪt spɒt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "House moving",
+     "s": "The removal team arrived at nine. They loaded the sofa and the boxes into the lorry in less than an hour, despite the narrow staircase. What does \"loaded ... into\" mean?",
+     "o": [
+      "chất, xếp vào",
+      "dỡ xuống",
+      "bán đi"
+     ],
+     "a": "chất, xếp vào",
+     "vi": "Đội chuyển nhà đến lúc chín giờ. Họ chất ghế sofa và các thùng lên xe tải trong chưa đầy một giờ, dù cầu thang hẹp.",
+     "why": "load sth into sth = chất vào.",
+     "new": [
+      {
+       "w": "removal team",
+       "vi": "đội chuyển nhà"
+      },
+      {
+       "w": "staircase",
+       "vi": "cầu thang"
+      }
+     ],
+     "noblank": true,
+     "say": "The removal team arrived at nine. They loaded the sofa and the boxes into the lorry in less than an hour, despite the narrow staircase.",
+     "tw": "load something into something",
+     "ipa": "/ləʊd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Kitchen advice",
+     "s": "If you load too many dishes into the dishwasher at once, the water cannot reach them properly, and you will have to wash them again. What does \"load ... into\" mean?",
+     "o": [
+      "cho vào, xếp vào",
+      "lấy ra",
+      "đập vỡ"
+     ],
+     "a": "cho vào, xếp vào",
+     "vi": "Nếu bạn xếp quá nhiều bát đĩa vào máy rửa bát cùng lúc, nước không tới đủ và bạn phải rửa lại.",
+     "why": "load sth into = xếp vào.",
+     "new": [
+      {
+       "w": "dishwasher",
+       "vi": "máy rửa bát"
+      },
+      {
+       "w": "properly",
+       "vi": "đúng cách"
+      }
+     ],
+     "noblank": true,
+     "say": "If you load too many dishes into the dishwasher at once, the water cannot reach them properly, and you will have to wash them again.",
+     "tw": "load something into something",
+     "ipa": "/ləʊd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Property guide",
+     "s": "Buying a house involves many steps, such as finding a loan and checking legal papers. The whole process can take more than six months. What does \"the whole process\" mean?",
+     "o": [
+      "toàn bộ quá trình",
+      "kết quả cuối cùng",
+      "một phần nhỏ"
+     ],
+     "a": "toàn bộ quá trình",
+     "vi": "Mua nhà gồm nhiều bước, như tìm khoản vay và kiểm tra giấy tờ pháp lý. Toàn bộ quá trình có thể mất hơn sáu tháng.",
+     "why": "the whole process = cả quá trình.",
+     "new": [
+      {
+       "w": "loan",
+       "vi": "khoản vay"
+      },
+      {
+       "w": "legal",
+       "vi": "pháp lý"
+      }
+     ],
+     "noblank": true,
+     "say": "Buying a house involves many steps, such as finding a loan and checking legal papers. The whole process can take more than six months.",
+     "tw": "the whole process",
+     "ipa": "/ðə həʊl ˈprəʊ.ses/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking video",
+     "s": "The chef filmed the whole process of making fresh pasta, so viewers could follow every step at home. What does \"the whole process\" mean?",
+     "o": [
+      "toàn bộ quá trình",
+      "nguyên liệu chính",
+      "thời gian rảnh"
+     ],
+     "a": "toàn bộ quá trình",
+     "vi": "Đầu bếp quay toàn bộ quá trình làm mì ống tươi để người xem làm theo từng bước ở nhà.",
+     "why": "whole process = cả quá trình.",
+     "new": [
+      {
+       "w": "filmed",
+       "vi": "quay phim"
+      },
+      {
+       "w": "pasta",
+       "vi": "mì ống"
+      }
+     ],
+     "noblank": true,
+     "say": "The chef filmed the whole process of making fresh pasta, so viewers could follow every step at home.",
+     "tw": "the whole process",
+     "ipa": "/ðə həʊl ˈprəʊ.ses/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Bridge repair",
+     "s": "It took the engineers nearly two years to repair the bridge, mainly because heavy rain kept interrupting the work. What does \"took\" mean?",
+     "o": [
+      "mất bao lâu để hoàn thành",
+      "mang đi",
+      "chấp nhận"
+     ],
+     "a": "mất bao lâu để hoàn thành",
+     "vi": "Các kỹ sư mất gần hai năm để sửa cây cầu, chủ yếu vì mưa lớn liên tục làm gián đoạn công việc.",
+     "why": "took ... two years = mất hai năm.",
+     "new": [
+      {
+       "w": "interrupting",
+       "vi": "làm gián đoạn"
+      },
+      {
+       "w": "repair",
+       "vi": "sửa chữa"
+      }
+     ],
+     "noblank": true,
+     "say": "It took the engineers nearly two years to repair the bridge, mainly because heavy rain kept interrupting the work.",
+     "tw": "take time",
+     "ipa": "/teɪk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Baking tips",
+     "s": "Baking sourdough bread takes at least twenty-four hours, since the dough needs time to rise slowly in a cool place. What does \"takes\" mean?",
+     "o": [
+      "mất (bao lâu)",
+      "tốn tiền",
+      "mang theo"
+     ],
+     "a": "mất (bao lâu)",
+     "vi": "Nướng bánh mì men chua mất ít nhất hai mươi bốn giờ vì bột cần thời gian nở chậm ở nơi mát.",
+     "why": "takes + thời gian = mất bao lâu.",
+     "new": [
+      {
+       "w": "dough",
+       "vi": "bột nhào"
+      },
+      {
+       "w": "rise",
+       "vi": "nở ra"
+      }
+     ],
+     "noblank": true,
+     "say": "Baking sourdough bread takes at least twenty-four hours, since the dough needs time to rise slowly in a cool place.",
+     "tw": "take time",
+     "ipa": "/teɪk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Tech review",
+     "s": "The new phone weighs just under 150 grams, so it is lighter than most models on the market. Its battery, however, is rather small. What does \"just under\" mean?",
+     "o": [
+      "chưa đến, ít hơn một chút",
+      "hơn rất nhiều",
+      "đúng bằng"
+     ],
+     "a": "chưa đến, ít hơn một chút",
+     "vi": "Chiếc điện thoại mới nặng chưa đến 150 gram nên nhẹ hơn hầu hết mẫu trên thị trường. Tuy nhiên pin khá nhỏ.",
+     "why": "just under 150 = hơi dưới 150.",
+     "new": [
+      {
+       "w": "weighs",
+       "vi": "nặng (bao nhiêu)"
+      },
+      {
+       "w": "battery",
+       "vi": "pin"
+      }
+     ],
+     "noblank": true,
+     "say": "The new phone weighs just under 150 grams, so it is lighter than most models on the market. Its battery, however, is rather small.",
+     "tw": "just under",
+     "ipa": "/dʒʌst ˈʌn.dər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Survey results",
+     "s": "The survey shows that just under half of the residents support the plan, while the rest are either against it or undecided. What does \"just under\" mean?",
+     "o": [
+      "chưa đến, ít hơn một chút",
+      "hơn một chút",
+      "gấp đôi"
+     ],
+     "a": "chưa đến, ít hơn một chút",
+     "vi": "Khảo sát cho thấy chưa đến một nửa cư dân ủng hộ kế hoạch, số còn lại phản đối hoặc chưa quyết định.",
+     "why": "just under half = hơi dưới một nửa.",
+     "new": [
+      {
+       "w": "survey",
+       "vi": "cuộc khảo sát"
+      },
+      {
+       "w": "undecided",
+       "vi": "chưa quyết định"
+      }
+     ],
+     "noblank": true,
+     "say": "The survey shows that just under half of the residents support the plan, while the rest are either against it or undecided.",
+     "tw": "just under",
+     "ipa": "/dʒʌst ˈʌn.dər/"
+    }
+   ]
+  }
+ ]
+}
