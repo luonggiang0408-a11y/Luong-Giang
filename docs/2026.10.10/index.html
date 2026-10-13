@@ -1,0 +1,334 @@
+<title>Ôn từ vựng 2026.10.10</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Bricolage+Grotesque:wght@700;800&display=swap" rel="stylesheet">
+<style>
+/* Layout: one narrow reading column, sticky section tabs, one question card at a time per row. */
+:root{
+  --bg:#F2F6F8; --surface:#FFFFFF; --ink:#12263A; --muted:#566879; --line:#D3DDE5;
+  --primary:#0E5A78; --primary-ink:#FFFFFF; --hl:#E6F36E; --hl-ink:#12263A;
+  --good:#1B7448; --good-bg:#DDF2E5; --bad:#A93420; --bad-bg:#FBE4DD; --soft:#E7EFF4;
+  --display:"Bricolage Grotesque","Be Vietnam Pro",system-ui,sans-serif;
+  --body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D1923; --surface:#14263A; --ink:#E5EEF5; --muted:#9BB0C2; --line:#2A4259;
+    --primary:#62C5EA; --primary-ink:#06222F; --hl:#56661A; --hl-ink:#F4F9D0;
+    --good:#66D394; --good-bg:#143A29; --bad:#FF937C; --bad-bg:#40201A; --soft:#1B3047;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0D1923; --surface:#14263A; --ink:#E5EEF5; --muted:#9BB0C2; --line:#2A4259;
+  --primary:#62C5EA; --primary-ink:#06222F; --hl:#56661A; --hl-ink:#F4F9D0;
+  --good:#66D394; --good-bg:#143A29; --bad:#FF937C; --bad-bg:#40201A; --soft:#1B3047;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0;padding-inline:16px;padding-block:28px 64px}
+.wrap{max-width:760px;margin-inline:auto}
+header{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.08;margin:0;font-weight:800;text-wrap:balance}
+.lead{margin:0;color:var(--muted);max-width:62ch}
+.stats{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.bar{flex:1 1 200px;min-width:0;height:8px;border-radius:99px;background:var(--soft);overflow:hidden}
+.bar>i{display:block;height:100%;width:0;background:var(--primary);transition:width .3s}
+.num{font-variant-numeric:tabular-nums;font-size:14px;color:var(--muted)}
+.num b{color:var(--ink)}
+button{font:inherit;color:inherit;cursor:pointer}
+.ghost{background:none;border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:13px;color:var(--muted)}
+.ghost:hover{border-color:var(--primary);color:var(--ink)}
+:focus-visible{outline:3px solid var(--primary);outline-offset:2px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:8px;margin-bottom:12px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+.tab{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:7px 14px;font-size:14px;font-weight:500;white-space:nowrap}
+.tab small{color:var(--muted);font-variant-numeric:tabular-nums;margin-left:6px;font-weight:400}
+.tab[aria-selected="true"]{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+.tab[aria-selected="true"] small{color:inherit;opacity:.85}
+.note{background:var(--soft);border-radius:12px;padding:14px 16px;margin-bottom:16px;font-size:15px}
+.note h2{font-family:var(--display);font-size:20px;margin:0 0 4px;font-weight:700}
+.note p{margin:0}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px;display:flex;flex-direction:column;gap:10px}
+.qh{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.qn{font-family:var(--display);font-weight:800;font-size:15px;color:var(--primary);font-variant-numeric:tabular-nums}
+.ctx{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.sent{font-size:18px;line-height:1.7;margin:0;text-wrap:pretty}
+.slot{display:inline-block;min-width:4.5ch;padding:0 8px;border-radius:6px;background:var(--hl);color:var(--hl-ink);font-weight:600;text-align:center;vertical-align:baseline}
+.slot.empty{color:transparent;user-select:none}
+.slot.good{background:var(--good-bg);color:var(--good)}
+.slot.bad{background:var(--bad-bg);color:var(--bad);text-decoration:line-through}
+input.blank{font:inherit;font-weight:600;width:11ch;max-width:100%;padding:1px 8px;border:2px solid var(--hl);border-radius:6px;background:var(--surface);color:var(--ink);text-align:center}
+input.blank:focus{outline:none;border-color:var(--primary)}
+input.blank.good{border-color:var(--good);color:var(--good);background:var(--good-bg)}
+input.blank.bad{border-color:var(--bad);color:var(--bad);background:var(--bad-bg)}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt,.check{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:8px 14px;font-size:15px;font-weight:500}
+.opt:hover:not(:disabled){border-color:var(--primary);background:var(--soft)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--good);background:var(--good-bg);color:var(--good)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-bg);color:var(--bad)}
+.check{align-self:flex-start;background:var(--primary);border-color:var(--primary);color:var(--primary-ink);font-weight:600}
+.fb{border-radius:8px;padding:10px 12px;font-size:15px}
+.fb.good{background:var(--good-bg)}
+.fb.bad{background:var(--bad-bg)}
+.fb .tag{font-weight:700;margin-right:8px}
+.fb.good .tag{color:var(--good)}
+.fb.bad .tag{color:var(--bad)}
+.fb p{margin:4px 0 0}
+.vi{color:var(--muted);font-size:14px}
+.retry{align-self:flex-start}
+.newwords{color:var(--ink);font-size:14px}
+.newwords span{white-space:normal}
+.hintrow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.hinttext{font-size:14px;color:var(--muted)}
+.listen{display:flex;flex-wrap:wrap;align-items:center;gap:8px;border-top:1px solid var(--line);padding-top:10px}
+.say{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:6px 14px 6px 10px;font-size:14px;font-weight:500}
+.say svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;color:var(--primary)}
+.say:hover:not(:disabled){border-color:var(--primary);background:var(--soft)}
+.say:disabled{opacity:.45;cursor:default}
+.say svg[hidden]{display:none}
+.say.on{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+.say.on svg{color:var(--primary-ink)}
+.listen .hint{font-size:13px;color:var(--muted)}
+.foot{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;margin-top:8px}
+.empty-state{text-align:center;color:var(--muted);padding:32px 12px;background:var(--surface);border:1px dashed var(--line);border-radius:12px}
+.theme{position:absolute;top:calc(12px + env(safe-area-inset-top,0px));right:16px}
+@media (max-width:480px){.sent{font-size:17px}}
+@media (prefers-reduced-motion:reduce){.bar>i{transition:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Ôn tập hằng ngày · B1 – B2 · 10/10/2026</span>
+    <h1>Ôn từ vựng hôm nay</h1>
+    <p class="lead">Hôm nay có 6 từ: natural disaster, fatty meat, mackerel, scallop, non-profit organization, invest money from... Mỗi từ làm 2 câu viết, 2 câu chọn từ, 2 câu chọn nghĩa (36 câu). Câu nào cũng có nút nghe.</p>
+  </header>
+
+  <div class="stats" aria-label="Tiến độ">
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" id="pbar"><i id="pfill"></i></div>
+    <span class="num" id="pnum"></span>
+    <button class="ghost" id="resetAll" type="button">Làm lại từ đầu</button>
+  </div>
+
+  <nav aria-label="Các phần bài tập"><div class="tabs" role="tablist" id="tabs"></div></nav>
+  <main id="view"></main>
+</div>
+
+<script>
+(function(){
+  /* ---------- content (injected by build_page.py from content.json) ---------- */
+  const DATA={"meta": {"title": "Ôn từ vựng 2026.10.10", "eyebrow": "Ôn tập hằng ngày · B1 – B2 · 10/10/2026", "h1": "Ôn từ vựng hôm nay", "lead": "Hôm nay có 6 từ: natural disaster, fatty meat, mackerel, scallop, non-profit organization, invest money from... Mỗi từ làm 2 câu viết, 2 câu chọn từ, 2 câu chọn nghĩa (36 câu). Câu nào cũng có nút nghe.", "storageKey": "vocab-2026.10.10-v2", "voice": "en-US-EmmaMultilingualNeural", "audioVersion": "emma20261010b"}, "sections": [{"id": "s1", "title": "Viết từ", "note": "<b>Viết từ.<\/b> Đọc câu, xem gợi ý tiếng Việt rồi gõ từ còn thiếu. Từ hôm nay: natural disaster = thảm họa thiên nhiên · fatty meat = thịt nhiều mỡ · mackerel = cá thu · scallop = sò điệp · non-profit organization = tổ chức phi lợi nhuận · invest money from... = đầu tư số tiền từ...", "targets": ["natural disaster", "fatty meat", "mackerel", "scallop", "non-profit organization", "invest money from"], "qs": [{"type": "tx", "ctx": "News report", "s": "The storm was a terrible ___ for the small town. Hundreds of families lost their homes.", "acc": ["natural disaster"], "vi": "Cơn bão là một thảm họa thiên nhiên khủng khiếp với thị trấn nhỏ. Hàng trăm gia đình mất nhà.", "why": "natural disaster = thảm họa thiên nhiên (bão, lũ, động đất).", "hint": "Thảm họa thiên nhiên.", "new": [{"w": "terrible", "vi": "khủng khiếp"}, {"w": "lost", "vi": "mất"}]}, {"type": "tx", "ctx": "Geography class", "s": "Earthquakes and floods are both kinds of ___, so people must prepare for them.", "acc": ["natural disaster", "natural disasters"], "vi": "Động đất và lũ lụt đều là thảm họa thiên nhiên, nên người ta phải chuẩn bị.", "why": "natural disaster = thảm họa thiên nhiên; chấp nhận số nhiều.", "hint": "Thảm họa thiên nhiên (số nhiều cũng được).", "new": [{"w": "earthquakes", "vi": "động đất"}, {"w": "prepare", "vi": "chuẩn bị"}]}, {"type": "tx", "ctx": "Dinner at a steakhouse", "s": "The doctor told Mr. Brown to eat less ___ because it is bad for his heart.", "acc": ["fatty meat"], "vi": "Bác sĩ bảo ông Brown ăn ít thịt nhiều mỡ hơn vì nó không tốt cho tim.", "why": "fatty meat = thịt nhiều mỡ.", "hint": "Thịt nhiều mỡ.", "new": [{"w": "heart", "vi": "tim"}]}, {"type": "tx", "ctx": "Cooking at home", "s": "Lan cut the white parts off the pork. She does not like ___ in her soup.", "acc": ["fatty meat"], "vi": "Lan cắt phần mỡ trắng khỏi thịt heo. Cô ấy không thích thịt mỡ trong món súp.", "why": "fatty meat = thịt nhiều mỡ.", "hint": "Thịt nhiều mỡ.", "new": [{"w": "pork", "vi": "thịt heo"}]}, {"type": "tx", "ctx": "Cooking at home", "s": "My mother often cooks ___ with tomato sauce. It is a cheap fish.", "acc": ["mackerel"], "vi": "Mẹ tôi thường nấu cá thu với sốt cà chua. Đó là loại cá rẻ.", "why": "mackerel = cá thu.", "hint": "Loài cá: cá thu."}, {"type": "tx", "ctx": "Fish shop", "s": "The seller said, \"These ___ came from the sea this morning, so they are very fresh.\"", "acc": ["mackerel", "mackerels"], "vi": "Người bán nói: \"Những con cá thu này vừa từ biển lên sáng nay nên rất tươi.\"", "why": "mackerel = cá thu (số nhiều viết giống số ít).", "hint": "Cá thu (nhiều con)."}, {"type": "tx", "ctx": "Seafood restaurant", "s": "Anna ordered grilled ___ with butter and garlic. It is a shellfish with a round shell.", "acc": ["scallop", "scallops"], "vi": "Anna gọi sò điệp nướng bơ tỏi. Đó là loài hải sản có vỏ tròn.", "why": "scallop = sò điệp.", "hint": "Sò điệp.", "new": [{"w": "shellfish", "vi": "hải sản có vỏ"}, {"w": "shell", "vi": "vỏ"}]}, {"type": "tx", "ctx": "Beach holiday", "s": "On the beach, the children found an empty ___ shell and kept it as a gift.", "acc": ["scallop"], "vi": "Trên bãi biển, bọn trẻ nhặt được một vỏ sò điệp rỗng và giữ làm quà.", "why": "scallop = sò điệp; scallop shell = vỏ sò điệp.", "hint": "Sò điệp.", "new": [{"w": "empty", "vi": "rỗng"}]}, {"type": "tx", "ctx": "Charity event", "s": "Mai volunteers for a ___ that gives free books to poor children.", "acc": ["non-profit organization", "nonprofit organization", "non-profit organisation"], "vi": "Mai làm tình nguyện cho một tổ chức phi lợi nhuận tặng sách miễn phí cho trẻ nghèo.", "why": "non-profit organization = tổ chức phi lợi nhuận (không chia lợi nhuận).", "hint": "Tổ chức phi lợi nhuận.", "new": [{"w": "volunteers", "vi": "làm tình nguyện"}, {"w": "poor", "vi": "nghèo"}]}, {"type": "tx", "ctx": "Town meeting", "s": "A ___ does not give its money to owners. It uses the money to help the community.", "acc": ["non-profit organization", "nonprofit organization", "non-profit organisation"], "vi": "Tổ chức phi lợi nhuận không chia tiền cho chủ sở hữu. Nó dùng tiền để giúp cộng đồng.", "why": "non-profit organization = tổ chức phi lợi nhuận.", "hint": "Tổ chức phi lợi nhuận.", "new": [{"w": "community", "vi": "cộng đồng"}, {"w": "owners", "vi": "chủ sở hữu"}]}, {"type": "tx", "ctx": "Bank meeting", "s": "The fund will ___ money from small savers in safe government bonds.", "acc": ["invest", "invests"], "vi": "Quỹ sẽ đầu tư số tiền từ những người gửi tiết kiệm nhỏ vào trái phiếu chính phủ an toàn.", "why": "invest money from... = đầu tư số tiền từ...", "hint": "Đầu tư số tiền từ...", "new": [{"w": "savers", "vi": "người gửi tiết kiệm"}, {"w": "bonds", "vi": "trái phiếu"}]}, {"type": "tx", "ctx": "Business class", "s": "This company wants to ___ money from its members in new houses and shops.", "acc": ["invest", "invests"], "vi": "Công ty này muốn đầu tư số tiền từ các thành viên vào nhà và cửa hàng mới.", "why": "invest money from... = đầu tư số tiền từ...", "hint": "Đầu tư số tiền từ...", "new": [{"w": "members", "vi": "thành viên"}]}]}, {"id": "s2", "title": "Chọn từ", "note": "<b>Chọn từ.<\/b> Đọc tình huống và chọn từ đúng điền vào chỗ trống. Từ hôm nay: natural disaster = thảm họa thiên nhiên · fatty meat = thịt nhiều mỡ · mackerel = cá thu · scallop = sò điệp · non-profit organization = tổ chức phi lợi nhuận · invest money from... = đầu tư số tiền từ...", "targets": ["natural disaster", "fatty meat", "mackerel", "scallop", "non-profit organization", "invest money from"], "qs": [{"type": "mc", "ctx": "Weather news", "s": "After the flood, the city asked for help. It was the worst ___ in ten years.", "o": ["natural disaster", "birthday party", "bus delay"], "a": "natural disaster", "vi": "Sau trận lũ, thành phố xin giúp đỡ. Đó là thảm họa thiên nhiên tồi tệ nhất trong mười năm.", "why": "Lũ lụt → natural disaster.", "new": [{"w": "flood", "vi": "lũ lụt"}, {"w": "worst", "vi": "tồi tệ nhất"}]}, {"type": "mc", "ctx": "School project", "s": "Minh made a poster about volcanoes, storms and earthquakes. Its title was \"Every ___\".", "o": ["natural disaster", "healthy meal", "school trip"], "a": "natural disaster", "vi": "Minh làm áp phích về núi lửa, bão và động đất. Tiêu đề là \"Mọi thảm họa thiên nhiên\".", "why": "Núi lửa, bão, động đất = natural disaster.", "new": [{"w": "volcanoes", "vi": "núi lửa"}, {"w": "poster", "vi": "áp phích"}]}, {"type": "mc", "ctx": "Diet advice", "s": "Tom has high cholesterol, so he avoids ___ like bacon and pork belly.", "o": ["fatty meat", "fresh fruit", "green tea"], "a": "fatty meat", "vi": "Tom bị mỡ máu cao nên tránh thịt mỡ như thịt xông khói và ba chỉ.", "why": "Bacon, pork belly = fatty meat.", "new": [{"w": "bacon", "vi": "thịt xông khói"}]}, {"type": "mc", "ctx": "At the market", "s": "The butcher said, \"This piece is ___, so it will be very soft and rich when you cook it.\"", "o": ["fatty meat", "fresh fish", "brown rice"], "a": "fatty meat", "vi": "Người bán thịt nói: \"Miếng này là thịt nhiều mỡ nên nấu lên sẽ rất mềm và béo.\"", "why": "Mềm và béo khi nấu → fatty meat.", "new": [{"w": "butcher", "vi": "người bán thịt"}]}, {"type": "mc", "ctx": "Cleaning fish", "s": "Dad cleaned the ___ and took out the small bones before frying it.", "o": ["mackerel", "scallop", "butter"], "a": "mackerel", "vi": "Bố làm sạch con cá thu và lấy xương nhỏ ra trước khi chiên.", "why": "Có xương, đem chiên → cá: mackerel.", "new": [{"w": "bones", "vi": "xương"}]}, {"type": "mc", "ctx": "Fishing trip", "s": "Grandpa caught three silver ___ in the sea and cooked them on the boat.", "o": ["mackerel", "scallops", "onions"], "a": "mackerel", "vi": "Ông bắt được ba con cá thu bạc ở biển và nấu ngay trên thuyền.", "why": "Bắt ở biển, màu bạc → cá: mackerel.", "new": [{"w": "caught", "vi": "bắt được"}, {"w": "silver", "vi": "màu bạc"}]}, {"type": "mc", "ctx": "Seafood lunch", "s": "Anna opened the shell and ate the sweet ___ inside with a little lemon.", "o": ["scallop", "mackerel", "bread"], "a": "scallop", "vi": "Anna mở vỏ và ăn phần sò điệp ngọt bên trong với một ít chanh.", "why": "Có vỏ (shell) → scallop, không phải cá.", "new": [{"w": "inside", "vi": "bên trong"}, {"w": "shell", "vi": "vỏ"}]}, {"type": "mc", "ctx": "Restaurant menu", "s": "The chef cooked the ___ for only one minute on each side so it stayed soft.", "o": ["scallop", "mackerel", "potato"], "a": "scallop", "vi": "Đầu bếp nấu sò điệp chỉ một phút mỗi mặt để nó vẫn mềm.", "why": "Nấu rất nhanh, mềm → scallop.", "new": [{"w": "chef", "vi": "đầu bếp"}]}, {"type": "mc", "ctx": "Volunteer day", "s": "Hoa works for a ___ that helps old people. She does not get a big salary.", "o": ["non-profit organization", "shopping mall", "fast-food chain"], "a": "non-profit organization", "vi": "Hoa làm cho một tổ chức phi lợi nhuận giúp người già. Cô ấy không nhận lương cao.", "why": "Giúp người già, không vì lợi nhuận → non-profit organization.", "new": [{"w": "salary", "vi": "tiền lương"}]}, {"type": "mc", "ctx": "Charity news", "s": "The group gave warm clothes to poor families. It is a ___, not a business.", "o": ["non-profit organization", "big bank", "hotel"], "a": "non-profit organization", "vi": "Nhóm đã tặng quần áo ấm cho các gia đình nghèo. Đó là một tổ chức phi lợi nhuận, không phải doanh nghiệp.", "why": "Không phải business → non-profit organization.", "new": [{"w": "clothes", "vi": "quần áo"}]}, {"type": "mc", "ctx": "Bank talk", "s": "Mr. Lee explains that the fund will ___ money from savers in different projects.", "o": ["invest", "borrow", "spend"], "a": "invest", "vi": "Ông Lee giải thích quỹ sẽ đầu tư số tiền từ người gửi vào nhiều dự án khác nhau.", "why": "invest money from... = đầu tư số tiền từ... vào dự án.", "new": [{"w": "projects", "vi": "dự án"}]}, {"type": "mc", "ctx": "Finance class", "s": "A credit union ___ money from its members in loans and safe products to earn more.", "o": ["invests", "hides", "forgets"], "a": "invests", "vi": "Liên đoàn tín dụng đầu tư số tiền từ các thành viên vào các khoản vay và sản phẩm an toàn để kiếm thêm.", "why": "invests money from... = đầu tư số tiền từ...", "new": [{"w": "loans", "vi": "khoản vay"}, {"w": "earn", "vi": "kiếm"}]}]}, {"id": "s3", "title": "Chọn nghĩa", "note": "<b>Chọn nghĩa.<\/b> Đọc câu trong tình huống rồi chọn nghĩa tiếng Việt đúng. Từ hôm nay: natural disaster = thảm họa thiên nhiên · fatty meat = thịt nhiều mỡ · mackerel = cá thu · scallop = sò điệp · non-profit organization = tổ chức phi lợi nhuận · invest money from... = đầu tư số tiền từ...", "targets": ["natural disaster", "fatty meat", "mackerel", "scallop", "non-profit organization", "invest money from"], "qs": [{"type": "mc", "ctx": "TV news", "s": "The reporter says: \"The flood was a natural disaster, and many people left their homes.\" What does \"natural disaster\" mean?", "o": ["thảm họa thiên nhiên", "tai nạn giao thông", "kỳ nghỉ hè"], "a": "thảm họa thiên nhiên", "vi": "Phóng viên nói: \"Trận lũ là một thảm họa thiên nhiên và nhiều người đã rời nhà.\"", "why": "natural disaster = thảm họa thiên nhiên.", "noblank": true, "say": "The flood was a natural disaster, and many people left their homes."}, {"type": "mc", "ctx": "Class discussion", "s": "A student says: \"Storms and earthquakes are natural disasters.\" What does \"natural disasters\" mean?", "o": ["thảm họa thiên nhiên", "bài tập về nhà", "món ăn truyền thống"], "a": "thảm họa thiên nhiên", "vi": "Một học sinh nói: \"Bão và động đất là những thảm họa thiên nhiên.\"", "why": "natural disaster = thảm họa thiên nhiên.", "noblank": true, "say": "Storms and earthquakes are natural disasters."}, {"type": "mc", "ctx": "Health talk", "s": "The nurse says: \"Try not to eat too much fatty meat.\" What does \"fatty meat\" mean?", "o": ["thịt nhiều mỡ", "thịt nấu chín", "thịt đông lạnh"], "a": "thịt nhiều mỡ", "vi": "Y tá nói: \"Cố đừng ăn quá nhiều thịt mỡ.\"", "why": "fatty meat = thịt nhiều mỡ.", "noblank": true, "say": "Try not to eat too much fatty meat."}, {"type": "mc", "ctx": "Family dinner", "s": "Dad says: \"I like fatty meat, but it makes me feel heavy.\" What does \"fatty meat\" mean?", "o": ["thịt nhiều mỡ", "thịt rất cay", "thịt ít muối"], "a": "thịt nhiều mỡ", "vi": "Bố nói: \"Bố thích thịt mỡ nhưng ăn xong thấy nặng bụng.\"", "why": "fatty meat = thịt nhiều mỡ.", "noblank": true, "say": "I like fatty meat, but it makes me feel heavy."}, {"type": "mc", "ctx": "At the market", "s": "A woman says: \"I want two fresh mackerel for dinner, please.\" What does \"mackerel\" mean?", "o": ["cá thu", "sò điệp", "thịt bò"], "a": "cá thu", "vi": "Một người phụ nữ nói: \"Làm ơn cho tôi hai con cá thu tươi cho bữa tối.\"", "why": "mackerel = cá thu.", "noblank": true, "say": "I want two fresh mackerel for dinner, please."}, {"type": "mc", "ctx": "Cooking show", "s": "The chef says: \"Mackerel is a cheap fish with strong flavor.\" What does \"mackerel\" mean?", "o": ["cá thu", "tôm hùm", "cua biển"], "a": "cá thu", "vi": "Đầu bếp nói: \"Cá thu là loại cá rẻ với vị đậm.\"", "why": "mackerel = cá thu.", "noblank": true, "say": "Mackerel is a cheap fish with strong flavor."}, {"type": "mc", "ctx": "Reading a menu", "s": "Nam reads the menu: \"Scallops in garlic sauce.\" What does \"scallops\" mean?", "o": ["sò điệp", "cá thu", "mực"], "a": "sò điệp", "vi": "Nam đọc thực đơn: \"Sò điệp sốt tỏi.\"", "why": "scallop = sò điệp.", "noblank": true, "say": "Scallops in garlic sauce."}, {"type": "mc", "ctx": "Seafood shop", "s": "A customer says: \"These scallops are big and fresh today.\" What does \"scallops\" mean?", "o": ["sò điệp", "bánh mì", "rau xà lách"], "a": "sò điệp", "vi": "Một khách hàng nói: \"Hôm nay sò điệp to và tươi.\"", "why": "scallop = sò điệp.", "noblank": true, "say": "These scallops are big and fresh today."}, {"type": "mc", "ctx": "Neighborhood news", "s": "The sign says: \"We are a non-profit organization. All money helps local children.\" What does \"non-profit organization\" mean?", "o": ["tổ chức phi lợi nhuận", "công ty bán lẻ", "ngân hàng lớn"], "a": "tổ chức phi lợi nhuận", "vi": "Biển hiệu ghi: \"Chúng tôi là tổ chức phi lợi nhuận. Mọi khoản tiền giúp trẻ em địa phương.\"", "why": "non-profit organization = tổ chức phi lợi nhuận.", "noblank": true, "say": "We are a non-profit organization. All money helps local children."}, {"type": "mc", "ctx": "Job interview", "s": "Lisa says: \"I want to work for a non-profit organization after university.\" What does \"non-profit organization\" mean?", "o": ["tổ chức phi lợi nhuận", "cửa hàng thời trang", "hãng hàng không"], "a": "tổ chức phi lợi nhuận", "vi": "Lisa nói: \"Sau đại học tôi muốn làm cho một tổ chức phi lợi nhuận.\"", "why": "non-profit organization = tổ chức phi lợi nhuận.", "noblank": true, "say": "I want to work for a non-profit organization after university."}, {"type": "mc", "ctx": "Bank brochure", "s": "The brochure says: \"The fund invests money from its clients in safe products.\" What does \"invests money from\" mean?", "o": ["đầu tư số tiền từ", "vay số tiền từ", "tiêu hết số tiền từ"], "a": "đầu tư số tiền từ", "vi": "Tờ rơi ghi: \"Quỹ đầu tư số tiền từ khách hàng vào các sản phẩm an toàn.\"", "why": "invest money from... = đầu tư số tiền từ...", "noblank": true, "say": "The fund invests money from its clients in safe products."}, {"type": "mc", "ctx": "Business news", "s": "The reporter says: \"The company will invest money from new partners in solar energy.\" What does \"invest money from\" mean?", "o": ["đầu tư số tiền từ", "ăn cắp số tiền từ", "quên số tiền từ"], "a": "đầu tư số tiền từ", "vi": "Phóng viên nói: \"Công ty sẽ đầu tư số tiền từ các đối tác mới vào năng lượng mặt trời.\"", "why": "invest money from... = đầu tư số tiền từ...", "noblank": true, "say": "The company will invest money from new partners in solar energy."}]}]};
+  const SECTIONS=DATA.sections;
+  SECTIONS.forEach(sec=>sec.qs.forEach(q=>{if(q.type==='tx'&&!q.acc)q.acc=[q.a];if(q.type==='tx'&&!q.a)q.a=q.acc[0];}));
+
+  /* ---------- prepare ---------- */
+  const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+  const ALL=[];
+  SECTIONS.forEach(sec=>sec.qs.forEach((q,i)=>{q.id=sec.id+'q'+(i+1);q.sec=sec.id;q.n=i+1;if(q.type==='mc')q.opts=shuffle(q.o);ALL.push(q);}));
+  const byId=Object.fromEntries(ALL.map(q=>[q.id,q]));
+
+  const KEY=DATA.meta.storageKey||'drill-v1';
+  let state={};
+  try{state=JSON.parse(localStorage.getItem(KEY)||'{}')||{};}catch(e){state={};}
+  const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}};
+
+  const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  const norm=s=>String(s).toLowerCase().replace(/[’‘]/g,"'").replace(/-/g,' ').replace(/[.,!?;:]+$/,'').replace(/\s+/g,' ').trim();
+  const isRight=(q,v)=>q.type==='mc'?v===q.a:q.acc.some(x=>norm(x)===norm(v));
+
+  const hintsOpen=new Set();
+  let current=SECTIONS[0].id;
+  const $=id=>document.getElementById(id);
+
+  /* ---------- listening (browser speech synthesis) ---------- */
+  const CAN_SPEAK=typeof window!=='undefined'&&'speechSynthesis' in window&&typeof SpeechSynthesisUtterance==='function';
+  let voice=null;
+  /* Fallback voice: prefer natural / neural US English voices when the audio files cannot be played. */
+  function pickVoice(){
+    if(!CAN_SPEAK)return;
+    const vs=speechSynthesis.getVoices().filter(v=>/^en[-_]US/i.test(v.lang));
+    const score=v=>(/natural|online|neural/i.test(v.name)?4:0)+(/aria|jenny|ava|andrew|guy|samantha|google us/i.test(v.name)?2:0)+(v.localService?0:1);
+    voice=vs.sort((a,b)=>score(b)-score(a))[0]||speechSynthesis.getVoices().find(v=>/^en/i.test(v.lang))||null;
+  }
+  if(CAN_SPEAK){pickVoice();speechSynthesis.addEventListener&&speechSynthesis.addEventListener('voiceschanged',pickVoice);}
+  let audio=null;
+  let cur=null; /* what is playing now: {id, kind:'audio'|'tts', paused} */
+  function updateControls(){
+    document.querySelectorAll('[data-pause]').forEach(b=>{
+      const active=!!cur&&cur.id===b.dataset.pause;
+      b.disabled=!active;
+      const paused=active&&cur.paused;
+      b.querySelector('span').textContent=paused?'Tiếp tục':'Tạm dừng';
+      b.querySelector('.i-pause').hidden=paused;
+      b.querySelector('.i-play').hidden=!paused;
+      b.classList.toggle('on',paused);
+    });
+  }
+  function stopAudio(){
+    if(audio){audio.onended=audio.onerror=audio.onplaying=null;audio.pause();audio=null;}
+    if(CAN_SPEAK)speechSynthesis.cancel();
+    cur=null;
+    document.querySelectorAll('.say.on').forEach(b=>b.classList.remove('on'));
+    updateControls();
+  }
+  function togglePause(id){
+    if(!cur||cur.id!==id)return;
+    if(cur.kind==='audio'&&audio){
+      if(audio.paused){audio.play();cur.paused=false;}else{audio.pause();cur.paused=true;}
+    }else if(cur.kind==='tts'&&CAN_SPEAK){
+      if(speechSynthesis.paused){speechSynthesis.resume();cur.paused=false;}else{speechSynthesis.pause();cur.paused=true;}
+    }
+    updateControls();
+  }
+  function speakFallback(id,done,slow,btn){
+    if(!CAN_SPEAK){cur=null;updateControls();return;}
+    const q=byId[id];
+    const text=(q.listen?q.s.replace('___',q.a||'')+'':q.s.includes('___')?q.s.replace('___',done?q.a:'blank'):(done?q.s+' '+q.a:q.s)).replace(/\b(\d{1,2})\.(\d{2})\b/g,'$1:$2');
+    const u=new SpeechSynthesisUtterance(text);
+    u.lang='en-US';if(voice){u.voice=voice;u.lang=voice.lang;}
+    u.rate=slow?0.65:0.95;
+    cur={id,kind:'tts',paused:false};
+    u.onstart=()=>{btn&&btn.classList.add('on');updateControls();};
+    u.onend=u.onerror=()=>{btn&&btn.classList.remove('on');if(cur&&cur.kind==='tts'&&cur.id===id)cur=null;updateControls();};
+    speechSynthesis.speak(u);
+    updateControls();
+  }
+  function speak(id,slow,btn){
+    stopAudio();
+    const done=!!state[id];
+    const suffix=(slow?'s':'')+(done?(slow?'':'f'):'b');
+    const a=new Audio('audio/'+id+'_'+suffix+'.mp3'+(DATA.meta.audioVersion?'?v='+DATA.meta.audioVersion:''));
+    audio=a;
+    cur={id,kind:'audio',paused:false};
+    let failed=false;
+    const fail=()=>{if(failed||audio!==a)return;failed=true;audio=null;speakFallback(id,done,slow,btn);};
+    a.onplaying=()=>{btn&&btn.classList.add('on');updateControls();};
+    a.onended=()=>{btn&&btn.classList.remove('on');if(audio===a){audio=null;cur=null;}updateControls();};
+    a.onerror=fail;
+    updateControls();
+    const p=a.play();
+    if(p&&p.catch)p.catch(fail);
+  }
+
+  /* ---------- render ---------- */
+  function cardHTML(q){
+    const st=state[q.id];
+    const done=!!st;
+    const cls=done?(st.c?'good':'bad'):'';
+    let sentence;
+    if(q.type==='mc'){
+      const slot=done?`<span class="slot ${cls}">${esc(st.v)}</span>`:`<span class="slot empty" aria-label="chỗ trống">_____</span>`;
+      sentence=q.s.replace('___',slot);
+    }else{
+      const inp=`<input class="blank ${cls}" id="in-${q.id}" data-q="${q.id}" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Điền vào chỗ trống, câu ${q.n}" ${done?`value="${esc(st.v)}" disabled`:''}>`;
+      sentence=(q.listen&&!done)?`<span class="ctx">Nghe rồi gõ từ còn thiếu:</span> ${inp}`:q.s.replace('___',inp);
+    }
+    let body='';
+    if(q.type==='mc'){
+      body=`<div class="opts" role="group" aria-label="Đáp án">`+q.opts.map(o=>{
+        let c='opt';
+        if(done){if(o===q.a)c+=' right';else if(o===st.v)c+=' wrong';}
+        return `<button type="button" class="${c}" data-q="${q.id}" data-v="${esc(o)}" ${done?'disabled':''}>${esc(o)}</button>`;
+      }).join('')+`</div>`;
+    }else if(!done){
+      body=`<button type="button" class="check" data-check="${q.id}">Kiểm tra</button>`;
+    }
+    if(q.hint&&!done){
+      const open=hintsOpen.has(q.id);
+      body+=`<div class="hintrow"><button type="button" class="ghost" data-hint="${q.id}">${open?'Ẩn gợi ý':'Gợi ý'}</button>${open?`<span class="hinttext">${esc(q.hint)}</span>`:''}</div>`;
+    }
+    let fb='';
+    if(done){
+      fb=`<div class="fb ${cls}" role="status"><span class="tag">${st.c?'Đúng':'Chưa đúng'}</span>`+
+         (st.c?'':`Đáp án: <b>${esc(q.a)}</b>`)+
+         `<p>${esc(q.why)}</p><p class="vi">${esc(q.vi)}</p>${(q.new&&q.new.length)?`<p class="newwords"><b>Từ mới trong câu:</b> ${q.new.map(n=>`<span><b>${esc(n.w)}</b> = ${esc(n.vi)}</span>`).join('; ')}</p>`:''}</div>`+
+         (!st.c?`<button type="button" class="ghost retry" data-retry="${q.id}">Thử lại câu này</button>`:'');
+    }
+    const icon=`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>`;
+    const listen=true?`<div class="listen"><button type="button" class="say" data-say="${q.id}" aria-label="Nghe câu ${q.n}">${icon}Nghe</button><button type="button" class="say" data-say="${q.id}" data-slow="1" aria-label="Nghe chậm câu ${q.n}">${icon}Nghe chậm</button><button type="button" class="say pausebtn" data-pause="${q.id}" aria-label="Tạm dừng câu ${q.n}" disabled><svg viewBox="0 0 24 24" aria-hidden="true" class="i-pause"><path d="M8 5v14M16 5v14"/></svg><svg viewBox="0 0 24 24" aria-hidden="true" class="i-play" hidden><path d="M7 5l12 7-12 7z"/></svg><span>Tạm dừng</span></button><span class="hint">${done?'Đọc nguyên câu':'Chỗ trống đọc là "blank"'}</span></div>`:'';
+    return `<article class="q" id="card-${q.id}"><div class="qh"><span class="qn">${q.n}</span><span class="ctx">${esc(q.ctx)}</span></div><p class="sent">${sentence}</p>${body}${fb}${listen}</article>`;
+  }
+
+  function counts(list){
+    let a=0,c=0;list.forEach(q=>{const s=state[q.id];if(s){a++;if(s.c)c++;}});return {a,c,t:list.length};
+  }
+
+  function renderTabs(){
+    const wrongCount=ALL.filter(q=>state[q.id]&&!state[q.id].c).length;
+    $('tabs').innerHTML=SECTIONS.map((s,i)=>{
+      const k=counts(s.qs);
+      return `<button class="tab" role="tab" type="button" data-tab="${s.id}" aria-selected="${current===s.id}">${i+1}. ${esc(s.title)}<small>${k.a}/${k.t}</small></button>`;
+    }).join('')+`<button class="tab" role="tab" type="button" data-tab="wrong" aria-selected="${current==='wrong'}">Câu cần ôn<small>${wrongCount}</small></button>`;
+  }
+
+  function renderStats(){
+    const k=counts(ALL);
+    const pct=Math.round(k.a/k.t*100);
+    $('pfill').style.width=pct+'%';
+    $('pbar').setAttribute('aria-valuenow',pct);
+    $('pnum').innerHTML=`Đã làm <b>${k.a}</b>/${k.t} · Đúng <b>${k.c}</b>`+(k.a?` (${Math.round(k.c/k.a*100)}%)`:'');
+  }
+
+  function renderView(){
+    let html='';
+    if(current==='wrong'){
+      const list=ALL.filter(q=>state[q.id]&&!state[q.id].c);
+      html=`<div class="note"><h2>Câu cần ôn</h2><p>Các câu bạn trả lời chưa đúng, từ mọi phần. Bấm "Thử lại câu này" để làm lại ngay tại đây.</p></div>`;
+      html+=list.length?list.map(cardHTML).join(''):`<div class="empty-state">Chưa có câu sai nào. Hãy làm thêm các phần khác, những câu chưa đúng sẽ xuất hiện ở đây.</div>`;
+    }else{
+      const s=SECTIONS.find(x=>x.id===current);
+      const k=counts(s.qs);
+      html=`<div class="note"><h2>${esc(s.title)}</h2><p>${s.note}</p></div>`+s.qs.map(cardHTML).join('')+
+        `<div class="foot"><span class="num">Phần này: đúng <b>${k.c}</b>/${k.t}${k.a<k.t?` · còn ${k.t-k.a} câu`:''}</span><button class="ghost" type="button" data-reset="${s.id}">Làm lại phần này</button></div>`;
+    }
+    $('view').innerHTML=html;
+  }
+
+  function renderAll(){renderTabs();renderStats();renderView();}
+
+  function refreshCard(id){
+    const el=$('card-'+id);
+    if(el)el.outerHTML=cardHTML(byId[id]);
+    renderTabs();renderStats();
+    if(current!=='wrong')refreshFoot();
+    updateControls();
+  }
+  function refreshFoot(){
+    const s=SECTIONS.find(x=>x.id===current);if(!s)return;
+    const k=counts(s.qs);
+    const f=document.querySelector('.foot .num');
+    if(f)f.innerHTML=`Phần này: đúng <b>${k.c}</b>/${k.t}${k.a<k.t?` · còn ${k.t-k.a} câu`:''}`;
+  }
+
+  function answer(id,v){
+    const q=byId[id];
+    if(state[id]||!String(v).trim())return;
+    state[id]={v:String(v).trim(),c:isRight(q,v)};
+    save();refreshCard(id);
+  }
+
+  /* ---------- events ---------- */
+  document.addEventListener('click',e=>{
+    const t=e.target.closest('button');if(!t)return;
+    if(t.dataset.hint){const id=t.dataset.hint;hintsOpen.has(id)?hintsOpen.delete(id):hintsOpen.add(id);refreshCard(id);return;}
+    if(t.dataset.pause){togglePause(t.dataset.pause);return;}
+    if(t.dataset.say){speak(t.dataset.say,!!t.dataset.slow,t);return;}
+    if(t.dataset.tab){stopAudio();current=t.dataset.tab;renderAll();window.scrollTo({top:0});return;}
+    if(t.classList.contains('opt')){answer(t.dataset.q,t.dataset.v);return;}
+    if(t.dataset.check){const i=$('in-'+t.dataset.check);answer(t.dataset.check,i?i.value:'');return;}
+    if(t.dataset.retry){delete state[t.dataset.retry];save();refreshCard(t.dataset.retry);const i=$('in-'+t.dataset.retry);if(i)i.focus();return;}
+    if(t.dataset.reset){byId&&SECTIONS.find(s=>s.id===t.dataset.reset).qs.forEach(q=>delete state[q.id]);save();renderAll();return;}
+    if(t.id==='resetAll'){
+      if(t.dataset.armed){state={};save();renderAll();t.textContent='Làm lại từ đầu';delete t.dataset.armed;}
+      else{t.dataset.armed='1';t.textContent='Bấm lần nữa để xóa hết';setTimeout(()=>{if(t.dataset.armed){delete t.dataset.armed;t.textContent='Làm lại từ đầu';}},3500);}
+    }
+  });
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Enter'&&e.target.matches('input.blank')){e.preventDefault();answer(e.target.dataset.q,e.target.value);}
+  });
+
+  renderAll();
+})();
+</script>
