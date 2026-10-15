@@ -1,0 +1,819 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 2026.10.16",
+  "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 16/10/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 8 từ. Mỗi từ làm 2 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (32 câu, 32 = 4 × 8), mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.10.16-v5",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma202610160900"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "Gõ từ còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "Flood relief",
+     "s": "Volunteers formed a long chain and began to ___ the sandbags down the line, so that the barrier could be finished before dark.",
+     "acc": [
+      "pass"
+     ],
+     "vi": "Các tình nguyện viên xếp thành một hàng dài và bắt đầu chuyền các bao cát dọc theo hàng để hoàn thành hàng rào trước khi trời tối.",
+     "why": "pass sth down the line = chuyền thứ gì từ người này sang người kia trong một hàng.",
+     "hint": "Nghĩa: chuyền thứ gì dọc theo hàng người.",
+     "tw": "pass down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/",
+     "new": [
+      {
+       "w": "sandbags",
+       "vi": "bao cát"
+      },
+      {
+       "w": "barrier",
+       "vi": "hàng rào chắn"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Packed hall",
+     "s": "Although the hall was crowded, the students ___ the exam papers down the line, which saved the teacher from squeezing between the desks.",
+     "acc": [
+      "passed"
+     ],
+     "vi": "Dù hội trường đông người, các sinh viên vẫn chuyền các bài thi dọc theo hàng, nhờ vậy giáo viên khỏi phải chen giữa các bàn.",
+     "why": "passed ... down the line (quá khứ): chuyền bài dọc theo hàng.",
+     "hint": "Nghĩa: chuyền thứ gì dọc theo hàng người.",
+     "tw": "pass down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/",
+     "new": [
+      {
+       "w": "squeezing",
+       "vi": "chen chúc"
+      },
+      {
+       "w": "desks",
+       "vi": "bàn học"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Career choice",
+     "s": "Before signing the contract, Mai tried to ___ working in a new city where she knew nobody, and the idea both excited and worried her.",
+     "acc": [
+      "imagine"
+     ],
+     "vi": "Trước khi ký hợp đồng, Mai cố tưởng tượng việc làm việc ở một thành phố mới nơi cô không quen ai, và ý nghĩ đó vừa làm cô háo hức vừa lo lắng.",
+     "why": "imagine + V-ing = tưởng tượng việc làm gì.",
+     "hint": "Nghĩa: tưởng tượng việc làm gì.",
+     "tw": "imagine",
+     "ipa": "/ɪˈmædʒ.ɪn/",
+     "new": [
+      {
+       "w": "contract",
+       "vi": "hợp đồng"
+      },
+      {
+       "w": "worried",
+       "vi": "lo lắng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Daily commute",
+     "s": "It is hard to ___ commuting two hours every day, although many people in big cities have no other choice because housing is so expensive.",
+     "acc": [
+      "imagine"
+     ],
+     "vi": "Thật khó tưởng tượng việc đi lại hai tiếng mỗi ngày, dù nhiều người ở thành phố lớn không có lựa chọn nào khác vì nhà ở quá đắt.",
+     "why": "imagine + V-ing = tưởng tượng việc làm gì.",
+     "hint": "Nghĩa: tưởng tượng việc làm gì.",
+     "tw": "imagine",
+     "ipa": "/ɪˈmædʒ.ɪn/",
+     "new": [
+      {
+       "w": "commuting",
+       "vi": "đi làm hằng ngày"
+      },
+      {
+       "w": "housing",
+       "vi": "nhà ở"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Photo trip",
+     "s": "The photographer arrived before sunrise and waited until the sun was in the right ___, which meant the whole valley lit up at once.",
+     "acc": [
+      "spot"
+     ],
+     "vi": "Nhiếp ảnh gia đến trước bình minh và chờ đến khi mặt trời ở đúng vị trí, nghĩa là cả thung lũng sáng bừng cùng lúc.",
+     "why": "in the right spot = ở đúng vị trí.",
+     "hint": "Nghĩa: ở đúng vị trí.",
+     "tw": "in the right spot",
+     "ipa": "/ɪn ðə raɪt spɒt/",
+     "new": [
+      {
+       "w": "valley",
+       "vi": "thung lũng"
+      },
+      {
+       "w": "lit up",
+       "vi": "sáng lên"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Sports shop",
+     "s": "If the shelves are not arranged well, customers will not find anything; products must be in the right ___ so that people can buy them easily.",
+     "acc": [
+      "spot"
+     ],
+     "vi": "Nếu kệ hàng không được sắp xếp tốt, khách sẽ không tìm thấy gì; sản phẩm phải ở đúng chỗ để mọi người mua dễ dàng.",
+     "why": "in the right spot = ở đúng chỗ, đúng vị trí.",
+     "hint": "Nghĩa: ở đúng vị trí.",
+     "tw": "in the right spot",
+     "ipa": "/ɪn ðə raɪt spɒt/",
+     "new": [
+      {
+       "w": "shelves",
+       "vi": "kệ hàng"
+      },
+      {
+       "w": "arranged",
+       "vi": "được sắp xếp"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Home repairs",
+     "s": "It ___ the builders about three weeks to finish the roof last year, whereas the new team says it will be ready in ten days.",
+     "acc": [
+      "took"
+     ],
+     "vi": "Năm ngoái các thợ xây mất khoảng ba tuần để làm xong mái nhà, trong khi đội mới nói chỉ mười ngày là xong.",
+     "why": "It takes/took + sb + thời gian + to V = ai mất bao lâu để làm gì.",
+     "hint": "Nghĩa: mất bao lâu để hoàn thành.",
+     "tw": "take",
+     "ipa": "/teɪk/",
+     "new": [
+      {
+       "w": "builders",
+       "vi": "thợ xây"
+      },
+      {
+       "w": "roof",
+       "vi": "mái nhà"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Study habits",
+     "s": "Because the textbook is full of technical terms, it ___ me nearly an hour to read one chapter properly, and I still need to check a dictionary.",
+     "acc": [
+      "takes",
+      "took"
+     ],
+     "vi": "Vì sách giáo khoa đầy thuật ngữ chuyên môn, tôi mất gần một giờ để đọc kỹ một chương, và vẫn phải tra từ điển.",
+     "why": "It takes + sb + thời gian + to V (thì hiện tại: takes; kể thói quen/lần đó: took).",
+     "hint": "Nghĩa: mất bao lâu để hoàn thành.",
+     "tw": "take",
+     "ipa": "/teɪk/",
+     "new": [
+      {
+       "w": "technical terms",
+       "vi": "thuật ngữ chuyên môn"
+      },
+      {
+       "w": "properly",
+       "vi": "một cách kỹ lưỡng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Marathon news",
+     "s": "The winner crossed the finish line in just ___ two hours, which means she missed the world record by only a few seconds.",
+     "acc": [
+      "under"
+     ],
+     "vi": "Người thắng cuộc về đích trong chưa đầy hai giờ, nghĩa là cô chỉ kém kỷ lục thế giới vài giây.",
+     "why": "just under + số = chưa đến, ít hơn một chút.",
+     "hint": "Nghĩa: chưa đến, ít hơn một chút.",
+     "tw": "just under",
+     "ipa": "/dʒʌst ˈʌn.dər/",
+     "new": [
+      {
+       "w": "finish line",
+       "vi": "vạch đích"
+      },
+      {
+       "w": "record",
+       "vi": "kỷ lục"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Office budget",
+     "s": "The marketing team spent just ___ ten thousand dollars on the campaign, so there is still enough money left for the autumn event.",
+     "acc": [
+      "under"
+     ],
+     "vi": "Nhóm tiếp thị chi chưa đến mười nghìn đô la cho chiến dịch, nên vẫn còn đủ tiền cho sự kiện mùa thu.",
+     "why": "just under + số tiền = chỉ ít hơn một chút so với số đó.",
+     "hint": "Nghĩa: chưa đến, ít hơn một chút.",
+     "tw": "just under",
+     "ipa": "/dʒʌst ˈʌn.dər/",
+     "new": [
+      {
+       "w": "campaign",
+       "vi": "chiến dịch"
+      },
+      {
+       "w": "left",
+       "vi": "còn lại"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Rush hour",
+     "s": "Linh was ___ a hurry because her train was leaving in five minutes, so she ran through the station without looking at the shops.",
+     "acc": [
+      "in"
+     ],
+     "vi": "Linh đang vội vì tàu sắp chạy trong năm phút nữa, nên cô chạy qua nhà ga mà không nhìn các cửa hàng.",
+     "why": "be in a hurry = vội vã (giới từ in).",
+     "hint": "Nghĩa: vội vã.",
+     "tw": "in a hurry",
+     "ipa": "/ɪn ə ˈhʌri/",
+     "new": [
+      {
+       "w": "station",
+       "vi": "nhà ga"
+      },
+      {
+       "w": "without",
+       "vi": "mà không"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Morning meeting",
+     "s": "If you are not ___ a hurry, please check the figures once more, because one small mistake in the report could cost the company a lot.",
+     "acc": [
+      "in"
+     ],
+     "vi": "Nếu bạn không vội, hãy kiểm tra lại các con số một lần nữa, vì một lỗi nhỏ trong báo cáo có thể khiến công ty tốn kém nhiều.",
+     "why": "be in a hurry = vội vã.",
+     "hint": "Nghĩa: vội vã.",
+     "tw": "in a hurry",
+     "ipa": "/ɪn ə ˈhʌri/",
+     "new": [
+      {
+       "w": "figures",
+       "vi": "con số"
+      },
+      {
+       "w": "cost",
+       "vi": "làm tốn kém"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Stadium event",
+     "s": "Drivers circled the stadium for twenty minutes because there was ___ to park, and several of them finally gave up and went home.",
+     "acc": [
+      "nowhere"
+     ],
+     "vi": "Các tài xế chạy vòng quanh sân vận động hai mươi phút vì không có chỗ đậu xe, và vài người cuối cùng bỏ cuộc về nhà.",
+     "why": "there is nowhere to park = không có chỗ đậu xe.",
+     "hint": "Nghĩa: không có chỗ đậu xe.",
+     "tw": "nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/",
+     "new": [
+      {
+       "w": "circled",
+       "vi": "chạy vòng quanh"
+      },
+      {
+       "w": "gave up",
+       "vi": "bỏ cuộc"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "City centre",
+     "s": "Since the shopping centre was holding a big sale, there was nowhere to ___, so we left the car near the station and walked.",
+     "acc": [
+      "park"
+     ],
+     "vi": "Vì trung tâm thương mại có đợt giảm giá lớn nên không có chỗ đậu xe, chúng tôi để xe gần nhà ga và đi bộ.",
+     "why": "nowhere to + park = không có chỗ để đậu xe.",
+     "hint": "Nghĩa: không có chỗ đậu xe.",
+     "tw": "nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/",
+     "new": [
+      {
+       "w": "sale",
+       "vi": "đợt giảm giá"
+      },
+      {
+       "w": "left",
+       "vi": "để lại"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Weeknight dinner",
+     "s": "To make the soup lighter, she decided to ___ the carrots in a saucepan for ten minutes instead of frying them in oil.",
+     "acc": [
+      "boil"
+     ],
+     "vi": "Để món súp nhẹ hơn, cô quyết định luộc cà rốt trong nồi mười phút thay vì chiên với dầu.",
+     "why": "boil sth (in a saucepan) = luộc, đun sôi cái gì trong nồi.",
+     "hint": "Nghĩa: luộc, đun sôi cái gì.",
+     "tw": "boil",
+     "ipa": "/bɔɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "saucepan",
+       "vi": "cái nồi nhỏ"
+      },
+      {
+       "w": "frying",
+       "vi": "chiên"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Camping trip",
+     "s": "Because the camping stove was weak, we ___ the eggs in a small saucepan, and it took far longer than we had expected.",
+     "acc": [
+      "boiled"
+     ],
+     "vi": "Vì bếp cắm trại yếu, chúng tôi luộc trứng trong một cái nồi nhỏ và mất lâu hơn nhiều so với dự tính.",
+     "why": "boiled = quá khứ của boil (luộc).",
+     "hint": "Nghĩa: luộc, đun sôi cái gì.",
+     "tw": "boil",
+     "ipa": "/bɔɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "stove",
+       "vi": "bếp"
+      },
+      {
+       "w": "far longer",
+       "vi": "lâu hơn nhiều"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Rescue work",
+     "s": "Rescuers stood in a row beside the damaged bridge and began to ___ buckets of water to the fire, because no truck could get close.",
+     "o": [
+      "pass down the line",
+      "keep for later",
+      "throw into the river"
+     ],
+     "a": "pass down the line",
+     "vi": "Những người cứu hộ đứng thành hàng cạnh cây cầu hư hỏng và bắt đầu chuyền các xô nước đến đám cháy vì không xe tải nào lại gần được.",
+     "why": "stood in a row → chuyền xô dọc hàng = pass down the line.",
+     "tw": "pass down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/",
+     "new": [
+      {
+       "w": "rescuers",
+       "vi": "người cứu hộ"
+      },
+      {
+       "w": "buckets",
+       "vi": "xô"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Smartphone age",
+     "s": "I can't ___ living without a phone, especially now that banking, maps and even train tickets are all on one app.",
+     "o": [
+      "imagine",
+      "hope",
+      "decide"
+     ],
+     "a": "imagine",
+     "vi": "Tôi không thể tưởng tượng việc sống thiếu điện thoại, nhất là bây giờ ngân hàng, bản đồ và cả vé tàu đều nằm trong một ứng dụng.",
+     "why": "imagine + V-ing; hope và decide đi với to V.",
+     "tw": "imagine",
+     "ipa": "/ɪˈmædʒ.ɪn/",
+     "new": [
+      {
+       "w": "especially",
+       "vi": "đặc biệt là"
+      },
+      {
+       "w": "app",
+       "vi": "ứng dụng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Kitchen layout",
+     "s": "The chef keeps every knife and pan ___, so that during a busy lunch nobody wastes time searching for tools.",
+     "o": [
+      "in the right spot",
+      "in a bad mood",
+      "on a long list"
+     ],
+     "a": "in the right spot",
+     "vi": "Đầu bếp để mọi con dao và cái chảo đúng chỗ, nhờ vậy trong giờ trưa đông khách không ai mất thời gian tìm dụng cụ.",
+     "why": "keeps ... in the right spot = để ở đúng vị trí.",
+     "tw": "in the right spot",
+     "ipa": "/ɪn ðə raɪt spɒt/",
+     "new": [
+      {
+       "w": "wastes",
+       "vi": "lãng phí"
+      },
+      {
+       "w": "tools",
+       "vi": "dụng cụ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Building site",
+     "s": "It will ___ the builders about three weeks to finish the roof, although heavy rain could delay the work.",
+     "o": [
+      "take",
+      "spend",
+      "last"
+     ],
+     "a": "take",
+     "vi": "Các thợ xây sẽ mất khoảng ba tuần để làm xong mái nhà, dù mưa lớn có thể làm chậm công việc.",
+     "why": "It will take + sb + thời gian + to V.",
+     "tw": "take",
+     "ipa": "/teɪk/",
+     "new": [
+      {
+       "w": "delay",
+       "vi": "làm chậm trễ"
+      },
+      {
+       "w": "heavy rain",
+       "vi": "mưa lớn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Market shopping",
+     "s": "The jacket costs ___ fifty dollars, so I paid forty-nine and still got change from a fifty-dollar note.",
+     "o": [
+      "just under",
+      "just over",
+      "just across"
+     ],
+     "a": "just under",
+     "vi": "Chiếc áo khoác giá chưa đến năm mươi đô, nên tôi trả bốn mươi chín và vẫn được thối lại từ tờ năm mươi đô.",
+     "why": "trả 49$ → chưa đến 50$ = just under.",
+     "tw": "just under",
+     "ipa": "/dʒʌst ˈʌn.dər/",
+     "new": [
+      {
+       "w": "change",
+       "vi": "tiền thối"
+      },
+      {
+       "w": "note",
+       "vi": "tờ tiền"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Airport check-in",
+     "s": "The passengers were ___, because the gate was closing and their luggage had still not been checked.",
+     "o": [
+      "in a hurry",
+      "in a row",
+      "in a garden"
+     ],
+     "a": "in a hurry",
+     "vi": "Các hành khách đang vội vì cổng sắp đóng và hành lý của họ vẫn chưa được kiểm tra.",
+     "why": "gate closing → vội vã = in a hurry.",
+     "tw": "in a hurry",
+     "ipa": "/ɪn ə ˈhʌri/",
+     "new": [
+      {
+       "w": "gate",
+       "vi": "cổng ra máy bay"
+      },
+      {
+       "w": "luggage",
+       "vi": "hành lý"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Match day",
+     "s": "On match days there is ___ near the stadium, so most fans take the metro instead of driving.",
+     "o": [
+      "nowhere to park",
+      "nothing to eat",
+      "no one to ask"
+     ],
+     "a": "nowhere to park",
+     "vi": "Vào ngày thi đấu gần sân vận động không có chỗ đậu xe nên hầu hết cổ động viên đi tàu điện thay vì lái xe.",
+     "why": "take the metro instead of driving → không có chỗ đậu xe.",
+     "tw": "nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/",
+     "new": [
+      {
+       "w": "fans",
+       "vi": "cổ động viên"
+      },
+      {
+       "w": "metro",
+       "vi": "tàu điện ngầm"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking class",
+     "s": "Before mashing, you should ___ the potatoes in a saucepan until they are soft enough to cut with a fork.",
+     "o": [
+      "boil",
+      "bake",
+      "freeze"
+     ],
+     "a": "boil",
+     "vi": "Trước khi nghiền, bạn nên luộc khoai trong nồi cho đến khi mềm đủ để cắt bằng nĩa.",
+     "why": "in a saucepan → boil (luộc/đun sôi).",
+     "tw": "boil",
+     "ipa": "/bɔɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "mashing",
+       "vi": "nghiền"
+      },
+      {
+       "w": "soft",
+       "vi": "mềm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Charity event",
+     "s": "After the lorry delivered the food, the volunteers stood in a long line and passed the boxes down the line to the storeroom. The work finished in half the time. What does \"pass sth down the line\" mean?",
+     "o": [
+      "chuyền thứ gì dọc theo hàng người",
+      "vứt thứ gì xuống đất",
+      "xếp thứ gì theo thứ tự chữ cái"
+     ],
+     "a": "chuyền thứ gì dọc theo hàng người",
+     "vi": "Sau khi xe tải giao thực phẩm, các tình nguyện viên đứng thành hàng dài và chuyền các thùng dọc theo hàng đến nhà kho. Công việc xong trong nửa thời gian.",
+     "why": "chuyền hàng người này sang người kia.",
+     "tw": "pass down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/",
+     "new": [
+      {
+       "w": "lorry",
+       "vi": "xe tải"
+      },
+      {
+       "w": "storeroom",
+       "vi": "nhà kho"
+      }
+     ],
+     "noblank": true,
+     "say": "After the lorry delivered the food, the volunteers stood in a long line and passed the boxes down the line to the storeroom. The work finished in half the time."
+    },
+    {
+     "type": "mc",
+     "ctx": "Student life",
+     "s": "Many students find it hard to imagine living on their own before they leave home. Once they move into a flat, however, they quickly learn to cook, budget and manage their time. What does \"imagine\" mean here?",
+     "o": [
+      "tưởng tượng",
+      "dự đoán chính xác",
+      "hồi tưởng lại"
+     ],
+     "a": "tưởng tượng",
+     "vi": "Nhiều sinh viên thấy khó tưởng tượng việc sống tự lập trước khi rời nhà. Tuy nhiên, khi chuyển vào căn hộ, họ nhanh chóng học cách nấu ăn, lập ngân sách và quản lý thời gian.",
+     "why": "imagine + V-ing = tưởng tượng việc làm gì.",
+     "tw": "imagine",
+     "ipa": "/ɪˈmædʒ.ɪn/",
+     "new": [
+      {
+       "w": "budget",
+       "vi": "lập ngân sách"
+      },
+      {
+       "w": "flat",
+       "vi": "căn hộ"
+      }
+     ],
+     "noblank": true,
+     "say": "Many students find it hard to imagine living on their own before they leave home. Once they move into a flat, however, they quickly learn to cook, budget and manage their time."
+    },
+    {
+     "type": "mc",
+     "ctx": "Garden tips",
+     "s": "Tomatoes grow best when they receive plenty of sunlight, so you should plant them in the right spot. A shady corner will give you fewer and smaller fruit. What does \"in the right spot\" mean?",
+     "o": [
+      "ở đúng vị trí",
+      "trong thời tiết tốt",
+      "bằng đúng cách"
+     ],
+     "a": "ở đúng vị trí",
+     "vi": "Cà chua phát triển tốt nhất khi nhận nhiều ánh nắng, nên bạn cần trồng chúng đúng chỗ. Một góc râm sẽ cho ít quả hơn và nhỏ hơn.",
+     "why": "in the right spot = ở đúng chỗ.",
+     "tw": "in the right spot",
+     "ipa": "/ɪn ðə raɪt spɒt/",
+     "new": [
+      {
+       "w": "shady",
+       "vi": "râm mát"
+      },
+      {
+       "w": "plenty of",
+       "vi": "nhiều"
+      }
+     ],
+     "noblank": true,
+     "say": "Tomatoes grow best when they receive plenty of sunlight, so you should plant them in the right spot. A shady corner will give you fewer and smaller fruit."
+    },
+    {
+     "type": "mc",
+     "ctx": "Language learning",
+     "s": "Learning a new language does not happen overnight. It usually takes learners several years to reach a level where they can talk about complex topics with confidence. What does \"It takes learners several years\" mean?",
+     "o": [
+      "học viên cần mất vài năm",
+      "học viên bỏ cuộc sau vài năm",
+      "học viên mượn sách vài năm"
+     ],
+     "a": "học viên cần mất vài năm",
+     "vi": "Học một ngôn ngữ mới không xảy ra trong một đêm. Thường học viên mất vài năm để đạt trình độ có thể nói về những chủ đề phức tạp một cách tự tin.",
+     "why": "It takes sb + thời gian = ai cần mất bao lâu.",
+     "tw": "take",
+     "ipa": "/teɪk/",
+     "new": [
+      {
+       "w": "overnight",
+       "vi": "trong một đêm"
+      },
+      {
+       "w": "complex",
+       "vi": "phức tạp"
+      }
+     ],
+     "noblank": true,
+     "say": "Learning a new language does not happen overnight. It usually takes learners several years to reach a level where they can talk about complex topics with confidence."
+    },
+    {
+     "type": "mc",
+     "ctx": "Fitness report",
+     "s": "The new gym has just under two hundred members, which is fewer than the owner hoped for. She plans to offer cheaper classes to attract more people. What does \"just under two hundred\" mean?",
+     "o": [
+      "chưa đến hai trăm một chút",
+      "hơn hai trăm một chút",
+      "đúng hai trăm"
+     ],
+     "a": "chưa đến hai trăm một chút",
+     "vi": "Phòng tập mới có chưa đến hai trăm hội viên, ít hơn chủ phòng mong đợi. Cô định mở các lớp rẻ hơn để thu hút thêm người.",
+     "why": "just under = chưa đến (ít hơn một chút).",
+     "tw": "just under",
+     "ipa": "/dʒʌst ˈʌn.dər/",
+     "new": [
+      {
+       "w": "members",
+       "vi": "hội viên"
+      },
+      {
+       "w": "attract",
+       "vi": "thu hút"
+      }
+     ],
+     "noblank": true,
+     "say": "The new gym has just under two hundred members, which is fewer than the owner hoped for. She plans to offer cheaper classes to attract more people."
+    },
+    {
+     "type": "mc",
+     "ctx": "Office story",
+     "s": "Minh opened the door without knocking and dropped the folder on the desk. He was in a hurry because the client was already waiting in the lobby. What does \"in a hurry\" mean?",
+     "o": [
+      "vội vã",
+      "tức giận",
+      "mệt mỏi"
+     ],
+     "a": "vội vã",
+     "vi": "Minh mở cửa không gõ và đặt tập hồ sơ lên bàn. Anh đang vội vì khách hàng đã chờ sẵn ở sảnh.",
+     "why": "in a hurry = vội vã.",
+     "tw": "in a hurry",
+     "ipa": "/ɪn ə ˈhʌri/",
+     "new": [
+      {
+       "w": "folder",
+       "vi": "tập hồ sơ"
+      },
+      {
+       "w": "lobby",
+       "vi": "sảnh"
+      }
+     ],
+     "noblank": true,
+     "say": "Minh opened the door without knocking and dropped the folder on the desk. He was in a hurry because the client was already waiting in the lobby."
+    },
+    {
+     "type": "mc",
+     "ctx": "Town council",
+     "s": "Residents say that the old town has become too crowded for cars. At weekends there is nowhere to park, so some shops have lost customers. What does \"nowhere to park\" mean?",
+     "o": [
+      "không có chỗ đậu xe",
+      "không có nơi để nghỉ ngơi",
+      "không có chỗ bán hàng"
+     ],
+     "a": "không có chỗ đậu xe",
+     "vi": "Cư dân nói khu phố cổ đã quá đông đối với ô tô. Cuối tuần không có chỗ đậu xe nên một số cửa hàng mất khách.",
+     "why": "nowhere to park = không có chỗ đậu xe.",
+     "tw": "nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/",
+     "new": [
+      {
+       "w": "residents",
+       "vi": "cư dân"
+      },
+      {
+       "w": "crowded",
+       "vi": "đông đúc"
+      }
+     ],
+     "noblank": true,
+     "say": "Residents say that the old town has become too crowded for cars. At weekends there is nowhere to park, so some shops have lost customers."
+    },
+    {
+     "type": "mc",
+     "ctx": "Recipe blog",
+     "s": "Start by boiling the eggs in a saucepan for eight minutes. Then cool them in cold water, remove the shells and slice them into a salad. What does \"boiling the eggs\" mean?",
+     "o": [
+      "luộc trứng",
+      "đập trứng",
+      "chiên trứng"
+     ],
+     "a": "luộc trứng",
+     "vi": "Bắt đầu bằng việc luộc trứng trong nồi tám phút. Sau đó làm nguội trong nước lạnh, bóc vỏ và cắt lát cho vào món salad.",
+     "why": "boil = luộc/đun sôi.",
+     "tw": "boil",
+     "ipa": "/bɔɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "shells",
+       "vi": "vỏ"
+      },
+      {
+       "w": "slice",
+       "vi": "cắt lát"
+      }
+     ],
+     "noblank": true,
+     "say": "Start by boiling the eggs in a saucepan for eight minutes. Then cool them in cold water, remove the shells and slice them into a salad."
+    }
+   ]
+  }
+ ]
+}

@@ -1,1 +1,364 @@
-<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=2026.10.15/"><a href="2026.10.15/">Bai tap moi nhat: 2026.10.15</a>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ôn từ vựng 2026.10.16</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Bricolage+Grotesque:wght@700;800&display=swap" rel="stylesheet">
+<style>
+/* Layout: one narrow reading column, sticky section tabs, one question card at a time per row. */
+:root{
+  --bg:#F2F6F8; --surface:#FFFFFF; --ink:#12263A; --muted:#566879; --line:#D3DDE5;
+  --primary:#0E5A78; --primary-ink:#FFFFFF; --hl:#E6F36E; --hl-ink:#12263A;
+  --good:#1B7448; --good-bg:#DDF2E5; --bad:#A93420; --bad-bg:#FBE4DD; --soft:#E7EFF4;
+  --display:"Bricolage Grotesque","Be Vietnam Pro",system-ui,sans-serif;
+  --body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D1923; --surface:#14263A; --ink:#E5EEF5; --muted:#9BB0C2; --line:#2A4259;
+    --primary:#62C5EA; --primary-ink:#06222F; --hl:#56661A; --hl-ink:#F4F9D0;
+    --good:#66D394; --good-bg:#143A29; --bad:#FF937C; --bad-bg:#40201A; --soft:#1B3047;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0D1923; --surface:#14263A; --ink:#E5EEF5; --muted:#9BB0C2; --line:#2A4259;
+  --primary:#62C5EA; --primary-ink:#06222F; --hl:#56661A; --hl-ink:#F4F9D0;
+  --good:#66D394; --good-bg:#143A29; --bad:#FF937C; --bad-bg:#40201A; --soft:#1B3047;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0;padding-inline:16px;padding-block:28px 64px}
+.wrap{max-width:760px;margin-inline:auto}
+header{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.08;margin:0;font-weight:800;text-wrap:balance}
+.lead{margin:0;color:var(--muted);max-width:62ch}
+.stats{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.bar{flex:1 1 200px;min-width:0;height:8px;border-radius:99px;background:var(--soft);overflow:hidden}
+.bar>i{display:block;height:100%;width:0;background:var(--primary);transition:width .3s}
+.num{font-variant-numeric:tabular-nums;font-size:14px;color:var(--muted)}
+.num b{color:var(--ink)}
+button{font:inherit;color:inherit;cursor:pointer}
+.ghost{background:none;border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:13px;color:var(--muted)}
+.ghost:hover{border-color:var(--primary);color:var(--ink)}
+:focus-visible{outline:3px solid var(--primary);outline-offset:2px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:8px;margin-bottom:12px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+.tab{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:7px 14px;font-size:14px;font-weight:500;white-space:nowrap}
+.tab small{color:var(--muted);font-variant-numeric:tabular-nums;margin-left:6px;font-weight:400}
+.tab[aria-selected="true"]{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+.tab[aria-selected="true"] small{color:inherit;opacity:.85}
+.note{background:var(--soft);border-radius:12px;padding:14px 16px;margin-bottom:16px;font-size:15px}
+.note h2{font-family:var(--display);font-size:20px;margin:0 0 4px;font-weight:700}
+.note p{margin:0}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px;display:flex;flex-direction:column;gap:10px}
+.qh{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.qn{font-family:var(--display);font-weight:800;font-size:15px;color:var(--primary);font-variant-numeric:tabular-nums}
+.ctx{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.sent{font-size:18px;line-height:1.7;margin:0;text-wrap:pretty}
+.slot{display:inline-block;min-width:4.5ch;padding:0 8px;border-radius:6px;background:var(--hl);color:var(--hl-ink);font-weight:600;text-align:center;vertical-align:baseline}
+.slot.empty{color:transparent;user-select:none}
+.slot.good{background:var(--good-bg);color:var(--good)}
+.slot.bad{background:var(--bad-bg);color:var(--bad);text-decoration:line-through}
+input.blank{font:inherit;font-weight:600;width:11ch;max-width:100%;padding:1px 8px;border:2px solid var(--hl);border-radius:6px;background:var(--surface);color:var(--ink);text-align:center}
+input.blank:focus{outline:none;border-color:var(--primary)}
+input.blank.good{border-color:var(--good);color:var(--good);background:var(--good-bg)}
+input.blank.bad{border-color:var(--bad);color:var(--bad);background:var(--bad-bg)}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt,.check{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:8px 14px;font-size:15px;font-weight:500}
+.opt:hover:not(:disabled){border-color:var(--primary);background:var(--soft)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--good);background:var(--good-bg);color:var(--good)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-bg);color:var(--bad)}
+.check{align-self:flex-start;background:var(--primary);border-color:var(--primary);color:var(--primary-ink);font-weight:600}
+.fb{border-radius:8px;padding:10px 12px;font-size:15px}
+.fb.good{background:var(--good-bg)}
+.fb.bad{background:var(--bad-bg)}
+.fb .tag{font-weight:700;margin-right:8px}
+.fb.good .tag{color:var(--good)}
+.fb.bad .tag{color:var(--bad)}
+.fb p{margin:4px 0 0}
+.vi{color:var(--muted);font-size:14px}
+.retry{align-self:flex-start}
+.wordline{margin:8px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.wordline b{font-size:16px}
+.wordline .ipa{color:var(--muted);font-size:15px}
+.wordline .say{padding:4px 12px 4px 8px}
+.newwords{color:var(--ink);font-size:14px}
+.newwords span{white-space:normal}
+.hintrow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.hinttext{font-size:14px;color:var(--muted)}
+.listen{display:flex;flex-wrap:wrap;align-items:center;gap:8px;border-top:1px solid var(--line);padding-top:10px}
+.say{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:6px 14px 6px 10px;font-size:14px;font-weight:500}
+.say svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;color:var(--primary)}
+.say:hover:not(:disabled){border-color:var(--primary);background:var(--soft)}
+.say:disabled{opacity:.45;cursor:default}
+.say svg[hidden]{display:none}
+.say.on{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+.say.on svg{color:var(--primary-ink)}
+.listen .hint{font-size:13px;color:var(--muted)}
+.foot{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;margin-top:8px}
+.empty-state{text-align:center;color:var(--muted);padding:32px 12px;background:var(--surface);border:1px dashed var(--line);border-radius:12px}
+.theme{position:absolute;top:calc(12px + env(safe-area-inset-top,0px));right:16px}
+@media (max-width:480px){.sent{font-size:17px}}
+@media (prefers-reduced-motion:reduce){.bar>i{transition:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Ôn tập hằng ngày · B1+ – B2 · 16/10/2026</span>
+    <h1>Ôn từ vựng hôm nay</h1>
+    <p class="lead">Hôm nay có 8 từ. Mỗi từ làm 2 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (32 câu, 32 = 4 × 8), mức B1+–B2. Câu nào cũng có nút nghe.</p>
+  </header>
+
+  <div class="stats" aria-label="Tiến độ">
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" id="pbar"><i id="pfill"></i></div>
+    <span class="num" id="pnum"></span>
+    <button class="ghost" id="resetAll" type="button">Làm lại từ đầu</button>
+  </div>
+
+  <nav aria-label="Các phần bài tập"><div class="tabs" role="tablist" id="tabs"></div></nav>
+  <main id="view"></main>
+</div>
+
+<script>
+(function(){
+  /* ---------- content (injected by build_page.py from content.json) ---------- */
+  const DATA={"meta": {"title": "Ôn từ vựng 2026.10.16", "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 16/10/2026", "h1": "Ôn từ vựng hôm nay", "lead": "Hôm nay có 8 từ. Mỗi từ làm 2 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (32 câu, 32 = 4 × 8), mức B1+–B2. Câu nào cũng có nút nghe.", "storageKey": "vocab-2026.10.16-v5", "voice": "en-US-EmmaMultilingualNeural", "audioVersion": "emma202610160900"}, "sections": [{"id": "s1", "title": "Viết từ", "note": "Gõ từ còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.", "qs": [{"type": "tx", "ctx": "Flood relief", "s": "Volunteers formed a long chain and began to ___ the sandbags down the line, so that the barrier could be finished before dark.", "acc": ["pass"], "vi": "Các tình nguyện viên xếp thành một hàng dài và bắt đầu chuyền các bao cát dọc theo hàng để hoàn thành hàng rào trước khi trời tối.", "why": "pass sth down the line = chuyền thứ gì từ người này sang người kia trong một hàng.", "hint": "Nghĩa: chuyền thứ gì dọc theo hàng người.", "tw": "pass down the line", "ipa": "/pɑːs daʊn ðə laɪn/", "new": [{"w": "sandbags", "vi": "bao cát"}, {"w": "barrier", "vi": "hàng rào chắn"}]}, {"type": "tx", "ctx": "Packed hall", "s": "Although the hall was crowded, the students ___ the exam papers down the line, which saved the teacher from squeezing between the desks.", "acc": ["passed"], "vi": "Dù hội trường đông người, các sinh viên vẫn chuyền các bài thi dọc theo hàng, nhờ vậy giáo viên khỏi phải chen giữa các bàn.", "why": "passed ... down the line (quá khứ): chuyền bài dọc theo hàng.", "hint": "Nghĩa: chuyền thứ gì dọc theo hàng người.", "tw": "pass down the line", "ipa": "/pɑːs daʊn ðə laɪn/", "new": [{"w": "squeezing", "vi": "chen chúc"}, {"w": "desks", "vi": "bàn học"}]}, {"type": "tx", "ctx": "Career choice", "s": "Before signing the contract, Mai tried to ___ working in a new city where she knew nobody, and the idea both excited and worried her.", "acc": ["imagine"], "vi": "Trước khi ký hợp đồng, Mai cố tưởng tượng việc làm việc ở một thành phố mới nơi cô không quen ai, và ý nghĩ đó vừa làm cô háo hức vừa lo lắng.", "why": "imagine + V-ing = tưởng tượng việc làm gì.", "hint": "Nghĩa: tưởng tượng việc làm gì.", "tw": "imagine", "ipa": "/ɪˈmædʒ.ɪn/", "new": [{"w": "contract", "vi": "hợp đồng"}, {"w": "worried", "vi": "lo lắng"}]}, {"type": "tx", "ctx": "Daily commute", "s": "It is hard to ___ commuting two hours every day, although many people in big cities have no other choice because housing is so expensive.", "acc": ["imagine"], "vi": "Thật khó tưởng tượng việc đi lại hai tiếng mỗi ngày, dù nhiều người ở thành phố lớn không có lựa chọn nào khác vì nhà ở quá đắt.", "why": "imagine + V-ing = tưởng tượng việc làm gì.", "hint": "Nghĩa: tưởng tượng việc làm gì.", "tw": "imagine", "ipa": "/ɪˈmædʒ.ɪn/", "new": [{"w": "commuting", "vi": "đi làm hằng ngày"}, {"w": "housing", "vi": "nhà ở"}]}, {"type": "tx", "ctx": "Photo trip", "s": "The photographer arrived before sunrise and waited until the sun was in the right ___, which meant the whole valley lit up at once.", "acc": ["spot"], "vi": "Nhiếp ảnh gia đến trước bình minh và chờ đến khi mặt trời ở đúng vị trí, nghĩa là cả thung lũng sáng bừng cùng lúc.", "why": "in the right spot = ở đúng vị trí.", "hint": "Nghĩa: ở đúng vị trí.", "tw": "in the right spot", "ipa": "/ɪn ðə raɪt spɒt/", "new": [{"w": "valley", "vi": "thung lũng"}, {"w": "lit up", "vi": "sáng lên"}]}, {"type": "tx", "ctx": "Sports shop", "s": "If the shelves are not arranged well, customers will not find anything; products must be in the right ___ so that people can buy them easily.", "acc": ["spot"], "vi": "Nếu kệ hàng không được sắp xếp tốt, khách sẽ không tìm thấy gì; sản phẩm phải ở đúng chỗ để mọi người mua dễ dàng.", "why": "in the right spot = ở đúng chỗ, đúng vị trí.", "hint": "Nghĩa: ở đúng vị trí.", "tw": "in the right spot", "ipa": "/ɪn ðə raɪt spɒt/", "new": [{"w": "shelves", "vi": "kệ hàng"}, {"w": "arranged", "vi": "được sắp xếp"}]}, {"type": "tx", "ctx": "Home repairs", "s": "It ___ the builders about three weeks to finish the roof last year, whereas the new team says it will be ready in ten days.", "acc": ["took"], "vi": "Năm ngoái các thợ xây mất khoảng ba tuần để làm xong mái nhà, trong khi đội mới nói chỉ mười ngày là xong.", "why": "It takes/took + sb + thời gian + to V = ai mất bao lâu để làm gì.", "hint": "Nghĩa: mất bao lâu để hoàn thành.", "tw": "take", "ipa": "/teɪk/", "new": [{"w": "builders", "vi": "thợ xây"}, {"w": "roof", "vi": "mái nhà"}]}, {"type": "tx", "ctx": "Study habits", "s": "Because the textbook is full of technical terms, it ___ me nearly an hour to read one chapter properly, and I still need to check a dictionary.", "acc": ["takes", "took"], "vi": "Vì sách giáo khoa đầy thuật ngữ chuyên môn, tôi mất gần một giờ để đọc kỹ một chương, và vẫn phải tra từ điển.", "why": "It takes + sb + thời gian + to V (thì hiện tại: takes; kể thói quen/lần đó: took).", "hint": "Nghĩa: mất bao lâu để hoàn thành.", "tw": "take", "ipa": "/teɪk/", "new": [{"w": "technical terms", "vi": "thuật ngữ chuyên môn"}, {"w": "properly", "vi": "một cách kỹ lưỡng"}]}, {"type": "tx", "ctx": "Marathon news", "s": "The winner crossed the finish line in just ___ two hours, which means she missed the world record by only a few seconds.", "acc": ["under"], "vi": "Người thắng cuộc về đích trong chưa đầy hai giờ, nghĩa là cô chỉ kém kỷ lục thế giới vài giây.", "why": "just under + số = chưa đến, ít hơn một chút.", "hint": "Nghĩa: chưa đến, ít hơn một chút.", "tw": "just under", "ipa": "/dʒʌst ˈʌn.dər/", "new": [{"w": "finish line", "vi": "vạch đích"}, {"w": "record", "vi": "kỷ lục"}]}, {"type": "tx", "ctx": "Office budget", "s": "The marketing team spent just ___ ten thousand dollars on the campaign, so there is still enough money left for the autumn event.", "acc": ["under"], "vi": "Nhóm tiếp thị chi chưa đến mười nghìn đô la cho chiến dịch, nên vẫn còn đủ tiền cho sự kiện mùa thu.", "why": "just under + số tiền = chỉ ít hơn một chút so với số đó.", "hint": "Nghĩa: chưa đến, ít hơn một chút.", "tw": "just under", "ipa": "/dʒʌst ˈʌn.dər/", "new": [{"w": "campaign", "vi": "chiến dịch"}, {"w": "left", "vi": "còn lại"}]}, {"type": "tx", "ctx": "Rush hour", "s": "Linh was ___ a hurry because her train was leaving in five minutes, so she ran through the station without looking at the shops.", "acc": ["in"], "vi": "Linh đang vội vì tàu sắp chạy trong năm phút nữa, nên cô chạy qua nhà ga mà không nhìn các cửa hàng.", "why": "be in a hurry = vội vã (giới từ in).", "hint": "Nghĩa: vội vã.", "tw": "in a hurry", "ipa": "/ɪn ə ˈhʌri/", "new": [{"w": "station", "vi": "nhà ga"}, {"w": "without", "vi": "mà không"}]}, {"type": "tx", "ctx": "Morning meeting", "s": "If you are not ___ a hurry, please check the figures once more, because one small mistake in the report could cost the company a lot.", "acc": ["in"], "vi": "Nếu bạn không vội, hãy kiểm tra lại các con số một lần nữa, vì một lỗi nhỏ trong báo cáo có thể khiến công ty tốn kém nhiều.", "why": "be in a hurry = vội vã.", "hint": "Nghĩa: vội vã.", "tw": "in a hurry", "ipa": "/ɪn ə ˈhʌri/", "new": [{"w": "figures", "vi": "con số"}, {"w": "cost", "vi": "làm tốn kém"}]}, {"type": "tx", "ctx": "Stadium event", "s": "Drivers circled the stadium for twenty minutes because there was ___ to park, and several of them finally gave up and went home.", "acc": ["nowhere"], "vi": "Các tài xế chạy vòng quanh sân vận động hai mươi phút vì không có chỗ đậu xe, và vài người cuối cùng bỏ cuộc về nhà.", "why": "there is nowhere to park = không có chỗ đậu xe.", "hint": "Nghĩa: không có chỗ đậu xe.", "tw": "nowhere to park", "ipa": "/ˈnəʊweə tə pɑːk/", "new": [{"w": "circled", "vi": "chạy vòng quanh"}, {"w": "gave up", "vi": "bỏ cuộc"}]}, {"type": "tx", "ctx": "City centre", "s": "Since the shopping centre was holding a big sale, there was nowhere to ___, so we left the car near the station and walked.", "acc": ["park"], "vi": "Vì trung tâm thương mại có đợt giảm giá lớn nên không có chỗ đậu xe, chúng tôi để xe gần nhà ga và đi bộ.", "why": "nowhere to + park = không có chỗ để đậu xe.", "hint": "Nghĩa: không có chỗ đậu xe.", "tw": "nowhere to park", "ipa": "/ˈnəʊweə tə pɑːk/", "new": [{"w": "sale", "vi": "đợt giảm giá"}, {"w": "left", "vi": "để lại"}]}, {"type": "tx", "ctx": "Weeknight dinner", "s": "To make the soup lighter, she decided to ___ the carrots in a saucepan for ten minutes instead of frying them in oil.", "acc": ["boil"], "vi": "Để món súp nhẹ hơn, cô quyết định luộc cà rốt trong nồi mười phút thay vì chiên với dầu.", "why": "boil sth (in a saucepan) = luộc, đun sôi cái gì trong nồi.", "hint": "Nghĩa: luộc, đun sôi cái gì.", "tw": "boil", "ipa": "/bɔɪl ˈsʌmθɪŋ/", "new": [{"w": "saucepan", "vi": "cái nồi nhỏ"}, {"w": "frying", "vi": "chiên"}]}, {"type": "tx", "ctx": "Camping trip", "s": "Because the camping stove was weak, we ___ the eggs in a small saucepan, and it took far longer than we had expected.", "acc": ["boiled"], "vi": "Vì bếp cắm trại yếu, chúng tôi luộc trứng trong một cái nồi nhỏ và mất lâu hơn nhiều so với dự tính.", "why": "boiled = quá khứ của boil (luộc).", "hint": "Nghĩa: luộc, đun sôi cái gì.", "tw": "boil", "ipa": "/bɔɪl ˈsʌmθɪŋ/", "new": [{"w": "stove", "vi": "bếp"}, {"w": "far longer", "vi": "lâu hơn nhiều"}]}]}, {"id": "s2", "title": "Chọn từ", "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.", "qs": [{"type": "mc", "ctx": "Rescue work", "s": "Rescuers stood in a row beside the damaged bridge and began to ___ buckets of water to the fire, because no truck could get close.", "o": ["pass down the line", "keep for later", "throw into the river"], "a": "pass down the line", "vi": "Những người cứu hộ đứng thành hàng cạnh cây cầu hư hỏng và bắt đầu chuyền các xô nước đến đám cháy vì không xe tải nào lại gần được.", "why": "stood in a row → chuyền xô dọc hàng = pass down the line.", "tw": "pass down the line", "ipa": "/pɑːs daʊn ðə laɪn/", "new": [{"w": "rescuers", "vi": "người cứu hộ"}, {"w": "buckets", "vi": "xô"}]}, {"type": "mc", "ctx": "Smartphone age", "s": "I can't ___ living without a phone, especially now that banking, maps and even train tickets are all on one app.", "o": ["imagine", "hope", "decide"], "a": "imagine", "vi": "Tôi không thể tưởng tượng việc sống thiếu điện thoại, nhất là bây giờ ngân hàng, bản đồ và cả vé tàu đều nằm trong một ứng dụng.", "why": "imagine + V-ing; hope và decide đi với to V.", "tw": "imagine", "ipa": "/ɪˈmædʒ.ɪn/", "new": [{"w": "especially", "vi": "đặc biệt là"}, {"w": "app", "vi": "ứng dụng"}]}, {"type": "mc", "ctx": "Kitchen layout", "s": "The chef keeps every knife and pan ___, so that during a busy lunch nobody wastes time searching for tools.", "o": ["in the right spot", "in a bad mood", "on a long list"], "a": "in the right spot", "vi": "Đầu bếp để mọi con dao và cái chảo đúng chỗ, nhờ vậy trong giờ trưa đông khách không ai mất thời gian tìm dụng cụ.", "why": "keeps ... in the right spot = để ở đúng vị trí.", "tw": "in the right spot", "ipa": "/ɪn ðə raɪt spɒt/", "new": [{"w": "wastes", "vi": "lãng phí"}, {"w": "tools", "vi": "dụng cụ"}]}, {"type": "mc", "ctx": "Building site", "s": "It will ___ the builders about three weeks to finish the roof, although heavy rain could delay the work.", "o": ["take", "spend", "last"], "a": "take", "vi": "Các thợ xây sẽ mất khoảng ba tuần để làm xong mái nhà, dù mưa lớn có thể làm chậm công việc.", "why": "It will take + sb + thời gian + to V.", "tw": "take", "ipa": "/teɪk/", "new": [{"w": "delay", "vi": "làm chậm trễ"}, {"w": "heavy rain", "vi": "mưa lớn"}]}, {"type": "mc", "ctx": "Market shopping", "s": "The jacket costs ___ fifty dollars, so I paid forty-nine and still got change from a fifty-dollar note.", "o": ["just under", "just over", "just across"], "a": "just under", "vi": "Chiếc áo khoác giá chưa đến năm mươi đô, nên tôi trả bốn mươi chín và vẫn được thối lại từ tờ năm mươi đô.", "why": "trả 49$ → chưa đến 50$ = just under.", "tw": "just under", "ipa": "/dʒʌst ˈʌn.dər/", "new": [{"w": "change", "vi": "tiền thối"}, {"w": "note", "vi": "tờ tiền"}]}, {"type": "mc", "ctx": "Airport check-in", "s": "The passengers were ___, because the gate was closing and their luggage had still not been checked.", "o": ["in a hurry", "in a row", "in a garden"], "a": "in a hurry", "vi": "Các hành khách đang vội vì cổng sắp đóng và hành lý của họ vẫn chưa được kiểm tra.", "why": "gate closing → vội vã = in a hurry.", "tw": "in a hurry", "ipa": "/ɪn ə ˈhʌri/", "new": [{"w": "gate", "vi": "cổng ra máy bay"}, {"w": "luggage", "vi": "hành lý"}]}, {"type": "mc", "ctx": "Match day", "s": "On match days there is ___ near the stadium, so most fans take the metro instead of driving.", "o": ["nowhere to park", "nothing to eat", "no one to ask"], "a": "nowhere to park", "vi": "Vào ngày thi đấu gần sân vận động không có chỗ đậu xe nên hầu hết cổ động viên đi tàu điện thay vì lái xe.", "why": "take the metro instead of driving → không có chỗ đậu xe.", "tw": "nowhere to park", "ipa": "/ˈnəʊweə tə pɑːk/", "new": [{"w": "fans", "vi": "cổ động viên"}, {"w": "metro", "vi": "tàu điện ngầm"}]}, {"type": "mc", "ctx": "Cooking class", "s": "Before mashing, you should ___ the potatoes in a saucepan until they are soft enough to cut with a fork.", "o": ["boil", "bake", "freeze"], "a": "boil", "vi": "Trước khi nghiền, bạn nên luộc khoai trong nồi cho đến khi mềm đủ để cắt bằng nĩa.", "why": "in a saucepan → boil (luộc/đun sôi).", "tw": "boil", "ipa": "/bɔɪl ˈsʌmθɪŋ/", "new": [{"w": "mashing", "vi": "nghiền"}, {"w": "soft", "vi": "mềm"}]}]}, {"id": "s3", "title": "Chọn nghĩa", "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.", "qs": [{"type": "mc", "ctx": "Charity event", "s": "After the lorry delivered the food, the volunteers stood in a long line and passed the boxes down the line to the storeroom. The work finished in half the time. What does \"pass sth down the line\" mean?", "o": ["chuyền thứ gì dọc theo hàng người", "vứt thứ gì xuống đất", "xếp thứ gì theo thứ tự chữ cái"], "a": "chuyền thứ gì dọc theo hàng người", "vi": "Sau khi xe tải giao thực phẩm, các tình nguyện viên đứng thành hàng dài và chuyền các thùng dọc theo hàng đến nhà kho. Công việc xong trong nửa thời gian.", "why": "chuyền hàng người này sang người kia.", "tw": "pass down the line", "ipa": "/pɑːs daʊn ðə laɪn/", "new": [{"w": "lorry", "vi": "xe tải"}, {"w": "storeroom", "vi": "nhà kho"}], "noblank": true, "say": "After the lorry delivered the food, the volunteers stood in a long line and passed the boxes down the line to the storeroom. The work finished in half the time."}, {"type": "mc", "ctx": "Student life", "s": "Many students find it hard to imagine living on their own before they leave home. Once they move into a flat, however, they quickly learn to cook, budget and manage their time. What does \"imagine\" mean here?", "o": ["tưởng tượng", "dự đoán chính xác", "hồi tưởng lại"], "a": "tưởng tượng", "vi": "Nhiều sinh viên thấy khó tưởng tượng việc sống tự lập trước khi rời nhà. Tuy nhiên, khi chuyển vào căn hộ, họ nhanh chóng học cách nấu ăn, lập ngân sách và quản lý thời gian.", "why": "imagine + V-ing = tưởng tượng việc làm gì.", "tw": "imagine", "ipa": "/ɪˈmædʒ.ɪn/", "new": [{"w": "budget", "vi": "lập ngân sách"}, {"w": "flat", "vi": "căn hộ"}], "noblank": true, "say": "Many students find it hard to imagine living on their own before they leave home. Once they move into a flat, however, they quickly learn to cook, budget and manage their time."}, {"type": "mc", "ctx": "Garden tips", "s": "Tomatoes grow best when they receive plenty of sunlight, so you should plant them in the right spot. A shady corner will give you fewer and smaller fruit. What does \"in the right spot\" mean?", "o": ["ở đúng vị trí", "trong thời tiết tốt", "bằng đúng cách"], "a": "ở đúng vị trí", "vi": "Cà chua phát triển tốt nhất khi nhận nhiều ánh nắng, nên bạn cần trồng chúng đúng chỗ. Một góc râm sẽ cho ít quả hơn và nhỏ hơn.", "why": "in the right spot = ở đúng chỗ.", "tw": "in the right spot", "ipa": "/ɪn ðə raɪt spɒt/", "new": [{"w": "shady", "vi": "râm mát"}, {"w": "plenty of", "vi": "nhiều"}], "noblank": true, "say": "Tomatoes grow best when they receive plenty of sunlight, so you should plant them in the right spot. A shady corner will give you fewer and smaller fruit."}, {"type": "mc", "ctx": "Language learning", "s": "Learning a new language does not happen overnight. It usually takes learners several years to reach a level where they can talk about complex topics with confidence. What does \"It takes learners several years\" mean?", "o": ["học viên cần mất vài năm", "học viên bỏ cuộc sau vài năm", "học viên mượn sách vài năm"], "a": "học viên cần mất vài năm", "vi": "Học một ngôn ngữ mới không xảy ra trong một đêm. Thường học viên mất vài năm để đạt trình độ có thể nói về những chủ đề phức tạp một cách tự tin.", "why": "It takes sb + thời gian = ai cần mất bao lâu.", "tw": "take", "ipa": "/teɪk/", "new": [{"w": "overnight", "vi": "trong một đêm"}, {"w": "complex", "vi": "phức tạp"}], "noblank": true, "say": "Learning a new language does not happen overnight. It usually takes learners several years to reach a level where they can talk about complex topics with confidence."}, {"type": "mc", "ctx": "Fitness report", "s": "The new gym has just under two hundred members, which is fewer than the owner hoped for. She plans to offer cheaper classes to attract more people. What does \"just under two hundred\" mean?", "o": ["chưa đến hai trăm một chút", "hơn hai trăm một chút", "đúng hai trăm"], "a": "chưa đến hai trăm một chút", "vi": "Phòng tập mới có chưa đến hai trăm hội viên, ít hơn chủ phòng mong đợi. Cô định mở các lớp rẻ hơn để thu hút thêm người.", "why": "just under = chưa đến (ít hơn một chút).", "tw": "just under", "ipa": "/dʒʌst ˈʌn.dər/", "new": [{"w": "members", "vi": "hội viên"}, {"w": "attract", "vi": "thu hút"}], "noblank": true, "say": "The new gym has just under two hundred members, which is fewer than the owner hoped for. She plans to offer cheaper classes to attract more people."}, {"type": "mc", "ctx": "Office story", "s": "Minh opened the door without knocking and dropped the folder on the desk. He was in a hurry because the client was already waiting in the lobby. What does \"in a hurry\" mean?", "o": ["vội vã", "tức giận", "mệt mỏi"], "a": "vội vã", "vi": "Minh mở cửa không gõ và đặt tập hồ sơ lên bàn. Anh đang vội vì khách hàng đã chờ sẵn ở sảnh.", "why": "in a hurry = vội vã.", "tw": "in a hurry", "ipa": "/ɪn ə ˈhʌri/", "new": [{"w": "folder", "vi": "tập hồ sơ"}, {"w": "lobby", "vi": "sảnh"}], "noblank": true, "say": "Minh opened the door without knocking and dropped the folder on the desk. He was in a hurry because the client was already waiting in the lobby."}, {"type": "mc", "ctx": "Town council", "s": "Residents say that the old town has become too crowded for cars. At weekends there is nowhere to park, so some shops have lost customers. What does \"nowhere to park\" mean?", "o": ["không có chỗ đậu xe", "không có nơi để nghỉ ngơi", "không có chỗ bán hàng"], "a": "không có chỗ đậu xe", "vi": "Cư dân nói khu phố cổ đã quá đông đối với ô tô. Cuối tuần không có chỗ đậu xe nên một số cửa hàng mất khách.", "why": "nowhere to park = không có chỗ đậu xe.", "tw": "nowhere to park", "ipa": "/ˈnəʊweə tə pɑːk/", "new": [{"w": "residents", "vi": "cư dân"}, {"w": "crowded", "vi": "đông đúc"}], "noblank": true, "say": "Residents say that the old town has become too crowded for cars. At weekends there is nowhere to park, so some shops have lost customers."}, {"type": "mc", "ctx": "Recipe blog", "s": "Start by boiling the eggs in a saucepan for eight minutes. Then cool them in cold water, remove the shells and slice them into a salad. What does \"boiling the eggs\" mean?", "o": ["luộc trứng", "đập trứng", "chiên trứng"], "a": "luộc trứng", "vi": "Bắt đầu bằng việc luộc trứng trong nồi tám phút. Sau đó làm nguội trong nước lạnh, bóc vỏ và cắt lát cho vào món salad.", "why": "boil = luộc/đun sôi.", "tw": "boil", "ipa": "/bɔɪl ˈsʌmθɪŋ/", "new": [{"w": "shells", "vi": "vỏ"}, {"w": "slice", "vi": "cắt lát"}], "noblank": true, "say": "Start by boiling the eggs in a saucepan for eight minutes. Then cool them in cold water, remove the shells and slice them into a salad."}]}]};
+  const SECTIONS=DATA.sections;
+  SECTIONS.forEach(sec=>sec.qs.forEach(q=>{if(q.type==='tx'&&!q.acc)q.acc=[q.a];if(q.type==='tx'&&!q.a)q.a=q.acc[0];}));
+
+  /* ---------- prepare ---------- */
+  const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+  const ALL=[];
+  SECTIONS.forEach(sec=>sec.qs.forEach((q,i)=>{q.id=sec.id+'q'+(i+1);q.sec=sec.id;q.n=i+1;if(q.type==='mc')q.opts=shuffle(q.o);ALL.push(q);}));
+  const byId=Object.fromEntries(ALL.map(q=>[q.id,q]));
+
+  const KEY=DATA.meta.storageKey||'drill-v1';
+  let state={};
+  try{state=JSON.parse(localStorage.getItem(KEY)||'{}')||{};}catch(e){state={};}
+  const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}};
+
+  const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  const norm=s=>String(s).toLowerCase().replace(/[’‘]/g,"'").replace(/-/g,' ').replace(/[.,!?;:]+$/,'').replace(/\s+/g,' ').trim();
+  const isRight=(q,v)=>q.type==='mc'?v===q.a:q.acc.some(x=>norm(x)===norm(v));
+
+  const hintsOpen=new Set();
+  let current=SECTIONS[0].id;
+  const $=id=>document.getElementById(id);
+
+  /* ---------- listening (browser speech synthesis) ---------- */
+  const CAN_SPEAK=typeof window!=='undefined'&&'speechSynthesis' in window&&typeof SpeechSynthesisUtterance==='function';
+  let voice=null;
+  /* Fallback voice: prefer natural / neural US English voices when the audio files cannot be played. */
+  function pickVoice(){
+    if(!CAN_SPEAK)return;
+    const vs=speechSynthesis.getVoices().filter(v=>/^en[-_]US/i.test(v.lang));
+    const score=v=>(/natural|online|neural/i.test(v.name)?4:0)+(/aria|jenny|ava|andrew|guy|samantha|google us/i.test(v.name)?2:0)+(v.localService?0:1);
+    voice=vs.sort((a,b)=>score(b)-score(a))[0]||speechSynthesis.getVoices().find(v=>/^en/i.test(v.lang))||null;
+  }
+  if(CAN_SPEAK){pickVoice();speechSynthesis.addEventListener&&speechSynthesis.addEventListener('voiceschanged',pickVoice);}
+  let audio=null;
+  let cur=null; /* what is playing now: {id, kind:'audio'|'tts', paused} */
+  function updateControls(){
+    document.querySelectorAll('[data-pause]').forEach(b=>{
+      const active=!!cur&&cur.id===b.dataset.pause;
+      b.disabled=!active;
+      const paused=active&&cur.paused;
+      b.querySelector('span').textContent=paused?'Tiếp tục':'Tạm dừng';
+      b.querySelector('.i-pause').hidden=paused;
+      b.querySelector('.i-play').hidden=!paused;
+      b.classList.toggle('on',paused);
+    });
+  }
+  function stopAudio(){
+    if(audio){audio.onended=audio.onerror=audio.onplaying=null;audio.pause();audio=null;}
+    if(CAN_SPEAK)speechSynthesis.cancel();
+    cur=null;
+    document.querySelectorAll('.say.on').forEach(b=>b.classList.remove('on'));
+    updateControls();
+  }
+  function togglePause(id){
+    if(!cur||cur.id!==id)return;
+    if(cur.kind==='audio'&&audio){
+      if(audio.paused){audio.play();cur.paused=false;}else{audio.pause();cur.paused=true;}
+    }else if(cur.kind==='tts'&&CAN_SPEAK){
+      if(speechSynthesis.paused){speechSynthesis.resume();cur.paused=false;}else{speechSynthesis.pause();cur.paused=true;}
+    }
+    updateControls();
+  }
+  function speakFallback(id,done,slow,btn){
+    if(!CAN_SPEAK){cur=null;updateControls();return;}
+    const q=byId[id];
+    const text=(q.listen?q.s.replace('___',q.a||'')+'':q.s.includes('___')?q.s.replace('___',done?q.a:'blank'):(done?q.s+' '+q.a:q.s)).replace(/\b(\d{1,2})\.(\d{2})\b/g,'$1:$2');
+    const u=new SpeechSynthesisUtterance(text);
+    u.lang='en-US';if(voice){u.voice=voice;u.lang=voice.lang;}
+    u.rate=slow?0.65:0.95;
+    cur={id,kind:'tts',paused:false};
+    u.onstart=()=>{btn&&btn.classList.add('on');updateControls();};
+    u.onend=u.onerror=()=>{btn&&btn.classList.remove('on');if(cur&&cur.kind==='tts'&&cur.id===id)cur=null;updateControls();};
+    speechSynthesis.speak(u);
+    updateControls();
+  }
+  function speak(id,slow,btn){
+    stopAudio();
+    const done=!!state[id];
+    const suffix=(slow?'s':'')+(done?(slow?'':'f'):'b');
+    const a=new Audio('audio/'+id+'_'+suffix+'.mp3'+(DATA.meta.audioVersion?'?v='+DATA.meta.audioVersion:''));
+    audio=a;
+    cur={id,kind:'audio',paused:false};
+    let failed=false;
+    const fail=()=>{if(failed||audio!==a)return;failed=true;audio=null;speakFallback(id,done,slow,btn);};
+    a.onplaying=()=>{btn&&btn.classList.add('on');updateControls();};
+    a.onended=()=>{btn&&btn.classList.remove('on');if(audio===a){audio=null;cur=null;}updateControls();};
+    a.onerror=fail;
+    updateControls();
+    const p=a.play();
+    if(p&&p.catch)p.catch(fail);
+  }
+
+  /* ---------- single word pronunciation (audio/w_<slug>.mp3, browser voice as fallback) ---------- */
+  const slug=t=>String(t).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+  function playWord(text,btn){
+    stopAudio();
+    const clean=String(text).replace(/\.\.\./g,' ').replace(/\s+/g,' ').trim();
+    if(!clean)return;
+    const a=new Audio('audio/w_'+slug(text)+'.mp3'+(DATA.meta.audioVersion?'?v='+DATA.meta.audioVersion:''));
+    audio=a;cur={id:'w',kind:'audio',paused:false};
+    let failed=false;
+    const fail=()=>{
+      if(failed||audio!==a)return;failed=true;audio=null;cur=null;
+      if(!CAN_SPEAK)return;
+      const u=new SpeechSynthesisUtterance(clean);
+      u.lang='en-US';if(voice){u.voice=voice;u.lang=voice.lang;}u.rate=0.9;
+      speechSynthesis.speak(u);
+    };
+    a.onplaying=()=>{btn&&btn.classList.add('on');};
+    a.onended=()=>{btn&&btn.classList.remove('on');if(audio===a){audio=null;cur=null;}};
+    a.onerror=fail;
+    const p=a.play();
+    if(p&&p.catch)p.catch(fail);
+  }
+
+  /* ---------- render ---------- */
+  function cardHTML(q){
+    const st=state[q.id];
+    const done=!!st;
+    const cls=done?(st.c?'good':'bad'):'';
+    let sentence;
+    if(q.type==='mc'){
+      const slot=done?`<span class="slot ${cls}">${esc(st.v)}</span>`:`<span class="slot empty" aria-label="chỗ trống">_____</span>`;
+      sentence=q.s.replace('___',slot);
+    }else{
+      const inp=`<input class="blank ${cls}" id="in-${q.id}" data-q="${q.id}" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Điền vào chỗ trống, câu ${q.n}" ${done?`value="${esc(st.v)}" disabled`:''}>`;
+      sentence=(q.listen&&!done)?`<span class="ctx">Nghe rồi gõ từ còn thiếu:</span> ${inp}`:q.s.replace('___',inp);
+    }
+    let body='';
+    if(q.type==='mc'){
+      body=`<div class="opts" role="group" aria-label="Đáp án">`+q.opts.map(o=>{
+        let c='opt';
+        if(done){if(o===q.a)c+=' right';else if(o===st.v)c+=' wrong';}
+        return `<button type="button" class="${c}" data-q="${q.id}" data-v="${esc(o)}" ${done?'disabled':''}>${esc(o)}</button>`;
+      }).join('')+`</div>`;
+    }else if(!done){
+      body=`<button type="button" class="check" data-check="${q.id}">Kiểm tra</button>`;
+    }
+    if(q.hint&&!done){
+      const open=hintsOpen.has(q.id);
+      body+=`<div class="hintrow"><button type="button" class="ghost" data-hint="${q.id}">${open?'Ẩn gợi ý':'Gợi ý'}</button>${open?`<span class="hinttext">${esc(q.hint)}</span>`:''}</div>`;
+    }
+    let fb='';
+    if(done){
+      fb=`<div class="fb ${cls}" role="status"><span class="tag">${st.c?'Đúng':'Chưa đúng'}</span>`+
+         (st.c?'':`Đáp án: <b>${esc(q.a)}</b>`)+
+         (q.tw?`<p class="wordline"><b>${esc(q.tw)}</b>${q.ipa?`<span class="ipa">${esc(q.ipa)}</span>`:''}<button type="button" class="say" data-word="${esc(q.tw)}" aria-label="Phát âm ${esc(q.tw)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>Phát âm</button></p>`:'')+`<p>${esc(q.why)}</p><p class="vi">${esc(q.vi)}</p>${(q.new&&q.new.length)?`<p class="newwords"><b>Từ mới trong câu:</b> ${q.new.map(n=>`<span><b>${esc(n.w)}</b> = ${esc(n.vi)}</span>`).join('; ')}</p>`:''}</div>`+
+         (!st.c?`<button type="button" class="ghost retry" data-retry="${q.id}">Thử lại câu này</button>`:'');
+    }
+    const icon=`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>`;
+    const listen=true?`<div class="listen"><button type="button" class="say" data-say="${q.id}" aria-label="Nghe câu ${q.n}">${icon}Nghe</button><button type="button" class="say" data-say="${q.id}" data-slow="1" aria-label="Nghe chậm câu ${q.n}">${icon}Nghe chậm</button><button type="button" class="say pausebtn" data-pause="${q.id}" aria-label="Tạm dừng câu ${q.n}" disabled><svg viewBox="0 0 24 24" aria-hidden="true" class="i-pause"><path d="M8 5v14M16 5v14"/></svg><svg viewBox="0 0 24 24" aria-hidden="true" class="i-play" hidden><path d="M7 5l12 7-12 7z"/></svg><span>Tạm dừng</span></button><span class="hint">${done?'Đọc nguyên câu':'Chỗ trống đọc là "blank"'}</span></div>`:'';
+    return `<article class="q" id="card-${q.id}"><div class="qh"><span class="qn">${q.n}</span><span class="ctx">${esc(q.ctx)}</span></div><p class="sent">${sentence}</p>${body}${fb}${listen}</article>`;
+  }
+
+  function counts(list){
+    let a=0,c=0;list.forEach(q=>{const s=state[q.id];if(s){a++;if(s.c)c++;}});return {a,c,t:list.length};
+  }
+
+  function renderTabs(){
+    const wrongCount=ALL.filter(q=>state[q.id]&&!state[q.id].c).length;
+    $('tabs').innerHTML=SECTIONS.map((s,i)=>{
+      const k=counts(s.qs);
+      return `<button class="tab" role="tab" type="button" data-tab="${s.id}" aria-selected="${current===s.id}">${i+1}. ${esc(s.title)}<small>${k.a}/${k.t}</small></button>`;
+    }).join('')+`<button class="tab" role="tab" type="button" data-tab="wrong" aria-selected="${current==='wrong'}">Câu cần ôn<small>${wrongCount}</small></button>`;
+  }
+
+  function renderStats(){
+    const k=counts(ALL);
+    const pct=Math.round(k.a/k.t*100);
+    $('pfill').style.width=pct+'%';
+    $('pbar').setAttribute('aria-valuenow',pct);
+    $('pnum').innerHTML=`Đã làm <b>${k.a}</b>/${k.t} · Đúng <b>${k.c}</b>`+(k.a?` (${Math.round(k.c/k.a*100)}%)`:'');
+  }
+
+  function renderView(){
+    let html='';
+    if(current==='wrong'){
+      const list=ALL.filter(q=>state[q.id]&&!state[q.id].c);
+      html=`<div class="note"><h2>Câu cần ôn</h2><p>Các câu bạn trả lời chưa đúng, từ mọi phần. Bấm "Thử lại câu này" để làm lại ngay tại đây.</p></div>`;
+      html+=list.length?list.map(cardHTML).join(''):`<div class="empty-state">Chưa có câu sai nào. Hãy làm thêm các phần khác, những câu chưa đúng sẽ xuất hiện ở đây.</div>`;
+    }else{
+      const s=SECTIONS.find(x=>x.id===current);
+      const k=counts(s.qs);
+      html=`<div class="note"><h2>${esc(s.title)}</h2><p>${s.note}</p></div>`+s.qs.map(cardHTML).join('')+
+        `<div class="foot"><span class="num">Phần này: đúng <b>${k.c}</b>/${k.t}${k.a<k.t?` · còn ${k.t-k.a} câu`:''}</span><button class="ghost" type="button" data-reset="${s.id}">Làm lại phần này</button></div>`;
+    }
+    $('view').innerHTML=html;
+  }
+
+  function renderAll(){renderTabs();renderStats();renderView();}
+
+  function refreshCard(id){
+    const el=$('card-'+id);
+    if(el)el.outerHTML=cardHTML(byId[id]);
+    renderTabs();renderStats();
+    if(current!=='wrong')refreshFoot();
+    updateControls();
+  }
+  function refreshFoot(){
+    const s=SECTIONS.find(x=>x.id===current);if(!s)return;
+    const k=counts(s.qs);
+    const f=document.querySelector('.foot .num');
+    if(f)f.innerHTML=`Phần này: đúng <b>${k.c}</b>/${k.t}${k.a<k.t?` · còn ${k.t-k.a} câu`:''}`;
+  }
+
+  function answer(id,v){
+    const q=byId[id];
+    if(state[id]||!String(v).trim())return;
+    state[id]={v:String(v).trim(),c:isRight(q,v)};
+    save();refreshCard(id);
+  }
+
+  /* ---------- events ---------- */
+  document.addEventListener('click',e=>{
+    const t=e.target.closest('button');if(!t)return;
+    if(t.dataset.hint){const id=t.dataset.hint;hintsOpen.has(id)?hintsOpen.delete(id):hintsOpen.add(id);refreshCard(id);return;}
+    if(t.dataset.pause){togglePause(t.dataset.pause);return;}
+    if(t.dataset.word){playWord(t.dataset.word,t);return;}
+    if(t.dataset.say){speak(t.dataset.say,!!t.dataset.slow,t);return;}
+    if(t.dataset.tab){stopAudio();current=t.dataset.tab;renderAll();window.scrollTo({top:0});return;}
+    if(t.classList.contains('opt')){const oq=byId[t.dataset.q];if(oq&&!oq.noblank)playWord(t.dataset.v,t);answer(t.dataset.q,t.dataset.v);return;}
+    if(t.dataset.check){const i=$('in-'+t.dataset.check);answer(t.dataset.check,i?i.value:'');return;}
+    if(t.dataset.retry){delete state[t.dataset.retry];save();refreshCard(t.dataset.retry);const i=$('in-'+t.dataset.retry);if(i)i.focus();return;}
+    if(t.dataset.reset){byId&&SECTIONS.find(s=>s.id===t.dataset.reset).qs.forEach(q=>delete state[q.id]);save();renderAll();return;}
+    if(t.id==='resetAll'){
+      if(t.dataset.armed){state={};save();renderAll();t.textContent='Làm lại từ đầu';delete t.dataset.armed;}
+      else{t.dataset.armed='1';t.textContent='Bấm lần nữa để xóa hết';setTimeout(()=>{if(t.dataset.armed){delete t.dataset.armed;t.textContent='Làm lại từ đầu';}},3500);}
+    }
+  });
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Enter'&&e.target.matches('input.blank')){e.preventDefault();answer(e.target.dataset.q,e.target.value);}
+  });
+
+  renderAll();
+})();
+</script>
