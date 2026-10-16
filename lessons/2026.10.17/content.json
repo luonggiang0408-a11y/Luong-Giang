@@ -1,0 +1,4667 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 2026.10.17",
+  "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 17/10/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 54 từ. Mỗi từ làm 2 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (216 câu, 216 = 4 × 54), mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.10.17-v5",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma202610170900"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "Gõ từ còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "Property search",
+     "s": "Although the apartment was cheap, the agent warned us that its ___ near the airport meant constant noise, which is why many buyers refused it.",
+     "acc": [
+      "location"
+     ],
+     "vi": "Dù căn hộ rẻ, nhân viên môi giới cảnh báo rằng vị trí gần sân bay đồng nghĩa với tiếng ồn liên tục, vì vậy nhiều người mua từ chối.",
+     "why": "location = vị trí; collocation: a good/bad location.",
+     "hint": "Nghĩa: vị trí, địa điểm.",
+     "tw": "location",
+     "ipa": "/loʊˈkeɪʃən/",
+     "new": [
+      {
+       "w": "constant",
+       "vi": "liên tục"
+      },
+      {
+       "w": "buyers",
+       "vi": "người mua"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Opening a café",
+     "s": "If you want to attract tourists, you should choose a ___ close to the main square, where thousands of people walk past every day.",
+     "acc": [
+      "location",
+      "locations"
+     ],
+     "vi": "Nếu muốn thu hút khách du lịch, bạn nên chọn một địa điểm gần quảng trường chính, nơi hàng nghìn người đi ngang mỗi ngày.",
+     "why": "a location close to... = địa điểm gần...",
+     "hint": "Nghĩa: vị trí, địa điểm.",
+     "tw": "location",
+     "ipa": "/loʊˈkeɪʃən/",
+     "new": [
+      {
+       "w": "attract",
+       "vi": "thu hút"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Moving house",
+     "s": "Since rents downtown have doubled, many young families are moving to new estates on the ___ of the city, where they can buy bigger homes.",
+     "acc": [
+      "outskirts"
+     ],
+     "vi": "Vì giá thuê ở trung tâm tăng gấp đôi, nhiều gia đình trẻ chuyển đến các khu nhà mới ở vùng ngoại ô thành phố, nơi họ mua được nhà rộng hơn.",
+     "why": "on the outskirts of = ở rìa/ngoại ô của...",
+     "hint": "Nghĩa: vùng ngoại ô, rìa thành phố của.",
+     "tw": "on the outskirts of",
+     "ipa": "/ˈaʊtˌskɝːts/",
+     "new": [
+      {
+       "w": "estates",
+       "vi": "khu nhà ở"
+      },
+      {
+       "w": "doubled",
+       "vi": "tăng gấp đôi"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Airport news",
+     "s": "The new airport, which was built on the ___ of the capital to reduce noise, is connected to the centre by a fast train.",
+     "acc": [
+      "outskirts"
+     ],
+     "vi": "Sân bay mới, được xây ở ngoại ô thủ đô để giảm tiếng ồn, được nối với trung tâm bằng một tuyến tàu nhanh.",
+     "why": "on the outskirts of the capital = ở rìa thủ đô.",
+     "hint": "Nghĩa: vùng ngoại ô, rìa thành phố của.",
+     "tw": "on the outskirts of",
+     "ipa": "/ˈaʊtˌskɝːts/",
+     "new": [
+      {
+       "w": "reduce",
+       "vi": "giảm"
+      },
+      {
+       "w": "connected",
+       "vi": "được nối"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Landlord meeting",
+     "s": "My ___ landlord, unlike the one before him, replies to messages quickly and fixes problems within a few days.",
+     "acc": [
+      "present"
+     ],
+     "vi": "Chủ nhà hiện tại của tôi, không như người trước, trả lời tin nhắn nhanh và sửa chữa các vấn đề trong vài ngày.",
+     "why": "present = hiện tại (đối lập với previous/former).",
+     "hint": "Nghĩa: hiện tại.",
+     "tw": "present",
+     "ipa": "/ˈprezənt/",
+     "new": [
+      {
+       "w": "landlord",
+       "vi": "chủ nhà"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Job interview",
+     "s": "The interviewer asked why I wanted to leave my ___ company, since I had been promoted twice in the last three years.",
+     "acc": [
+      "present",
+      "current"
+     ],
+     "vi": "Người phỏng vấn hỏi vì sao tôi muốn rời công ty hiện tại, vì tôi đã được thăng chức hai lần trong ba năm qua.",
+     "why": "present company = công ty hiện tại (current cũng được).",
+     "hint": "Nghĩa: hiện tại.",
+     "tw": "present",
+     "ipa": "/ˈprezənt/",
+     "new": [
+      {
+       "w": "promoted",
+       "vi": "được thăng chức"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Home office",
+     "s": "Working from home is difficult when there is not enough ___ for a desk, so Mai put her laptop on the kitchen table instead.",
+     "acc": [
+      "space"
+     ],
+     "vi": "Làm việc ở nhà khó khi không đủ chỗ cho cái bàn, nên Mai đặt laptop lên bàn bếp.",
+     "why": "space = không gian, chỗ trống.",
+     "hint": "Nghĩa: không gian, chỗ.",
+     "tw": "space",
+     "ipa": "/speɪs/",
+     "new": [
+      {
+       "w": "instead",
+       "vi": "thay vào đó"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "City planning",
+     "s": "Because the population is growing so fast, the council wants to protect green ___ in the centre so that residents can relax outdoors.",
+     "acc": [
+      "space",
+      "spaces"
+     ],
+     "vi": "Vì dân số tăng quá nhanh, hội đồng muốn bảo vệ không gian xanh ở trung tâm để cư dân thư giãn ngoài trời.",
+     "why": "green space = không gian xanh, công viên.",
+     "hint": "Nghĩa: không gian, chỗ.",
+     "tw": "space",
+     "ipa": "/speɪs/",
+     "new": [
+      {
+       "w": "council",
+       "vi": "hội đồng thành phố"
+      },
+      {
+       "w": "residents",
+       "vi": "cư dân"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Student life",
+     "s": "When Tom started university in Manchester, he shared a ___ with two classmates, which meant the rent was affordable.",
+     "acc": [
+      "flat",
+      "apartment"
+     ],
+     "vi": "Khi Tom bắt đầu học đại học ở Manchester, cậu ở chung một căn hộ với hai bạn cùng lớp nên tiền thuê rẻ.",
+     "why": "flat = căn hộ (Anh-Anh); apartment (Anh-Mỹ) cũng được.",
+     "hint": "Nghĩa: căn hộ (Anh-Anh).",
+     "tw": "flat",
+     "ipa": "/flæt/",
+     "new": [
+      {
+       "w": "affordable",
+       "vi": "vừa túi tiền"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Estate agent",
+     "s": "If you are looking for a ___ in London, expect to pay a high deposit, although some landlords accept a smaller one for long contracts.",
+     "acc": [
+      "flat",
+      "apartment"
+     ],
+     "vi": "Nếu bạn tìm một căn hộ ở London, hãy chuẩn bị đặt cọc cao, dù một số chủ nhà nhận khoản thấp hơn cho hợp đồng dài.",
+     "why": "flat = căn hộ trong tòa nhà.",
+     "hint": "Nghĩa: căn hộ (Anh-Anh).",
+     "tw": "flat",
+     "ipa": "/flæt/",
+     "new": [
+      {
+       "w": "deposit",
+       "vi": "tiền đặt cọc"
+      },
+      {
+       "w": "contracts",
+       "vi": "hợp đồng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Job relocation",
+     "s": "After accepting the position in Chicago, Lena spent a whole weekend viewing every ___ that the company recommended near her new office.",
+     "acc": [
+      "apartment",
+      "apartments"
+     ],
+     "vi": "Sau khi nhận vị trí ở Chicago, Lena dành cả cuối tuần xem mọi căn hộ mà công ty gợi ý gần văn phòng mới.",
+     "why": "apartment = căn hộ (Anh-Mỹ).",
+     "hint": "Nghĩa: căn hộ.",
+     "tw": "apartment",
+     "ipa": "/əˈpɑːrtmənt/",
+     "new": [
+      {
+       "w": "position",
+       "vi": "vị trí công việc"
+      },
+      {
+       "w": "recommended",
+       "vi": "gợi ý"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Cost of living",
+     "s": "Rents have risen so sharply that a young nurse can no longer afford to rent an ___ in the city without sharing it with friends.",
+     "acc": [
+      "apartment",
+      "flat"
+     ],
+     "vi": "Giá thuê tăng mạnh đến nỗi một y tá trẻ không còn đủ tiền thuê căn hộ trong thành phố nếu không ở chung với bạn.",
+     "why": "rent an apartment = thuê căn hộ.",
+     "hint": "Nghĩa: căn hộ.",
+     "tw": "apartment",
+     "ipa": "/əˈpɑːrtmənt/",
+     "new": [
+      {
+       "w": "sharply",
+       "vi": "mạnh"
+      },
+      {
+       "w": "afford",
+       "vi": "đủ tiền"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Holiday plan",
+     "s": "Instead of staying in a hotel, we decided to ___ a small cottage by the lake for a week, which turned out to be much cheaper.",
+     "acc": [
+      "rent"
+     ],
+     "vi": "Thay vì ở khách sạn, chúng tôi quyết định thuê một căn nhà nhỏ bên hồ trong một tuần, và hóa ra rẻ hơn nhiều.",
+     "why": "rent = thuê (trả tiền để dùng).",
+     "hint": "Nghĩa: thuê.",
+     "tw": "rent",
+     "ipa": "/rent/",
+     "new": [
+      {
+       "w": "turned out",
+       "vi": "hóa ra"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Tourist advice",
+     "s": "If you don't want to depend on buses, you can ___ a bicycle at the station for about ten euros a day and explore the old town freely.",
+     "acc": [
+      "rent",
+      "hire"
+     ],
+     "vi": "Nếu không muốn phụ thuộc vào xe buýt, bạn có thể thuê xe đạp ở ga với khoảng mười euro một ngày và thoải mái khám phá phố cổ.",
+     "why": "rent a bicycle = thuê xe đạp.",
+     "hint": "Nghĩa: thuê.",
+     "tw": "rent",
+     "ipa": "/rent/",
+     "new": [
+      {
+       "w": "depend on",
+       "vi": "phụ thuộc vào"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Noisy night",
+     "s": "The baby woke up crying at midnight, so I quietly walked ___ to warm some milk, hoping not to wake the rest of the family.",
+     "acc": [
+      "downstairs"
+     ],
+     "vi": "Em bé thức dậy khóc lúc nửa đêm nên tôi lặng lẽ xuống tầng dưới hâm sữa, hy vọng không đánh thức cả nhà.",
+     "why": "downstairs = xuống/ở tầng dưới.",
+     "hint": "Nghĩa: ở/xuống tầng dưới.",
+     "tw": "downstairs",
+     "ipa": "/ˌdaʊnˈsterz/",
+     "new": [
+      {
+       "w": "warm",
+       "vi": "hâm nóng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Visiting a friend",
+     "s": "She lives in the flat ___ from mine, which is convenient because I can borrow sugar whenever I run out, although she complains about my music.",
+     "acc": [
+      "downstairs"
+     ],
+     "vi": "Cô ấy sống ở căn hộ tầng dưới nhà tôi, tiện vì tôi mượn đường được khi hết, dù cô hay phàn nàn về nhạc của tôi.",
+     "why": "downstairs = ở tầng dưới.",
+     "hint": "Nghĩa: ở/xuống tầng dưới.",
+     "tw": "downstairs",
+     "ipa": "/ˌdaʊnˈsterz/",
+     "new": [
+      {
+       "w": "run out",
+       "vi": "hết"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Old house",
+     "s": "The bathroom is ___, so guests have to climb a narrow staircase, which can be difficult for elderly relatives.",
+     "acc": [
+      "upstairs"
+     ],
+     "vi": "Phòng tắm ở trên lầu nên khách phải leo cầu thang hẹp, điều này có thể khó cho người già.",
+     "why": "upstairs = ở/lên tầng trên.",
+     "hint": "Nghĩa: ở/xuống tầng trên.",
+     "tw": "upstairs",
+     "new": [
+      {
+       "w": "narrow",
+       "vi": "hẹp"
+      },
+      {
+       "w": "elderly",
+       "vi": "lớn tuổi"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Home life",
+     "s": "My teenage son spends most of the weekend in his room ___, playing video games, and only comes down when he is hungry.",
+     "acc": [
+      "upstairs"
+     ],
+     "vi": "Con trai tuổi teen của tôi dành phần lớn cuối tuần trong phòng trên lầu chơi điện tử, chỉ xuống khi đói.",
+     "why": "upstairs = ở trên lầu.",
+     "hint": "Nghĩa: ở/xuống tầng trên.",
+     "tw": "upstairs",
+     "new": [
+      {
+       "w": "teenage",
+       "vi": "tuổi thiếu niên"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Apartment viewing",
+     "s": "The flat on the ___ has a wonderful view of the bay, but there is no lift, so carrying groceries up six flights is exhausting.",
+     "acc": [
+      "top floor"
+     ],
+     "vi": "Căn hộ ở tầng trên cùng có tầm nhìn tuyệt đẹp ra vịnh, nhưng không có thang máy nên xách đồ lên sáu tầng rất mệt.",
+     "why": "top floor = tầng trên cùng.",
+     "hint": "Nghĩa: tầng trên cùng.",
+     "tw": "top floor",
+     "ipa": "/ˌtɑːp ˈflɔːr/",
+     "new": [
+      {
+       "w": "flights",
+       "vi": "đợt cầu thang"
+      },
+      {
+       "w": "exhausting",
+       "vi": "kiệt sức"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Hotel booking",
+     "s": "We asked for a room on the ___ so that we could watch the fireworks over the river without any buildings blocking the view.",
+     "acc": [
+      "top floor"
+     ],
+     "vi": "Chúng tôi xin một phòng ở tầng trên cùng để xem pháo hoa trên sông mà không bị tòa nhà nào che tầm nhìn.",
+     "why": "a room on the top floor = phòng ở tầng cao nhất.",
+     "hint": "Nghĩa: tầng trên cùng.",
+     "tw": "top floor",
+     "ipa": "/ˌtɑːp ˈflɔːr/",
+     "new": [
+      {
+       "w": "fireworks",
+       "vi": "pháo hoa"
+      },
+      {
+       "w": "blocking",
+       "vi": "che chắn"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Shopping mall",
+     "s": "The pharmacy is on the ___, right next to the entrance, so elderly customers don't have to use the stairs or the lift.",
+     "acc": [
+      "ground floor"
+     ],
+     "vi": "Hiệu thuốc ở tầng trệt, ngay cạnh lối vào, nên khách lớn tuổi không phải dùng cầu thang hay thang máy.",
+     "why": "ground floor = tầng trệt (tầng sát mặt đất).",
+     "hint": "Nghĩa: tầng trệt.",
+     "tw": "ground floor",
+     "ipa": "/ˈɡraʊnd flɔːr/",
+     "new": [
+      {
+       "w": "pharmacy",
+       "vi": "hiệu thuốc"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Wheelchair access",
+     "s": "Since my uncle uses a wheelchair, we are looking for a flat on the ___, even if it means paying a little more each month.",
+     "acc": [
+      "ground floor"
+     ],
+     "vi": "Vì chú tôi dùng xe lăn nên chúng tôi tìm căn hộ ở tầng trệt, dù phải trả thêm một chút mỗi tháng.",
+     "why": "ground floor = tầng trệt, không cần leo cầu thang.",
+     "hint": "Nghĩa: tầng trệt.",
+     "tw": "ground floor",
+     "ipa": "/ˈɡraʊnd flɔːr/",
+     "new": [
+      {
+       "w": "wheelchair",
+       "vi": "xe lăn"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Housing news",
+     "s": "Fire officers warned residents of the old ___ of flats to check their alarms, because several fires had started in the kitchens last winter.",
+     "acc": [
+      "block"
+     ],
+     "vi": "Lính cứu hỏa cảnh báo cư dân của tòa chung cư cũ kiểm tra chuông báo cháy vì nhiều vụ cháy bắt đầu từ bếp mùa đông trước.",
+     "why": "a block of flats = tòa nhà nhiều căn hộ.",
+     "hint": "Nghĩa: tòa nhà gồm nhiều căn hộ.",
+     "tw": "block of flats",
+     "ipa": "/ˌblɑːk əv ˈflæts/",
+     "new": [
+      {
+       "w": "alarms",
+       "vi": "chuông báo động"
+      },
+      {
+       "w": "residents",
+       "vi": "cư dân"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "City tour",
+     "s": "The guide pointed to a tall ___ of flats built in the 1960s, which, although ugly, is still home to nearly three hundred families.",
+     "acc": [
+      "block"
+     ],
+     "vi": "Hướng dẫn viên chỉ vào một tòa chung cư cao xây từ những năm 1960, tuy xấu nhưng vẫn là nhà của gần ba trăm gia đình.",
+     "why": "a block of flats = tòa chung cư.",
+     "hint": "Nghĩa: tòa nhà gồm nhiều căn hộ.",
+     "tw": "block of flats",
+     "ipa": "/ˌblɑːk əv ˈflæts/",
+     "new": [
+      {
+       "w": "guide",
+       "vi": "hướng dẫn viên"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Moving day",
+     "s": "Our family moved into an ___ downtown last month, and we were pleased to find a small playground behind it for the kids.",
+     "acc": [
+      "apartment building"
+     ],
+     "vi": "Tháng trước gia đình chúng tôi chuyển vào một tòa chung cư ở trung tâm, và mừng khi thấy sân chơi nhỏ phía sau cho bọn trẻ.",
+     "why": "an apartment building = tòa nhà chung cư (Anh-Mỹ).",
+     "hint": "Nghĩa: tòa nhà chung cư.",
+     "tw": "an apartment building",
+     "ipa": "/ən əˈpɑːrtmənt ˌbɪldɪŋ/",
+     "new": [
+      {
+       "w": "playground",
+       "vi": "sân chơi"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Safety report",
+     "s": "Inspectors discovered that the elevators in the ___ had not been checked for two years, so the owner was fined heavily.",
+     "acc": [
+      "apartment building",
+      "apartment buildings"
+     ],
+     "vi": "Thanh tra phát hiện thang máy trong tòa chung cư đã hai năm không được kiểm tra, nên chủ tòa nhà bị phạt nặng.",
+     "why": "apartment building = tòa chung cư.",
+     "hint": "Nghĩa: tòa nhà chung cư.",
+     "tw": "an apartment building",
+     "ipa": "/ən əˈpɑːrtmənt ˌbɪldɪŋ/",
+     "new": [
+      {
+       "w": "inspectors",
+       "vi": "thanh tra"
+      },
+      {
+       "w": "fined",
+       "vi": "bị phạt tiền"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Old office",
+     "s": "The ___ was out of order again this morning, so everyone who works on the eighth floor had to climb the stairs, which made them late.",
+     "acc": [
+      "lift",
+      "elevator"
+     ],
+     "vi": "Sáng nay thang máy lại hỏng nên mọi người làm việc ở tầng tám phải leo cầu thang, khiến họ đến muộn.",
+     "why": "lift = thang máy (Anh-Anh); elevator (Anh-Mỹ) cũng được.",
+     "hint": "Nghĩa: thang máy (BrE).",
+     "tw": "lift",
+     "ipa": "/lɪft/",
+     "new": [
+      {
+       "w": "out of order",
+       "vi": "hỏng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Hospital visit",
+     "s": "Patients who cannot walk far are advised to take the ___ to the third floor, where the X-ray department is located.",
+     "acc": [
+      "lift",
+      "elevator"
+     ],
+     "vi": "Bệnh nhân không đi bộ xa được được khuyên đi thang máy lên tầng ba, nơi có khoa chụp X-quang.",
+     "why": "take the lift = đi thang máy.",
+     "hint": "Nghĩa: thang máy (BrE).",
+     "tw": "lift",
+     "ipa": "/lɪft/",
+     "new": [
+      {
+       "w": "advised",
+       "vi": "được khuyên"
+      },
+      {
+       "w": "department",
+       "vi": "khoa, phòng ban"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Skyscraper tour",
+     "s": "The glass ___ rises so quickly that visitors feel their ears pop before they reach the observation deck on the eightieth floor.",
+     "acc": [
+      "elevator",
+      "lift"
+     ],
+     "vi": "Thang máy kính lên nhanh đến nỗi du khách cảm thấy ù tai trước khi đến đài quan sát trên tầng tám mươi.",
+     "why": "elevator = thang máy (Anh-Mỹ).",
+     "hint": "Nghĩa: thang máy.",
+     "tw": "elevator",
+     "ipa": "/ˈeləveɪtər/",
+     "new": [
+      {
+       "w": "observation deck",
+       "vi": "đài quan sát"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Moving furniture",
+     "s": "We couldn't fit the new wardrobe into the ___, so four of us had to carry it up five floors, which took nearly an hour.",
+     "acc": [
+      "elevator",
+      "lift"
+     ],
+     "vi": "Chúng tôi không nhét được tủ quần áo mới vào thang máy nên bốn người phải khiêng lên năm tầng, mất gần một giờ.",
+     "why": "fit into the elevator = vừa trong thang máy.",
+     "hint": "Nghĩa: thang máy.",
+     "tw": "elevator",
+     "ipa": "/ˈeləveɪtər/",
+     "new": [
+      {
+       "w": "wardrobe",
+       "vi": "tủ quần áo"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Shopping mall",
+     "s": "Please hold the handrail while the ___ carries you up to the food court, and keep small children close to your side.",
+     "acc": [
+      "escalator"
+     ],
+     "vi": "Hãy vịn tay vịn khi thang cuốn đưa bạn lên khu ăn uống, và giữ trẻ nhỏ sát bên mình.",
+     "why": "escalator = thang cuốn (bậc thang tự chuyển động).",
+     "hint": "Nghĩa: thang cuốn.",
+     "tw": "escalator",
+     "ipa": "/ˈeskəleɪtər/",
+     "new": [
+      {
+       "w": "handrail",
+       "vi": "tay vịn"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Metro station",
+     "s": "During rush hour, people stand on the right side of the ___ so that those in a hurry can walk past on the left.",
+     "acc": [
+      "escalator"
+     ],
+     "vi": "Vào giờ cao điểm, mọi người đứng bên phải thang cuốn để những ai vội có thể đi qua bên trái.",
+     "why": "stand on the right of the escalator = đứng bên phải thang cuốn.",
+     "hint": "Nghĩa: thang cuốn.",
+     "tw": "escalator",
+     "ipa": "/ˈeskəleɪtər/",
+     "new": [
+      {
+       "w": "rush hour",
+       "vi": "giờ cao điểm"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Hotel review",
+     "s": "The room was comfortable, but the ___ was so noisy that we turned it off and opened the window, even though it was very hot.",
+     "acc": [
+      "air conditioning"
+     ],
+     "vi": "Phòng thoải mái, nhưng hệ thống điều hòa ồn đến nỗi chúng tôi tắt đi và mở cửa sổ, dù trời rất nóng.",
+     "why": "air conditioning = hệ thống điều hòa (không đếm được).",
+     "hint": "Nghĩa: hệ thống điều hòa.",
+     "tw": "air conditioning",
+     "ipa": "/ˈer kənˌdɪʃənɪŋ/",
+     "new": [
+      {
+       "w": "comfortable",
+       "vi": "thoải mái"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Office complaint",
+     "s": "Staff were unhappy because the ___ in the building broke down in July, and the temperature on the fifth floor reached thirty-five degrees.",
+     "acc": [
+      "air conditioning"
+     ],
+     "vi": "Nhân viên không hài lòng vì hệ thống điều hòa của tòa nhà hỏng hồi tháng Bảy, và nhiệt độ ở tầng năm lên đến ba mươi lăm độ.",
+     "why": "air conditioning = điều hòa của cả tòa nhà.",
+     "hint": "Nghĩa: hệ thống điều hòa.",
+     "tw": "air conditioning",
+     "ipa": "/ˈer kənˌdɪʃənɪŋ/",
+     "new": [
+      {
+       "w": "broke down",
+       "vi": "hỏng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Hot summer",
+     "s": "We bought a second-hand ___ and fixed it to the bedroom wall, so now the room stays cool even when it is thirty-eight degrees outside.",
+     "acc": [
+      "air conditioner"
+     ],
+     "vi": "Chúng tôi mua một máy điều hòa cũ và gắn lên tường phòng ngủ, nên giờ phòng vẫn mát dù ngoài trời ba mươi tám độ.",
+     "why": "air conditioner = máy điều hòa (thiết bị, đếm được).",
+     "hint": "Nghĩa: máy điều hòa, máy lạnh (thiết bị).",
+     "tw": "air conditioner",
+     "ipa": "/ˈer kənˌdɪʃənər/",
+     "new": [
+      {
+       "w": "second-hand",
+       "vi": "đã qua sử dụng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Repair service",
+     "s": "The technician said that the ___ in the living room was dripping water because the filter was blocked by dust.",
+     "acc": [
+      "air conditioner"
+     ],
+     "vi": "Kỹ thuật viên nói máy điều hòa trong phòng khách bị nhỏ nước vì bộ lọc bị bụi làm tắc.",
+     "why": "the air conditioner = cái máy điều hòa cụ thể.",
+     "hint": "Nghĩa: máy điều hòa, máy lạnh (thiết bị).",
+     "tw": "air conditioner",
+     "ipa": "/ˈer kənˌdɪʃənər/",
+     "new": [
+      {
+       "w": "dripping",
+       "vi": "nhỏ giọt"
+      },
+      {
+       "w": "filter",
+       "vi": "bộ lọc"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Bathroom shelf",
+     "s": "After washing my hair, I always put a little ___ on the ends, because without it my hair becomes dry and difficult to brush.",
+     "acc": [
+      "conditioner"
+     ],
+     "vi": "Sau khi gội đầu, tôi luôn thoa một ít dầu xả lên đuôi tóc vì nếu không tóc khô và khó chải.",
+     "why": "conditioner = dầu xả (dưỡng tóc).",
+     "hint": "Nghĩa: dầu xả; chất dưỡng.",
+     "tw": "conditioner",
+     "ipa": "/kənˈdɪʃənər/",
+     "new": [
+      {
+       "w": "brush",
+       "vi": "chải"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Packing for a trip",
+     "s": "I packed shampoo and ___ in small bottles so that I could take them in my hand luggage on the plane.",
+     "acc": [
+      "conditioner"
+     ],
+     "vi": "Tôi cho dầu gội và dầu xả vào chai nhỏ để mang được trong hành lý xách tay lên máy bay.",
+     "why": "shampoo and conditioner = dầu gội và dầu xả.",
+     "hint": "Nghĩa: dầu xả; chất dưỡng.",
+     "tw": "conditioner",
+     "ipa": "/kənˈdɪʃənər/",
+     "new": [
+      {
+       "w": "hand luggage",
+       "vi": "hành lý xách tay"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Supermarket",
+     "s": "Mai compared three brands of ___ and chose the cheapest one, since all of them promised to make hair softer in just five minutes.",
+     "acc": [
+      "hair conditioner"
+     ],
+     "vi": "Mai so sánh ba nhãn dầu xả tóc và chọn loại rẻ nhất vì loại nào cũng hứa làm tóc mềm hơn chỉ trong năm phút.",
+     "why": "hair conditioner = dầu xả tóc.",
+     "hint": "Nghĩa: dầu xả tóc.",
+     "tw": "hair conditioner",
+     "ipa": "/ˈher kənˌdɪʃənər/",
+     "new": [
+      {
+       "w": "brands",
+       "vi": "nhãn hiệu"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Salon advice",
+     "s": "The hairdresser recommended a ___ with natural oils, because my hair had been damaged by years of colouring.",
+     "acc": [
+      "hair conditioner"
+     ],
+     "vi": "Thợ làm tóc khuyên dùng dầu xả tóc có tinh dầu thiên nhiên vì tóc tôi đã hư tổn sau nhiều năm nhuộm.",
+     "why": "hair conditioner with oils = dầu xả có dầu dưỡng.",
+     "hint": "Nghĩa: dầu xả tóc.",
+     "tw": "hair conditioner",
+     "ipa": "/ˈher kənˌdɪʃənər/",
+     "new": [
+      {
+       "w": "recommended",
+       "vi": "khuyên dùng"
+      },
+      {
+       "w": "colouring",
+       "vi": "nhuộm màu"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Apartment life",
+     "s": "Every morning my grandfather drinks tea on the ___ and watches the neighbours water their plants, which he says keeps him cheerful.",
+     "acc": [
+      "balcony"
+     ],
+     "vi": "Mỗi sáng ông tôi uống trà ngoài ban công và nhìn hàng xóm tưới cây, ông nói điều đó giúp ông vui vẻ.",
+     "why": "balcony = ban công.",
+     "hint": "Nghĩa: ban công.",
+     "tw": "balcony",
+     "ipa": "/ˈbælkəni/",
+     "new": [
+      {
+       "w": "cheerful",
+       "vi": "vui vẻ"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Real estate",
+     "s": "The flat is small, but the large ___ has room for a table, so you can have dinner outside when the weather is warm.",
+     "acc": [
+      "balcony"
+     ],
+     "vi": "Căn hộ nhỏ nhưng ban công lớn đủ chỗ cho cái bàn nên bạn có thể ăn tối ngoài trời khi trời ấm.",
+     "why": "a large balcony = ban công rộng.",
+     "hint": "Nghĩa: ban công.",
+     "tw": "balcony",
+     "ipa": "/ˈbælkəni/",
+     "new": [
+      {
+       "w": "room",
+       "vi": "chỗ trống"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Coming home",
+     "s": "I was searching for my keys at the ___ when I realised that I had left them inside the car, so I had to call my brother.",
+     "acc": [
+      "front door"
+     ],
+     "vi": "Tôi đang tìm chìa khóa ở cửa chính thì nhận ra mình để quên trong xe nên phải gọi anh trai.",
+     "why": "front door = cửa chính của nhà.",
+     "hint": "Nghĩa: cửa chính.",
+     "tw": "front door",
+     "ipa": "/ˌfrʌnt ˈdɔːr/",
+     "new": [
+      {
+       "w": "realised",
+       "vi": "nhận ra"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Delivery notice",
+     "s": "The courier left the parcel outside the ___, which is risky because it was raining and the box got completely wet.",
+     "acc": [
+      "front door"
+     ],
+     "vi": "Người giao hàng để bưu kiện bên ngoài cửa chính, thật rủi ro vì trời mưa và hộp ướt sũng.",
+     "why": "outside the front door = ngoài cửa chính.",
+     "hint": "Nghĩa: cửa chính.",
+     "tw": "front door",
+     "ipa": "/ˌfrʌnt ˈdɔːr/",
+     "new": [
+      {
+       "w": "courier",
+       "vi": "người giao hàng"
+      },
+      {
+       "w": "parcel",
+       "vi": "bưu kiện"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Elderly care",
+     "s": "My grandmother finds it hard to climb the ___ in front of the house, so we are planning to build a ramp.",
+     "acc": [
+      "steps"
+     ],
+     "vi": "Bà tôi thấy khó leo các bậc thềm trước nhà nên chúng tôi dự định làm một lối dốc.",
+     "why": "steps = các bậc thềm.",
+     "hint": "Nghĩa: các bậc thềm/cầu thang.",
+     "tw": "steps",
+     "ipa": "/steps/",
+     "new": [
+      {
+       "w": "ramp",
+       "vi": "lối dốc"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Library visit",
+     "s": "The entrance has six stone ___ and no ramp, so readers who use wheelchairs have to enter through the side door.",
+     "acc": [
+      "steps"
+     ],
+     "vi": "Lối vào có sáu bậc đá và không có lối dốc nên độc giả dùng xe lăn phải vào bằng cửa hông.",
+     "why": "six steps = sáu bậc.",
+     "hint": "Nghĩa: các bậc thềm/cầu thang.",
+     "tw": "steps",
+     "ipa": "/steps/",
+     "new": [
+      {
+       "w": "stone",
+       "vi": "bằng đá"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Weekend away",
+     "s": "We rented a ___ in the Lake District, where we spent three days walking in the hills and sitting by the fire in the evenings.",
+     "acc": [
+      "cottage"
+     ],
+     "vi": "Chúng tôi thuê một căn nhà nhỏ ở vùng hồ, nơi ba ngày chúng tôi đi bộ trên đồi và ngồi bên lò sưởi buổi tối.",
+     "why": "cottage = nhà nhỏ ở nông thôn.",
+     "hint": "Nghĩa: căn nhà nhỏ ở vùng quê.",
+     "tw": "cottage",
+     "ipa": "/ˈkɑːtɪdʒ/",
+     "new": [
+      {
+       "w": "Lake District",
+       "vi": "vùng hồ (ở Anh)"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Retirement plan",
+     "s": "After forty years in the city, my parents sold their flat and bought a ___ in a quiet village so that they could grow vegetables.",
+     "acc": [
+      "cottage"
+     ],
+     "vi": "Sau bốn mươi năm ở thành phố, bố mẹ tôi bán căn hộ và mua một căn nhà nhỏ ở làng yên tĩnh để trồng rau.",
+     "why": "cottage = nhà nhỏ ở làng quê.",
+     "hint": "Nghĩa: căn nhà nhỏ ở vùng quê.",
+     "tw": "cottage",
+     "ipa": "/ˈkɑːtɪdʒ/",
+     "new": [
+      {
+       "w": "retirement",
+       "vi": "nghỉ hưu"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Holiday review",
+     "s": "We stayed in a ___ little village with narrow streets and flower boxes in every window, and the owner of the guesthouse was very kind.",
+     "acc": [
+      "charming"
+     ],
+     "vi": "Chúng tôi ở trong một ngôi làng nhỏ xinh xắn có phố hẹp và chậu hoa ở mọi cửa sổ, và chủ nhà trọ rất tử tế.",
+     "why": "charming = xinh xắn, cuốn hút.",
+     "hint": "Nghĩa: duyên dáng, xinh xắn, cuốn hút.",
+     "tw": "charming",
+     "ipa": "/ˈtʃɑːrmɪŋ/",
+     "new": [
+      {
+       "w": "narrow",
+       "vi": "hẹp"
+      },
+      {
+       "w": "guesthouse",
+       "vi": "nhà trọ"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Dinner party",
+     "s": "Everyone found my colleague's husband ___, because he told funny stories all evening and listened carefully when others spoke.",
+     "acc": [
+      "charming"
+     ],
+     "vi": "Mọi người thấy chồng của đồng nghiệp tôi rất cuốn hút vì anh kể chuyện vui cả buổi tối và lắng nghe kỹ khi người khác nói.",
+     "why": "charming = duyên dáng, dễ mến (nói về người).",
+     "hint": "Nghĩa: duyên dáng, xinh xắn, cuốn hút.",
+     "tw": "charming",
+     "ipa": "/ˈtʃɑːrmɪŋ/",
+     "new": [
+      {
+       "w": "colleague",
+       "vi": "đồng nghiệp"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Old town",
+     "s": "Modern shopping centres are convenient, but many tourists prefer narrow old streets because they have more ___ and tell the story of the town.",
+     "acc": [
+      "character"
+     ],
+     "vi": "Trung tâm mua sắm hiện đại tiện lợi nhưng nhiều du khách thích những con phố cổ hẹp vì có nhiều nét riêng và kể câu chuyện của thị trấn.",
+     "why": "character = nét đặc trưng, bản sắc.",
+     "hint": "Nghĩa: nét riêng, nét đặc trưng, bản sắc.",
+     "tw": "character",
+     "ipa": "/ˈkerəktər/",
+     "new": [
+      {
+       "w": "convenient",
+       "vi": "tiện lợi"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Renovation talk",
+     "s": "The builders replaced the windows but kept the original wooden doors, so the house didn't lose its old-fashioned ___.",
+     "acc": [
+      "character"
+     ],
+     "vi": "Thợ xây thay cửa sổ nhưng giữ cửa gỗ nguyên bản nên ngôi nhà không mất nét cổ kính vốn có.",
+     "why": "lose its character = mất đi nét riêng.",
+     "hint": "Nghĩa: nét riêng, nét đặc trưng, bản sắc.",
+     "tw": "character",
+     "ipa": "/ˈkerəktər/",
+     "new": [
+      {
+       "w": "replaced",
+       "vi": "thay thế"
+      },
+      {
+       "w": "old-fashioned",
+       "vi": "cổ điển"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Neighbourhood guide",
+     "s": "That district is not rich, but it has lots of ___, thanks to its street markets, painted walls and tiny family restaurants.",
+     "acc": [
+      "character"
+     ],
+     "vi": "Khu đó không giàu nhưng rất có bản sắc nhờ chợ đường phố, tường vẽ và các nhà hàng gia đình nhỏ.",
+     "why": "have lots of character = rất có nét riêng.",
+     "hint": "Nghĩa: có nhiều nét riêng/bản sắc.",
+     "tw": "have lots of character",
+     "ipa": "/hæv ˌlɑːts əv ˈkerəktər/",
+     "new": [
+      {
+       "w": "district",
+       "vi": "khu vực"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Hotel review",
+     "s": "Our hotel was not luxurious, but it has lots of ___, with each room decorated in a different style by the owner.",
+     "acc": [
+      "character"
+     ],
+     "vi": "Khách sạn của chúng tôi không sang trọng nhưng rất có nét riêng, mỗi phòng được chủ trang trí theo kiểu khác nhau.",
+     "why": "has lots of character = có nhiều bản sắc.",
+     "hint": "Nghĩa: có nhiều nét riêng/bản sắc.",
+     "tw": "have lots of character",
+     "ipa": "/hæv ˌlɑːts əv ˈkerəktər/",
+     "new": [
+      {
+       "w": "decorated",
+       "vi": "trang trí"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Winter problem",
+     "s": "The old farmhouse has such thick walls and tall ceilings that it costs a fortune to ___ in January, so we use only two rooms.",
+     "acc": [
+      "heat"
+     ],
+     "vi": "Ngôi nhà nông trại cũ có tường dày và trần cao đến mức sưởi ấm vào tháng Giêng tốn một gia tài nên chúng tôi chỉ dùng hai phòng.",
+     "why": "heat = sưởi ấm (một nơi).",
+     "hint": "Nghĩa: làm nóng, sưởi ấm.",
+     "tw": "heat",
+     "ipa": "/hiːt/",
+     "new": [
+      {
+       "w": "ceilings",
+       "vi": "trần nhà"
+      },
+      {
+       "w": "fortune",
+       "vi": "khoản tiền lớn"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Cooking",
+     "s": "Pour the soup into a saucepan and ___ it slowly for ten minutes, but do not let it boil, or it will lose its flavour.",
+     "acc": [
+      "heat",
+      "heats"
+     ],
+     "vi": "Đổ súp vào nồi và đun nóng từ từ mười phút, nhưng đừng để sôi, nếu không sẽ mất hương vị.",
+     "why": "heat sth = làm nóng thứ gì.",
+     "hint": "Nghĩa: làm nóng, sưởi ấm.",
+     "tw": "heat",
+     "ipa": "/hiːt/",
+     "new": [
+      {
+       "w": "saucepan",
+       "vi": "nồi nhỏ"
+      },
+      {
+       "w": "flavour",
+       "vi": "hương vị"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Moving to Canada",
+     "s": "Before renting the flat, I checked that it had ___, because winters here can fall to minus twenty and portable heaters are not enough.",
+     "acc": [
+      "central heating"
+     ],
+     "vi": "Trước khi thuê căn hộ, tôi kiểm tra có hệ thống sưởi trung tâm không vì mùa đông ở đây xuống âm hai mươi độ và máy sưởi di động không đủ.",
+     "why": "central heating = sưởi trung tâm cho cả nhà.",
+     "hint": "Nghĩa: hệ thống sưởi trung tâm.",
+     "tw": "central heating",
+     "ipa": "/ˌsentrəl ˈhiːtɪŋ/",
+     "new": [
+      {
+       "w": "portable",
+       "vi": "di động"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Landlord meeting",
+     "s": "The tenants complained that the ___ had not worked for a week, so the landlord promised to send an engineer the next morning.",
+     "acc": [
+      "central heating"
+     ],
+     "vi": "Người thuê phàn nàn rằng hệ thống sưởi trung tâm đã không chạy một tuần nên chủ nhà hứa sáng hôm sau gửi kỹ sư.",
+     "why": "central heating = hệ thống sưởi trung tâm.",
+     "hint": "Nghĩa: hệ thống sưởi trung tâm.",
+     "tw": "central heating",
+     "ipa": "/ˌsentrəl ˈhiːtɪŋ/",
+     "new": [
+      {
+       "w": "engineer",
+       "vi": "kỹ sư"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Life change",
+     "s": "After the wedding, Lan and her husband decided to ___ to a new flat closer to his office, which cut his daily journey by an hour.",
+     "acc": [
+      "move"
+     ],
+     "vi": "Sau đám cưới, Lan và chồng quyết định chuyển đến căn hộ mới gần văn phòng anh hơn, giúp rút ngắn quãng đường mỗi ngày một giờ.",
+     "why": "move to a new flat = chuyển đến căn hộ mới.",
+     "hint": "Nghĩa: chuyển đến căn hộ mới.",
+     "tw": "move to a new flat",
+     "new": [
+      {
+       "w": "journey",
+       "vi": "quãng đường đi"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Family news",
+     "s": "Because the baby is due in March, we are planning to move to a new ___ with a second bedroom before the winter starts.",
+     "acc": [
+      "flat",
+      "apartment"
+     ],
+     "vi": "Vì em bé dự kiến sinh vào tháng Ba, chúng tôi định chuyển đến căn hộ mới có phòng ngủ thứ hai trước khi mùa đông bắt đầu.",
+     "why": "move to a new flat = chuyển sang căn hộ khác.",
+     "hint": "Nghĩa: chuyển đến căn hộ mới.",
+     "tw": "move to a new flat",
+     "new": [
+      {
+       "w": "due",
+       "vi": "dự kiến sinh"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Home improvement",
+     "s": "If we knock down the wall between the kitchen and the hall, we will ___ more space for a dining table and the children's toys.",
+     "acc": [
+      "have"
+     ],
+     "vi": "Nếu đập bức tường giữa bếp và sảnh, chúng tôi sẽ có thêm không gian cho bàn ăn và đồ chơi của bọn trẻ.",
+     "why": "have more space = có thêm không gian.",
+     "hint": "Nghĩa: có nhiều không gian hơn.",
+     "tw": "have more space",
+     "new": [
+      {
+       "w": "knock down",
+       "vi": "đập bỏ"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Moving plans",
+     "s": "They moved to a house with a garden so that the children could ___ more space to play, which made the whole family happier.",
+     "acc": [
+      "have",
+      "get"
+     ],
+     "vi": "Họ chuyển đến nhà có vườn để bọn trẻ có nhiều chỗ chơi hơn, điều khiến cả gia đình vui hơn.",
+     "why": "have more space = có nhiều chỗ hơn.",
+     "hint": "Nghĩa: có nhiều không gian hơn.",
+     "tw": "have more space",
+     "new": [
+      {
+       "w": "whole",
+       "vi": "cả"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Hotel booking",
+     "s": "We paid extra for a room on the top floor because we wanted to ___ nice views of the harbour from the balcony.",
+     "acc": [
+      "have"
+     ],
+     "vi": "Chúng tôi trả thêm tiền cho phòng tầng cao nhất vì muốn có cảnh đẹp ra bến cảng từ ban công.",
+     "why": "have nice views = có cảnh đẹp.",
+     "hint": "Nghĩa: có cảnh đẹp.",
+     "tw": "have nice views",
+     "new": [
+      {
+       "w": "harbour",
+       "vi": "bến cảng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Property viewing",
+     "s": "The house is high on a hill, so it ___ nice views of the valley, although the road up is steep and narrow.",
+     "acc": [
+      "has"
+     ],
+     "vi": "Ngôi nhà ở trên đồi cao nên có cảnh đẹp nhìn xuống thung lũng, dù đường lên dốc và hẹp.",
+     "why": "has nice views = có cảnh đẹp.",
+     "hint": "Nghĩa: có cảnh đẹp.",
+     "tw": "have nice views",
+     "new": [
+      {
+       "w": "valley",
+       "vi": "thung lũng"
+      },
+      {
+       "w": "steep",
+       "vi": "dốc"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Student plan",
+     "s": "Since the campus is far from my hometown, I'm going to ___ a flat with two classmates, which should be cheaper than living alone.",
+     "acc": [
+      "rent"
+     ],
+     "vi": "Vì trường xa quê tôi nên tôi sẽ thuê chung căn hộ với hai bạn cùng lớp, chắc rẻ hơn ở một mình.",
+     "why": "rent a flat = thuê căn hộ.",
+     "hint": "Nghĩa: thuê căn hộ.",
+     "tw": "rent a flat",
+     "new": [
+      {
+       "w": "campus",
+       "vi": "khuôn viên trường"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Financial advice",
+     "s": "Experts say it can be wiser to ___ a flat than to buy one, because house prices have risen faster than salaries in recent years.",
+     "acc": [
+      "rent"
+     ],
+     "vi": "Các chuyên gia nói thuê căn hộ có thể khôn ngoan hơn mua, vì giá nhà tăng nhanh hơn lương trong những năm gần đây.",
+     "why": "rent a flat ≠ buy a flat.",
+     "hint": "Nghĩa: thuê căn hộ.",
+     "tw": "rent a flat",
+     "new": [
+      {
+       "w": "wiser",
+       "vi": "khôn ngoan hơn"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Holiday memory",
+     "s": "At the end of the lane, we found ___ cottage with a red door and roses climbing up the walls, so we took a lot of photos.",
+     "acc": [
+      "a charming"
+     ],
+     "vi": "Cuối con ngõ, chúng tôi thấy một căn nhà nhỏ xinh xắn có cửa đỏ và hoa hồng leo lên tường nên chụp rất nhiều ảnh.",
+     "why": "a charming cottage = căn nhà nhỏ xinh xắn.",
+     "hint": "Nghĩa: một căn nhà nhỏ xinh xắn ở vùng quê.",
+     "tw": "a charming cottage",
+     "new": [
+      {
+       "w": "lane",
+       "vi": "con ngõ"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Holiday advert",
+     "s": "Stay in ___ in the heart of the Cotswolds, where you can walk to the village pub in five minutes and cook on a traditional stove.",
+     "acc": [
+      "a charming cottage"
+     ],
+     "vi": "Hãy ở trong một căn nhà nhỏ xinh xắn giữa vùng Cotswolds, nơi bạn đi bộ đến quán rượu làng trong năm phút và nấu trên bếp truyền thống.",
+     "why": "a charming cottage = nhà nhỏ xinh xắn ở quê.",
+     "hint": "Nghĩa: một căn nhà nhỏ xinh xắn ở vùng quê.",
+     "tw": "a charming cottage",
+     "new": [
+      {
+       "w": "traditional",
+       "vi": "truyền thống"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Meeting a neighbour",
+     "s": "We ___ on the second floor, right above the old lady who runs the bakery, so we wake up to the smell of fresh bread.",
+     "acc": [
+      "live"
+     ],
+     "vi": "Chúng tôi sống ở tầng hai, ngay trên bà cụ chủ tiệm bánh nên thức dậy với mùi bánh mì mới nướng.",
+     "why": "live on the second floor = sống ở tầng hai.",
+     "hint": "Nghĩa: sống ở tầng hai.",
+     "tw": "live on the second floor",
+     "new": [
+      {
+       "w": "runs",
+       "vi": "điều hành, quản lý"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Visiting a friend",
+     "s": "Her flat is easy to find: you take the stairs by the lift and she lives on the second ___, the door with a green plant outside.",
+     "acc": [
+      "floor"
+     ],
+     "vi": "Căn hộ của cô dễ tìm: bạn đi cầu thang cạnh thang máy và cô sống ở tầng hai, cửa có chậu cây xanh ngoài.",
+     "why": "the second floor = tầng hai.",
+     "hint": "Nghĩa: sống ở tầng hai.",
+     "tw": "live on the second floor",
+     "new": [
+      {
+       "w": "plant",
+       "vi": "chậu cây"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Weekday dinner",
+     "s": "Because I get home late, I usually ___ some potatoes in a saucepan while I make a quick salad, and dinner is ready in twenty minutes.",
+     "acc": [
+      "boil",
+      "boiled",
+      "boils"
+     ],
+     "vi": "Vì về nhà muộn, tôi thường luộc ít khoai trong nồi trong lúc làm salad nhanh, và bữa tối xong sau hai mươi phút.",
+     "why": "boil sth = luộc/đun sôi thứ gì trong nước.",
+     "hint": "Nghĩa: luộc, đun sôi cái gì (trong nồi).",
+     "tw": "boil something",
+     "ipa": "/bɔɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "saucepan",
+       "vi": "nồi nhỏ"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Cooking class",
+     "s": "The teacher explained that you should ___ the eggs for exactly eight minutes, otherwise the yolk will turn grey and dry.",
+     "acc": [
+      "boil",
+      "boiled"
+     ],
+     "vi": "Giáo viên giải thích rằng bạn nên luộc trứng đúng tám phút, nếu không lòng đỏ sẽ chuyển xám và khô.",
+     "why": "boil eggs = luộc trứng.",
+     "hint": "Nghĩa: luộc, đun sôi cái gì (trong nồi).",
+     "tw": "boil something",
+     "ipa": "/bɔɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "yolk",
+       "vi": "lòng đỏ trứng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Breakfast",
+     "s": "My brother likes to ___ two eggs in a frying pan with a little oil, then eat them on toast before leaving for school.",
+     "acc": [
+      "fry",
+      "fries"
+     ],
+     "vi": "Em trai tôi thích chiên hai quả trứng trong chảo với chút dầu rồi ăn với bánh mì nướng trước khi đến trường.",
+     "why": "fry sth = chiên/rán trong chảo với dầu.",
+     "hint": "Nghĩa: chiên, rán cái gì (trong chảo).",
+     "tw": "fry something",
+     "ipa": "/fraɪ ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "toast",
+       "vi": "bánh mì nướng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Dinner recipe",
+     "s": "Once the oil is hot, ___ the chopped onions for about three minutes until they turn golden, but be careful not to let them burn.",
+     "acc": [
+      "fry"
+     ],
+     "vi": "Khi dầu nóng, chiên hành thái nhỏ khoảng ba phút cho đến khi vàng, nhưng cẩn thận đừng để cháy.",
+     "why": "fry the onions = chiên hành.",
+     "hint": "Nghĩa: chiên, rán cái gì (trong chảo).",
+     "tw": "fry something",
+     "ipa": "/fraɪ ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "golden",
+       "vi": "vàng óng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Quick snack",
+     "s": "If you ___ cheese on toast for two minutes, the top will melt and turn golden, which makes a perfect snack on a cold afternoon.",
+     "acc": [
+      "grill"
+     ],
+     "vi": "Nếu nướng phô mai trên bánh mì hai phút, mặt trên sẽ chảy và vàng, thành món ăn nhẹ hoàn hảo cho buổi chiều lạnh.",
+     "why": "grill = nướng vỉ với nhiệt từ phía trên.",
+     "hint": "Nghĩa: nướng vỉ cái gì (nhiệt từ phía trên).",
+     "tw": "grill something",
+     "ipa": "/ɡrɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "melt",
+       "vi": "tan chảy"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Kitchen advice",
+     "s": "My mother always ___ the fish under a hot grill for ten minutes because she says it keeps the meat soft inside and crisp outside.",
+     "acc": [
+      "grills"
+     ],
+     "vi": "Mẹ tôi luôn nướng cá dưới vỉ nóng mười phút vì bà nói thịt cá giữ được độ mềm bên trong và giòn bên ngoài.",
+     "why": "grill sth = nướng vỉ.",
+     "hint": "Nghĩa: nướng vỉ cái gì (nhiệt từ phía trên).",
+     "tw": "grill something",
+     "ipa": "/ɡrɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "crisp",
+       "vi": "giòn"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Sunday lunch",
+     "s": "Every Sunday my grandfather likes to ___ a large chicken in the oven with oil and herbs, and the whole family gathers to eat it.",
+     "acc": [
+      "roast"
+     ],
+     "vi": "Mỗi Chủ nhật ông tôi thích quay một con gà to trong lò với dầu và rau thơm, cả nhà tụ họp ăn.",
+     "why": "roast = quay trong lò (có dầu/mỡ).",
+     "hint": "Nghĩa: quay cái gì trong lò (có dầu/mỡ).",
+     "tw": "roast something",
+     "ipa": "/rəʊst ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "herbs",
+       "vi": "rau thơm"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Winter menu",
+     "s": "In cold weather, the restaurant offers vegetables that are ___ with olive oil until the edges turn dark and sweet.",
+     "acc": [
+      "roasted"
+     ],
+     "vi": "Khi trời lạnh, nhà hàng có món rau được quay với dầu ô liu cho đến khi mép sẫm lại và ngọt.",
+     "why": "roasted vegetables = rau quay trong lò.",
+     "hint": "Nghĩa: quay cái gì trong lò (có dầu/mỡ).",
+     "tw": "roast something",
+     "ipa": "/rəʊst ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "edges",
+       "vi": "mép"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Weekend fun",
+     "s": "My niece loves to ___ cookies with me on Saturday mornings, and she always eats half of the dough before it goes into the oven.",
+     "acc": [
+      "bake"
+     ],
+     "vi": "Cháu gái tôi thích nướng bánh quy với tôi vào sáng thứ Bảy, và luôn ăn nửa bột trước khi vào lò.",
+     "why": "bake = nướng bánh trong lò.",
+     "hint": "Nghĩa: nướng cái gì trong lò (bánh, không dầu).",
+     "tw": "bake something",
+     "ipa": "/beɪk ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "dough",
+       "vi": "bột nhào"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Bakery job",
+     "s": "Starting at four in the morning, the bakers ___ hundreds of loaves of bread so that they are fresh when the shop opens at seven.",
+     "acc": [
+      "bake"
+     ],
+     "vi": "Bắt đầu từ bốn giờ sáng, thợ làm bánh nướng hàng trăm ổ bánh mì để tươi khi cửa hàng mở lúc bảy giờ.",
+     "why": "bake bread = nướng bánh mì.",
+     "hint": "Nghĩa: nướng cái gì trong lò (bánh, không dầu).",
+     "tw": "bake something",
+     "ipa": "/beɪk ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "loaves",
+       "vi": "những ổ bánh"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Kitchen help",
+     "s": "My grandmother asked me to ___ the carrots with a small knife, so that she could put them in the soup before the guests arrived.",
+     "acc": [
+      "peel"
+     ],
+     "vi": "Bà nhờ tôi gọt cà rốt bằng con dao nhỏ để bà cho vào súp trước khi khách đến.",
+     "why": "peel = gọt/bóc vỏ.",
+     "hint": "Nghĩa: gọt, bóc vỏ cái gì.",
+     "tw": "peel something",
+     "ipa": "/piːl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "guests",
+       "vi": "khách"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Fruit stall",
+     "s": "It's easier to ___ a banana than an orange, because the skin of an orange is thick and sticks to the fruit.",
+     "acc": [
+      "peel"
+     ],
+     "vi": "Bóc chuối dễ hơn bóc cam vì vỏ cam dày và dính vào thịt quả.",
+     "why": "peel a banana = bóc vỏ chuối.",
+     "hint": "Nghĩa: gọt, bóc vỏ cái gì.",
+     "tw": "peel something",
+     "ipa": "/piːl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "skin",
+       "vi": "vỏ"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Cooking class",
+     "s": "Before frying the onions, ___ them into very small pieces, otherwise they will cook unevenly and some will burn.",
+     "acc": [
+      "chop"
+     ],
+     "vi": "Trước khi chiên hành, hãy thái chúng thành miếng thật nhỏ, nếu không chúng chín không đều và vài miếng sẽ cháy.",
+     "why": "chop = thái, băm nhỏ.",
+     "hint": "Nghĩa: thái, băm nhỏ cái gì.",
+     "tw": "chop something",
+     "ipa": "/tʃɒp ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "unevenly",
+       "vi": "không đều"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Family dinner",
+     "s": "My father used a sharp knife to ___ the vegetables for the stew while my sister set the table and poured the juice.",
+     "acc": [
+      "chop"
+     ],
+     "vi": "Bố tôi dùng dao sắc thái rau cho món hầm trong khi chị tôi dọn bàn và rót nước ép.",
+     "why": "chop vegetables = thái rau.",
+     "hint": "Nghĩa: thái, băm nhỏ cái gì.",
+     "tw": "chop something",
+     "ipa": "/tʃɒp ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "stew",
+       "vi": "món hầm"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Baking",
+     "s": "If the dough is too dry, ___ a little milk to it and mix again until it feels soft and smooth.",
+     "acc": [
+      "add"
+     ],
+     "vi": "Nếu bột quá khô, cho thêm chút sữa vào và trộn lại đến khi mềm và mịn.",
+     "why": "add A to B = cho thêm A vào B.",
+     "hint": "Nghĩa: cho thêm A vào B.",
+     "tw": "add something to something",
+     "ipa": "/æd ˈsʌmθɪŋ tuː ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "dough",
+       "vi": "bột nhào"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Soup recipe",
+     "s": "After ten minutes, ___ some salt and pepper to the soup, then taste it before you decide whether it needs more.",
+     "acc": [
+      "add"
+     ],
+     "vi": "Sau mười phút, cho thêm muối và tiêu vào súp rồi nếm trước khi quyết định có cần thêm không.",
+     "why": "add salt to the soup = cho muối vào súp.",
+     "hint": "Nghĩa: cho thêm A vào B.",
+     "tw": "add something to something",
+     "ipa": "/æd ˈsʌmθɪŋ tuː ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "decide",
+       "vi": "quyết định"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Sauce making",
+     "s": "You must ___ the sauce slowly, otherwise the flour will form lumps and the bottom of the pan will burn.",
+     "acc": [
+      "stir"
+     ],
+     "vi": "Bạn phải khuấy nước sốt từ từ, nếu không bột sẽ vón cục và đáy chảo sẽ cháy.",
+     "why": "stir = khuấy, đảo.",
+     "hint": "Nghĩa: khuấy, đảo cái gì.",
+     "tw": "stir something",
+     "ipa": "/stɜː ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "lumps",
+       "vi": "cục vón"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Making tea",
+     "s": "She poured hot water over the tea bag and used a spoon to ___ it, because the sugar had not melted yet.",
+     "acc": [
+      "stir"
+     ],
+     "vi": "Cô rót nước nóng lên túi trà và dùng thìa khuấy vì đường chưa tan.",
+     "why": "stir with a spoon = khuấy bằng thìa.",
+     "hint": "Nghĩa: khuấy, đảo cái gì.",
+     "tw": "stir something",
+     "ipa": "/stɜː ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "melted",
+       "vi": "tan chảy"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Restaurant kitchen",
+     "s": "The head chef always insists that his team ___ every dish before it leaves the kitchen, in case something is wrong.",
+     "acc": [
+      "taste"
+     ],
+     "vi": "Bếp trưởng luôn yêu cầu nhóm nếm mọi món trước khi ra khỏi bếp phòng khi có gì sai.",
+     "why": "taste = nếm thử.",
+     "hint": "Nghĩa: nếm cái gì.",
+     "tw": "taste something",
+     "ipa": "/teɪst ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "insists",
+       "vi": "khăng khăng yêu cầu"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Cooking at home",
+     "s": "Could you ___ the soup and tell me whether it needs more salt? I've been cooking all afternoon and can't judge it any more.",
+     "acc": [
+      "taste"
+     ],
+     "vi": "Bạn nếm súp giúp tôi xem có cần thêm muối không? Tôi nấu cả chiều rồi, không thể đánh giá nữa.",
+     "why": "taste the soup = nếm súp.",
+     "hint": "Nghĩa: nếm cái gì.",
+     "tw": "taste something",
+     "ipa": "/teɪst ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "judge",
+       "vi": "đánh giá"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Restaurant review",
+     "s": "I tried the soup at the new café, but it ___ a bit strange, as if someone had forgotten to add salt.",
+     "acc": [
+      "tasted"
+     ],
+     "vi": "Tôi thử món súp ở quán mới nhưng nó có vị hơi lạ, như thể ai đó quên cho muối.",
+     "why": "taste + adj = có vị...; chia động từ.",
+     "hint": "Nghĩa: có vị như thế nào.",
+     "tw": "taste + adjective",
+     "ipa": "/teɪst/",
+     "new": [
+      {
+       "w": "as if",
+       "vi": "như thể"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Market stall",
+     "s": "The mangoes from this farm ___ sweet and juicy, so we buy two kilos every week during the summer.",
+     "acc": [
+      "taste"
+     ],
+     "vi": "Xoài của trang trại này có vị ngọt và mọng nước nên chúng tôi mua hai ký mỗi tuần vào mùa hè.",
+     "why": "taste sweet = có vị ngọt.",
+     "hint": "Nghĩa: có vị như thế nào.",
+     "tw": "taste + adjective",
+     "ipa": "/teɪst/",
+     "new": [
+      {
+       "w": "juicy",
+       "vi": "mọng nước"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Cooking for beginners",
+     "s": "Since this is your first time cooking lasagne, it's wise to ___ a recipe carefully, because small mistakes can ruin the whole dish.",
+     "acc": [
+      "follow"
+     ],
+     "vi": "Vì đây là lần đầu bạn nấu lasagne, nên làm theo công thức cẩn thận vì sai nhỏ có thể làm hỏng cả món.",
+     "why": "follow a recipe = làm theo công thức.",
+     "hint": "Nghĩa: làm theo công thức.",
+     "tw": "follow a recipe",
+     "ipa": "/ˈfɒləʊ ə ˈresəpi/",
+     "new": [
+      {
+       "w": "ruin",
+       "vi": "làm hỏng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Cooking show",
+     "s": "The judges said that the winner didn't just ___ a recipe from a book; she changed it and added her own ideas.",
+     "acc": [
+      "follow"
+     ],
+     "vi": "Ban giám khảo nói người thắng không chỉ làm theo công thức trong sách mà còn thay đổi và thêm ý tưởng riêng.",
+     "why": "follow a recipe ≠ tự sáng tạo.",
+     "hint": "Nghĩa: làm theo công thức.",
+     "tw": "follow a recipe",
+     "ipa": "/ˈfɒləʊ ə ˈresəpi/",
+     "new": [
+      {
+       "w": "judges",
+       "vi": "ban giám khảo"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Cooking at home",
+     "s": "Before you start baking the cake, check that you ___ all the ingredients, otherwise you may have to stop halfway and go to the shop.",
+     "acc": [
+      "have"
+     ],
+     "vi": "Trước khi nướng bánh, hãy kiểm tra bạn có đủ nguyên liệu không, nếu không có thể phải dừng giữa chừng và đi ra cửa hàng.",
+     "why": "have all the ingredients = có đủ nguyên liệu.",
+     "hint": "Nghĩa: có đủ nguyên liệu.",
+     "tw": "have all the ingredients",
+     "ipa": "/hæv ɔːl ðə raɪt ɪnˈɡriːdiənts/",
+     "new": [
+      {
+       "w": "halfway",
+       "vi": "giữa chừng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Supermarket",
+     "s": "I'm going to make pizza tonight, so I need to buy cheese and tomatoes to be sure I have all the ___.",
+     "acc": [
+      "ingredients"
+     ],
+     "vi": "Tối nay tôi sẽ làm pizza nên cần mua phô mai và cà chua để chắc có đủ nguyên liệu.",
+     "why": "ingredients = nguyên liệu.",
+     "hint": "Nghĩa: có đủ nguyên liệu.",
+     "tw": "have all the ingredients",
+     "ipa": "/hæv ɔːl ðə raɪt ɪnˈɡriːdiənts/",
+     "new": [
+      {
+       "w": "be sure",
+       "vi": "chắc chắn"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Restaurant",
+     "s": "Please don't put so much chilli in my dish; last time it was a bit too ___ for me and I couldn't finish it.",
+     "acc": [
+      "spicy"
+     ],
+     "vi": "Làm ơn đừng cho nhiều ớt vào món của tôi; lần trước hơi cay quá với tôi và tôi không ăn hết.",
+     "why": "a bit too spicy = hơi cay quá.",
+     "hint": "Nghĩa: hơi cay quá.",
+     "tw": "a bit too spicy",
+     "ipa": "/ə bɪt tuː ˈspaɪsi/",
+     "new": [
+      {
+       "w": "chilli",
+       "vi": "ớt"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Trying new food",
+     "s": "I enjoyed the Indian curry, but for my mother it was a bit too ___, so we ordered extra rice and a cold drink.",
+     "acc": [
+      "spicy"
+     ],
+     "vi": "Tôi thích món cà ri Ấn Độ nhưng với mẹ tôi thì hơi cay quá nên chúng tôi gọi thêm cơm và đồ uống lạnh.",
+     "why": "a bit too spicy = hơi quá cay.",
+     "hint": "Nghĩa: hơi cay quá.",
+     "tw": "a bit too spicy",
+     "ipa": "/ə bɪt tuː ˈspaɪsi/",
+     "new": [
+      {
+       "w": "extra",
+       "vi": "thêm"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Ice-cream shop",
+     "s": "This shop sells over thirty ___ flavours, from vanilla and chocolate to mango and green tea, so choosing takes ages.",
+     "acc": [
+      "different"
+     ],
+     "vi": "Tiệm này bán hơn ba mươi hương vị khác nhau, từ vani và sô-cô-la đến xoài và trà xanh nên chọn rất lâu.",
+     "why": "different flavours = nhiều hương vị khác nhau.",
+     "hint": "Nghĩa: nhiều hương vị khác nhau.",
+     "tw": "different flavours",
+     "ipa": "/ˈdɪfrənt ˈfleɪvəz/",
+     "new": [
+      {
+       "w": "takes ages",
+       "vi": "mất rất lâu"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Tea tasting",
+     "s": "The tea company offers twelve different ___, such as lemon, ginger and mint, which makes it a perfect gift for friends.",
+     "acc": [
+      "flavours",
+      "flavors"
+     ],
+     "vi": "Công ty trà có mười hai hương vị khác nhau như chanh, gừng và bạc hà, là quà hoàn hảo cho bạn bè.",
+     "why": "flavour = hương vị.",
+     "hint": "Nghĩa: nhiều hương vị khác nhau.",
+     "tw": "different flavours",
+     "ipa": "/ˈdɪfrənt ˈfleɪvəz/",
+     "new": [
+      {
+       "w": "ginger",
+       "vi": "gừng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Family party",
+     "s": "My aunt is really good ___ cooking Chinese dishes, so everyone asks her to prepare food for the family dinner every New Year.",
+     "acc": [
+      "at"
+     ],
+     "vi": "Dì tôi nấu món Hoa rất giỏi nên mọi người nhờ dì chuẩn bị đồ ăn cho bữa cơm gia đình mỗi dịp Tết.",
+     "why": "be good at + V-ing = giỏi việc gì.",
+     "hint": "Nghĩa: nấu (món gì) giỏi.",
+     "tw": "be good at cooking",
+     "ipa": "/bi ɡʊd æt ˈkʊkɪŋ/",
+     "new": [
+      {
+       "w": "dishes",
+       "vi": "các món ăn"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Job interview",
+     "s": "The restaurant needs someone who is good at cooking Italian food, since pasta and pizza make up most of its menu.",
+     "acc": [
+      "at"
+     ],
+     "vi": "Nhà hàng cần người nấu món Ý giỏi vì mì và pizza chiếm phần lớn thực đơn.",
+     "why": "be good at cooking = nấu ăn giỏi.",
+     "hint": "Nghĩa: nấu (món gì) giỏi.",
+     "tw": "be good at cooking",
+     "ipa": "/bi ɡʊd æt ˈkʊkɪŋ/",
+     "new": [
+      {
+       "w": "menu",
+       "vi": "thực đơn"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Family history",
+     "s": "My grandmother was ___ cook, and everyone in the village remembers her soup, which she made every winter for the neighbours.",
+     "acc": [
+      "a good"
+     ],
+     "vi": "Bà tôi là người nấu ăn giỏi và ai trong làng cũng nhớ món súp bà nấu mỗi mùa đông cho hàng xóm.",
+     "why": "a good cook = người nấu ăn giỏi.",
+     "hint": "Nghĩa: người nấu ăn giỏi.",
+     "tw": "a good cook",
+     "ipa": "/ə ɡʊd kʊk/",
+     "new": [
+      {
+       "w": "remembers",
+       "vi": "nhớ"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Job advert",
+     "s": "We are looking for ___ who can prepare healthy meals for twenty students and who is happy to start work at six in the morning.",
+     "acc": [
+      "a good cook",
+      "a cook"
+     ],
+     "vi": "Chúng tôi tìm một đầu bếp giỏi có thể nấu bữa ăn lành mạnh cho hai mươi học sinh và sẵn sàng bắt đầu lúc sáu giờ sáng.",
+     "why": "a good cook = người nấu giỏi.",
+     "hint": "Nghĩa: người nấu ăn giỏi.",
+     "tw": "a good cook",
+     "ipa": "/ə ɡʊd kʊk/",
+     "new": [
+      {
+       "w": "prepare",
+       "vi": "chuẩn bị"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Evening plan",
+     "s": "I'm going to ___ some beef for dinner tonight, so please buy a few carrots and an onion on your way home from work.",
+     "acc": [
+      "cook",
+      "cooking"
+     ],
+     "vi": "Tối nay tôi sẽ nấu thịt bò nên làm ơn mua vài củ cà rốt và một củ hành trên đường từ chỗ làm về.",
+     "why": "cook + thực phẩm = nấu món gì.",
+     "hint": "Nghĩa: nấu một loại thực phẩm.",
+     "tw": "cook",
+     "ipa": "/kʊk/",
+     "new": [
+      {
+       "w": "on your way home",
+       "vi": "trên đường về nhà"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Healthy living",
+     "s": "Doctors recommend that families ___ fresh vegetables at home instead of eating takeaway food, because it is cheaper and much healthier.",
+     "acc": [
+      "cook"
+     ],
+     "vi": "Bác sĩ khuyên các gia đình nấu rau tươi ở nhà thay vì ăn đồ mang về vì rẻ hơn và tốt cho sức khỏe hơn.",
+     "why": "cook vegetables = nấu rau.",
+     "hint": "Nghĩa: nấu một loại thực phẩm.",
+     "tw": "cook",
+     "ipa": "/kʊk/",
+     "new": [
+      {
+       "w": "takeaway",
+       "vi": "đồ ăn mang về"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Party plan",
+     "s": "For the dinner party tonight, I'm going to ___ a lemon pie for dessert, and my husband will cook the main course.",
+     "acc": [
+      "make",
+      "making"
+     ],
+     "vi": "Cho bữa tiệc tối nay, tôi sẽ làm bánh chanh tráng miệng và chồng tôi sẽ nấu món chính.",
+     "why": "make a dish = làm một món ăn.",
+     "hint": "Nghĩa: làm một món ăn.",
+     "tw": "make",
+     "ipa": "/meɪk/",
+     "new": [
+      {
+       "w": "dessert",
+       "vi": "món tráng miệng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "School project",
+     "s": "The students had to ___ a traditional dish from their own country and then present it to the class with a short story about it.",
+     "acc": [
+      "make",
+      "prepare"
+     ],
+     "vi": "Học sinh phải làm một món truyền thống của nước mình rồi trình bày trước lớp kèm câu chuyện ngắn.",
+     "why": "make a dish = làm một món ăn.",
+     "hint": "Nghĩa: làm một món ăn.",
+     "tw": "make",
+     "ipa": "/meɪk/",
+     "new": [
+      {
+       "w": "present",
+       "vi": "trình bày"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Business advice",
+     "s": "The restaurant became popular within months, mainly because of its excellent ___ beside the river, which made it easy for visitors to find.",
+     "o": [
+      "location",
+      "salary",
+      "weather"
+     ],
+     "a": "location",
+     "vi": "Nhà hàng trở nên nổi tiếng chỉ trong vài tháng, chủ yếu nhờ vị trí tuyệt vời bên sông, giúp du khách dễ tìm.",
+     "why": "excellent location = vị trí rất tốt (dễ tìm, thuận tiện).",
+     "tw": "location",
+     "ipa": "/loʊˈkeɪʃən/",
+     "new": [
+      {
+       "w": "within months",
+       "vi": "chỉ trong vài tháng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Housing report",
+     "s": "Land is cheaper ___ the city than in the busy centre, so developers are building large shopping malls there.",
+     "o": [
+      "on the outskirts of",
+      "in the middle of",
+      "at the top of"
+     ],
+     "a": "on the outskirts of",
+     "vi": "Đất ở ngoại ô thành phố rẻ hơn ở trung tâm đông đúc nên các nhà phát triển đang xây các trung tâm mua sắm lớn ở đó.",
+     "why": "cheaper than in the busy centre → ngoại ô = on the outskirts of.",
+     "tw": "on the outskirts of",
+     "ipa": "/ˈaʊtˌskɝːts/",
+     "new": [
+      {
+       "w": "developers",
+       "vi": "nhà phát triển"
+      },
+      {
+       "w": "malls",
+       "vi": "trung tâm thương mại"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Moving plans",
+     "s": "Compared with the old house we left in March, our ___ home has a lift and a balcony, which is perfect for my grandmother.",
+     "o": [
+      "present",
+      "enormous",
+      "careful"
+     ],
+     "a": "present",
+     "vi": "So với ngôi nhà cũ chúng tôi rời đi hồi tháng Ba, nhà hiện tại có thang máy và ban công, rất hợp với bà tôi.",
+     "why": "our present home = nhà hiện tại của chúng tôi.",
+     "tw": "present",
+     "ipa": "/ˈprezənt/",
+     "new": [
+      {
+       "w": "compared with",
+       "vi": "so với"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Furniture shop",
+     "s": "The sofa looks lovely, but if we buy it there will be no ___ left in the living room, which means we can't even open the door.",
+     "o": [
+      "space",
+      "noise",
+      "water"
+     ],
+     "a": "space",
+     "vi": "Chiếc ghế sofa trông đẹp, nhưng nếu mua thì phòng khách sẽ không còn chỗ, nghĩa là chúng tôi thậm chí không mở được cửa.",
+     "why": "no space left = không còn chỗ.",
+     "tw": "space",
+     "ipa": "/speɪs/",
+     "new": [
+      {
+       "w": "living room",
+       "vi": "phòng khách"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Neighbours",
+     "s": "The ___ above ours is being renovated, so we hear drilling every morning, which has made it hard to concentrate on my reading.",
+     "o": [
+      "flat",
+      "garden",
+      "lift"
+     ],
+     "a": "flat",
+     "vi": "Căn hộ phía trên nhà chúng tôi đang được sửa, nên sáng nào cũng nghe tiếng khoan, khiến tôi khó tập trung đọc sách.",
+     "why": "the flat above ours = căn hộ ở tầng trên.",
+     "tw": "flat",
+     "ipa": "/flæt/",
+     "new": [
+      {
+       "w": "renovated",
+       "vi": "được sửa sang"
+      },
+      {
+       "w": "drilling",
+       "vi": "tiếng khoan"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Home tour",
+     "s": "This small ___ may look plain from outside, but it has a bright kitchen, large windows and a view of the harbour, which is why it sold in a week.",
+     "o": [
+      "apartment",
+      "highway",
+      "exhibition"
+     ],
+     "a": "apartment",
+     "vi": "Căn hộ nhỏ này nhìn bên ngoài thì đơn giản, nhưng có bếp sáng, cửa sổ lớn và tầm nhìn ra bến cảng nên bán hết trong một tuần.",
+     "why": "a small apartment with a kitchen and windows → căn hộ.",
+     "tw": "apartment",
+     "ipa": "/əˈpɑːrtmənt/",
+     "new": [
+      {
+       "w": "harbour",
+       "vi": "bến cảng"
+      },
+      {
+       "w": "plain",
+       "vi": "đơn giản"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Property talk",
+     "s": "Her parents decided to ___ the spare room to a student, so that the extra income would help them pay the bills during the winter.",
+     "o": [
+      "rent",
+      "clean",
+      "paint"
+     ],
+     "a": "rent",
+     "vi": "Bố mẹ cô quyết định cho sinh viên thuê phòng trống, để khoản thu thêm giúp họ trả hóa đơn trong mùa đông.",
+     "why": "rent sth to sb = cho ai thuê; rent sth = thuê.",
+     "tw": "rent",
+     "ipa": "/rent/",
+     "new": [
+      {
+       "w": "spare",
+       "vi": "dư, trống"
+      },
+      {
+       "w": "income",
+       "vi": "thu nhập"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Family home",
+     "s": "Dinner is ready, so please come ___ before the soup gets cold, and don't forget to bring your brother's jacket with you.",
+     "o": [
+      "downstairs",
+      "upstairs",
+      "outside"
+     ],
+     "a": "downstairs",
+     "vi": "Bữa tối xong rồi, hãy xuống nhà trước khi súp nguội, và đừng quên mang theo áo khoác của em con.",
+     "why": "come downstairs = đi xuống tầng dưới (từ tầng trên gọi xuống).",
+     "tw": "downstairs",
+     "ipa": "/ˌdaʊnˈsterz/",
+     "new": [
+      {
+       "w": "jacket",
+       "vi": "áo khoác"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Visiting",
+     "s": "Please go ___ and take the first door on the left, because the guest room is next to the bathroom and the bed is already made.",
+     "o": [
+      "upstairs",
+      "downstairs",
+      "abroad"
+     ],
+     "a": "upstairs",
+     "vi": "Hãy lên lầu và vào cửa đầu tiên bên trái, vì phòng khách cạnh phòng tắm và giường đã được dọn sẵn.",
+     "why": "go upstairs = đi lên tầng trên.",
+     "tw": "upstairs",
+     "new": [
+      {
+       "w": "guest room",
+       "vi": "phòng dành cho khách"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Office move",
+     "s": "The company's directors work on the ___, which means they have the best view, whereas the ordinary staff sit near the entrance on the ground floor.",
+     "o": [
+      "top floor",
+      "ground floor",
+      "car park"
+     ],
+     "a": "top floor",
+     "vi": "Các giám đốc của công ty làm việc ở tầng trên cùng, nghĩa là họ có tầm nhìn đẹp nhất, còn nhân viên thường ngồi gần lối vào ở tầng trệt.",
+     "why": "top floor ≠ ground floor.",
+     "tw": "top floor",
+     "ipa": "/ˌtɑːp ˈflɔːr/",
+     "new": [
+      {
+       "w": "directors",
+       "vi": "giám đốc"
+      },
+      {
+       "w": "whereas",
+       "vi": "trong khi"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Office reception",
+     "s": "Visitors must first sign in at the desk on the ___ before they are allowed to take the lift to the meeting rooms upstairs.",
+     "o": [
+      "ground floor",
+      "top floor",
+      "basement"
+     ],
+     "a": "ground floor",
+     "vi": "Khách phải đăng ký ở quầy tầng trệt trước khi được đi thang máy lên các phòng họp phía trên.",
+     "why": "first sign in at the entrance → ground floor.",
+     "tw": "ground floor",
+     "ipa": "/ˈɡraʊnd flɔːr/",
+     "new": [
+      {
+       "w": "sign in",
+       "vi": "đăng ký, ghi tên"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Neighbourhood chat",
+     "s": "Our new neighbours live in a modern ___ nearby, which has a gym on the roof and a car park underneath.",
+     "o": [
+      "block of flats",
+      "farmhouse",
+      "hospital"
+     ],
+     "a": "block of flats",
+     "vi": "Hàng xóm mới của chúng tôi sống trong một tòa chung cư hiện đại gần đó, có phòng tập trên mái và bãi đỗ xe bên dưới.",
+     "why": "a modern block of flats = tòa chung cư hiện đại.",
+     "tw": "block of flats",
+     "ipa": "/ˌblɑːk əv ˈflæts/",
+     "new": [
+      {
+       "w": "underneath",
+       "vi": "bên dưới"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "City growth",
+     "s": "To house more workers, the city is replacing small houses with a huge ___ that will have over four hundred homes.",
+     "o": [
+      "apartment building",
+      "museum",
+      "bridge"
+     ],
+     "a": "apartment building",
+     "vi": "Để có chỗ ở cho nhiều công nhân hơn, thành phố thay các nhà nhỏ bằng một tòa chung cư khổng lồ với hơn bốn trăm căn.",
+     "why": "apartment building = tòa chung cư nhiều căn hộ.",
+     "tw": "an apartment building",
+     "ipa": "/ən əˈpɑːrtmənt ˌbɪldɪŋ/",
+     "new": [
+      {
+       "w": "huge",
+       "vi": "khổng lồ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Building rules",
+     "s": "In case of fire, you must not use the ___ but go down the stairs, because the electricity might fail and trap you inside.",
+     "o": [
+      "lift",
+      "stairs",
+      "window"
+     ],
+     "a": "lift",
+     "vi": "Khi có cháy, bạn không được dùng thang máy mà phải đi cầu thang bộ vì điện có thể mất và nhốt bạn bên trong.",
+     "why": "lift không dùng khi cháy: mất điện sẽ mắc kẹt.",
+     "tw": "lift",
+     "ipa": "/lɪft/",
+     "new": [
+      {
+       "w": "trap",
+       "vi": "nhốt, mắc kẹt"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Office humour",
+     "s": "Whenever I step into the ___ with my boss, I feel nervous, so I just stare at the numbers above the door until it stops.",
+     "o": [
+      "elevator",
+      "kitchen",
+      "garage"
+     ],
+     "a": "elevator",
+     "vi": "Mỗi khi bước vào thang máy cùng sếp, tôi thấy lo nên chỉ nhìn chằm chằm vào các con số trên cửa cho đến khi nó dừng.",
+     "why": "numbers above the door → thang máy.",
+     "tw": "elevator",
+     "ipa": "/ˈeləveɪtər/",
+     "new": [
+      {
+       "w": "stare at",
+       "vi": "nhìn chằm chằm"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Department store",
+     "s": "The ___ was switched off for repairs, so shoppers had to use the stairs, and some elderly customers decided to leave instead.",
+     "o": [
+      "escalator",
+      "fountain",
+      "uniform"
+     ],
+     "a": "escalator",
+     "vi": "Thang cuốn bị tắt để sửa nên người mua phải đi cầu thang bộ, và vài khách lớn tuổi quyết định ra về.",
+     "why": "switched off, use the stairs → escalator.",
+     "tw": "escalator",
+     "ipa": "/ˈeskəleɪtər/",
+     "new": [
+      {
+       "w": "switched off",
+       "vi": "bị tắt"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Climate news",
+     "s": "Experts say that the growing use of ___ in hot countries uses so much electricity that it is making global warming even worse.",
+     "o": [
+      "air conditioning",
+      "public transport",
+      "fresh water"
+     ],
+     "a": "air conditioning",
+     "vi": "Các chuyên gia nói việc dùng điều hòa ngày càng nhiều ở các nước nóng tiêu thụ nhiều điện đến mức làm nóng lên toàn cầu tệ hơn.",
+     "why": "air conditioning dùng nhiều điện → nóng lên toàn cầu.",
+     "tw": "air conditioning",
+     "ipa": "/ˈer kənˌdɪʃənɪŋ/",
+     "new": [
+      {
+       "w": "electricity",
+       "vi": "điện"
+      },
+      {
+       "w": "global warming",
+       "vi": "nóng lên toàn cầu"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Electronics shop",
+     "s": "This ___ is more expensive than the others, but it saves energy, which means your electricity bill will be lower in the long run.",
+     "o": [
+      "air conditioner",
+      "dishwasher",
+      "carpet"
+     ],
+     "a": "air conditioner",
+     "vi": "Máy điều hòa này đắt hơn các máy khác nhưng tiết kiệm điện, nghĩa là hóa đơn điện về lâu dài sẽ thấp hơn.",
+     "why": "air conditioner = thiết bị điều hòa; saves energy.",
+     "tw": "air conditioner",
+     "ipa": "/ˈer kənˌdɪʃənər/",
+     "new": [
+      {
+       "w": "in the long run",
+       "vi": "về lâu dài"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Pharmacy talk",
+     "s": "If your hair feels rough after the sun and the sea, try a deep ___ once a week to make it soft and shiny again.",
+     "o": [
+      "conditioner",
+      "perfume",
+      "toothpaste"
+     ],
+     "a": "conditioner",
+     "vi": "Nếu tóc thô ráp sau khi phơi nắng và đi biển, hãy thử dầu xả dưỡng sâu mỗi tuần một lần để tóc mềm và bóng trở lại.",
+     "why": "deep conditioner = dầu xả dưỡng sâu.",
+     "tw": "conditioner",
+     "ipa": "/kənˈdɪʃənər/",
+     "new": [
+      {
+       "w": "rough",
+       "vi": "thô ráp"
+      },
+      {
+       "w": "shiny",
+       "vi": "bóng mượt"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Gift shop",
+     "s": "For her birthday I bought her a bottle of lavender ___ and some bath salts, hoping she would have a relaxing evening.",
+     "o": [
+      "hair conditioner",
+      "hair dryer",
+      "hair salon"
+     ],
+     "a": "hair conditioner",
+     "vi": "Nhân sinh nhật tôi mua cho cô ấy một chai dầu xả tóc hương oải hương và ít muối tắm, hy vọng cô có buổi tối thư giãn.",
+     "why": "bottle of ... → chất lỏng: hair conditioner.",
+     "tw": "hair conditioner",
+     "ipa": "/ˈher kənˌdɪʃənər/",
+     "new": [
+      {
+       "w": "lavender",
+       "vi": "hoa oải hương"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Safety warning",
+     "s": "Parents should never leave young children alone on a ___ on the ninth floor, because they could climb over the rail.",
+     "o": [
+      "balcony",
+      "kitchen",
+      "garage"
+     ],
+     "a": "balcony",
+     "vi": "Cha mẹ không bao giờ nên để trẻ nhỏ một mình trên ban công tầng chín vì chúng có thể trèo qua lan can.",
+     "why": "over the rail on the ninth floor → ban công.",
+     "tw": "balcony",
+     "ipa": "/ˈbælkəni/",
+     "new": [
+      {
+       "w": "rail",
+       "vi": "lan can"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Home security",
+     "s": "If you are going away for a week, check that the ___ is locked and ask a neighbour to collect your post.",
+     "o": [
+      "front door",
+      "back garden",
+      "dining table"
+     ],
+     "a": "front door",
+     "vi": "Nếu bạn đi xa một tuần, hãy kiểm tra cửa chính đã khóa chưa và nhờ hàng xóm lấy thư giúp.",
+     "why": "locked + going away → cửa chính.",
+     "tw": "front door",
+     "ipa": "/ˌfrʌnt ˈdɔːr/",
+     "new": [
+      {
+       "w": "collect",
+       "vi": "lấy, thu gom"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Rainy day",
+     "s": "Be careful when you go down the ___ outside the café, because they become very slippery after it rains.",
+     "o": [
+      "steps",
+      "steaks",
+      "stamps"
+     ],
+     "a": "steps",
+     "vi": "Hãy cẩn thận khi đi xuống các bậc thềm ngoài quán cà phê vì chúng rất trơn sau mưa.",
+     "why": "go down the steps = đi xuống các bậc thềm.",
+     "tw": "steps",
+     "ipa": "/steps/",
+     "new": [
+      {
+       "w": "slippery",
+       "vi": "trơn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel agency",
+     "s": "The ___ has two bedrooms and a small garden, but the nearest shop is five kilometres away, so you need a car.",
+     "o": [
+      "cottage",
+      "skyscraper",
+      "stadium"
+     ],
+     "a": "cottage",
+     "vi": "Căn nhà nhỏ có hai phòng ngủ và khu vườn bé, nhưng cửa hàng gần nhất cách năm cây số nên cần có xe.",
+     "why": "two bedrooms, small garden, far from shops → cottage.",
+     "tw": "cottage",
+     "ipa": "/ˈkɑːtɪdʒ/",
+     "new": [
+      {
+       "w": "nearest",
+       "vi": "gần nhất"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Hotel booking",
+     "s": "Although the room is small, it is ___ and bright, with old wooden furniture that gives it a warm, friendly feeling.",
+     "o": [
+      "charming",
+      "dangerous",
+      "expensive"
+     ],
+     "a": "charming",
+     "vi": "Dù phòng nhỏ nhưng xinh xắn và sáng, với đồ gỗ cũ tạo cảm giác ấm áp thân thiện.",
+     "why": "small but ... and bright + warm feeling → charming.",
+     "tw": "charming",
+     "ipa": "/ˈtʃɑːrmɪŋ/",
+     "new": [
+      {
+       "w": "furniture",
+       "vi": "đồ nội thất"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "City debate",
+     "s": "Critics say that if every old building is replaced by a glass tower, the city will lose its unique ___ and look the same as any other.",
+     "o": [
+      "character",
+      "weather",
+      "traffic"
+     ],
+     "a": "character",
+     "vi": "Những người chỉ trích nói nếu mọi tòa nhà cũ bị thay bằng tháp kính, thành phố sẽ mất bản sắc độc đáo và trông giống mọi nơi khác.",
+     "why": "unique character = bản sắc riêng.",
+     "tw": "character",
+     "ipa": "/ˈkerəktər/",
+     "new": [
+      {
+       "w": "critics",
+       "vi": "người chỉ trích"
+      },
+      {
+       "w": "unique",
+       "vi": "độc đáo"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Choosing a pub",
+     "s": "We chose that pub because it seems to ___ lots of character, whereas the modern chain restaurants nearby all look exactly the same.",
+     "o": [
+      "have lots of character",
+      "have lots of staff",
+      "have lots of space"
+     ],
+     "a": "have lots of character",
+     "vi": "Chúng tôi chọn quán rượu đó vì nó có vẻ rất có nét riêng, trong khi các nhà hàng chuỗi hiện đại gần đó đều giống hệt nhau.",
+     "why": "have lots of character ≠ giống hệt nhau.",
+     "tw": "have lots of character",
+     "ipa": "/hæv ˌlɑːts əv ˈkerəktər/",
+     "new": [
+      {
+       "w": "chain",
+       "vi": "chuỗi cửa hàng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Energy debate",
+     "s": "Many families now use solar panels to ___ their homes, since gas prices have risen so much that electricity from the sun looks cheaper.",
+     "o": [
+      "heat",
+      "paint",
+      "sell"
+     ],
+     "a": "heat",
+     "vi": "Nhiều gia đình nay dùng tấm pin mặt trời để sưởi ấm nhà vì giá gas tăng nhiều đến mức điện từ mặt trời có vẻ rẻ hơn.",
+     "why": "heat their homes = sưởi ấm nhà.",
+     "tw": "heat",
+     "ipa": "/hiːt/",
+     "new": [
+      {
+       "w": "solar panels",
+       "vi": "tấm pin mặt trời"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Energy bills",
+     "s": "Turning down your ___ by just one degree can reduce your bill by about ten percent, which adds up to a lot over a long winter.",
+     "o": [
+      "central heating",
+      "front door",
+      "balcony"
+     ],
+     "a": "central heating",
+     "vi": "Giảm hệ thống sưởi trung tâm chỉ một độ có thể cắt hóa đơn khoảng mười phần trăm, cộng lại là nhiều trong mùa đông dài.",
+     "why": "turn down central heating = giảm sưởi.",
+     "tw": "central heating",
+     "ipa": "/ˌsentrəl ˈhiːtɪŋ/",
+     "new": [
+      {
+       "w": "adds up",
+       "vi": "cộng dồn lại"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Ending a contract",
+     "s": "Her contract ended in June, so she had to ___ before the new tenants arrived and the keys were handed over.",
+     "o": [
+      "move to a new flat",
+      "stay in the old flat",
+      "apply for a visa"
+     ],
+     "a": "move to a new flat",
+     "vi": "Hợp đồng của cô kết thúc vào tháng Sáu nên cô phải chuyển sang căn hộ mới trước khi người thuê mới đến và chìa khóa được bàn giao.",
+     "why": "contract ended + new tenants → chuyển nhà.",
+     "tw": "move to a new flat",
+     "new": [
+      {
+       "w": "tenants",
+       "vi": "người thuê nhà"
+      },
+      {
+       "w": "handed over",
+       "vi": "được bàn giao"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Choosing a car",
+     "s": "I'd like to buy a bigger estate car because we want to ___ when we travel with two dogs and a lot of luggage.",
+     "o": [
+      "have more space",
+      "have more money",
+      "have more time"
+     ],
+     "a": "have more space",
+     "vi": "Tôi muốn mua xe wagon lớn hơn vì chúng tôi muốn có nhiều chỗ hơn khi đi cùng hai con chó và nhiều hành lý.",
+     "why": "two dogs + luggage → cần thêm chỗ.",
+     "tw": "have more space",
+     "new": [
+      {
+       "w": "estate car",
+       "vi": "xe wagon"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Choosing a restaurant",
+     "s": "Let's book a table by the window, since we want to ___ while we eat, and the sunset over the sea is supposed to be amazing.",
+     "o": [
+      "have nice views",
+      "have nice friends",
+      "have nice weather"
+     ],
+     "a": "have nice views",
+     "vi": "Hãy đặt bàn cạnh cửa sổ vì ta muốn ngắm cảnh đẹp khi ăn, và hoàng hôn trên biển nghe nói rất tuyệt.",
+     "why": "window table + sunset over the sea → cảnh đẹp.",
+     "tw": "have nice views",
+     "new": [
+      {
+       "w": "supposed to",
+       "vi": "được cho là"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Job abroad",
+     "s": "Before you ___, make sure that you read the contract carefully, as some landlords hide extra fees in small print.",
+     "o": [
+      "rent a flat",
+      "book a flight",
+      "open an account"
+     ],
+     "a": "rent a flat",
+     "vi": "Trước khi thuê căn hộ, hãy chắc chắn đọc kỹ hợp đồng vì một số chủ nhà giấu phí phụ trong chữ nhỏ.",
+     "why": "contract + landlords → thuê căn hộ.",
+     "tw": "rent a flat",
+     "new": [
+      {
+       "w": "fees",
+       "vi": "các khoản phí"
+      },
+      {
+       "w": "small print",
+       "vi": "điều khoản chữ nhỏ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Dream home",
+     "s": "When she retires, she hopes to buy ___ by the sea, with a small garden where she can grow lavender and sit with a book.",
+     "o": [
+      "a charming cottage",
+      "a noisy factory",
+      "a crowded station"
+     ],
+     "a": "a charming cottage",
+     "vi": "Khi nghỉ hưu, bà hy vọng mua một căn nhà nhỏ xinh bên biển, có khu vườn bé để trồng oải hương và ngồi đọc sách.",
+     "why": "garden, lavender, book by the sea → a charming cottage.",
+     "tw": "a charming cottage",
+     "new": [
+      {
+       "w": "lavender",
+       "vi": "hoa oải hương"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Safety talk",
+     "s": "In an emergency, people who ___ will need only a minute to reach the street by the stairs, whereas those on the tenth floor must hurry.",
+     "o": [
+      "live on the second floor",
+      "live in another country",
+      "live on a boat"
+     ],
+     "a": "live on the second floor",
+     "vi": "Trong tình huống khẩn cấp, những người sống ở tầng hai chỉ cần một phút để ra đường bằng cầu thang, còn người ở tầng mười phải khẩn trương.",
+     "why": "stairs + one minute → tầng thấp: tầng hai.",
+     "tw": "live on the second floor",
+     "new": [
+      {
+       "w": "emergency",
+       "vi": "tình huống khẩn cấp"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Camping trip",
+     "s": "Without a fridge or an oven, we could only ___ pasta over a small fire, which, to be honest, tasted wonderful after a long hike.",
+     "o": [
+      "boil something",
+      "bake something",
+      "freeze something"
+     ],
+     "a": "boil something",
+     "vi": "Không có tủ lạnh hay lò nướng, chúng tôi chỉ có thể luộc mì trên lửa nhỏ, thật ra rất ngon sau chuyến đi bộ dài.",
+     "why": "fire + pasta, no oven → boil.",
+     "tw": "boil something",
+     "ipa": "/bɔɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "hike",
+       "vi": "chuyến đi bộ đường dài"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Healthy eating",
+     "s": "Nutritionists suggest that people should ___ less food and steam more vegetables, since too much oil can lead to weight problems.",
+     "o": [
+      "fry something",
+      "paint something",
+      "carry something"
+     ],
+     "a": "fry something",
+     "vi": "Chuyên gia dinh dưỡng gợi ý mọi người nên chiên ít đồ ăn và hấp nhiều rau hơn vì quá nhiều dầu có thể gây vấn đề cân nặng.",
+     "why": "fry (dầu) đối lập steam → chiên.",
+     "tw": "fry something",
+     "ipa": "/fraɪ ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "nutritionists",
+       "vi": "chuyên gia dinh dưỡng"
+      },
+      {
+       "w": "steam",
+       "vi": "hấp"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Summer party",
+     "s": "Since the weather is lovely, let's ___ the sausages outside instead of cooking them in the kitchen, and everyone can help themselves.",
+     "o": [
+      "grill",
+      "bake",
+      "boil"
+     ],
+     "a": "grill",
+     "vi": "Vì thời tiết đẹp, ta nướng xúc xích ngoài trời thay vì nấu trong bếp, và mọi người tự lấy ăn.",
+     "why": "outside + sausages → nướng vỉ (grill).",
+     "tw": "grill something",
+     "ipa": "/ɡrɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "help themselves",
+       "vi": "tự lấy ăn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Christmas dinner",
+     "s": "My aunt got up at six to ___ the turkey, because it needs several hours in the oven before it is soft enough to eat.",
+     "o": [
+      "roast",
+      "paint",
+      "peel"
+     ],
+     "a": "roast",
+     "vi": "Dì tôi dậy lúc sáu giờ để quay gà tây vì cần vài giờ trong lò mới đủ mềm để ăn.",
+     "why": "turkey in oven for hours → roast.",
+     "tw": "roast something",
+     "ipa": "/rəʊst ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "turkey",
+       "vi": "gà tây"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Birthday plan",
+     "s": "I'd like to ___ a chocolate cake for her party, but I'm not sure my oven is hot enough, so I may buy one.",
+     "o": [
+      "bake",
+      "fry",
+      "grill"
+     ],
+     "a": "bake",
+     "vi": "Tôi muốn nướng bánh sô-cô-la cho bữa tiệc của cô ấy nhưng không chắc lò đủ nóng nên có thể mua một cái.",
+     "why": "cake in the oven → bake.",
+     "tw": "bake something",
+     "ipa": "/beɪk ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "hot enough",
+       "vi": "đủ nóng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Camping trip",
+     "s": "We had no machine, so we had to ___ every potato by hand, which took so long that we ate dinner after dark.",
+     "o": [
+      "peel",
+      "paint",
+      "wash up"
+     ],
+     "a": "peel",
+     "vi": "Chúng tôi không có máy nên phải gọt từng củ khoai bằng tay, lâu đến nỗi ăn tối khi trời đã tối.",
+     "why": "potato by hand, took long → peel.",
+     "tw": "peel something",
+     "ipa": "/piːl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "by hand",
+       "vi": "bằng tay"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Kitchen safety",
+     "s": "Always use a wooden board when you ___ meat or vegetables, because a hard surface will damage your knife and may be dangerous.",
+     "o": [
+      "chop",
+      "drink",
+      "wash"
+     ],
+     "a": "chop",
+     "vi": "Luôn dùng thớt gỗ khi bạn thái thịt hay rau vì mặt cứng sẽ làm hỏng dao và có thể nguy hiểm.",
+     "why": "board + knife → chop.",
+     "tw": "chop something",
+     "ipa": "/tʃɒp ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "board",
+       "vi": "thớt"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking error",
+     "s": "My little brother accidentally ___ sugar to the rice instead of salt, so the whole meal tasted very strange.",
+     "o": [
+      "added",
+      "poured",
+      "threw"
+     ],
+     "a": "added",
+     "vi": "Em trai tôi vô tình cho đường vào cơm thay vì muối nên cả bữa ăn có vị rất lạ.",
+     "why": "add something to something = cho A vào B.",
+     "tw": "add something to something",
+     "ipa": "/æd ˈsʌmθɪŋ tuː ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "accidentally",
+       "vi": "vô tình"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking tip",
+     "s": "While the rice is cooking, don't ___ it too often, because that makes it sticky, unlike risotto which needs constant mixing.",
+     "o": [
+      "stir",
+      "taste",
+      "add"
+     ],
+     "a": "stir",
+     "vi": "Khi cơm đang chín, đừng khuấy quá thường xuyên vì làm cơm dính, không như risotto cần đảo liên tục.",
+     "why": "đừng khuấy cơm (stir) quá nhiều.",
+     "tw": "stir something",
+     "ipa": "/stɜː ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "constant",
+       "vi": "liên tục"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Food festival",
+     "s": "Visitors were invited to ___ small samples of cheese before buying, which made them more confident about choosing the right one.",
+     "o": [
+      "taste",
+      "carry",
+      "borrow"
+     ],
+     "a": "taste",
+     "vi": "Du khách được mời nếm thử các miếng phô mai nhỏ trước khi mua, giúp họ tự tin chọn loại đúng.",
+     "why": "samples before buying → taste.",
+     "tw": "taste something",
+     "ipa": "/teɪst ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "samples",
+       "vi": "mẫu thử"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Home cooking",
+     "s": "This curry doesn't ___ right, probably because I used old spices that have lost their flavour after sitting in the cupboard.",
+     "o": [
+      "taste",
+      "make",
+      "feel"
+     ],
+     "a": "taste",
+     "vi": "Món cà ri này nếm không đúng, có lẽ vì tôi dùng gia vị cũ đã mất hương sau khi để trong tủ.",
+     "why": "taste right = có vị đúng.",
+     "tw": "taste + adjective",
+     "ipa": "/teɪst/",
+     "new": [
+      {
+       "w": "spices",
+       "vi": "gia vị"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Kitchen conversation",
+     "s": "I never measure anything when I cook; I just trust my instincts, whereas my sister always has to ___ before she starts.",
+     "o": [
+      "follow a recipe",
+      "forget a recipe",
+      "sell a recipe"
+     ],
+     "a": "follow a recipe",
+     "vi": "Tôi chẳng bao giờ đong đo gì khi nấu; chỉ theo bản năng, còn chị tôi luôn phải làm theo công thức.",
+     "why": "measure + instincts ↔ follow a recipe.",
+     "tw": "follow a recipe",
+     "ipa": "/ˈfɒləʊ ə ˈresəpi/",
+     "new": [
+      {
+       "w": "instincts",
+       "vi": "bản năng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking competition",
+     "s": "Contestants have thirty minutes to cook, and they are disqualified if they don't ___, so they check their baskets twice.",
+     "o": [
+      "have all the ingredients",
+      "have all the answers",
+      "have all the time"
+     ],
+     "a": "have all the ingredients",
+     "vi": "Thí sinh có ba mươi phút để nấu và bị loại nếu không có đủ nguyên liệu nên họ kiểm tra giỏ hai lần.",
+     "why": "baskets check → nguyên liệu.",
+     "tw": "have all the ingredients",
+     "ipa": "/hæv ɔːl ðə raɪt ɪnˈɡriːdiənts/",
+     "new": [
+      {
+       "w": "contestants",
+       "vi": "thí sinh"
+      },
+      {
+       "w": "disqualified",
+       "vi": "bị loại"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking talk",
+     "s": "My grandmother said the soup was ___ for the children, so she added some milk to make it milder.",
+     "o": [
+      "a bit too spicy",
+      "a bit too cold",
+      "a bit too early"
+     ],
+     "a": "a bit too spicy",
+     "vi": "Bà nói món súp hơi cay quá cho bọn trẻ nên bà thêm sữa để dịu hơn.",
+     "why": "milder → trước đó cay: a bit too spicy.",
+     "tw": "a bit too spicy",
+     "ipa": "/ə bɪt tuː ˈspaɪsi/",
+     "new": [
+      {
+       "w": "milder",
+       "vi": "dịu hơn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Snack shopping",
+     "s": "These crisps come in six ___, so my children can't agree on which packet to buy, and we always argue near the shelf.",
+     "o": [
+      "different flavours",
+      "different seasons",
+      "different languages"
+     ],
+     "a": "different flavours",
+     "vi": "Khoai tây chiên này có sáu hương vị khác nhau nên con tôi không thống nhất mua gói nào và luôn cãi nhau ở kệ.",
+     "why": "crisps → flavours.",
+     "tw": "different flavours",
+     "ipa": "/ˈdɪfrənt ˈfleɪvəz/",
+     "new": [
+      {
+       "w": "agree",
+       "vi": "đồng ý"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Small talk",
+     "s": "Although my husband isn't ___ cooking fish, he makes excellent soup, so we usually share the work in the kitchen.",
+     "o": [
+      "good at",
+      "good in",
+      "good for"
+     ],
+     "a": "good at",
+     "vi": "Dù chồng tôi không giỏi nấu cá, anh nấu súp rất ngon nên chúng tôi chia việc trong bếp.",
+     "why": "be good at + V-ing.",
+     "tw": "be good at cooking",
+     "ipa": "/bi ɡʊd æt ˈkʊkɪŋ/",
+     "new": [
+      {
+       "w": "share",
+       "vi": "chia sẻ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Friends talk",
+     "s": "You don't need to be ___ to make this recipe; it is so simple that even beginners can finish it in half an hour.",
+     "o": [
+      "a good cook",
+      "a good driver",
+      "a good singer"
+     ],
+     "a": "a good cook",
+     "vi": "Bạn không cần là người nấu giỏi để làm công thức này; nó đơn giản đến mức người mới cũng xong trong nửa giờ.",
+     "why": "recipe → cook.",
+     "tw": "a good cook",
+     "ipa": "/ə ɡʊd kʊk/",
+     "new": [
+      {
+       "w": "beginners",
+       "vi": "người mới bắt đầu"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Household chores",
+     "s": "On Sundays my father likes to ___ rice and fish for the whole family, while my mother cleans the house and washes the clothes.",
+     "o": [
+      "cook",
+      "grow",
+      "repair"
+     ],
+     "a": "cook",
+     "vi": "Chủ nhật bố tôi thích nấu cơm và cá cho cả nhà trong khi mẹ dọn nhà và giặt đồ.",
+     "why": "rice and fish → cook.",
+     "tw": "cook",
+     "ipa": "/kʊk/",
+     "new": [
+      {
+       "w": "chores",
+       "vi": "việc nhà"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Mother's Day",
+     "s": "The children decided to ___ breakfast for their mother, so they quietly got up early and prepared pancakes in the kitchen.",
+     "o": [
+      "make",
+      "build",
+      "drive"
+     ],
+     "a": "make",
+     "vi": "Bọn trẻ quyết định làm bữa sáng cho mẹ nên lặng lẽ dậy sớm làm bánh kếp trong bếp.",
+     "why": "make breakfast/a dish = làm bữa/món ăn.",
+     "tw": "make",
+     "ipa": "/meɪk/",
+     "new": [
+      {
+       "w": "pancakes",
+       "vi": "bánh kếp"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Real estate talk",
+     "s": "Estate agents often say that three things matter most when buying a home: location, location and location. A house in a quiet area near good schools usually costs far more than the same house in a remote village. What does \"location\" mean?",
+     "o": [
+      "vị trí, địa điểm",
+      "kích thước, diện tích",
+      "giá cả, chi phí"
+     ],
+     "a": "vị trí, địa điểm",
+     "vi": "Các nhân viên bất động sản thường nói ba điều quan trọng nhất khi mua nhà là: vị trí, vị trí và vị trí. Một ngôi nhà ở khu yên tĩnh gần trường tốt thường đắt hơn nhiều so với cùng căn đó ở làng hẻo lánh.",
+     "why": "location = vị trí, địa điểm.",
+     "tw": "location",
+     "noblank": true,
+     "say": "Estate agents often say that three things matter most when buying a home: location, location and location. A house in a quiet area near good schools usually costs far more than the same house in a remote village.",
+     "ipa": "/loʊˈkeɪʃən/",
+     "new": [
+      {
+       "w": "estate agents",
+       "vi": "nhân viên bất động sản"
+      },
+      {
+       "w": "remote",
+       "vi": "hẻo lánh"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel blog",
+     "s": "Our hotel was not in the old town but on the outskirts of the city, so we had to take a bus for forty minutes to see the main sights. At least the rooms were quiet. What does \"on the outskirts of\" mean?",
+     "o": [
+      "ở vùng ngoại ô của",
+      "ở ngay giữa",
+      "ở bên kia sông của"
+     ],
+     "a": "ở vùng ngoại ô của",
+     "vi": "Khách sạn của chúng tôi không ở khu phố cổ mà ở ngoại ô thành phố, nên phải đi xe buýt bốn mươi phút để xem các thắng cảnh chính. Ít nhất các phòng cũng yên tĩnh.",
+     "why": "on the outskirts of = vùng ngoại ô, rìa thành phố của.",
+     "tw": "on the outskirts of",
+     "noblank": true,
+     "say": "Our hotel was not in the old town but on the outskirts of the city, so we had to take a bus for forty minutes to see the main sights. At least the rooms were quiet.",
+     "ipa": "/ˈaʊtˌskɝːts/",
+     "new": [
+      {
+       "w": "sights",
+       "vi": "thắng cảnh"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Housing survey",
+     "s": "Most people who answered the survey said they were happy with their present flat, although a few complained that it was too small for their growing families. What does \"present\" mean?",
+     "o": [
+      "hiện tại",
+      "trước đây",
+      "tương lai"
+     ],
+     "a": "hiện tại",
+     "vi": "Hầu hết người trả lời khảo sát nói họ hài lòng với căn hộ hiện tại, dù vài người phàn nàn nó quá nhỏ cho gia đình ngày càng đông.",
+     "why": "present = hiện tại.",
+     "tw": "present",
+     "noblank": true,
+     "say": "Most people who answered the survey said they were happy with their present flat, although a few complained that it was too small for their growing families.",
+     "ipa": "/ˈprezənt/",
+     "new": [
+      {
+       "w": "survey",
+       "vi": "khảo sát"
+      },
+      {
+       "w": "complained",
+       "vi": "phàn nàn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Parenting article",
+     "s": "Children need plenty of space to run and play. When families live in tiny apartments without gardens, many parents take them to the park so that they can burn off energy. What does \"space\" mean?",
+     "o": [
+      "không gian, chỗ",
+      "tiếng ồn",
+      "đồ chơi"
+     ],
+     "a": "không gian, chỗ",
+     "vi": "Trẻ em cần nhiều chỗ để chạy và chơi. Khi các gia đình sống trong căn hộ nhỏ không có vườn, nhiều bậc cha mẹ đưa con đến công viên để chúng xả bớt năng lượng.",
+     "why": "space = không gian, chỗ.",
+     "tw": "space",
+     "noblank": true,
+     "say": "Children need plenty of space to run and play. When families live in tiny apartments without gardens, many parents take them to the park so that they can burn off energy.",
+     "ipa": "/speɪs/",
+     "new": [
+      {
+       "w": "burn off energy",
+       "vi": "xả bớt năng lượng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Rental advert",
+     "s": "Spacious two-bedroom flat in the city centre, available next month. The building has a lift, and the shops and the metro station are only five minutes away on foot. What does \"flat\" mean?",
+     "o": [
+      "căn hộ",
+      "ngôi nhà gỗ",
+      "văn phòng"
+     ],
+     "a": "căn hộ",
+     "vi": "Căn hộ hai phòng ngủ rộng rãi ở trung tâm, có sẵn từ tháng sau. Tòa nhà có thang máy, cửa hàng và ga tàu chỉ cách năm phút đi bộ.",
+     "why": "flat = căn hộ (Anh-Anh).",
+     "tw": "flat",
+     "noblank": true,
+     "say": "Spacious two-bedroom flat in the city centre, available next month. The building has a lift, and the shops and the metro station are only five minutes away on foot.",
+     "ipa": "/flæt/",
+     "new": [
+      {
+       "w": "spacious",
+       "vi": "rộng rãi"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Housing news",
+     "s": "Many students prefer to rent a studio apartment near campus because it is cheaper than a house, even though they have to cook and sleep in the same room. What does \"apartment\" mean?",
+     "o": [
+      "căn hộ",
+      "phòng học",
+      "ký túc xá"
+     ],
+     "a": "căn hộ",
+     "vi": "Nhiều sinh viên thích thuê căn hộ studio gần trường vì rẻ hơn nhà, dù phải nấu ăn và ngủ trong cùng một phòng.",
+     "why": "apartment = căn hộ.",
+     "tw": "apartment",
+     "noblank": true,
+     "say": "Many students prefer to rent a studio apartment near campus because it is cheaper than a house, even though they have to cook and sleep in the same room.",
+     "ipa": "/əˈpɑːrtmənt/",
+     "new": [
+      {
+       "w": "studio",
+       "vi": "căn hộ một phòng"
+      },
+      {
+       "w": "campus",
+       "vi": "khuôn viên trường"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Economics class",
+     "s": "Owning a home is expensive, so a growing number of young adults choose to rent. They pay a monthly fee to the owner but avoid big repair costs. What does \"rent\" mean?",
+     "o": [
+      "thuê",
+      "sửa chữa",
+      "bán"
+     ],
+     "a": "thuê",
+     "vi": "Sở hữu nhà rất tốn kém nên ngày càng nhiều người trẻ chọn thuê. Họ trả phí hàng tháng cho chủ nhà nhưng tránh được chi phí sửa chữa lớn.",
+     "why": "rent = thuê.",
+     "tw": "rent",
+     "noblank": true,
+     "say": "Owning a home is expensive, so a growing number of young adults choose to rent. They pay a monthly fee to the owner but avoid big repair costs.",
+     "ipa": "/rent/",
+     "new": [
+      {
+       "w": "owning",
+       "vi": "sở hữu"
+      },
+      {
+       "w": "fee",
+       "vi": "khoản phí"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Estate listing",
+     "s": "The house has two bedrooms upstairs, while downstairs there is a large kitchen and a living room that opens onto the garden, so it is ideal for a family with young children. What does \"downstairs\" mean?",
+     "o": [
+      "ở tầng dưới",
+      "ở trên mái nhà",
+      "ở ngoài sân"
+     ],
+     "a": "ở tầng dưới",
+     "vi": "Ngôi nhà có hai phòng ngủ trên lầu, còn tầng dưới có bếp rộng và phòng khách mở ra vườn, rất lý tưởng cho gia đình có trẻ nhỏ.",
+     "why": "downstairs = ở/xuống tầng dưới.",
+     "tw": "downstairs",
+     "noblank": true,
+     "say": "The house has two bedrooms upstairs, while downstairs there is a large kitchen and a living room that opens onto the garden, so it is ideal for a family with young children.",
+     "ipa": "/ˌdaʊnˈsterz/",
+     "new": [
+      {
+       "w": "ideal",
+       "vi": "lý tưởng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Neighbour story",
+     "s": "Our upstairs neighbours are musicians, so we often hear a piano above our heads in the evening, although honestly the music is quite beautiful. What does \"upstairs\" mean?",
+     "o": [
+      "ở tầng trên",
+      "ở tầng hầm",
+      "ở nhà bên cạnh"
+     ],
+     "a": "ở tầng trên",
+     "vi": "Hàng xóm tầng trên của chúng tôi là nhạc sĩ nên buổi tối chúng tôi hay nghe tiếng piano trên đầu, dù thật ra nhạc khá hay.",
+     "why": "upstairs = ở/xuống tầng trên.",
+     "tw": "upstairs",
+     "noblank": true,
+     "say": "Our upstairs neighbours are musicians, so we often hear a piano above our heads in the evening, although honestly the music is quite beautiful.",
+     "new": [
+      {
+       "w": "musicians",
+       "vi": "nhạc sĩ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Building survey",
+     "s": "Heat rises, so apartments on the top floor of an old building are often hotter in summer. As a result, tenants there usually ask for fans or air conditioning. What does \"top floor\" mean?",
+     "o": [
+      "tầng trên cùng",
+      "tầng hầm",
+      "tầng giữa"
+     ],
+     "a": "tầng trên cùng",
+     "vi": "Hơi nóng bốc lên nên các căn hộ ở tầng trên cùng của tòa nhà cũ thường nóng hơn vào mùa hè. Vì thế người thuê ở đó thường xin quạt hoặc điều hòa.",
+     "why": "top floor = tầng trên cùng.",
+     "tw": "top floor",
+     "noblank": true,
+     "say": "Heat rises, so apartments on the top floor of an old building are often hotter in summer. As a result, tenants there usually ask for fans or air conditioning.",
+     "ipa": "/ˌtɑːp ˈflɔːr/",
+     "new": [
+      {
+       "w": "tenants",
+       "vi": "người thuê nhà"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Restaurant review",
+     "s": "The café on the ground floor is always crowded at lunchtime, whereas the quiet seats on the first floor give you a nice view of the street. What does \"ground floor\" mean?",
+     "o": [
+      "tầng trệt",
+      "tầng áp mái",
+      "tầng hầm"
+     ],
+     "a": "tầng trệt",
+     "vi": "Quán cà phê ở tầng trệt luôn đông vào giờ trưa, trong khi chỗ yên tĩnh trên tầng một cho bạn tầm nhìn đẹp ra phố.",
+     "why": "ground floor = tầng trệt.",
+     "tw": "ground floor",
+     "noblank": true,
+     "say": "The café on the ground floor is always crowded at lunchtime, whereas the quiet seats on the first floor give you a nice view of the street.",
+     "ipa": "/ˈɡraʊnd flɔːr/",
+     "new": [
+      {
+       "w": "crowded",
+       "vi": "đông đúc"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Local newspaper",
+     "s": "Plans for a ten-storey block of flats near the park have upset local people, who say it will block the sunlight and make traffic worse. What does \"block of flats\" mean?",
+     "o": [
+      "tòa nhà gồm nhiều căn hộ",
+      "khu vườn công cộng",
+      "nhà máy lớn"
+     ],
+     "a": "tòa nhà gồm nhiều căn hộ",
+     "vi": "Kế hoạch xây tòa chung cư mười tầng gần công viên đã làm người dân địa phương bực, họ nói nó sẽ chắn nắng và làm giao thông tệ hơn.",
+     "why": "block of flats = tòa nhà gồm nhiều căn hộ.",
+     "tw": "block of flats",
+     "noblank": true,
+     "say": "Plans for a ten-storey block of flats near the park have upset local people, who say it will block the sunlight and make traffic worse.",
+     "ipa": "/ˌblɑːk əv ˈflæts/",
+     "new": [
+      {
+       "w": "storey",
+       "vi": "tầng"
+      },
+      {
+       "w": "upset",
+       "vi": "làm bực bội"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Neighbours",
+     "s": "In an apartment building, people share walls, stairs and entrances, so being polite to your neighbours is much more important than in a detached house. What does \"an apartment building\" mean?",
+     "o": [
+      "tòa nhà chung cư",
+      "nhà riêng biệt",
+      "khách sạn nhỏ"
+     ],
+     "a": "tòa nhà chung cư",
+     "vi": "Trong tòa chung cư, mọi người dùng chung tường, cầu thang và lối vào, nên lịch sự với hàng xóm quan trọng hơn nhiều so với nhà riêng biệt.",
+     "why": "an apartment building = tòa nhà chung cư.",
+     "tw": "an apartment building",
+     "noblank": true,
+     "say": "In an apartment building, people share walls, stairs and entrances, so being polite to your neighbours is much more important than in a detached house.",
+     "ipa": "/ən əˈpɑːrtmənt ˌbɪldɪŋ/",
+     "new": [
+      {
+       "w": "detached",
+       "vi": "nhà riêng biệt, tách rời"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Hotel stay",
+     "s": "The hotel is old and the lift is tiny; it can carry only four people at a time, so guests with big suitcases often wait a long while. What does \"lift\" mean?",
+     "o": [
+      "thang máy",
+      "cầu thang bộ",
+      "quầy lễ tân"
+     ],
+     "a": "thang máy",
+     "vi": "Khách sạn cũ và thang máy rất nhỏ; mỗi lần chỉ chở được bốn người nên khách có vali lớn thường phải chờ lâu.",
+     "why": "lift = thang máy (BrE).",
+     "tw": "lift",
+     "noblank": true,
+     "say": "The hotel is old and the lift is tiny; it can carry only four people at a time, so guests with big suitcases often wait a long while.",
+     "ipa": "/lɪft/",
+     "new": [
+      {
+       "w": "suitcases",
+       "vi": "vali"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Safety notice",
+     "s": "If the elevator stops between floors, stay calm and press the alarm button. Technicians will usually arrive within thirty minutes and open the doors safely. What does \"elevator\" mean?",
+     "o": [
+      "thang máy",
+      "thang cuốn",
+      "cầu thang xoắn"
+     ],
+     "a": "thang máy",
+     "vi": "Nếu thang máy dừng giữa các tầng, hãy bình tĩnh và nhấn nút báo động. Kỹ thuật viên thường đến trong vòng ba mươi phút và mở cửa an toàn.",
+     "why": "elevator = thang máy.",
+     "tw": "elevator",
+     "noblank": true,
+     "say": "If the elevator stops between floors, stay calm and press the alarm button. Technicians will usually arrive within thirty minutes and open the doors safely.",
+     "ipa": "/ˈeləveɪtər/",
+     "new": [
+      {
+       "w": "technicians",
+       "vi": "kỹ thuật viên"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Airport guide",
+     "s": "At the airport, a long escalator takes passengers from the arrivals hall down to the train platform, which saves them from carrying heavy luggage on the steps. What does \"escalator\" mean?",
+     "o": [
+      "thang cuốn",
+      "băng chuyền hành lý",
+      "cổng an ninh"
+     ],
+     "a": "thang cuốn",
+     "vi": "Ở sân bay, một thang cuốn dài đưa hành khách từ sảnh đến xuống sân ga, giúp họ khỏi xách hành lý nặng trên cầu thang.",
+     "why": "escalator = thang cuốn.",
+     "tw": "escalator",
+     "noblank": true,
+     "say": "At the airport, a long escalator takes passengers from the arrivals hall down to the train platform, which saves them from carrying heavy luggage on the steps.",
+     "ipa": "/ˈeskəleɪtər/",
+     "new": [
+      {
+       "w": "platform",
+       "vi": "sân ga"
+      },
+      {
+       "w": "arrivals hall",
+       "vi": "sảnh đến"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Car advert",
+     "s": "Our new model comes with air conditioning as standard, which means that drivers stay cool on long journeys without opening the windows. What does \"air conditioning\" mean?",
+     "o": [
+      "hệ thống điều hòa",
+      "hệ thống sưởi",
+      "hệ thống âm thanh"
+     ],
+     "a": "hệ thống điều hòa",
+     "vi": "Mẫu xe mới của chúng tôi có điều hòa tiêu chuẩn, nghĩa là tài xế luôn mát mẻ trong các chuyến đi dài mà không phải mở cửa sổ.",
+     "why": "air conditioning = hệ thống điều hòa.",
+     "tw": "air conditioning",
+     "noblank": true,
+     "say": "Our new model comes with air conditioning as standard, which means that drivers stay cool on long journeys without opening the windows.",
+     "ipa": "/ˈer kənˌdɪʃənɪŋ/",
+     "new": [
+      {
+       "w": "as standard",
+       "vi": "là trang bị tiêu chuẩn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Product review",
+     "s": "Although this small air conditioner is easy to move from room to room, customers complain that it is too weak for a large living room. What does \"air conditioner\" mean?",
+     "o": [
+      "máy điều hòa",
+      "máy sưởi",
+      "máy hút bụi"
+     ],
+     "a": "máy điều hòa",
+     "vi": "Dù chiếc máy điều hòa nhỏ này dễ di chuyển từ phòng này sang phòng khác, khách hàng phàn nàn nó quá yếu cho phòng khách lớn.",
+     "why": "air conditioner = máy điều hòa, máy lạnh (thiết bị).",
+     "tw": "air conditioner",
+     "noblank": true,
+     "say": "Although this small air conditioner is easy to move from room to room, customers complain that it is too weak for a large living room.",
+     "ipa": "/ˈer kənˌdɪʃənər/",
+     "new": [
+      {
+       "w": "weak",
+       "vi": "yếu"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Beauty blog",
+     "s": "Many people think shampoo is enough, but a good conditioner closes the surface of each hair, which helps it look smoother and protects it from damage. What does \"conditioner\" mean?",
+     "o": [
+      "dầu xả",
+      "thuốc nhuộm",
+      "keo xịt tóc"
+     ],
+     "a": "dầu xả",
+     "vi": "Nhiều người nghĩ dầu gội là đủ, nhưng dầu xả tốt làm kín bề mặt sợi tóc, giúp tóc trông mượt hơn và tránh hư tổn.",
+     "why": "conditioner = dầu xả; chất dưỡng.",
+     "tw": "conditioner",
+     "noblank": true,
+     "say": "Many people think shampoo is enough, but a good conditioner closes the surface of each hair, which helps it look smoother and protects it from damage.",
+     "ipa": "/kənˈdɪʃənər/",
+     "new": [
+      {
+       "w": "smoother",
+       "vi": "mượt hơn"
+      },
+      {
+       "w": "damage",
+       "vi": "hư tổn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Shopping list",
+     "s": "This hair conditioner, which is made without chemicals, leaves your hair smooth and easy to comb, and it costs less than most famous brands. What does \"hair conditioner\" mean?",
+     "o": [
+      "dầu xả tóc",
+      "máy sấy tóc",
+      "lược chải tóc"
+     ],
+     "a": "dầu xả tóc",
+     "vi": "Dầu xả tóc này, được làm không có hóa chất, giúp tóc mượt và dễ chải, mà giá thấp hơn đa số nhãn nổi tiếng.",
+     "why": "hair conditioner = dầu xả tóc.",
+     "tw": "hair conditioner",
+     "noblank": true,
+     "say": "This hair conditioner, which is made without chemicals, leaves your hair smooth and easy to comb, and it costs less than most famous brands.",
+     "ipa": "/ˈher kənˌdɪʃənər/",
+     "new": [
+      {
+       "w": "chemicals",
+       "vi": "hóa chất"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Gardening tips",
+     "s": "Even without a garden, you can grow herbs on a balcony if it gets enough sunlight, and fresh basil makes pasta taste much better. What does \"balcony\" mean?",
+     "o": [
+      "ban công",
+      "tầng hầm",
+      "mái hiên"
+     ],
+     "a": "ban công",
+     "vi": "Dù không có vườn, bạn vẫn có thể trồng rau thơm trên ban công nếu có đủ nắng, và húng quế tươi làm mì ngon hơn nhiều.",
+     "why": "balcony = ban công.",
+     "tw": "balcony",
+     "noblank": true,
+     "say": "Even without a garden, you can grow herbs on a balcony if it gets enough sunlight, and fresh basil makes pasta taste much better.",
+     "ipa": "/ˈbælkəni/",
+     "new": [
+      {
+       "w": "herbs",
+       "vi": "rau thơm"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Neighbour story",
+     "s": "When the postman knocked at the front door, the dog started barking so loudly that nobody in the house could hear what he said. What does \"front door\" mean?",
+     "o": [
+      "cửa chính",
+      "cửa sổ",
+      "cổng sau"
+     ],
+     "a": "cửa chính",
+     "vi": "Khi người đưa thư gõ cửa chính, con chó sủa to đến mức không ai trong nhà nghe được ông nói gì.",
+     "why": "front door = cửa chính.",
+     "tw": "front door",
+     "noblank": true,
+     "say": "When the postman knocked at the front door, the dog started barking so loudly that nobody in the house could hear what he said.",
+     "ipa": "/ˌfrʌnt ˈdɔːr/",
+     "new": [
+      {
+       "w": "postman",
+       "vi": "người đưa thư"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Tour guide",
+     "s": "Visitors sit on the wide steps in front of the cathedral to eat lunch, even though a sign asks them to keep the entrance clear. What does \"steps\" mean?",
+     "o": [
+      "các bậc thềm",
+      "cánh cửa",
+      "cột đá"
+     ],
+     "a": "các bậc thềm",
+     "vi": "Du khách ngồi trên các bậc thềm rộng trước nhà thờ lớn để ăn trưa, dù biển báo yêu cầu giữ lối vào thông thoáng.",
+     "why": "steps = các bậc thềm/cầu thang.",
+     "tw": "steps",
+     "noblank": true,
+     "say": "Visitors sit on the wide steps in front of the cathedral to eat lunch, even though a sign asks them to keep the entrance clear.",
+     "ipa": "/steps/",
+     "new": [
+      {
+       "w": "cathedral",
+       "vi": "nhà thờ lớn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Holiday brochure",
+     "s": "Our cottage, which dates from the eighteenth century, stands next to a stream and has thick stone walls that keep it cool in summer. What does \"cottage\" mean?",
+     "o": [
+      "căn nhà nhỏ ở vùng quê",
+      "khách sạn lớn ven biển",
+      "tòa nhà văn phòng"
+     ],
+     "a": "căn nhà nhỏ ở vùng quê",
+     "vi": "Căn nhà nhỏ của chúng tôi, có từ thế kỷ mười tám, nằm cạnh một con suối và có tường đá dày giữ mát vào mùa hè.",
+     "why": "cottage = căn nhà nhỏ ở vùng quê.",
+     "tw": "cottage",
+     "noblank": true,
+     "say": "Our cottage, which dates from the eighteenth century, stands next to a stream and has thick stone walls that keep it cool in summer.",
+     "ipa": "/ˈkɑːtɪdʒ/",
+     "new": [
+      {
+       "w": "stream",
+       "vi": "con suối"
+      },
+      {
+       "w": "dates from",
+       "vi": "có từ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Magazine article",
+     "s": "The town centre is a charming mix of colourful houses and old stone bridges, which explains why so many photographers visit it every spring. What does \"charming\" mean?",
+     "o": [
+      "xinh xắn, cuốn hút",
+      "ồn ào, hỗn loạn",
+      "cũ kỹ, tồi tàn"
+     ],
+     "a": "xinh xắn, cuốn hút",
+     "vi": "Trung tâm thị trấn là sự kết hợp cuốn hút của những ngôi nhà nhiều màu và cầu đá cổ, lý giải vì sao nhiều nhiếp ảnh gia đến đây mỗi mùa xuân.",
+     "why": "charming = duyên dáng, xinh xắn, cuốn hút.",
+     "tw": "charming",
+     "noblank": true,
+     "say": "The town centre is a charming mix of colourful houses and old stone bridges, which explains why so many photographers visit it every spring.",
+     "ipa": "/ˈtʃɑːrmɪŋ/",
+     "new": [
+      {
+       "w": "mix",
+       "vi": "sự kết hợp"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Estate agent",
+     "s": "Unlike a modern flat, this old farmhouse has a lot of character, with a stone fireplace, thick beams and a floor that is slightly uneven. What does \"character\" mean?",
+     "o": [
+      "nét riêng, bản sắc",
+      "giá thuê cao",
+      "sự riêng tư"
+     ],
+     "a": "nét riêng, bản sắc",
+     "vi": "Không như căn hộ hiện đại, nông trại cũ này rất có nét riêng, với lò sưởi đá, xà dày và sàn hơi không bằng phẳng.",
+     "why": "character = nét riêng, nét đặc trưng, bản sắc.",
+     "tw": "character",
+     "noblank": true,
+     "say": "Unlike a modern flat, this old farmhouse has a lot of character, with a stone fireplace, thick beams and a floor that is slightly uneven.",
+     "ipa": "/ˈkerəktər/",
+     "new": [
+      {
+       "w": "beams",
+       "vi": "xà nhà"
+      },
+      {
+       "w": "uneven",
+       "vi": "không bằng phẳng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel diary",
+     "s": "Some people prefer new hotels with every comfort, but I like places that have lots of character, even if the stairs creak and the windows are small. What does \"have lots of character\" mean?",
+     "o": [
+      "có nhiều nét riêng",
+      "có nhiều khách",
+      "có nhiều tiện nghi"
+     ],
+     "a": "có nhiều nét riêng",
+     "vi": "Một số người thích khách sạn mới đầy đủ tiện nghi, nhưng tôi thích những nơi có nhiều nét riêng, dù cầu thang kẽo kẹt và cửa sổ nhỏ.",
+     "why": "have lots of character = có nhiều nét riêng/bản sắc.",
+     "tw": "have lots of character",
+     "noblank": true,
+     "say": "Some people prefer new hotels with every comfort, but I like places that have lots of character, even if the stairs creak and the windows are small.",
+     "ipa": "/hæv ˌlɑːts əv ˈkerəktər/",
+     "new": [
+      {
+       "w": "creak",
+       "vi": "kêu kẽo kẹt"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Student housing",
+     "s": "Because the windows are old and the walls are thin, it is difficult to heat this flat properly, even when the radiators are on all night. What does \"heat\" mean?",
+     "o": [
+      "sưởi ấm",
+      "làm mát",
+      "dọn dẹp"
+     ],
+     "a": "sưởi ấm",
+     "vi": "Vì cửa sổ cũ và tường mỏng, rất khó sưởi ấm căn hộ này cho đúng, ngay cả khi lò sưởi bật suốt đêm.",
+     "why": "heat = làm nóng, sưởi ấm.",
+     "tw": "heat",
+     "noblank": true,
+     "say": "Because the windows are old and the walls are thin, it is difficult to heat this flat properly, even when the radiators are on all night.",
+     "ipa": "/hiːt/",
+     "new": [
+      {
+       "w": "radiators",
+       "vi": "bộ tản nhiệt"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Old cottage",
+     "s": "Many old cottages in the countryside don't have central heating, so people rely on log fires, which are cosy but need a lot of work. What does \"central heating\" mean?",
+     "o": [
+      "hệ thống sưởi trung tâm",
+      "máy điều hòa trung tâm",
+      "hệ thống nước nóng"
+     ],
+     "a": "hệ thống sưởi trung tâm",
+     "vi": "Nhiều căn nhà nhỏ cũ ở nông thôn không có hệ thống sưởi trung tâm nên người ta dựa vào lò củi, ấm cúng nhưng tốn nhiều công.",
+     "why": "central heating = hệ thống sưởi trung tâm.",
+     "tw": "central heating",
+     "noblank": true,
+     "say": "Many old cottages in the countryside don't have central heating, so people rely on log fires, which are cosy but need a lot of work.",
+     "ipa": "/ˌsentrəl ˈhiːtɪŋ/",
+     "new": [
+      {
+       "w": "rely on",
+       "vi": "dựa vào"
+      },
+      {
+       "w": "log fires",
+       "vi": "lò sưởi củi"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Neighbour chat",
+     "s": "Our neighbours are going to move to a new flat across town next week, because the lifts in this building are always broken. What does \"move to a new flat\" mean?",
+     "o": [
+      "chuyển đến căn hộ mới",
+      "sửa lại căn hộ cũ",
+      "bán căn nhà nhỏ"
+     ],
+     "a": "chuyển đến căn hộ mới",
+     "vi": "Hàng xóm của chúng tôi sẽ chuyển đến căn hộ mới ở bên kia thành phố vào tuần tới vì thang máy tòa này lúc nào cũng hỏng.",
+     "why": "move to a new flat = chuyển đến căn hộ mới.",
+     "tw": "move to a new flat",
+     "noblank": true,
+     "say": "Our neighbours are going to move to a new flat across town next week, because the lifts in this building are always broken.",
+     "new": [
+      {
+       "w": "across town",
+       "vi": "bên kia thành phố"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Estate agent",
+     "s": "The agent explained that if you rent a flat on the outskirts, you will usually have more space for the same price as a small studio downtown. What does \"have more space\" mean?",
+     "o": [
+      "có nhiều không gian hơn",
+      "có nhiều bạn bè hơn",
+      "có nhiều việc hơn"
+     ],
+     "a": "có nhiều không gian hơn",
+     "vi": "Nhân viên môi giới giải thích rằng nếu thuê căn hộ ở ngoại ô, bạn thường có nhiều không gian hơn với cùng giá một căn studio nhỏ ở trung tâm.",
+     "why": "have more space = có nhiều không gian hơn.",
+     "tw": "have more space",
+     "noblank": true,
+     "say": "The agent explained that if you rent a flat on the outskirts, you will usually have more space for the same price as a small studio downtown.",
+     "new": [
+      {
+       "w": "studio",
+       "vi": "căn hộ một phòng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel guide",
+     "s": "Many of the cheaper rooms in this hotel face a car park, but the more expensive ones have nice views of the mountains and the lake. What does \"have nice views\" mean?",
+     "o": [
+      "có cảnh đẹp",
+      "có nhiều phòng",
+      "có giá rẻ"
+     ],
+     "a": "có cảnh đẹp",
+     "vi": "Nhiều phòng rẻ hơn của khách sạn này nhìn ra bãi đỗ xe, nhưng các phòng đắt hơn có cảnh núi và hồ đẹp.",
+     "why": "have nice views = có cảnh đẹp.",
+     "tw": "have nice views",
+     "noblank": true,
+     "say": "Many of the cheaper rooms in this hotel face a car park, but the more expensive ones have nice views of the mountains and the lake.",
+     "new": [
+      {
+       "w": "face",
+       "vi": "hướng ra"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Neighbour story",
+     "s": "My brother decided to rent a flat in the city centre, although the rent is high, because he is tired of travelling two hours to work. What does \"rent a flat\" mean?",
+     "o": [
+      "thuê căn hộ",
+      "mua căn hộ",
+      "sửa căn hộ"
+     ],
+     "a": "thuê căn hộ",
+     "vi": "Anh tôi quyết định thuê căn hộ ở trung tâm, dù tiền thuê cao, vì anh mệt vì phải đi hai giờ để đi làm.",
+     "why": "rent a flat = thuê căn hộ.",
+     "tw": "rent a flat",
+     "noblank": true,
+     "say": "My brother decided to rent a flat in the city centre, although the rent is high, because he is tired of travelling two hours to work.",
+     "new": [
+      {
+       "w": "tired of",
+       "vi": "chán, mệt vì"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Story",
+     "s": "The writer lives alone in a charming cottage at the edge of the forest, which she describes in her novels as the quietest place on earth. What does \"a charming cottage\" mean?",
+     "o": [
+      "một căn nhà nhỏ xinh xắn ở vùng quê",
+      "một tòa nhà chọc trời",
+      "một khách sạn sang trọng"
+     ],
+     "a": "một căn nhà nhỏ xinh xắn ở vùng quê",
+     "vi": "Nhà văn sống một mình trong căn nhà nhỏ xinh xắn ở rìa rừng, mà cô mô tả trong tiểu thuyết là nơi yên tĩnh nhất trên đời.",
+     "why": "a charming cottage = một căn nhà nhỏ xinh xắn ở vùng quê.",
+     "tw": "a charming cottage",
+     "noblank": true,
+     "say": "The writer lives alone in a charming cottage at the edge of the forest, which she describes in her novels as the quietest place on earth.",
+     "new": [
+      {
+       "w": "novels",
+       "vi": "tiểu thuyết"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Housing survey",
+     "s": "Many elderly people prefer to live on the second floor of a small building with a lift rather than in a house with steep stairs. What does \"live on the second floor\" mean?",
+     "o": [
+      "sống ở tầng hai",
+      "sống ở tầng hầm",
+      "sống ở tầng thượng"
+     ],
+     "a": "sống ở tầng hai",
+     "vi": "Nhiều người cao tuổi thích sống ở tầng hai của tòa nhà nhỏ có thang máy hơn nhà có cầu thang dốc.",
+     "why": "live on the second floor = sống ở tầng hai.",
+     "tw": "live on the second floor",
+     "noblank": true,
+     "say": "Many elderly people prefer to live on the second floor of a small building with a lift rather than in a house with steep stairs.",
+     "new": [
+      {
+       "w": "steep",
+       "vi": "dốc"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Health advice",
+     "s": "Doctors recommend that tourists boil tap water before drinking it in areas where the supply is not safe, since heat kills most harmful bacteria. What does \"boil something\" mean?",
+     "o": [
+      "đun sôi, luộc cái gì",
+      "nướng cái gì",
+      "gọt vỏ cái gì"
+     ],
+     "a": "đun sôi, luộc cái gì",
+     "vi": "Bác sĩ khuyên du khách đun sôi nước máy trước khi uống ở nơi nguồn nước không an toàn vì nhiệt tiêu diệt hầu hết vi khuẩn có hại.",
+     "why": "boil something = luộc, đun sôi cái gì (trong nồi).",
+     "tw": "boil something",
+     "noblank": true,
+     "say": "Doctors recommend that tourists boil tap water before drinking it in areas where the supply is not safe, since heat kills most harmful bacteria.",
+     "ipa": "/bɔɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "supply",
+       "vi": "nguồn cung cấp"
+      },
+      {
+       "w": "bacteria",
+       "vi": "vi khuẩn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Food truck",
+     "s": "At the street stall, the cook fries chicken in a huge pan, which fills the whole road with a delicious smell and attracts long queues. What does \"fry something\" mean?",
+     "o": [
+      "chiên, rán cái gì",
+      "luộc cái gì",
+      "gọt cái gì"
+     ],
+     "a": "chiên, rán cái gì",
+     "vi": "Ở quầy bán rong, đầu bếp chiên gà trong cái chảo lớn, mùi thơm lan khắp con đường và thu hút hàng dài người xếp hàng.",
+     "why": "fry something = chiên, rán cái gì (trong chảo).",
+     "tw": "fry something",
+     "noblank": true,
+     "say": "At the street stall, the cook fries chicken in a huge pan, which fills the whole road with a delicious smell and attracts long queues.",
+     "ipa": "/fraɪ ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "queues",
+       "vi": "hàng người chờ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking blog",
+     "s": "Unlike baking, which cooks food with heat all around, you grill something with strong heat from above, so it is ideal for thin slices of meat. What does \"grill something\" mean?",
+     "o": [
+      "nướng vỉ cái gì",
+      "hầm cái gì",
+      "hấp cái gì"
+     ],
+     "a": "nướng vỉ cái gì",
+     "vi": "Không như nướng lò (nóng từ mọi phía), bạn nướng vỉ với nhiệt mạnh từ phía trên nên rất hợp cho những lát thịt mỏng.",
+     "why": "grill something = nướng vỉ cái gì (nhiệt từ phía trên).",
+     "tw": "grill something",
+     "noblank": true,
+     "say": "Unlike baking, which cooks food with heat all around, you grill something with strong heat from above, so it is ideal for thin slices of meat.",
+     "ipa": "/ɡrɪl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "ideal",
+       "vi": "lý tưởng"
+      },
+      {
+       "w": "slices",
+       "vi": "lát"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking tips",
+     "s": "If you roast something such as beef, put a little fat on it first, because the heat of the oven will dry the meat otherwise. What does \"roast something\" mean?",
+     "o": [
+      "quay cái gì trong lò",
+      "luộc cái gì trong nồi",
+      "trộn cái gì trong tô"
+     ],
+     "a": "quay cái gì trong lò",
+     "vi": "Nếu bạn quay món như thịt bò, hãy phết ít mỡ lên trước vì nhiệt lò sẽ làm khô thịt.",
+     "why": "roast something = quay cái gì trong lò (có dầu/mỡ).",
+     "tw": "roast something",
+     "noblank": true,
+     "say": "If you roast something such as beef, put a little fat on it first, because the heat of the oven will dry the meat otherwise.",
+     "ipa": "/rəʊst ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "fat",
+       "vi": "mỡ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking show",
+     "s": "The chef said you can bake something sweet like apple pie at a low temperature, as long as you leave it in the oven for an hour. What does \"bake something\" mean?",
+     "o": [
+      "nướng bánh trong lò",
+      "chiên trong chảo",
+      "đun sôi trong nồi"
+     ],
+     "a": "nướng bánh trong lò",
+     "vi": "Đầu bếp nói bạn có thể nướng món ngọt như bánh táo ở nhiệt thấp, miễn là để trong lò một giờ.",
+     "why": "bake something = nướng cái gì trong lò (bánh, không dầu).",
+     "tw": "bake something",
+     "noblank": true,
+     "say": "The chef said you can bake something sweet like apple pie at a low temperature, as long as you leave it in the oven for an hour.",
+     "ipa": "/beɪk ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "temperature",
+       "vi": "nhiệt độ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Healthy eating",
+     "s": "Some nutritionists say you should not peel apples because the skin contains fibre, which helps digestion and keeps you full for longer. What does \"peel something\" mean?",
+     "o": [
+      "gọt vỏ cái gì",
+      "cắt lát cái gì",
+      "rửa cái gì"
+     ],
+     "a": "gọt vỏ cái gì",
+     "vi": "Một số chuyên gia dinh dưỡng nói không nên gọt táo vì vỏ chứa chất xơ giúp tiêu hóa và no lâu hơn.",
+     "why": "peel something = gọt, bóc vỏ cái gì.",
+     "tw": "peel something",
+     "noblank": true,
+     "say": "Some nutritionists say you should not peel apples because the skin contains fibre, which helps digestion and keeps you full for longer.",
+     "ipa": "/piːl ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "fibre",
+       "vi": "chất xơ"
+      },
+      {
+       "w": "digestion",
+       "vi": "tiêu hóa"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Recipe",
+     "s": "In this recipe, you chop something fresh such as parsley and sprinkle it on top, which adds colour and a pleasant smell. What does \"chop something\" mean?",
+     "o": [
+      "thái nhỏ cái gì",
+      "nấu chín cái gì",
+      "làm nguội cái gì"
+     ],
+     "a": "thái nhỏ cái gì",
+     "vi": "Trong công thức này, bạn thái nhỏ thứ tươi như mùi tây rồi rắc lên trên, tạo màu sắc và mùi dễ chịu.",
+     "why": "chop something = thái, băm nhỏ cái gì.",
+     "tw": "chop something",
+     "noblank": true,
+     "say": "In this recipe, you chop something fresh such as parsley and sprinkle it on top, which adds colour and a pleasant smell.",
+     "ipa": "/tʃɒp ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "parsley",
+       "vi": "mùi tây"
+      },
+      {
+       "w": "sprinkle",
+       "vi": "rắc"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Healthy tips",
+     "s": "If you add something green to every meal, such as spinach or peas, your family will get more vitamins without eating much extra. What does \"add something to something\" mean?",
+     "o": [
+      "cho thêm A vào B",
+      "lấy A ra khỏi B",
+      "trộn A với B rồi bỏ đi"
+     ],
+     "a": "cho thêm A vào B",
+     "vi": "Nếu bạn cho thêm thứ xanh vào mỗi bữa như rau chân vịt hay đậu Hà Lan, gia đình sẽ nhận thêm vitamin mà không ăn nhiều hơn.",
+     "why": "add something to something = cho thêm A vào B.",
+     "tw": "add something to something",
+     "noblank": true,
+     "say": "If you add something green to every meal, such as spinach or peas, your family will get more vitamins without eating much extra.",
+     "ipa": "/æd ˈsʌmθɪŋ tuː ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "spinach",
+       "vi": "rau chân vịt"
+      },
+      {
+       "w": "peas",
+       "vi": "đậu Hà Lan"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Recipe",
+     "s": "Stir the soup every few minutes with a wooden spoon so that the vegetables at the bottom do not stick to the pan and turn black. What does \"stir something\" mean?",
+     "o": [
+      "khuấy, đảo cái gì",
+      "đổ đi cái gì",
+      "cắt cái gì"
+     ],
+     "a": "khuấy, đảo cái gì",
+     "vi": "Khuấy súp vài phút một lần bằng thìa gỗ để rau dưới đáy không dính vào chảo và cháy đen.",
+     "why": "stir something = khuấy, đảo cái gì.",
+     "tw": "stir something",
+     "noblank": true,
+     "say": "Stir the soup every few minutes with a wooden spoon so that the vegetables at the bottom do not stick to the pan and turn black.",
+     "ipa": "/stɜː ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "wooden",
+       "vi": "bằng gỗ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Wine shop",
+     "s": "Experts taste something very carefully before judging it, which is why many of them spit the wine out and don't actually drink it. What does \"taste something\" mean?",
+     "o": [
+      "nếm cái gì",
+      "nướng cái gì",
+      "gọt cái gì"
+     ],
+     "a": "nếm cái gì",
+     "vi": "Các chuyên gia nếm rất kỹ trước khi đánh giá, nên nhiều người nhổ rượu ra chứ không uống thật.",
+     "why": "taste something = nếm cái gì.",
+     "tw": "taste something",
+     "noblank": true,
+     "say": "Experts taste something very carefully before judging it, which is why many of them spit the wine out and don't actually drink it.",
+     "ipa": "/teɪst ˈsʌmθɪŋ/",
+     "new": [
+      {
+       "w": "spit out",
+       "vi": "nhổ ra"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Dinner chat",
+     "s": "The cake looked beautiful, but it tasted terrible because someone had used salt instead of sugar, which made everyone laugh. What does \"taste + adjective\" mean?",
+     "o": [
+      "có vị như thế nào",
+      "nhìn như thế nào",
+      "nghe như thế nào"
+     ],
+     "a": "có vị như thế nào",
+     "vi": "Chiếc bánh trông đẹp nhưng có vị dở tệ vì ai đó dùng muối thay đường, khiến mọi người cười.",
+     "why": "taste + adjective = có vị như thế nào.",
+     "tw": "taste + adjective",
+     "noblank": true,
+     "say": "The cake looked beautiful, but it tasted terrible because someone had used salt instead of sugar, which made everyone laugh.",
+     "ipa": "/teɪst/",
+     "new": [
+      {
+       "w": "terrible",
+       "vi": "tồi tệ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cookbook review",
+     "s": "The book is perfect for beginners because it is easy to follow a recipe with clear photos for every step and exact times. What does \"follow a recipe\" mean?",
+     "o": [
+      "làm theo công thức",
+      "viết công thức",
+      "bán công thức"
+     ],
+     "a": "làm theo công thức",
+     "vi": "Cuốn sách rất phù hợp cho người mới vì dễ làm theo công thức với ảnh rõ ràng cho từng bước và thời gian chính xác.",
+     "why": "follow a recipe = làm theo công thức.",
+     "tw": "follow a recipe",
+     "noblank": true,
+     "say": "The book is perfect for beginners because it is easy to follow a recipe with clear photos for every step and exact times.",
+     "ipa": "/ˈfɒləʊ ə ˈresəpi/",
+     "new": [
+      {
+       "w": "exact",
+       "vi": "chính xác"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Weekend plan",
+     "s": "If you have all the right ingredients, making fresh pasta takes only half an hour, even if you have never done it before. What does \"have all the ingredients\" mean?",
+     "o": [
+      "có đủ nguyên liệu",
+      "có đủ thời gian",
+      "có đủ tiền"
+     ],
+     "a": "có đủ nguyên liệu",
+     "vi": "Nếu có đủ nguyên liệu đúng, làm mì tươi chỉ mất nửa giờ, dù bạn chưa từng làm.",
+     "why": "have all the ingredients = có đủ nguyên liệu.",
+     "tw": "have all the ingredients",
+     "noblank": true,
+     "say": "If you have all the right ingredients, making fresh pasta takes only half an hour, even if you have never done it before.",
+     "ipa": "/hæv ɔːl ðə raɪt ɪnˈɡriːdiənts/",
+     "new": [
+      {
+       "w": "fresh pasta",
+       "vi": "mì tươi"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Food review",
+     "s": "The noodles were delicious, though they were a bit too spicy for me, and my eyes watered as soon as I took the first bite. What does \"a bit too spicy\" mean?",
+     "o": [
+      "hơi cay quá",
+      "hơi mặn quá",
+      "hơi ngọt quá"
+     ],
+     "a": "hơi cay quá",
+     "vi": "Mì rất ngon dù hơi cay quá với tôi, và mắt tôi cay xè ngay khi cắn miếng đầu tiên.",
+     "why": "a bit too spicy = hơi cay quá.",
+     "tw": "a bit too spicy",
+     "noblank": true,
+     "say": "The noodles were delicious, though they were a bit too spicy for me, and my eyes watered as soon as I took the first bite.",
+     "ipa": "/ə bɪt tuː ˈspaɪsi/",
+     "new": [
+      {
+       "w": "watered",
+       "vi": "chảy nước"
+      },
+      {
+       "w": "bite",
+       "vi": "miếng cắn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Food blog",
+     "s": "In Vietnam you can try many different flavours in a single meal, from sweet and sour to salty and bitter, which makes the cuisine famous. What does \"different flavours\" mean?",
+     "o": [
+      "nhiều hương vị khác nhau",
+      "nhiều món ăn rẻ",
+      "nhiều nhà hàng mới"
+     ],
+     "a": "nhiều hương vị khác nhau",
+     "vi": "Ở Việt Nam bạn có thể thử nhiều hương vị khác nhau trong một bữa ăn, từ chua ngọt đến mặn đắng, làm cho ẩm thực nổi tiếng.",
+     "why": "different flavours = nhiều hương vị khác nhau.",
+     "tw": "different flavours",
+     "noblank": true,
+     "say": "In Vietnam you can try many different flavours in a single meal, from sweet and sour to salty and bitter, which makes the cuisine famous.",
+     "ipa": "/ˈdɪfrənt ˈfleɪvəz/",
+     "new": [
+      {
+       "w": "bitter",
+       "vi": "đắng"
+      },
+      {
+       "w": "cuisine",
+       "vi": "ẩm thực"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Dinner chat",
+     "s": "Being good at cooking Thai food takes patience, because you must balance sweet, sour and spicy flavours in every dish without making any of them too strong. What does \"be good at cooking\" mean?",
+     "o": [
+      "nấu ăn giỏi",
+      "ăn uống ít",
+      "mua đồ ăn rẻ"
+     ],
+     "a": "nấu ăn giỏi",
+     "vi": "Nấu món Thái giỏi cần kiên nhẫn vì phải cân bằng vị ngọt, chua, cay trong mỗi món mà không làm vị nào quá mạnh.",
+     "why": "be good at cooking = nấu (món gì) giỏi.",
+     "tw": "be good at cooking",
+     "noblank": true,
+     "say": "Being good at cooking Thai food takes patience, because you must balance sweet, sour and spicy flavours in every dish without making any of them too strong.",
+     "ipa": "/bi ɡʊd æt ˈkʊkɪŋ/",
+     "new": [
+      {
+       "w": "patience",
+       "vi": "sự kiên nhẫn"
+      },
+      {
+       "w": "balance",
+       "vi": "cân bằng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Wedding speech",
+     "s": "The bride's mother is a good cook, and she prepared a three-course meal for over sixty guests without any help from a restaurant. What does \"a good cook\" mean?",
+     "o": [
+      "người nấu ăn giỏi",
+      "người dọn bàn giỏi",
+      "người bán hàng giỏi"
+     ],
+     "a": "người nấu ăn giỏi",
+     "vi": "Mẹ cô dâu nấu ăn giỏi và đã chuẩn bị bữa ba món cho hơn sáu mươi khách mà không có nhà hàng nào giúp.",
+     "why": "a good cook = người nấu ăn giỏi.",
+     "tw": "a good cook",
+     "noblank": true,
+     "say": "The bride's mother is a good cook, and she prepared a three-course meal for over sixty guests without any help from a restaurant.",
+     "ipa": "/ə ɡʊd kʊk/",
+     "new": [
+      {
+       "w": "three-course",
+       "vi": "ba món"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel diary",
+     "s": "We stayed at a farm where guests can cook something fresh each evening, using eggs and vegetables from the garden next to the kitchen. What does \"cook\" mean?",
+     "o": [
+      "nấu một món",
+      "trồng một món",
+      "mua một món"
+     ],
+     "a": "nấu một món",
+     "vi": "Chúng tôi ở nông trại nơi khách được nấu món tươi mỗi tối, dùng trứng và rau từ khu vườn cạnh bếp.",
+     "why": "cook = nấu một loại thực phẩm.",
+     "tw": "cook",
+     "noblank": true,
+     "say": "We stayed at a farm where guests can cook something fresh each evening, using eggs and vegetables from the garden next to the kitchen.",
+     "ipa": "/kʊk/",
+     "new": [
+      {
+       "w": "farm",
+       "vi": "nông trại"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking blog",
+     "s": "If you want to make a simple dish for guests, try a creamy mushroom pasta, which needs only five ingredients and takes twenty minutes. What does \"make\" mean?",
+     "o": [
+      "làm một món ăn",
+      "bán một món ăn",
+      "ăn một món ăn"
+     ],
+     "a": "làm một món ăn",
+     "vi": "Nếu muốn làm một món đơn giản cho khách, hãy thử mì nấm sốt kem, chỉ cần năm nguyên liệu và hai mươi phút.",
+     "why": "make = làm một món ăn.",
+     "tw": "make",
+     "noblank": true,
+     "say": "If you want to make a simple dish for guests, try a creamy mushroom pasta, which needs only five ingredients and takes twenty minutes.",
+     "ipa": "/meɪk/",
+     "new": [
+      {
+       "w": "creamy",
+       "vi": "béo kem"
+      },
+      {
+       "w": "mushroom",
+       "vi": "nấm"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
