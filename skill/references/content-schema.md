@@ -97,3 +97,17 @@ structural edits.
   `noblank`) set `tw` to the correct option. Clicking any English option there plays that option's pronunciation
   (`audio/w_<slug>.mp3`); `gen_audio.py` generates these files for all options automatically.
 - Do not list the target words in `meta.lead` or in a section `note`; the email already lists them.
+
+## Speaking section (`type: "sp"`, daily sets)
+
+The daily set ends with a section of 10 speaking prompts (id `s4`, title "Nói vận dụng"). Each question:
+
+```json
+{"type":"sp","ctx":"Food and health","s":"Tell me about your usual breakfast. ...","vi":"Vietnamese translation of the prompt",
+ "words":["cereal","fiber","consume"],"why":"Vietnamese tip on how to structure the answer","sample":"B2 model answer, 70-110 words"}
+```
+
+- `words`: 3-14 target words/phrases of the day to try to use (clean forms, no `sb/sth`, no `...`); every target word of the day should appear in at least one prompt. The page plays their pronunciation (`w_<slug>.mp3`).
+- No blank (`___`), no `a`/`o`/`acc`. `sample` is shown on request after the learner has spoken.
+- The page records with MediaRecorder, transcribes with the browser's Web Speech API and estimates the four IELTS criteria (Fluency & Coherence, Lexical Resource, Grammatical Range & Accuracy, Pronunciation) locally; typing the answer is the fallback. The recording never leaves the device.
+- Daily structure now: s1 Viết từ (1 `tx` per word), s2 Chọn từ (1 `mc`), s3 Chọn nghĩa (1 `mc`), s4 Nói vận dụng (10 `sp`).

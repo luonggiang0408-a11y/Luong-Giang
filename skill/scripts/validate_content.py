@@ -90,8 +90,17 @@ def main():
         for i, q in enumerate(sec.get("qs", []), 1):
             qid = f"{sid}q{i}"
             t = q.get("type")
+            if t == "sp":  # speaking prompt: s = question, words = suggested vocabulary, why = tips, sample = model answer
+                for k in ("ctx", "s", "vi", "why", "sample"):
+                    if not q.get(k):
+                        errors.append(f"{qid}: {k} missing")
+                if not q.get("words"):
+                    errors.append(f"{qid}: words (suggested vocabulary) missing")
+                if "___" in q.get("s", ""):
+                    errors.append(f"{qid}: speaking prompt must not contain a blank")
+                continue
             if t not in ("mc", "tx"):
-                errors.append(f"{qid}: type must be mc or tx"); continue
+                errors.append(f"{qid}: type must be mc, tx or sp"); continue
             for k in ("ctx", "s", "vi", "why"):
                 if not q.get(k):
                     errors.append(f"{qid}: {k} missing")

@@ -49,6 +49,8 @@ def word_texts(data):
             items = []
             if q.get("tw"):
                 items.append(q["tw"])
+            if q.get("type") == "sp":
+                items += q.get("words", [])
             if q.get("type") == "mc" and not q.get("noblank"):
                 items += q.get("o", [])
             for t in items:
@@ -59,6 +61,8 @@ def word_texts(data):
 
 
 def texts(q):
+    if q.get("type") == "sp":  # speaking prompt: read the question only
+        return q["s"], q["s"]
     s = q.get("say") or q["s"]
     a = q.get("a") or (q.get("acc") or [""])[0]
     if q.get("listen") and "___" in s:  # dictation: the word is spoken before answering

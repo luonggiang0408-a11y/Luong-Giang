@@ -3,10 +3,10 @@
   "title": "Ôn từ vựng 2026.10.21",
   "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 21/10/2026",
   "h1": "Ôn từ vựng hôm nay",
-  "lead": "Hôm nay có 63 từ. Mỗi từ làm 2 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (252 câu, 252 = 4 × 63), mức B1+–B2. Câu nào cũng có nút nghe.",
-  "storageKey": "vocab-2026.10.21-v5",
+  "lead": "Hôm nay có 63 từ. Mỗi từ làm 1 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (189 câu), sau đó là 10 câu nói vận dụng có ghi âm và chấm theo 4 tiêu chí IELTS Speaking, mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.10.21-v6",
   "voice": "en-US-EmmaMultilingualNeural",
-  "audioVersion": "emma202610210440"
+  "audioVersion": "emma202610211030"
  },
  "sections": [
   {
@@ -41,31 +41,6 @@
     },
     {
      "type": "tx",
-     "ctx": "School canteen",
-     "s": "The nutritionist advised parents to check the sugar content on every box of breakfast ___, which is often much higher than people expect.",
-     "acc": [
-      "cereal",
-      "cereals",
-      "cerealss"
-     ],
-     "vi": "Chuyên gia dinh dưỡng khuyên phụ huynh kiểm tra lượng đường trên mỗi hộp ngũ cốc ăn sáng, thường cao hơn nhiều so với người ta nghĩ.",
-     "why": "cereal = ngũ cốc ăn sáng (với sữa); danh từ không đếm được, hay gặp: a bowl of cereal, breakfast cereal.",
-     "hint": "Nghĩa: ngũ cốc",
-     "tw": "cereal",
-     "new": [
-      {
-       "w": "nutritionist",
-       "vi": "chuyên gia dinh dưỡng"
-      },
-      {
-       "w": "sugar content",
-       "vi": "hàm lượng đường"
-      }
-     ],
-     "ipa": "/ˈsɪr.i.əl/"
-    },
-    {
-     "type": "tx",
      "ctx": "Economy talk",
      "s": "After house prices had climbed for five straight years, one economist just shrugged and said, “___.” In his view, the boom could not last forever.",
      "acc": [
@@ -83,28 +58,6 @@
       {
        "w": "boom",
        "vi": "đợt bùng nổ"
-      }
-     ]
-    },
-    {
-     "type": "tx",
-     "ctx": "Family dinner",
-     "s": "Whenever a neighbour brags about a sudden rise in the stock market, my grandmother smiles and repeats the old saying, “___,” as if she has seen it all before.",
-     "acc": [
-      "what goes up must come down"
-     ],
-     "vi": "Mỗi khi hàng xóm khoe thị trường chứng khoán đột ngột tăng, bà tôi mỉm cười và nhắc lại câu tục ngữ cũ, “Cái gì đi lên thì cũng phải đi xuống”, như thể bà đã thấy tất cả.",
-     "why": "What goes up must come down = tục ngữ: giá cả, thành công… tăng mạnh rồi cũng sẽ giảm, không kéo dài mãi.",
-     "hint": "Nghĩa: cái gì đi lên thì cũng phải đi xuống (cái gì tăng nhanh rồi cũng sẽ giảm)",
-     "tw": "what goes up must come down",
-     "new": [
-      {
-       "w": "brags about",
-       "vi": "khoe khoang về"
-      },
-      {
-       "w": "saying",
-       "vi": "câu tục ngữ"
       }
      ]
     },
@@ -128,31 +81,6 @@
       {
        "w": "recover",
        "vi": "phục hồi"
-      }
-     ],
-     "ipa": "/əˈtrækt/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Science class",
-     "s": "If you leave a bright lamp on near an open window, it will ___ insects from the garden, and your room will be full of them by midnight.",
-     "acc": [
-      "attract",
-      "attracts",
-      "attractss"
-     ],
-     "vi": "Nếu bạn để đèn sáng gần cửa sổ mở, nó sẽ thu hút côn trùng từ vườn vào, và đến nửa đêm phòng bạn sẽ đầy côn trùng.",
-     "why": "attract + người/vật = thu hút; collocation: attract tourists / investors / attention. Chia: attracts, attracted, attracting.",
-     "hint": "Nghĩa: thu hút, hấp dẫn",
-     "tw": "attract",
-     "new": [
-      {
-       "w": "insects",
-       "vi": "côn trùng"
-      },
-      {
-       "w": "by midnight",
-       "vi": "trước nửa đêm"
       }
      ],
      "ipa": "/əˈtrækt/"
@@ -183,31 +111,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Local festival",
-     "s": "Large street festivals tend to ___ thousands of visitors from nearby provinces, so local hotels are usually fully booked weeks before the opening night.",
-     "acc": [
-      "draw",
-      "draws",
-      "drawss"
-     ],
-     "vi": "Các lễ hội đường phố lớn thường thu hút hàng nghìn du khách từ các tỉnh lân cận, nên khách sạn địa phương thường kín phòng nhiều tuần trước đêm khai mạc.",
-     "why": "draw attention to sth = thu hút sự chú ý đến; draw + crowd/visitors = thu hút. Chia: draw, draws, drew, drawn.",
-     "hint": "Nghĩa: thu hút, kéo sự chú ý đến (draw attention to)",
-     "tw": "draw",
-     "new": [
-      {
-       "w": "provinces",
-       "vi": "tỉnh"
-      },
-      {
-       "w": "fully booked",
-       "vi": "kín chỗ"
-      }
-     ],
-     "ipa": "/drɑː/"
-    },
-    {
-     "type": "tx",
      "ctx": "Music festival",
      "s": "Although classical music used to be seen as old-fashioned, the new jazz-pop mix seems to ___ to younger audiences who usually stream songs online.",
      "acc": [
@@ -226,30 +129,6 @@
       {
        "w": "stream",
        "vi": "nghe/xem trực tuyến"
-      }
-     ],
-     "ipa": "/əˈpiːl/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Marketing meeting",
-     "s": "Our designer argued that a simple, colourful logo would ___ to busy parents, who prefer products they can recognise in a second.",
-     "acc": [
-      "appeal",
-      "appeals"
-     ],
-     "vi": "Nhà thiết kế của chúng tôi lập luận rằng một logo đơn giản, nhiều màu sẽ hấp dẫn các bậc phụ huynh bận rộn, những người thích sản phẩm nhận ra được trong một giây.",
-     "why": "appeal to sb = hấp dẫn/hợp với ai; hay đi với: appeal to young people / to customers / to the public.",
-     "hint": "Nghĩa: hấp dẫn, hợp sở thích của ai",
-     "tw": "appeal to",
-     "new": [
-      {
-       "w": "logo",
-       "vi": "biểu tượng thương hiệu"
-      },
-      {
-       "w": "recognise",
-       "vi": "nhận ra"
       }
      ],
      "ipa": "/əˈpiːl/"
@@ -280,30 +159,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Website design",
-     "s": "If a webpage lacks ___ appeal, visitors may leave within seconds, even when the written content is accurate and useful.",
-     "acc": [
-      "visual",
-      "visuals"
-     ],
-     "vi": "Nếu một trang web thiếu sức hấp dẫn hình ảnh, người truy cập có thể rời đi chỉ sau vài giây, kể cả khi nội dung chính xác và hữu ích.",
-     "why": "visual appeal = vẻ đẹp thu hút mắt nhìn (thiết kế, ánh sáng, cách bày trí); have strong visual appeal.",
-     "hint": "Nghĩa: sức hấp dẫn về hình ảnh",
-     "tw": "visual appeal",
-     "new": [
-      {
-       "w": "lacks",
-       "vi": "thiếu"
-      },
-      {
-       "w": "accurate",
-       "vi": "chính xác"
-      }
-     ],
-     "ipa": "/ˈvɪʒ.u.əl əˈpiːl/"
-    },
-    {
-     "type": "tx",
      "ctx": "Shopping mall",
      "s": "The new phone has strong ___ appeal because it costs far less than similar models, even though the camera is almost as good.",
      "acc": [
@@ -327,29 +182,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Budget airline",
-     "s": "Since fuel costs rose, the company relies on ___ appeal to keep customers: people will accept fewer services if tickets stay cheap.",
-     "acc": [
-      "price",
-      "prices"
-     ],
-     "vi": "Vì chi phí nhiên liệu tăng, công ty dựa vào sức hấp dẫn về giá để giữ khách: mọi người sẽ chấp nhận ít dịch vụ hơn nếu vé vẫn rẻ.",
-     "why": "price appeal = sức hút nhờ giá hời/rẻ; have strong price appeal. Đối lập với visual appeal.",
-     "hint": "Nghĩa: sức hấp dẫn nhờ giá tốt",
-     "tw": "price appeal",
-     "new": [
-      {
-       "w": "fuel",
-       "vi": "nhiên liệu"
-      },
-      {
-       "w": "rely on",
-       "vi": "dựa vào"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Local economy",
      "s": "There is a constant ___ between small shops and large supermarkets for customers, and the smaller businesses often lose when prices drop.",
      "acc": [
@@ -368,30 +200,6 @@
       {
        "w": "businesses",
        "vi": "doanh nghiệp"
-      }
-     ],
-     "ipa": "/ˈstrʌɡ.əl/"
-    },
-    {
-     "type": "tx",
-     "ctx": "History lesson",
-     "s": "For many decades, the farmers’ ___ for fair wages shaped the politics of the region, although progress came slowly and at a high personal cost.",
-     "acc": [
-      "struggle",
-      "struggles"
-     ],
-     "vi": "Trong nhiều thập kỷ, cuộc đấu tranh của nông dân vì mức lương công bằng đã định hình chính trị trong vùng, dù tiến bộ chậm và phải trả giá cá nhân cao.",
-     "why": "a struggle (for/between) = cuộc đấu tranh/cạnh tranh vất vả; there is a constant struggle between A and B for sth.",
-     "hint": "Nghĩa: cuộc đấu tranh, sự cạnh tranh gay gắt để giành/duy trì điều gì",
-     "tw": "struggle",
-     "new": [
-      {
-       "w": "wages",
-       "vi": "tiền lương"
-      },
-      {
-       "w": "shaped",
-       "vi": "định hình"
       }
      ],
      "ipa": "/ˈstrʌɡ.əl/"
@@ -424,30 +232,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Politics",
-     "s": "Behind the polite speeches, there was a quiet ___ for power inside the party, which became public once the leader announced his retirement.",
-     "acc": [
-      "struggle",
-      "struggles"
-     ],
-     "vi": "Phía sau những bài phát biểu lịch sự là cuộc tranh giành quyền lực âm thầm trong đảng, trở nên công khai khi lãnh đạo tuyên bố nghỉ hưu.",
-     "why": "struggle for sth / struggle between A and B = sự tranh đấu; gần nghĩa competition nhưng nhấn mạnh sự vất vả.",
-     "hint": "Nghĩa: sự cạnh tranh, cuộc chiến giành vị thế",
-     "tw": "struggle",
-     "new": [
-      {
-       "w": "quiet",
-       "vi": "âm thầm"
-      },
-      {
-       "w": "retirement",
-       "vi": "sự nghỉ hưu"
-      }
-     ],
-     "ipa": "/ˈstrʌɡ.əl/"
-    },
-    {
-     "type": "tx",
      "ctx": "Economy news",
      "s": "Many small businesses ___ to survive when the economy is weak, because customers spend less and bank loans become harder to get.",
      "acc": [
@@ -474,32 +258,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Language class",
-     "s": "Although she studied for months, Hoa still ___ to follow fast conversations, which she finds frustrating whenever native speakers use slang.",
-     "acc": [
-      "struggles",
-      "struggless",
-      "struggle",
-      "struggled",
-      "struggleds"
-     ],
-     "vi": "Dù học nhiều tháng, Hoa vẫn vất vả theo kịp các cuộc trò chuyện nhanh, điều cô thấy bực mình mỗi khi người bản xứ dùng tiếng lóng.",
-     "why": "struggle to + V = gặp khó khăn/cố hết sức để làm gì; many people struggle to survive / to pay rent.",
-     "hint": "Nghĩa: vất vả, khó khăn lắm mới làm được điều gì",
-     "tw": "struggle to",
-     "new": [
-      {
-       "w": "frustrating",
-       "vi": "gây bực bội"
-      },
-      {
-       "w": "slang",
-       "vi": "tiếng lóng"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Economy news",
      "s": "Some small shops cannot ___ because they do not have enough regular customers, especially after a large shopping centre opens nearby.",
      "acc": [
@@ -518,30 +276,6 @@
       {
        "w": "nearby",
        "vi": "gần đó"
-      }
-     ],
-     "ipa": "/sɚˈvaɪv/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Rescue report",
-     "s": "Remarkably, all three climbers managed to ___ for two nights in the snow, thanks to their warm jackets and a small supply of dry food.",
-     "acc": [
-      "survive",
-      "survives"
-     ],
-     "vi": "Thật đáng kinh ngạc, cả ba người leo núi đã sống sót hai đêm trong tuyết nhờ áo ấm và một ít thức ăn khô.",
-     "why": "survive = sống sót (tai nạn, thiên tai) hoặc tồn tại được (doanh nghiệp); survive on sth = sống nhờ vào.",
-     "hint": "Nghĩa: sống sót, tồn tại",
-     "tw": "survive",
-     "new": [
-      {
-       "w": "remarkably",
-       "vi": "đáng kinh ngạc"
-      },
-      {
-       "w": "supply",
-       "vi": "nguồn dự trữ"
       }
      ],
      "ipa": "/sɚˈvaɪv/"
@@ -573,29 +307,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Documentary",
-     "s": "After the factory closed, he had to ___ a living by driving a taxi at night, which left him exhausted but proud of his independence.",
-     "acc": [
-      "make",
-      "makes"
-     ],
-     "vi": "Sau khi nhà máy đóng cửa, anh phải kiếm sống bằng lái taxi ban đêm, khiến anh kiệt sức nhưng tự hào vì tự lập.",
-     "why": "make a living = kiếm sống; struggle to make a living = chật vật kiếm sống; make a living by + V-ing.",
-     "hint": "Nghĩa: vất vả kiếm sống",
-     "tw": "struggle to make a living",
-     "new": [
-      {
-       "w": "exhausted",
-       "vi": "kiệt sức"
-      },
-      {
-       "w": "independence",
-       "vi": "sự tự lập"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Energy saving",
      "s": "Many families are trying to ___ less electricity so that their monthly bills fall, especially during the hot summer when air conditioners run all day.",
      "acc": [
@@ -620,31 +331,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Car review",
-     "s": "The new hybrid model ___ about half as much fuel as older cars, which is why it has become popular among taxi drivers.",
-     "acc": [
-      "consumes",
-      "consumess",
-      "consume"
-     ],
-     "vi": "Mẫu hybrid mới tiêu thụ nhiên liệu chỉ bằng một nửa xe cũ, đó là lý do nó phổ biến với tài xế taxi.",
-     "why": "consume = dùng/tiêu thụ (năng lượng, thực phẩm); consume energy / fuel / calories. Chia: consumes, consumed, consuming.",
-     "hint": "Nghĩa: tiêu thụ, tiêu hao",
-     "tw": "consume",
-     "new": [
-      {
-       "w": "hybrid",
-       "vi": "xe lai"
-      },
-      {
-       "w": "fuel",
-       "vi": "nhiên liệu"
-      }
-     ],
-     "ipa": "/kənˈsuːm/"
-    },
-    {
-     "type": "tx",
      "ctx": "Government plan",
      "s": "The government wants to reduce energy ___ in large cities, so it is offering tax discounts to households that install solar panels.",
      "acc": [
@@ -663,30 +349,6 @@
       {
        "w": "solar panels",
        "vi": "pin mặt trời"
-      }
-     ],
-     "ipa": "/kənˈsʌmp.ʃən/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Health campaign",
-     "s": "Doctors link high sugar ___ among teenagers to rising rates of obesity, which is why many schools have removed fizzy drinks from their canteens.",
-     "acc": [
-      "consumption",
-      "consumptions"
-     ],
-     "vi": "Bác sĩ liên hệ mức tiêu thụ đường cao ở thanh thiếu niên với tỷ lệ béo phì tăng, đó là lý do nhiều trường bỏ nước có ga khỏi căng tin.",
-     "why": "consumption = mức tiêu thụ (danh từ của consume); energy / water / sugar consumption; reduce / increase consumption.",
-     "hint": "Nghĩa: sự tiêu thụ, mức tiêu thụ",
-     "tw": "consumption",
-     "new": [
-      {
-       "w": "obesity",
-       "vi": "béo phì"
-      },
-      {
-       "w": "fizzy",
-       "vi": "có ga"
       }
      ],
      "ipa": "/kənˈsʌmp.ʃən/"
@@ -718,30 +380,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Hospital supplies",
-     "s": "Gloves, masks and bandages are ___ products which must be replaced daily, so the hospital orders them in large quantities every month.",
-     "acc": [
-      "consumable",
-      "consumables"
-     ],
-     "vi": "Găng tay, khẩu trang và băng gạc là các sản phẩm tiêu hao phải thay mỗi ngày, nên bệnh viện đặt số lượng lớn hằng tháng.",
-     "why": "consumable (n) = vật tư dùng hết rồi phải mua tiếp: giấy, mực in, găng tay; consumable items. Cũng là tính từ: có thể ăn/dùng hết.",
-     "hint": "Nghĩa: hàng tiêu hao (mực, giấy…), vật tư tiêu hao",
-     "tw": "consumable",
-     "new": [
-      {
-       "w": "bandages",
-       "vi": "băng gạc"
-      },
-      {
-       "w": "quantities",
-       "vi": "số lượng"
-      }
-     ],
-     "ipa": "/kənˈsuː.mə.bəl/"
-    },
-    {
-     "type": "tx",
      "ctx": "Farmers’ market",
      "s": "Although it is more expensive than most vegetables, Mai buys a bunch of fresh ___ every spring, when the thin green stems are at their best.",
      "acc": [
@@ -761,31 +399,6 @@
       {
        "w": "at their best",
        "vi": "ở thời điểm ngon nhất"
-      }
-     ],
-     "ipa": "/əˈsper.ə.ɡəs/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Cooking show",
-     "s": "The chef lightly steamed the ___ and drizzled it with lemon and olive oil, so the dish stayed crisp, bright green and surprisingly simple.",
-     "acc": [
-      "asparagus",
-      "asparaguss",
-      "asparagu"
-     ],
-     "vi": "Đầu bếp hấp nhẹ măng tây và rưới chanh với dầu ô liu, nên món vẫn giòn, xanh tươi và đơn giản đến bất ngờ.",
-     "why": "asparagus = măng tây (rau xanh, thân dài); thường: grilled / steamed asparagus, a bunch of asparagus. Không đếm được.",
-     "hint": "Nghĩa: măng tây",
-     "tw": "asparagus",
-     "new": [
-      {
-       "w": "drizzled",
-       "vi": "rưới"
-      },
-      {
-       "w": "crisp",
-       "vi": "giòn"
       }
      ],
      "ipa": "/əˈsper.ə.ɡəs/"
@@ -818,32 +431,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Diet article",
-     "s": "Whole grains are popular among people on a diet, as they are high in ___, which makes you feel full for much longer after eating.",
-     "acc": [
-      "fiber",
-      "fibers",
-      "fibre",
-      "fibres"
-     ],
-     "vi": "Ngũ cốc nguyên hạt được ưa chuộng bởi người ăn kiêng vì giàu chất xơ, khiến bạn thấy no lâu hơn nhiều sau khi ăn.",
-     "why": "fiber (AmE) = chất xơ trong thực phẩm, giúp tiêu hóa; high-fiber diet, fiber-rich foods. (Anh-Anh: fibre).",
-     "hint": "Nghĩa: chất xơ",
-     "tw": "fiber",
-     "new": [
-      {
-       "w": "whole grains",
-       "vi": "ngũ cốc nguyên hạt"
-      },
-      {
-       "w": "on a diet",
-       "vi": "đang ăn kiêng"
-      }
-     ],
-     "ipa": "/ˈfaɪ.bɚ/"
-    },
-    {
-     "type": "tx",
      "ctx": "Street market",
      "s": "Although the sunglasses looked expensive, the seller offered them for only twenty ___, which Nam thought was a fair price for the quality.",
      "acc": [
@@ -863,31 +450,6 @@
       {
        "w": "fair",
        "vi": "hợp lý"
-      }
-     ],
-     "ipa": "/bʌk/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Friends chatting",
-     "s": "My friend spent a hundred ___ on concert tickets last night, and now he has to cook noodles at home for the rest of the week.",
-     "acc": [
-      "bucks",
-      "buckss",
-      "buck"
-     ],
-     "vi": "Bạn tôi tiêu một trăm đô vào vé hòa nhạc tối qua, và giờ phải nấu mì ở nhà đến hết tuần.",
-     "why": "bucks = tiền đô la (tiếng lóng Mỹ); a few bucks, fifty bucks, spend big bucks. Thân mật, không dùng trong văn bản trang trọng.",
-     "hint": "Nghĩa: đô la (cách nói lóng)",
-     "tw": "bucks",
-     "new": [
-      {
-       "w": "concert",
-       "vi": "buổi hòa nhạc"
-      },
-      {
-       "w": "the rest of",
-       "vi": "phần còn lại của"
       }
      ],
      "ipa": "/bʌk/"
@@ -918,33 +480,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Bank letter",
-     "s": "The letter reminded him that he still ___ the bank almost two thousand dollars, and that the interest would grow if he waited any longer.",
-     "acc": [
-      "owed",
-      "oweds",
-      "owes",
-      "owess",
-      "owe"
-     ],
-     "vi": "Lá thư nhắc anh rằng anh vẫn còn nợ ngân hàng gần hai nghìn đô, và lãi sẽ tăng nếu anh chờ thêm.",
-     "why": "owe sb sth / owe sth to sb = nợ ai cái gì; I owe you $10; owe someone a favour. Không dùng thì tiếp diễn thông thường.",
-     "hint": "Nghĩa: nợ, còn nợ (tiền, ơn)",
-     "tw": "owe",
-     "new": [
-      {
-       "w": "interest",
-       "vi": "tiền lãi"
-      },
-      {
-       "w": "reminded",
-       "vi": "nhắc nhở"
-      }
-     ],
-     "ipa": "/oʊ/"
-    },
-    {
-     "type": "tx",
      "ctx": "Car dealership",
      "s": "The base ___ of the car is quite low, but you have to pay extra for additional features such as leather seats and a sunroof.",
      "acc": [
@@ -968,29 +503,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Online booking",
-     "s": "Although the hotel advertises a low base ___, the final total rose sharply once cleaning fees and service charges were added at checkout.",
-     "acc": [
-      "price",
-      "prices"
-     ],
-     "vi": "Dù khách sạn quảng cáo giá cơ bản thấp, tổng cuối cùng tăng mạnh khi phí dọn dẹp và phí dịch vụ được thêm lúc thanh toán.",
-     "why": "base price = giá gốc chưa gồm dịch vụ thêm; the base price is low but extras cost more. Hay gặp: base price plus tax.",
-     "hint": "Nghĩa: giá cơ bản, giá gốc",
-     "tw": "base price",
-     "new": [
-      {
-       "w": "advertises",
-       "vi": "quảng cáo"
-      },
-      {
-       "w": "checkout",
-       "vi": "bước thanh toán"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "At the bank",
      "s": "After receiving his salary, Khoa went to the bank to ___ half of it into his savings account, so he would not be tempted to spend it.",
      "acc": [
@@ -1009,30 +521,6 @@
       {
        "w": "savings account",
        "vi": "tài khoản tiết kiệm"
-      }
-     ],
-     "ipa": "/dɪˈpɑː.zɪt/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Renting a flat",
-     "s": "Before moving in, tenants usually have to pay a security ___ equal to one month’s rent, which is returned if nothing is damaged.",
-     "acc": [
-      "deposit",
-      "deposits"
-     ],
-     "vi": "Trước khi dọn vào, người thuê thường phải trả một khoản đặt cọc tương đương một tháng tiền thuê, được hoàn lại nếu không có hư hại.",
-     "why": "deposit (v) = gửi tiền vào ngân hàng; (n) = tiền gửi / tiền đặt cọc; pay a deposit, deposit money into an account.",
-     "hint": "Nghĩa: gửi tiền vào tài khoản; tiền gửi; tiền đặt cọc",
-     "tw": "deposit",
-     "new": [
-      {
-       "w": "tenants",
-       "vi": "người thuê nhà"
-      },
-      {
-       "w": "damaged",
-       "vi": "bị hư hại"
       }
      ],
      "ipa": "/dɪˈpɑː.zɪt/"
@@ -1065,29 +553,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Travel mishap",
-     "s": "Although the flight was cancelled, we ___ to reach the wedding in time by taking a night train and then sharing a taxi.",
-     "acc": [
-      "managed",
-      "manageds"
-     ],
-     "vi": "Mặc dù chuyến bay bị hủy, chúng tôi vẫn xoay xở đến kịp đám cưới bằng tàu đêm rồi đi chung taxi.",
-     "why": "manage to + V = làm được việc khó; I managed to finish on time. Khác can: nhấn mạnh sự cố gắng và đã thành công.",
-     "hint": "Nghĩa: xoay xở làm được, cuối cùng làm được",
-     "tw": "manage to",
-     "new": [
-      {
-       "w": "cancelled",
-       "vi": "bị hủy"
-      },
-      {
-       "w": "sharing",
-       "vi": "chia sẻ, đi chung"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Club meeting",
      "s": "I’m particularly ___ in learning about nutrition and fitness, so I joined the university sports club to meet people with similar goals.",
      "acc": [
@@ -1111,29 +576,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Job ad",
-     "s": "Candidates who are genuinely ___ in working with young children and who have patience will be given priority during the selection process.",
-     "acc": [
-      "interested",
-      "interesteds"
-     ],
-     "vi": "Ứng viên thực sự quan tâm đến làm việc với trẻ nhỏ và có tính kiên nhẫn sẽ được ưu tiên trong quá trình tuyển chọn.",
-     "why": "be interested in + N/V-ing = quan tâm đến; I’m interested in learning… Đừng nhầm interested (người cảm thấy) với interesting (vật gây hứng thú).",
-     "hint": "Nghĩa: quan tâm, hứng thú với",
-     "tw": "be interested in",
-     "new": [
-      {
-       "w": "genuinely",
-       "vi": "thật sự"
-      },
-      {
-       "w": "priority",
-       "vi": "sự ưu tiên"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Team meeting",
      "s": "“We should postpone the launch by two weeks to fix the bugs.” “___” the manager replied, “since a rushed release would damage our reputation.”",
      "acc": [
@@ -1151,29 +593,6 @@
       {
        "w": "reputation",
        "vi": "danh tiếng"
-      }
-     ]
-    },
-    {
-     "type": "tx",
-     "ctx": "School debate",
-     "s": "“Students should have time to adapt to major changes.” “___, because people need time to adjust,” she said, nodding slowly.",
-     "acc": [
-      "That sounds reasonable to me",
-      "That sounds reasonable to me."
-     ],
-     "vi": "“Học sinh nên có thời gian thích nghi với thay đổi lớn.” “Tôi thấy hợp lý, vì người ta cần thời gian điều chỉnh,” cô nói và gật đầu chậm.",
-     "why": "That sounds reasonable (to me) = nghe hợp lý với tôi; dùng để đồng ý lịch sự khi nghe đề xuất. Reasonable = hợp lý, phải chăng.",
-     "hint": "Nghĩa: Tôi thấy điều đó hợp lý",
-     "tw": "That sounds reasonable to me.",
-     "new": [
-      {
-       "w": "adapt",
-       "vi": "thích nghi"
-      },
-      {
-       "w": "adjust",
-       "vi": "điều chỉnh"
       }
      ]
     },
@@ -1202,29 +621,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Business plan",
-     "s": "Building a loyal customer base may cost more now, but ___ the long term it will bring steadier profits than constant discounts.",
-     "acc": [
-      "in",
-      "ins"
-     ],
-     "vi": "Xây dựng tệp khách hàng trung thành có thể tốn hơn lúc này, nhưng về lâu dài nó mang lợi nhuận ổn định hơn giảm giá liên tục.",
-     "why": "in the long term = xét về lâu dài (opp: in the short term); in the long term, regular exercise improves health.",
-     "hint": "Nghĩa: về lâu dài",
-     "tw": "in the long term",
-     "new": [
-      {
-       "w": "loyal",
-       "vi": "trung thành"
-      },
-      {
-       "w": "profits",
-       "vi": "lợi nhuận"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Gym talk",
      "s": "“I’d love to join your class, but I don’t have ___ free time to exercise every day,” Linh admitted, “because of my night shifts.”",
      "acc": [
@@ -1243,29 +639,6 @@
       {
        "w": "admitted",
        "vi": "thừa nhận"
-      }
-     ]
-    },
-    {
-     "type": "tx",
-     "ctx": "Shopping",
-     "s": "The couple liked the apartment, yet they didn’t have ___ money to pay the deposit, so they kept searching for a cheaper place.",
-     "acc": [
-      "enough",
-      "enoughs"
-     ],
-     "vi": "Cặp đôi thích căn hộ, nhưng họ không có đủ tiền đặt cọc, nên tiếp tục tìm chỗ rẻ hơn.",
-     "why": "I don’t have enough + N + to + V = không đủ (thời gian/tiền/sức) để làm gì; enough đứng trước danh từ.",
-     "hint": "Nghĩa: tôi không có đủ … để …",
-     "tw": "I don’t have enough ... to ...",
-     "new": [
-      {
-       "w": "apartment",
-       "vi": "căn hộ"
-      },
-      {
-       "w": "searching",
-       "vi": "tìm kiếm"
       }
      ]
     },
@@ -1294,29 +667,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Hospital ward",
-     "s": "Patients who have had major surgery ___ time to recover, so nurses advise visitors not to stay too long or ask too many questions.",
-     "acc": [
-      "need",
-      "needs"
-     ],
-     "vi": "Bệnh nhân vừa trải qua đại phẫu cần thời gian để hồi phục, nên y tá khuyên người thăm không ở lâu hay hỏi quá nhiều.",
-     "why": "need time to recover = cần thời gian để hồi phục (sức khỏe, thể thao); recover from an illness / an injury.",
-     "hint": "Nghĩa: cần thời gian hồi phục",
-     "tw": "need time to recover",
-     "new": [
-      {
-       "w": "major",
-       "vi": "lớn, nghiêm trọng"
-      },
-      {
-       "w": "visitors",
-       "vi": "người đến thăm"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Factory meeting",
      "s": "___ the short term, overtime may raise output, but it can cause burnout in the long term, so managers should be careful.",
      "acc": [
@@ -1335,29 +685,6 @@
       {
        "w": "burnout",
        "vi": "kiệt sức"
-      }
-     ]
-    },
-    {
-     "type": "tx",
-     "ctx": "Investment advice",
-     "s": "Prices may fall sharply ___ the short term, but history shows that patient investors usually recover their losses within a few years.",
-     "acc": [
-      "in",
-      "ins"
-     ],
-     "vi": "Giá có thể giảm mạnh trong ngắn hạn, nhưng lịch sử cho thấy nhà đầu tư kiên nhẫn thường lấy lại khoản lỗ trong vài năm.",
-     "why": "in the short term = trong thời gian ngắn trước mắt (opp: in the long term); in the short term, overtime may raise output.",
-     "hint": "Nghĩa: trong ngắn hạn",
-     "tw": "in the short term",
-     "new": [
-      {
-       "w": "losses",
-       "vi": "khoản lỗ"
-      },
-      {
-       "w": "patient",
-       "vi": "kiên nhẫn"
       }
      ]
     },
@@ -1382,30 +709,6 @@
       {
        "w": "failed",
        "vi": "thất bại"
-      }
-     ]
-    },
-    {
-     "type": "tx",
-     "ctx": "Radio interview",
-     "s": "The retired footballer laughed about his career: “___. Some seasons I scored every week, and others I never touched the ball.”",
-     "acc": [
-      "Sometimes you’re up, sometimes you’re down",
-      "Sometimes you're up, sometimes you're down",
-      "Sometimes you are up, sometimes you are down"
-     ],
-     "vi": "Cựu cầu thủ cười về sự nghiệp: “Có lúc thăng, có lúc trầm. Có mùa tôi ghi bàn mỗi tuần, có mùa tôi chẳng chạm bóng.”",
-     "why": "Sometimes you’re up, sometimes you’re down = cuộc sống có lúc thuận lợi, có lúc khó khăn; dùng để an ủi, chấp nhận thăng trầm.",
-     "hint": "Nghĩa: có lúc thăng, có lúc trầm",
-     "tw": "Sometimes you’re up, sometimes you’re down.",
-     "new": [
-      {
-       "w": "retired",
-       "vi": "đã nghỉ hưu"
-      },
-      {
-       "w": "scored",
-       "vi": "ghi bàn"
       }
      ]
     },
@@ -1436,31 +739,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Roommates",
-     "s": "After Minh paid his half of the electricity bill, his flatmate smiled and said, “Great, ___. Nobody owes anything now.”",
-     "acc": [
-      "we’re settled",
-      "we're settled",
-      "we are settled"
-     ],
-     "vi": "Sau khi Minh trả nửa tiền điện, bạn cùng phòng mỉm cười nói, “Tuyệt, xong rồi. Không ai nợ ai nữa.”",
-     "why": "We’re settled = đã xong xuôi, không còn nợ nhau (sau khi trả tiền/giải quyết); settle a bill = thanh toán hóa đơn.",
-     "hint": "Nghĩa: chúng ta thanh toán xong rồi / đã giải quyết xong",
-     "tw": "We’re settled.",
-     "new": [
-      {
-       "w": "flatmate",
-       "vi": "bạn cùng nhà"
-      },
-      {
-       "w": "electricity",
-       "vi": "điện"
-      }
-     ],
-     "ipa": "/ˈset̬.əl/"
-    },
-    {
-     "type": "tx",
      "ctx": "First day at work",
      "s": "The new intern looked nervous, so her supervisor smiled and said, “___. You can ask me if you need help with anything.”",
      "acc": [
@@ -1480,30 +758,6 @@
       {
        "w": "supervisor",
        "vi": "người giám sát"
-      }
-     ]
-    },
-    {
-     "type": "tx",
-     "ctx": "Swimming lesson",
-     "s": "As the little boy stood at the edge of the pool, the coach whispered, “___, I’m right here beside you the whole time.”",
-     "acc": [
-      "Don’t be afraid",
-      "Don't be afraid",
-      "Do not be afraid"
-     ],
-     "vi": "Khi cậu bé đứng bên mép bể bơi, huấn luyện viên thì thầm, “Đừng sợ, thầy ở ngay cạnh con suốt thời gian.”",
-     "why": "Don’t be afraid. = đừng sợ (trấn an); thường kèm lời hứa giúp đỡ: Don’t be afraid to ask. Be afraid of sth = sợ cái gì.",
-     "hint": "Nghĩa: đừng sợ",
-     "tw": "Don’t be afraid.",
-     "new": [
-      {
-       "w": "edge",
-       "vi": "mép"
-      },
-      {
-       "w": "whispered",
-       "vi": "thì thầm"
       }
      ]
     },
@@ -1531,28 +785,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Friends joking",
-     "s": "When his friend claimed he had run a marathon without any training, Nam rolled his eyes and said, “___! Nobody believes that.”",
-     "acc": [
-      "Give me a break"
-     ],
-     "vi": "Khi bạn khoe đã chạy marathon không tập luyện, Nam đảo mắt và nói, “Thôi đi! Chẳng ai tin đâu.”",
-     "why": "Give me a break! = thôi đi / đừng làm khó tôi (khó chịu hoặc không tin); rất khẩu ngữ, dùng với bạn bè.",
-     "hint": "Nghĩa: thôi nào! tha cho tôi đi!",
-     "tw": "Give me a break!",
-     "new": [
-      {
-       "w": "claimed",
-       "vi": "khẳng định"
-      },
-      {
-       "w": "rolled his eyes",
-       "vi": "đảo mắt"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Restaurant",
      "s": "The waiter placed the two coffees on the table and said with a smile, “___. Please enjoy.”",
      "acc": [
@@ -1570,28 +802,6 @@
       {
        "w": "enjoy",
        "vi": "thưởng thức"
-      }
-     ]
-    },
-    {
-     "type": "tx",
-     "ctx": "Library",
-     "s": "When the student asked for the old atlas, the librarian walked over to the shelf, took it down and said, “___—it’s a bit dusty.”",
-     "acc": [
-      "Here you go"
-     ],
-     "vi": "Khi sinh viên hỏi cuốn tập bản đồ cũ, thủ thư bước đến kệ, lấy xuống và nói, “Đây nhé, hơi bụi một chút.”",
-     "why": "Here you go = đây nhé (khi đưa đồ, tiền, món ăn cho ai); lịch sự, thân mật. Gần với Here you are.",
-     "hint": "Nghĩa: đây nhé / của bạn đây",
-     "tw": "Here you go",
-     "new": [
-      {
-       "w": "atlas",
-       "vi": "tập bản đồ"
-      },
-      {
-       "w": "dusty",
-       "vi": "bụi bặm"
       }
      ]
     },
@@ -1619,28 +829,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Hair salon",
-     "s": "The stylist held up a mirror behind my head, smiled and said, “___. Do you like the shorter length?”",
-     "acc": [
-      "There you go"
-     ],
-     "vi": "Thợ làm tóc giơ gương phía sau đầu tôi, mỉm cười nói, “Xong rồi đấy. Anh có thích độ dài ngắn hơn không?”",
-     "why": "There you go. = xong rồi đấy / đây (khi đưa đồ hoặc xác nhận đã hoàn thành việc nhờ); thân mật.",
-     "hint": "Nghĩa: đây nhé / xong rồi đấy",
-     "tw": "There you go.",
-     "new": [
-      {
-       "w": "stylist",
-       "vi": "thợ làm tóc"
-      },
-      {
-       "w": "length",
-       "vi": "độ dài"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Group trip",
      "s": "“Thanks for buying the tickets. ___?” Duc asked, taking out his wallet while the train was still waiting at the platform.",
      "acc": [
@@ -1663,28 +851,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Taxi sharing",
-     "s": "After the driver dropped us off, I turned to my colleague and asked, “___? I’d like to pay my share before I forget.”",
-     "acc": [
-      "How much do I owe you"
-     ],
-     "vi": "Sau khi tài xế thả chúng tôi, tôi quay sang đồng nghiệp hỏi, “Tớ nợ cậu bao nhiêu? Tớ muốn trả phần mình trước khi quên.”",
-     "why": "How much do I owe you? = tôi nợ/phải trả bạn bao nhiêu (khi chia tiền, thanh toán); trả lời: You owe me …",
-     "hint": "Nghĩa: tôi nợ bạn bao nhiêu?",
-     "tw": "How much do I owe you?",
-     "new": [
-      {
-       "w": "dropped off",
-       "vi": "thả xuống"
-      },
-      {
-       "w": "share",
-       "vi": "phần"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Souvenir shop",
      "s": "The shopkeeper wrapped the three gifts in paper, and Lan asked, “___ altogether?” while searching for her purse.",
      "acc": [
@@ -1702,28 +868,6 @@
       {
        "w": "altogether",
        "vi": "tổng cộng"
-      }
-     ]
-    },
-    {
-     "type": "tx",
-     "ctx": "Car wash",
-     "s": "Before they started cleaning the inside of the car, I asked the staff, “___ if I want the full service?”",
-     "acc": [
-      "How much will it be"
-     ],
-     "vi": "Trước khi họ bắt đầu lau trong xe, tôi hỏi nhân viên, “Nếu tôi muốn dịch vụ đầy đủ thì hết bao nhiêu?”",
-     "why": "How much will it be? = hết bao nhiêu tiền (hỏi tổng giá khi mua hàng/dịch vụ); thường thêm altogether = tính tất cả.",
-     "hint": "Nghĩa: hết bao nhiêu tiền?",
-     "tw": "How much will it be?",
-     "new": [
-      {
-       "w": "staff",
-       "vi": "nhân viên"
-      },
-      {
-       "w": "full service",
-       "vi": "dịch vụ đầy đủ"
       }
      ]
     },
@@ -1753,31 +897,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Economy news",
-     "s": "Rising prices in the supermarket ___ the higher cost of transport, which many companies have passed on to their customers.",
-     "acc": [
-      "reflect",
-      "reflects",
-      "reflectss"
-     ],
-     "vi": "Giá cao trong siêu thị phản ánh chi phí vận chuyển tăng, thứ mà nhiều công ty chuyển sang khách hàng.",
-     "why": "reflect sth = phản ánh/thể hiện; the results reflect students’ abilities; reflect on = suy ngẫm. Hay gặp: reflect the situation / reflect changes.",
-     "hint": "Nghĩa: phản ánh, thể hiện",
-     "tw": "reflect",
-     "new": [
-      {
-       "w": "transport",
-       "vi": "vận chuyển"
-      },
-      {
-       "w": "passed on",
-       "vi": "chuyển sang"
-      }
-     ],
-     "ipa": "/rɪˈflekt/"
-    },
-    {
-     "type": "tx",
      "ctx": "Office",
      "s": "Hi Sarah, can I ask you something ___ quick before the meeting starts? It won’t take more than a minute.",
      "acc": [
@@ -1801,29 +920,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Phone call",
-     "s": "“I’ll call you back ___ quick,” he said, “I just need to turn off the stove and close the window.”",
-     "acc": [
-      "real",
-      "reals"
-     ],
-     "vi": "“Tớ sẽ gọi lại cậu ngay,” anh nói, “tớ chỉ cần tắt bếp và đóng cửa sổ.”",
-     "why": "real quick = thật nhanh/một chút thôi (khẩu ngữ Mỹ); Can I ask you something real quick? Dùng để xin phép ngắt lời lịch sự.",
-     "hint": "Nghĩa: rất nhanh, một chút thôi (thân mật)",
-     "tw": "real quick",
-     "new": [
-      {
-       "w": "stove",
-       "vi": "bếp"
-      },
-      {
-       "w": "call back",
-       "vi": "gọi lại"
-      }
-     ]
-    },
-    {
-     "type": "tx",
      "ctx": "Finance class",
      "s": "Some investments may ___ higher returns, but they may also involve more risk, so beginners should not put all their money into them.",
      "acc": [
@@ -1842,32 +938,6 @@
       {
        "w": "risk",
        "vi": "rủi ro"
-      }
-     ],
-     "ipa": "/peɪ ˈhaɪ.ər rɪˈtɜːnz/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Bank brochure",
-     "s": "Long-term savings plans usually ___ higher returns than ordinary accounts, as long as you leave the money untouched for several years.",
-     "acc": [
-      "pay",
-      "pays",
-      "cost",
-      "costs"
-     ],
-     "vi": "Gói tiết kiệm dài hạn thường mang lại lợi nhuận cao hơn tài khoản thường, miễn là bạn để yên tiền nhiều năm.",
-     "why": "pay (higher) returns = mang lại lợi nhuận (cao); investment returns = lợi nhuận đầu tư; higher return thường đi kèm higher risk.",
-     "hint": "Nghĩa: mang lại lợi nhuận cao hơn",
-     "tw": "pay higher returns",
-     "new": [
-      {
-       "w": "untouched",
-       "vi": "không động đến"
-      },
-      {
-       "w": "ordinary",
-       "vi": "thông thường"
       }
      ],
      "ipa": "/peɪ ˈhaɪ.ər rɪˈtɜːnz/"
@@ -1898,30 +968,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Library",
-     "s": "Because Minh returned the novel two weeks late, he had to ___ a small fine at the front desk before he could borrow anything else.",
-     "acc": [
-      "pay",
-      "pays"
-     ],
-     "vi": "Vì Minh trả cuốn tiểu thuyết trễ hai tuần, anh phải nộp một khoản phạt nhỏ ở quầy trước khi mượn thêm gì khác.",
-     "why": "pay a fine = nộp phạt; pay a small fine / a heavy fine; a fine for sth. Dùng với withdraw early, parking, late return.",
-     "hint": "Nghĩa: nộp một khoản tiền phạt nhỏ",
-     "tw": "pay a small fine",
-     "new": [
-      {
-       "w": "novel",
-       "vi": "tiểu thuyết"
-      },
-      {
-       "w": "borrow",
-       "vi": "mượn"
-      }
-     ],
-     "ipa": "/peɪ ə smɔːl faɪn/"
-    },
-    {
-     "type": "tx",
      "ctx": "Bank officer",
      "s": "With this deposit certificate, you ___ not to withdraw your money for a certain period of time, in exchange for a better interest rate.",
      "acc": [
@@ -1940,30 +986,6 @@
       {
        "w": "in exchange for",
        "vi": "đổi lại"
-      }
-     ],
-     "ipa": "/əˈɡriː nɒt tə wɪðˈdrɔː/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Contract reading",
-     "s": "Before signing, customers must ___ not to withdraw any funds during the first twelve months, otherwise they lose the special bonus.",
-     "acc": [
-      "agree",
-      "agrees"
-     ],
-     "vi": "Trước khi ký, khách hàng phải đồng ý không rút bất kỳ khoản nào trong mười hai tháng đầu, nếu không sẽ mất tiền thưởng đặc biệt.",
-     "why": "agree not to + V = đồng ý/cam kết không làm gì; with a CD you agree not to withdraw money for a fixed period.",
-     "hint": "Nghĩa: đồng ý không rút (tiền)",
-     "tw": "agree not to withdraw",
-     "new": [
-      {
-       "w": "funds",
-       "vi": "khoản tiền"
-      },
-      {
-       "w": "bonus",
-       "vi": "tiền thưởng"
       }
      ],
      "ipa": "/əˈɡriː nɒt tə wɪðˈdrɔː/"
@@ -1995,30 +1017,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Family advice",
-     "s": "My cousin decided to ___ money from the sale of her old flat in a small business, hoping to earn a regular income.",
-     "acc": [
-      "invest",
-      "invests"
-     ],
-     "vi": "Chị họ tôi quyết định đầu tư số tiền bán căn hộ cũ vào một việc kinh doanh nhỏ, hy vọng có thu nhập đều.",
-     "why": "invest money from + nguồn = đầu tư tiền có từ …; invest in sth = đầu tư vào. A fund invests money from investors in financial products.",
-     "hint": "Nghĩa: đầu tư số tiền từ …",
-     "tw": "invest money from",
-     "new": [
-      {
-       "w": "sale",
-       "vi": "việc bán"
-      },
-      {
-       "w": "income",
-       "vi": "thu nhập"
-      }
-     ],
-     "ipa": "/ɪnˈvest ˈmʌn.i frəm/"
-    },
-    {
-     "type": "tx",
      "ctx": "Bank advice",
      "s": "Some people ___ their money in savings accounts because they want a relatively safe place to keep it, even if the interest is low.",
      "acc": [
@@ -2043,30 +1041,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Retirement talk",
-     "s": "Instead of keeping cash at home, my grandfather prefers to ___ money in a government bond, which pays a small but steady amount.",
-     "acc": [
-      "place",
-      "places"
-     ],
-     "vi": "Thay vì giữ tiền mặt ở nhà, ông tôi thích gửi tiền vào trái phiếu chính phủ, trả một khoản nhỏ nhưng đều.",
-     "why": "place money in + nơi chốn = gửi/để tiền vào (tài khoản, quỹ); place + O + in/on. Dùng trang trọng hơn put.",
-     "hint": "Nghĩa: đặt/gửi tiền vào",
-     "tw": "place money in",
-     "new": [
-      {
-       "w": "bond",
-       "vi": "trái phiếu"
-      },
-      {
-       "w": "steady",
-       "vi": "đều đặn"
-      }
-     ],
-     "ipa": "/pleɪs ˈmʌn.i ɪn/"
-    },
-    {
-     "type": "tx",
      "ctx": "News report",
      "s": "The government will ___ savings up to a certain limit, so customers will not lose that money even if their bank collapses.",
      "acc": [
@@ -2085,31 +1059,6 @@
       {
        "w": "collapses",
        "vi": "sụp đổ"
-      }
-     ],
-     "ipa": "/ˌɡær.ənˈtiː ˈseɪ.vɪŋz ʌp tuː/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Bank poster",
-     "s": "Our insurance programme ___ savings up to fifty thousand dollars per person, which gives customers more confidence in the system.",
-     "acc": [
-      "guarantees",
-      "guaranteess",
-      "guarantee"
-     ],
-     "vi": "Chương trình bảo hiểm của chúng tôi bảo đảm tiền tiết kiệm đến năm mươi nghìn đô mỗi người, giúp khách tin tưởng hệ thống hơn.",
-     "why": "guarantee sth up to + số tiền = bảo đảm đến mức nào; the government guarantees savings up to a limit.",
-     "hint": "Nghĩa: bảo đảm tiền tiết kiệm lên đến …",
-     "tw": "guarantee savings up to",
-     "new": [
-      {
-       "w": "programme",
-       "vi": "chương trình"
-      },
-      {
-       "w": "confidence",
-       "vi": "niềm tin"
       }
      ],
      "ipa": "/ˌɡær.ənˈtiː ˈseɪ.vɪŋz ʌp tuː/"
@@ -2141,31 +1090,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Holiday review",
-     "s": "During the off-season, ___ much to do in this seaside resort, since most shops, cinemas and cafés close after the summer.",
-     "acc": [
-      "there isn’t",
-      "there isn't",
-      "there is not"
-     ],
-     "vi": "Trong mùa thấp điểm, khu nghỉ mát ven biển này không có nhiều gì để làm, vì hầu hết cửa hàng, rạp phim, quán cà phê đóng sau mùa hè.",
-     "why": "There isn’t much to do (in + nơi) = ít hoạt động giải trí; thường nói về nơi nhỏ, vắng: in the village, at night.",
-     "hint": "Nghĩa: không có nhiều hoạt động để làm",
-     "tw": "there isn’t much to do",
-     "new": [
-      {
-       "w": "off-season",
-       "vi": "mùa thấp điểm"
-      },
-      {
-       "w": "resort",
-       "vi": "khu nghỉ mát"
-      }
-     ],
-     "ipa": "/ðeər ˈɪz.ənt mʌtʃ tə duː/"
-    },
-    {
-     "type": "tx",
      "ctx": "Village visit",
      "s": "___ from going to the local market, there isn’t much to do, so most tourists stay only for one night and then move on.",
      "acc": [
@@ -2190,30 +1114,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Office chat",
-     "s": "The new software works well; ___ from a few small bugs, nobody in the team has reported any serious problems this month.",
-     "acc": [
-      "apart",
-      "aparts"
-     ],
-     "vi": "Phần mềm mới chạy tốt; ngoài vài lỗi nhỏ, không ai trong nhóm báo cáo vấn đề nghiêm trọng nào tháng này.",
-     "why": "apart from + N/V-ing = ngoài ra / ngoại trừ; Apart from going to the market, there isn't much to do.",
-     "hint": "Nghĩa: ngoài … ra, ngoại trừ",
-     "tw": "apart from",
-     "new": [
-      {
-       "w": "bugs",
-       "vi": "lỗi phần mềm"
-      },
-      {
-       "w": "reported",
-       "vi": "báo cáo"
-      }
-     ],
-     "ipa": "/əˈpɑːt frəm/"
-    },
-    {
-     "type": "tx",
      "ctx": "Rural travel",
      "s": "The nearest town is eight miles ___ , so without a car it is difficult for villagers to reach the hospital in an emergency.",
      "acc": [
@@ -2232,30 +1132,6 @@
       {
        "w": "villagers",
        "vi": "dân làng"
-      }
-     ],
-     "ipa": "/əˈweɪ/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Hotel booking",
-     "s": "Our hotel is only five minutes’ walk from the beach, but the airport is about thirty kilometres ___, so we ordered a shuttle bus.",
-     "acc": [
-      "away",
-      "aways"
-     ],
-     "vi": "Khách sạn chúng tôi chỉ cách biển năm phút đi bộ, nhưng sân bay cách khoảng ba mươi cây số, nên chúng tôi đặt xe đưa đón.",
-     "why": "[khoảng cách] + away = cách đây/đó bao xa; The nearest town is eight miles away. Cấu trúc: far away, two kilometres away.",
-     "hint": "Nghĩa: cách (một khoảng) … (distance + away)",
-     "tw": "away",
-     "new": [
-      {
-       "w": "shuttle",
-       "vi": "xe đưa đón"
-      },
-      {
-       "w": "ordered",
-       "vi": "đặt"
       }
      ],
      "ipa": "/əˈweɪ/"
@@ -2287,31 +1163,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Sports talk",
-     "s": "Although my brother enjoys cooking, he is absolutely ___ at it; last week he burnt the rice and set off the smoke alarm.",
-     "acc": [
-      "hopeless",
-      "hopelesss",
-      "hopeles"
-     ],
-     "vi": "Dù anh trai tôi thích nấu ăn, anh ấy cực kỳ tệ trong việc đó; tuần trước anh làm cháy cơm và làm kêu chuông báo khói.",
-     "why": "hopeless = tệ/vô dụng (khẩu ngữ) hoặc vô vọng; be hopeless at sth = rất kém ở việc gì; hopeless situation.",
-     "hint": "Nghĩa: rất tệ, không hiệu quả; vô vọng",
-     "tw": "hopeless",
-     "new": [
-      {
-       "w": "burnt",
-       "vi": "làm cháy"
-      },
-      {
-       "w": "smoke alarm",
-       "vi": "chuông báo khói"
-      }
-     ],
-     "ipa": "/ˈhəʊp.ləs/"
-    },
-    {
-     "type": "tx",
      "ctx": "Rural life",
      "s": "“___ many shops in small villages,” she explained, “so most families drive to the nearest town once a week to buy groceries.”",
      "acc": [
@@ -2331,31 +1182,6 @@
       {
        "w": "explained",
        "vi": "giải thích"
-      }
-     ],
-     "ipa": "/ju dəʊnt ɡet ˈmen.i/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Travel tip",
-     "s": "In winter, ___ many tourists at this lake, which is why locals love the peaceful atmosphere and the cheaper rooms.",
-     "acc": [
-      "you don’t get",
-      "you don't get",
-      "you do not get"
-     ],
-     "vi": "Vào mùa đông, hồ này không có nhiều du khách, đó là lý do người địa phương yêu bầu không khí yên bình và phòng rẻ hơn.",
-     "why": "you don’t get many + N (đếm được, số nhiều) = ít khi có nhiều …; You don't get many shops in small villages.",
-     "hint": "Nghĩa: không có/không tìm thấy nhiều …",
-     "tw": "you don’t get many",
-     "new": [
-      {
-       "w": "locals",
-       "vi": "người địa phương"
-      },
-      {
-       "w": "atmosphere",
-       "vi": "bầu không khí"
       }
      ],
      "ipa": "/ju dəʊnt ɡet ˈmen.i/"
@@ -2387,30 +1213,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Cycling trip",
-     "s": "Although we were tired, we pushed our bikes up the steep ___ because the road on the other side led straight to the lake.",
-     "acc": [
-      "hill",
-      "hills"
-     ],
-     "vi": "Dù mệt, chúng tôi vẫn đẩy xe lên con dốc đồi dựng đứng vì con đường phía bên kia dẫn thẳng ra hồ.",
-     "why": "hill = đồi (thấp hơn núi: mountain); a green hill, climb a hill, on a hillside. Đối với núi dùng mountain.",
-     "hint": "Nghĩa: đồi",
-     "tw": "hill",
-     "new": [
-      {
-       "w": "steep",
-       "vi": "dốc đứng"
-      },
-      {
-       "w": "led to",
-       "vi": "dẫn đến"
-      }
-     ],
-     "ipa": "/hɪl/"
-    },
-    {
-     "type": "tx",
      "ctx": "Geography",
      "s": "The village is in a beautiful ___ surrounded by mountains, where a small river provides water for the rice fields all year round.",
      "acc": [
@@ -2429,30 +1231,6 @@
       {
        "w": "all year round",
        "vi": "quanh năm"
-      }
-     ],
-     "ipa": "/ˈvæl.i/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Weather report",
-     "s": "Thick fog often fills the ___ in the early morning, making it dangerous to drive until the sun rises over the hills.",
-     "acc": [
-      "valley",
-      "valleys"
-     ],
-     "vi": "Sương mù dày thường lấp đầy thung lũng vào sáng sớm, khiến lái xe nguy hiểm cho đến khi mặt trời lên trên các đồi.",
-     "why": "valley = thung lũng, vùng đất thấp giữa các đồi/núi, thường có sông; in a valley, a fertile valley.",
-     "hint": "Nghĩa: thung lũng",
-     "tw": "valley",
-     "new": [
-      {
-       "w": "fog",
-       "vi": "sương mù"
-      },
-      {
-       "w": "dangerous",
-       "vi": "nguy hiểm"
       }
      ],
      "ipa": "/ˈvæl.i/"
@@ -2484,30 +1262,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Village scene",
-     "s": "On the way to school, the children cross a muddy ___ where a few cows eat grass and a farmer repairs an old wooden fence.",
-     "acc": [
-      "field",
-      "fields"
-     ],
-     "vi": "Trên đường đến trường, bọn trẻ băng qua một cánh đồng lầy nơi vài con bò ăn cỏ và một nông dân sửa hàng rào gỗ cũ.",
-     "why": "field = cánh đồng/bãi đất (trồng trọt, chăn thả, thể thao); work in the fields, a football field. Số nhiều: fields.",
-     "hint": "Nghĩa: cánh đồng",
-     "tw": "field",
-     "new": [
-      {
-       "w": "cross",
-       "vi": "băng qua"
-      },
-      {
-       "w": "repairs",
-       "vi": "sửa"
-      }
-     ],
-     "ipa": "/fiːld/"
-    },
-    {
-     "type": "tx",
      "ctx": "Weekend getaway",
      "s": "Instead of staying in a hotel, we rented an old stone ___ in the countryside, where we woke up to the sound of roosters.",
      "acc": [
@@ -2526,30 +1280,6 @@
       {
        "w": "countryside",
        "vi": "miền quê"
-      }
-     ],
-     "ipa": "/ˈfɑːm.haʊs/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Family story",
-     "s": "My uncle lives in a ___ at the end of a dirt road, surrounded by fields, chickens and a small orchard that he planted himself.",
-     "acc": [
-      "farmhouse",
-      "farmhouses"
-     ],
-     "vi": "Chú tôi sống trong một nhà trang trại ở cuối con đường đất, bao quanh là ruộng, gà và một vườn cây ăn trái nhỏ do chú tự trồng.",
-     "why": "farmhouse = ngôi nhà chính trong trang trại; live in a farmhouse, a stone farmhouse. Gồm farm + house.",
-     "hint": "Nghĩa: nhà ở trong trang trại",
-     "tw": "farmhouse",
-     "new": [
-      {
-       "w": "dirt road",
-       "vi": "đường đất"
-      },
-      {
-       "w": "orchard",
-       "vi": "vườn cây ăn quả"
       }
      ],
      "ipa": "/ˈfɑːm.haʊs/"
@@ -2580,30 +1310,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Village road",
-     "s": "A slow ___ blocked the narrow lane for ten minutes, and the drivers behind it had no choice but to wait patiently.",
-     "acc": [
-      "tractor",
-      "tractors"
-     ],
-     "vi": "Một chiếc máy kéo chạy chậm chặn con đường hẹp mười phút, và các tài xế phía sau không còn cách nào ngoài kiên nhẫn chờ.",
-     "why": "tractor = máy kéo (xe nông nghiệp lớn); drive a tractor, plough the field with a tractor.",
-     "hint": "Nghĩa: máy kéo",
-     "tw": "tractor",
-     "new": [
-      {
-       "w": "lane",
-       "vi": "đường nhỏ"
-      },
-      {
-       "w": "patiently",
-       "vi": "kiên nhẫn"
-      }
-     ],
-     "ipa": "/ˈtræk.tər/"
-    },
-    {
-     "type": "tx",
      "ctx": "Garden project",
      "s": "There is a wooden ___ around the field, which stops the sheep from wandering onto the road and being hit by cars.",
      "acc": [
@@ -2622,30 +1328,6 @@
       {
        "w": "sheep",
        "vi": "cừu"
-      }
-     ],
-     "ipa": "/fens/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Neighbour dispute",
-     "s": "Because the dog kept jumping over the low ___, the neighbours asked the owner to build a taller one before someone got hurt.",
-     "acc": [
-      "fence",
-      "fences"
-     ],
-     "vi": "Vì con chó cứ nhảy qua hàng rào thấp, hàng xóm đề nghị chủ xây hàng rào cao hơn trước khi ai đó bị thương.",
-     "why": "fence = hàng rào (gỗ, kim loại) quanh đất/vườn; build a fence, climb over a fence, wooden fence.",
-     "hint": "Nghĩa: hàng rào",
-     "tw": "fence",
-     "new": [
-      {
-       "w": "owner",
-       "vi": "chủ"
-      },
-      {
-       "w": "hurt",
-       "vi": "bị thương"
       }
      ],
      "ipa": "/fens/"
@@ -2676,30 +1358,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Airport",
-     "s": "Passengers travelling to Seoul should go to ___ 12 at least forty minutes before departure, because boarding closes early.",
-     "acc": [
-      "gate",
-      "gates"
-     ],
-     "vi": "Hành khách đi Seoul nên đến cổng 12 ít nhất bốn mươi phút trước giờ khởi hành, vì việc lên máy bay đóng sớm.",
-     "why": "gate = cổng (vườn, nhà, sân bay); close the gate, boarding gate. Please close the gate when you leave.",
-     "hint": "Nghĩa: cổng",
-     "tw": "gate",
-     "new": [
-      {
-       "w": "departure",
-       "vi": "giờ khởi hành"
-      },
-      {
-       "w": "boarding",
-       "vi": "lên máy bay"
-      }
-     ],
-     "ipa": "/ɡeɪt/"
-    },
-    {
-     "type": "tx",
      "ctx": "Countryside walk",
      "s": "We followed a narrow ___ through the fields until we reached a small stream, where we stopped to rest and eat sandwiches.",
      "acc": [
@@ -2718,30 +1376,6 @@
       {
        "w": "narrow",
        "vi": "hẹp"
-      }
-     ],
-     "ipa": "/ˈfʊt.pɑːθ/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Local council",
-     "s": "The council has repaired the ___ along the river so that walkers and runners no longer have to share the road with fast cars.",
-     "acc": [
-      "footpath",
-      "footpaths"
-     ],
-     "vi": "Hội đồng địa phương đã sửa lối đi bộ dọc sông để người đi bộ và chạy bộ không còn phải chia đường với xe nhanh.",
-     "why": "footpath = đường mòn/lối đi dành cho người đi bộ (ngoài đồng, ven đường); follow a footpath. Không dành cho xe.",
-     "hint": "Nghĩa: lối đi bộ, đường mòn dành cho người đi bộ",
-     "tw": "footpath",
-     "new": [
-      {
-       "w": "council",
-       "vi": "hội đồng địa phương"
-      },
-      {
-       "w": "repaired",
-       "vi": "sửa chữa"
       }
      ],
      "ipa": "/ˈfʊt.pɑːθ/"
@@ -2775,30 +1409,6 @@
     },
     {
      "type": "tx",
-     "ctx": "After the storm",
-     "s": "A heavy ___ fell from the old oak tree during the night and blocked the footpath, so the council sent workers to remove it.",
-     "acc": [
-      "branch",
-      "branchs"
-     ],
-     "vi": "Một cành cây nặng rơi khỏi cây sồi già trong đêm và chặn lối đi bộ, nên hội đồng cử công nhân đến dọn.",
-     "why": "branch = cành cây; also chi nhánh (ngân hàng/công ty); a tree branch, break a branch. Ở đây: cành cây.",
-     "hint": "Nghĩa: cành cây",
-     "tw": "branch",
-     "new": [
-      {
-       "w": "oak",
-       "vi": "cây sồi"
-      },
-      {
-       "w": "remove",
-       "vi": "dọn đi"
-      }
-     ],
-     "ipa": "/brɑːntʃ/"
-    },
-    {
-     "type": "tx",
      "ctx": "Autumn",
      "s": "The ___ turn yellow and red in autumn, and by November the whole park is covered with a thick, crunchy carpet of them.",
      "acc": [
@@ -2818,31 +1428,6 @@
       {
        "w": "carpet",
        "vi": "tấm thảm"
-      }
-     ],
-     "ipa": "/liːvz/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Tea farm",
-     "s": "Workers pick only the youngest ___ of the tea plant by hand, because older ones taste bitter and lower the quality of the drink.",
-     "acc": [
-      "leaves",
-      "leavess",
-      "leave"
-     ],
-     "vi": "Công nhân chỉ hái tay những chiếc lá non nhất của cây trà, vì lá già vị đắng và làm giảm chất lượng đồ uống.",
-     "why": "leaves = lá cây (số nhiều của leaf); leaves turn yellow / fall in autumn. Đừng nhầm với động từ leaves (rời đi).",
-     "hint": "Nghĩa: những chiếc lá",
-     "tw": "leaves",
-     "new": [
-      {
-       "w": "bitter",
-       "vi": "đắng"
-      },
-      {
-       "w": "quality",
-       "vi": "chất lượng"
       }
      ],
      "ipa": "/liːvz/"
@@ -2874,31 +1459,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Flood prevention",
-     "s": "Planting trees on the hillside helps because their ___ hold the soil together, so heavy rain is less likely to cause a landslide.",
-     "acc": [
-      "roots",
-      "rootss",
-      "root"
-     ],
-     "vi": "Trồng cây trên sườn đồi có ích vì rễ giữ đất lại với nhau, nên mưa lớn ít có khả năng gây sạt lở.",
-     "why": "roots = rễ cây; tree roots grow under the ground; take root = bén rễ; the roots of a problem (nguồn gốc).",
-     "hint": "Nghĩa: rễ cây",
-     "tw": "roots",
-     "new": [
-      {
-       "w": "landslide",
-       "vi": "sạt lở đất"
-      },
-      {
-       "w": "hillside",
-       "vi": "sườn đồi"
-      }
-     ],
-     "ipa": "/ruːts/"
-    },
-    {
-     "type": "tx",
      "ctx": "School picnic",
      "s": "The children sat on the ___ in a circle because there were no benches, and the teacher gave them sandwiches and juice.",
      "acc": [
@@ -2917,30 +1477,6 @@
       {
        "w": "benches",
        "vi": "ghế dài"
-      }
-     ],
-     "ipa": "/ɡraʊnd/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Winter morning",
-     "s": "After the first frost, the ___ was so hard that the gardener could not dig, so he postponed planting until the weather got warmer.",
-     "acc": [
-      "ground",
-      "grounds"
-     ],
-     "vi": "Sau đợt sương giá đầu tiên, mặt đất cứng đến mức người làm vườn không đào được, nên ông hoãn trồng cây đến khi trời ấm hơn.",
-     "why": "ground = mặt đất; sit on the ground, under the ground, the ground floor. Nghĩa bóng: lý do (grounds).",
-     "hint": "Nghĩa: mặt đất",
-     "tw": "ground",
-     "new": [
-      {
-       "w": "frost",
-       "vi": "sương giá"
-      },
-      {
-       "w": "postponed",
-       "vi": "hoãn"
       }
      ],
      "ipa": "/ɡraʊnd/"
@@ -2972,31 +1508,6 @@
     },
     {
      "type": "tx",
-     "ctx": "Farm life",
-     "s": "Cows spend most of the day eating fresh ___ in the meadow, and in winter the farmer has to feed them dried hay instead.",
-     "acc": [
-      "grass",
-      "grasss",
-      "gras"
-     ],
-     "vi": "Bò dành phần lớn ngày ăn cỏ tươi ở đồng cỏ, và vào mùa đông người nông dân phải cho chúng ăn cỏ khô thay vào đó.",
-     "why": "grass = cỏ (không đếm được); cut / mow the grass, green grass, wet grass. Không nói a grass.",
-     "hint": "Nghĩa: cỏ",
-     "tw": "grass",
-     "new": [
-      {
-       "w": "meadow",
-       "vi": "đồng cỏ"
-      },
-      {
-       "w": "hay",
-       "vi": "cỏ khô"
-      }
-     ],
-     "ipa": "/ɡrɑːs/"
-    },
-    {
-     "type": "tx",
      "ctx": "Home garden",
      "s": "We grow ___ in our garden, such as tomatoes and herbs, because homegrown vegetables taste better and cost almost nothing.",
      "acc": [
@@ -3016,30 +1527,6 @@
       {
        "w": "homegrown",
        "vi": "tự trồng"
-      }
-     ],
-     "ipa": "/plɑːnt/"
-    },
-    {
-     "type": "tx",
-     "ctx": "Office tip",
-     "s": "Studies suggest that keeping a small green ___ on your desk can reduce stress and make the working environment feel friendlier.",
-     "acc": [
-      "plant",
-      "plants"
-     ],
-     "vi": "Nghiên cứu gợi ý rằng đặt một cây xanh nhỏ trên bàn có thể giảm căng thẳng và làm môi trường làm việc thân thiện hơn.",
-     "why": "plant = cây/thực vật (danh từ); grow plants, water the plants. Còn là động từ (trồng) và nhà máy (power plant).",
-     "hint": "Nghĩa: cây, thực vật",
-     "tw": "plant",
-     "new": [
-      {
-       "w": "reduce",
-       "vi": "giảm"
-      },
-      {
-       "w": "environment",
-       "vi": "môi trường"
       }
      ],
      "ipa": "/plɑːnt/"
@@ -6293,6 +4780,176 @@
       }
      ],
      "ipa": "/plɑːnt/"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Nói vận dụng",
+   "note": "Bấm Ghi âm, trả lời bằng tiếng Anh 30–60 giây và cố dùng các từ gợi ý; trang sẽ chấm ước tính theo Fluency, Lexical Resource, Grammar, Pronunciation.",
+   "qs": [
+    {
+     "type": "sp",
+     "ctx": "Food and health",
+     "s": "Tell me about your usual breakfast. Do you think people in your country consume too much sugar, and what could they eat instead?",
+     "vi": "Hãy kể về bữa sáng thường ngày của bạn. Bạn có nghĩ người dân nước bạn tiêu thụ quá nhiều đường không, và họ có thể ăn gì thay thế?",
+     "words": [
+      "cereal",
+      "fiber",
+      "consume",
+      "consumption",
+      "asparagus"
+     ],
+     "why": "Mở bằng bữa sáng của bạn, nêu một nhận định (agree/disagree) rồi đưa ví dụ cụ thể; dùng although/whereas để so sánh hai thói quen.",
+     "sample": "On weekdays I usually have a bowl of whole-grain cereal with milk, because it is quick and keeps me full until lunch. Although it is convenient, many brands contain too much sugar. I think sugar consumption is a serious problem in my country, whereas people do not consume enough fiber. If families added vegetables such as asparagus to their meals, they would feel healthier in the long run. Personally, I try to read the labels before I buy anything."
+    },
+    {
+     "type": "sp",
+     "ctx": "Unexpected costs",
+     "s": "Describe a time when you had to pay for something unexpected, such as a deposit, an extra fee or a small fine. What happened, and how did you feel?",
+     "vi": "Hãy mô tả một lần bạn phải trả khoản tiền bất ngờ như tiền đặt cọc, phụ phí hoặc một khoản phạt nhỏ. Chuyện gì xảy ra và bạn cảm thấy thế nào?",
+     "words": [
+      "base price",
+      "deposit",
+      "consumable",
+      "bucks",
+      "owe",
+      "pay a small fine"
+     ],
+     "why": "Kể theo trình tự: bối cảnh → điều bất ngờ → cách giải quyết → cảm xúc; dùng thì quá khứ và which để thêm thông tin.",
+     "sample": "Last year I rented a flat, and the advertised base price looked very cheap. However, I had to pay a deposit equal to one month's rent, which I had not expected. Later I also owed the landlord around fifty bucks for consumable items such as light bulbs and cleaning products. When I returned the keys a day late, I even had to pay a small fine. I was annoyed at first, but I learned to read every contract carefully before I sign anything."
+    },
+    {
+     "type": "sp",
+     "ctx": "Splitting a bill",
+     "s": "Imagine you had dinner and shared a taxi with a friend. Explain how you split the bill and settled up, and what you said to each other.",
+     "vi": "Hãy tưởng tượng bạn ăn tối và đi chung taxi với một người bạn. Giải thích cách hai người chia tiền, thanh toán xong và những gì hai bạn nói với nhau.",
+     "words": [
+      "How much will it be",
+      "Here you go",
+      "There you go",
+      "How much do I owe you",
+      "We're settled",
+      "real quick",
+      "Give me a break"
+     ],
+     "why": "Dùng như một đoạn hội thoại ngắn: hỏi giá, đưa tiền, xác nhận đã xong; giữ giọng thân mật nhưng rõ ràng.",
+     "sample": "After dinner, the waiter brought the bill, and I asked him, \"How much will it be altogether?\" My friend paid for the taxi, so I said, \"How much do I owe you?\" He replied that it was twelve dollars. I handed him the money and said, \"Here you go.\" He counted it and answered, \"There you go, we're settled.\" Then he asked me for a favour real quick, and I joked, \"Give me a break, I have been working all day!\" We both laughed and went home."
+    },
+    {
+     "type": "sp",
+     "ctx": "Difficult periods",
+     "s": "Talk about a difficult period in your life. How did you manage to deal with it, and what advice would you give to a friend in the same situation?",
+     "vi": "Hãy nói về một giai đoạn khó khăn trong đời bạn. Bạn đã xoay xở thế nào, và sẽ khuyên bạn bè trong tình huống đó điều gì?",
+     "words": [
+      "manage to",
+      "be interested in",
+      "Don't be afraid",
+      "That sounds reasonable to me",
+      "Sometimes you're up, sometimes you're down",
+      "hopeless"
+     ],
+     "why": "Kể vấn đề → cách vượt qua → lời khuyên; kết thúc bằng một câu tổng kết (Sometimes you're up…).",
+     "sample": "Two years ago I lost my job, and for a while the situation felt hopeless. Fortunately, I managed to stay calm and start a new course because I have always been interested in design. My brother told me, \"Don't be afraid to start again,\" and that sounded reasonable to me. Now I would give the same advice to a friend: sometimes you're up, sometimes you're down, so you should keep trying and ask for help when you need it."
+    },
+    {
+     "type": "sp",
+     "ctx": "Healthy habits",
+     "s": "What habit would you like to build to improve your health? Compare the benefits in the short term and in the long term, and explain what stops you.",
+     "vi": "Bạn muốn xây dựng thói quen nào để cải thiện sức khỏe? So sánh lợi ích ngắn hạn và dài hạn, và nói điều gì đang cản trở bạn.",
+     "words": [
+      "in the short term",
+      "in the long term",
+      "don't have enough",
+      "need time to recover",
+      "reflect",
+      "what goes up must come down"
+     ],
+     "why": "So sánh hai mốc thời gian bằng in the short term / in the long term; nêu trở ngại thật (time, money, energy).",
+     "sample": "I would like to run three times a week. In the short term, it would give me more energy and help me sleep better. In the long term, it would reduce stress and protect my heart. However, I don't have enough free time on weekdays, and my muscles need time to recover after a hard session. When I reflect on my progress, I notice that my motivation rises quickly and then falls, because what goes up must come down. So I plan to start slowly and stay consistent."
+    },
+    {
+     "type": "sp",
+     "ctx": "Attracting customers",
+     "s": "How do shops, cafés or websites in your city attract customers? Which is more important for you, visual appeal or price appeal?",
+     "vi": "Các cửa hàng, quán cà phê hay trang web trong thành phố bạn thu hút khách bằng cách nào? Với bạn, sức hấp dẫn hình ảnh hay giá cả quan trọng hơn?",
+     "words": [
+      "attract",
+      "draw",
+      "appeal to",
+      "visual appeal",
+      "price appeal"
+     ],
+     "why": "Nêu 2 cách thu hút khách + chọn một quan điểm và bảo vệ bằng lý do/ví dụ; dùng whereas để so sánh.",
+     "sample": "Many cafés in my city attract customers with stylish furniture and soft lighting, which gives them strong visual appeal. Large supermarkets, whereas, rely on price appeal: they draw crowds by offering big discounts. Bright signs and free samples also draw attention to new products. Personally, price appeal matters more to me because I am a student, but a lovely design can still appeal to me when I want a place to study or meet friends."
+    },
+    {
+     "type": "sp",
+     "ctx": "Small businesses",
+     "s": "Some people say small shops cannot survive against large supermarkets. Do you agree? Explain the struggle that small business owners face.",
+     "vi": "Có người cho rằng cửa hàng nhỏ không thể tồn tại trước siêu thị lớn. Bạn có đồng ý không? Hãy giải thích cuộc đấu tranh của chủ doanh nghiệp nhỏ.",
+     "words": [
+      "struggle",
+      "struggle to",
+      "survive",
+      "struggle to make a living"
+     ],
+     "why": "Nêu quan điểm rõ ràng ngay câu đầu, đưa 2 lý do (giá, khách quen) và 1 giải pháp.",
+     "sample": "I partly agree. There is a constant struggle between small shops and large supermarkets for customers, and the smaller businesses often struggle to survive when prices fall. Many owners struggle to make a living because rent is high and they cannot buy goods in large quantities. However, shops that offer friendly service or local products can still survive, since some customers prefer a personal experience. If the government supported them, I believe more of them would succeed."
+    },
+    {
+     "type": "sp",
+     "ctx": "Saving and investing",
+     "s": "What is the best way to look after your money? Compare keeping savings in a bank with investing, and say which one you prefer.",
+     "vi": "Cách tốt nhất để quản lý tiền là gì? So sánh gửi tiết kiệm ngân hàng với đầu tư và nói bạn thích cách nào hơn.",
+     "words": [
+      "pay higher returns",
+      "agree not to withdraw",
+      "invest money from",
+      "place money in",
+      "guarantee savings up to"
+     ],
+     "why": "So sánh ưu/nhược (safe vs risky) và kết luận bằng ý kiến cá nhân; dùng if / although để diễn đạt điều kiện.",
+     "sample": "Many people place money in savings accounts because the government guarantees savings up to a certain limit, so the risk is low. On the other hand, some investments may pay higher returns, although you could lose part of your money. For example, a fund can invest money from thousands of people in shares. With a term deposit you must agree not to withdraw the money for a while. Since I am young, I would keep an emergency fund in the bank and invest the rest."
+    },
+    {
+     "type": "sp",
+     "ctx": "Village life",
+     "s": "Describe a village or small town you know. What is it like, and would you like to live there? Why, or why not?",
+     "vi": "Hãy mô tả một ngôi làng hoặc thị trấn nhỏ mà bạn biết. Nơi đó như thế nào và bạn có muốn sống ở đó không? Vì sao?",
+     "words": [
+      "there isn't much to do",
+      "apart from",
+      "away",
+      "hopeless",
+      "you don't get many"
+     ],
+     "why": "Mô tả (vị trí, người, hoạt động) → ưu nhược → kết luận cá nhân; nhớ cấu trúc distance + away.",
+     "sample": "My grandparents live in a village that is about forty kilometres away from the city. The scenery is beautiful, but there isn't much to do in the evening. Apart from visiting neighbours, you can hardly find any entertainment, and public transport is hopeless. You don't get many shops either, so people travel to town every week. I enjoy staying there for a weekend, but I wouldn't like to live there because I need more activities and better job opportunities."
+    },
+    {
+     "type": "sp",
+     "ctx": "A peaceful countryside place",
+     "s": "Describe a peaceful place in the countryside you have visited or would like to visit. What can you see there, and what do people do?",
+     "vi": "Hãy mô tả một nơi yên bình ở miền quê mà bạn đã đến hoặc muốn đến. Bạn có thể thấy gì ở đó và mọi người làm gì?",
+     "words": [
+      "hill",
+      "valley",
+      "field",
+      "farmhouse",
+      "tractor",
+      "fence",
+      "gate",
+      "footpath",
+      "branch",
+      "leaves",
+      "roots",
+      "ground",
+      "grass",
+      "plant"
+     ],
+     "why": "Mô tả theo thứ tự từ xa đến gần (hill → valley → field → farmhouse), thêm giác quan (âm thanh, mùi) và cảm xúc.",
+     "sample": "I would love to visit a farmhouse in a green valley. From the top of a hill, you can see wide fields where a tractor moves slowly across the ground. A wooden fence and an old gate lead to a footpath through the grass. In autumn the leaves fall from the branches, and the roots of the old trees spread under the soil. Farmers grow every kind of plant there, and the air smells of fresh hay. It sounds like the perfect place to relax."
     }
    ]
   }
