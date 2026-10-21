@@ -6,6 +6,10 @@ description: >-
 
 # English drill builder
 
+> **DAILY SET FORMAT (latest learner request, overrides any other number of questions per section, including in a scheduled prompt):**
+> s1 "Viết từ" = 1 `tx` per word, s2 "Chọn từ" = 1 `mc` per word, s3 "Chọn nghĩa" = 1 `mc` (`noblank`) per word, then s4 "Nói vận dụng" = exactly 10 `sp` speaking prompts
+> (see `references/content-schema.md`, "Speaking section"). Total = 3N + 10. Use `storageKey` `vocab-<date>-v6`, delete `lessons/<date>/audio` and `docs/<date>/audio` before pushing so the workflow regenerates audio, level B1+-B2.
+
 Turns "here is what I am learning" into a finished, shareable practice page. It exists because
 the learner (Vietnamese speaker, around B1-B2, IELTS 5.0-5.5 target) learns best from short
 questions placed in concrete situations, with the new material just above their level, so that
