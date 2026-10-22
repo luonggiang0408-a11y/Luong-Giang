@@ -1,0 +1,584 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ôn từ vựng 2026.10.23</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Bricolage+Grotesque:wght@700;800&display=swap" rel="stylesheet">
+<style>
+/* Layout: one narrow reading column, sticky section tabs, one question card at a time per row. */
+:root{
+  --bg:#F2F6F8; --surface:#FFFFFF; --ink:#12263A; --muted:#566879; --line:#D3DDE5;
+  --primary:#0E5A78; --primary-ink:#FFFFFF; --hl:#E6F36E; --hl-ink:#12263A;
+  --good:#1B7448; --good-bg:#DDF2E5; --bad:#A93420; --bad-bg:#FBE4DD; --soft:#E7EFF4;
+  --display:"Bricolage Grotesque","Be Vietnam Pro",system-ui,sans-serif;
+  --body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D1923; --surface:#14263A; --ink:#E5EEF5; --muted:#9BB0C2; --line:#2A4259;
+    --primary:#62C5EA; --primary-ink:#06222F; --hl:#56661A; --hl-ink:#F4F9D0;
+    --good:#66D394; --good-bg:#143A29; --bad:#FF937C; --bad-bg:#40201A; --soft:#1B3047;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0D1923; --surface:#14263A; --ink:#E5EEF5; --muted:#9BB0C2; --line:#2A4259;
+  --primary:#62C5EA; --primary-ink:#06222F; --hl:#56661A; --hl-ink:#F4F9D0;
+  --good:#66D394; --good-bg:#143A29; --bad:#FF937C; --bad-bg:#40201A; --soft:#1B3047;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0;padding-inline:16px;padding-block:28px 64px}
+.wrap{max-width:760px;margin-inline:auto}
+header{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.08;margin:0;font-weight:800;text-wrap:balance}
+.lead{margin:0;color:var(--muted);max-width:62ch}
+.stats{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.bar{flex:1 1 200px;min-width:0;height:8px;border-radius:99px;background:var(--soft);overflow:hidden}
+.bar>i{display:block;height:100%;width:0;background:var(--primary);transition:width .3s}
+.num{font-variant-numeric:tabular-nums;font-size:14px;color:var(--muted)}
+.num b{color:var(--ink)}
+button{font:inherit;color:inherit;cursor:pointer}
+.ghost{background:none;border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:13px;color:var(--muted)}
+.ghost:hover{border-color:var(--primary);color:var(--ink)}
+:focus-visible{outline:3px solid var(--primary);outline-offset:2px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:8px;margin-bottom:12px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+.tab{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:7px 14px;font-size:14px;font-weight:500;white-space:nowrap}
+.tab small{color:var(--muted);font-variant-numeric:tabular-nums;margin-left:6px;font-weight:400}
+.tab[aria-selected="true"]{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+.tab[aria-selected="true"] small{color:inherit;opacity:.85}
+.note{background:var(--soft);border-radius:12px;padding:14px 16px;margin-bottom:16px;font-size:15px}
+.note h2{font-family:var(--display);font-size:20px;margin:0 0 4px;font-weight:700}
+.note p{margin:0}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px;display:flex;flex-direction:column;gap:10px}
+.qh{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.qn{font-family:var(--display);font-weight:800;font-size:15px;color:var(--primary);font-variant-numeric:tabular-nums}
+.ctx{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.sent{font-size:18px;line-height:1.7;margin:0;text-wrap:pretty}
+.slot{display:inline-block;min-width:4.5ch;padding:0 8px;border-radius:6px;background:var(--hl);color:var(--hl-ink);font-weight:600;text-align:center;vertical-align:baseline}
+.slot.empty{color:transparent;user-select:none}
+.slot.good{background:var(--good-bg);color:var(--good)}
+.slot.bad{background:var(--bad-bg);color:var(--bad);text-decoration:line-through}
+input.blank{font:inherit;font-weight:600;width:11ch;max-width:100%;padding:1px 8px;border:2px solid var(--hl);border-radius:6px;background:var(--surface);color:var(--ink);text-align:center}
+input.blank:focus{outline:none;border-color:var(--primary)}
+input.blank.good{border-color:var(--good);color:var(--good);background:var(--good-bg)}
+input.blank.bad{border-color:var(--bad);color:var(--bad);background:var(--bad-bg)}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt,.check{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:8px 14px;font-size:15px;font-weight:500}
+.opt:hover:not(:disabled){border-color:var(--primary);background:var(--soft)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--good);background:var(--good-bg);color:var(--good)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-bg);color:var(--bad)}
+.check{align-self:flex-start;background:var(--primary);border-color:var(--primary);color:var(--primary-ink);font-weight:600}
+.fb{border-radius:8px;padding:10px 12px;font-size:15px}
+.fb.good{background:var(--good-bg)}
+.fb.bad{background:var(--bad-bg)}
+.fb .tag{font-weight:700;margin-right:8px}
+.fb.good .tag{color:var(--good)}
+.fb.bad .tag{color:var(--bad)}
+.fb p{margin:4px 0 0}
+.vi{color:var(--muted);font-size:14px}
+.retry{align-self:flex-start}
+.wordline{margin:8px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.wordline b{font-size:16px}
+.wordline .ipa{color:var(--muted);font-size:15px}
+.wordline .say{padding:4px 12px 4px 8px}
+.newwords{color:var(--ink);font-size:14px}
+.newwords span{white-space:normal}
+.hintrow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.hinttext{font-size:14px;color:var(--muted)}
+.listen{display:flex;flex-wrap:wrap;align-items:center;gap:8px;border-top:1px solid var(--line);padding-top:10px}
+.say{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:6px 14px 6px 10px;font-size:14px;font-weight:500}
+.say svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;color:var(--primary)}
+.say:hover:not(:disabled){border-color:var(--primary);background:var(--soft)}
+.say:disabled{opacity:.45;cursor:default}
+.say svg[hidden]{display:none}
+.say.on{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+.say.on svg{color:var(--primary-ink)}
+.listen .hint{font-size:13px;color:var(--muted)}
+.foot{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;margin-top:8px}
+.empty-state{text-align:center;color:var(--muted);padding:32px 12px;background:var(--surface);border:1px dashed var(--line);border-radius:12px}
+.theme{position:absolute;top:calc(12px + env(safe-area-inset-top,0px));right:16px}
+
+.spwords{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;font-size:14px}
+.spwords .chip{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);background:var(--soft);border-radius:99px;padding:3px 10px;font-size:13px;font-weight:600}
+.spwords .chip.used{border-color:var(--good);background:var(--good-bg);color:var(--good)}
+.rec{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.recbtn{border:1px solid var(--bad);background:var(--surface);color:var(--bad);border-radius:99px;padding:8px 16px;font-weight:600;font-size:15px}
+.recbtn.stop{background:var(--bad);color:#fff}
+.recbtn:disabled{opacity:.45;cursor:default}
+.rectime{font-variant-numeric:tabular-nums;font-size:14px;color:var(--muted)}
+.recmsg{font-size:14px;color:var(--muted);flex-basis:100%}
+.manual{font-size:14px}
+.manual summary{cursor:pointer;color:var(--muted)}
+.manual textarea{width:100%;min-height:90px;margin:8px 0;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit}
+.spres{border-radius:8px;padding:12px;background:var(--soft);display:flex;flex-direction:column;gap:10px;font-size:15px}
+.spres audio{width:100%}
+.spres .tr{margin:0;font-style:italic}
+.bands{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px}
+.band{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.band b{display:block;font-size:13px;color:var(--muted);font-weight:600}
+.band .n{font-family:var(--display);font-weight:800;font-size:24px;color:var(--primary)}
+.band p{margin:4px 0 0;font-size:13px;color:var(--ink)}
+.overall{font-weight:700}
+.overall .n{font-family:var(--display);font-size:28px;color:var(--primary);margin-left:6px}
+.disc{font-size:12px;color:var(--muted);margin:0}
+.sample{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:14px}
+.sample summary{cursor:pointer;font-weight:600}
+@media (max-width:480px){.sent{font-size:17px}}
+@media (prefers-reduced-motion:reduce){.bar>i{transition:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Ôn tập hằng ngày · B1+ – B2 · 23/10/2026</span>
+    <h1>Ôn từ vựng hôm nay</h1>
+    <p class="lead">Hôm nay có 29 từ. Mỗi từ làm 1 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (87 câu), sau đó là 10 câu nói vận dụng có ghi âm và chấm theo 4 tiêu chí IELTS Speaking, mức B1+–B2. Câu nào cũng có nút nghe.</p>
+  </header>
+
+  <div class="stats" aria-label="Tiến độ">
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" id="pbar"><i id="pfill"></i></div>
+    <span class="num" id="pnum"></span>
+    <button class="ghost" id="resetAll" type="button">Làm lại từ đầu</button>
+  </div>
+
+  <nav aria-label="Các phần bài tập"><div class="tabs" role="tablist" id="tabs"></div></nav>
+  <main id="view"></main>
+</div>
+
+<script>
+(function(){
+  /* ---------- content (injected by build_page.py from content.json) ---------- */
+  const DATA={"meta": {"title": "Ôn từ vựng 2026.10.23", "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 23/10/2026", "h1": "Ôn từ vựng hôm nay", "lead": "Hôm nay có 29 từ. Mỗi từ làm 1 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (87 câu), sau đó là 10 câu nói vận dụng có ghi âm và chấm theo 4 tiêu chí IELTS Speaking, mức B1+–B2. Câu nào cũng có nút nghe.", "storageKey": "vocab-2026.10.23-v6", "voice": "en-US-EmmaMultilingualNeural", "audioVersion": "emma202610230700"}, "sections": [{"id": "s1", "title": "Viết từ", "note": "Gõ từ hoặc cụm còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.", "qs": [{"type": "tx", "ctx": "Running late", "s": "Because she was running late, Lena grabbed a bowl of ___ with cold milk, which was much quicker than cooking eggs and toast.", "acc": ["cereal", "cereals"], "vi": "Vì đang trễ giờ, Lena vội lấy một tô ngũ cốc với sữa lạnh, nhanh hơn nhiều so với việc nấu trứng và nướng bánh mì.", "why": "cereal = ngũ cốc, vừa là món ăn sáng (với sữa) vừa là cây trồng như lúa mì, lúa gạo.", "hint": "Nghĩa: Ngũ cốc", "new": [{"w": "grabbed", "vi": "vội lấy"}, {"w": "running late", "vi": "bị trễ giờ"}], "tw": "cereal", "ipa": "/ˈsɪr.i.əl/"}, {"type": "tx", "ctx": "Noisy neighbours", "s": "The constant noise from the building site next door is ___ me crazy, so I might ask the council to step in.", "acc": ["driving"], "vi": "Tiếng ồn liên tục từ công trường bên cạnh đang làm tôi phát điên nên có thể tôi sẽ nhờ hội đồng thành phố can thiệp.", "why": "drive sb crazy = làm ai bực mình đến phát điên; cấu trúc: drive + người + crazy (cũng có drive sb mad / up the wall).", "hint": "Nghĩa: Làm ai phát điên / khiến ai cực kỳ khó chịu", "new": [{"w": "building site", "vi": "công trường"}, {"w": "step in", "vi": "can thiệp"}], "tw": "drive sb crazy"}, {"type": "tx", "ctx": "Stock market", "s": "Share prices doubled within a year, but an old saying warns that what goes up must ___, so investors should not be too confident.", "acc": ["come down"], "vi": "Giá cổ phiếu tăng gấp đôi trong một năm, nhưng câu tục ngữ cũ cảnh báo rằng cái gì lên cao cũng phải xuống, nên nhà đầu tư đừng quá tự tin.", "why": "What goes up must come down = cái gì tăng lên rồi cũng sẽ giảm; thường nói về giá cả, thị trường, sự nổi tiếng.", "hint": "Nghĩa: Cái gì đi lên thì cũng phải đi xuống", "new": [{"w": "share prices", "vi": "giá cổ phiếu"}, {"w": "investors", "vi": "nhà đầu tư"}], "tw": "What goes up must come down"}, {"type": "tx", "ctx": "Team meeting", "s": "At the end of the meeting, the manager asked everyone to ___ the folders down the line until each person had a copy.", "acc": ["pass"], "vi": "Cuối cuộc họp, quản lý yêu cầu mọi người chuyền các tập hồ sơ dọc theo hàng cho đến khi ai cũng có một bản.", "why": "pass sth down the line = chuyền vật từ người này sang người kế tiếp trong một hàng; cũng dùng cho thông tin truyền xuống cấp dưới.", "hint": "Nghĩa: Chuyền thứ gì dọc theo hàng người", "new": [{"w": "folders", "vi": "tập hồ sơ"}], "tw": "pass sth down the line", "ipa": "/pɑːs daʊn ðə laɪn/"}, {"type": "tx", "ctx": "Country life", "s": "My grandfather could never ___ living in a big city, because he loves the quiet of the countryside and knows all his neighbours.", "acc": ["imagine"], "vi": "Ông tôi không bao giờ có thể tưởng tượng việc sống ở thành phố lớn vì ông yêu sự yên tĩnh của miền quê và biết hết hàng xóm.", "why": "imagine + V-ing = tưởng tượng việc làm gì (không dùng to V): can't imagine living / being...", "hint": "Nghĩa: Tưởng tượng việc làm gì", "new": [{"w": "countryside", "vi": "miền quê"}], "tw": "imagine doing", "ipa": "/ɪˈmædʒ.ɪn/"}, {"type": "tx", "ctx": "House hunting", "s": "After weeks of searching, the couple finally found a small café in the right ___, close to both the station and the university.", "acc": ["spot"], "vi": "Sau nhiều tuần tìm kiếm, cặp đôi cuối cùng tìm được một quán cà phê nhỏ ở đúng vị trí, gần cả nhà ga lẫn trường đại học.", "why": "in the right spot = ở đúng chỗ / đúng vị trí; cũng có thể nói in the right place.", "hint": "Nghĩa: Ở đúng vị trí", "new": [{"w": "close to", "vi": "gần"}], "tw": "in the right spot", "ipa": "/ɪn ðə raɪt spɒt/"}, {"type": "tx", "ctx": "Commuting", "s": "It ___ most commuters nearly an hour to reach the city centre during rush hour, although the distance is only fifteen kilometres.", "acc": ["takes"], "vi": "Hầu hết người đi làm mất gần một giờ để vào trung tâm vào giờ cao điểm, dù quãng đường chỉ mười lăm cây số.", "why": "It takes + người + khoảng thời gian + to V = ai đó mất bao lâu để làm gì (quá khứ: it took).", "hint": "Nghĩa: Mất bao lâu để hoàn thành", "new": [{"w": "commuters", "vi": "người đi làm xa"}, {"w": "rush hour", "vi": "giờ cao điểm"}], "tw": "it takes sb time to do sth", "ipa": "/teɪk/"}, {"type": "tx", "ctx": "Marathon", "s": "The marathon winner finished in just ___ two hours, which means he beat the old record of two hours and three minutes.", "acc": ["under"], "vi": "Người thắng cuộc marathon về đích trong chưa đến hai giờ, nghĩa là anh phá kỷ lục cũ là hai giờ ba phút.", "why": "just under + số = chỉ thiếu một chút so với số đó (đối lập: just over).", "hint": "Nghĩa: Chưa đến, ít hơn một chút", "new": [{"w": "record", "vi": "kỷ lục"}], "tw": "just under", "ipa": "/dʒʌst ˈʌn.dər/"}, {"type": "tx", "ctx": "Business trip", "s": "Because the manager was in a ___ to catch his flight, he signed the contract without reading every page, which he later regretted.", "acc": ["hurry"], "vi": "Vì quản lý đang vội bắt chuyến bay, ông ký hợp đồng mà không đọc từng trang, điều mà sau này ông hối tiếc.", "why": "be in a hurry = đang vội; thường đi với to V: be in a hurry to catch a train.", "hint": "Nghĩa: Vội vã", "new": [{"w": "contract", "vi": "hợp đồng"}, {"w": "regretted", "vi": "hối tiếc"}], "tw": "be in a hurry", "ipa": "/ɪn ə ˈhʌri/"}, {"type": "tx", "ctx": "Football stadium", "s": "We arrived late at the stadium, but there was ___ to park within two kilometres, so we had to take a taxi instead.", "acc": ["nowhere"], "vi": "Chúng tôi đến sân vận động muộn nhưng không có chỗ đậu xe trong vòng hai cây số nên phải đi taxi.", "why": "there is nowhere to park = không có chỗ đậu xe; nowhere + to V.", "hint": "Nghĩa: Không có chỗ đậu xe", "new": [{"w": "stadium", "vi": "sân vận động"}], "tw": "there is nowhere to park", "ipa": "/ˈnəʊweə tə pɑːk/"}, {"type": "tx", "ctx": "Night market", "s": "Despite being a small town, the market square is surprisingly ___ at night, with street musicians and food stalls attracting crowds of tourists.", "acc": ["lively"], "vi": "Dù là thị trấn nhỏ, quảng trường chợ lại náo nhiệt đáng ngạc nhiên vào ban đêm, với nhạc sĩ đường phố và quầy ăn thu hút đông du khách.", "why": "lively = sôi động, đông vui (nơi chốn, buổi thảo luận); trái nghĩa: dull, quiet.", "hint": "Nghĩa: Sôi động, náo nhiệt", "new": [{"w": "food stalls", "vi": "quầy bán đồ ăn"}], "tw": "lively", "ipa": "/ˈlaɪvli/"}, {"type": "tx", "ctx": "University lecture", "s": "Although the lecture was supposed to be inspiring, most students found it so ___ that they started checking their phones.", "acc": ["dull"], "vi": "Dù bài giảng lẽ ra phải truyền cảm hứng, hầu hết sinh viên thấy nó chán đến mức bắt đầu xem điện thoại.", "why": "dull = buồn tẻ, nhàm chán (bài giảng, cuộc sống); cũng có nghĩa 'xỉn màu' hoặc 'âm ỉ' (dull pain).", "hint": "Nghĩa: Buồn tẻ", "new": [{"w": "inspiring", "vi": "truyền cảm hứng"}], "tw": "dull", "ipa": "/dʌl/"}, {"type": "tx", "ctx": "Small town", "s": "Apart from a small museum, there isn't ___ to do in the town, so teenagers often travel to the capital at weekends.", "acc": ["much"], "vi": "Ngoài một bảo tàng nhỏ, thị trấn không có nhiều thứ để làm nên thanh thiếu niên thường lên thủ đô vào cuối tuần.", "why": "there isn't much to do (somewhere) = nơi đó ít hoạt động giải trí; much đi với danh từ không đếm được.", "hint": "Nghĩa: Không có nhiều hoạt động để làm", "new": [{"w": "teenagers", "vi": "thanh thiếu niên"}], "tw": "there isn't much to do", "ipa": "/ðeər ˈɪz.ənt mʌtʃ tə duː/"}, {"type": "tx", "ctx": "Village facilities", "s": "___ from a few small shops, the village has no facilities, so residents drive to the nearest town for almost everything.", "acc": ["apart"], "vi": "Ngoài vài cửa hàng nhỏ, làng không có tiện ích nào nên cư dân lái xe đến thị trấn gần nhất để mua hầu hết mọi thứ.", "why": "apart from + N/V-ing = ngoài ra / ngoại trừ; gần nghĩa với except for.", "hint": "Nghĩa: Ngoài, ngoại trừ", "new": [{"w": "facilities", "vi": "tiện ích"}], "tw": "apart from", "ipa": "/əˈpɑːt frəm/"}, {"type": "tx", "ctx": "Rural transport", "s": "The bus service in the countryside is ___; sometimes no bus comes for three hours, so people without cars feel trapped.", "acc": ["hopeless"], "vi": "Dịch vụ xe buýt ở nông thôn rất tệ; đôi khi ba giờ không có chuyến nào nên người không có xe cảm thấy bị mắc kẹt.", "why": "hopeless = rất tệ, vô dụng (khẩu ngữ: be hopeless at sth) hoặc vô vọng.", "hint": "Nghĩa: Rất tệ, không hiệu quả; vô vọng", "new": [{"w": "trapped", "vi": "bị mắc kẹt"}], "tw": "hopeless", "ipa": "/ˈhəʊp.ləs/"}, {"type": "tx", "ctx": "Hotel view", "s": "From the top of the ___ behind our hotel, we could see the whole bay, which made the steep climb worth the effort.", "acc": ["hill", "hills"], "vi": "Từ đỉnh đồi phía sau khách sạn, chúng tôi nhìn thấy cả vịnh, điều khiến việc leo dốc đứng trở nên xứng đáng.", "why": "hill = đồi (thấp hơn mountain); on a hill, the top of the hill.", "hint": "Nghĩa: Đồi", "new": [{"w": "steep", "vi": "dốc đứng"}, {"w": "bay", "vi": "vịnh"}], "tw": "hill", "ipa": "/hɪl/"}, {"type": "tx", "ctx": "Hiking trip", "s": "A thick mist covered the ___ below, so the hikers could only see the tops of the pine trees from the path.", "acc": ["valley", "valleys"], "vi": "Sương mù dày phủ thung lũng bên dưới nên người đi bộ đường dài chỉ thấy ngọn cây thông từ lối mòn.", "why": "valley = thung lũng nằm giữa các ngọn đồi hoặc núi, thường có sông chảy qua.", "hint": "Nghĩa: Thung lũng", "new": [{"w": "mist", "vi": "sương mù"}, {"w": "pine", "vi": "cây thông"}], "tw": "valley", "ipa": "/ˈvæl.i/"}, {"type": "tx", "ctx": "Farm morning", "s": "Every morning the farmer walks across the ___ to check whether the wheat has grown, although the weather has been unusually dry.", "acc": ["field", "fields"], "vi": "Mỗi sáng người nông dân đi qua cánh đồng xem lúa mì đã lớn chưa, dù thời tiết khô bất thường.", "why": "field = cánh đồng, đồng ruộng; cũng nghĩa là lĩnh vực (field of study).", "hint": "Nghĩa: Cánh đồng", "new": [{"w": "wheat", "vi": "lúa mì"}], "tw": "field", "ipa": "/fiːld/"}, {"type": "tx", "ctx": "Retirement", "s": "After retiring, my aunt moved into an old ___ surrounded by apple trees, where she spends her days baking and gardening.", "acc": ["farmhouse"], "vi": "Sau khi nghỉ hưu, dì tôi chuyển vào một ngôi nhà trang trại cũ có cây táo bao quanh, nơi dì dành ngày để nướng bánh và làm vườn.", "why": "farmhouse = ngôi nhà chính của một trang trại, thường ở nông thôn.", "hint": "Nghĩa: Nhà ở trong trang trại", "new": [{"w": "retiring", "vi": "nghỉ hưu"}], "tw": "farmhouse", "ipa": "/ˈfɑːm.haʊs/"}, {"type": "tx", "ctx": "Muddy ditch", "s": "Because the field was too muddy to walk across, the farmer used a ___ to pull the heavy cart out of the ditch.", "acc": ["tractor"], "vi": "Vì cánh đồng quá lầy để đi bộ, người nông dân dùng máy kéo kéo chiếc xe chở nặng ra khỏi mương.", "why": "tractor = máy kéo nông nghiệp; use a tractor to plough / pull.", "hint": "Nghĩa: Máy kéo", "new": [{"w": "ditch", "vi": "mương"}], "tw": "tractor", "ipa": "/ˈtræk.tər/"}, {"type": "tx", "ctx": "Garden protection", "s": "The farmer built a high wooden ___ around the garden so that the sheep could not eat his vegetables.", "acc": ["fence", "fences"], "vi": "Người nông dân dựng hàng rào gỗ cao quanh vườn để cừu không ăn rau của ông.", "why": "fence = hàng rào (gỗ, kim loại) quanh vườn, ruộng; put up / climb over a fence.", "hint": "Nghĩa: Hàng rào", "new": [{"w": "sheep", "vi": "con cừu"}], "tw": "fence", "ipa": "/fens/"}, {"type": "tx", "ctx": "Countryside rules", "s": "Visitors are asked to close the ___ behind them, otherwise the cows may wander onto the road and cause an accident.", "acc": ["gate", "gates"], "vi": "Khách được yêu cầu đóng cổng lại phía sau, nếu không bò có thể lang thang ra đường gây tai nạn.", "why": "gate = cổng (vườn, nhà, sân bay); close/lock the gate.", "hint": "Nghĩa: Cổng", "new": [{"w": "wander", "vi": "đi lang thang"}], "tw": "gate", "ipa": "/ɡeɪt/"}, {"type": "tx", "ctx": "Short cut", "s": "Instead of taking the main road, we followed a narrow ___ across the fields, which saved us nearly twenty minutes.", "acc": ["footpath", "footpaths"], "vi": "Thay vì đi đường chính, chúng tôi đi theo lối mòn hẹp qua cánh đồng, tiết kiệm gần hai mươi phút.", "why": "footpath = lối đi bộ, đường mòn cho người đi bộ qua đồng quê.", "hint": "Nghĩa: Lối đi bộ, đường mòn dành cho người đi bộ", "new": [{"w": "saved", "vi": "tiết kiệm (thời gian)"}], "tw": "footpath", "ipa": "/ˈfʊt.pɑːθ/"}, {"type": "tx", "ctx": "After the storm", "s": "After the storm, a heavy ___ fell from the old oak and blocked the entrance, so the council sent workers to remove it.", "acc": ["branch", "branches"], "vi": "Sau bão, một cành to rơi từ cây sồi già và chặn lối vào nên hội đồng cử công nhân đến dọn.", "why": "branch = cành cây; ngoài ra còn là chi nhánh (ngân hàng).", "hint": "Nghĩa: Cành cây", "new": [{"w": "oak", "vi": "cây sồi"}], "tw": "branch", "ipa": "/brɑːntʃ/"}, {"type": "tx", "ctx": "Autumn tourism", "s": "In autumn the ___ on the maple trees turn bright red, and thousands of tourists visit the park to take photographs.", "acc": ["leaves"], "vi": "Vào mùa thu lá cây phong chuyển sang đỏ rực và hàng nghìn du khách đến công viên chụp ảnh.", "why": "leaves = lá (số nhiều của leaf); fall leaves / autumn leaves.", "hint": "Nghĩa: Những chiếc lá", "new": [{"w": "maple", "vi": "cây phong"}], "tw": "leaves", "ipa": "/liːvz/"}, {"type": "tx", "ctx": "Storm safety", "s": "Strong ___ help a tree stay in the ground during storms, and they also absorb the water that the tree needs to survive.", "acc": ["roots", "root"], "vi": "Rễ khỏe giúp cây đứng vững trong đất khi có bão và cũng hút nước mà cây cần để sống.", "why": "roots = rễ cây; cũng là gốc gác, nguồn gốc (cultural roots).", "hint": "Nghĩa: Rễ cây", "new": [{"w": "absorb", "vi": "hút"}], "tw": "roots", "ipa": "/ruːts/"}, {"type": "tx", "ctx": "Muddy walk", "s": "After the heavy rain, the ___ was so soft that our boots sank deep into the mud with every step.", "acc": ["ground"], "vi": "Sau mưa lớn, mặt đất mềm đến mức giày bốt của chúng tôi lún sâu vào bùn mỗi bước.", "why": "ground = mặt đất; on the ground, under the ground.", "hint": "Nghĩa: Mặt đất", "new": [{"w": "sank", "vi": "lún xuống"}], "tw": "ground", "ipa": "/ɡraʊnd/"}, {"type": "tx", "ctx": "Summer park", "s": "Children love to lie on the soft ___ in the park during summer, although some of them end up with itchy legs.", "acc": ["grass"], "vi": "Trẻ em thích nằm trên bãi cỏ mềm trong công viên mùa hè dù một số bị ngứa chân.", "why": "grass = cỏ (không đếm được); cut the grass, lie on the grass.", "hint": "Nghĩa: Cỏ", "new": [{"w": "itchy", "vi": "ngứa"}], "tw": "grass", "ipa": "/ɡrɑːs/"}, {"type": "tx", "ctx": "Science report", "s": "Scientists have found that every ___ needs sunlight and water, whereas some species can also survive in very dry soil.", "acc": ["plant", "plants"], "vi": "Các nhà khoa học thấy mọi loài cây đều cần ánh nắng và nước, trong khi một số loài còn sống được trong đất rất khô.", "why": "plant = cây, thực vật (danh từ); cũng là nhà máy hoặc động từ 'trồng'.", "hint": "Nghĩa: Cây, thực vật", "new": [{"w": "species", "vi": "loài"}], "tw": "plant", "ipa": "/plɑːnt/"}]}, {"id": "s2", "title": "Chọn từ", "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.", "qs": [{"type": "mc", "ctx": "Farming news", "s": "Farmers in the region are worried that a long drought will reduce the harvest of ___ crops such as wheat and rice, which means food prices may rise.", "o": ["cereal", "dairy", "cotton"], "a": "cereal", "vi": "Nông dân trong vùng lo rằng hạn hán kéo dài sẽ làm giảm vụ thu hoạch các loại cây ngũ cốc như lúa mì và gạo, nghĩa là giá thực phẩm có thể tăng.", "why": "cereal = ngũ cốc, vừa là món ăn sáng (với sữa) vừa là cây trồng như lúa mì, lúa gạo.", "new": [{"w": "drought", "vi": "hạn hán"}, {"w": "harvest", "vi": "vụ thu hoạch"}], "tw": "cereal", "ipa": "/ˈsɪr.i.əl/"}, {"type": "mc", "ctx": "Exam hall", "s": "If you keep tapping your pen during the exam, you will ___ the other students crazy, even though you do not mean to.", "o": ["drive", "pull", "carry"], "a": "drive", "vi": "Nếu bạn cứ gõ bút trong lúc thi, bạn sẽ làm các thí sinh khác phát điên, dù bạn không cố ý.", "why": "drive sb crazy = làm ai bực mình đến phát điên; cấu trúc: drive + người + crazy (cũng có drive sb mad / up the wall).", "new": [{"w": "tapping", "vi": "gõ nhịp nhẹ"}], "tw": "drive sb crazy"}, {"type": "mc", "ctx": "Science class", "s": "Our teacher dropped a ball from the balcony and reminded us of the old saying that what goes up must ___ down sooner or later.", "o": ["come", "stay", "grow"], "a": "come", "vi": "Giáo viên thả một quả bóng từ ban công và nhắc chúng tôi câu nói cũ rằng cái gì đi lên sớm muộn cũng phải đi xuống.", "why": "What goes up must come down = cái gì tăng lên rồi cũng sẽ giảm; thường nói về giá cả, thị trường, sự nổi tiếng.", "new": [{"w": "balcony", "vi": "ban công"}], "tw": "What goes up must come down"}, {"type": "mc", "ctx": "Fire emergency", "s": "Volunteers formed a long chain and ___ the buckets of water down the line, so the fire was put out before the fire engine arrived.", "o": ["passed", "kept", "spent"], "a": "passed", "vi": "Các tình nguyện viên xếp thành hàng dài và chuyền những xô nước dọc theo hàng nên đám cháy được dập trước khi xe cứu hỏa đến.", "why": "pass sth down the line = chuyền vật từ người này sang người kế tiếp trong một hàng; cũng dùng cho thông tin truyền xuống cấp dưới.", "new": [{"w": "bucket", "vi": "cái xô"}, {"w": "put out", "vi": "dập tắt"}], "tw": "pass sth down the line", "ipa": "/pɑːs daʊn ðə laɪn/"}, {"type": "mc", "ctx": "Friendship", "s": "Despite the long delay, I can't ___ being angry with her, because she always apologises sincerely and tries to make up for it.", "o": ["imagine", "hope", "decide"], "a": "imagine", "vi": "Dù bị chậm trễ lâu, tôi không thể tưởng tượng việc giận cô ấy vì cô luôn xin lỗi chân thành và cố bù đắp.", "why": "imagine + V-ing = tưởng tượng việc làm gì (không dùng to V): can't imagine living / being...", "new": [{"w": "sincerely", "vi": "chân thành"}, {"w": "make up for", "vi": "bù đắp"}], "tw": "imagine doing", "ipa": "/ɪˈmædʒ.ɪn/"}, {"type": "mc", "ctx": "Football match", "s": "The goalkeeper managed to save the shot because he was standing in the right ___ at exactly the right moment.", "o": ["spot", "habit", "pocket"], "a": "spot", "vi": "Thủ môn cản được cú sút vì anh đứng đúng vị trí vào đúng khoảnh khắc.", "why": "in the right spot = ở đúng chỗ / đúng vị trí; cũng có thể nói in the right place.", "new": [{"w": "goalkeeper", "vi": "thủ môn"}, {"w": "save a shot", "vi": "cản cú sút"}], "tw": "in the right spot", "ipa": "/ɪn ðə raɪt spɒt/"}, {"type": "mc", "ctx": "Road repairs", "s": "Although the road repairs were supposed to be quick, it ___ the workers three whole weeks to finish them.", "o": ["took", "lasted", "spent"], "a": "took", "vi": "Dù việc sửa đường lẽ ra phải nhanh, các công nhân vẫn mất trọn ba tuần để hoàn thành.", "why": "It takes + người + khoảng thời gian + to V = ai đó mất bao lâu để làm gì (quá khứ: it took).", "new": [{"w": "repairs", "vi": "việc sửa chữa"}], "tw": "it takes sb time to do sth", "ipa": "/teɪk/"}, {"type": "mc", "ctx": "Restaurant bill", "s": "The bill came to just ___ fifty euros, so the waiter gave us back a few coins from our fifty-euro note.", "o": ["under", "over", "above"], "a": "under", "vi": "Hóa đơn chưa đến năm mươi euro nên người phục vụ trả lại cho chúng tôi vài đồng xu từ tờ năm mươi euro.", "why": "just under + số = chỉ thiếu một chút so với số đó (đối lập: just over).", "new": [{"w": "bill", "vi": "hóa đơn"}, {"w": "note", "vi": "tờ tiền giấy"}], "tw": "just under", "ipa": "/dʒʌst ˈʌn.dər/"}, {"type": "mc", "ctx": "Shop counter", "s": "Mai was in a ___ to leave the shop, so she did not even wait for her change and walked straight out.", "o": ["hurry", "pocket", "corner"], "a": "hurry", "vi": "Mai đang vội rời cửa hàng nên cô thậm chí không đợi tiền thừa mà đi thẳng ra ngoài.", "why": "be in a hurry = đang vội; thường đi với to V: be in a hurry to catch a train.", "new": [{"w": "change", "vi": "tiền thừa"}], "tw": "be in a hurry", "ipa": "/ɪn ə ˈhʌri/"}, {"type": "mc", "ctx": "Old town", "s": "Many shop owners in the old town complain that there is ___ to park, so customers prefer the shopping mall instead.", "o": ["nowhere", "anywhere", "somewhere"], "a": "nowhere", "vi": "Nhiều chủ cửa hàng ở khu phố cổ phàn nàn rằng không có chỗ đậu xe nên khách thích trung tâm mua sắm hơn.", "why": "there is nowhere to park = không có chỗ đậu xe; nowhere + to V.", "new": [{"w": "shopping mall", "vi": "trung tâm thương mại"}], "tw": "there is nowhere to park", "ipa": "/ˈnəʊweə tə pɑːk/"}, {"type": "mc", "ctx": "Travel blog", "s": "We chose a hotel in the harbour district because the area is ___ all year round, and the cafés stay open until midnight.", "o": ["lively", "empty", "gloomy"], "a": "lively", "vi": "Chúng tôi chọn khách sạn ở khu cảng vì khu này náo nhiệt quanh năm và các quán cà phê mở đến nửa đêm.", "why": "lively = sôi động, đông vui (nơi chốn, buổi thảo luận); trái nghĩa: dull, quiet.", "new": [{"w": "harbour", "vi": "bến cảng"}], "tw": "lively", "ipa": "/ˈlaɪvli/"}, {"type": "mc", "ctx": "Holiday blues", "s": "After finishing his exams, Tom found the first week of the holiday rather ___, because his friends were away and nothing was on television.", "o": ["dull", "thrilling", "lively"], "a": "dull", "vi": "Sau khi thi xong, Tom thấy tuần đầu kỳ nghỉ khá buồn tẻ vì bạn bè đi vắng và ti vi chẳng có gì hay.", "why": "dull = buồn tẻ, nhàm chán (bài giảng, cuộc sống); cũng có nghĩa 'xỉn màu' hoặc 'âm ỉ' (dull pain).", "new": [{"w": "away", "vi": "đi vắng"}], "tw": "dull", "ipa": "/dʌl/"}, {"type": "mc", "ctx": "Village evening", "s": "Young people say that after six o'clock there isn't ___ to do in the village, because the shops close early and the only café is empty.", "o": ["much", "many", "few"], "a": "much", "vi": "Người trẻ nói sau sáu giờ làng không có nhiều thứ để làm vì cửa hàng đóng sớm và quán cà phê duy nhất vắng khách.", "why": "there isn't much to do (somewhere) = nơi đó ít hoạt động giải trí; much đi với danh từ không đếm được.", "new": [{"w": "empty", "vi": "vắng vẻ"}], "tw": "there isn't much to do", "ipa": "/ðeər ˈɪz.ənt mʌtʃ tə duː/"}, {"type": "mc", "ctx": "Apartment viewing", "s": "___ from the high rent, the apartment seemed perfect: it was bright, quiet, and only five minutes from the metro.", "o": ["Apart", "Except", "Instead"], "a": "Apart", "vi": "Ngoài tiền thuê cao, căn hộ có vẻ hoàn hảo: sáng sủa, yên tĩnh và chỉ cách tàu điện năm phút.", "why": "apart from + N/V-ing = ngoài ra / ngoại trừ; gần nghĩa với except for.", "new": [{"w": "metro", "vi": "tàu điện ngầm"}], "tw": "apart from", "ipa": "/əˈpɑːt frəm/"}, {"type": "mc", "ctx": "School IT", "s": "The Wi-Fi at our school is absolutely ___, so teachers waste half of every lesson trying to reconnect the projector.", "o": ["hopeless", "reliable", "frequent"], "a": "hopeless", "vi": "Wi-Fi ở trường chúng tôi tệ hết chỗ nói nên giáo viên mất nửa tiết để nối lại máy chiếu.", "why": "hopeless = rất tệ, vô dụng (khẩu ngữ: be hopeless at sth) hoặc vô vọng.", "new": [{"w": "projector", "vi": "máy chiếu"}, {"w": "reconnect", "vi": "kết nối lại"}], "tw": "hopeless", "ipa": "/ˈhəʊp.ləs/"}, {"type": "mc", "ctx": "Rural walk", "s": "The old church stands on a green ___ overlooking the river, and visitors say the view is especially beautiful at sunset.", "o": ["hill", "lake", "tunnel"], "a": "hill", "vi": "Nhà thờ cổ nằm trên một ngọn đồi xanh nhìn xuống sông, và du khách nói cảnh đẹp nhất lúc hoàng hôn.", "why": "hill = đồi (thấp hơn mountain); on a hill, the top of the hill.", "new": [{"w": "overlooking", "vi": "nhìn xuống"}], "tw": "hill", "ipa": "/hɪl/"}, {"type": "mc", "ctx": "Geography class", "s": "Rice terraces fill the ___ between two mountain ranges, and a river runs through its centre, supplying water all year.", "o": ["valley", "peak", "storm"], "a": "valley", "vi": "Ruộng bậc thang lấp đầy thung lũng giữa hai dãy núi và một con sông chảy qua giữa, cung cấp nước quanh năm.", "why": "valley = thung lũng nằm giữa các ngọn đồi hoặc núi, thường có sông chảy qua.", "new": [{"w": "terraces", "vi": "ruộng bậc thang"}, {"w": "mountain range", "vi": "dãy núi"}], "tw": "valley", "ipa": "/ˈvæl.i/"}, {"type": "mc", "ctx": "Countryside drive", "s": "Cows were grazing in a large ___ next to the road, and a wooden gate separated them from the narrow lane.", "o": ["field", "ceiling", "wardrobe"], "a": "field", "vi": "Bò đang gặm cỏ trong một cánh đồng rộng cạnh đường và một cổng gỗ ngăn chúng với con đường hẹp.", "why": "field = cánh đồng, đồng ruộng; cũng nghĩa là lĩnh vực (field of study).", "new": [{"w": "grazing", "vi": "gặm cỏ"}], "tw": "field", "ipa": "/fiːld/"}, {"type": "mc", "ctx": "Holiday rental", "s": "We booked a stone ___ at the end of a long lane, which means we can enjoy fresh eggs from the chickens every morning.", "o": ["farmhouse", "skyscraper", "warehouse"], "a": "farmhouse", "vi": "Chúng tôi đặt một ngôi nhà trang trại bằng đá cuối con đường dài, nghĩa là sáng nào cũng có trứng gà tươi.", "why": "farmhouse = ngôi nhà chính của một trang trại, thường ở nông thôn.", "new": [{"w": "lane", "vi": "đường làng nhỏ"}], "tw": "farmhouse", "ipa": "/ˈfɑːm.haʊs/"}, {"type": "mc", "ctx": "Early start", "s": "The farmer started his ___ before dawn, so he could finish ploughing the field before the rain arrived in the afternoon.", "o": ["tractor", "kettle", "ladder"], "a": "tractor", "vi": "Người nông dân nổ máy kéo trước bình minh để cày xong cánh đồng trước khi mưa đến vào buổi chiều.", "why": "tractor = máy kéo nông nghiệp; use a tractor to plough / pull.", "new": [{"w": "ploughing", "vi": "cày"}], "tw": "tractor", "ipa": "/ˈtræk.tər/"}, {"type": "mc", "ctx": "Playground safety", "s": "A tall metal ___ runs along the edge of the playground, which was installed last year to keep children away from the busy road.", "o": ["fence", "bucket", "carpet"], "a": "fence", "vi": "Hàng rào kim loại cao chạy dọc sân chơi, được lắp năm ngoái để giữ trẻ em tránh xa con đường đông xe.", "why": "fence = hàng rào (gỗ, kim loại) quanh vườn, ruộng; put up / climb over a fence.", "new": [{"w": "installed", "vi": "được lắp đặt"}], "tw": "fence", "ipa": "/fens/"}, {"type": "mc", "ctx": "Dog escape", "s": "Someone left the front ___ open, so the neighbour's dog ran into the street and was almost hit by a delivery van.", "o": ["gate", "bench", "lamp"], "a": "gate", "vi": "Ai đó để cổng trước mở nên con chó nhà hàng xóm chạy ra đường và suýt bị xe giao hàng tông.", "why": "gate = cổng (vườn, nhà, sân bay); close/lock the gate.", "new": [{"w": "delivery van", "vi": "xe giao hàng"}], "tw": "gate", "ipa": "/ɡeɪt/"}, {"type": "mc", "ctx": "Council news", "s": "The council has repaired the ___ that connects the village with the river, so walkers can enjoy it even after heavy rain.", "o": ["footpath", "motorway", "runway"], "a": "footpath", "vi": "Hội đồng đã sửa lối đi bộ nối làng với con sông nên người đi bộ có thể tận hưởng ngay cả sau mưa lớn.", "why": "footpath = lối đi bộ, đường mòn cho người đi bộ qua đồng quê.", "new": [{"w": "council", "vi": "hội đồng địa phương"}], "tw": "footpath", "ipa": "/ˈfʊt.pɑːθ/"}, {"type": "mc", "ctx": "Garden birds", "s": "Birds built their nest on the highest ___ of the tree, and they return to the same place every spring.", "o": ["branch", "wheel", "pipe"], "a": "branch", "vi": "Chim làm tổ trên cành cao nhất của cây và chúng quay lại đúng chỗ đó mỗi mùa xuân.", "why": "branch = cành cây; ngoài ra còn là chi nhánh (ngân hàng).", "new": [{"w": "nest", "vi": "tổ chim"}], "tw": "branch", "ipa": "/brɑːntʃ/"}, {"type": "mc", "ctx": "Park maintenance", "s": "Gardeners spend October sweeping fallen ___ off the paths, because wet ones become slippery and may cause accidents.", "o": ["leaves", "roots", "trunks"], "a": "leaves", "vi": "Người làm vườn dành cả tháng Mười quét lá rụng khỏi lối đi vì lá ướt rất trơn và có thể gây tai nạn.", "why": "leaves = lá (số nhiều của leaf); fall leaves / autumn leaves.", "new": [{"w": "slippery", "vi": "trơn trượt"}], "tw": "leaves", "ipa": "/liːvz/"}, {"type": "mc", "ctx": "Gardening tip", "s": "The gardener dug carefully around the old tree so as not to damage its ___, because without them it cannot take in water.", "o": ["roots", "fruits", "petals"], "a": "roots", "vi": "Người làm vườn đào cẩn thận quanh cây già để không làm hỏng rễ vì thiếu rễ cây không hút được nước.", "why": "roots = rễ cây; cũng là gốc gác, nguồn gốc (cultural roots).", "new": [{"w": "dug", "vi": "đào (quá khứ)"}], "tw": "roots", "ipa": "/ruːts/"}, {"type": "mc", "ctx": "Picnic problem", "s": "We spread the blanket on the ___, but the soil was damp, so we soon moved to a bench, which was drier.", "o": ["ground", "ceiling", "shelf"], "a": "ground", "vi": "Chúng tôi trải chăn trên mặt đất nhưng đất ẩm nên sớm chuyển sang ghế dài, nơi khô hơn.", "why": "ground = mặt đất; on the ground, under the ground.", "new": [{"w": "damp", "vi": "ẩm ướt"}], "tw": "ground", "ipa": "/ɡraʊnd/"}, {"type": "mc", "ctx": "Garden chores", "s": "Because the ___ grows quickly in spring, my father cuts it every weekend with an electric machine, so that the garden looks tidy.", "o": ["grass", "glass", "grain"], "a": "grass", "vi": "Vì cỏ mọc nhanh vào mùa xuân, bố tôi cắt nó mỗi cuối tuần bằng máy điện để khu vườn gọn gàng.", "why": "grass = cỏ (không đếm được); cut the grass, lie on the grass.", "new": [{"w": "tidy", "vi": "gọn gàng"}], "tw": "grass", "ipa": "/ɡrɑːs/"}, {"type": "mc", "ctx": "Balcony garden", "s": "Choose a ___ that suits your balcony: some need a lot of sunlight, while others grow well in the shade.", "o": ["plant", "stone", "coin"], "a": "plant", "vi": "Hãy chọn một loại cây hợp với ban công: có loại cần nhiều nắng, loại khác lớn tốt trong bóng râm.", "why": "plant = cây, thực vật (danh từ); cũng là nhà máy hoặc động từ 'trồng'.", "new": [{"w": "shade", "vi": "bóng râm"}], "tw": "plant", "ipa": "/plɑːnt/"}]}, {"id": "s3", "title": "Chọn nghĩa", "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.", "qs": [{"type": "mc", "ctx": "Short reading", "s": "A nutritionist advised him to eat less sugary cereal in the morning. Instead, she suggested porridge with fruit, which keeps people full for longer. What does \"cereal\" mean?", "o": ["Ngũ cốc", "Bánh quy", "Mì ăn liền"], "a": "Ngũ cốc", "vi": "Một chuyên gia dinh dưỡng khuyên anh ăn ít ngũ cốc nhiều đường vào buổi sáng. Thay vào đó, cô gợi ý cháo yến mạch với trái cây, giúp no lâu hơn.", "why": "cereal = ngũ cốc, vừa là món ăn sáng (với sữa) vừa là cây trồng như lúa mì, lúa gạo.", "noblank": true, "say": "A nutritionist advised him to eat less sugary cereal in the morning. Instead, she suggested porridge with fruit, which keeps people full for longer.", "new": [{"w": "nutritionist", "vi": "chuyên gia dinh dưỡng"}, {"w": "porridge", "vi": "cháo yến mạch"}], "tw": "cereal", "ipa": "/ˈsɪr.i.əl/"}, {"type": "mc", "ctx": "Short reading", "s": "My flatmate leaves dirty dishes everywhere, and it drives me crazy. Although I have asked her politely, nothing has changed. What does \"drive sb crazy\" mean?", "o": ["Làm tôi bực mình phát điên", "Làm tôi mất ngủ", "Khiến tôi bật cười"], "a": "Làm tôi bực mình phát điên", "vi": "Bạn cùng nhà để bát đĩa bẩn khắp nơi và điều đó làm tôi phát điên. Dù tôi đã nhờ cô ấy một cách lịch sự, mọi thứ vẫn không thay đổi.", "why": "drive sb crazy = làm ai bực mình đến phát điên; cấu trúc: drive + người + crazy (cũng có drive sb mad / up the wall).", "noblank": true, "say": "My flatmate leaves dirty dishes everywhere, and it drives me crazy. Although I have asked her politely, nothing has changed.", "new": [{"w": "flatmate", "vi": "bạn cùng nhà"}, {"w": "dishes", "vi": "bát đĩa"}], "tw": "drive sb crazy"}, {"type": "mc", "ctx": "Short reading", "s": "The housing market boomed for years and then crashed. \"What goes up must come down,\" the economist said with a sigh. What does \"What goes up must come down\" mean?", "o": ["Cái gì tăng lên rồi cũng sẽ giảm xuống", "Làm việc chăm chỉ sẽ thành công", "Đi lên cầu thang thì rất mệt"], "a": "Cái gì tăng lên rồi cũng sẽ giảm xuống", "vi": "Thị trường nhà đất bùng nổ nhiều năm rồi sụp đổ. \"Cái gì lên cao thì cũng phải xuống,\" nhà kinh tế nói và thở dài.", "why": "What goes up must come down = cái gì tăng lên rồi cũng sẽ giảm; thường nói về giá cả, thị trường, sự nổi tiếng.", "noblank": true, "say": "The housing market boomed for years and then crashed. \"What goes up must come down,\" the economist said with a sigh.", "new": [{"w": "boomed", "vi": "bùng nổ"}, {"w": "crashed", "vi": "sụp đổ"}], "tw": "What goes up must come down"}, {"type": "mc", "ctx": "Short reading", "s": "At the concert, people at the front handed the water bottles back to those behind them. Each person passed the bottle down the line until everyone had one. What does \"pass sth down the line\" mean?", "o": ["Chuyền thứ gì dọc theo hàng người", "Ném thứ gì qua đầu người khác", "Giữ lại thứ gì cho riêng mình"], "a": "Chuyền thứ gì dọc theo hàng người", "vi": "Ở buổi hòa nhạc, những người phía trước đưa chai nước ra sau cho người đứng sau. Mỗi người chuyền chai xuống hàng cho đến khi ai cũng có một chai.", "why": "pass sth down the line = chuyền vật từ người này sang người kế tiếp trong một hàng; cũng dùng cho thông tin truyền xuống cấp dưới.", "noblank": true, "say": "At the concert, people at the front handed the water bottles back to those behind them. Each person passed the bottle down the line until everyone had one.", "new": [{"w": "handed back", "vi": "đưa lại phía sau"}], "tw": "pass sth down the line", "ipa": "/pɑːs daʊn ðə laɪn/"}, {"type": "mc", "ctx": "Short reading", "s": "Many students find it hard to imagine living without a smartphone. \"Can you imagine going a whole week without one?\" asked the teacher. What does \"imagine doing\" mean?", "o": ["Tưởng tượng việc làm gì", "Nhớ lại việc đã làm", "Từ chối làm gì"], "a": "Tưởng tượng việc làm gì", "vi": "Nhiều học sinh khó tưởng tượng việc sống thiếu điện thoại thông minh. \"Các em có thể tưởng tượng việc không dùng nó cả tuần không?\" cô giáo hỏi.", "why": "imagine + V-ing = tưởng tượng việc làm gì (không dùng to V): can't imagine living / being...", "noblank": true, "say": "Many students find it hard to imagine living without a smartphone. \"Can you imagine going a whole week without one?\" asked the teacher.", "new": [{"w": "a whole week", "vi": "cả một tuần"}], "tw": "imagine doing", "ipa": "/ɪˈmædʒ.ɪn/"}, {"type": "mc", "ctx": "Short reading", "s": "Plants grow best when they are in the right spot. A young tree that gets enough sunlight and water will develop much faster than one in the shade. What does \"in the right spot\" mean?", "o": ["Ở đúng vị trí", "Vào đúng thời điểm", "Với đúng giá tiền"], "a": "Ở đúng vị trí", "vi": "Cây phát triển tốt nhất khi ở đúng vị trí. Một cây non nhận đủ nắng và nước sẽ lớn nhanh hơn nhiều so với cây trong bóng râm.", "why": "in the right spot = ở đúng chỗ / đúng vị trí; cũng có thể nói in the right place.", "noblank": true, "say": "Plants grow best when they are in the right spot. A young tree that gets enough sunlight and water will develop much faster than one in the shade.", "new": [{"w": "develop", "vi": "phát triển"}], "tw": "in the right spot", "ipa": "/ɪn ðə raɪt spɒt/"}, {"type": "mc", "ctx": "Short reading", "s": "The doctor explained that it usually takes about six weeks for a broken arm to heal completely, so patients should not rush back to sport. What does \"it takes sb time to do sth\" mean?", "o": ["Ai đó mất bao lâu để làm gì", "Ai đó được trả bao nhiêu để làm gì", "Ai đó cần bao nhiêu tiền để làm gì"], "a": "Ai đó mất bao lâu để làm gì", "vi": "Bác sĩ giải thích rằng thường mất khoảng sáu tuần để một cánh tay gãy lành hẳn nên bệnh nhân đừng vội quay lại chơi thể thao.", "why": "It takes + người + khoảng thời gian + to V = ai đó mất bao lâu để làm gì (quá khứ: it took).", "noblank": true, "say": "The doctor explained that it usually takes about six weeks for a broken arm to heal completely, so patients should not rush back to sport.", "new": [{"w": "heal", "vi": "lành lại"}, {"w": "rush back", "vi": "vội quay lại"}], "tw": "it takes sb time to do sth", "ipa": "/teɪk/"}, {"type": "mc", "ctx": "Short reading", "s": "A survey found that just under half of the students ride bikes to school, while the rest take the bus or are driven by their parents. What does \"just under\" mean?", "o": ["Chưa đến, ít hơn một chút", "Hơn một chút", "Chính xác bằng"], "a": "Chưa đến, ít hơn một chút", "vi": "Một khảo sát cho thấy chưa đến một nửa học sinh đạp xe đến trường, số còn lại đi xe buýt hoặc được cha mẹ chở.", "why": "just under + số = chỉ thiếu một chút so với số đó (đối lập: just over).", "noblank": true, "say": "A survey found that just under half of the students ride bikes to school, while the rest take the bus or are driven by their parents.", "new": [{"w": "survey", "vi": "khảo sát"}], "tw": "just under", "ipa": "/dʒʌst ˈʌn.dər/"}, {"type": "mc", "ctx": "Short reading", "s": "Customers in the queue were clearly in a hurry, checking their watches every minute. The cashier worked faster to avoid complaints. What does \"be in a hurry\" mean?", "o": ["Vội vã", "Mệt mỏi", "Thoải mái"], "a": "Vội vã", "vi": "Khách trong hàng rõ ràng đang vội, cứ mỗi phút lại xem đồng hồ. Nhân viên thu ngân làm nhanh hơn để tránh bị phàn nàn.", "why": "be in a hurry = đang vội; thường đi với to V: be in a hurry to catch a train.", "noblank": true, "say": "Customers in the queue were clearly in a hurry, checking their watches every minute. The cashier worked faster to avoid complaints.", "new": [{"w": "queue", "vi": "hàng người xếp chờ"}, {"w": "cashier", "vi": "thu ngân"}], "tw": "be in a hurry", "ipa": "/ɪn ə ˈhʌri/"}, {"type": "mc", "ctx": "Short reading", "s": "Residents say there is nowhere to park near the market at weekends. Consequently, many drivers leave their cars on the pavement, which blocks pedestrians. What does \"there is nowhere to park\" mean?", "o": ["Không có chỗ đậu xe", "Đậu xe rất đắt", "Không được phép lái xe vào"], "a": "Không có chỗ đậu xe", "vi": "Cư dân nói cuối tuần gần chợ không có chỗ đậu xe. Vì vậy nhiều tài xế để xe trên vỉa hè, làm cản trở người đi bộ.", "why": "there is nowhere to park = không có chỗ đậu xe; nowhere + to V.", "noblank": true, "say": "Residents say there is nowhere to park near the market at weekends. Consequently, many drivers leave their cars on the pavement, which blocks pedestrians.", "new": [{"w": "pavement", "vi": "vỉa hè"}, {"w": "pedestrians", "vi": "người đi bộ"}], "tw": "there is nowhere to park", "ipa": "/ˈnəʊweə tə pɑːk/"}, {"type": "mc", "ctx": "Short reading", "s": "Tourists love the old quarter because it is lively all year round. Street food vendors sell snacks until late, and there is always music in the squares. What does \"lively\" mean?", "o": ["Sôi động", "Yên tĩnh", "Cũ kỹ"], "a": "Sôi động", "vi": "Du khách yêu khu phố cổ vì nơi đó sôi động quanh năm. Người bán đồ ăn đường phố bán đến khuya và quảng trường luôn có nhạc.", "why": "lively = sôi động, đông vui (nơi chốn, buổi thảo luận); trái nghĩa: dull, quiet.", "noblank": true, "say": "Tourists love the old quarter because it is lively all year round. Street food vendors sell snacks until late, and there is always music in the squares.", "new": [{"w": "vendors", "vi": "người bán hàng rong"}], "tw": "lively", "ipa": "/ˈlaɪvli/"}, {"type": "mc", "ctx": "Short reading", "s": "After finishing his exams, Tom found the first week of the holiday dull. His friends were away, and there was nothing interesting to watch. What does \"dull\" mean?", "o": ["Buồn tẻ", "Mệt nhọc", "Đáng sợ"], "a": "Buồn tẻ", "vi": "Sau khi thi xong, Tom thấy tuần đầu kỳ nghỉ thật buồn tẻ. Bạn bè đi vắng và chẳng có gì thú vị để xem.", "why": "dull = buồn tẻ, nhàm chán (bài giảng, cuộc sống); cũng có nghĩa 'xỉn màu' hoặc 'âm ỉ' (dull pain).", "noblank": true, "say": "After finishing his exams, Tom found the first week of the holiday dull. His friends were away, and there was nothing interesting to watch.", "new": [{"w": "interesting", "vi": "thú vị"}], "tw": "dull", "ipa": "/dʌl/"}, {"type": "mc", "ctx": "Short reading", "s": "Young people say there isn't much to do in the village after six o'clock. The shops close early, and the only café is shut on Sundays. What does \"there isn't much to do\" mean?", "o": ["Không có nhiều hoạt động để làm", "Có quá nhiều việc phải làm", "Không ai muốn làm gì"], "a": "Không có nhiều hoạt động để làm", "vi": "Người trẻ nói sau sáu giờ làng không có nhiều thứ để làm. Cửa hàng đóng sớm và quán cà phê duy nhất đóng cửa vào Chủ nhật.", "why": "there isn't much to do (somewhere) = nơi đó ít hoạt động giải trí; much đi với danh từ không đếm được.", "noblank": true, "say": "Young people say there isn't much to do in the village after six o'clock. The shops close early, and the only café is shut on Sundays.", "new": [{"w": "shut", "vi": "đóng cửa"}], "tw": "there isn't much to do", "ipa": "/ðeər ˈɪz.ənt mʌtʃ tə duː/"}, {"type": "mc", "ctx": "Short reading", "s": "Apart from the noise, the flat is perfect: it is bright, cheap, and close to the station. That is why I still enjoy living there. What does \"apart from\" mean?", "o": ["Ngoài ra, ngoại trừ", "Bởi vì", "Cách xa"], "a": "Ngoài ra, ngoại trừ", "vi": "Ngoại trừ tiếng ồn, căn hộ rất hoàn hảo: sáng, rẻ và gần nhà ga. Đó là lý do tôi vẫn thích sống ở đó.", "why": "apart from + N/V-ing = ngoài ra / ngoại trừ; gần nghĩa với except for.", "noblank": true, "say": "Apart from the noise, the flat is perfect: it is bright, cheap, and close to the station. That is why I still enjoy living there.", "new": [{"w": "flat", "vi": "căn hộ"}], "tw": "apart from", "ipa": "/əˈpɑːt frəm/"}, {"type": "mc", "ctx": "Short reading", "s": "Our school's Wi-Fi is hopeless. It disconnects every few minutes, and teachers waste half of the lesson trying to reconnect. What does \"hopeless\" mean?", "o": ["Rất tệ, không hiệu quả", "Rất nhanh", "Hơi đắt"], "a": "Rất tệ, không hiệu quả", "vi": "Wi-Fi của trường tệ hết chỗ nói. Nó mất kết nối vài phút một lần và giáo viên mất nửa tiết để kết nối lại.", "why": "hopeless = rất tệ, vô dụng (khẩu ngữ: be hopeless at sth) hoặc vô vọng.", "noblank": true, "say": "Our school's Wi-Fi is hopeless. It disconnects every few minutes, and teachers waste half of the lesson trying to reconnect.", "new": [{"w": "disconnects", "vi": "mất kết nối"}], "tw": "hopeless", "ipa": "/ˈhəʊp.ləs/"}, {"type": "mc", "ctx": "Short reading", "s": "The farm sits on a gentle hill, so rainwater flows downward into a small stream. In spring, the whole slope is covered in wild flowers. What does \"hill\" mean?", "o": ["Đồi", "Hang động", "Bãi cát"], "a": "Đồi", "vi": "Trang trại nằm trên một ngọn đồi thoải nên nước mưa chảy xuống con suối nhỏ. Vào mùa xuân, cả triền dốc phủ đầy hoa dại.", "why": "hill = đồi (thấp hơn mountain); on a hill, the top of the hill.", "noblank": true, "say": "The farm sits on a gentle hill, so rainwater flows downward into a small stream. In spring, the whole slope is covered in wild flowers.", "new": [{"w": "slope", "vi": "triền dốc"}, {"w": "stream", "vi": "con suối"}], "tw": "hill", "ipa": "/hɪl/"}, {"type": "mc", "ctx": "Short reading", "s": "A small village lies in a fertile valley between two mountain ranges. Because the soil is rich, farmers there can grow vegetables throughout the year. What does \"valley\" mean?", "o": ["Thung lũng", "Đỉnh núi", "Bờ biển"], "a": "Thung lũng", "vi": "Một ngôi làng nhỏ nằm trong thung lũng màu mỡ giữa hai dãy núi. Vì đất giàu dinh dưỡng, nông dân ở đó trồng rau quanh năm.", "why": "valley = thung lũng nằm giữa các ngọn đồi hoặc núi, thường có sông chảy qua.", "noblank": true, "say": "A small village lies in a fertile valley between two mountain ranges. Because the soil is rich, farmers there can grow vegetables throughout the year.", "new": [{"w": "fertile", "vi": "màu mỡ"}], "tw": "valley", "ipa": "/ˈvæl.i/"}, {"type": "mc", "ctx": "Short reading", "s": "Cows were grazing in a large field next to the road. A low fence kept them from wandering onto the lane, where cars sometimes drive quickly. What does \"field\" mean?", "o": ["Cánh đồng", "Khu rừng", "Vườn nhỏ trong nhà"], "a": "Cánh đồng", "vi": "Bò đang gặm cỏ trong cánh đồng rộng cạnh đường. Hàng rào thấp ngăn chúng đi lạc ra đường làng, nơi xe đôi khi chạy rất nhanh.", "why": "field = cánh đồng, đồng ruộng; cũng nghĩa là lĩnh vực (field of study).", "noblank": true, "say": "Cows were grazing in a large field next to the road. A low fence kept them from wandering onto the lane, where cars sometimes drive quickly.", "new": [{"w": "wandering", "vi": "đi lạc lang thang"}], "tw": "field", "ipa": "/fiːld/"}, {"type": "mc", "ctx": "Short reading", "s": "The couple bought a stone farmhouse at the end of a long lane, hoping to raise chickens and grow vegetables, although the roof needed repairs. What does \"farmhouse\" mean?", "o": ["Nhà ở trong trang trại", "Nhà kho chứa máy", "Khách sạn lớn"], "a": "Nhà ở trong trang trại", "vi": "Cặp vợ chồng mua một ngôi nhà trang trại bằng đá cuối con đường dài, hy vọng nuôi gà và trồng rau, dù mái nhà cần sửa.", "why": "farmhouse = ngôi nhà chính của một trang trại, thường ở nông thôn.", "noblank": true, "say": "The couple bought a stone farmhouse at the end of a long lane, hoping to raise chickens and grow vegetables, although the roof needed repairs.", "new": [{"w": "raise chickens", "vi": "nuôi gà"}], "tw": "farmhouse", "ipa": "/ˈfɑːm.haʊs/"}, {"type": "mc", "ctx": "Short reading", "s": "The noise of a tractor woke us up at dawn. The driver was ploughing the field before the rain arrived, which meant he had to start early. What does \"tractor\" mean?", "o": ["Máy kéo", "Xe cứu hỏa", "Xe tải nhỏ"], "a": "Máy kéo", "vi": "Tiếng máy kéo đánh thức chúng tôi lúc bình minh. Người lái đang cày cánh đồng trước khi mưa đến, nên ông phải bắt đầu sớm.", "why": "tractor = máy kéo nông nghiệp; use a tractor to plough / pull.", "noblank": true, "say": "The noise of a tractor woke us up at dawn. The driver was ploughing the field before the rain arrived, which meant he had to start early.", "new": [{"w": "dawn", "vi": "bình minh"}], "tw": "tractor", "ipa": "/ˈtræk.tər/"}, {"type": "mc", "ctx": "Short reading", "s": "A tall fence runs along the edge of the school playground. It was installed last year to keep children away from the busy road nearby. What does \"fence\" mean?", "o": ["Hàng rào", "Mái hiên", "Cầu thang"], "a": "Hàng rào", "vi": "Một hàng rào cao chạy dọc mép sân chơi của trường. Nó được lắp năm ngoái để giữ trẻ em tránh xa con đường đông đúc gần đó.", "why": "fence = hàng rào (gỗ, kim loại) quanh vườn, ruộng; put up / climb over a fence.", "noblank": true, "say": "A tall fence runs along the edge of the school playground. It was installed last year to keep children away from the busy road nearby.", "new": [{"w": "playground", "vi": "sân chơi"}], "tw": "fence", "ipa": "/fens/"}, {"type": "mc", "ctx": "Short reading", "s": "Please remember to lock the gate when you leave the yard. Last week a dog ran out because the gate had been left open. What does \"gate\" mean?", "o": ["Cổng", "Mái nhà", "Cửa sổ"], "a": "Cổng", "vi": "Hãy nhớ khóa cổng khi rời sân. Tuần trước một con chó chạy ra ngoài vì cổng bị bỏ ngỏ.", "why": "gate = cổng (vườn, nhà, sân bay); close/lock the gate.", "noblank": true, "say": "Please remember to lock the gate when you leave the yard. Last week a dog ran out because the gate had been left open.", "new": [{"w": "yard", "vi": "sân"}], "tw": "gate", "ipa": "/ɡeɪt/"}, {"type": "mc", "ctx": "Short reading", "s": "The council has repaired the footpath that connects the village with the river. Walkers can now use it safely, even after heavy rain. What does \"footpath\" mean?", "o": ["Lối đi bộ", "Đường cao tốc", "Cầu vượt"], "a": "Lối đi bộ", "vi": "Hội đồng đã sửa lối đi bộ nối làng với sông. Người đi bộ giờ có thể dùng an toàn, ngay cả sau mưa lớn.", "why": "footpath = lối đi bộ, đường mòn cho người đi bộ qua đồng quê.", "noblank": true, "say": "The council has repaired the footpath that connects the village with the river. Walkers can now use it safely, even after heavy rain.", "new": [{"w": "repaired", "vi": "sửa chữa"}], "tw": "footpath", "ipa": "/ˈfʊt.pɑːθ/"}, {"type": "mc", "ctx": "Short reading", "s": "Birds built their nest on the highest branch of the tree. Every spring they return to the same place, even though other trees grow nearby. What does \"branch\" mean?", "o": ["Cành cây", "Rễ cây", "Thân cây"], "a": "Cành cây", "vi": "Chim làm tổ trên cành cao nhất của cây. Mỗi mùa xuân chúng quay lại đúng chỗ đó dù có những cây khác gần đó.", "why": "branch = cành cây; ngoài ra còn là chi nhánh (ngân hàng).", "noblank": true, "say": "Birds built their nest on the highest branch of the tree. Every spring they return to the same place, even though other trees grow nearby.", "new": [{"w": "nearby", "vi": "gần đó"}], "tw": "branch", "ipa": "/brɑːntʃ/"}, {"type": "mc", "ctx": "Short reading", "s": "Gardeners spend October sweeping fallen leaves off the paths. If they did not, the leaves would become slippery after rain. What does \"leaves\" mean?", "o": ["Những chiếc lá", "Những cành khô", "Những bông hoa"], "a": "Những chiếc lá", "vi": "Người làm vườn dành tháng Mười quét lá rụng khỏi lối đi. Nếu không, lá sẽ trơn sau mưa.", "why": "leaves = lá (số nhiều của leaf); fall leaves / autumn leaves.", "noblank": true, "say": "Gardeners spend October sweeping fallen leaves off the paths. If they did not, the leaves would become slippery after rain.", "new": [{"w": "sweeping", "vi": "quét"}], "tw": "leaves", "ipa": "/liːvz/"}, {"type": "mc", "ctx": "Short reading", "s": "The gardener dug carefully around the old tree so as not to damage its roots. Without roots, a tree cannot take in water from the soil. What does \"roots\" mean?", "o": ["Rễ cây", "Lá cây", "Hạt giống"], "a": "Rễ cây", "vi": "Người làm vườn đào cẩn thận quanh cây già để không làm hỏng rễ. Thiếu rễ, cây không thể hút nước từ đất.", "why": "roots = rễ cây; cũng là gốc gác, nguồn gốc (cultural roots).", "noblank": true, "say": "The gardener dug carefully around the old tree so as not to damage its roots. Without roots, a tree cannot take in water from the soil.", "new": [{"w": "soil", "vi": "đất trồng"}], "tw": "roots", "ipa": "/ruːts/"}, {"type": "mc", "ctx": "Short reading", "s": "The picnic blanket was spread on the ground, but the soil was damp. We soon moved to a bench, which was drier. What does \"ground\" mean?", "o": ["Mặt đất", "Bầu trời", "Mặt nước"], "a": "Mặt đất", "vi": "Tấm chăn dã ngoại được trải trên mặt đất nhưng đất ẩm. Chúng tôi sớm chuyển sang ghế dài, nơi khô hơn.", "why": "ground = mặt đất; on the ground, under the ground.", "noblank": true, "say": "The picnic blanket was spread on the ground, but the soil was damp. We soon moved to a bench, which was drier.", "new": [{"w": "blanket", "vi": "chăn"}], "tw": "ground", "ipa": "/ɡraʊnd/"}, {"type": "mc", "ctx": "Short reading", "s": "The grass in our garden grows quickly in spring, so my father cuts it every weekend with an electric machine to keep the lawn tidy. What does \"grass\" mean?", "o": ["Cỏ", "Hoa", "Bụi cây"], "a": "Cỏ", "vi": "Cỏ trong vườn nhà tôi mọc nhanh vào mùa xuân nên bố cắt nó mỗi cuối tuần bằng máy điện để giữ bãi cỏ gọn gàng.", "why": "grass = cỏ (không đếm được); cut the grass, lie on the grass.", "noblank": true, "say": "The grass in our garden grows quickly in spring, so my father cuts it every weekend with an electric machine to keep the lawn tidy.", "new": [{"w": "lawn", "vi": "bãi cỏ"}], "tw": "grass", "ipa": "/ɡrɑːs/"}, {"type": "mc", "ctx": "Short reading", "s": "Choose a plant that suits your balcony. Some plants need a lot of sunlight, while others grow well in the shade. What does \"plant\" mean?", "o": ["Cây, thực vật", "Đất trồng", "Chậu hoa"], "a": "Cây, thực vật", "vi": "Hãy chọn một loại cây hợp với ban công. Một số cây cần nhiều nắng, trong khi loại khác lớn tốt trong bóng râm.", "why": "plant = cây, thực vật (danh từ); cũng là nhà máy hoặc động từ 'trồng'.", "noblank": true, "say": "Choose a plant that suits your balcony. Some plants need a lot of sunlight, while others grow well in the shade.", "new": [{"w": "suits", "vi": "phù hợp"}], "tw": "plant", "ipa": "/plɑːnt/"}]}, {"id": "s4", "title": "Nói vận dụng", "note": "Bấm Ghi âm, trả lời bằng tiếng Anh 30–60 giây và cố dùng các từ gợi ý; trang sẽ chấm ước tính theo Fluency, Lexical Resource, Grammar, Pronunciation.", "qs": [{"type": "sp", "ctx": "Morning routine", "s": "Tell me about your usual breakfast on a busy weekday. How long does it take you to get ready, and what happens when you are in a hurry?", "vi": "Hãy kể về bữa sáng thường ngày của bạn vào ngày bận rộn. Bạn mất bao lâu để chuẩn bị và chuyện gì xảy ra khi bạn đang vội?", "words": ["cereal", "be in a hurry", "it takes sb time to do sth", "just under"], "why": "Nêu món ăn quen thuộc, thời gian chuẩn bị (it takes me ... to ...), rồi kể một lần bạn bị vội và cách xử lý; nối ý bằng so / although.", "sample": "On weekdays I usually have a bowl of cereal with milk and a banana, because it is quick and healthy. It takes me about twenty minutes to get ready, and I leave home in just under half an hour. Although I try to wake up early, sometimes I am in a hurry, especially when my alarm does not ring. On those mornings I skip the banana and eat the cereal standing up, so that I do not miss the bus. Honestly, a calm breakfast is a luxury for me, but I still prefer it to buying food outside."}, {"type": "sp", "ctx": "Annoying habits", "s": "Describe something that drives you crazy in your daily life. Why does it annoy you so much, and what do you do about it?", "vi": "Hãy mô tả điều khiến bạn phát điên trong cuộc sống hằng ngày. Vì sao nó làm bạn khó chịu đến vậy và bạn xử lý thế nào?", "words": ["drive sb crazy", "hopeless", "dull", "imagine doing"], "why": "Chọn một điều cụ thể (tiếng ồn, mạng chậm, người hay trễ hẹn), giải thích lý do, nêu hậu quả và cách bạn đối phó; dùng although / which means.", "sample": "One thing that drives me crazy is slow internet, especially when I am working from home. Our connection is hopeless in the evening, which means video calls freeze at the worst moment. I can't imagine studying online with such a poor signal for a whole year. Waiting for pages to load makes the day feel dull, and I lose my concentration very quickly. To solve the problem, I now download documents in the morning, and I have asked the provider to send a technician. Although it is still not perfect, the situation is slowly getting better."}, {"type": "sp", "ctx": "City traffic", "s": "Talk about the traffic and parking in your city. Where can people park easily, and what problems do drivers face during busy times?", "vi": "Hãy nói về giao thông và việc đậu xe ở thành phố của bạn. Ở đâu dễ đậu xe và tài xế gặp vấn đề gì vào giờ đông?", "words": ["there is nowhere to park", "in the right spot", "be in a hurry", "just under", "apart from"], "why": "Mô tả khu trung tâm và khu ngoại ô, nêu vấn đề đậu xe, thời gian mất khi kẹt xe, rồi đề xuất giải pháp; dùng apart from / so that.", "sample": "In my city, there is nowhere to park near the centre at weekends, so drivers often circle the same street for twenty minutes. Apart from the underground car park, which is expensive, most places are full by ten o'clock. When people are in a hurry, they leave their cars in the wrong place and block the road. I once found a space in the right spot just under a bridge, but it was only a lucky exception. In my opinion, the council should build cheaper car parks so that people use public transport more often."}, {"type": "sp", "ctx": "Hometown", "s": "Compare a lively place with a quiet place you know. Which would you prefer to live in, and why?", "vi": "Hãy so sánh một nơi sôi động với một nơi yên tĩnh mà bạn biết. Bạn thích sống ở đâu hơn và vì sao?", "words": ["lively", "dull", "there isn't much to do", "apart from", "hopeless"], "why": "So sánh hai nơi theo hoạt động, giao thông, nhịp sống; nêu lựa chọn và lý do bằng whereas / although.", "sample": "I know a lively district in the city where cafés and street markets stay open until midnight, whereas my grandparents' village is quiet. Apart from a small shop and a school, there isn't much to do there in the evening, and the public transport is hopeless. For some people that makes life dull, but I find it relaxing. Personally, I would prefer the city while I am young, because I enjoy meeting friends. However, I think I will move to a calmer place later, so that my children can grow up in a safer environment."}, {"type": "sp", "ctx": "Countryside scenery", "s": "Describe a beautiful countryside area you have visited or would like to visit. What can you see there, and how do local people live?", "vi": "Hãy mô tả một vùng quê đẹp bạn đã đến hoặc muốn đến. Ở đó có thể thấy gì và người dân sống thế nào?", "words": ["hill", "valley", "field", "farmhouse", "tractor"], "why": "Mở đầu bằng vị trí, miêu tả cảnh (hill, valley, field), người dân và công việc (farmhouse, tractor), kết thúc bằng cảm nhận của bạn.", "sample": "Last summer I visited a farm in a green valley, and it was one of the most peaceful places I have ever seen. A gentle hill rose behind the old farmhouse where the family lived, and wide fields of wheat covered the land below. Every morning the farmer drove his tractor along the lane, which woke me up at dawn. Although the work looked hard, the local people seemed happy and friendly. If I had the chance, I would stay there for a month, because the fresh air and the silence helped me recover from a stressful year."}, {"type": "sp", "ctx": "Walking in nature", "s": "Tell me about a walk you enjoyed in a park or in the countryside. What did you pass on the way, and how did you feel afterwards?", "vi": "Hãy kể về một lần đi dạo bạn thích trong công viên hoặc ở vùng quê. Bạn đi qua những gì và cảm thấy ra sao sau đó?", "words": ["footpath", "fence", "gate", "ground", "grass"], "why": "Kể theo trình tự: bắt đầu từ đâu, đi qua đâu (footpath, gate, fence), cảnh vật (grass, ground) và cảm xúc cuối cùng; dùng after / although.", "sample": "Last Sunday we followed a footpath that begins behind my uncle's house. First we climbed over a low fence, then we opened a wooden gate and walked across a wide meadow. The ground was still wet after the rain, so we had to be careful, but the soft grass made the walk comfortable. After two hours we sat down near the river and shared sandwiches. Although my legs were tired, I felt relaxed and energetic afterwards, and I promised myself to repeat the walk every month."}, {"type": "sp", "ctx": "Trees and gardens", "s": "Talk about a tree or a garden that is important to you. What does it look like in different seasons, and why do people need trees?", "vi": "Hãy nói về một cái cây hoặc khu vườn quan trọng với bạn. Nó trông thế nào qua các mùa và vì sao con người cần cây cối?", "words": ["branch", "leaves", "roots", "plant", "ground"], "why": "Miêu tả cây (branch, leaves, roots), thay đổi theo mùa, rồi giải thích lợi ích (không khí, bóng mát, giữ đất) bằng which means / because.", "sample": "There is an old tree in front of my school that I have always loved. In spring its branches are covered with fresh green leaves, whereas in autumn they turn yellow and fall onto the ground. Its roots are so strong that they have lifted part of the pavement. I think every plant is useful, but big trees are especially important, because they give shade and clean the air. They also protect the soil during heavy rain, which means fewer floods in the city. For that reason, I support the plan to plant more trees."}, {"type": "sp", "ctx": "Economy and prices", "s": "Do you think the prices of houses or technology will keep going up? Explain your opinion and give an example from your country.", "vi": "Bạn có nghĩ giá nhà hoặc giá công nghệ sẽ tiếp tục tăng không? Hãy giải thích ý kiến và nêu ví dụ ở nước bạn.", "words": ["what goes up must come down", "it takes sb time to do sth", "imagine doing", "pass sth down the line"], "why": "Nêu quan điểm, ví dụ về giá tăng rồi giảm, tác động đến người dân; có thể dùng câu tục ngữ và if / as a result.", "sample": "In my country house prices have risen fast, but I believe that what goes up must come down. It takes years for a market to change, yet history shows that bubbles always burst. I can't imagine buying a flat at today's prices without a huge loan. If costs fall, banks will pass the new rates down the line to customers, and some families may finally afford a home. As a result, I would wait before investing, although my parents think I am too careful. In my view, patience is more valuable than speculation."}, {"type": "sp", "ctx": "Teamwork", "s": "Describe a time when you worked in a team to finish a task. How did the team share the work, and what would you do differently next time?", "vi": "Hãy mô tả một lần bạn làm việc nhóm để hoàn thành nhiệm vụ. Nhóm chia việc thế nào và lần sau bạn sẽ làm gì khác?", "words": ["pass sth down the line", "imagine doing", "in the right spot", "it takes sb time to do sth"], "why": "Nêu nhiệm vụ, cách chia việc (ai làm gì, tài liệu được chuyền thế nào), khó khăn và bài học; dùng so that / if I had.", "sample": "Last year our class organised a charity sale, and it taught me a lot about teamwork. We stood in a line and passed the boxes down the line, so that everybody could carry something. It took us nearly three hours to prepare the hall, because some stalls were not in the right spot. At first I couldn't imagine managing thirty classmates, but we made a clear list. If I did it again, I would give each person one job from the beginning, which would save time and reduce arguments."}, {"type": "sp", "ctx": "Healthy living", "s": "What can people do to eat healthily and protect the environment at the same time? Give examples from your own life.", "vi": "Con người có thể làm gì để vừa ăn uống lành mạnh vừa bảo vệ môi trường? Hãy nêu ví dụ từ cuộc sống của bạn.", "words": ["cereal", "plant", "field", "ground", "grass", "leaves"], "why": "Nêu thói quen ăn uống, nguồn thực phẩm, việc trồng cây tại nhà và tác động tới môi trường; dùng not only ... but also / which helps.", "sample": "To eat healthily, I choose whole-grain cereal in the morning and plenty of vegetables at lunch. I also grow a small plant on my balcony, because fresh herbs make meals tastier. Buying local food from nearby fields is not only cheaper but also better for the environment, since it needs less transport. At the weekend I collect fallen leaves and put them on the ground around the plants, which helps the soil stay moist. Even if these habits seem small, I think they make my life healthier and greener."}]}]};
+  const SECTIONS=DATA.sections;
+  SECTIONS.forEach(sec=>sec.qs.forEach(q=>{if(q.type==='tx'&&!q.acc)q.acc=[q.a];if(q.type==='tx'&&!q.a)q.a=q.acc[0];}));
+
+  /* ---------- prepare ---------- */
+  const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+  const ALL=[];
+  SECTIONS.forEach(sec=>sec.qs.forEach((q,i)=>{q.id=sec.id+'q'+(i+1);q.sec=sec.id;q.n=i+1;if(q.type==='mc')q.opts=shuffle(q.o);ALL.push(q);}));
+  const byId=Object.fromEntries(ALL.map(q=>[q.id,q]));
+  const STATQ=ALL.filter(q=>q.type!=='sp');
+
+  const KEY=DATA.meta.storageKey||'drill-v1';
+  let state={};
+  try{state=JSON.parse(localStorage.getItem(KEY)||'{}')||{};}catch(e){state={};}
+  const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}};
+
+  const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  const norm=s=>String(s).toLowerCase().replace(/[’‘]/g,"'").replace(/-/g,' ').replace(/[.,!?;:]+$/,'').replace(/\s+/g,' ').trim();
+  const isRight=(q,v)=>q.type==='mc'?v===q.a:q.acc.some(x=>norm(x)===norm(v));
+
+  const hintsOpen=new Set();
+  let current=SECTIONS[0].id;
+  const $=id=>document.getElementById(id);
+
+  /* ---------- listening (browser speech synthesis) ---------- */
+  const CAN_SPEAK=typeof window!=='undefined'&&'speechSynthesis' in window&&typeof SpeechSynthesisUtterance==='function';
+  let voice=null;
+  /* Fallback voice: prefer natural / neural US English voices when the audio files cannot be played. */
+  function pickVoice(){
+    if(!CAN_SPEAK)return;
+    const vs=speechSynthesis.getVoices().filter(v=>/^en[-_]US/i.test(v.lang));
+    const score=v=>(/natural|online|neural/i.test(v.name)?4:0)+(/aria|jenny|ava|andrew|guy|samantha|google us/i.test(v.name)?2:0)+(v.localService?0:1);
+    voice=vs.sort((a,b)=>score(b)-score(a))[0]||speechSynthesis.getVoices().find(v=>/^en/i.test(v.lang))||null;
+  }
+  if(CAN_SPEAK){pickVoice();speechSynthesis.addEventListener&&speechSynthesis.addEventListener('voiceschanged',pickVoice);}
+  let audio=null;
+  let cur=null; /* what is playing now: {id, kind:'audio'|'tts', paused} */
+  function updateControls(){
+    document.querySelectorAll('[data-pause]').forEach(b=>{
+      const active=!!cur&&cur.id===b.dataset.pause;
+      b.disabled=!active;
+      const paused=active&&cur.paused;
+      b.querySelector('span').textContent=paused?'Tiếp tục':'Tạm dừng';
+      b.querySelector('.i-pause').hidden=paused;
+      b.querySelector('.i-play').hidden=!paused;
+      b.classList.toggle('on',paused);
+    });
+  }
+  function stopAudio(){
+    if(audio){audio.onended=audio.onerror=audio.onplaying=null;audio.pause();audio=null;}
+    if(CAN_SPEAK)speechSynthesis.cancel();
+    cur=null;
+    document.querySelectorAll('.say.on').forEach(b=>b.classList.remove('on'));
+    updateControls();
+  }
+  function togglePause(id){
+    if(!cur||cur.id!==id)return;
+    if(cur.kind==='audio'&&audio){
+      if(audio.paused){audio.play();cur.paused=false;}else{audio.pause();cur.paused=true;}
+    }else if(cur.kind==='tts'&&CAN_SPEAK){
+      if(speechSynthesis.paused){speechSynthesis.resume();cur.paused=false;}else{speechSynthesis.pause();cur.paused=true;}
+    }
+    updateControls();
+  }
+  function speakFallback(id,done,slow,btn){
+    if(!CAN_SPEAK){cur=null;updateControls();return;}
+    const q=byId[id];
+    const text=q.type==='sp'?q.s:(q.listen?q.s.replace('___',q.a||'')+'':q.s.includes('___')?q.s.replace('___',done?q.a:'blank'):(done?q.s+' '+q.a:q.s)).replace(/\b(\d{1,2})\.(\d{2})\b/g,'$1:$2');
+    const u=new SpeechSynthesisUtterance(text);
+    u.lang='en-US';if(voice){u.voice=voice;u.lang=voice.lang;}
+    u.rate=slow?0.65:0.95;
+    cur={id,kind:'tts',paused:false};
+    u.onstart=()=>{btn&&btn.classList.add('on');updateControls();};
+    u.onend=u.onerror=()=>{btn&&btn.classList.remove('on');if(cur&&cur.kind==='tts'&&cur.id===id)cur=null;updateControls();};
+    speechSynthesis.speak(u);
+    updateControls();
+  }
+  function speak(id,slow,btn){
+    stopAudio();
+    const done=!!state[id];
+    const suffix=(slow?'s':'')+(done?(slow?'':'f'):'b');
+    const a=new Audio('audio/'+id+'_'+suffix+'.mp3'+(DATA.meta.audioVersion?'?v='+DATA.meta.audioVersion:''));
+    audio=a;
+    cur={id,kind:'audio',paused:false};
+    let failed=false;
+    const fail=()=>{if(failed||audio!==a)return;failed=true;audio=null;speakFallback(id,done,slow,btn);};
+    a.onplaying=()=>{btn&&btn.classList.add('on');updateControls();};
+    a.onended=()=>{btn&&btn.classList.remove('on');if(audio===a){audio=null;cur=null;}updateControls();};
+    a.onerror=fail;
+    updateControls();
+    const p=a.play();
+    if(p&&p.catch)p.catch(fail);
+  }
+
+  /* ---------- single word pronunciation (audio/w_<slug>.mp3, browser voice as fallback) ---------- */
+  const slug=t=>String(t).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+  function playWord(text,btn){
+    stopAudio();
+    const clean=String(text).replace(/\.\.\./g,' ').replace(/\s+/g,' ').trim();
+    if(!clean)return;
+    const a=new Audio('audio/w_'+slug(text)+'.mp3'+(DATA.meta.audioVersion?'?v='+DATA.meta.audioVersion:''));
+    audio=a;cur={id:'w',kind:'audio',paused:false};
+    let failed=false;
+    const fail=()=>{
+      if(failed||audio!==a)return;failed=true;audio=null;cur=null;
+      if(!CAN_SPEAK)return;
+      const u=new SpeechSynthesisUtterance(clean);
+      u.lang='en-US';if(voice){u.voice=voice;u.lang=voice.lang;}u.rate=0.9;
+      speechSynthesis.speak(u);
+    };
+    a.onplaying=()=>{btn&&btn.classList.add('on');};
+    a.onended=()=>{btn&&btn.classList.remove('on');if(audio===a){audio=null;cur=null;}};
+    a.onerror=fail;
+    const p=a.play();
+    if(p&&p.catch)p.catch(fail);
+  }
+
+
+  /* ---------- speaking: record, transcribe (Web Speech API) and estimate the four IELTS criteria ---------- */
+  const SRC=window.SpeechRecognition||window.webkitSpeechRecognition;
+  const urls={};      /* id -> object URL of the latest recording (this visit only) */
+  let R=null;         /* active recording */
+  const toks=t=>(String(t).toLowerCase().replace(/[’‘]/g,"'").match(/[a-z]+(?:'[a-z]+)?/g)||[]);
+  const stem=w=>w.replace(/'(s|t|re|ve|ll|d)$/,'').replace(/(ing|ed|es|s|ly|d)$/,'');
+  const half=x=>Math.max(1,Math.min(8,Math.round(x*2)/2));
+  const fmt=n=>Number(n).toFixed(1);
+  function usedWords(q,T){
+    const S=new Set(T.map(stem));
+    return (q.words||[]).filter(w=>{
+      const ws=toks(w).filter(x=>x!=='sb'&&x!=='sth');
+      if(!ws.length)return false;
+      return ws.filter(x=>S.has(stem(x))).length/ws.length>=0.75;
+    });
+  }
+  const STRONG=['however','although','though','whereas','while','therefore','firstly','first of all','secondly','finally','for example','for instance','in addition','moreover','as a result','despite','on the other hand','in contrast','instead','besides','overall','in conclusion','which means','so that','unless','since','because','as well as','even though','in my opinion','apart from'];
+  const ERR=[
+    [/\b(he|she|it)\s+(go|have|do|make|want|need|like|take|get|know|think|live|work|say|come|give|use|try|feel|help|become|love|enjoy)\b/g,'chủ ngữ số ít + động từ nguyên mẫu (thiếu -s)'],
+    [/\b(i|you|we|they)\s+(goes|has|does|makes|wants|needs|likes|takes|gets|knows|thinks|lives|works|says|comes|gives|uses|tries|feels|helps)\b/g,'chủ ngữ số nhiều + động từ thêm -s'],
+    [/\b(more|most)\s+\w+(er|est)\b/g,'so sánh kép (more …-er)'],
+    [/\b(didn't|did not|doesn't|does not|don't|do not)\s+\w+ed\b/g,'sau trợ động từ phủ định dùng động từ nguyên mẫu'],
+    [/\b(peoples|informations|advices|childs|furnitures|knowledges|equipments)\b/g,'danh từ không đếm được/bất quy tắc dùng sai số nhiều'],
+    [/\b(a lot of|many)\s+(person|thing|child)\b/g,'danh từ đếm được cần ở dạng số nhiều'],
+    [/\bI am agree\b|\bI am live\b|\bI am go\b/g,'I am + động từ nguyên mẫu']
+  ];
+  const GR=[
+    ['mệnh đề quan hệ',/\b(which|who|whom|whose|where)\b/],
+    ['câu điều kiện/giả định',/\b(if|unless|would|could|might)\b/],
+    ['bị động',/\b(was|were|is|are|been|being|get|got)\s+(\w+ed|made|done|built|given|taken|known|seen|written|held|paid|chosen|grown)\b/],
+    ['thì hoàn thành',/\b(have|has|had)\s+(\w+ed|been|done|made|gone|seen|taken|had|got|known|become|lived|spent)\b/],
+    ['liên từ nhượng bộ/lý do',/\b(although|though|whereas|while|despite|because|since|so that|as a result|even though)\b/],
+    ['so sánh',/\b(more|less|better|worse|bigger|cheaper|easier)\b.*\bthan\b|\b(as)\s+\w+\s+as\b/],
+    ['V-ing/to-V chỉ mục đích',/\b(in order to|so as to|instead of|by \w+ing|before \w+ing|after \w+ing)\b/],
+    ['thì quá khứ',/\b(was|were|went|had|did|came|saw|took|made|felt|\w+ed)\b/]
+  ];
+  const FILL=/\b(um+|uh+|er+|erm|ah+|hmm+)\b|\byou know\b|\bi mean\b|\bkind of\b|\bsort of\b/g;
+
+  function evaluate(q,segs,dur){
+    const text=segs.map(s=>s.t).join(' ').replace(/\s+/g,' ').trim();
+    const low=text.toLowerCase().replace(/[’‘]/g,"'");
+    const T=toks(low),n=T.length;
+    const wpm=dur>3?Math.round(n/(dur/60)):null;
+    const used=usedWords(q,T);
+    const need=Math.min(3,(q.words||[]).length||3);
+    /* Fluency & Coherence */
+    const conn=STRONG.filter(c=>new RegExp('\\b'+c+'\\b').test(low));
+    const fill=(low.match(FILL)||[]).length;
+    let rep=0;for(let i=1;i<n;i++)if(T[i]===T[i-1]&&!['very','that','had'].includes(T[i]))rep++;
+    let f=3.5+(n>=25?.5:0)+(n>=45?.5:0)+(n>=70?.5:0)+(n>=100?.5:0)+Math.min(1.5,conn.length*.3);
+    if(wpm!==null)f+=(wpm>=100&&wpm<=170)?1:(wpm>=80&&wpm<100)?.5:wpm<60?-.5:0;
+    f-=Math.min(1.5,.25*Math.max(0,fill+rep-1));
+    if(n<20)f=Math.min(f,4.5);
+    /* Lexical Resource */
+    const uniq=new Set(T.map(stem)).size,ttr=n?uniq/n:0;
+    const adv=T.filter(w=>w.length>=8).length,advr=n?adv/n:0;
+    let l=3.5+1.5*Math.min(1,used.length/need)+(used.length>need?.5:0)+(n>=30&&ttr>=.6?.5:0)+(n>=30&&ttr>=.7?.5:0)+(advr>=.06?.5:0)+(advr>=.1?.5:0);
+    if(n<20)l=Math.min(l,4.5);
+    /* Grammatical Range & Accuracy */
+    const cats=GR.filter(g=>g[1].test(low)).map(g=>g[0]);
+    const errs=[];
+    ERR.forEach(e=>{const m=low.match(e[0]);if(m)m.forEach(x=>errs.push({s:x,w:e[1]}));});
+    let g=3.5+Math.min(2.4,cats.length*.4)+(n>=45?.5:0)+(n>=80?.5:0)-Math.min(2,errs.length*.5);
+    if(n<20)g=Math.min(g,4.5);
+    /* Pronunciation (recognition confidence) */
+    const cs=segs.filter(s=>typeof s.c==='number'&&s.c>0);
+    let p=null,pm=null;
+    if(cs.length){
+      let wsum=0,tot=0;cs.forEach(s=>{const k=Math.max(1,toks(s.t).length);wsum+=s.c*k;tot+=k;});
+      pm=wsum/tot;
+      p=pm>=.95?7.5:pm>=.9?7:pm>=.85?6.5:pm>=.8?6:pm>=.7?5.5:pm>=.6?5:pm>=.5?4.5:4;
+      if(n<20)p=Math.min(p,5);
+    }
+    const lowSegs=cs.filter(s=>s.c<.75&&toks(s.t).length>=2).map(s=>s.t);
+    const bands={f:half(f),l:half(l),g:half(g),p:p===null?null:half(p)};
+    const av=[bands.f,bands.l,bands.g,bands.p].filter(x=>x!==null);
+    const overall=half(av.reduce((a,b)=>a+b,0)/av.length);
+    return {text,n,dur:Math.round(dur),wpm,used,missing:(q.words||[]).filter(w=>!used.includes(w)),conn,fill,rep,ttr:Math.round(ttr*100),adv,cats,errs:errs.slice(0,4),pm:pm===null?null:Math.round(pm*100),lowSegs:lowSegs.slice(0,3),bands,overall};
+  }
+  function adviceF(r){
+    const a=[r.dur?`Bạn nói khoảng ${r.n} từ trong ${r.dur}s${r.wpm?` (≈ ${r.wpm} từ/phút)`:''}.`:`Bài gõ có khoảng ${r.n} từ (không đo được tốc độ nói).`];
+    a.push(r.conn.length?`Từ nối đã dùng: ${r.conn.slice(0,5).join(', ')}.`:'Chưa thấy từ nối rõ ràng; thử dùng because, however, for example, as a result để ý tưởng liền mạch.');
+    if(r.fill+r.rep>1)a.push(`Có ${r.fill} từ đệm và ${r.rep} lần lặp từ; hãy ngừng lặng ngắn thay vì “um/uh”.`);
+    if(r.n<45)a.push('Câu trả lời còn ngắn; hướng tới 60–90 từ (30–45 giây) với 1 ý chính + 1 ví dụ.');
+    return a.join(' ');
+  }
+  function adviceL(r){
+    const a=[`Dùng ${r.used.length}/${r.used.length+r.missing.length} từ gợi ý${r.used.length?': '+r.used.join(', '):''}.`];
+    if(r.missing.length)a.push(`Chưa dùng: ${r.missing.slice(0,5).join(', ')}.`);
+    a.push(`Độ đa dạng từ ${r.ttr}%, từ dài/học thuật ${r.adv}.`);
+    return a.join(' ');
+  }
+  function adviceG(r){
+    const a=[r.cats.length?`Cấu trúc đa dạng: ${r.cats.join(', ')}.`:'Gần như chỉ dùng câu đơn; thử thêm mệnh đề quan hệ (which/who), câu điều kiện hoặc although/whereas.'];
+    if(r.errs.length)a.push('Cần xem lại: '+r.errs.map(e=>`“${e.s}” (${e.w})`).join('; ')+'.');
+    else a.push('Không phát hiện lỗi ngữ pháp phổ biến bằng quy tắc tự động.');
+    return a.join(' ');
+  }
+  function adviceP(r){
+    if(r.pm===null&&!r.dur)return 'Bài gõ nên chưa chấm được phát âm; hãy ghi âm để được chấm.';
+    if(r.pm===null)return 'Trình duyệt này không có nhận dạng giọng nói nên chưa chấm được phát âm. Hãy mở bằng Chrome/Edge/Safari.';
+    const a=[`Máy nhận ra lời bạn với độ chắc chắn ≈ ${r.pm}%.`];
+    if(r.lowSegs.length)a.push('Đoạn nghe chưa rõ: “'+r.lowSegs.join('”, “')+'” — nghe lại phát âm mẫu và đọc chậm, rõ trọng âm.');
+    else a.push('Phát âm được nhận ra rõ.');
+    return a.join(' ');
+  }
+  function spCard(q){
+    const st=state[q.id];
+    const icon=`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>`;
+    const used=st&&st.r?st.r.used:[];
+    const chips=(q.words||[]).map(w=>`<span class="chip${used.includes(w)?' used':''}">${esc(w)}<button type="button" class="say" data-word="${esc(w)}" aria-label="Phát âm ${esc(w)}" style="padding:0 4px;border:0;background:none">${icon}</button></span>`).join('');
+    const busy=R&&R.id===q.id;
+    let res='';
+    if(st&&st.r){
+      const r=st.r,b=r.bands;
+      const bandBox=(name,v,adv)=>`<div class="band"><b>${name}</b><span class="n">${v===null?'—':fmt(v)}</span><p>${esc(adv)}</p></div>`;
+      res=`<div class="spres" role="status">${urls[q.id]?`<audio controls src="${urls[q.id]}"></audio>`:''}<p class="tr">“${esc(r.text)}”</p>`+
+        `<p class="overall">Điểm ước tính (thang IELTS 1–8)<span class="n">${fmt(r.overall)}</span></p><div class="bands">`+
+        bandBox('Độ trôi chảy và mạch lạc (Fluency &amp; Coherence)',b.f,adviceF(r))+
+        bandBox('Vốn từ vựng (Lexical Resource)',b.l,adviceL(r))+
+        bandBox('Độ đa dạng và chính xác ngữ pháp (Grammatical Range &amp; Accuracy)',b.g,adviceG(r))+
+        bandBox('Phát âm (Pronunciation)',b.p,adviceP(r))+`</div>`+
+        `<p class="disc">Điểm do trình duyệt ước tính từ văn bản nhận dạng được (tốc độ, từ nối, từ vựng, cấu trúc, độ rõ giọng), chỉ để tham khảo, không thay thế giám khảo/giáo viên. Bản ghi âm chỉ nằm trên máy bạn, không được gửi đi.</p>`+
+        `<button type="button" class="ghost retry" data-retry="${q.id}">Ghi âm lại</button></div>`;
+    }
+    const sample=q.sample?`<details class="sample"><summary>Xem bài nói mẫu (B2)</summary><p>${esc(q.sample)}</p></details>`:'';
+    return `<article class="q sp" id="card-${q.id}"><div class="qh"><span class="qn">${q.n}</span><span class="ctx">${esc(q.ctx)}</span></div>`+
+      `<p class="sent">${esc(q.s)}</p><p class="vi">${esc(q.vi)}</p>`+
+      `<div class="spwords"><b>Từ nên dùng:</b> ${chips}</div>`+
+      `<div class="listen"><button type="button" class="say" data-say="${q.id}" aria-label="Nghe câu hỏi ${q.n}">${icon}Nghe câu hỏi</button><button type="button" class="say pausebtn" data-pause="${q.id}" aria-label="Tạm dừng" disabled><svg viewBox="0 0 24 24" aria-hidden="true" class="i-pause"><path d="M8 5v14M16 5v14"/></svg><svg viewBox="0 0 24 24" aria-hidden="true" class="i-play" hidden><path d="M7 5l12 7-12 7z"/></svg><span>Tạm dừng</span></button></div>`+
+      `<div class="rec"><button type="button" class="recbtn" data-rec="${q.id}" ${busy?'disabled':''}>● Ghi âm</button><button type="button" class="recbtn stop" data-recstop="${q.id}" ${busy?'':'disabled'}>■ Dừng &amp; chấm điểm</button><span class="rectime" id="rt-${q.id}">${busy?'':'Nói 30–60 giây, cố dùng ≥ 3 từ gợi ý'}</span><span class="recmsg" id="rm-${q.id}"></span></div>`+
+      `<details class="manual"><summary>Không ghi âm được? Gõ lại lời bạn nói để chấm</summary><textarea id="mt-${q.id}" placeholder="Gõ nội dung bạn đã nói…"></textarea><button type="button" class="ghost" data-manual="${q.id}">Chấm bài gõ (không chấm phát âm)</button></details>`+
+      res+sample+`</article>`;
+  }
+  function recMsg(id,m){const e=$('rm-'+id);if(e)e.textContent=m||'';}
+  async function startRec(id){
+    if(R)return;
+    stopAudio();
+    let stream;
+    try{stream=await navigator.mediaDevices.getUserMedia({audio:true});}
+    catch(e){recMsg(id,'Không truy cập được micro. Hãy cho phép micro cho trang này hoặc dùng ô gõ bên dưới.');return;}
+    const chunks=[];let mr=null;
+    try{mr=new MediaRecorder(stream);mr.ondataavailable=e=>{if(e.data&&e.data.size)chunks.push(e.data);};mr.start();}catch(e){mr=null;}
+    const segs=[];let rec=null;
+    R={id,stream,mr,chunks,segs,t0:Date.now(),active:true,rec:null,timer:null};
+    if(SRC){
+      rec=new SRC();rec.lang='en-US';rec.continuous=true;rec.interimResults=true;rec.maxAlternatives=1;
+      rec.onresult=ev=>{
+        let interim='';
+        for(let i=ev.resultIndex;i<ev.results.length;i++){
+          const r=ev.results[i];
+          if(r.isFinal)segs.push({t:r[0].transcript.trim(),c:r[0].confidence});else interim+=r[0].transcript;
+        }
+        recMsg(id,interim?'… '+interim:'');
+      };
+      rec.onerror=()=>{};
+      rec.onend=()=>{if(R&&R.active&&R.rec===rec){try{rec.start();}catch(e){}}};
+      R.rec=rec;try{rec.start();}catch(e){}
+    }else recMsg(id,'Trình duyệt không hỗ trợ nhận dạng giọng nói: bài sẽ được ghi âm nhưng cần gõ lại lời nói để chấm.');
+    const tick=()=>{const e=$('rt-'+id);if(e&&R)e.textContent='● '+Math.round((Date.now()-R.t0)/1000)+' giây';};
+    R.timer=setInterval(tick,500);tick();
+    const b1=document.querySelector(`[data-rec="${id}"]`),b2=document.querySelector(`[data-recstop="${id}"]`);
+    if(b1)b1.disabled=true;if(b2)b2.disabled=false;
+  }
+  function stopRec(id){
+    if(!R||R.id!==id)return;
+    const cur=R;cur.active=false;clearInterval(cur.timer);
+    const dur=(Date.now()-cur.t0)/1000;
+    recMsg(id,'Đang chấm điểm…');
+    try{cur.rec&&cur.rec.stop();}catch(e){}
+    const finish=()=>{
+      cur.stream.getTracks().forEach(t=>t.stop());
+      if(cur.chunks.length){urls[id]&&URL.revokeObjectURL(urls[id]);urls[id]=URL.createObjectURL(new Blob(cur.chunks,{type:(cur.mr&&cur.mr.mimeType)||'audio/webm'}));}
+      R=null;
+      const q=byId[id];
+      if(!cur.segs.length){refreshCard(id);recMsg(id,SRC?'Chưa nhận được giọng nói. Hãy nói to, rõ hơn rồi ghi lại, hoặc gõ lời nói vào ô bên dưới.':'Hãy gõ lại lời bạn nói vào ô bên dưới để chấm.');return;}
+      state[id]={c:true,r:evaluate(q,cur.segs,dur)};save();refreshCard(id);
+    };
+    if(cur.mr&&cur.mr.state!=='inactive'){cur.mr.onstop=()=>setTimeout(finish,600);try{cur.mr.stop();}catch(e){setTimeout(finish,600);}}
+    else setTimeout(finish,600);
+  }
+  function manualEval(id){
+    const el=$('mt-'+id),v=el?el.value.trim():'';
+    if(toks(v).length<5){recMsg(id,'Hãy gõ ít nhất vài câu.');return;}
+    const dur=0;
+    state[id]={c:true,r:evaluate(byId[id],[{t:v}],dur)};save();refreshCard(id);
+  }
+
+  /* ---------- render ---------- */
+  function cardHTML(q){
+    if(q.type==='sp')return spCard(q);
+    const st=state[q.id];
+    const done=!!st;
+    const cls=done?(st.c?'good':'bad'):'';
+    let sentence;
+    if(q.type==='mc'){
+      const slot=done?`<span class="slot ${cls}">${esc(st.v)}</span>`:`<span class="slot empty" aria-label="chỗ trống">_____</span>`;
+      sentence=q.s.replace('___',slot);
+    }else{
+      const inp=`<input class="blank ${cls}" id="in-${q.id}" data-q="${q.id}" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Điền vào chỗ trống, câu ${q.n}" ${done?`value="${esc(st.v)}" disabled`:''}>`;
+      sentence=(q.listen&&!done)?`<span class="ctx">Nghe rồi gõ từ còn thiếu:</span> ${inp}`:q.s.replace('___',inp);
+    }
+    let body='';
+    if(q.type==='mc'){
+      body=`<div class="opts" role="group" aria-label="Đáp án">`+q.opts.map(o=>{
+        let c='opt';
+        if(done){if(o===q.a)c+=' right';else if(o===st.v)c+=' wrong';}
+        return `<button type="button" class="${c}" data-q="${q.id}" data-v="${esc(o)}" ${done?'disabled':''}>${esc(o)}</button>`;
+      }).join('')+`</div>`;
+    }else if(!done){
+      body=`<button type="button" class="check" data-check="${q.id}">Kiểm tra</button>`;
+    }
+    if(q.hint&&!done){
+      const open=hintsOpen.has(q.id);
+      body+=`<div class="hintrow"><button type="button" class="ghost" data-hint="${q.id}">${open?'Ẩn gợi ý':'Gợi ý'}</button>${open?`<span class="hinttext">${esc(q.hint)}</span>`:''}</div>`;
+    }
+    let fb='';
+    if(done){
+      fb=`<div class="fb ${cls}" role="status"><span class="tag">${st.c?'Đúng':'Chưa đúng'}</span>`+
+         (st.c?'':`Đáp án: <b>${esc(q.a)}</b>`)+
+         (q.tw?`<p class="wordline"><b>${esc(q.tw)}</b>${q.ipa?`<span class="ipa">${esc(q.ipa)}</span>`:''}<button type="button" class="say" data-word="${esc(q.tw)}" aria-label="Phát âm ${esc(q.tw)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>Phát âm</button></p>`:'')+`<p>${esc(q.why)}</p><p class="vi">${esc(q.vi)}</p>${(q.new&&q.new.length)?`<p class="newwords"><b>Từ mới trong câu:</b> ${q.new.map(n=>`<span><b>${esc(n.w)}</b> = ${esc(n.vi)}</span>`).join('; ')}</p>`:''}</div>`+
+         (!st.c?`<button type="button" class="ghost retry" data-retry="${q.id}">Thử lại câu này</button>`:'');
+    }
+    const icon=`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>`;
+    const listen=true?`<div class="listen"><button type="button" class="say" data-say="${q.id}" aria-label="Nghe câu ${q.n}">${icon}Nghe</button><button type="button" class="say" data-say="${q.id}" data-slow="1" aria-label="Nghe chậm câu ${q.n}">${icon}Nghe chậm</button><button type="button" class="say pausebtn" data-pause="${q.id}" aria-label="Tạm dừng câu ${q.n}" disabled><svg viewBox="0 0 24 24" aria-hidden="true" class="i-pause"><path d="M8 5v14M16 5v14"/></svg><svg viewBox="0 0 24 24" aria-hidden="true" class="i-play" hidden><path d="M7 5l12 7-12 7z"/></svg><span>Tạm dừng</span></button><span class="hint">${done?'Đọc nguyên câu':'Chỗ trống đọc là "blank"'}</span></div>`:'';
+    return `<article class="q" id="card-${q.id}"><div class="qh"><span class="qn">${q.n}</span><span class="ctx">${esc(q.ctx)}</span></div><p class="sent">${sentence}</p>${body}${fb}${listen}</article>`;
+  }
+
+  function counts(list){
+    let a=0,c=0;list.forEach(q=>{const s=state[q.id];if(s){a++;if(s.c)c++;}});return {a,c,t:list.length};
+  }
+
+  function renderTabs(){
+    const wrongCount=STATQ.filter(q=>state[q.id]&&!state[q.id].c).length;
+    $('tabs').innerHTML=SECTIONS.map((s,i)=>{
+      const k=counts(s.qs);
+      return `<button class="tab" role="tab" type="button" data-tab="${s.id}" aria-selected="${current===s.id}">${i+1}. ${esc(s.title)}<small>${k.a}/${k.t}</small></button>`;
+    }).join('')+`<button class="tab" role="tab" type="button" data-tab="wrong" aria-selected="${current==='wrong'}">Câu cần ôn<small>${wrongCount}</small></button>`;
+  }
+
+  function renderStats(){
+    const k=counts(STATQ);
+    const pct=Math.round(k.a/k.t*100);
+    $('pfill').style.width=pct+'%';
+    $('pbar').setAttribute('aria-valuenow',pct);
+    $('pnum').innerHTML=`Đã làm <b>${k.a}</b>/${k.t} · Đúng <b>${k.c}</b>`+(k.a?` (${Math.round(k.c/k.a*100)}%)`:'');
+  }
+
+  function renderView(){
+    let html='';
+    if(current==='wrong'){
+      const list=STATQ.filter(q=>state[q.id]&&!state[q.id].c);
+      html=`<div class="note"><h2>Câu cần ôn</h2><p>Các câu bạn trả lời chưa đúng, từ mọi phần. Bấm "Thử lại câu này" để làm lại ngay tại đây.</p></div>`;
+      html+=list.length?list.map(cardHTML).join(''):`<div class="empty-state">Chưa có câu sai nào. Hãy làm thêm các phần khác, những câu chưa đúng sẽ xuất hiện ở đây.</div>`;
+    }else{
+      const s=SECTIONS.find(x=>x.id===current);
+      const k=counts(s.qs);
+      html=`<div class="note"><h2>${esc(s.title)}</h2><p>${s.note}</p></div>`+s.qs.map(cardHTML).join('')+
+        `<div class="foot"><span class="num">Phần này: đúng <b>${k.c}</b>/${k.t}${k.a<k.t?` · còn ${k.t-k.a} câu`:''}</span><button class="ghost" type="button" data-reset="${s.id}">Làm lại phần này</button></div>`;
+    }
+    $('view').innerHTML=html;
+  }
+
+  function renderAll(){renderTabs();renderStats();renderView();}
+
+  function refreshCard(id){
+    const el=$('card-'+id);
+    if(el)el.outerHTML=cardHTML(byId[id]);
+    renderTabs();renderStats();
+    if(current!=='wrong')refreshFoot();
+    updateControls();
+  }
+  function refreshFoot(){
+    const s=SECTIONS.find(x=>x.id===current);if(!s)return;
+    const k=counts(s.qs);
+    const f=document.querySelector('.foot .num');
+    if(f)f.innerHTML=`Phần này: đúng <b>${k.c}</b>/${k.t}${k.a<k.t?` · còn ${k.t-k.a} câu`:''}`;
+  }
+
+  function answer(id,v){
+    const q=byId[id];
+    if(state[id]||!String(v).trim())return;
+    state[id]={v:String(v).trim(),c:isRight(q,v)};
+    save();refreshCard(id);
+  }
+
+  /* ---------- events ---------- */
+  document.addEventListener('click',e=>{
+    const t=e.target.closest('button');if(!t)return;
+    if(t.dataset.hint){const id=t.dataset.hint;hintsOpen.has(id)?hintsOpen.delete(id):hintsOpen.add(id);refreshCard(id);return;}
+    if(t.dataset.rec){startRec(t.dataset.rec);return;}
+    if(t.dataset.recstop){stopRec(t.dataset.recstop);return;}
+    if(t.dataset.manual){manualEval(t.dataset.manual);return;}
+    if(t.dataset.pause){togglePause(t.dataset.pause);return;}
+    if(t.dataset.word){playWord(t.dataset.word,t);return;}
+    if(t.dataset.say){speak(t.dataset.say,!!t.dataset.slow,t);return;}
+    if(t.dataset.tab){stopAudio();current=t.dataset.tab;renderAll();window.scrollTo({top:0});return;}
+    if(t.classList.contains('opt')){const oq=byId[t.dataset.q];if(oq&&!oq.noblank)playWord(t.dataset.v,t);answer(t.dataset.q,t.dataset.v);return;}
+    if(t.dataset.check){const i=$('in-'+t.dataset.check);answer(t.dataset.check,i?i.value:'');return;}
+    if(t.dataset.retry){delete state[t.dataset.retry];save();refreshCard(t.dataset.retry);const i=$('in-'+t.dataset.retry);if(i)i.focus();return;}
+    if(t.dataset.reset){byId&&SECTIONS.find(s=>s.id===t.dataset.reset).qs.forEach(q=>delete state[q.id]);save();renderAll();return;}
+    if(t.id==='resetAll'){
+      if(t.dataset.armed){state={};save();renderAll();t.textContent='Làm lại từ đầu';delete t.dataset.armed;}
+      else{t.dataset.armed='1';t.textContent='Bấm lần nữa để xóa hết';setTimeout(()=>{if(t.dataset.armed){delete t.dataset.armed;t.textContent='Làm lại từ đầu';}},3500);}
+    }
+  });
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Enter'&&e.target.matches('input.blank')){e.preventDefault();answer(e.target.dataset.q,e.target.value);}
+  });
+
+  renderAll();
+})();
+</script>
