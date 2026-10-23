@@ -1,0 +1,857 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 2026.10.24",
+  "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 24/10/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 9 từ. Mỗi từ làm 1 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (27 câu), sau đó là 10 câu nói vận dụng có ghi âm và chấm theo 4 tiêu chí IELTS Speaking, mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.10.24-v6",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma202610241000"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "Gõ từ hoặc cụm còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "Flat hunting",
+     "s": "Although the rent was high, Priya chose a lively ___ near the station because it had a gym, a shared garden and a friendly caretaker.",
+     "acc": [
+      "block of flats",
+      "blocks of flats"
+     ],
+     "vi": "Mặc dù tiền thuê cao, Priya vẫn chọn một tòa chung cư sôi động gần nhà ga vì nó có phòng tập, vườn chung và một người trông coi thân thiện.",
+     "why": "block of flats = tòa nhà gồm nhiều căn hộ (Anh-Anh); số nhiều: blocks of flats. Mỹ hay nói apartment building.",
+     "hint": "Nghĩa: tòa nhà gồm nhiều căn hộ",
+     "new": [
+      {
+       "w": "caretaker",
+       "vi": "người trông coi tòa nhà"
+      },
+      {
+       "w": "shared",
+       "vi": "dùng chung"
+      }
+     ],
+     "tw": "block of flats",
+     "ipa": "/ˌblɑːk əv ˈflæts/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Moving downtown",
+     "s": "If you work downtown, renting a small studio in an ___ with a doorman is safer than living in a quiet house on your own.",
+     "acc": [
+      "apartment building",
+      "an apartment building",
+      "apartment buildings"
+     ],
+     "vi": "Nếu bạn làm việc ở trung tâm, thuê một căn hộ nhỏ trong một tòa chung cư có nhân viên gác cửa an toàn hơn là sống một mình trong một ngôi nhà yên tĩnh.",
+     "why": "apartment building = tòa chung cư (Anh-Mỹ); a/an apartment building. Anh-Anh thường nói block of flats.",
+     "hint": "Nghĩa: tòa nhà chung cư",
+     "new": [
+      {
+       "w": "studio",
+       "vi": "căn hộ một phòng"
+      },
+      {
+       "w": "doorman",
+       "vi": "nhân viên gác cửa"
+      }
+     ],
+     "tw": "an apartment building",
+     "ipa": "/ən əˈpɑːrtmənt ˌbɪldɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Spring cooking",
+     "s": "Whenever it is in season in spring, my aunt steams fresh ___ for a few minutes and serves it with lemon and a little olive oil.",
+     "acc": [
+      "asparagus"
+     ],
+     "vi": "Mỗi khi vào mùa xuân, dì tôi hấp măng tây tươi vài phút rồi dùng với chanh và một ít dầu ô liu.",
+     "why": "asparagus = măng tây; danh từ không đếm được: a bunch of asparagus, steamed asparagus.",
+     "hint": "Nghĩa: măng tây",
+     "new": [
+      {
+       "w": "in season",
+       "vi": "đang vào mùa"
+      },
+      {
+       "w": "steams",
+       "vi": "hấp"
+      }
+     ],
+     "tw": "asparagus",
+     "ipa": "/əˈsper.ə.ɡəs/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Food donation",
+     "s": "When the truck arrived, the volunteers formed a long row, took the heavy sacks of rice one by one and ___, so nobody had to walk back and forth.",
+     "acc": [
+      "passed them down the line",
+      "passed it down the line",
+      "passed down the line",
+      "passed them along down the line"
+     ],
+     "vi": "Khi xe tải đến, các tình nguyện viên xếp thành một hàng dài, nhận từng bao gạo nặng và chuyền dọc theo hàng, nên không ai phải đi tới đi lui.",
+     "why": "pass sth down the line = chuyền thứ gì từ người này sang người kế tiếp trong một hàng.",
+     "hint": "Nghĩa: chuyền thứ gì dọc theo hàng người (quá khứ)",
+     "new": [
+      {
+       "w": "volunteers",
+       "vi": "tình nguyện viên"
+      },
+      {
+       "w": "sacks",
+       "vi": "bao tải"
+      }
+     ],
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Festival weekend",
+     "s": "Because the festival attracts thousands of visitors, there is ___ near the old town, so most people take the tram.",
+     "acc": [
+      "nowhere to park"
+     ],
+     "vi": "Vì lễ hội thu hút hàng nghìn du khách, gần khu phố cổ không có chỗ đậu xe, nên hầu hết mọi người đi xe điện.",
+     "why": "there is nowhere to park = không có chỗ đậu xe; cấu trúc nowhere + to V.",
+     "hint": "Nghĩa: không có chỗ đậu xe",
+     "new": [
+      {
+       "w": "attracts",
+       "vi": "thu hút"
+      },
+      {
+       "w": "tram",
+       "vi": "xe điện"
+      }
+     ],
+     "tw": "nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Suburb life",
+     "s": "___ being cheaper than the city centre, the suburb offers a quiet atmosphere, which is why many young families are moving there.",
+     "acc": [
+      "apart from",
+      "Apart from"
+     ],
+     "vi": "Ngoài việc rẻ hơn trung tâm thành phố, vùng ngoại ô còn có bầu không khí yên tĩnh, đó là lý do nhiều gia đình trẻ chuyển đến đó.",
+     "why": "apart from + N/V-ing = ngoài ra, ngoại trừ (= besides, except for).",
+     "hint": "Nghĩa: ngoài, ngoại trừ (= besides)",
+     "new": [
+      {
+       "w": "suburb",
+       "vi": "vùng ngoại ô"
+      },
+      {
+       "w": "atmosphere",
+       "vi": "bầu không khí"
+      }
+     ],
+     "tw": "apart from",
+     "ipa": "/əˈpɑːt frəm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Remote village",
+     "s": "The nearest hospital is about thirty kilometres ___, so in an emergency the villagers rely on a helicopter service.",
+     "acc": [
+      "away"
+     ],
+     "vi": "Bệnh viện gần nhất cách đó khoảng ba mươi cây số, nên khi khẩn cấp dân làng phải dựa vào dịch vụ trực thăng.",
+     "why": "khoảng cách + away = cách đó bao xa: ten miles away, twenty minutes away.",
+     "hint": "Nghĩa: cách đó bao xa (đứng sau khoảng cách)",
+     "new": [
+      {
+       "w": "rely on",
+       "vi": "dựa vào"
+      },
+      {
+       "w": "emergency",
+       "vi": "tình huống khẩn cấp"
+      }
+     ],
+     "tw": "away",
+     "ipa": "/əˈweɪ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Mountain trip",
+     "s": "In small mountain villages ___ cafés that open late, so tourists who arrive after dark often go to bed hungry.",
+     "acc": [
+      "you don't get many",
+      "you do not get many"
+     ],
+     "vi": "Ở những ngôi làng miền núi nhỏ, bạn không tìm thấy nhiều quán cà phê mở muộn, nên du khách đến sau khi trời tối thường phải đi ngủ trong tình trạng đói.",
+     "why": "you don't get many + N (đếm được số nhiều) = không có/không tìm thấy nhiều ...",
+     "hint": "Nghĩa: không có/không tìm thấy nhiều...",
+     "new": [
+      {
+       "w": "after dark",
+       "vi": "sau khi trời tối"
+      },
+      {
+       "w": "hungry",
+       "vi": "đói"
+      }
+     ],
+     "tw": "you don't get many",
+     "ipa": "/ju dəʊnt ɡet ˈmen.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Countryside walk",
+     "s": "Instead of walking along the busy main road, we followed a muddy ___ through the woods, which led straight to the lake.",
+     "acc": [
+      "footpath",
+      "footpaths",
+      "foot path"
+     ],
+     "vi": "Thay vì đi bộ dọc con đường chính đông đúc, chúng tôi đi theo một lối mòn lầy lội xuyên rừng, dẫn thẳng đến hồ.",
+     "why": "footpath = lối đi bộ, đường mòn dành cho người đi bộ (khác road).",
+     "hint": "Nghĩa: lối đi bộ, đường mòn",
+     "new": [
+      {
+       "w": "muddy",
+       "vi": "lầy lội"
+      },
+      {
+       "w": "woods",
+       "vi": "khu rừng nhỏ"
+      }
+     ],
+     "tw": "footpath",
+     "ipa": "/ˈfʊt.pɑːθ/"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Fire drill",
+     "s": "After the fire alarm went off, everyone in the ___ gathered outside, whereas the neighbours on the top floor were still waiting for the lift.",
+     "o": [
+      "block of flats",
+      "shopping centre",
+      "car factory"
+     ],
+     "a": "block of flats",
+     "vi": "Sau khi chuông báo cháy vang lên, mọi người trong tòa chung cư tập trung ra ngoài, trong khi những người hàng xóm ở tầng trên cùng vẫn đang chờ thang máy.",
+     "why": "block of flats = tòa nhà gồm nhiều căn hộ (Anh-Anh); số nhiều: blocks of flats. Mỹ hay nói apartment building.",
+     "new": [
+      {
+       "w": "lift",
+       "vi": "thang máy"
+      },
+      {
+       "w": "went off",
+       "vi": "reo lên, kêu"
+      }
+     ],
+     "tw": "block of flats",
+     "ipa": "/ˌblɑːk əv ˈflæts/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Old neighbourhood",
+     "s": "The ___ on Elm Street was built in 1960, which means the pipes are old, although the owners have recently repainted the hallways.",
+     "o": [
+      "apartment building",
+      "public park",
+      "fishing boat"
+     ],
+     "a": "apartment building",
+     "vi": "Tòa chung cư trên phố Elm được xây năm 1960, nghĩa là đường ống đã cũ, dù các chủ sở hữu mới sơn lại hành lang.",
+     "why": "apartment building = tòa chung cư (Anh-Mỹ); a/an apartment building. Anh-Anh thường nói block of flats.",
+     "new": [
+      {
+       "w": "pipes",
+       "vi": "đường ống"
+      },
+      {
+       "w": "hallways",
+       "vi": "hành lang"
+      }
+     ],
+     "tw": "an apartment building",
+     "ipa": "/ən əˈpɑːrtmənt ˌbɪldɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Restaurant kitchen",
+     "s": "The chef grilled thin green spears of ___ and placed them next to the salmon, which gave the dish a crunchy, slightly bitter taste.",
+     "o": [
+      "asparagus",
+      "pineapple",
+      "chocolate"
+     ],
+     "a": "asparagus",
+     "vi": "Đầu bếp nướng những cọng măng tây xanh mảnh và đặt cạnh cá hồi, giúp món ăn có vị giòn và hơi đắng.",
+     "why": "asparagus = măng tây; danh từ không đếm được: a bunch of asparagus, steamed asparagus.",
+     "new": [
+      {
+       "w": "spears",
+       "vi": "cọng, mầm nhọn"
+      },
+      {
+       "w": "bitter",
+       "vi": "đắng"
+      }
+     ],
+     "tw": "asparagus",
+     "ipa": "/əˈsper.ə.ɡəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Unloading apples",
+     "s": "There was no conveyor belt, so the workers stood in a row to unload the apples, and the quickest method was to ___.",
+     "o": [
+      "pass them down the line",
+      "count them one by one",
+      "keep them in the truck"
+     ],
+     "a": "pass them down the line",
+     "vi": "Không có băng chuyền nên công nhân đứng thành hàng để dỡ táo, và cách nhanh nhất là chuyền chúng dọc theo hàng.",
+     "why": "pass sth down the line = chuyền thứ gì từ người này sang người kế tiếp trong một hàng.",
+     "new": [
+      {
+       "w": "conveyor belt",
+       "vi": "băng chuyền"
+      },
+      {
+       "w": "unload",
+       "vi": "dỡ hàng"
+      }
+     ],
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Market day",
+     "s": "I always arrive early on market days, because there is ___ after ten o'clock and the narrow streets become completely blocked.",
+     "o": [
+      "nowhere to park",
+      "nothing to wear",
+      "no one to ask"
+     ],
+     "a": "nowhere to park",
+     "vi": "Tôi luôn đến sớm vào ngày họp chợ, vì sau mười giờ không còn chỗ đậu xe và những con phố hẹp bị chặn hoàn toàn.",
+     "why": "there is nowhere to park = không có chỗ đậu xe; cấu trúc nowhere + to V.",
+     "new": [
+      {
+       "w": "narrow",
+       "vi": "hẹp"
+      },
+      {
+       "w": "blocked",
+       "vi": "bị tắc, bị chặn"
+      }
+     ],
+     "tw": "nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Deadline week",
+     "s": "___ a short coffee break at noon, the engineers worked without stopping until the evening, as the deadline was only a day away.",
+     "o": [
+      "Apart from",
+      "Because of",
+      "According to"
+     ],
+     "a": "Apart from",
+     "vi": "Ngoại trừ một lần nghỉ uống cà phê ngắn vào buổi trưa, các kỹ sư làm việc không ngừng đến tối vì hạn chót chỉ còn một ngày.",
+     "why": "apart from + N/V-ing = ngoài ra, ngoại trừ (= besides, except for).",
+     "new": [
+      {
+       "w": "engineers",
+       "vi": "kỹ sư"
+      },
+      {
+       "w": "deadline",
+       "vi": "hạn chót"
+      }
+     ],
+     "tw": "apart from",
+     "ipa": "/əˈpɑːt frəm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Airport trip",
+     "s": "Although the airport is only twenty minutes ___ by taxi, the rush-hour traffic can easily double the journey time.",
+     "o": [
+      "away",
+      "behind",
+      "above"
+     ],
+     "a": "away",
+     "vi": "Mặc dù sân bay chỉ cách đó hai mươi phút đi taxi, giao thông giờ cao điểm có thể dễ dàng làm thời gian di chuyển tăng gấp đôi.",
+     "why": "khoảng cách + away = cách đó bao xa: ten miles away, twenty minutes away.",
+     "new": [
+      {
+       "w": "rush-hour",
+       "vi": "giờ cao điểm"
+      },
+      {
+       "w": "double",
+       "vi": "gấp đôi"
+      }
+     ],
+     "tw": "away",
+     "ipa": "/əˈweɪ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Island life",
+     "s": "Living on a remote island sounds romantic, but ___ job opportunities there, which is why many young people eventually move to the mainland.",
+     "o": [
+      "you don't get many",
+      "you don't lend many",
+      "you don't borrow many"
+     ],
+     "a": "you don't get many",
+     "vi": "Sống trên một hòn đảo xa xôi nghe thật lãng mạn, nhưng ở đó không có nhiều cơ hội việc làm, đó là lý do nhiều người trẻ cuối cùng chuyển vào đất liền.",
+     "why": "you don't get many + N (đếm được số nhiều) = không có/không tìm thấy nhiều ...",
+     "new": [
+      {
+       "w": "remote",
+       "vi": "xa xôi, hẻo lánh"
+      },
+      {
+       "w": "mainland",
+       "vi": "đất liền"
+      }
+     ],
+     "tw": "you don't get many",
+     "ipa": "/ju dəʊnt ɡet ˈmen.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "River renovation",
+     "s": "The council has repaired the old ___ along the river, so cyclists and walkers can now enjoy the view without worrying about traffic.",
+     "o": [
+      "footpath",
+      "motorway",
+      "platform"
+     ],
+     "a": "footpath",
+     "vi": "Hội đồng thành phố đã sửa lối đi bộ cũ dọc bờ sông, nên người đi xe đạp và đi bộ giờ có thể ngắm cảnh mà không lo xe cộ.",
+     "why": "footpath = lối đi bộ, đường mòn dành cho người đi bộ (khác road).",
+     "new": [
+      {
+       "w": "council",
+       "vi": "hội đồng địa phương"
+      },
+      {
+       "w": "cyclists",
+       "vi": "người đi xe đạp"
+      }
+     ],
+     "tw": "footpath",
+     "ipa": "/ˈfʊt.pɑːθ/"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "City planning",
+     "s": "City planners say that building one tall block of flats is cheaper than building twenty separate houses. As a result, more young workers can afford to live close to their offices. What does \"block of flats\" mean?",
+     "o": [
+      "Tòa nhà gồm nhiều căn hộ",
+      "Khu nhà biệt thự có vườn",
+      "Ký túc xá của trường đại học"
+     ],
+     "a": "Tòa nhà gồm nhiều căn hộ",
+     "vi": "Các nhà quy hoạch đô thị cho rằng xây một tòa chung cư cao rẻ hơn xây hai mươi ngôi nhà riêng lẻ. Nhờ vậy, nhiều lao động trẻ hơn có thể sống gần văn phòng.",
+     "why": "block of flats = tòa nhà gồm nhiều căn hộ (Anh-Anh); số nhiều: blocks of flats. Mỹ hay nói apartment building.",
+     "noblank": true,
+     "say": "City planners say that building one tall block of flats is cheaper than building twenty separate houses. As a result, more young workers can afford to live close to their offices.",
+     "new": [
+      {
+       "w": "planners",
+       "vi": "nhà quy hoạch"
+      },
+      {
+       "w": "afford",
+       "vi": "đủ khả năng chi trả"
+      }
+     ],
+     "tw": "block of flats",
+     "ipa": "/ˌblɑːk əv ˈflæts/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family news",
+     "s": "My cousin moved into an apartment building last month. It has forty units, a rooftop terrace and an underground car park, so she never worries about parking. What does \"an apartment building\" mean?",
+     "o": [
+      "Tòa nhà chung cư nhiều căn hộ",
+      "Căn nhà liền kề có sân",
+      "Khách sạn nhỏ ven biển"
+     ],
+     "a": "Tòa nhà chung cư nhiều căn hộ",
+     "vi": "Chị họ tôi chuyển vào một tòa chung cư tháng trước. Nơi đó có bốn mươi căn, sân thượng và bãi đậu xe ngầm, nên chị chẳng bao giờ lo chuyện đậu xe.",
+     "why": "apartment building = tòa chung cư (Anh-Mỹ); a/an apartment building. Anh-Anh thường nói block of flats.",
+     "noblank": true,
+     "say": "My cousin moved into an apartment building last month. It has forty units, a rooftop terrace and an underground car park, so she never worries about parking.",
+     "new": [
+      {
+       "w": "units",
+       "vi": "căn hộ, đơn vị"
+      },
+      {
+       "w": "rooftop terrace",
+       "vi": "sân thượng"
+      }
+     ],
+     "tw": "an apartment building",
+     "ipa": "/ən əˈpɑːrtmənt ˌbɪldɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Nutrition article",
+     "s": "Asparagus is often called a healthy vegetable because it contains vitamins and fiber. However, it can be expensive outside the spring harvest season. What does \"asparagus\" mean?",
+     "o": [
+      "Măng tây",
+      "Bông cải xanh",
+      "Rau cải bó xôi"
+     ],
+     "a": "Măng tây",
+     "vi": "Măng tây thường được gọi là loại rau tốt cho sức khỏe vì chứa vitamin và chất xơ. Tuy nhiên, nó có thể đắt ngoài mùa thu hoạch mùa xuân.",
+     "why": "asparagus = măng tây; danh từ không đếm được: a bunch of asparagus, steamed asparagus.",
+     "noblank": true,
+     "say": "Asparagus is often called a healthy vegetable because it contains vitamins and fiber. However, it can be expensive outside the spring harvest season.",
+     "new": [
+      {
+       "w": "fiber",
+       "vi": "chất xơ"
+      },
+      {
+       "w": "harvest",
+       "vi": "thu hoạch"
+      }
+     ],
+     "tw": "asparagus",
+     "ipa": "/əˈsper.ə.ɡəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Emergency story",
+     "s": "In the old mill, the workers did not have any machines. Instead, they passed the buckets of water down the line until the fire was under control. What does \"pass sth down the line\" mean?",
+     "o": [
+      "Chuyền thứ gì dọc theo hàng người",
+      "Ném thứ gì qua đường dây",
+      "Xếp thứ gì thành một hàng thẳng"
+     ],
+     "a": "Chuyền thứ gì dọc theo hàng người",
+     "vi": "Trong nhà máy cũ, công nhân không có máy móc nào. Thay vào đó, họ chuyền các xô nước dọc theo hàng cho đến khi đám cháy được kiểm soát.",
+     "why": "pass sth down the line = chuyền thứ gì từ người này sang người kế tiếp trong một hàng.",
+     "noblank": true,
+     "say": "In the old mill, the workers did not have any machines. Instead, they passed the buckets of water down the line until the fire was under control.",
+     "new": [
+      {
+       "w": "mill",
+       "vi": "nhà máy, xưởng xay"
+      },
+      {
+       "w": "under control",
+       "vi": "trong tầm kiểm soát"
+      }
+     ],
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Match day advice",
+     "s": "Don't bother driving to the stadium on match days. According to local drivers, there is nowhere to park within two kilometres, and the traffic is terrible. What does \"there is nowhere to park\" mean?",
+     "o": [
+      "Không có chỗ đậu xe",
+      "Không có đường để đi bộ",
+      "Không có xe buýt đến"
+     ],
+     "a": "Không có chỗ đậu xe",
+     "vi": "Đừng mất công lái xe đến sân vận động vào ngày thi đấu. Theo các tài xế địa phương, trong vòng hai cây số không có chỗ đậu xe và giao thông rất tệ.",
+     "why": "there is nowhere to park = không có chỗ đậu xe; cấu trúc nowhere + to V.",
+     "noblank": true,
+     "say": "Don't bother driving to the stadium on match days. According to local drivers, there is nowhere to park within two kilometres, and the traffic is terrible.",
+     "new": [
+      {
+       "w": "bother",
+       "vi": "mất công"
+      },
+      {
+       "w": "stadium",
+       "vi": "sân vận động"
+      }
+     ],
+     "tw": "nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hotel review",
+     "s": "The hotel was spotless and the staff were polite. Apart from the noisy road outside, there was nothing to complain about. What does \"apart from\" mean?",
+     "o": [
+      "Ngoại trừ",
+      "Bởi vì",
+      "Thay vì"
+     ],
+     "a": "Ngoại trừ",
+     "vi": "Khách sạn sạch bong và nhân viên lịch sự. Ngoại trừ con đường ồn ào bên ngoài, không có gì để phàn nàn.",
+     "why": "apart from + N/V-ing = ngoài ra, ngoại trừ (= besides, except for).",
+     "noblank": true,
+     "say": "The hotel was spotless and the staff were polite. Apart from the noisy road outside, there was nothing to complain about.",
+     "new": [
+      {
+       "w": "spotless",
+       "vi": "sạch bong"
+      },
+      {
+       "w": "complain",
+       "vi": "phàn nàn"
+      }
+     ],
+     "tw": "apart from",
+     "ipa": "/əˈpɑːt frəm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Ski trip",
+     "s": "The ski resort is lovely, but the nearest supermarket is fifteen miles away, so guests should bring food with them. Otherwise, they will have to drive for forty minutes. What does \"away\" mean in \"fifteen miles away\"?",
+     "o": [
+      "Cách đó (một khoảng)",
+      "Gần ngay bên cạnh",
+      "Đi nhanh hơn"
+     ],
+     "a": "Cách đó (một khoảng)",
+     "vi": "Khu trượt tuyết rất đẹp, nhưng siêu thị gần nhất cách đó mười lăm dặm, nên khách nên mang theo thức ăn. Nếu không, họ phải lái xe bốn mươi phút.",
+     "why": "khoảng cách + away = cách đó bao xa: ten miles away, twenty minutes away.",
+     "noblank": true,
+     "say": "The ski resort is lovely, but the nearest supermarket is fifteen miles away, so guests should bring food with them. Otherwise, they will have to drive for forty minutes.",
+     "new": [
+      {
+       "w": "resort",
+       "vi": "khu nghỉ dưỡng"
+      },
+      {
+       "w": "otherwise",
+       "vi": "nếu không thì"
+      }
+     ],
+     "tw": "away",
+     "ipa": "/əˈweɪ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Rural travel",
+     "s": "Rural areas have their charms, but you don't get many direct trains there. If you miss the last bus, you may have to wait until the next morning. What does \"you don't get many\" mean?",
+     "o": [
+      "Không có nhiều",
+      "Bạn không được mang nhiều",
+      "Bạn chẳng bao giờ nhận được"
+     ],
+     "a": "Không có nhiều",
+     "vi": "Vùng nông thôn có nét quyến rũ riêng, nhưng ở đó không có nhiều chuyến tàu trực tiếp. Nếu lỡ chuyến xe buýt cuối, bạn có thể phải đợi đến sáng hôm sau.",
+     "why": "you don't get many + N (đếm được số nhiều) = không có/không tìm thấy nhiều ...",
+     "noblank": true,
+     "say": "Rural areas have their charms, but you don't get many direct trains there. If you miss the last bus, you may have to wait until the next morning.",
+     "new": [
+      {
+       "w": "charms",
+       "vi": "nét quyến rũ"
+      },
+      {
+       "w": "direct",
+       "vi": "trực tiếp"
+      }
+     ],
+     "tw": "you don't get many",
+     "ipa": "/ju dəʊnt ɡet ˈmen.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Local news",
+     "s": "Local walkers asked the authorities to keep the footpath open across the farm. They argued that it had been used for more than two hundred years. What does \"footpath\" mean?",
+     "o": [
+      "Lối đi bộ",
+      "Hàng rào quanh nông trại",
+      "Đường cao tốc"
+     ],
+     "a": "Lối đi bộ",
+     "vi": "Những người đi bộ địa phương yêu cầu chính quyền giữ lối đi bộ qua nông trại luôn mở. Họ lập luận rằng nó đã được sử dụng hơn hai trăm năm.",
+     "why": "footpath = lối đi bộ, đường mòn dành cho người đi bộ (khác road).",
+     "noblank": true,
+     "say": "Local walkers asked the authorities to keep the footpath open across the farm. They argued that it had been used for more than two hundred years.",
+     "new": [
+      {
+       "w": "authorities",
+       "vi": "chính quyền"
+      },
+      {
+       "w": "argued",
+       "vi": "lập luận"
+      }
+     ],
+     "tw": "footpath",
+     "ipa": "/ˈfʊt.pɑːθ/"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Nói vận dụng",
+   "note": "Bấm Ghi âm, trả lời bằng tiếng Anh 30–60 giây và cố dùng các từ gợi ý; trang sẽ chấm ước tính theo Fluency, Lexical Resource, Grammar, Pronunciation.",
+   "qs": [
+    {
+     "type": "sp",
+     "ctx": "Housing",
+     "s": "Do you live in a house or a flat? Tell me what you like and dislike about the place where you live now.",
+     "vi": "Bạn sống trong nhà riêng hay căn hộ? Hãy kể bạn thích và không thích điều gì ở nơi bạn đang sống.",
+     "words": [
+      "block of flats",
+      "apartment building",
+      "apart from"
+     ],
+     "why": "Nêu loại nhà, một ưu điểm, một nhược điểm; dùng although để nối hai ý.",
+     "sample": "I live in a block of flats on the edge of the city, and I have been there for about three years. Apart from the low rent, I like the friendly neighbours, because we often help each other. Although the apartment building is quite old, the rooms are bright and the balcony has a lovely view of the park. However, the lift breaks down quite often, which is annoying when I carry heavy shopping. If I had more money, I would move to a quieter area, but for now this place suits me well."
+    },
+    {
+     "type": "sp",
+     "ctx": "A place to live",
+     "s": "Describe a neighbourhood where you would like to live. You should say where it is, what it looks like, and why it appeals to you.",
+     "vi": "Hãy mô tả một khu phố mà bạn muốn sống: ở đâu, trông như thế nào và vì sao bạn thích.",
+     "words": [
+      "footpath",
+      "away",
+      "you don't get many",
+      "nowhere to park"
+     ],
+     "why": "Mở bằng vị trí và khoảng cách, miêu tả cảnh vật, rồi nêu lý do thích; dùng which để thêm thông tin.",
+     "sample": "The neighbourhood I would love to live in is a small town about fifty kilometres away from the capital. There is a long footpath along the river, which people use for walking and cycling every morning. Because the streets are narrow, there is nowhere to park in the centre, so everyone travels on foot. In a place like that, you don't get many traffic jams or loud noises. I think it would be perfect for me, since I need peace and fresh air to study and relax after work."
+    },
+    {
+     "type": "sp",
+     "ctx": "Food and cooking",
+     "s": "What vegetables do you usually eat? Is there any vegetable you only eat at a certain time of year?",
+     "vi": "Bạn thường ăn những loại rau nào? Có loại rau nào bạn chỉ ăn vào một thời điểm nhất định trong năm không?",
+     "words": [
+      "asparagus",
+      "apart from"
+     ],
+     "why": "Kể rau thường ăn, rồi một loại theo mùa và cách chế biến; thêm lý do sức khỏe.",
+     "sample": "I usually eat green vegetables such as spinach and broccoli, because they are cheap and healthy. Apart from those, I love asparagus, but it is only available in spring, so I buy it whenever I see it at the market. My mother steams it for a few minutes and adds a little lemon, which keeps it fresh and slightly crunchy. Although it can be expensive, I think it is worth the price because it contains a lot of fiber and vitamins."
+    },
+    {
+     "type": "sp",
+     "ctx": "City traffic",
+     "s": "Is it easy to find a parking space in your city? How do people deal with this problem?",
+     "vi": "Ở thành phố của bạn có dễ tìm chỗ đậu xe không? Mọi người xử lý vấn đề này thế nào?",
+     "words": [
+      "nowhere to park",
+      "away",
+      "apart from"
+     ],
+     "why": "Nêu thực trạng, hậu quả, rồi giải pháp (phương tiện công cộng, đậu xa hơn).",
+     "sample": "In my city, parking is a serious problem, especially downtown. At weekends there is nowhere to park near the shopping streets, so drivers often circle for half an hour. Apart from wasting time, this causes pollution and makes people stressed. Many of my friends now leave their cars at a car park a kilometre away and walk the rest of the journey. If the government built more underground car parks and improved the bus system, fewer people would need to drive into the centre."
+    },
+    {
+     "type": "sp",
+     "ctx": "Teamwork",
+     "s": "Tell me about a time when you worked with other people to finish a difficult task. How did you organise the work?",
+     "vi": "Hãy kể về một lần bạn làm việc cùng người khác để hoàn thành nhiệm vụ khó. Bạn tổ chức công việc thế nào?",
+     "words": [
+      "pass down the line",
+      "apart from"
+     ],
+     "why": "Kể bối cảnh, vai trò từng người, cách làm cụ thể và kết quả; dùng so that để nêu mục đích.",
+     "sample": "Last year our school organised a charity day, and I joined about twenty volunteers to sort donated clothes. There were hundreds of boxes, so we stood in a long row and passed each box down the line so that nobody had to carry anything far. Apart from saving time, this method kept everyone cheerful, because we chatted while we worked. As a result, we finished in two hours instead of five. I learned that a clear plan makes teamwork much easier."
+    },
+    {
+     "type": "sp",
+     "ctx": "Countryside life",
+     "s": "Would you prefer to live in the countryside or in a big city? Why?",
+     "vi": "Bạn thích sống ở nông thôn hay thành phố lớn hơn? Vì sao?",
+     "words": [
+      "you don't get many",
+      "away",
+      "footpath"
+     ],
+     "why": "Nêu lựa chọn, so sánh hai bên bằng whereas, và đưa ví dụ cụ thể.",
+     "sample": "Personally, I would choose the countryside, although I know it has some disadvantages. In a village you don't get many shops or cinemas, whereas a big city offers entertainment every night. However, I prefer a quiet life, and a footpath through the fields is better than a crowded street for me. If the nearest hospital is a few miles away, that might be inconvenient, but I would still be happier. Fresh air and peace are more important to me than convenience."
+    },
+    {
+     "type": "sp",
+     "ctx": "Young people and renting",
+     "s": "Why do many young people in your country rent a flat instead of buying one? What are the advantages of each choice?",
+     "vi": "Vì sao nhiều người trẻ ở nước bạn thuê căn hộ thay vì mua? Ưu điểm của mỗi lựa chọn là gì?",
+     "words": [
+      "apartment building",
+      "block of flats",
+      "nowhere to park"
+     ],
+     "why": "Giải thích lý do kinh tế, so sánh thuê và mua, rồi nêu ý kiến của bạn.",
+     "sample": "Most young people rent because property prices are far too high for their salaries. A typical young worker prefers a small flat in an apartment building near the office, so that the journey is short. Some modern blocks of flats even offer gyms and gardens, which makes renting attractive. On the other hand, buying gives you security, whereas renting means the landlord can raise the price. In big cities there is often nowhere to park, so a flat close to the metro is a smart choice."
+    },
+    {
+     "type": "sp",
+     "ctx": "Healthy eating",
+     "s": "Do you think people eat healthily in your country? What could they do to improve their diet?",
+     "vi": "Bạn nghĩ người dân nước bạn có ăn uống lành mạnh không? Họ có thể làm gì để cải thiện?",
+     "words": [
+      "asparagus",
+      "you don't get many",
+      "apart from"
+     ],
+     "why": "Đưa nhận định, nêu vấn đề (ít rau), rồi giải pháp cụ thể.",
+     "sample": "In my opinion, people in my country eat too much fried food and too few vegetables. In many restaurants you don't get many salads, and vegetables such as asparagus are considered expensive. Apart from changing their menus, restaurants could offer cheaper healthy meals. At home, families should cook more fresh food, which would improve their health and save money in the long run. If schools taught children about nutrition, the next generation would make better choices."
+    },
+    {
+     "type": "sp",
+     "ctx": "Walking and the environment",
+     "s": "How can cities encourage people to walk or cycle instead of driving?",
+     "vi": "Thành phố có thể khuyến khích người dân đi bộ hoặc đi xe đạp thay vì lái xe bằng cách nào?",
+     "words": [
+      "footpath",
+      "away",
+      "nowhere to park"
+     ],
+     "why": "Nêu hai ba biện pháp, mỗi biện pháp kèm lý do và lợi ích môi trường.",
+     "sample": "Cities could build safe footpaths and bike lanes so that people feel comfortable leaving their cars at home. If workplaces are only a few kilometres away, walking or cycling is quicker than sitting in traffic. Cities could also create areas with nowhere to park, which would make driving less convenient. As a result, air pollution would fall and people would become healthier. Although these changes cost money, they would benefit everyone."
+    },
+    {
+     "type": "sp",
+     "ctx": "A memorable trip",
+     "s": "Describe a trip to a remote place. You should say where it was, how you travelled there, and what you did.",
+     "vi": "Hãy mô tả một chuyến đi đến nơi hẻo lánh: ở đâu, bạn đến bằng cách nào và đã làm gì.",
+     "words": [
+      "away",
+      "you don't get many",
+      "footpath",
+      "block of flats",
+      "pass down the line"
+     ],
+     "why": "Kể theo thứ tự thời gian, miêu tả nơi đó, rồi nêu cảm nhận cuối cùng.",
+     "sample": "Two years ago I visited a mountain village about eighty kilometres away from my hometown. We followed a narrow footpath for two hours, and at the top there was a small village where you don't get many visitors. The villagers lived in simple houses, not in a block of flats like in my city. When we helped them carry baskets of vegetables, we passed everything down the line, and everyone laughed. It was tiring, but it was one of the most peaceful trips of my life."
+    }
+   ]
+  }
+ ]
+}
