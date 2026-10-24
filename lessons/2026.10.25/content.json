@@ -1,0 +1,4578 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 2026.10.25",
+  "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 25/10/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 58 từ. Mỗi từ làm 1 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (174 câu), sau đó là 10 câu nói vận dụng có ghi âm và chấm theo 4 tiêu chí IELTS Speaking, mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.10.25-v6",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma202610251000"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "Gõ từ hoặc cụm còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "Starting a business",
+     "s": "Experts advise that anyone planning to ___ online trading should first test the market, since many beginners lose money within a few months.",
+     "acc": [
+      "engage in",
+      "engaged in",
+      "engages in",
+      "engaging in"
+     ],
+     "vi": "Các chuyên gia khuyên rằng ai định tham gia vào việc kinh doanh trực tuyến nên thử thị trường trước, vì nhiều người mới mất tiền chỉ trong vài tháng.",
+     "why": "engage in + danh từ/V-ing = tham gia vào một hoạt động, công việc.",
+     "hint": "Nghĩa: tham gia vào, dấn thân vào",
+     "new": [
+      {
+       "w": "trading",
+       "vi": "việc mua bán"
+      },
+      {
+       "w": "beginners",
+       "vi": "người mới bắt đầu"
+      }
+     ],
+     "tw": "engage in"
+    },
+    {
+     "type": "tx",
+     "ctx": "Kitchen safety",
+     "s": "After the party, Minh put the leftover chicken in the ___ immediately, because bacteria grow quickly when cooked food stays warm for hours.",
+     "acc": [
+      "refrigerator",
+      "refrigerators",
+      "fridge"
+     ],
+     "vi": "Sau bữa tiệc, Minh cho phần gà thừa vào tủ lạnh ngay lập tức, vì vi khuẩn phát triển nhanh khi thức ăn đã nấu để ấm nhiều giờ.",
+     "why": "refrigerator = tủ lạnh (nói tắt: fridge); thường đi với keep sth in the refrigerator.",
+     "hint": "Nghĩa: tủ lạnh",
+     "new": [
+      {
+       "w": "leftover",
+       "vi": "đồ ăn thừa"
+      },
+      {
+       "w": "bacteria",
+       "vi": "vi khuẩn"
+      }
+     ],
+     "tw": "refrigerator",
+     "ipa": "/rɪˈfrɪdʒ.ə.reɪ.t̬ɚ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Healthy eating",
+     "s": "My cousin, who is trying to eat less rice, cooks ___ with grilled vegetables because it is rich in protein and keeps her full for hours.",
+     "acc": [
+      "quinoa"
+     ],
+     "vi": "Chị họ tôi, người đang cố ăn ít cơm hơn, nấu hạt diêm mạch với rau nướng vì nó giàu đạm và giúp chị no nhiều giờ.",
+     "why": "quinoa = hạt diêm mạch, ngũ cốc giàu đạm, thường dùng trong salad hoặc thay cơm.",
+     "hint": "Nghĩa: hạt diêm mạch",
+     "new": [
+      {
+       "w": "protein",
+       "vi": "chất đạm"
+      },
+      {
+       "w": "grilled",
+       "vi": "nướng"
+      }
+     ],
+     "tw": "quinoa",
+     "ipa": "/kɪnˈwɑː/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Office",
+     "s": "Mai walked into the meeting room holding her stomach, so her colleague, who noticed how pale she looked, quietly asked her, \"___?\"",
+     "acc": [
+      "What's the matter",
+      "What’s the matter",
+      "What is the matter",
+      "Whats the matter"
+     ],
+     "vi": "Mai bước vào phòng họp ôm bụng, nên đồng nghiệp, người nhận thấy cô ấy xanh xao thế nào, khẽ hỏi: \"Có chuyện gì vậy?\"",
+     "why": "What's the matter? = hỏi thăm khi thấy ai đó buồn, đau hoặc có vấn đề (= What's wrong?).",
+     "hint": "Nghĩa: Có chuyện gì vậy? / Bạn bị sao vậy?",
+     "new": [
+      {
+       "w": "pale",
+       "vi": "xanh xao, nhợt nhạt"
+      }
+     ],
+     "tw": "What's the matter?"
+    },
+    {
+     "type": "tx",
+     "ctx": "Phone call",
+     "s": "I can't join the choir practice tonight because I ___, and the doctor said I should rest my voice for at least three days.",
+     "acc": [
+      "have a sore throat",
+      "has a sore throat",
+      "had a sore throat",
+      "having a sore throat"
+     ],
+     "vi": "Tối nay tôi không thể tham gia buổi tập hợp xướng vì tôi bị đau họng, và bác sĩ bảo tôi nên nghỉ giọng ít nhất ba ngày.",
+     "why": "have a sore throat = bị đau họng; sore = đau rát, viêm.",
+     "hint": "Nghĩa: bị đau họng",
+     "new": [
+      {
+       "w": "choir",
+       "vi": "dàn hợp xướng"
+      },
+      {
+       "w": "rest",
+       "vi": "nghỉ ngơi"
+      }
+     ],
+     "tw": "have a sore throat",
+     "ipa": "/θroʊt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "School nurse",
+     "s": "The school nurse sent the boy home early because he seemed to ___, and his cheeks were so red that she was worried about the flu.",
+     "acc": [
+      "have a temperature",
+      "has a temperature",
+      "had a temperature",
+      "having a temperature"
+     ],
+     "vi": "Y tá trường cho cậu bé về sớm vì có vẻ cậu bị sốt, và má cậu đỏ đến mức cô lo là bệnh cúm.",
+     "why": "have a temperature = bị sốt (nhiệt độ cơ thể cao hơn bình thường).",
+     "hint": "Nghĩa: bị sốt",
+     "new": [
+      {
+       "w": "nurse",
+       "vi": "y tá"
+      },
+      {
+       "w": "cheeks",
+       "vi": "má"
+      }
+     ],
+     "tw": "have a temperature",
+     "ipa": "/ˈtem.pɚ.ə.tʃɚ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Office",
+     "s": "Half of the sales team stayed at home last week with the ___, so the manager had to postpone the presentation to the following Monday.",
+     "acc": [
+      "flu",
+      "the flu"
+     ],
+     "vi": "Một nửa nhóm bán hàng ở nhà tuần trước vì bị cúm, nên quản lý phải hoãn buổi thuyết trình sang thứ Hai tuần sau.",
+     "why": "flu = cúm (viết tắt của influenza); thường nói have/catch (the) flu.",
+     "hint": "Nghĩa: bệnh cúm",
+     "new": [
+      {
+       "w": "postpone",
+       "vi": "hoãn lại"
+      },
+      {
+       "w": "presentation",
+       "vi": "buổi thuyết trình"
+      }
+     ],
+     "tw": "flu"
+    },
+    {
+     "type": "tx",
+     "ctx": "Cooking class",
+     "s": "The chef warned us to keep our fingers away from the blade, because it is surprisingly easy to ___ when you chop vegetables too quickly.",
+     "acc": [
+      "cut yourself",
+      "cut myself",
+      "cut himself",
+      "cut herself",
+      "cut themselves",
+      "cut ourselves"
+     ],
+     "vi": "Đầu bếp cảnh báo chúng tôi giữ ngón tay tránh xa lưỡi dao, vì thật dễ bị đứt tay khi bạn thái rau quá nhanh.",
+     "why": "cut yourself = tự làm mình bị đứt tay/chân; đại từ phản thân đổi theo chủ ngữ (myself, himself...).",
+     "hint": "Nghĩa: bị đứt/cắt vào người",
+     "new": [
+      {
+       "w": "blade",
+       "vi": "lưỡi dao"
+      },
+      {
+       "w": "chop",
+       "vi": "thái, băm"
+      }
+     ],
+     "tw": "cut yourself"
+    },
+    {
+     "type": "tx",
+     "ctx": "Dentist",
+     "s": "Her gums began to ___ every time she brushed her teeth, so she made an appointment with a dentist to check for infection.",
+     "acc": [
+      "bleed",
+      "bleeds",
+      "bleeding",
+      "bled"
+     ],
+     "vi": "Nướu của cô bắt đầu chảy máu mỗi lần cô đánh răng, nên cô đặt lịch hẹn với nha sĩ để kiểm tra nhiễm trùng.",
+     "why": "bleed = chảy máu (bleed - bled - bled); danh từ: blood.",
+     "hint": "Nghĩa: chảy máu",
+     "new": [
+      {
+       "w": "gums",
+       "vi": "nướu"
+      },
+      {
+       "w": "appointment",
+       "vi": "cuộc hẹn"
+      }
+     ],
+     "tw": "bleed",
+     "ipa": "/bliːd/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Football match",
+     "s": "The team doctor ran onto the pitch and began to ___ the player's swollen ankle so that he could walk off the field safely.",
+     "acc": [
+      "put a bandage around",
+      "put bandage around",
+      "puts a bandage around",
+      "putting a bandage around",
+      "put a bandage on"
+     ],
+     "vi": "Bác sĩ đội bóng chạy vào sân và bắt đầu quấn băng quanh mắt cá chân sưng của cầu thủ để anh có thể đi ra khỏi sân an toàn.",
+     "why": "put a bandage around + bộ phận cơ thể = quấn băng quanh chỗ bị thương.",
+     "hint": "Nghĩa: quấn băng quanh (chỗ bị thương)",
+     "new": [
+      {
+       "w": "swollen",
+       "vi": "sưng"
+      },
+      {
+       "w": "ankle",
+       "vi": "mắt cá chân"
+      }
+     ],
+     "tw": "put a bandage around",
+     "ipa": "/ˈbæn.dɪdʒ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Night shift",
+     "s": "Last winter my roommate ___ that kept both of us awake until two o'clock, so we finally went to a pharmacy to ask for advice.",
+     "acc": [
+      "had a cough",
+      "have a cough",
+      "has a cough",
+      "having a cough"
+     ],
+     "vi": "Mùa đông năm ngoái bạn cùng phòng tôi bị ho khiến cả hai thức đến hai giờ sáng, nên cuối cùng chúng tôi đến hiệu thuốc xin lời khuyên.",
+     "why": "have a cough = bị ho; có thể nói have a bad/terrible cough.",
+     "hint": "Nghĩa: bị ho",
+     "new": [
+      {
+       "w": "roommate",
+       "vi": "bạn cùng phòng"
+      },
+      {
+       "w": "advice",
+       "vi": "lời khuyên"
+      }
+     ],
+     "tw": "have a cough",
+     "ipa": "/kɑːf/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Pharmacy",
+     "s": "The pharmacist recommended a sweet ___ for my son, explaining that it would soothe his throat and help him sleep through the night.",
+     "acc": [
+      "cough medicine",
+      "cough syrup"
+     ],
+     "vi": "Dược sĩ giới thiệu một loại thuốc ho vị ngọt cho con trai tôi, giải thích rằng nó sẽ làm dịu cổ họng và giúp cháu ngủ suốt đêm.",
+     "why": "cough medicine = thuốc ho; medicine không đếm được.",
+     "hint": "Nghĩa: thuốc ho",
+     "new": [
+      {
+       "w": "pharmacist",
+       "vi": "dược sĩ"
+      },
+      {
+       "w": "soothe",
+       "vi": "làm dịu"
+      }
+     ],
+     "tw": "cough medicine",
+     "ipa": "/kɑːf/ /ˈmed.ɪ.sən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Exam week",
+     "s": "After studying for six hours without a break, Nam started to ___ and realised that he had forgotten to drink water all day.",
+     "acc": [
+      "have a headache",
+      "has a headache",
+      "had a headache",
+      "having a headache"
+     ],
+     "vi": "Sau khi học sáu tiếng không nghỉ, Nam bắt đầu bị đau đầu và nhận ra mình đã quên uống nước cả ngày.",
+     "why": "have a headache = bị đau đầu; headache là danh từ đếm được.",
+     "hint": "Nghĩa: bị đau đầu",
+     "new": [
+      {
+       "w": "realised",
+       "vi": "nhận ra"
+      },
+      {
+       "w": "break",
+       "vi": "giờ nghỉ"
+      }
+     ],
+     "tw": "have a headache"
+    },
+    {
+     "type": "tx",
+     "ctx": "Travel",
+     "s": "The flight attendant asked whether I wanted to ___ for my travel sickness before the plane started to climb through the clouds.",
+     "acc": [
+      "take some tablets",
+      "took some tablets",
+      "takes some tablets",
+      "taking some tablets"
+     ],
+     "vi": "Tiếp viên hàng không hỏi tôi có muốn uống vài viên thuốc chống say xe trước khi máy bay bay lên qua những đám mây không.",
+     "why": "take tablets = uống thuốc viên; tablet = viên thuốc nén.",
+     "hint": "Nghĩa: uống vài viên thuốc",
+     "new": [
+      {
+       "w": "travel sickness",
+       "vi": "say tàu xe"
+      },
+      {
+       "w": "climb",
+       "vi": "bay lên"
+      }
+     ],
+     "tw": "take some tablets",
+     "ipa": "/ˈtæb.lət/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Parenting",
+     "s": "It is not always easy to ___ a toddler who refuses to open his mouth, so many parents mix it into a spoonful of yoghurt.",
+     "acc": [
+      "give someone some medicine",
+      "gave someone some medicine",
+      "give him some medicine",
+      "give her some medicine",
+      "gave her some medicine",
+      "gave him some medicine",
+      "give me some medicine",
+      "gave me some medicine",
+      "give them some medicine",
+      "gave them some medicine"
+     ],
+     "vi": "Không phải lúc nào cũng dễ để cho thuốc một đứa trẻ mới biết đi không chịu mở miệng, nên nhiều bố mẹ trộn nó vào thìa sữa chua.",
+     "why": "give sb some medicine = cho ai uống thuốc; medicine không đếm được nên dùng some.",
+     "hint": "Nghĩa: cho ai uống/dùng thuốc",
+     "new": [
+      {
+       "w": "toddler",
+       "vi": "trẻ mới biết đi"
+      },
+      {
+       "w": "spoonful",
+       "vi": "một thìa đầy"
+      }
+     ],
+     "tw": "give someone some medicine"
+    },
+    {
+     "type": "tx",
+     "ctx": "Morning routine",
+     "s": "My aunt swallows a small white ___ with her coffee every morning, which her doctor prescribed to keep her cholesterol under control.",
+     "acc": [
+      "pill",
+      "pills"
+     ],
+     "vi": "Dì tôi nuốt một viên thuốc nhỏ màu trắng cùng cà phê mỗi sáng, thuốc bác sĩ kê để kiểm soát mức cholesterol.",
+     "why": "pill = viên thuốc (nhỏ, tròn); take a pill = uống một viên.",
+     "hint": "Nghĩa: viên thuốc",
+     "new": [
+      {
+       "w": "swallow",
+       "vi": "nuốt"
+      },
+      {
+       "w": "prescribed",
+       "vi": "kê đơn"
+      }
+     ],
+     "tw": "pill",
+     "ipa": "/pɪl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Boat trip",
+     "s": "As soon as the small boat began to rock on the waves, several tourists started to ___ and asked the captain to return to the shore.",
+     "acc": [
+      "feel sick",
+      "feels sick",
+      "felt sick",
+      "feeling sick"
+     ],
+     "vi": "Ngay khi chiếc thuyền nhỏ bắt đầu chao đảo trên sóng, vài du khách bắt đầu thấy buồn nôn và xin thuyền trưởng quay vào bờ.",
+     "why": "feel sick = thấy buồn nôn, khó chịu trong người (không nhất thiết đang bị bệnh nặng).",
+     "hint": "Nghĩa: cảm thấy buồn nôn/khó chịu",
+     "new": [
+      {
+       "w": "rock",
+       "vi": "chao đảo"
+      },
+      {
+       "w": "shore",
+       "vi": "bờ"
+      }
+     ],
+     "tw": "feel sick"
+    },
+    {
+     "type": "tx",
+     "ctx": "Workplace",
+     "s": "If your back pain lasts longer than a week, you ought to ___ instead of ignoring it, because early treatment prevents bigger problems.",
+     "acc": [
+      "see a doctor",
+      "seeing a doctor",
+      "sees a doctor",
+      "saw a doctor"
+     ],
+     "vi": "Nếu cơn đau lưng kéo dài hơn một tuần, bạn nên đi khám bác sĩ thay vì phớt lờ, vì điều trị sớm ngăn các vấn đề lớn hơn.",
+     "why": "see a doctor = đi khám bác sĩ (không dịch là 'nhìn thấy'); thường dùng với should/had better.",
+     "hint": "Nghĩa: đi khám bác sĩ",
+     "new": [
+      {
+       "w": "ignore",
+       "vi": "phớt lờ"
+      },
+      {
+       "w": "prevent",
+       "vi": "ngăn chặn"
+      }
+     ],
+     "tw": "see a doctor"
+    },
+    {
+     "type": "tx",
+     "ctx": "Weekend",
+     "s": "Before dinner, Dad had to ___ to collect the prescription, which meant he missed the beginning of the football match.",
+     "acc": [
+      "go to the chemist",
+      "go to the chemist's",
+      "went to the chemist",
+      "went to the chemist's",
+      "going to the chemist",
+      "goes to the chemist"
+     ],
+     "vi": "Trước bữa tối, bố phải đến hiệu thuốc lấy đơn thuốc, nghĩa là bố bỏ lỡ phần đầu trận bóng.",
+     "why": "the chemist('s) = hiệu thuốc (Anh-Anh); Anh-Mỹ nói pharmacy/drugstore.",
+     "hint": "Nghĩa: đi đến hiệu thuốc",
+     "new": [
+      {
+       "w": "prescription",
+       "vi": "đơn thuốc"
+      },
+      {
+       "w": "collect",
+       "vi": "lấy"
+      }
+     ],
+     "tw": "go to the chemist",
+     "ipa": "/ˈkem.ɪst/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Mountain trek",
+     "s": "After hiking uphill for five hours, my legs began to ___ so badly that I could hardly climb the stairs at the hotel.",
+     "acc": [
+      "ache",
+      "aches",
+      "aching",
+      "ached"
+     ],
+     "vi": "Sau khi leo dốc năm tiếng, chân tôi bắt đầu đau nhức đến mức khó leo cầu thang ở khách sạn.",
+     "why": "ache = đau âm ỉ, đau nhức kéo dài (khác hurt: đau nói chung; pain: đau mạnh).",
+     "hint": "Nghĩa: cơn đau âm ỉ; đau âm ỉ",
+     "new": [
+      {
+       "w": "hiking",
+       "vi": "đi bộ đường dài"
+      },
+      {
+       "w": "uphill",
+       "vi": "lên dốc"
+      }
+     ],
+     "tw": "ache"
+    },
+    {
+     "type": "tx",
+     "ctx": "Exam week",
+     "s": "Although Nam drank plenty of water, a terrible ___ stopped him from reading the questions, so he asked the teacher for a short break.",
+     "acc": [
+      "headache",
+      "headaches"
+     ],
+     "vi": "Dù Nam đã uống nhiều nước, một cơn đau đầu khủng khiếp khiến cậu không đọc nổi đề, nên cậu xin thầy cô nghỉ ngắn.",
+     "why": "headache = cơn đau đầu (danh từ đếm được): a terrible headache.",
+     "hint": "Nghĩa: đau đầu",
+     "new": [
+      {
+       "w": "terrible",
+       "vi": "khủng khiếp"
+      },
+      {
+       "w": "break",
+       "vi": "giờ nghỉ"
+      }
+     ],
+     "tw": "headache"
+    },
+    {
+     "type": "tx",
+     "ctx": "School trip",
+     "s": "Several students ate too much ice cream at the festival, and by evening two of them had a terrible ___ and could not join the games.",
+     "acc": [
+      "stomach ache",
+      "stomach aches",
+      "stomachache"
+     ],
+     "vi": "Nhiều học sinh ăn quá nhiều kem ở lễ hội, và đến tối hai em bị đau bụng dữ dội và không thể tham gia trò chơi.",
+     "why": "stomach ache = đau bụng (cũng viết stomachache); have (a) stomach ache.",
+     "hint": "Nghĩa: đau bụng",
+     "new": [
+      {
+       "w": "festival",
+       "vi": "lễ hội"
+      },
+      {
+       "w": "join",
+       "vi": "tham gia"
+      }
+     ],
+     "tw": "stomach ache"
+    },
+    {
+     "type": "tx",
+     "ctx": "Office life",
+     "s": "Drivers and office workers who sit for eight hours a day often suffer from ___, so doctors advise them to stand up and walk regularly.",
+     "acc": [
+      "backache"
+     ],
+     "vi": "Tài xế và nhân viên văn phòng ngồi tám tiếng mỗi ngày thường bị đau lưng, nên bác sĩ khuyên họ đứng dậy và đi lại đều đặn.",
+     "why": "backache = đau lưng; suffer from backache. Người ngồi nhiều thường bị.",
+     "hint": "Nghĩa: đau lưng",
+     "new": [
+      {
+       "w": "regularly",
+       "vi": "đều đặn"
+      },
+      {
+       "w": "advise",
+       "vi": "khuyên"
+      }
+     ],
+     "tw": "backache",
+     "ipa": "/ˈbæk.eɪk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Allergy clinic",
+     "s": "Around one in five children in big cities ___ asthma, probably because of polluted air, according to a recent study.",
+     "acc": [
+      "suffer from",
+      "suffers from",
+      "suffered from",
+      "suffering from"
+     ],
+     "vi": "Khoảng một trong năm trẻ em ở các thành phố lớn mắc bệnh hen, có lẽ do không khí ô nhiễm, theo một nghiên cứu gần đây.",
+     "why": "suffer from + bệnh/vấn đề = chịu đựng, mắc phải (suffer from allergies).",
+     "hint": "Nghĩa: mắc/chịu đựng (bệnh, vấn đề)",
+     "new": [
+      {
+       "w": "asthma",
+       "vi": "bệnh hen"
+      },
+      {
+       "w": "polluted",
+       "vi": "bị ô nhiễm"
+      }
+     ],
+     "tw": "suffer from"
+    },
+    {
+     "type": "tx",
+     "ctx": "Emergency room",
+     "s": "Mr Cooper told the nurse that he suddenly began to ___ his chest while climbing the stairs, and that he felt short of breath.",
+     "acc": [
+      "have a pain in",
+      "has a pain in",
+      "had a pain in",
+      "having a pain in",
+      "have pain in"
+     ],
+     "vi": "Ông Cooper nói với y tá rằng ông đột nhiên bị đau ở ngực khi leo cầu thang, và ông thấy khó thở.",
+     "why": "have a pain in + bộ phận cơ thể = bị đau ở đâu đó (a pain in my chest).",
+     "hint": "Nghĩa: bị đau ở (bộ phận cơ thể)",
+     "new": [
+      {
+       "w": "chest",
+       "vi": "ngực"
+      },
+      {
+       "w": "short of breath",
+       "vi": "hụt hơi"
+      }
+     ],
+     "tw": "have a pain in"
+    },
+    {
+     "type": "tx",
+     "ctx": "Dentist",
+     "s": "The dentist told me that the injection might ___ for a moment, but that the pain would disappear much faster than a toothache.",
+     "acc": [
+      "hurt",
+      "hurts",
+      "hurting"
+     ],
+     "vi": "Nha sĩ nói mũi tiêm có thể hơi đau một lúc, nhưng cơn đau sẽ biến mất nhanh hơn nhiều so với đau răng.",
+     "why": "hurt = đau / làm đau (hurt - hurt - hurt); My head hurts. = Tôi đau đầu.",
+     "hint": "Nghĩa: đau, làm đau",
+     "new": [
+      {
+       "w": "injection",
+       "vi": "mũi tiêm"
+      },
+      {
+       "w": "moment",
+       "vi": "một lúc"
+      }
+     ],
+     "tw": "hurt"
+    },
+    {
+     "type": "tx",
+     "ctx": "Recovery",
+     "s": "Walking was still ___ for the first week after the operation, but the physiotherapist said that gentle exercise would speed up his recovery.",
+     "acc": [
+      "painful"
+     ],
+     "vi": "Tuần đầu sau ca mổ, đi lại vẫn còn đau, nhưng nhà vật lý trị liệu nói tập nhẹ sẽ giúp hồi phục nhanh hơn.",
+     "why": "painful = đau đớn, gây đau (tính từ của pain).",
+     "hint": "Nghĩa: đau đớn/gây đau",
+     "new": [
+      {
+       "w": "physiotherapist",
+       "vi": "nhà vật lý trị liệu"
+      },
+      {
+       "w": "recovery",
+       "vi": "sự hồi phục"
+      }
+     ],
+     "tw": "painful",
+     "ipa": "/ˈpeɪn.fəl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Insurance",
+     "s": "Many families buy health insurance so that a ___ does not force them to sell their house to pay for hospital bills.",
+     "acc": [
+      "serious illness",
+      "serious illnesses"
+     ],
+     "vi": "Nhiều gia đình mua bảo hiểm y tế để một căn bệnh nghiêm trọng không buộc họ phải bán nhà trả viện phí.",
+     "why": "serious illness = bệnh nặng, nghiêm trọng (a serious illness); illness là danh từ chỉ tình trạng bệnh.",
+     "hint": "Nghĩa: bệnh nghiêm trọng",
+     "new": [
+      {
+       "w": "insurance",
+       "vi": "bảo hiểm"
+      },
+      {
+       "w": "bills",
+       "vi": "hóa đơn"
+      }
+     ],
+     "tw": "serious illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family news",
+     "s": "My grandmother has to ___ next Tuesday for a small operation, so the whole family is planning to take turns visiting her.",
+     "acc": [
+      "go into hospital",
+      "went into hospital",
+      "goes into hospital",
+      "going into hospital",
+      "go into the hospital",
+      "went into the hospital"
+     ],
+     "vi": "Bà tôi phải nhập viện vào thứ Ba tới để làm một ca mổ nhỏ, nên cả nhà dự định thay phiên nhau thăm bà.",
+     "why": "go into hospital = nhập viện (Anh-Anh; Anh-Mỹ: go into the hospital).",
+     "hint": "Nghĩa: nhập viện",
+     "new": [
+      {
+       "w": "operation",
+       "vi": "ca phẫu thuật"
+      },
+      {
+       "w": "take turns",
+       "vi": "thay phiên"
+      }
+     ],
+     "tw": "go into hospital"
+    },
+    {
+     "type": "tx",
+     "ctx": "Hospital",
+     "s": "The doctors explained that the ___ on his heart would take about five hours, but that most patients go home within a week.",
+     "acc": [
+      "operation",
+      "operations"
+     ],
+     "vi": "Các bác sĩ giải thích ca phẫu thuật tim của ông sẽ kéo dài khoảng năm tiếng, nhưng hầu hết bệnh nhân về nhà trong vòng một tuần.",
+     "why": "operation = ca phẫu thuật (have an operation on my knee). Còn nghĩa khác: hoạt động, vận hành.",
+     "hint": "Nghĩa: ca phẫu thuật",
+     "new": [
+      {
+       "w": "explained",
+       "vi": "giải thích"
+      },
+      {
+       "w": "patients",
+       "vi": "bệnh nhân"
+      }
+     ],
+     "tw": "operation",
+     "ipa": "/ˌɑː.pəˈreɪ.ʃən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Hospital",
+     "s": "The ___ washed his hands carefully before he entered the theatre, because even a tiny amount of bacteria can cause an infection.",
+     "acc": [
+      "surgeon",
+      "surgeons"
+     ],
+     "vi": "Bác sĩ phẫu thuật rửa tay cẩn thận trước khi vào phòng mổ, vì chỉ một lượng vi khuẩn nhỏ cũng có thể gây nhiễm trùng.",
+     "why": "surgeon = bác sĩ phẫu thuật; người thực hiện operation / surgery.",
+     "hint": "Nghĩa: bác sĩ phẫu thuật",
+     "new": [
+      {
+       "w": "theatre",
+       "vi": "phòng mổ"
+      },
+      {
+       "w": "tiny",
+       "vi": "rất nhỏ"
+      }
+     ],
+     "tw": "surgeon",
+     "ipa": "/ˈsɝː.dʒən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Recovery",
+     "s": "She had ___ on her shoulder in June, and she still needs physiotherapy twice a week to move her arm normally.",
+     "acc": [
+      "surgery"
+     ],
+     "vi": "Cô ấy phẫu thuật vai hồi tháng Sáu, và vẫn cần vật lý trị liệu hai lần mỗi tuần để cử động tay bình thường.",
+     "why": "surgery = việc phẫu thuật (không đếm được): have surgery on my knee. Lưu ý: sheet ghi Verb nhưng thực chất là danh từ.",
+     "hint": "Nghĩa: phẫu thuật",
+     "new": [
+      {
+       "w": "shoulder",
+       "vi": "vai"
+      },
+      {
+       "w": "physiotherapy",
+       "vi": "vật lý trị liệu"
+      }
+     ],
+     "tw": "surgery",
+     "ipa": "/ˈsɝː.dʒər.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Health campaign",
+     "s": "The government released a poster showing that smoking is the main cause of ___, in the hope that fewer teenagers will start the habit.",
+     "acc": [
+      "lung cancer"
+     ],
+     "vi": "Chính phủ phát hành một tấm áp phích cho thấy hút thuốc là nguyên nhân chính của ung thư phổi, hy vọng ít thanh thiếu niên bắt đầu thói quen này.",
+     "why": "lung cancer = ung thư phổi; hút thuốc là nguyên nhân chính.",
+     "hint": "Nghĩa: ung thư phổi",
+     "new": [
+      {
+       "w": "poster",
+       "vi": "áp phích"
+      },
+      {
+       "w": "habit",
+       "vi": "thói quen"
+      }
+     ],
+     "tw": "lung cancer",
+     "ipa": "/ˈkæn.sɚ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Emergency",
+     "s": "Her father had a ___ while he was shovelling snow, and the neighbours called an ambulance as soon as they saw him fall.",
+     "acc": [
+      "heart attack",
+      "heart attacks"
+     ],
+     "vi": "Cha cô bị đau tim khi đang xúc tuyết, và hàng xóm gọi xe cứu thương ngay khi thấy ông ngã.",
+     "why": "heart attack = cơn đau tim; have a heart attack. Khác với attack = tấn công.",
+     "hint": "Nghĩa: cơn đau tim, nhồi máu cơ tim",
+     "new": [
+      {
+       "w": "shovelling",
+       "vi": "xúc"
+      },
+      {
+       "w": "ambulance",
+       "vi": "xe cứu thương"
+      }
+     ],
+     "tw": "heart attack",
+     "ipa": "/əˈtæk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Public health",
+     "s": "Mosquitoes spread several dangerous ___ in tropical countries, which is why governments spend large amounts of money on spraying and awareness campaigns.",
+     "acc": [
+      "disease",
+      "diseases"
+     ],
+     "vi": "Muỗi lây lan nhiều bệnh nguy hiểm ở các nước nhiệt đới, vì vậy chính phủ chi nhiều tiền cho việc phun thuốc và các chiến dịch nâng cao nhận thức.",
+     "why": "disease = bệnh (thường có tên gọi, do vi khuẩn/virus hoặc rối loạn): heart disease, infectious disease.",
+     "hint": "Nghĩa: bệnh, bệnh lý",
+     "new": [
+      {
+       "w": "mosquitoes",
+       "vi": "muỗi"
+      },
+      {
+       "w": "awareness",
+       "vi": "nhận thức"
+      }
+     ],
+     "tw": "disease",
+     "ipa": "/dɪˈziːz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Workplace",
+     "s": "He returned to work in September after a long ___, and his team had prepared a small party to welcome him back.",
+     "acc": [
+      "illness",
+      "illnesses"
+     ],
+     "vi": "Anh ấy trở lại làm việc vào tháng Chín sau một thời gian dài bệnh, và nhóm của anh đã chuẩn bị một bữa tiệc nhỏ chào đón.",
+     "why": "illness = tình trạng ốm đau, bệnh tật (a long illness); disease thường là bệnh cụ thể.",
+     "hint": "Nghĩa: tình trạng bệnh, bệnh tật",
+     "new": [
+      {
+       "w": "welcome back",
+       "vi": "chào đón trở lại"
+      }
+     ],
+     "tw": "illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Biology class",
+     "s": "When we breathe in, air travels down the throat and fills our ___, where oxygen passes into the blood.",
+     "acc": [
+      "lungs",
+      "lung"
+     ],
+     "vi": "Khi chúng ta hít vào, không khí đi xuống cổ họng và đầy vào phổi, nơi oxy đi vào máu.",
+     "why": "lungs = phổi (thường ở dạng số nhiều); one lung / both lungs.",
+     "hint": "Nghĩa: phổi",
+     "new": [
+      {
+       "w": "oxygen",
+       "vi": "oxy"
+      },
+      {
+       "w": "breathe",
+       "vi": "thở"
+      }
+     ],
+     "tw": "lungs",
+     "ipa": "/lʌŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Hospital",
+     "s": "The doctors worked all night to ___ the injured passengers, who had been brought in after the bus crashed on the motorway.",
+     "acc": [
+      "treat",
+      "treats",
+      "treated",
+      "treating"
+     ],
+     "vi": "Các bác sĩ làm việc suốt đêm để điều trị cho các hành khách bị thương, được đưa vào sau khi xe buýt đâm trên đường cao tốc.",
+     "why": "treat = điều trị (treat a patient / an illness); còn nghĩa: đối xử, đãi.",
+     "hint": "Nghĩa: điều trị",
+     "new": [
+      {
+       "w": "injured",
+       "vi": "bị thương"
+      },
+      {
+       "w": "motorway",
+       "vi": "đường cao tốc"
+      }
+     ],
+     "tw": "treat",
+     "ipa": "/triːt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Hospital",
+     "s": "After the accident, he received ___ for his broken leg, and he was able to walk again without crutches after three months.",
+     "acc": [
+      "treatment",
+      "treatments"
+     ],
+     "vi": "Sau tai nạn, anh được điều trị cho chân gãy, và có thể đi lại không cần nạng sau ba tháng.",
+     "why": "treatment = sự/phương pháp điều trị (receive treatment for an illness).",
+     "hint": "Nghĩa: phương pháp điều trị",
+     "new": [
+      {
+       "w": "crutches",
+       "vi": "nạng"
+      },
+      {
+       "w": "broken",
+       "vi": "gãy"
+      }
+     ],
+     "tw": "treatment",
+     "ipa": "/ˈtriːt.mənt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Health talk",
+     "s": "Drinking too much alcohol over many years can seriously damage the ___, which cleans the blood and helps the body digest fat.",
+     "acc": [
+      "liver"
+     ],
+     "vi": "Uống quá nhiều rượu trong nhiều năm có thể gây hại nghiêm trọng cho gan, cơ quan lọc máu và giúp cơ thể tiêu hóa chất béo.",
+     "why": "liver = gan; cơ quan lọc độc tố trong cơ thể.",
+     "hint": "Nghĩa: gan",
+     "new": [
+      {
+       "w": "digest",
+       "vi": "tiêu hóa"
+      },
+      {
+       "w": "fat",
+       "vi": "chất béo"
+      }
+     ],
+     "tw": "liver",
+     "ipa": "/ˈlɪv.ɚ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Clothes shop",
+     "s": "The shirt fitted perfectly across the shoulders, but the ___ felt so tight that Minh could hardly turn his head, so he asked for a bigger size.",
+     "acc": [
+      "collar",
+      "collars"
+     ],
+     "vi": "Chiếc áo vừa vặn ở vai, nhưng cổ áo chật đến mức Minh khó quay đầu, nên anh xin cỡ lớn hơn.",
+     "why": "collar = cổ áo (shirt collar); cũng là vòng cổ của thú cưng.",
+     "hint": "Nghĩa: cổ áo",
+     "new": [
+      {
+       "w": "fitted",
+       "vi": "vừa"
+      },
+      {
+       "w": "tight",
+       "vi": "chật"
+      }
+     ],
+     "tw": "collar",
+     "ipa": "/ˈkɑː.lɚ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Travel blog",
+     "s": "Although the old quarter is crowded and noisy, many tourists adore its ___ atmosphere, especially in the evenings when street musicians start to perform.",
+     "acc": [
+      "lively"
+     ],
+     "vi": "Dù khu phố cổ đông và ồn, nhiều du khách yêu bầu không khí sôi động của nó, nhất là buổi tối khi nghệ sĩ đường phố bắt đầu biểu diễn.",
+     "why": "lively = sôi động, náo nhiệt, đầy sức sống (a lively street / atmosphere).",
+     "hint": "Nghĩa: sôi động, náo nhiệt",
+     "new": [
+      {
+       "w": "atmosphere",
+       "vi": "bầu không khí"
+      },
+      {
+       "w": "perform",
+       "vi": "biểu diễn"
+      }
+     ],
+     "tw": "lively",
+     "ipa": "/ˈlaɪvli/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Career talk",
+     "s": "Mai quit her job at the factory because the work was repetitive and ___, and she wanted something that would let her meet new people.",
+     "acc": [
+      "dull"
+     ],
+     "vi": "Mai nghỉ việc ở nhà máy vì công việc lặp đi lặp lại và buồn tẻ, và cô muốn một việc cho phép cô gặp người mới.",
+     "why": "dull = buồn tẻ, nhàm chán (a dull job); còn nghĩa: xỉn màu, âm ỉ (a dull ache).",
+     "hint": "Nghĩa: buồn tẻ",
+     "new": [
+      {
+       "w": "repetitive",
+       "vi": "lặp đi lặp lại"
+      },
+      {
+       "w": "quit",
+       "vi": "nghỉ việc"
+      }
+     ],
+     "tw": "dull",
+     "ipa": "/dʌl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Ice-cream shop",
+     "s": "The shop near my daughter's school sells over twenty ___, from coconut and mango to green tea, so choosing takes a long time.",
+     "acc": [
+      "different flavours",
+      "different flavors",
+      "different flavour",
+      "different flavor"
+     ],
+     "vi": "Tiệm gần trường con gái tôi bán hơn hai mươi hương vị khác nhau, từ dừa và xoài đến trà xanh, nên chọn mất khá lâu.",
+     "why": "different flavours = nhiều hương vị khác nhau (Anh-Mỹ: flavors).",
+     "hint": "Nghĩa: nhiều hương vị khác nhau",
+     "new": [
+      {
+       "w": "coconut",
+       "vi": "dừa"
+      },
+      {
+       "w": "mango",
+       "vi": "xoài"
+      }
+     ],
+     "tw": "different flavours",
+     "ipa": "/ˈdɪfrənt ˈfleɪvəz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Childhood memories",
+     "s": "When we were young, my cousins and I often fished ___ behind our grandparents' house, which was a peaceful place far from the traffic.",
+     "acc": [
+      "on the banks of the river",
+      "on the bank of the river",
+      "on the banks of a river",
+      "on the river bank"
+     ],
+     "vi": "Hồi nhỏ, tôi và các anh chị em họ thường câu cá bên bờ sông sau nhà ông bà, một nơi yên bình xa tiếng xe cộ.",
+     "why": "on the banks of the river = trên/bên bờ sông; bank còn có nghĩa ngân hàng.",
+     "hint": "Nghĩa: bên bờ sông",
+     "new": [
+      {
+       "w": "peaceful",
+       "vi": "yên bình"
+      },
+      {
+       "w": "fished",
+       "vi": "câu cá"
+      }
+     ],
+     "tw": "on the banks of the river",
+     "ipa": "/ɒn ðə bæŋks əv ðə ˈrɪv.ər/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Weekend walk",
+     "s": "Every Sunday, our neighbours take their dog for a long walk through the ___ behind the village, where the air smells fresh after rain.",
+     "acc": [
+      "woods",
+      "wood"
+     ],
+     "vi": "Mỗi Chủ nhật, hàng xóm đưa chó đi dạo dài qua khu rừng nhỏ sau làng, nơi không khí thơm mát sau cơn mưa.",
+     "why": "the woods = khu rừng nhỏ (nhỏ hơn forest); walk in the woods.",
+     "hint": "Nghĩa: khu rừng nhỏ, khu cây cối",
+     "new": [
+      {
+       "w": "neighbours",
+       "vi": "hàng xóm"
+      },
+      {
+       "w": "fresh",
+       "vi": "trong lành"
+      }
+     ],
+     "tw": "woods",
+     "ipa": "/wʊdz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Summer holiday",
+     "s": "We spent the afternoon picking ___ along the path, and by evening our fingers were purple and our baskets were almost full.",
+     "acc": [
+      "blackberries",
+      "blackberry"
+     ],
+     "vi": "Chúng tôi dành cả buổi chiều hái mâm xôi đen dọc lối đi, và đến tối ngón tay tím ngắt còn giỏ gần đầy.",
+     "why": "blackberry = quả mâm xôi đen (số nhiều: blackberries); mọc dại ven đường, rừng.",
+     "hint": "Nghĩa: quả mâm xôi đen",
+     "new": [
+      {
+       "w": "purple",
+       "vi": "màu tím"
+      },
+      {
+       "w": "basket",
+       "vi": "giỏ"
+      }
+     ],
+     "tw": "blackberries",
+     "ipa": "/ˈblæk.bər.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Geography class",
+     "s": "In northern Vietnam, ___ are quite different from those in the south, where it is hot all year and there are only two main periods.",
+     "acc": [
+      "the seasons",
+      "seasons"
+     ],
+     "vi": "Ở miền Bắc Việt Nam, các mùa khá khác với miền Nam, nơi nóng quanh năm và chỉ có hai giai đoạn chính.",
+     "why": "the seasons = các mùa trong năm (spring, summer, autumn, winter).",
+     "hint": "Nghĩa: các mùa trong năm",
+     "new": [
+      {
+       "w": "periods",
+       "vi": "giai đoạn"
+      },
+      {
+       "w": "quite",
+       "vi": "khá"
+      }
+     ],
+     "tw": "the seasons",
+     "ipa": "/ðə ˈsiː.zənz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Property",
+     "s": "Families with young children usually prefer to live somewhere with plenty of ___, so that the kids can run around freely and safely.",
+     "acc": [
+      "open spaces",
+      "open space"
+     ],
+     "vi": "Gia đình có con nhỏ thường thích sống ở nơi có nhiều không gian rộng thoáng, để trẻ chạy nhảy tự do và an toàn.",
+     "why": "open spaces = những khu đất rộng, thoáng (công viên, đồng cỏ), trái với khu dân cư đông đúc.",
+     "hint": "Nghĩa: không gian rộng, thoáng đãng",
+     "new": [
+      {
+       "w": "plenty of",
+       "vi": "nhiều"
+      },
+      {
+       "w": "freely",
+       "vi": "tự do"
+      }
+     ],
+     "tw": "open spaces",
+     "ipa": "/ˌəʊ.pən ˈspeɪ.sɪz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Farm visit",
+     "s": "The farmer drove his old ___ across the muddy field to plough the soil before planting vegetables for the coming season.",
+     "acc": [
+      "tractor",
+      "tractors"
+     ],
+     "vi": "Người nông dân lái chiếc máy kéo cũ qua cánh đồng lầy để cày đất trước khi trồng rau cho vụ tới.",
+     "why": "tractor = máy kéo, xe dùng trong nông nghiệp (kéo máy cày, xe rơ-moóc).",
+     "hint": "Nghĩa: máy kéo",
+     "new": [
+      {
+       "w": "plough",
+       "vi": "cày"
+      },
+      {
+       "w": "muddy",
+       "vi": "lầy lội"
+      }
+     ],
+     "tw": "tractor",
+     "ipa": "/ˈtræk.tər/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Railway station",
+     "s": "We have to ___ the 8.15 train to Hue at platform three, so we should hurry because it leaves in only ten minutes.",
+     "acc": [
+      "get on",
+      "got on",
+      "gets on",
+      "getting on"
+     ],
+     "vi": "Chúng tôi phải lên chuyến tàu 8 giờ 15 đi Huế ở sân ga số ba, nên cần nhanh lên vì chỉ mười phút nữa tàu chạy.",
+     "why": "get on + bus/coach/train/plane = lên phương tiện lớn có nhiều chỗ ngồi (trái nghĩa: get off). Dạng suy ra từ 'get on bus/coach/train/plane'.",
+     "hint": "Nghĩa: lên (xe buýt, xe khách, tàu, máy bay)",
+     "new": [
+      {
+       "w": "hurry",
+       "vi": "vội"
+      },
+      {
+       "w": "leaves",
+       "vi": "rời đi"
+      }
+     ],
+     "tw": "get on"
+    },
+    {
+     "type": "tx",
+     "ctx": "Tour bus",
+     "s": "Please remain seated until the coach stops completely, and then ___ carefully because the steps are wet after the heavy rain.",
+     "acc": [
+      "get off",
+      "got off",
+      "gets off",
+      "getting off"
+     ],
+     "vi": "Xin hãy ngồi yên cho đến khi xe khách dừng hẳn, rồi xuống cẩn thận vì các bậc thang ướt sau trận mưa lớn.",
+     "why": "get off + bus/coach/train/plane = xuống phương tiện lớn (trái nghĩa: get on).",
+     "hint": "Nghĩa: xuống (xe buýt, xe khách, tàu, máy bay)",
+     "new": [
+      {
+       "w": "remain",
+       "vi": "giữ nguyên"
+      },
+      {
+       "w": "steps",
+       "vi": "bậc thang"
+      }
+     ],
+     "tw": "get off"
+    },
+    {
+     "type": "tx",
+     "ctx": "Rainy night",
+     "s": "It was raining heavily, so Linh ran across the road to ___ the taxi that was waiting outside the hotel with its engine running.",
+     "acc": [
+      "get into",
+      "got into",
+      "gets into",
+      "getting into"
+     ],
+     "vi": "Trời mưa to, nên Linh chạy qua đường để lên chiếc taxi đang chờ trước khách sạn với máy đang nổ.",
+     "why": "get into + car/taxi = lên ô tô, taxi (xe nhỏ, ngồi vào trong); trái nghĩa: get out of.",
+     "hint": "Nghĩa: lên (ô tô, taxi)",
+     "new": [
+      {
+       "w": "engine",
+       "vi": "động cơ"
+      },
+      {
+       "w": "heavily",
+       "vi": "nặng hạt"
+      }
+     ],
+     "tw": "get into"
+    },
+    {
+     "type": "tx",
+     "ctx": "Hotel entrance",
+     "s": "After the taxi arrived at the hotel, the driver helped us ___ the car and carry our heavy suitcases to the door.",
+     "acc": [
+      "get out of",
+      "got out of",
+      "gets out of",
+      "getting out of"
+     ],
+     "vi": "Sau khi taxi đến khách sạn, tài xế giúp chúng tôi xuống xe và xách những chiếc vali nặng ra cửa.",
+     "why": "get out of + car/taxi = xuống ô tô, taxi; trái nghĩa: get into.",
+     "hint": "Nghĩa: xuống (ô tô, taxi)",
+     "new": [
+      {
+       "w": "suitcases",
+       "vi": "vali"
+      },
+      {
+       "w": "carry",
+       "vi": "xách"
+      }
+     ],
+     "tw": "get out of"
+    },
+    {
+     "type": "tx",
+     "ctx": "Traffic news",
+     "s": "A heavy ___ carrying vegetables from the farm blocked the narrow road for an hour, so commuters arrived at work late.",
+     "acc": [
+      "lorry",
+      "lorries"
+     ],
+     "vi": "Một chiếc xe tải nặng chở rau từ nông trại chặn con đường hẹp cả giờ, nên người đi làm đến muộn.",
+     "why": "lorry = xe tải (Anh-Anh); Anh-Mỹ nói truck.",
+     "hint": "Nghĩa: xe tải",
+     "new": [
+      {
+       "w": "commuters",
+       "vi": "người đi làm hằng ngày"
+      },
+      {
+       "w": "blocked",
+       "vi": "chặn"
+      }
+     ],
+     "tw": "lorry"
+    },
+    {
+     "type": "tx",
+     "ctx": "Railway station",
+     "s": "Passengers waiting on the ___ must stay behind the yellow line until the train has come to a complete stop, for their own safety.",
+     "acc": [
+      "platform",
+      "platforms"
+     ],
+     "vi": "Hành khách chờ trên sân ga phải đứng sau vạch vàng cho đến khi tàu dừng hẳn, vì an toàn của chính họ.",
+     "why": "platform = sân ga (nơi chờ tàu); còn nghĩa: bục, nền tảng.",
+     "hint": "Nghĩa: sân ga, bục",
+     "new": [
+      {
+       "w": "safety",
+       "vi": "sự an toàn"
+      },
+      {
+       "w": "complete",
+       "vi": "hoàn toàn"
+      }
+     ],
+     "tw": "platform"
+    },
+    {
+     "type": "tx",
+     "ctx": "City transport",
+     "s": "Since the ___ went up by ten percent, Tom now spends more money every month, so he is thinking of buying a bicycle.",
+     "acc": [
+      "bus fare",
+      "coach fare",
+      "bus fares",
+      "coach fares",
+      "fare"
+     ],
+     "vi": "Từ khi giá vé xe buýt tăng mười phần trăm, Tom giờ tốn nhiều tiền hơn mỗi tháng, nên anh nghĩ đến chuyện mua xe đạp.",
+     "why": "bus/coach fare = giá vé xe buýt / xe khách; fare chỉ tiền trả để đi lại bằng phương tiện (khác ticket là tấm vé). Dạng suy ra từ 'Bus/ coach fare'.",
+     "hint": "Nghĩa: giá vé xe buýt / xe khách",
+     "new": [
+      {
+       "w": "percent",
+       "vi": "phần trăm"
+      },
+      {
+       "w": "spends",
+       "vi": "tiêu"
+      }
+     ],
+     "tw": "bus fare"
+    },
+    {
+     "type": "tx",
+     "ctx": "Holiday planning",
+     "s": "We booked our trip in March because ___ usually rises sharply in summer, and the cheapest seats are sold out within a few days.",
+     "acc": [
+      "airfare",
+      "airfares"
+     ],
+     "vi": "Chúng tôi đặt chuyến đi vào tháng Ba vì giá vé máy bay thường tăng mạnh vào mùa hè, và những ghế rẻ nhất bán hết trong vài ngày.",
+     "why": "airfare = giá vé máy bay (= the price of a plane ticket). Dạng suy ra từ 'Airfare'.",
+     "hint": "Nghĩa: giá vé máy bay",
+     "new": [
+      {
+       "w": "sharply",
+       "vi": "mạnh"
+      },
+      {
+       "w": "sold out",
+       "vi": "bán hết"
+      }
+     ],
+     "tw": "airfare"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Community news",
+     "s": "Teenagers who regularly ___ volunteer work tend to develop stronger teamwork skills, which means they often find it easier to get a job later.",
+     "o": [
+      "engage in",
+      "run out of",
+      "get rid of"
+     ],
+     "a": "engage in",
+     "vi": "Thanh thiếu niên thường xuyên tham gia công việc tình nguyện thường phát triển kỹ năng làm việc nhóm tốt hơn, nghĩa là sau này họ thường dễ xin việc hơn.",
+     "why": "engage in + danh từ/V-ing = tham gia vào một hoạt động, công việc.",
+     "new": [
+      {
+       "w": "volunteer",
+       "vi": "tình nguyện"
+      },
+      {
+       "w": "tend to",
+       "vi": "có xu hướng"
+      }
+     ],
+     "tw": "engage in"
+    },
+    {
+     "type": "mc",
+     "ctx": "Appliance shop",
+     "s": "Our old ___ made so much noise at night that we decided to replace it with a quieter, energy-saving model.",
+     "o": [
+      "refrigerator",
+      "microwave",
+      "dishwasher"
+     ],
+     "a": "refrigerator",
+     "vi": "Chiếc tủ lạnh cũ của chúng tôi kêu to đến mức ban đêm chúng tôi quyết định thay bằng mẫu êm hơn và tiết kiệm điện.",
+     "why": "refrigerator = tủ lạnh (nói tắt: fridge); thường đi với keep sth in the refrigerator.",
+     "new": [
+      {
+       "w": "replace",
+       "vi": "thay thế"
+      },
+      {
+       "w": "energy-saving",
+       "vi": "tiết kiệm năng lượng"
+      }
+     ],
+     "tw": "refrigerator",
+     "ipa": "/rɪˈfrɪdʒ.ə.reɪ.t̬ɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Supermarket",
+     "s": "Because ___ contains all the essential amino acids, many vegetarians choose it instead of meat when they plan their weekly meals.",
+     "o": [
+      "quinoa",
+      "pepper",
+      "butter"
+     ],
+     "a": "quinoa",
+     "vi": "Vì hạt diêm mạch chứa đủ các axit amin thiết yếu, nhiều người ăn chay chọn nó thay cho thịt khi lên kế hoạch bữa ăn hằng tuần.",
+     "why": "quinoa = hạt diêm mạch, ngũ cốc giàu đạm, thường dùng trong salad hoặc thay cơm.",
+     "new": [
+      {
+       "w": "amino acids",
+       "vi": "axit amin"
+      },
+      {
+       "w": "vegetarians",
+       "vi": "người ăn chay"
+      }
+     ],
+     "tw": "quinoa",
+     "ipa": "/kɪnˈwɑː/"
+    },
+    {
+     "type": "mc",
+     "ctx": "At home",
+     "s": "When Tom saw his younger sister crying alone in the kitchen, he sat down next to her and asked gently, \"___\"",
+     "o": [
+      "What's the matter?",
+      "How much is it?",
+      "Where are you from?"
+     ],
+     "a": "What's the matter?",
+     "vi": "Khi thấy em gái khóc một mình trong bếp, Tom ngồi xuống cạnh em và nhẹ nhàng hỏi: \"Có chuyện gì vậy?\"",
+     "why": "What's the matter? = hỏi thăm khi thấy ai đó buồn, đau hoặc có vấn đề (= What's wrong?).",
+     "new": [
+      {
+       "w": "gently",
+       "vi": "nhẹ nhàng"
+      }
+     ],
+     "tw": "What's the matter?"
+    },
+    {
+     "type": "mc",
+     "ctx": "Clinic",
+     "s": "If you ___ and a high fever at the same time, you should stay at home so that you do not spread the infection to others.",
+     "o": [
+      "have a sore throat",
+      "have a new car",
+      "have a bad knee"
+     ],
+     "a": "have a sore throat",
+     "vi": "Nếu bạn vừa bị đau họng vừa sốt cao, bạn nên ở nhà để không lây nhiễm cho người khác.",
+     "why": "have a sore throat = bị đau họng; sore = đau rát, viêm.",
+     "new": [
+      {
+       "w": "spread",
+       "vi": "lây lan"
+      },
+      {
+       "w": "infection",
+       "vi": "sự nhiễm trùng"
+      }
+     ],
+     "tw": "have a sore throat",
+     "ipa": "/θroʊt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hospital",
+     "s": "Visitors who think they ___ should wear a mask and wait in a separate room, which helps staff protect other patients from catching the virus.",
+     "o": [
+      "have a temperature",
+      "have a haircut",
+      "have a seat"
+     ],
+     "a": "have a temperature",
+     "vi": "Khách nghĩ rằng mình bị sốt nên đeo khẩu trang và chờ ở phòng riêng, điều này giúp nhân viên bảo vệ các bệnh nhân khác khỏi bị nhiễm vi-rút.",
+     "why": "have a temperature = bị sốt (nhiệt độ cơ thể cao hơn bình thường).",
+     "new": [
+      {
+       "w": "mask",
+       "vi": "khẩu trang"
+      },
+      {
+       "w": "virus",
+       "vi": "vi-rút"
+      }
+     ],
+     "tw": "have a temperature",
+     "ipa": "/ˈtem.pɚ.ə.tʃɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Pharmacy",
+     "s": "Every autumn, elderly people are advised to get a ___ vaccine, because the illness can become dangerous if it spreads to the lungs.",
+     "o": [
+      "flu",
+      "tomato",
+      "passport"
+     ],
+     "a": "flu",
+     "vi": "Mỗi mùa thu, người cao tuổi được khuyên nên tiêm vắc-xin cúm, vì bệnh có thể trở nên nguy hiểm nếu lan xuống phổi.",
+     "why": "flu = cúm (viết tắt của influenza); thường nói have/catch (the) flu.",
+     "new": [
+      {
+       "w": "vaccine",
+       "vi": "vắc-xin"
+      },
+      {
+       "w": "elderly",
+       "vi": "cao tuổi"
+      }
+     ],
+     "tw": "flu"
+    },
+    {
+     "type": "mc",
+     "ctx": "First-aid course",
+     "s": "If you ___ while shaving, press a clean cloth on the wound for a few minutes so that the bleeding stops.",
+     "o": [
+      "cut yourself",
+      "wash yourself",
+      "teach yourself"
+     ],
+     "a": "cut yourself",
+     "vi": "Nếu bạn tự cắt vào mình khi cạo râu, hãy ấn một miếng vải sạch lên vết thương vài phút để máu ngừng chảy.",
+     "why": "cut yourself = tự làm mình bị đứt tay/chân; đại từ phản thân đổi theo chủ ngữ (myself, himself...).",
+     "new": [
+      {
+       "w": "wound",
+       "vi": "vết thương"
+      },
+      {
+       "w": "press",
+       "vi": "ấn"
+      }
+     ],
+     "tw": "cut yourself"
+    },
+    {
+     "type": "mc",
+     "ctx": "Emergency",
+     "s": "Although the cut looked small, it continued to ___ for more than ten minutes, which means he probably needed stitches at the clinic.",
+     "o": [
+      "bleed",
+      "freeze",
+      "shrink"
+     ],
+     "a": "bleed",
+     "vi": "Dù vết cắt trông nhỏ, nó tiếp tục chảy máu hơn mười phút, nghĩa là có lẽ anh ấy cần khâu ở phòng khám.",
+     "why": "bleed = chảy máu (bleed - bled - bled); danh từ: blood.",
+     "new": [
+      {
+       "w": "stitches",
+       "vi": "mũi khâu"
+      }
+     ],
+     "tw": "bleed",
+     "ipa": "/bliːd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Home remedies",
+     "s": "After cleaning the wound with clean water, you should ___ your wrist firmly but not too tightly, otherwise blood cannot flow properly.",
+     "o": [
+      "put a bandage around",
+      "put a lamp around",
+      "put a coat around"
+     ],
+     "a": "put a bandage around",
+     "vi": "Sau khi rửa vết thương bằng nước sạch, bạn nên quấn băng quanh cổ tay chắc nhưng không quá chặt, nếu không máu không lưu thông tốt.",
+     "why": "put a bandage around + bộ phận cơ thể = quấn băng quanh chỗ bị thương.",
+     "new": [
+      {
+       "w": "wrist",
+       "vi": "cổ tay"
+      },
+      {
+       "w": "tightly",
+       "vi": "chặt"
+      }
+     ],
+     "tw": "put a bandage around",
+     "ipa": "/ˈbæn.dɪdʒ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Doctor's office",
+     "s": "If you ___ for more than three weeks, you should be tested for other problems, because it could be more than just a simple cold.",
+     "o": [
+      "have a cough",
+      "have a salary",
+      "have a ticket"
+     ],
+     "a": "have a cough",
+     "vi": "Nếu bạn bị ho hơn ba tuần, bạn nên được xét nghiệm các vấn đề khác, vì có thể không chỉ là cảm lạnh thông thường.",
+     "why": "have a cough = bị ho; có thể nói have a bad/terrible cough.",
+     "new": [
+      {
+       "w": "tested",
+       "vi": "được xét nghiệm"
+      },
+      {
+       "w": "simple",
+       "vi": "đơn giản"
+      }
+     ],
+     "tw": "have a cough",
+     "ipa": "/kɑːf/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel bag",
+     "s": "Before our trip to the mountains, I packed plasters, painkillers and ___, since the weather was expected to be cold and wet.",
+     "o": [
+      "cough medicine",
+      "sunglasses",
+      "sunscreen"
+     ],
+     "a": "cough medicine",
+     "vi": "Trước chuyến đi lên núi, tôi đóng gói băng dán, thuốc giảm đau và thuốc ho, vì thời tiết được dự báo lạnh và ẩm.",
+     "why": "cough medicine = thuốc ho; medicine không đếm được.",
+     "new": [
+      {
+       "w": "plasters",
+       "vi": "băng dán"
+      },
+      {
+       "w": "painkillers",
+       "vi": "thuốc giảm đau"
+      }
+     ],
+     "tw": "cough medicine",
+     "ipa": "/kɑːf/ /ˈmed.ɪ.sən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Office",
+     "s": "Many people tend to ___ in the afternoon because they stare at a screen for too long, so experts suggest looking away every twenty minutes.",
+     "o": [
+      "have a headache",
+      "have a haircut",
+      "have a holiday"
+     ],
+     "a": "have a headache",
+     "vi": "Nhiều người bị đau đầu vào buổi chiều vì nhìn màn hình quá lâu, nên chuyên gia gợi ý nhìn đi chỗ khác mỗi hai mươi phút.",
+     "why": "have a headache = bị đau đầu; headache là danh từ đếm được.",
+     "new": [
+      {
+       "w": "stare at",
+       "vi": "nhìn chằm chằm"
+      },
+      {
+       "w": "suggest",
+       "vi": "gợi ý"
+      }
+     ],
+     "tw": "have a headache"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family home",
+     "s": "My grandfather has to ___ with a glass of water after breakfast, otherwise he forgets, which could affect his blood pressure.",
+     "o": [
+      "take some tablets",
+      "take some photos",
+      "take some exams"
+     ],
+     "a": "take some tablets",
+     "vi": "Ông tôi phải uống vài viên thuốc với một cốc nước sau bữa sáng, nếu không ông quên, điều có thể ảnh hưởng huyết áp.",
+     "why": "take tablets = uống thuốc viên; tablet = viên thuốc nén.",
+     "new": [
+      {
+       "w": "blood pressure",
+       "vi": "huyết áp"
+      },
+      {
+       "w": "affect",
+       "vi": "ảnh hưởng"
+      }
+     ],
+     "tw": "take some tablets",
+     "ipa": "/ˈtæb.lət/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Nursing school",
+     "s": "A nurse must check the patient's name and the dose carefully before she decides to ___, because mistakes can be extremely serious.",
+     "o": [
+      "give someone some medicine",
+      "give someone some advice",
+      "give someone some change"
+     ],
+     "a": "give someone some medicine",
+     "vi": "Y tá phải kiểm tra tên bệnh nhân và liều lượng cẩn thận trước khi quyết định cho bệnh nhân uống thuốc, vì sai sót có thể cực kỳ nghiêm trọng.",
+     "why": "give sb some medicine = cho ai uống thuốc; medicine không đếm được nên dùng some.",
+     "new": [
+      {
+       "w": "dose",
+       "vi": "liều"
+      },
+      {
+       "w": "mistakes",
+       "vi": "sai sót"
+      }
+     ],
+     "tw": "give someone some medicine"
+    },
+    {
+     "type": "mc",
+     "ctx": "Pharmacy",
+     "s": "Some patients find it hard to swallow a large ___, so pharmacists often suggest a liquid version instead.",
+     "o": [
+      "pill",
+      "spoon",
+      "plate"
+     ],
+     "a": "pill",
+     "vi": "Một số bệnh nhân thấy khó nuốt viên thuốc lớn, nên dược sĩ thường gợi ý dạng lỏng thay thế.",
+     "why": "pill = viên thuốc (nhỏ, tròn); take a pill = uống một viên.",
+     "new": [
+      {
+       "w": "liquid",
+       "vi": "dạng lỏng"
+      },
+      {
+       "w": "version",
+       "vi": "phiên bản"
+      }
+     ],
+     "tw": "pill",
+     "ipa": "/pɪl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cinema",
+     "s": "I always ___ when I read in a moving car, which is why I never bring a book on long bus journeys.",
+     "o": [
+      "feel sick",
+      "feel proud",
+      "feel lonely"
+     ],
+     "a": "feel sick",
+     "vi": "Tôi luôn thấy buồn nôn khi đọc sách trong xe đang chạy, đó là lý do tôi không bao giờ mang sách trong các chuyến xe buýt dài.",
+     "why": "feel sick = thấy buồn nôn, khó chịu trong người (không nhất thiết đang bị bệnh nặng).",
+     "new": [
+      {
+       "w": "moving",
+       "vi": "đang di chuyển"
+      },
+      {
+       "w": "journeys",
+       "vi": "chuyến đi"
+      }
+     ],
+     "tw": "feel sick"
+    },
+    {
+     "type": "mc",
+     "ctx": "Phone call",
+     "s": "I have been feeling dizzy for days, so I'm going to ___ this afternoon, even though I don't usually like hospitals.",
+     "o": [
+      "see a doctor",
+      "see a film",
+      "see a friend"
+     ],
+     "a": "see a doctor",
+     "vi": "Mấy ngày nay tôi thấy chóng mặt, nên chiều nay tôi sẽ đi khám bác sĩ, dù tôi thường không thích bệnh viện.",
+     "why": "see a doctor = đi khám bác sĩ (không dịch là 'nhìn thấy'); thường dùng với should/had better.",
+     "new": [
+      {
+       "w": "dizzy",
+       "vi": "chóng mặt"
+      }
+     ],
+     "tw": "see a doctor"
+    },
+    {
+     "type": "mc",
+     "ctx": "Neighbours",
+     "s": "Could you ___ for me on your way home? I need some plasters, and the nearest one closes at six.",
+     "o": [
+      "go to the chemist",
+      "go to the bank",
+      "go to the cinema"
+     ],
+     "a": "go to the chemist",
+     "vi": "Bạn có thể ghé hiệu thuốc giúp tôi trên đường về nhà không? Tôi cần ít băng dán, và hiệu gần nhất đóng cửa lúc sáu giờ.",
+     "why": "the chemist('s) = hiệu thuốc (Anh-Anh); Anh-Mỹ nói pharmacy/drugstore.",
+     "new": [
+      {
+       "w": "plasters",
+       "vi": "băng dán"
+      },
+      {
+       "w": "nearest",
+       "vi": "gần nhất"
+      }
+     ],
+     "tw": "go to the chemist",
+     "ipa": "/ˈkem.ɪst/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Gym",
+     "s": "He did not stretch after the workout, so the next morning his arms and shoulders began to ___ badly and he could barely lift a cup.",
+     "o": [
+      "ache",
+      "smile",
+      "whisper"
+     ],
+     "a": "ache",
+     "vi": "Anh ấy không giãn cơ sau buổi tập, nên sáng hôm sau tay và vai bắt đầu đau nhức dữ dội đến mức khó nhấc nổi cái cốc.",
+     "why": "ache = đau âm ỉ, đau nhức kéo dài (khác hurt: đau nói chung; pain: đau mạnh).",
+     "new": [
+      {
+       "w": "stretch",
+       "vi": "giãn cơ"
+      },
+      {
+       "w": "barely",
+       "vi": "hầu như không"
+      }
+     ],
+     "tw": "ache"
+    },
+    {
+     "type": "mc",
+     "ctx": "Pharmacy",
+     "s": "The pharmacist asked whether the ___ was on one side of my head or all over, which helped her decide what kind of tablet to recommend.",
+     "o": [
+      "headache",
+      "haircut",
+      "handbag"
+     ],
+     "a": "headache",
+     "vi": "Dược sĩ hỏi cơn đau đầu nằm một bên đầu hay khắp đầu, điều giúp cô ấy quyết định nên giới thiệu loại thuốc nào.",
+     "why": "headache = cơn đau đầu (danh từ đếm được): a terrible headache.",
+     "new": [
+      {
+       "w": "recommend",
+       "vi": "giới thiệu, đề xuất"
+      }
+     ],
+     "tw": "headache"
+    },
+    {
+     "type": "mc",
+     "ctx": "Restaurant",
+     "s": "The waiter warned us that the spicy soup might give us a ___ if we were not used to such strong flavours.",
+     "o": [
+      "stomach ache",
+      "sunburn",
+      "headline"
+     ],
+     "a": "stomach ache",
+     "vi": "Người phục vụ cảnh báo rằng món súp cay có thể làm chúng tôi đau bụng nếu không quen hương vị đậm như vậy.",
+     "why": "stomach ache = đau bụng (cũng viết stomachache); have (a) stomach ache.",
+     "new": [
+      {
+       "w": "flavours",
+       "vi": "hương vị"
+      },
+      {
+       "w": "warned",
+       "vi": "cảnh báo"
+      }
+     ],
+     "tw": "stomach ache"
+    },
+    {
+     "type": "mc",
+     "ctx": "Moving house",
+     "s": "Carrying heavy boxes up three floors gave him a bad ___, which means he spent the whole weekend lying on the sofa.",
+     "o": [
+      "backache",
+      "toothache",
+      "headline"
+     ],
+     "a": "backache",
+     "vi": "Khuân những chiếc hộp nặng lên ba tầng khiến anh bị đau lưng nặng, nghĩa là anh nằm trên ghế sofa cả cuối tuần.",
+     "why": "backache = đau lưng; suffer from backache. Người ngồi nhiều thường bị.",
+     "new": [
+      {
+       "w": "floors",
+       "vi": "tầng"
+      },
+      {
+       "w": "lying",
+       "vi": "nằm"
+      }
+     ],
+     "tw": "backache",
+     "ipa": "/ˈbæk.eɪk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Interview",
+     "s": "People who ___ stress at work often find it hard to sleep, so some companies now offer free counselling to their employees.",
+     "o": [
+      "suffer from",
+      "look after",
+      "care about"
+     ],
+     "a": "suffer from",
+     "vi": "Những người bị căng thẳng trong công việc thường khó ngủ, nên một số công ty giờ cung cấp tư vấn miễn phí cho nhân viên.",
+     "why": "suffer from + bệnh/vấn đề = chịu đựng, mắc phải (suffer from allergies).",
+     "new": [
+      {
+       "w": "counselling",
+       "vi": "tư vấn"
+      },
+      {
+       "w": "employees",
+       "vi": "nhân viên"
+      }
+     ],
+     "tw": "suffer from"
+    },
+    {
+     "type": "mc",
+     "ctx": "Physiotherapy",
+     "s": "If you ___ your knee whenever you run downhill, you should rest for a few days and avoid hard training.",
+     "o": [
+      "have a pain in",
+      "feel proud of",
+      "forget about"
+     ],
+     "a": "have a pain in",
+     "vi": "Nếu bạn đau ở đầu gối mỗi khi chạy xuống dốc, bạn nên nghỉ vài ngày và tránh tập nặng.",
+     "why": "have a pain in + bộ phận cơ thể = bị đau ở đâu đó (a pain in my chest).",
+     "new": [
+      {
+       "w": "downhill",
+       "vi": "xuống dốc"
+      },
+      {
+       "w": "rest",
+       "vi": "nghỉ"
+      }
+     ],
+     "tw": "have a pain in"
+    },
+    {
+     "type": "mc",
+     "ctx": "Sports",
+     "s": "My legs still ___ when I walk down the stairs, because I ran my first half-marathon yesterday.",
+     "o": [
+      "hurt",
+      "shine",
+      "cost"
+     ],
+     "a": "hurt",
+     "vi": "Chân tôi vẫn còn đau khi đi xuống cầu thang, vì hôm qua tôi chạy cuộc half-marathon đầu tiên.",
+     "why": "hurt = đau / làm đau (hurt - hurt - hurt); My head hurts. = Tôi đau đầu.",
+     "new": [
+      {
+       "w": "half-marathon",
+       "vi": "cuộc chạy nửa marathon"
+      }
+     ],
+     "tw": "hurt"
+    },
+    {
+     "type": "mc",
+     "ctx": "Medical blog",
+     "s": "A wasp sting can be ___ and cause swelling, although it is rarely dangerous unless the person is allergic.",
+     "o": [
+      "painful",
+      "delicious",
+      "comfortable"
+     ],
+     "a": "painful",
+     "vi": "Vết ong bắp cày đốt có thể gây đau và sưng, dù hiếm khi nguy hiểm trừ khi người đó bị dị ứng.",
+     "why": "painful = đau đớn, gây đau (tính từ của pain).",
+     "new": [
+      {
+       "w": "wasp",
+       "vi": "ong bắp cày"
+      },
+      {
+       "w": "swelling",
+       "vi": "chỗ sưng"
+      }
+     ],
+     "tw": "painful",
+     "ipa": "/ˈpeɪn.fəl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Workplace",
+     "s": "After a long ___, Mr Park returned to work part-time, which means his colleagues had to share some of his duties for several months.",
+     "o": [
+      "serious illness",
+      "holiday",
+      "lunch"
+     ],
+     "a": "serious illness",
+     "vi": "Sau một thời gian dài bệnh, ông Park trở lại làm việc bán thời gian, nghĩa là đồng nghiệp phải chia sẻ bớt nhiệm vụ của ông vài tháng.",
+     "why": "serious illness = bệnh nặng, nghiêm trọng (a serious illness); illness là danh từ chỉ tình trạng bệnh.",
+     "new": [
+      {
+       "w": "duties",
+       "vi": "nhiệm vụ"
+      },
+      {
+       "w": "colleagues",
+       "vi": "đồng nghiệp"
+      }
+     ],
+     "tw": "serious illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Office",
+     "s": "Because she was expecting a baby, Sara decided to ___ a few days before the due date, just in case there were any complications.",
+     "o": [
+      "go into hospital",
+      "go out for lunch",
+      "go to the cinema"
+     ],
+     "a": "go into hospital",
+     "vi": "Vì đang mang thai, Sara quyết định nhập viện vài ngày trước ngày dự sinh, phòng khi có biến chứng.",
+     "why": "go into hospital = nhập viện (Anh-Anh; Anh-Mỹ: go into the hospital).",
+     "new": [
+      {
+       "w": "expecting",
+       "vi": "đang mang thai"
+      },
+      {
+       "w": "complications",
+       "vi": "biến chứng"
+      }
+     ],
+     "tw": "go into hospital"
+    },
+    {
+     "type": "mc",
+     "ctx": "Sports news",
+     "s": "The footballer will miss the whole season because he needs an ___ on his knee, which was damaged during last month's match.",
+     "o": [
+      "operation",
+      "audition",
+      "invitation"
+     ],
+     "a": "operation",
+     "vi": "Cầu thủ sẽ bỏ lỡ cả mùa giải vì cần phẫu thuật đầu gối, chấn thương trong trận đấu tháng trước.",
+     "why": "operation = ca phẫu thuật (have an operation on my knee). Còn nghĩa khác: hoạt động, vận hành.",
+     "new": [
+      {
+       "w": "damaged",
+       "vi": "bị tổn thương"
+      },
+      {
+       "w": "season",
+       "vi": "mùa giải"
+      }
+     ],
+     "tw": "operation",
+     "ipa": "/ˌɑː.pəˈreɪ.ʃən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Career fair",
+     "s": "Becoming a ___ takes more than ten years of study and training, so only students who are very patient and hard-working should apply.",
+     "o": [
+      "surgeon",
+      "pilot",
+      "journalist"
+     ],
+     "a": "surgeon",
+     "vi": "Trở thành bác sĩ phẫu thuật cần hơn mười năm học và đào tạo, nên chỉ những sinh viên rất kiên nhẫn và chăm chỉ mới nên nộp đơn.",
+     "why": "surgeon = bác sĩ phẫu thuật; người thực hiện operation / surgery.",
+     "new": [
+      {
+       "w": "training",
+       "vi": "đào tạo"
+      },
+      {
+       "w": "apply",
+       "vi": "nộp đơn"
+      }
+     ],
+     "tw": "surgeon",
+     "ipa": "/ˈsɝː.dʒən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health news",
+     "s": "Some conditions can be controlled with medicine, whereas others require ___, which carries more risks and a longer recovery time.",
+     "o": [
+      "surgery",
+      "tourism",
+      "insurance"
+     ],
+     "a": "surgery",
+     "vi": "Một số bệnh có thể kiểm soát bằng thuốc, trong khi bệnh khác cần phẫu thuật, vốn có nhiều rủi ro hơn và thời gian hồi phục dài hơn.",
+     "why": "surgery = việc phẫu thuật (không đếm được): have surgery on my knee. Lưu ý: sheet ghi Verb nhưng thực chất là danh từ.",
+     "new": [
+      {
+       "w": "conditions",
+       "vi": "bệnh lý"
+      },
+      {
+       "w": "risks",
+       "vi": "rủi ro"
+      }
+     ],
+     "tw": "surgery",
+     "ipa": "/ˈsɝː.dʒər.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hospital",
+     "s": "Early detection saves lives, because patients with ___ often have no symptoms until the illness is already at an advanced stage.",
+     "o": [
+      "lung cancer",
+      "a broken leg",
+      "a bad cold"
+     ],
+     "a": "lung cancer",
+     "vi": "Phát hiện sớm cứu sống người bệnh, vì bệnh nhân ung thư phổi thường không có triệu chứng cho đến khi bệnh đã ở giai đoạn muộn.",
+     "why": "lung cancer = ung thư phổi; hút thuốc là nguyên nhân chính.",
+     "new": [
+      {
+       "w": "detection",
+       "vi": "sự phát hiện"
+      },
+      {
+       "w": "advanced",
+       "vi": "giai đoạn muộn"
+      }
+     ],
+     "tw": "lung cancer",
+     "ipa": "/ˈkæn.sɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health lecture",
+     "s": "Chest pain that spreads to the arm may be a sign of a ___, so you should call emergency services at once.",
+     "o": [
+      "heart attack",
+      "sore throat",
+      "headache"
+     ],
+     "a": "heart attack",
+     "vi": "Cơn đau ngực lan xuống cánh tay có thể là dấu hiệu của cơn đau tim, nên bạn cần gọi cấp cứu ngay lập tức.",
+     "why": "heart attack = cơn đau tim; have a heart attack. Khác với attack = tấn công.",
+     "new": [
+      {
+       "w": "spreads",
+       "vi": "lan"
+      },
+      {
+       "w": "at once",
+       "vi": "ngay lập tức"
+      }
+     ],
+     "tw": "heart attack",
+     "ipa": "/əˈtæk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Science class",
+     "s": "Vaccines have almost wiped out some deadly ___, such as polio, although a few cases still appear in remote areas.",
+     "o": [
+      "disease",
+      "recipes",
+      "cartoons"
+     ],
+     "a": "disease",
+     "vi": "Vắc-xin gần như đã xóa sổ một số bệnh chết người, như bại liệt, dù vài ca vẫn xuất hiện ở các vùng xa xôi.",
+     "why": "disease = bệnh (thường có tên gọi, do vi khuẩn/virus hoặc rối loạn): heart disease, infectious disease.",
+     "new": [
+      {
+       "w": "wiped out",
+       "vi": "xóa sổ"
+      },
+      {
+       "w": "remote",
+       "vi": "xa xôi"
+      }
+     ],
+     "tw": "disease",
+     "ipa": "/dɪˈziːz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "School",
+     "s": "The headmaster explained that frequent absences due to ___ would not affect a student's final grade if parents sent a medical note.",
+     "o": [
+      "illness",
+      "holiday",
+      "sports"
+     ],
+     "a": "illness",
+     "vi": "Hiệu trưởng giải thích rằng việc vắng mặt thường xuyên do bệnh tật sẽ không ảnh hưởng điểm cuối kỳ nếu phụ huynh gửi giấy xác nhận của bác sĩ.",
+     "why": "illness = tình trạng ốm đau, bệnh tật (a long illness); disease thường là bệnh cụ thể.",
+     "new": [
+      {
+       "w": "absences",
+       "vi": "sự vắng mặt"
+      },
+      {
+       "w": "grade",
+       "vi": "điểm"
+      }
+     ],
+     "tw": "illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Sports",
+     "s": "Swimmers usually have strong ___ because they train in water, which makes breathing harder than on land.",
+     "o": [
+      "lungs",
+      "ears",
+      "shoulders"
+     ],
+     "a": "lungs",
+     "vi": "Vận động viên bơi lội thường có phổi khỏe vì họ tập dưới nước, nơi thở khó hơn trên cạn.",
+     "why": "lungs = phổi (thường ở dạng số nhiều); one lung / both lungs.",
+     "new": [
+      {
+       "w": "train",
+       "vi": "luyện tập"
+      },
+      {
+       "w": "harder",
+       "vi": "khó hơn"
+      }
+     ],
+     "tw": "lungs",
+     "ipa": "/lʌŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Pharmacy",
+     "s": "Mild infections can usually be ___ at home with rest and plenty of fluids, but more serious ones require antibiotics.",
+     "o": [
+      "treat",
+      "watched",
+      "painted"
+     ],
+     "a": "treat",
+     "vi": "Nhiễm trùng nhẹ thường có thể được điều trị tại nhà bằng nghỉ ngơi và uống nhiều nước, nhưng ca nặng hơn cần kháng sinh.",
+     "why": "treat = điều trị (treat a patient / an illness); còn nghĩa: đối xử, đãi.",
+     "new": [
+      {
+       "w": "fluids",
+       "vi": "chất lỏng"
+      },
+      {
+       "w": "mild",
+       "vi": "nhẹ"
+      }
+     ],
+     "tw": "treat",
+     "ipa": "/triːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health news",
+     "s": "New ___ for diabetes is being tested in several countries, and early results suggest that it could reduce the need for daily injections.",
+     "o": [
+      "treatment",
+      "luggage",
+      "furniture"
+     ],
+     "a": "treatment",
+     "vi": "Phương pháp điều trị mới cho bệnh tiểu đường đang được thử nghiệm ở vài nước, và kết quả ban đầu cho thấy nó có thể giảm nhu cầu tiêm hằng ngày.",
+     "why": "treatment = sự/phương pháp điều trị (receive treatment for an illness).",
+     "new": [
+      {
+       "w": "diabetes",
+       "vi": "bệnh tiểu đường"
+      },
+      {
+       "w": "injections",
+       "vi": "mũi tiêm"
+      }
+     ],
+     "tw": "treatment",
+     "ipa": "/ˈtriːt.mənt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking show",
+     "s": "Many people dislike the strong taste of ___, but it contains a lot of iron and vitamin A, which the body needs.",
+     "o": [
+      "liver",
+      "sugar",
+      "butter"
+     ],
+     "a": "liver",
+     "vi": "Nhiều người không thích vị nồng của gan, nhưng nó chứa nhiều sắt và vitamin A.",
+     "why": "liver = gan; cơ quan lọc độc tố trong cơ thể.",
+     "new": [
+      {
+       "w": "audience",
+       "vi": "khán giả"
+      },
+      {
+       "w": "admitted",
+       "vi": "thừa nhận"
+      }
+     ],
+     "tw": "liver",
+     "ipa": "/ˈlɪv.ɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Job interview",
+     "s": "Before the interview, Hana ironed her white blouse carefully, because a crumpled ___ would give a poor impression to the panel.",
+     "o": [
+      "collar",
+      "pocket",
+      "button"
+     ],
+     "a": "collar",
+     "vi": "Trước buổi phỏng vấn, Hana ủi cẩn thận chiếc áo sơ mi trắng, vì cổ áo nhăn sẽ gây ấn tượng xấu với hội đồng.",
+     "why": "collar = cổ áo (shirt collar); cũng là vòng cổ của thú cưng.",
+     "new": [
+      {
+       "w": "ironed",
+       "vi": "ủi"
+      },
+      {
+       "w": "crumpled",
+       "vi": "nhăn nhúm"
+      }
+     ],
+     "tw": "collar",
+     "ipa": "/ˈkɑː.lɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Student life",
+     "s": "I prefer a ___ café with music and conversation to a silent library, because it helps me to relax between lectures.",
+     "o": [
+      "lively",
+      "empty",
+      "deserted"
+     ],
+     "a": "lively",
+     "vi": "Tôi thích quán cà phê sôi động có nhạc và tiếng trò chuyện hơn thư viện im lặng, vì nó giúp tôi thư giãn giữa các giờ giảng.",
+     "why": "lively = sôi động, náo nhiệt, đầy sức sống (a lively street / atmosphere).",
+     "new": [
+      {
+       "w": "lectures",
+       "vi": "bài giảng"
+      },
+      {
+       "w": "silent",
+       "vi": "im lặng"
+      }
+     ],
+     "tw": "lively",
+     "ipa": "/ˈlaɪvli/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Film club",
+     "s": "Several members said that the movie was ___, because nothing happened for the first hour and the actors spoke very slowly.",
+     "o": [
+      "dull",
+      "thrilling",
+      "hilarious"
+     ],
+     "a": "dull",
+     "vi": "Vài thành viên nói bộ phim buồn tẻ, vì suốt một giờ đầu chẳng có gì xảy ra và diễn viên nói rất chậm.",
+     "why": "dull = buồn tẻ, nhàm chán (a dull job); còn nghĩa: xỉn màu, âm ỉ (a dull ache).",
+     "new": [
+      {
+       "w": "thrilling",
+       "vi": "ly kỳ"
+      },
+      {
+       "w": "hilarious",
+       "vi": "cực hài"
+      }
+     ],
+     "tw": "dull",
+     "ipa": "/dʌl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking class",
+     "s": "Our teacher showed us how to combine ___ in a single dish, so that every bite tastes slightly different and surprises the guests.",
+     "o": [
+      "different flavours",
+      "different colours",
+      "different prices"
+     ],
+     "a": "different flavours",
+     "vi": "Giáo viên chỉ chúng tôi cách kết hợp nhiều hương vị khác nhau trong một món, để mỗi miếng ăn hơi khác nhau và làm khách bất ngờ.",
+     "why": "different flavours = nhiều hương vị khác nhau (Anh-Mỹ: flavors).",
+     "new": [
+      {
+       "w": "combine",
+       "vi": "kết hợp"
+      },
+      {
+       "w": "bite",
+       "vi": "miếng cắn"
+      }
+     ],
+     "tw": "different flavours",
+     "ipa": "/ˈdɪfrənt ˈfleɪvəz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Tourism",
+     "s": "Many hotels were built ___ in the 1990s, so visitors can enjoy a view of the water while they eat breakfast.",
+     "o": [
+      "on the banks of the river",
+      "on the top of the hill",
+      "in the middle of the sea"
+     ],
+     "a": "on the banks of the river",
+     "vi": "Nhiều khách sạn được xây bên bờ sông vào thập niên 1990, nên du khách có thể ngắm nước khi ăn sáng.",
+     "why": "on the banks of the river = trên/bên bờ sông; bank còn có nghĩa ngân hàng.",
+     "new": [
+      {
+       "w": "view",
+       "vi": "tầm nhìn"
+      },
+      {
+       "w": "built",
+       "vi": "được xây"
+      }
+     ],
+     "tw": "on the banks of the river",
+     "ipa": "/ɒn ðə bæŋks əv ðə ˈrɪv.ər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Camping",
+     "s": "We got lost in the ___ for an hour because every path looked the same, but finally we heard the river and found our tent.",
+     "o": [
+      "woods",
+      "kitchen",
+      "airport"
+     ],
+     "a": "woods",
+     "vi": "Chúng tôi bị lạc trong khu rừng một giờ vì con đường nào cũng giống nhau, nhưng cuối cùng nghe thấy tiếng sông và tìm lại lều.",
+     "why": "the woods = khu rừng nhỏ (nhỏ hơn forest); walk in the woods.",
+     "new": [
+      {
+       "w": "path",
+       "vi": "lối mòn"
+      },
+      {
+       "w": "tent",
+       "vi": "lều"
+      }
+     ],
+     "tw": "woods",
+     "ipa": "/wʊdz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Jam making",
+     "s": "My grandmother makes delicious jam from wild ___, which she sells at the local market every Saturday morning.",
+     "o": [
+      "blackberries",
+      "bananas",
+      "potatoes"
+     ],
+     "a": "blackberries",
+     "vi": "Bà tôi làm mứt ngon từ mâm xôi đen dại, bán ở chợ địa phương mỗi sáng thứ Bảy.",
+     "why": "blackberry = quả mâm xôi đen (số nhiều: blackberries); mọc dại ven đường, rừng.",
+     "new": [
+      {
+       "w": "jam",
+       "vi": "mứt"
+      },
+      {
+       "w": "wild",
+       "vi": "dại, hoang"
+      }
+     ],
+     "tw": "blackberries",
+     "ipa": "/ˈblæk.bər.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Farming",
+     "s": "Farmers plan their work around ___, planting rice in spring and harvesting before the heavy autumn rains arrive.",
+     "o": [
+      "the seasons",
+      "the numbers",
+      "the colours"
+     ],
+     "a": "the seasons",
+     "vi": "Nông dân lên kế hoạch công việc theo các mùa, gieo lúa vào mùa xuân và thu hoạch trước khi mưa thu nặng hạt đến.",
+     "why": "the seasons = các mùa trong năm (spring, summer, autumn, winter).",
+     "new": [
+      {
+       "w": "harvesting",
+       "vi": "thu hoạch"
+      },
+      {
+       "w": "planting",
+       "vi": "gieo trồng"
+      }
+     ],
+     "tw": "the seasons",
+     "ipa": "/ðə ˈsiː.zənz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "City planning",
+     "s": "Because the population keeps growing, the council wants to protect the remaining ___ in the city centre from new buildings.",
+     "o": [
+      "open spaces",
+      "opening hours",
+      "spare parts"
+     ],
+     "a": "open spaces",
+     "vi": "Vì dân số liên tục tăng, hội đồng muốn bảo vệ những khoảng không gian thoáng còn lại ở trung tâm thành phố khỏi các tòa nhà mới.",
+     "why": "open spaces = những khu đất rộng, thoáng (công viên, đồng cỏ), trái với khu dân cư đông đúc.",
+     "new": [
+      {
+       "w": "population",
+       "vi": "dân số"
+      },
+      {
+       "w": "council",
+       "vi": "hội đồng"
+      }
+     ],
+     "tw": "open spaces",
+     "ipa": "/ˌəʊ.pən ˈspeɪ.sɪz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Rural life",
+     "s": "In many villages, a ___ is more useful than a car, since it can pull heavy loads along rough roads in all weather.",
+     "o": [
+      "tractor",
+      "bicycle",
+      "helicopter"
+     ],
+     "a": "tractor",
+     "vi": "Ở nhiều làng, máy kéo hữu ích hơn ô tô, vì nó kéo được hàng nặng trên đường gồ ghề trong mọi thời tiết.",
+     "why": "tractor = máy kéo, xe dùng trong nông nghiệp (kéo máy cày, xe rơ-moóc).",
+     "new": [
+      {
+       "w": "loads",
+       "vi": "hàng hóa"
+      },
+      {
+       "w": "rough",
+       "vi": "gồ ghề"
+      }
+     ],
+     "tw": "tractor",
+     "ipa": "/ˈtræk.tər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Airport",
+     "s": "Passengers with small children are allowed to ___ the plane first, which saves time and avoids a long, noisy queue in the corridor.",
+     "o": [
+      "get on",
+      "get off",
+      "get out of"
+     ],
+     "a": "get on",
+     "vi": "Hành khách có trẻ nhỏ được phép lên máy bay trước, giúp tiết kiệm thời gian và tránh hàng chờ dài, ồn ào ở hành lang.",
+     "why": "get on + bus/coach/train/plane = lên phương tiện lớn có nhiều chỗ ngồi (trái nghĩa: get off). Dạng suy ra từ 'get on bus/coach/train/plane'.",
+     "new": [
+      {
+       "w": "queue",
+       "vi": "hàng chờ"
+      },
+      {
+       "w": "corridor",
+       "vi": "hành lang"
+      }
+     ],
+     "tw": "get on"
+    },
+    {
+     "type": "mc",
+     "ctx": "Airport",
+     "s": "After a twelve-hour flight, the exhausted passengers were relieved to ___ the plane and finally stretch their legs.",
+     "o": [
+      "get off",
+      "get on",
+      "get into"
+     ],
+     "a": "get off",
+     "vi": "Sau chuyến bay mười hai tiếng, những hành khách kiệt sức nhẹ nhõm được xuống máy bay và cuối cùng duỗi chân.",
+     "why": "get off + bus/coach/train/plane = xuống phương tiện lớn (trái nghĩa: get on).",
+     "new": [
+      {
+       "w": "exhausted",
+       "vi": "kiệt sức"
+      },
+      {
+       "w": "stretch",
+       "vi": "duỗi"
+      }
+     ],
+     "tw": "get off"
+    },
+    {
+     "type": "mc",
+     "ctx": "Driving lesson",
+     "s": "The instructor reminded me to check the mirrors before I ___ the car, since it is easy to forget when you are nervous.",
+     "o": [
+      "get into",
+      "get out of",
+      "get off"
+     ],
+     "a": "get into",
+     "vi": "Giáo viên nhắc tôi kiểm tra gương trước khi lên xe, vì rất dễ quên khi bạn hồi hộp.",
+     "why": "get into + car/taxi = lên ô tô, taxi (xe nhỏ, ngồi vào trong); trái nghĩa: get out of.",
+     "new": [
+      {
+       "w": "mirrors",
+       "vi": "gương"
+      },
+      {
+       "w": "nervous",
+       "vi": "hồi hộp"
+      }
+     ],
+     "tw": "get into"
+    },
+    {
+     "type": "mc",
+     "ctx": "Road safety",
+     "s": "Cyclists often ride very close to parked vehicles, so you should look behind you before you ___ the car and open the door wide.",
+     "o": [
+      "get out of",
+      "get on",
+      "get into"
+     ],
+     "a": "get out of",
+     "vi": "Người đi xe đạp thường chạy sát các xe đang đỗ, nên bạn cần nhìn phía sau trước khi xuống xe và mở rộng cửa.",
+     "why": "get out of + car/taxi = xuống ô tô, taxi; trái nghĩa: get into.",
+     "new": [
+      {
+       "w": "vehicles",
+       "vi": "phương tiện"
+      },
+      {
+       "w": "wide",
+       "vi": "rộng"
+      }
+     ],
+     "tw": "get out of"
+    },
+    {
+     "type": "mc",
+     "ctx": "Construction site",
+     "s": "A ___ delivered several tons of sand to the building site, and the workers spent the whole morning unloading it by hand.",
+     "o": [
+      "lorry",
+      "canoe",
+      "balloon"
+     ],
+     "a": "lorry",
+     "vi": "Một chiếc xe tải giao vài tấn cát đến công trường, và công nhân dành cả buổi sáng dỡ bằng tay.",
+     "why": "lorry = xe tải (Anh-Anh); Anh-Mỹ nói truck.",
+     "new": [
+      {
+       "w": "unloading",
+       "vi": "dỡ hàng"
+      },
+      {
+       "w": "site",
+       "vi": "công trường"
+      }
+     ],
+     "tw": "lorry"
+    },
+    {
+     "type": "mc",
+     "ctx": "Announcement",
+     "s": "The express train to Da Nang will now depart from ___ four, so please cross the footbridge as quickly as you can.",
+     "o": [
+      "platform",
+      "terminal",
+      "garage"
+     ],
+     "a": "platform",
+     "vi": "Chuyến tàu nhanh đi Đà Nẵng bây giờ sẽ khởi hành từ sân ga số bốn, xin hãy qua cầu vượt nhanh nhất có thể.",
+     "why": "platform = sân ga (nơi chờ tàu); còn nghĩa: bục, nền tảng.",
+     "new": [
+      {
+       "w": "depart",
+       "vi": "khởi hành"
+      },
+      {
+       "w": "footbridge",
+       "vi": "cầu đi bộ"
+      }
+     ],
+     "tw": "platform"
+    },
+    {
+     "type": "mc",
+     "ctx": "Student discount",
+     "s": "Students can travel at half price, which means the ___ for a two-hour journey costs less than a cup of coffee.",
+     "o": [
+      "bus fare",
+      "passport",
+      "timetable"
+     ],
+     "a": "bus fare",
+     "vi": "Sinh viên được đi nửa giá, nghĩa là giá vé xe cho hành trình hai tiếng rẻ hơn một cốc cà phê.",
+     "why": "bus/coach fare = giá vé xe buýt / xe khách; fare chỉ tiền trả để đi lại bằng phương tiện (khác ticket là tấm vé). Dạng suy ra từ 'Bus/ coach fare'.",
+     "new": [
+      {
+       "w": "half price",
+       "vi": "nửa giá"
+      },
+      {
+       "w": "journey",
+       "vi": "hành trình"
+      }
+     ],
+     "tw": "bus fare"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel agency",
+     "s": "The package includes accommodation and breakfast, but the ___ is not covered, so you need to buy your own flight.",
+     "o": [
+      "airfare",
+      "luggage",
+      "visa"
+     ],
+     "a": "airfare",
+     "vi": "Gói tour gồm chỗ ở và bữa sáng, nhưng vé máy bay không được bao gồm, nên bạn cần tự mua chuyến bay.",
+     "why": "airfare = giá vé máy bay (= the price of a plane ticket). Dạng suy ra từ 'Airfare'.",
+     "new": [
+      {
+       "w": "accommodation",
+       "vi": "chỗ ở"
+      },
+      {
+       "w": "package",
+       "vi": "gói tour"
+      }
+     ],
+     "tw": "airfare"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Workplace",
+     "s": "The company encourages staff to engage in community projects during working hours. Although this costs money, managers believe it improves morale and attracts talented applicants. What does \"engage in\" mean?",
+     "o": [
+      "tham gia vào, dấn thân vào",
+      "Từ chối, tránh xa",
+      "Kiểm soát, quản lý"
+     ],
+     "a": "tham gia vào, dấn thân vào",
+     "vi": "Công ty khuyến khích nhân viên tham gia các dự án cộng đồng trong giờ làm việc. Dù tốn kém, các quản lý tin rằng điều này nâng cao tinh thần và thu hút ứng viên giỏi.",
+     "why": "engage in + danh từ/V-ing = tham gia vào một hoạt động, công việc.",
+     "noblank": true,
+     "say": "The company encourages staff to engage in community projects during working hours. Although this costs money, managers believe it improves morale and attracts talented applicants.",
+     "new": [
+      {
+       "w": "morale",
+       "vi": "tinh thần làm việc"
+      },
+      {
+       "w": "applicants",
+       "vi": "ứng viên"
+      }
+     ],
+     "tw": "engage in"
+    },
+    {
+     "type": "mc",
+     "ctx": "Food blog",
+     "s": "Milk and fresh vegetables should be stored in the refrigerator, whereas bread and bananas usually stay fresh longer at room temperature. Keeping food at the right place reduces waste. What does \"refrigerator\" mean?",
+     "o": [
+      "tủ lạnh",
+      "Lò vi sóng",
+      "Bếp ga"
+     ],
+     "a": "tủ lạnh",
+     "vi": "Sữa và rau tươi nên được bảo quản trong tủ lạnh, trong khi bánh mì và chuối thường tươi lâu hơn ở nhiệt độ phòng. Để thực phẩm đúng chỗ giúp giảm lãng phí.",
+     "why": "refrigerator = tủ lạnh (nói tắt: fridge); thường đi với keep sth in the refrigerator.",
+     "noblank": true,
+     "say": "Milk and fresh vegetables should be stored in the refrigerator, whereas bread and bananas usually stay fresh longer at room temperature. Keeping food at the right place reduces waste.",
+     "new": [
+      {
+       "w": "stored",
+       "vi": "được bảo quản"
+      },
+      {
+       "w": "waste",
+       "vi": "sự lãng phí"
+      }
+     ],
+     "tw": "refrigerator",
+     "ipa": "/rɪˈfrɪdʒ.ə.reɪ.t̬ɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Nutrition article",
+     "s": "Quinoa originally comes from South America, where farmers have grown it for thousands of years. Today it is popular worldwide because it is gluten-free and easy to cook. What does \"quinoa\" mean?",
+     "o": [
+      "hạt diêm mạch",
+      "Một loại cá biển",
+      "Một loại gia vị cay"
+     ],
+     "a": "hạt diêm mạch",
+     "vi": "Hạt diêm mạch vốn đến từ Nam Mỹ, nơi nông dân đã trồng nó hàng nghìn năm. Ngày nay nó phổ biến toàn cầu vì không chứa gluten và dễ nấu.",
+     "why": "quinoa = hạt diêm mạch, ngũ cốc giàu đạm, thường dùng trong salad hoặc thay cơm.",
+     "noblank": true,
+     "say": "Quinoa originally comes from South America, where farmers have grown it for thousands of years. Today it is popular worldwide because it is gluten-free and easy to cook.",
+     "new": [
+      {
+       "w": "gluten-free",
+       "vi": "không chứa gluten"
+      },
+      {
+       "w": "worldwide",
+       "vi": "trên toàn thế giới"
+      }
+     ],
+     "tw": "quinoa",
+     "ipa": "/kɪnˈwɑː/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dialogue",
+     "s": "\"You've been very quiet all afternoon. What's the matter?\" asked Lan. \"I just failed my driving test for the second time,\" her brother replied sadly. What does \"What's the matter?\" mean?",
+     "o": [
+      "Có chuyện gì vậy? / Bạn bị sao vậy?",
+      "Bạn đang đi đâu vậy?",
+      "Bạn muốn ăn gì?"
+     ],
+     "a": "Có chuyện gì vậy? / Bạn bị sao vậy?",
+     "vi": "\"Cả buổi chiều em im lặng quá. Có chuyện gì vậy?\" Lan hỏi. \"Em vừa trượt kỳ thi lái xe lần thứ hai,\" em trai cô buồn bã đáp.",
+     "why": "What's the matter? = hỏi thăm khi thấy ai đó buồn, đau hoặc có vấn đề (= What's wrong?).",
+     "noblank": true,
+     "say": "\"You've been very quiet all afternoon. What's the matter?\" asked Lan. \"I just failed my driving test for the second time,\" her brother replied sadly.",
+     "new": [
+      {
+       "w": "driving test",
+       "vi": "kỳ thi lái xe"
+      },
+      {
+       "w": "sadly",
+       "vi": "buồn bã"
+      }
+     ],
+     "tw": "What's the matter?"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health tips",
+     "s": "Winter air is dry, and many people wake up with a sore throat. Drinking warm water with honey can ease the pain, although it will not cure the cause. What does \"have a sore throat\" mean?",
+     "o": [
+      "bị đau họng",
+      "Bị đau đầu gối",
+      "Bị mất ngủ"
+     ],
+     "a": "bị đau họng",
+     "vi": "Không khí mùa đông khô và nhiều người thức dậy với cái họng đau rát. Uống nước ấm với mật ong có thể làm dịu cơn đau, dù không chữa được nguyên nhân.",
+     "why": "have a sore throat = bị đau họng; sore = đau rát, viêm.",
+     "noblank": true,
+     "say": "Winter air is dry, and many people wake up with a sore throat. Drinking warm water with honey can ease the pain, although it will not cure the cause.",
+     "new": [
+      {
+       "w": "ease",
+       "vi": "làm dịu"
+      },
+      {
+       "w": "cure",
+       "vi": "chữa khỏi"
+      }
+     ],
+     "tw": "have a sore throat",
+     "ipa": "/θroʊt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Parenting blog",
+     "s": "If your baby has a temperature above 38 degrees, give plenty of water and call a doctor. Do not wait too long, because small children can get worse quickly. What does \"have a temperature\" mean?",
+     "o": [
+      "bị sốt",
+      "Bị đau lưng",
+      "Bị ngứa da"
+     ],
+     "a": "bị sốt",
+     "vi": "Nếu em bé bị sốt trên 38 độ, hãy cho uống nhiều nước và gọi bác sĩ. Đừng chờ quá lâu vì trẻ nhỏ có thể trở nặng nhanh.",
+     "why": "have a temperature = bị sốt (nhiệt độ cơ thể cao hơn bình thường).",
+     "noblank": true,
+     "say": "If your baby has a temperature above 38 degrees, give plenty of water and call a doctor. Do not wait too long, because small children can get worse quickly.",
+     "new": [
+      {
+       "w": "plenty of",
+       "vi": "nhiều"
+      },
+      {
+       "w": "get worse",
+       "vi": "trở nặng"
+      }
+     ],
+     "tw": "have a temperature",
+     "ipa": "/ˈtem.pɚ.ə.tʃɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health news",
+     "s": "Flu spreads easily in crowded places such as schools and offices. Washing your hands often and avoiding close contact with sick people are simple ways to protect yourself. What does \"flu\" mean?",
+     "o": [
+      "bệnh cúm",
+      "Bệnh dị ứng",
+      "Bệnh tiểu đường"
+     ],
+     "a": "bệnh cúm",
+     "vi": "Cúm lây lan dễ dàng ở nơi đông người như trường học và văn phòng. Rửa tay thường xuyên và tránh tiếp xúc gần người bệnh là cách đơn giản để tự bảo vệ.",
+     "why": "flu = cúm (viết tắt của influenza); thường nói have/catch (the) flu.",
+     "noblank": true,
+     "say": "Flu spreads easily in crowded places such as schools and offices. Washing your hands often and avoiding close contact with sick people are simple ways to protect yourself.",
+     "new": [
+      {
+       "w": "crowded",
+       "vi": "đông đúc"
+      },
+      {
+       "w": "contact",
+       "vi": "sự tiếp xúc"
+      }
+     ],
+     "tw": "flu"
+    },
+    {
+     "type": "mc",
+     "ctx": "Story",
+     "s": "While Hoa was peeling an apple in the garden, her knife slipped and she cut herself. Luckily, the wound was small, and her mother cleaned it with warm water. What does \"cut yourself\" mean?",
+     "o": [
+      "bị đứt/cắt vào người",
+      "Cô ấy tự làm mình đau lòng",
+      "Cô ấy tự nấu bữa trưa"
+     ],
+     "a": "bị đứt/cắt vào người",
+     "vi": "Khi Hoa đang gọt táo trong vườn, con dao trượt và cô bị đứt tay. May mắn là vết thương nhỏ, mẹ cô lau sạch bằng nước ấm.",
+     "why": "cut yourself = tự làm mình bị đứt tay/chân; đại từ phản thân đổi theo chủ ngữ (myself, himself...).",
+     "noblank": true,
+     "say": "While Hoa was peeling an apple in the garden, her knife slipped and she cut herself. Luckily, the wound was small, and her mother cleaned it with warm water.",
+     "new": [
+      {
+       "w": "peel",
+       "vi": "gọt vỏ"
+      },
+      {
+       "w": "slipped",
+       "vi": "trượt"
+      }
+     ],
+     "tw": "cut yourself"
+    },
+    {
+     "type": "mc",
+     "ctx": "First-aid manual",
+     "s": "If a wound is bleeding heavily, do not remove the cloth. Add more layers on top and keep pressing firmly until the ambulance arrives. What does \"bleed\" mean?",
+     "o": [
+      "chảy máu",
+      "Sưng lên",
+      "Đóng vảy"
+     ],
+     "a": "chảy máu",
+     "vi": "Nếu vết thương chảy máu nhiều, đừng bỏ miếng vải ra. Hãy thêm nhiều lớp lên trên và tiếp tục ấn chặt cho đến khi xe cứu thương đến.",
+     "why": "bleed = chảy máu (bleed - bled - bled); danh từ: blood.",
+     "noblank": true,
+     "say": "If a wound is bleeding heavily, do not remove the cloth. Add more layers on top and keep pressing firmly until the ambulance arrives.",
+     "new": [
+      {
+       "w": "layers",
+       "vi": "các lớp"
+      },
+      {
+       "w": "firmly",
+       "vi": "chắc, chặt"
+      }
+     ],
+     "tw": "bleed",
+     "ipa": "/bliːd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "First-aid course",
+     "s": "Our instructor showed us how to put a bandage around a sprained knee. She explained that the bandage should support the joint without stopping the blood flow. What does \"put a bandage around\" mean?",
+     "o": [
+      "quấn băng quanh (chỗ bị thương)",
+      "Tháo băng khỏi đầu gối",
+      "Xoa bóp đầu gối"
+     ],
+     "a": "quấn băng quanh (chỗ bị thương)",
+     "vi": "Giảng viên chỉ chúng tôi cách quấn băng quanh đầu gối bị bong gân. Cô giải thích băng phải nâng đỡ khớp mà không cản máu lưu thông.",
+     "why": "put a bandage around + bộ phận cơ thể = quấn băng quanh chỗ bị thương.",
+     "noblank": true,
+     "say": "Our instructor showed us how to put a bandage around a sprained knee. She explained that the bandage should support the joint without stopping the blood flow.",
+     "new": [
+      {
+       "w": "sprained",
+       "vi": "bị bong gân"
+      },
+      {
+       "w": "joint",
+       "vi": "khớp"
+      }
+     ],
+     "tw": "put a bandage around",
+     "ipa": "/ˈbæn.dɪdʒ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health forum",
+     "s": "I've had a cough since last Monday, and it gets worse at night. Honey and ginger tea help a little, but I may need to see a doctor. What does \"have a cough\" mean?",
+     "o": [
+      "bị ho",
+      "Bị mất giọng",
+      "Bị chóng mặt"
+     ],
+     "a": "bị ho",
+     "vi": "Tôi bị ho từ thứ Hai tuần trước và nó nặng hơn vào ban đêm. Trà mật ong gừng giúp được chút ít, nhưng có thể tôi cần đi khám.",
+     "why": "have a cough = bị ho; có thể nói have a bad/terrible cough.",
+     "noblank": true,
+     "say": "I've had a cough since last Monday, and it gets worse at night. Honey and ginger tea help a little, but I may need to see a doctor.",
+     "new": [
+      {
+       "w": "ginger",
+       "vi": "gừng"
+      },
+      {
+       "w": "gets worse",
+       "vi": "trở nên tệ hơn"
+      }
+     ],
+     "tw": "have a cough",
+     "ipa": "/kɑːf/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Label",
+     "s": "This cough medicine should not be taken with alcohol. Children under six must ask a doctor first, because the dose is different for young patients. What does \"cough medicine\" mean?",
+     "o": [
+      "thuốc ho",
+      "Thuốc nhỏ mắt",
+      "Thuốc đau bụng"
+     ],
+     "a": "thuốc ho",
+     "vi": "Thuốc ho này không nên dùng cùng rượu bia. Trẻ dưới sáu tuổi phải hỏi bác sĩ trước vì liều lượng khác với bệnh nhân nhỏ.",
+     "why": "cough medicine = thuốc ho; medicine không đếm được.",
+     "noblank": true,
+     "say": "This cough medicine should not be taken with alcohol. Children under six must ask a doctor first, because the dose is different for young patients.",
+     "new": [
+      {
+       "w": "dose",
+       "vi": "liều lượng"
+      },
+      {
+       "w": "alcohol",
+       "vi": "rượu bia"
+      }
+     ],
+     "tw": "cough medicine",
+     "ipa": "/kɑːf/ /ˈmed.ɪ.sən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Wellbeing blog",
+     "s": "If you have a headache, drink a glass of water first. Dehydration is a common cause, and the pain often disappears within half an hour. What does \"have a headache\" mean?",
+     "o": [
+      "bị đau đầu",
+      "Bị chuột rút",
+      "Bị khàn tiếng"
+     ],
+     "a": "bị đau đầu",
+     "vi": "Nếu bạn bị đau đầu, hãy uống một cốc nước trước. Mất nước là nguyên nhân thường gặp và cơn đau thường biến mất trong nửa giờ.",
+     "why": "have a headache = bị đau đầu; headache là danh từ đếm được.",
+     "noblank": true,
+     "say": "If you have a headache, drink a glass of water first. Dehydration is a common cause, and the pain often disappears within half an hour.",
+     "new": [
+      {
+       "w": "dehydration",
+       "vi": "sự mất nước"
+      },
+      {
+       "w": "disappear",
+       "vi": "biến mất"
+      }
+     ],
+     "tw": "have a headache"
+    },
+    {
+     "type": "mc",
+     "ctx": "Medical leaflet",
+     "s": "Take two tablets every six hours, but never more than eight in one day. If the pain continues after three days, contact your doctor. What does \"take some tablets\" mean?",
+     "o": [
+      "uống vài viên thuốc",
+      "Bôi hai lần mỗi ngày",
+      "Ăn hai bữa mỗi ngày"
+     ],
+     "a": "uống vài viên thuốc",
+     "vi": "Uống hai viên mỗi sáu giờ, nhưng không quá tám viên trong một ngày. Nếu cơn đau kéo dài sau ba ngày, hãy liên hệ bác sĩ.",
+     "why": "take tablets = uống thuốc viên; tablet = viên thuốc nén.",
+     "noblank": true,
+     "say": "Take two tablets every six hours, but never more than eight in one day. If the pain continues after three days, contact your doctor.",
+     "new": [
+      {
+       "w": "contact",
+       "vi": "liên hệ"
+      },
+      {
+       "w": "continue",
+       "vi": "tiếp tục"
+      }
+     ],
+     "tw": "take some tablets",
+     "ipa": "/ˈtæb.lət/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family story",
+     "s": "When my little brother had a fever, Mum gave him some medicine and put a cool cloth on his forehead. By morning, he felt much better. What does \"give someone some medicine\" mean?",
+     "o": [
+      "cho ai uống/dùng thuốc",
+      "Cho em ăn tối",
+      "Đưa em đi học"
+     ],
+     "a": "cho ai uống/dùng thuốc",
+     "vi": "Khi em trai tôi bị sốt, mẹ cho em uống thuốc và đặt khăn mát lên trán. Đến sáng, em thấy khỏe hơn nhiều.",
+     "why": "give sb some medicine = cho ai uống thuốc; medicine không đếm được nên dùng some.",
+     "noblank": true,
+     "say": "When my little brother had a fever, Mum gave him some medicine and put a cool cloth on his forehead. By morning, he felt much better.",
+     "new": [
+      {
+       "w": "fever",
+       "vi": "cơn sốt"
+      },
+      {
+       "w": "forehead",
+       "vi": "trán"
+      }
+     ],
+     "tw": "give someone some medicine"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health magazine",
+     "s": "Taking vitamin pills cannot replace a balanced diet. Doctors say that fresh fruit and vegetables provide nutrients that supplements often fail to supply. What does \"pill\" mean?",
+     "o": [
+      "viên thuốc",
+      "Rau củ tươi",
+      "Thức uống có ga"
+     ],
+     "a": "viên thuốc",
+     "vi": "Uống viên vitamin không thể thay thế chế độ ăn cân bằng. Bác sĩ nói rằng trái cây và rau tươi cung cấp dưỡng chất mà thực phẩm bổ sung thường không có.",
+     "why": "pill = viên thuốc (nhỏ, tròn); take a pill = uống một viên.",
+     "noblank": true,
+     "say": "Taking vitamin pills cannot replace a balanced diet. Doctors say that fresh fruit and vegetables provide nutrients that supplements often fail to supply.",
+     "new": [
+      {
+       "w": "nutrients",
+       "vi": "dưỡng chất"
+      },
+      {
+       "w": "supplements",
+       "vi": "thực phẩm bổ sung"
+      }
+     ],
+     "tw": "pill",
+     "ipa": "/pɪl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hospital leaflet",
+     "s": "Many pregnant women feel sick in the morning during the first three months. Eating small, dry snacks before getting out of bed may reduce the problem. What does \"feel sick\" mean?",
+     "o": [
+      "cảm thấy buồn nôn/khó chịu",
+      "Cảm thấy rất vui",
+      "Cảm thấy rất đói"
+     ],
+     "a": "cảm thấy buồn nôn/khó chịu",
+     "vi": "Nhiều phụ nữ mang thai thấy buồn nôn vào buổi sáng trong ba tháng đầu. Ăn nhẹ đồ khô trước khi rời giường có thể giảm vấn đề này.",
+     "why": "feel sick = thấy buồn nôn, khó chịu trong người (không nhất thiết đang bị bệnh nặng).",
+     "noblank": true,
+     "say": "Many pregnant women feel sick in the morning during the first three months. Eating small, dry snacks before getting out of bed may reduce the problem.",
+     "new": [
+      {
+       "w": "pregnant",
+       "vi": "mang thai"
+      },
+      {
+       "w": "reduce",
+       "vi": "giảm"
+      }
+     ],
+     "tw": "feel sick"
+    },
+    {
+     "type": "mc",
+     "ctx": "Newspaper",
+     "s": "Experts urge people over fifty to see a doctor once a year, even if they feel healthy. Regular check-ups can detect problems before symptoms appear. What does \"see a doctor\" mean?",
+     "o": [
+      "đi khám bác sĩ",
+      "Đi mua thuốc",
+      "Đi thăm bạn"
+     ],
+     "a": "đi khám bác sĩ",
+     "vi": "Các chuyên gia kêu gọi người trên năm mươi tuổi đi khám bác sĩ mỗi năm một lần, dù thấy khỏe. Kiểm tra định kỳ có thể phát hiện vấn đề trước khi có triệu chứng.",
+     "why": "see a doctor = đi khám bác sĩ (không dịch là 'nhìn thấy'); thường dùng với should/had better.",
+     "noblank": true,
+     "say": "Experts urge people over fifty to see a doctor once a year, even if they feel healthy. Regular check-ups can detect problems before symptoms appear.",
+     "new": [
+      {
+       "w": "check-ups",
+       "vi": "khám sức khỏe định kỳ"
+      },
+      {
+       "w": "symptoms",
+       "vi": "triệu chứng"
+      }
+     ],
+     "tw": "see a doctor"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dialogue",
+     "s": "\"My throat is really sore,\" Hung said. \"Why don't you go to the chemist and ask for some advice?\" his wife suggested. \"They can often help with minor problems.\" What does \"go to the chemist\" mean?",
+     "o": [
+      "đi đến hiệu thuốc",
+      "Đi ngân hàng",
+      "Đi chợ"
+     ],
+     "a": "đi đến hiệu thuốc",
+     "vi": "\"Họng anh đau lắm,\" Hùng nói. \"Sao anh không đến hiệu thuốc xin lời khuyên?\" vợ anh gợi ý. \"Họ thường giúp được các vấn đề nhẹ.\"",
+     "why": "the chemist('s) = hiệu thuốc (Anh-Anh); Anh-Mỹ nói pharmacy/drugstore.",
+     "noblank": true,
+     "say": "\"My throat is really sore,\" Hung said. \"Why don't you go to the chemist and ask for some advice?\" his wife suggested. \"They can often help with minor problems.\"",
+     "new": [
+      {
+       "w": "suggested",
+       "vi": "gợi ý"
+      },
+      {
+       "w": "minor",
+       "vi": "nhỏ, nhẹ"
+      }
+     ],
+     "tw": "go to the chemist",
+     "ipa": "/ˈkem.ɪst/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health article",
+     "s": "A dull ache in the lower back is common among office workers. It usually develops slowly, whereas a sharp pain often appears suddenly after an injury. What does \"ache\" mean?",
+     "o": [
+      "cơn đau âm ỉ; đau âm ỉ",
+      "Cơn đau dữ dội, nhói",
+      "Vết thương hở"
+     ],
+     "a": "cơn đau âm ỉ; đau âm ỉ",
+     "vi": "Cơn đau nhức âm ỉ ở lưng dưới phổ biến ở nhân viên văn phòng. Nó thường phát triển chậm, trong khi cơn đau nhói thường xuất hiện đột ngột sau chấn thương.",
+     "why": "ache = đau âm ỉ, đau nhức kéo dài (khác hurt: đau nói chung; pain: đau mạnh).",
+     "noblank": true,
+     "say": "A dull ache in the lower back is common among office workers. It usually develops slowly, whereas a sharp pain often appears suddenly after an injury.",
+     "new": [
+      {
+       "w": "dull",
+       "vi": "âm ỉ, không nhói"
+      },
+      {
+       "w": "sharp",
+       "vi": "nhói, buốt"
+      }
+     ],
+     "tw": "ache"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health blog",
+     "s": "Bright lights, noise and stress are common causes of a headache. Resting in a dark room often helps, whereas coffee may make the problem worse for some people. What does \"headache\" mean?",
+     "o": [
+      "đau đầu",
+      "Đau bụng",
+      "Đau lưng"
+     ],
+     "a": "đau đầu",
+     "vi": "Ánh sáng chói, tiếng ồn và căng thẳng là nguyên nhân thường gặp của đau đầu. Nghỉ trong phòng tối thường giúp, trong khi cà phê có thể làm vấn đề tệ hơn với vài người.",
+     "why": "headache = cơn đau đầu (danh từ đếm được): a terrible headache.",
+     "noblank": true,
+     "say": "Bright lights, noise and stress are common causes of a headache. Resting in a dark room often helps, whereas coffee may make the problem worse for some people.",
+     "new": [
+      {
+       "w": "stress",
+       "vi": "căng thẳng"
+      },
+      {
+       "w": "common",
+       "vi": "phổ biến"
+      }
+     ],
+     "tw": "headache"
+    },
+    {
+     "type": "mc",
+     "ctx": "Doctor's advice",
+     "s": "If a stomach ache lasts more than a day, or if it comes with a high fever, you should not wait. It might be a sign of an infection. What does \"stomach ache\" mean?",
+     "o": [
+      "đau bụng",
+      "Đau họng",
+      "Đau tai"
+     ],
+     "a": "đau bụng",
+     "vi": "Nếu đau bụng kéo dài hơn một ngày, hoặc kèm sốt cao, bạn đừng chờ. Có thể đó là dấu hiệu nhiễm trùng.",
+     "why": "stomach ache = đau bụng (cũng viết stomachache); have (a) stomach ache.",
+     "noblank": true,
+     "say": "If a stomach ache lasts more than a day, or if it comes with a high fever, you should not wait. It might be a sign of an infection.",
+     "new": [
+      {
+       "w": "sign",
+       "vi": "dấu hiệu"
+      },
+      {
+       "w": "infection",
+       "vi": "nhiễm trùng"
+      }
+     ],
+     "tw": "stomach ache"
+    },
+    {
+     "type": "mc",
+     "ctx": "Fitness magazine",
+     "s": "A weak core is a common reason for backache. Simple exercises such as swimming strengthen the muscles that support your spine without putting pressure on your joints. What does \"backache\" mean?",
+     "o": [
+      "đau lưng",
+      "Đau tai",
+      "Đau họng"
+     ],
+     "a": "đau lưng",
+     "vi": "Cơ lõi yếu là lý do phổ biến gây đau lưng. Những bài tập đơn giản như bơi lội làm mạnh cơ nâng đỡ cột sống mà không gây áp lực lên khớp.",
+     "why": "backache = đau lưng; suffer from backache. Người ngồi nhiều thường bị.",
+     "noblank": true,
+     "say": "A weak core is a common reason for backache. Simple exercises such as swimming strengthen the muscles that support your spine without putting pressure on your joints.",
+     "new": [
+      {
+       "w": "spine",
+       "vi": "cột sống"
+      },
+      {
+       "w": "muscles",
+       "vi": "cơ bắp"
+      }
+     ],
+     "tw": "backache",
+     "ipa": "/ˈbæk.eɪk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "News report",
+     "s": "Many villages in the region suffer from a shortage of clean water during the dry season, which forces families to walk several kilometres every day. What does \"suffer from\" mean?",
+     "o": [
+      "mắc/chịu đựng (bệnh, vấn đề)",
+      "Tận hưởng, thích thú",
+      "Tránh xa, bỏ chạy"
+     ],
+     "a": "mắc/chịu đựng (bệnh, vấn đề)",
+     "vi": "Nhiều làng trong vùng chịu tình trạng thiếu nước sạch vào mùa khô, buộc các gia đình đi bộ vài cây số mỗi ngày.",
+     "why": "suffer from + bệnh/vấn đề = chịu đựng, mắc phải (suffer from allergies).",
+     "noblank": true,
+     "say": "Many villages in the region suffer from a shortage of clean water during the dry season, which forces families to walk several kilometres every day.",
+     "new": [
+      {
+       "w": "shortage",
+       "vi": "sự thiếu hụt"
+      },
+      {
+       "w": "forces",
+       "vi": "buộc"
+      }
+     ],
+     "tw": "suffer from"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dialogue",
+     "s": "\"Where does it hurt?\" asked the doctor. \"I have a pain in my left shoulder, especially when I lift my arm above my head,\" the patient replied. What does \"have a pain in\" mean?",
+     "o": [
+      "bị đau ở (bộ phận cơ thể)",
+      "Tôi bị ngứa ở vai",
+      "Tôi bị lạnh ở vai"
+     ],
+     "a": "bị đau ở (bộ phận cơ thể)",
+     "vi": "\"Đau ở đâu?\" bác sĩ hỏi. \"Tôi bị đau ở vai trái, nhất là khi giơ tay lên quá đầu,\" bệnh nhân đáp.",
+     "why": "have a pain in + bộ phận cơ thể = bị đau ở đâu đó (a pain in my chest).",
+     "noblank": true,
+     "say": "\"Where does it hurt?\" asked the doctor. \"I have a pain in my left shoulder, especially when I lift my arm above my head,\" the patient replied.",
+     "new": [
+      {
+       "w": "especially",
+       "vi": "đặc biệt là"
+      },
+      {
+       "w": "lift",
+       "vi": "nâng"
+      }
+     ],
+     "tw": "have a pain in"
+    },
+    {
+     "type": "mc",
+     "ctx": "Playground",
+     "s": "Be careful with that swing, Kim. If you fall off, you could hurt your arm badly, and then you wouldn't be able to play for weeks. What does \"hurt\" mean?",
+     "o": [
+      "đau, làm đau",
+      "Làm đau, gây thương tích",
+      "Làm sạch, rửa"
+     ],
+     "a": "đau, làm đau",
+     "vi": "Cẩn thận với cái xích đu đó, Kim. Nếu bạn ngã, bạn có thể làm đau tay nặng, và rồi bạn sẽ không chơi được nhiều tuần.",
+     "why": "hurt = đau / làm đau (hurt - hurt - hurt); My head hurts. = Tôi đau đầu.",
+     "noblank": true,
+     "say": "Be careful with that swing, Kim. If you fall off, you could hurt your arm badly, and then you wouldn't be able to play for weeks.",
+     "new": [
+      {
+       "w": "swing",
+       "vi": "xích đu"
+      },
+      {
+       "w": "badly",
+       "vi": "nặng"
+      }
+     ],
+     "tw": "hurt"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The wound looked small, but it was extremely painful whenever she touched it. The doctor said it was infected, and prescribed antibiotics to clear it up. What does \"painful\" mean?",
+     "o": [
+      "đau đớn/gây đau",
+      "Rất ngứa",
+      "Rất sạch"
+     ],
+     "a": "đau đớn/gây đau",
+     "vi": "Vết thương trông nhỏ nhưng cực kỳ đau mỗi khi cô chạm vào. Bác sĩ nói nó bị nhiễm trùng và kê kháng sinh để chữa.",
+     "why": "painful = đau đớn, gây đau (tính từ của pain).",
+     "noblank": true,
+     "say": "The wound looked small, but it was extremely painful whenever she touched it. The doctor said it was infected, and prescribed antibiotics to clear it up.",
+     "new": [
+      {
+       "w": "infected",
+       "vi": "bị nhiễm trùng"
+      },
+      {
+       "w": "antibiotics",
+       "vi": "kháng sinh"
+      }
+     ],
+     "tw": "painful",
+     "ipa": "/ˈpeɪn.fəl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "News",
+     "s": "Doctors warn that a cough lasting for weeks could be a sign of a serious illness. Early tests can save lives, even though many patients hesitate to visit a clinic. What does \"serious illness\" mean?",
+     "o": [
+      "bệnh nghiêm trọng",
+      "Một bệnh nhẹ",
+      "Một thói quen xấu"
+     ],
+     "a": "bệnh nghiêm trọng",
+     "vi": "Bác sĩ cảnh báo rằng ho kéo dài nhiều tuần có thể là dấu hiệu của bệnh nghiêm trọng. Xét nghiệm sớm có thể cứu sống, dù nhiều bệnh nhân ngại đến phòng khám.",
+     "why": "serious illness = bệnh nặng, nghiêm trọng (a serious illness); illness là danh từ chỉ tình trạng bệnh.",
+     "noblank": true,
+     "say": "Doctors warn that a cough lasting for weeks could be a sign of a serious illness. Early tests can save lives, even though many patients hesitate to visit a clinic.",
+     "new": [
+      {
+       "w": "hesitate",
+       "vi": "ngần ngại"
+      },
+      {
+       "w": "save lives",
+       "vi": "cứu sống"
+      }
+     ],
+     "tw": "serious illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Radio interview",
+     "s": "He said that he had never been ill in his life until last spring, when he suddenly had to go into hospital for three weeks. What does \"go into hospital\" mean?",
+     "o": [
+      "nhập viện",
+      "Đi nghỉ dưỡng",
+      "Chuyển nhà"
+     ],
+     "a": "nhập viện",
+     "vi": "Ông nói rằng ông chưa từng ốm trong đời cho đến mùa xuân năm ngoái, khi ông đột ngột phải nhập viện ba tuần.",
+     "why": "go into hospital = nhập viện (Anh-Anh; Anh-Mỹ: go into the hospital).",
+     "noblank": true,
+     "say": "He said that he had never been ill in his life until last spring, when he suddenly had to go into hospital for three weeks.",
+     "new": [
+      {
+       "w": "suddenly",
+       "vi": "đột ngột"
+      },
+      {
+       "w": "spring",
+       "vi": "mùa xuân"
+      }
+     ],
+     "tw": "go into hospital"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The operation was a success, but the patient had to stay in bed for two weeks. During that time, nurses checked his wound every morning. What does \"operation\" mean?",
+     "o": [
+      "ca phẫu thuật",
+      "Buổi kiểm tra sức khỏe",
+      "Đơn thuốc"
+     ],
+     "a": "ca phẫu thuật",
+     "vi": "Ca phẫu thuật thành công, nhưng bệnh nhân phải nằm giường hai tuần. Trong thời gian đó, y tá kiểm tra vết mổ mỗi sáng.",
+     "why": "operation = ca phẫu thuật (have an operation on my knee). Còn nghĩa khác: hoạt động, vận hành.",
+     "noblank": true,
+     "say": "The operation was a success, but the patient had to stay in bed for two weeks. During that time, nurses checked his wound every morning.",
+     "new": [
+      {
+       "w": "wound",
+       "vi": "vết thương, vết mổ"
+      },
+      {
+       "w": "success",
+       "vi": "thành công"
+      }
+     ],
+     "tw": "operation",
+     "ipa": "/ˌɑː.pəˈreɪ.ʃən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Interview",
+     "s": "The surgeon, who has performed over two thousand operations, says that the most difficult part of his job is explaining bad news to worried families. What does \"surgeon\" mean?",
+     "o": [
+      "bác sĩ phẫu thuật",
+      "Y tá trưởng",
+      "Dược sĩ"
+     ],
+     "a": "bác sĩ phẫu thuật",
+     "vi": "Vị bác sĩ phẫu thuật, người đã thực hiện hơn hai nghìn ca mổ, nói phần khó nhất trong công việc là thông báo tin xấu cho các gia đình lo lắng.",
+     "why": "surgeon = bác sĩ phẫu thuật; người thực hiện operation / surgery.",
+     "noblank": true,
+     "say": "The surgeon, who has performed over two thousand operations, says that the most difficult part of his job is explaining bad news to worried families.",
+     "new": [
+      {
+       "w": "performed",
+       "vi": "thực hiện"
+      },
+      {
+       "w": "worried",
+       "vi": "lo lắng"
+      }
+     ],
+     "tw": "surgeon",
+     "ipa": "/ˈsɝː.dʒən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "After years of back pain, Tom finally decided to have surgery. The doctor warned him that recovery would be slow, but the results would probably last for life. What does \"surgery\" mean?",
+     "o": [
+      "phẫu thuật",
+      "Một kỳ nghỉ dài",
+      "Một bài tập thể dục"
+     ],
+     "a": "phẫu thuật",
+     "vi": "Sau nhiều năm đau lưng, Tom cuối cùng quyết định phẫu thuật. Bác sĩ cảnh báo hồi phục sẽ chậm, nhưng kết quả có thể kéo dài suốt đời.",
+     "why": "surgery = việc phẫu thuật (không đếm được): have surgery on my knee. Lưu ý: sheet ghi Verb nhưng thực chất là danh từ.",
+     "noblank": true,
+     "say": "After years of back pain, Tom finally decided to have surgery. The doctor warned him that recovery would be slow, but the results would probably last for life.",
+     "new": [
+      {
+       "w": "warned",
+       "vi": "cảnh báo"
+      },
+      {
+       "w": "recovery",
+       "vi": "sự hồi phục"
+      }
+     ],
+     "tw": "surgery",
+     "ipa": "/ˈsɝː.dʒər.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Researchers found that long-term exposure to polluted air increases the risk of lung cancer, even among people who have never smoked in their lives. What does \"lung cancer\" mean?",
+     "o": [
+      "ung thư phổi",
+      "Viêm da",
+      "Bệnh tim"
+     ],
+     "a": "ung thư phổi",
+     "vi": "Các nhà nghiên cứu phát hiện rằng tiếp xúc lâu dài với không khí ô nhiễm làm tăng nguy cơ ung thư phổi, ngay cả ở người chưa từng hút thuốc.",
+     "why": "lung cancer = ung thư phổi; hút thuốc là nguyên nhân chính.",
+     "noblank": true,
+     "say": "Researchers found that long-term exposure to polluted air increases the risk of lung cancer, even among people who have never smoked in their lives.",
+     "new": [
+      {
+       "w": "exposure",
+       "vi": "sự tiếp xúc"
+      },
+      {
+       "w": "risk",
+       "vi": "nguy cơ"
+      }
+     ],
+     "tw": "lung cancer",
+     "ipa": "/ˈkæn.sɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Stress, smoking and an unhealthy diet can all raise the risk of a heart attack. Fortunately, regular exercise and sleep can lower that risk considerably. What does \"heart attack\" mean?",
+     "o": [
+      "cơn đau tim, nhồi máu cơ tim",
+      "Cơn đau răng",
+      "Cơn đau đầu"
+     ],
+     "a": "cơn đau tim, nhồi máu cơ tim",
+     "vi": "Căng thẳng, hút thuốc và chế độ ăn không lành mạnh đều có thể làm tăng nguy cơ đau tim. May thay, tập thể dục đều và ngủ đủ giúp giảm đáng kể nguy cơ đó.",
+     "why": "heart attack = cơn đau tim; have a heart attack. Khác với attack = tấn công.",
+     "noblank": true,
+     "say": "Stress, smoking and an unhealthy diet can all raise the risk of a heart attack. Fortunately, regular exercise and sleep can lower that risk considerably.",
+     "new": [
+      {
+       "w": "raise",
+       "vi": "làm tăng"
+      },
+      {
+       "w": "considerably",
+       "vi": "đáng kể"
+      }
+     ],
+     "tw": "heart attack",
+     "ipa": "/əˈtæk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Heart disease is one of the leading causes of death worldwide. Doctors say that many cases could be prevented if people ate better and exercised more. What does \"disease\" mean?",
+     "o": [
+      "bệnh, bệnh lý",
+      "Thuốc men",
+      "Bác sĩ"
+     ],
+     "a": "bệnh, bệnh lý",
+     "vi": "Bệnh tim là một trong những nguyên nhân tử vong hàng đầu thế giới. Bác sĩ nói nhiều ca có thể phòng tránh nếu mọi người ăn uống tốt hơn và tập luyện nhiều hơn.",
+     "why": "disease = bệnh (thường có tên gọi, do vi khuẩn/virus hoặc rối loạn): heart disease, infectious disease.",
+     "noblank": true,
+     "say": "Heart disease is one of the leading causes of death worldwide. Doctors say that many cases could be prevented if people ate better and exercised more.",
+     "new": [
+      {
+       "w": "leading",
+       "vi": "hàng đầu"
+      },
+      {
+       "w": "prevented",
+       "vi": "được ngăn ngừa"
+      }
+     ],
+     "tw": "disease",
+     "ipa": "/dɪˈziːz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Stress can make an illness worse. When people are worried, their bodies produce chemicals that slow down recovery, so rest and calm are important. What does \"illness\" mean?",
+     "o": [
+      "tình trạng bệnh, bệnh tật",
+      "Kỳ nghỉ",
+      "Bác sĩ"
+     ],
+     "a": "tình trạng bệnh, bệnh tật",
+     "vi": "Căng thẳng có thể làm bệnh nặng hơn. Khi lo lắng, cơ thể tiết ra các chất làm chậm hồi phục, nên nghỉ ngơi và bình tĩnh rất quan trọng.",
+     "why": "illness = tình trạng ốm đau, bệnh tật (a long illness); disease thường là bệnh cụ thể.",
+     "noblank": true,
+     "say": "Stress can make an illness worse. When people are worried, their bodies produce chemicals that slow down recovery, so rest and calm are important.",
+     "new": [
+      {
+       "w": "chemicals",
+       "vi": "hóa chất"
+      },
+      {
+       "w": "slow down",
+       "vi": "làm chậm"
+      }
+     ],
+     "tw": "illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Air pollution can damage the lungs, especially in children, whose bodies are still developing. As a result, many parents keep their kids indoors when the air is bad. What does \"lungs\" mean?",
+     "o": [
+      "phổi",
+      "Gan",
+      "Thận"
+     ],
+     "a": "phổi",
+     "vi": "Ô nhiễm không khí có thể gây hại cho phổi, đặc biệt ở trẻ em, vì cơ thể các em còn đang phát triển. Vì vậy, nhiều bố mẹ giữ con ở trong nhà khi không khí xấu.",
+     "why": "lungs = phổi (thường ở dạng số nhiều); one lung / both lungs.",
+     "noblank": true,
+     "say": "Air pollution can damage the lungs, especially in children, whose bodies are still developing. As a result, many parents keep their kids indoors when the air is bad.",
+     "new": [
+      {
+       "w": "developing",
+       "vi": "đang phát triển"
+      },
+      {
+       "w": "indoors",
+       "vi": "trong nhà"
+      }
+     ],
+     "tw": "lungs",
+     "ipa": "/lʌŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The clinic treats about two hundred patients a day. Most of them suffer from minor problems, though a few need to be sent to a larger hospital. What does \"treat\" mean?",
+     "o": [
+      "điều trị",
+      "Chuyển viện",
+      "Tiếp đón, chào hỏi"
+     ],
+     "a": "điều trị",
+     "vi": "Phòng khám điều trị khoảng hai trăm bệnh nhân mỗi ngày. Hầu hết bị các vấn đề nhỏ, dù một vài người cần chuyển đến bệnh viện lớn hơn.",
+     "why": "treat = điều trị (treat a patient / an illness); còn nghĩa: đối xử, đãi.",
+     "noblank": true,
+     "say": "The clinic treats about two hundred patients a day. Most of them suffer from minor problems, though a few need to be sent to a larger hospital.",
+     "new": [
+      {
+       "w": "minor",
+       "vi": "nhẹ, nhỏ"
+      },
+      {
+       "w": "sent",
+       "vi": "được chuyển"
+      }
+     ],
+     "tw": "treat",
+     "ipa": "/triːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The cost of cancer treatment can be very high. Although the state pays part of it, many families still have to borrow money from relatives. What does \"treatment\" mean?",
+     "o": [
+      "phương pháp điều trị",
+      "Sự phòng ngừa",
+      "Sự chẩn đoán"
+     ],
+     "a": "phương pháp điều trị",
+     "vi": "Chi phí điều trị ung thư có thể rất cao. Dù nhà nước trả một phần, nhiều gia đình vẫn phải vay tiền họ hàng.",
+     "why": "treatment = sự/phương pháp điều trị (receive treatment for an illness).",
+     "noblank": true,
+     "say": "The cost of cancer treatment can be very high. Although the state pays part of it, many families still have to borrow money from relatives.",
+     "new": [
+      {
+       "w": "borrow",
+       "vi": "vay"
+      },
+      {
+       "w": "relatives",
+       "vi": "họ hàng"
+      }
+     ],
+     "tw": "treatment",
+     "ipa": "/ˈtriːt.mənt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Hepatitis is a disease that affects the liver. Some forms can be prevented by vaccination, whereas others need long-term medical treatment. What does \"liver\" mean?",
+     "o": [
+      "gan",
+      "Thận",
+      "Dạ dày"
+     ],
+     "a": "gan",
+     "vi": "Viêm gan là bệnh ảnh hưởng đến gan. Một số dạng có thể phòng bằng tiêm chủng, trong khi dạng khác cần điều trị y tế lâu dài.",
+     "why": "liver = gan; cơ quan lọc độc tố trong cơ thể.",
+     "noblank": true,
+     "say": "Hepatitis is a disease that affects the liver. Some forms can be prevented by vaccination, whereas others need long-term medical treatment.",
+     "new": [
+      {
+       "w": "hepatitis",
+       "vi": "viêm gan"
+      },
+      {
+       "w": "vaccination",
+       "vi": "tiêm chủng"
+      }
+     ],
+     "tw": "liver",
+     "ipa": "/ˈlɪv.ɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The tailor explained that the collar of a formal shirt should sit comfortably around the neck. If it is too loose, the shirt looks untidy, whereas a tight one feels uncomfortable. What does \"collar\" mean?",
+     "o": [
+      "cổ áo",
+      "Tay áo",
+      "Túi áo"
+     ],
+     "a": "cổ áo",
+     "vi": "Thợ may giải thích cổ áo sơ mi lịch sự nên ôm thoải mái quanh cổ. Nếu quá rộng thì áo trông luộm thuộm, còn quá chật thì khó chịu.",
+     "why": "collar = cổ áo (shirt collar); cũng là vòng cổ của thú cưng.",
+     "noblank": true,
+     "say": "The tailor explained that the collar of a formal shirt should sit comfortably around the neck. If it is too loose, the shirt looks untidy, whereas a tight one feels uncomfortable.",
+     "new": [
+      {
+       "w": "tailor",
+       "vi": "thợ may"
+      },
+      {
+       "w": "loose",
+       "vi": "rộng"
+      }
+     ],
+     "tw": "collar",
+     "ipa": "/ˈkɑː.lɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The market is lively from dawn until midnight. Sellers shout prices, children run between the stalls, and the smell of grilled meat fills the air. What does \"lively\" mean?",
+     "o": [
+      "sôi động, náo nhiệt",
+      "Yên tĩnh",
+      "Buồn tẻ"
+     ],
+     "a": "sôi động, náo nhiệt",
+     "vi": "Chợ náo nhiệt từ tảng sáng đến nửa đêm. Người bán rao giá, trẻ con chạy giữa các sạp, và mùi thịt nướng lan khắp không khí.",
+     "why": "lively = sôi động, náo nhiệt, đầy sức sống (a lively street / atmosphere).",
+     "noblank": true,
+     "say": "The market is lively from dawn until midnight. Sellers shout prices, children run between the stalls, and the smell of grilled meat fills the air.",
+     "new": [
+      {
+       "w": "stalls",
+       "vi": "quầy hàng"
+      },
+      {
+       "w": "dawn",
+       "vi": "bình minh"
+      }
+     ],
+     "tw": "lively",
+     "ipa": "/ˈlaɪvli/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Life in a small village can be dull for teenagers. There is no cinema, few shops, and very little to do except help on the family farm. What does \"dull\" mean?",
+     "o": [
+      "buồn tẻ",
+      "Sôi động, vui nhộn",
+      "Nguy hiểm, đáng sợ"
+     ],
+     "a": "buồn tẻ",
+     "vi": "Cuộc sống ở làng nhỏ có thể buồn tẻ với thanh thiếu niên. Không có rạp phim, ít cửa hàng, và hầu như chẳng có gì làm ngoài giúp việc nông trại gia đình.",
+     "why": "dull = buồn tẻ, nhàm chán (a dull job); còn nghĩa: xỉn màu, âm ỉ (a dull ache).",
+     "noblank": true,
+     "say": "Life in a small village can be dull for teenagers. There is no cinema, few shops, and very little to do except help on the family farm.",
+     "new": [
+      {
+       "w": "except",
+       "vi": "ngoài ra"
+      },
+      {
+       "w": "farm",
+       "vi": "nông trại"
+      }
+     ],
+     "tw": "dull",
+     "ipa": "/dʌl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The tea company offers more than thirty different flavours, including lemon, jasmine and ginger. As a result, customers can easily find one that suits their taste. What does \"different flavours\" mean?",
+     "o": [
+      "nhiều hương vị khác nhau",
+      "Nhiều kích cỡ khác nhau",
+      "Nhiều màu sắc khác nhau"
+     ],
+     "a": "nhiều hương vị khác nhau",
+     "vi": "Công ty trà cung cấp hơn ba mươi hương vị khác nhau, gồm chanh, hoa nhài và gừng. Nhờ vậy khách dễ chọn được loại hợp khẩu vị.",
+     "why": "different flavours = nhiều hương vị khác nhau (Anh-Mỹ: flavors).",
+     "noblank": true,
+     "say": "The tea company offers more than thirty different flavours, including lemon, jasmine and ginger. As a result, customers can easily find one that suits their taste.",
+     "new": [
+      {
+       "w": "jasmine",
+       "vi": "hoa nhài"
+      },
+      {
+       "w": "suits",
+       "vi": "hợp với"
+      }
+     ],
+     "tw": "different flavours",
+     "ipa": "/ˈdɪfrənt ˈfleɪvəz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The town stands on the banks of the river, which floods almost every autumn. Residents have learnt to keep their valuable things on the upper floor. What does \"on the banks of the river\" mean?",
+     "o": [
+      "bên bờ sông",
+      "Trên đỉnh núi",
+      "Giữa biển khơi"
+     ],
+     "a": "bên bờ sông",
+     "vi": "Thị trấn nằm bên bờ sông, nơi gần như mùa thu nào cũng ngập lụt. Cư dân đã học cách để đồ có giá trị ở tầng trên.",
+     "why": "on the banks of the river = trên/bên bờ sông; bank còn có nghĩa ngân hàng.",
+     "noblank": true,
+     "say": "The town stands on the banks of the river, which floods almost every autumn. Residents have learnt to keep their valuable things on the upper floor.",
+     "new": [
+      {
+       "w": "floods",
+       "vi": "ngập lụt"
+      },
+      {
+       "w": "residents",
+       "vi": "cư dân"
+      }
+     ],
+     "tw": "on the banks of the river",
+     "ipa": "/ɒn ðə bæŋks əv ðə ˈrɪv.ər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Children in the village used to play in the woods all summer. They climbed trees, built small camps and came home only when it got dark. What does \"woods\" mean?",
+     "o": [
+      "khu rừng nhỏ, khu cây cối",
+      "Hồ nước",
+      "Cánh đồng lúa"
+     ],
+     "a": "khu rừng nhỏ, khu cây cối",
+     "vi": "Trẻ con trong làng từng chơi trong khu rừng nhỏ suốt mùa hè. Chúng leo cây, dựng những cái trại nhỏ và chỉ về nhà khi trời tối.",
+     "why": "the woods = khu rừng nhỏ (nhỏ hơn forest); walk in the woods.",
+     "noblank": true,
+     "say": "Children in the village used to play in the woods all summer. They climbed trees, built small camps and came home only when it got dark.",
+     "new": [
+      {
+       "w": "camps",
+       "vi": "trại nhỏ"
+      },
+      {
+       "w": "climbed",
+       "vi": "trèo"
+      }
+     ],
+     "tw": "woods",
+     "ipa": "/wʊdz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Blackberries grow wild in many parts of Britain. Because they ripen in late summer, families often go out together to pick them before the weather turns cold. What does \"blackberries\" mean?",
+     "o": [
+      "quả mâm xôi đen",
+      "Quả táo xanh",
+      "Quả chuối chín"
+     ],
+     "a": "quả mâm xôi đen",
+     "vi": "Mâm xôi đen mọc dại ở nhiều nơi tại Anh. Vì chín vào cuối hè, các gia đình thường cùng ra hái trước khi trời trở lạnh.",
+     "why": "blackberry = quả mâm xôi đen (số nhiều: blackberries); mọc dại ven đường, rừng.",
+     "noblank": true,
+     "say": "Blackberries grow wild in many parts of Britain. Because they ripen in late summer, families often go out together to pick them before the weather turns cold.",
+     "new": [
+      {
+       "w": "ripen",
+       "vi": "chín"
+      },
+      {
+       "w": "turns cold",
+       "vi": "trở lạnh"
+      }
+     ],
+     "tw": "blackberries",
+     "ipa": "/ˈblæk.bər.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Climate change is affecting the seasons in many countries. Winters are becoming shorter and warmer, and some flowers now bloom weeks earlier than before. What does \"the seasons\" mean?",
+     "o": [
+      "các mùa trong năm",
+      "Các ngày trong tuần",
+      "Các thế hệ"
+     ],
+     "a": "các mùa trong năm",
+     "vi": "Biến đổi khí hậu đang ảnh hưởng đến các mùa ở nhiều nước. Mùa đông ngắn và ấm hơn, và một số loài hoa nở sớm hơn vài tuần so với trước.",
+     "why": "the seasons = các mùa trong năm (spring, summer, autumn, winter).",
+     "noblank": true,
+     "say": "Climate change is affecting the seasons in many countries. Winters are becoming shorter and warmer, and some flowers now bloom weeks earlier than before.",
+     "new": [
+      {
+       "w": "bloom",
+       "vi": "nở hoa"
+      },
+      {
+       "w": "climate change",
+       "vi": "biến đổi khí hậu"
+      }
+     ],
+     "tw": "the seasons",
+     "ipa": "/ðə ˈsiː.zənz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Crowded cities have few open spaces, which can affect people's mental health. Parks and gardens give residents a place to relax and breathe fresh air. What does \"open spaces\" mean?",
+     "o": [
+      "không gian rộng, thoáng đãng",
+      "Khu mua sắm",
+      "Hầm để xe"
+     ],
+     "a": "không gian rộng, thoáng đãng",
+     "vi": "Thành phố đông đúc có ít không gian thoáng, điều có thể ảnh hưởng sức khỏe tinh thần. Công viên và vườn cho cư dân chỗ thư giãn và hít thở không khí trong lành.",
+     "why": "open spaces = những khu đất rộng, thoáng (công viên, đồng cỏ), trái với khu dân cư đông đúc.",
+     "noblank": true,
+     "say": "Crowded cities have few open spaces, which can affect people's mental health. Parks and gardens give residents a place to relax and breathe fresh air.",
+     "new": [
+      {
+       "w": "mental",
+       "vi": "tinh thần"
+      },
+      {
+       "w": "residents",
+       "vi": "cư dân"
+      }
+     ],
+     "tw": "open spaces",
+     "ipa": "/ˌəʊ.pən ˈspeɪ.sɪz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The farmer uses a tractor to work in the fields. Thanks to the machine, he can finish in two days a job that once took a whole week. What does \"tractor\" mean?",
+     "o": [
+      "máy kéo",
+      "Xe đạp",
+      "Xe tải chở hàng"
+     ],
+     "a": "máy kéo",
+     "vi": "Người nông dân dùng máy kéo để làm việc ngoài đồng. Nhờ chiếc máy, ông làm xong trong hai ngày công việc từng mất cả tuần.",
+     "why": "tractor = máy kéo, xe dùng trong nông nghiệp (kéo máy cày, xe rơ-moóc).",
+     "noblank": true,
+     "say": "The farmer uses a tractor to work in the fields. Thanks to the machine, he can finish in two days a job that once took a whole week.",
+     "new": [
+      {
+       "w": "machine",
+       "vi": "máy móc"
+      },
+      {
+       "w": "fields",
+       "vi": "cánh đồng"
+      }
+     ],
+     "tw": "tractor",
+     "ipa": "/ˈtræk.tər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Linh was running late, so she waited at the stop and managed to get on the last bus just before the doors closed. She arrived home at midnight. What does \"get on\" mean?",
+     "o": [
+      "lên (xe buýt, xe khách, tàu, máy bay)",
+      "Xuống xe",
+      "Sửa xe"
+     ],
+     "a": "lên (xe buýt, xe khách, tàu, máy bay)",
+     "vi": "Linh bị trễ nên chờ ở trạm và kịp lên chuyến xe buýt cuối cùng ngay trước khi cửa đóng. Cô về đến nhà lúc nửa đêm.",
+     "why": "get on + bus/coach/train/plane = lên phương tiện lớn có nhiều chỗ ngồi (trái nghĩa: get off). Dạng suy ra từ 'get on bus/coach/train/plane'.",
+     "noblank": true,
+     "say": "Linh was running late, so she waited at the stop and managed to get on the last bus just before the doors closed. She arrived home at midnight.",
+     "new": [
+      {
+       "w": "managed to",
+       "vi": "xoay xở được"
+      },
+      {
+       "w": "doors",
+       "vi": "cửa"
+      }
+     ],
+     "tw": "get on"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The conductor told the passengers that the museum was only five minutes away, so they should get off at the next stop and walk along the river. What does \"get off\" mean?",
+     "o": [
+      "xuống (xe buýt, xe khách, tàu, máy bay)",
+      "Lên xe",
+      "Đỗ xe"
+     ],
+     "a": "xuống (xe buýt, xe khách, tàu, máy bay)",
+     "vi": "Người soát vé bảo hành khách bảo tàng chỉ cách năm phút, nên họ nên xuống ở trạm kế tiếp và đi bộ dọc sông.",
+     "why": "get off + bus/coach/train/plane = xuống phương tiện lớn (trái nghĩa: get on).",
+     "noblank": true,
+     "say": "The conductor told the passengers that the museum was only five minutes away, so they should get off at the next stop and walk along the river.",
+     "new": [
+      {
+       "w": "conductor",
+       "vi": "người soát vé"
+      },
+      {
+       "w": "stop",
+       "vi": "trạm dừng"
+      }
+     ],
+     "tw": "get off"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The tourists got into a taxi outside the station and asked the driver to take them to the old quarter. The journey took about fifteen minutes. What does \"get into\" mean?",
+     "o": [
+      "lên (ô tô, taxi)",
+      "Xuống taxi",
+      "Gọi taxi"
+     ],
+     "a": "lên (ô tô, taxi)",
+     "vi": "Du khách lên một chiếc taxi ngoài nhà ga và nhờ tài xế đưa đến khu phố cổ. Chuyến đi mất khoảng mười lăm phút.",
+     "why": "get into + car/taxi = lên ô tô, taxi (xe nhỏ, ngồi vào trong); trái nghĩa: get out of.",
+     "noblank": true,
+     "say": "The tourists got into a taxi outside the station and asked the driver to take them to the old quarter. The journey took about fifteen minutes.",
+     "new": [
+      {
+       "w": "journey",
+       "vi": "chuyến đi"
+      },
+      {
+       "w": "driver",
+       "vi": "tài xế"
+      }
+     ],
+     "tw": "get into"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The police asked the driver to get out of the car and show his documents. He seemed calm, although his hands were shaking slightly. What does \"get out of\" mean?",
+     "o": [
+      "xuống (ô tô, taxi)",
+      "Lên xe ô tô",
+      "Sửa xe ô tô"
+     ],
+     "a": "xuống (ô tô, taxi)",
+     "vi": "Cảnh sát yêu cầu tài xế xuống xe và xuất trình giấy tờ. Anh ta có vẻ bình tĩnh, dù tay hơi run.",
+     "why": "get out of + car/taxi = xuống ô tô, taxi; trái nghĩa: get into.",
+     "noblank": true,
+     "say": "The police asked the driver to get out of the car and show his documents. He seemed calm, although his hands were shaking slightly.",
+     "new": [
+      {
+       "w": "documents",
+       "vi": "giấy tờ"
+      },
+      {
+       "w": "shaking",
+       "vi": "run"
+      }
+     ],
+     "tw": "get out of"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "In Britain, a truck is usually called a lorry. Because online shopping has grown so quickly, thousands of lorries now deliver goods across the country every day. What does \"lorry\" mean?",
+     "o": [
+      "xe tải",
+      "Xe đạp",
+      "Xe buýt"
+     ],
+     "a": "xe tải",
+     "vi": "Ở Anh, truck thường được gọi là lorry. Vì mua sắm trực tuyến phát triển nhanh, hàng nghìn xe tải giờ giao hàng khắp cả nước mỗi ngày.",
+     "why": "lorry = xe tải (Anh-Anh); Anh-Mỹ nói truck.",
+     "noblank": true,
+     "say": "In Britain, a truck is usually called a lorry. Because online shopping has grown so quickly, thousands of lorries now deliver goods across the country every day.",
+     "new": [
+      {
+       "w": "deliver",
+       "vi": "giao"
+      },
+      {
+       "w": "goods",
+       "vi": "hàng hóa"
+      }
+     ],
+     "tw": "lorry"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The station has six platforms, and during rush hour they are packed with commuters. As a result, announcements are repeated several times in different languages. What does \"platform\" mean?",
+     "o": [
+      "sân ga, bục",
+      "Phòng chờ",
+      "Quầy bán vé"
+     ],
+     "a": "sân ga, bục",
+     "vi": "Nhà ga có sáu sân ga, và giờ cao điểm chúng chật kín người đi làm. Vì vậy các thông báo được lặp lại nhiều lần bằng nhiều ngôn ngữ.",
+     "why": "platform = sân ga (nơi chờ tàu); còn nghĩa: bục, nền tảng.",
+     "noblank": true,
+     "say": "The station has six platforms, and during rush hour they are packed with commuters. As a result, announcements are repeated several times in different languages.",
+     "new": [
+      {
+       "w": "rush hour",
+       "vi": "giờ cao điểm"
+      },
+      {
+       "w": "packed",
+       "vi": "chật kín"
+      }
+     ],
+     "tw": "platform"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The coach fare from Hanoi to Hai Phong is surprisingly cheap. Although the journey takes longer than the train, many students choose it to save money. What does \"bus fare\" mean?",
+     "o": [
+      "giá vé xe buýt / xe khách",
+      "Giờ xe khởi hành",
+      "Bến xe"
+     ],
+     "a": "giá vé xe buýt / xe khách",
+     "vi": "Giá vé xe khách từ Hà Nội đến Hải Phòng rẻ đến bất ngờ. Dù đi lâu hơn tàu, nhiều sinh viên chọn nó để tiết kiệm.",
+     "why": "bus/coach fare = giá vé xe buýt / xe khách; fare chỉ tiền trả để đi lại bằng phương tiện (khác ticket là tấm vé). Dạng suy ra từ 'Bus/ coach fare'.",
+     "noblank": true,
+     "say": "The coach fare from Hanoi to Hai Phong is surprisingly cheap. Although the journey takes longer than the train, many students choose it to save money.",
+     "new": [
+      {
+       "w": "surprisingly",
+       "vi": "đáng ngạc nhiên"
+      },
+      {
+       "w": "save",
+       "vi": "tiết kiệm"
+      }
+     ],
+     "tw": "bus fare"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Airfare to Europe has dropped recently because several budget airlines started new routes. However, passengers must pay extra for baggage and meals. What does \"airfare\" mean?",
+     "o": [
+      "giá vé máy bay",
+      "Giờ bay",
+      "Hành lý ký gửi"
+     ],
+     "a": "giá vé máy bay",
+     "vi": "Giá vé máy bay đi châu Âu gần đây giảm vì vài hãng hàng không giá rẻ mở đường bay mới. Tuy nhiên hành khách phải trả thêm tiền hành lý và bữa ăn.",
+     "why": "airfare = giá vé máy bay (= the price of a plane ticket). Dạng suy ra từ 'Airfare'.",
+     "noblank": true,
+     "say": "Airfare to Europe has dropped recently because several budget airlines started new routes. However, passengers must pay extra for baggage and meals.",
+     "new": [
+      {
+       "w": "budget airlines",
+       "vi": "hãng bay giá rẻ"
+      },
+      {
+       "w": "routes",
+       "vi": "đường bay"
+      }
+     ],
+     "tw": "airfare"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Nói vận dụng",
+   "note": "Bấm Ghi âm, trả lời bằng tiếng Anh 30–60 giây và cố dùng các từ gợi ý; trang sẽ chấm ước tính theo Fluency, Lexical Resource, Grammar, Pronunciation.",
+   "qs": [
+    {
+     "type": "sp",
+     "ctx": "Illness",
+     "s": "Tell me about the last time you were ill. What was wrong with you, and what did you do to get better?",
+     "vi": "Hãy kể về lần gần nhất bạn bị ốm. Bạn bị sao và đã làm gì để khỏe lại?",
+     "words": [
+      "What's the matter?",
+      "have a sore throat",
+      "have a temperature",
+      "flu",
+      "feel sick",
+      "see a doctor",
+      "go to the chemist",
+      "have a cough",
+      "cough medicine"
+     ],
+     "why": "Kể theo trình tự: triệu chứng, người hỏi thăm, bạn đi đâu, kết quả; dùng although/so để nối ý.",
+     "sample": "Last winter I caught the flu from a colleague. At first I had a sore throat and a cough, and by the evening I also had a temperature, so I felt sick and could not eat anything. My mother asked, \"What's the matter?\" and told me to see a doctor. Instead, I went to the chemist and bought some cough medicine, because I thought the problem was not serious. Although I stayed in bed for three days, I recovered quickly, and next time I will see a doctor earlier."
+    },
+    {
+     "type": "sp",
+     "ctx": "Accidents",
+     "s": "Have you ever hurt yourself badly? Describe what happened and how the injury was dealt with.",
+     "vi": "Bạn đã bao giờ tự làm mình bị thương nặng chưa? Hãy mô tả chuyện gì xảy ra và vết thương được xử lý thế nào.",
+     "words": [
+      "cut yourself",
+      "bleed",
+      "put a bandage around",
+      "ache",
+      "hurt",
+      "painful",
+      "have a pain in"
+     ],
+     "why": "Nêu bối cảnh, chuyện xảy ra, cảm giác đau, cách sơ cứu và kết quả; dùng while/when để kể.",
+     "sample": "When I was fifteen, I cut myself while I was slicing vegetables for dinner. The knife slipped and my finger began to bleed heavily, which really frightened me. My father quickly washed the wound and put a bandage around it. It was painful for a few days, and my whole hand ached whenever I held a spoon. I also had a pain in my wrist because I had pressed so hard. Since then, I always cut food slowly, and I never hurt myself in the kitchen again."
+    },
+    {
+     "type": "sp",
+     "ctx": "Health problems",
+     "s": "Which health problem is the most common among people you know, and what do they usually do about it?",
+     "vi": "Vấn đề sức khỏe nào phổ biến nhất ở những người bạn biết, và họ thường làm gì với nó?",
+     "words": [
+      "have a headache",
+      "headache",
+      "stomach ache",
+      "backache",
+      "suffer from",
+      "take some tablets",
+      "pill",
+      "give someone some medicine",
+      "treat"
+     ],
+     "why": "Chọn một vấn đề, nêu nguyên nhân, cách tự chữa và khi nào cần đến bác sĩ; dùng which means để giải thích.",
+     "sample": "In my experience, most people around me often have a headache or suffer from backache, especially those who work long hours at a computer. When the pain is mild, they usually take some tablets or a single pill from the cupboard. Parents often give their children some medicine at home, although a doctor should treat serious cases. Some of my friends also get a stomach ache after eating spicy street food, which means they have to rest for a day. Personally, I think drinking more water and moving regularly would prevent many of these problems."
+    },
+    {
+     "type": "sp",
+     "ctx": "Hospital",
+     "s": "Do you think people should go to hospital for every health problem? Explain your opinion.",
+     "vi": "Bạn có nghĩ mọi vấn đề sức khỏe đều nên đến bệnh viện không? Hãy giải thích quan điểm.",
+     "words": [
+      "serious illness",
+      "go into hospital",
+      "operation",
+      "surgeon",
+      "surgery",
+      "treatment",
+      "illness",
+      "treat"
+     ],
+     "why": "Phân biệt bệnh nhẹ và bệnh nặng, đưa một ví dụ thực tế, kết luận bằng ý kiến cá nhân.",
+     "sample": "I don't think so. For a minor illness, such as a cold, resting at home is usually enough, and hospitals are already crowded. However, if someone has a serious illness, they should go into hospital immediately, because proper treatment can save their life. For example, my uncle needed an operation on his heart last year. The surgeon explained that the surgery would take five hours, and thankfully it was successful. Doctors can treat many conditions today, but patients must come early, so I believe people should learn to recognise warning signs."
+    },
+    {
+     "type": "sp",
+     "ctx": "Smoking and health",
+     "s": "Why do some people continue to smoke or drink too much alcohol, even though they know the dangers?",
+     "vi": "Tại sao một số người vẫn tiếp tục hút thuốc hoặc uống quá nhiều rượu dù biết nguy hiểm?",
+     "words": [
+      "lung cancer",
+      "heart attack",
+      "disease",
+      "lungs",
+      "liver",
+      "illness"
+     ],
+     "why": "Đưa ra 2-3 lý do (thói quen, căng thẳng, áp lực bạn bè), nêu hậu quả và giải pháp; dùng despite/although.",
+     "sample": "There are several reasons. Firstly, smoking and heavy drinking become a habit, and it is very hard to quit. Secondly, many people use them to relax when they feel stressed. Despite the warnings, they believe that serious illness only happens to other people. In reality, smoking damages the lungs and can cause lung cancer, while too much alcohol harms the liver. Both can also lead to heart disease or even a heart attack. I think stricter laws and better education at school would help to reduce this problem."
+    },
+    {
+     "type": "sp",
+     "ctx": "Food",
+     "s": "Describe a healthy meal that you enjoy cooking. What do you use, and why do you like it?",
+     "vi": "Hãy mô tả một bữa ăn lành mạnh bạn thích nấu. Bạn dùng gì và vì sao bạn thích?",
+     "words": [
+      "quinoa",
+      "refrigerator",
+      "different flavours",
+      "blackberries"
+     ],
+     "why": "Nêu món ăn, nguyên liệu, cách làm ngắn gọn, lý do thích; dùng which/because để thêm thông tin.",
+     "sample": "My favourite healthy meal is a quinoa salad, which I make at least twice a week. I take the vegetables out of the refrigerator, chop them up and mix them with the cooked quinoa. Then I add a handful of blackberries, because they give a sweet taste and a lovely colour. I like experimenting with different flavours, such as lemon, mint or a little chilli. The dish is quick to prepare, rich in protein and, as a result, it keeps me full during long afternoons at work."
+    },
+    {
+     "type": "sp",
+     "ctx": "Special occasion",
+     "s": "Describe a time when you dressed up for an important event. What did you wear, and what was the atmosphere like?",
+     "vi": "Hãy mô tả một lần bạn ăn mặc chỉnh tề cho sự kiện quan trọng. Bạn mặc gì và không khí ra sao?",
+     "words": [
+      "collar",
+      "lively",
+      "dull",
+      "engage in"
+     ],
+     "why": "Mô tả trang phục, nơi diễn ra, không khí, hoạt động; dùng whereas/compared with để so sánh.",
+     "sample": "Last year I went to my cousin's wedding, and I wore a white shirt with a stiff collar and a dark suit. The hall was lively, with music, dancing and plenty of laughter, whereas my usual weekends are rather dull. Many guests engaged in traditional games, and even the elderly relatives joined in. Although my shirt was a little uncomfortable, I felt proud to be there. It was one of the happiest evenings of my year, and I hope to attend another celebration soon."
+    },
+    {
+     "type": "sp",
+     "ctx": "Countryside",
+     "s": "Describe a place in the countryside that you remember well. What did people do there?",
+     "vi": "Hãy mô tả một nơi ở vùng quê mà bạn nhớ rõ. Mọi người làm gì ở đó?",
+     "words": [
+      "on the banks of the river",
+      "woods",
+      "the seasons",
+      "open spaces",
+      "tractor",
+      "blackberries"
+     ],
+     "why": "Mô tả vị trí, cảnh vật, các mùa, hoạt động; dùng where/which cho mệnh đề quan hệ.",
+     "sample": "My grandparents live in a small village on the banks of the river, where I spent every summer as a child. Behind the house there were woods, and we picked blackberries there with my cousins. The village has plenty of open spaces, which means children can run freely all day. My grandfather often drove his old tractor to the fields, and he taught me how the seasons affect farming. I miss the quiet life there, so I try to visit at least twice a year."
+    },
+    {
+     "type": "sp",
+     "ctx": "Transport",
+     "s": "Tell me about a journey you remember where you used public transport. What happened?",
+     "vi": "Hãy kể về một chuyến đi bạn nhớ khi dùng phương tiện công cộng. Chuyện gì đã xảy ra?",
+     "words": [
+      "get on",
+      "get off",
+      "get into",
+      "get out of",
+      "platform",
+      "lorry"
+     ],
+     "why": "Kể theo trình tự: đi đâu, lên xe, trên đường, xuống xe; dùng so that/as a result.",
+     "sample": "Last spring I travelled to Hue by train. I arrived at the station early, found the right platform and waited for twenty minutes. When the train came, I managed to get on just before the doors closed. We had to stop for an hour because a lorry had broken down on the crossing, which made everyone nervous. At last I got off in Hue and took a taxi. I had to get into it quickly because it started to rain, and I got out of it right in front of the hotel."
+    },
+    {
+     "type": "sp",
+     "ctx": "Costs",
+     "s": "How have travel costs changed in your country? Do you think public transport should be cheaper?",
+     "vi": "Chi phí đi lại ở nước bạn đã thay đổi thế nào? Bạn có nghĩ giao thông công cộng nên rẻ hơn không?",
+     "words": [
+      "bus fare",
+      "airfare",
+      "lorry",
+      "platform",
+      "get on"
+     ],
+     "why": "Nêu thay đổi, so sánh các phương tiện, đưa ý kiến và lý do; dùng whereas, as a result, if...",
+     "sample": "In my country, the bus fare has gone up slightly in recent years, whereas airfare has become cheaper because of new budget airlines. As a result, more people prefer to fly for long distances. However, I think public transport should be cheaper, because many workers cannot afford high prices. If buses were more affordable, fewer people would drive, and there would be fewer lorries and cars on the roads. Passengers could get on at any stop and wait comfortably on a clean platform, which would improve the quality of city life."
+    }
+   ]
+  }
+ ]
+}
