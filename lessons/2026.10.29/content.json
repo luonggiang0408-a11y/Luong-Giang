@@ -1,0 +1,4491 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 2026.10.29",
+  "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 29/10/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 67 từ. Mỗi từ làm 1 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (201 câu), sau đó là 10 câu nói vận dụng có ghi âm và chấm theo 4 tiêu chí IELTS Speaking, mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.10.29-v6",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma202610290900"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "Gõ từ hoặc cụm còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "Furniture shop",
+     "s": "After his back operation, my grandfather chose a ___ armchair that supports him properly, rather than a soft sofa that he would sink into.",
+     "acc": [
+      "firm"
+     ],
+     "vi": "Sau ca phẫu thuật lưng, ông tôi chọn một chiếc ghế bành chắc chắn nâng đỡ ông đúng cách, thay vì chiếc sofa mềm mà ông sẽ bị lún xuống.",
+     "why": "a firm armchair = ghế bành chắc, không lún; firm (adj) = cứng vừa phải, vững.",
+     "hint": "Nghĩa: chắc, cứng vừa phải (ghế bành chắc)",
+     "new": [
+      {
+       "w": "operation",
+       "vi": "ca phẫu thuật"
+      },
+      {
+       "w": "sink into",
+       "vi": "lún xuống"
+      }
+     ],
+     "tw": "a firm armchair"
+    },
+    {
+     "type": "tx",
+     "ctx": "Hotel booking",
+     "s": "Although the hotel is quite old, our ___ room felt warm and quiet, which meant that we could hear almost nothing from the corridor.",
+     "acc": [
+      "carpeted"
+     ],
+     "vi": "Dù khách sạn khá cũ, căn phòng trải thảm của chúng tôi ấm và yên tĩnh, nghĩa là gần như không nghe thấy gì từ hành lang.",
+     "why": "carpeted = được trải thảm kín sàn; trái nghĩa với floorboards/tiled (sàn gỗ/gạch).",
+     "hint": "Nghĩa: căn phòng trải thảm",
+     "new": [
+      {
+       "w": "corridor",
+       "vi": "hành lang"
+      }
+     ],
+     "tw": "a carpeted room"
+    },
+    {
+     "type": "tx",
+     "ctx": "Career talk",
+     "s": "Working part-time in a bookshop does not make you rich, but most students manage to earn a ___ amount of money to pay for their rent and food.",
+     "acc": [
+      "reasonable"
+     ],
+     "vi": "Làm thêm bán thời gian ở hiệu sách không làm bạn giàu, nhưng phần lớn sinh viên kiếm được một khoản tiền khá ổn để trả tiền thuê nhà và ăn uống.",
+     "why": "a reasonable amount of money = một khoản tiền vừa phải, đủ sống; reasonable = hợp lý, ở mức chấp nhận được.",
+     "hint": "Nghĩa: kiếm được một khoản tiền khá ổn",
+     "new": [
+      {
+       "w": "part-time",
+       "vi": "bán thời gian"
+      }
+     ],
+     "tw": "earn a reasonable amount of money",
+     "ipa": "/ˈriː.zən.ə.bəl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Travel review",
+     "s": "The hotel was not cheap, but it was good ___ for money because the price included a huge breakfast and a free shuttle to the airport.",
+     "acc": [
+      "value"
+     ],
+     "vi": "Khách sạn không rẻ nhưng rất đáng tiền vì giá đã gồm bữa sáng thịnh soạn và xe đưa đón miễn phí ra sân bay.",
+     "why": "good value for money = đáng đồng tiền (chất lượng tương xứng với giá); value = giá trị.",
+     "hint": "Nghĩa: đáng tiền",
+     "new": [
+      {
+       "w": "shuttle",
+       "vi": "xe đưa đón"
+      },
+      {
+       "w": "huge",
+       "vi": "rất lớn"
+      }
+     ],
+     "tw": "good value for money"
+    },
+    {
+     "type": "tx",
+     "ctx": "Hotel reception",
+     "s": "The hotel manager apologised, but he said they had to ___ us an extra twenty pounds because we left the room two hours after the check-out time.",
+     "acc": [
+      "charge",
+      "charged"
+     ],
+     "vi": "Quản lý khách sạn xin lỗi nhưng nói họ phải thu thêm của chúng tôi hai mươi bảng vì chúng tôi rời phòng muộn hai tiếng.",
+     "why": "charge sb (an amount) = tính/thu tiền ai; thì quá khứ charged.",
+     "hint": "Nghĩa: tính/thu tiền ai",
+     "new": [
+      {
+       "w": "apologised",
+       "vi": "xin lỗi"
+      }
+     ],
+     "tw": "charge someone",
+     "ipa": "/tʃɑːrdʒ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Budget airline",
+     "s": "The airline charged passengers ___ every extra bag, which means that a cheap ticket can become expensive if you pack too much.",
+     "acc": [
+      "for"
+     ],
+     "vi": "Hãng hàng không tính tiền hành khách cho mỗi kiện hành lý thêm, nghĩa là vé rẻ có thể thành đắt nếu bạn mang quá nhiều.",
+     "why": "charge sb for sth = tính tiền ai cho khoản gì; giới từ đi sau là for.",
+     "hint": "Nghĩa: tính tiền ai cho cái gì (điền giới từ)",
+     "new": [
+      {
+       "w": "extra",
+       "vi": "thêm"
+      },
+      {
+       "w": "pack",
+       "vi": "đóng gói hành lý"
+      }
+     ],
+     "tw": "charge someone for something",
+     "ipa": "/tʃɑːrdʒ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Moving abroad",
+     "s": "Since property prices are so high in the capital, most young professionals prefer to ___ a small flat for a year before deciding whether to buy.",
+     "acc": [
+      "rent",
+      "rented"
+     ],
+     "vi": "Vì giá bất động sản ở thủ đô quá cao, hầu hết người trẻ đi làm thích thuê một căn hộ nhỏ một năm rồi mới quyết định có mua không.",
+     "why": "rent = thuê dài hạn (nhà, căn hộ); hire = thuê ngắn hạn (xe, đồ dùng một ngày).",
+     "hint": "Nghĩa: thuê (dài hạn)",
+     "new": [
+      {
+       "w": "property",
+       "vi": "bất động sản"
+      },
+      {
+       "w": "professionals",
+       "vi": "người đi làm chuyên môn"
+      }
+     ],
+     "tw": "rent",
+     "ipa": "/rent/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Holiday trip",
+     "s": "Because the island is too big to explore on foot, we decided to ___ two bicycles for the whole day and follow the coastal road.",
+     "acc": [
+      "hire",
+      "hired"
+     ],
+     "vi": "Vì đảo quá rộng để đi bộ khám phá, chúng tôi quyết định thuê hai chiếc xe đạp cả ngày và đi theo con đường ven biển.",
+     "why": "hire = thuê ngắn hạn (xe đạp, xe hơi, dụng cụ) trong vài giờ/ngày; rent = thuê dài hạn.",
+     "hint": "Nghĩa: thuê (ngắn hạn)",
+     "new": [
+      {
+       "w": "explore",
+       "vi": "khám phá"
+      },
+      {
+       "w": "coastal",
+       "vi": "ven biển"
+      }
+     ],
+     "tw": "hire",
+     "ipa": "/haɪr/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Phone call",
+     "s": "___ a second, please. I am just checking the meeting schedule on my computer, and I will tell you the exact time in a moment.",
+     "acc": [
+      "hold on"
+     ],
+     "vi": "Chờ một chút nhé. Tôi đang kiểm tra lịch họp trên máy tính và sẽ báo bạn giờ chính xác ngay.",
+     "why": "hold on a second = chờ một chút (lịch sự, văn nói); cũng dùng khi nghe điện thoại.",
+     "hint": "Nghĩa: chờ một chút / đợi một giây",
+     "new": [
+      {
+       "w": "schedule",
+       "vi": "lịch trình"
+      }
+     ],
+     "tw": "hold on a second",
+     "ipa": "/həʊld ɒn ə ˈsek.ənd/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Tech review",
+     "s": "The two laptops look very different from the outside, but they are ___ the same inside, so the cheaper one is the better choice for most people.",
+     "acc": [
+      "essentially"
+     ],
+     "vi": "Hai chiếc laptop trông rất khác bên ngoài, nhưng về cơ bản giống nhau bên trong, nên chiếc rẻ hơn là lựa chọn tốt hơn cho đa số người.",
+     "why": "essentially = về cơ bản, thực chất (đi trước điều cốt lõi); adj: essential.",
+     "hint": "Nghĩa: về cơ bản, thực chất là",
+     "tw": "essentially",
+     "ipa": "/ɪˈsen.ʃəl.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Health class",
+     "s": "Drinking enough water is ___ for athletes, because even a small loss of fluid can make them feel tired and slow down their reactions.",
+     "acc": [
+      "essential"
+     ],
+     "vi": "Uống đủ nước là thiết yếu với vận động viên vì chỉ mất ít chất lỏng cũng làm họ mệt và phản xạ chậm đi.",
+     "why": "essential (adj) = thiết yếu, không thể thiếu; also a noun: essentials = những thứ cần thiết.",
+     "hint": "Nghĩa: thiết yếu / thứ thiết yếu",
+     "new": [
+      {
+       "w": "fluid",
+       "vi": "chất lỏng"
+      },
+      {
+       "w": "reactions",
+       "vi": "phản xạ"
+      }
+     ],
+     "tw": "essential",
+     "ipa": "/ɪˈsen.ʃəl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Gossip",
+     "s": "My neighbour spent a ___ of money on his garden last summer, and now there are so many expensive statues that nobody can walk through it.",
+     "acc": [
+      "potload"
+     ],
+     "vi": "Hàng xóm tôi tiêu cả đống tiền vào khu vườn mùa hè năm ngoái, giờ có quá nhiều tượng đắt tiền đến nỗi không ai đi lọt.",
+     "why": "a potload of money = cả đống tiền (khẩu ngữ, không trang trọng).",
+     "hint": "Nghĩa: rất nhiều tiền, cả đống tiền (văn nói)",
+     "new": [
+      {
+       "w": "statues",
+       "vi": "các bức tượng"
+      }
+     ],
+     "tw": "a potload of money",
+     "ipa": "/ə ˈpɒt.ləʊd əv ˈmʌn.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Science news",
+     "s": "Researchers believe that cheap solar panels could ___ the way remote villages get electricity, which means that families would no longer need expensive generators.",
+     "acc": [
+      "revolutionize",
+      "revolutionise",
+      "revolutionized",
+      "revolutionised"
+     ],
+     "vi": "Các nhà nghiên cứu tin rằng tấm pin mặt trời giá rẻ có thể thay đổi hoàn toàn cách các làng xa có điện, nghĩa là các gia đình không còn cần máy phát điện đắt tiền.",
+     "why": "revolutionize = làm thay đổi hoàn toàn một lĩnh vực; danh từ: revolution; tính từ: revolutionary.",
+     "hint": "Nghĩa: cách mạng hóa, thay đổi hoàn toàn",
+     "new": [
+      {
+       "w": "solar panels",
+       "vi": "tấm pin mặt trời"
+      },
+      {
+       "w": "generators",
+       "vi": "máy phát điện"
+      }
+     ],
+     "tw": "revolutionize",
+     "ipa": "/ˌrev.əˈluː.ʃən.aɪz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Tech fair",
+     "s": "The company announced a ___ battery that charges in five minutes, and experts say it will change electric cars far more than any earlier design.",
+     "acc": [
+      "revolutionary"
+     ],
+     "vi": "Công ty công bố loại pin mang tính cách mạng sạc đầy trong năm phút, và các chuyên gia nói nó sẽ thay đổi xe điện nhiều hơn mọi thiết kế trước.",
+     "why": "revolutionary (adj) = mang tính cách mạng, hoàn toàn mới; cũng là danh từ chỉ nhà cách mạng.",
+     "hint": "Nghĩa: mang tính cách mạng",
+     "new": [
+      {
+       "w": "battery",
+       "vi": "pin"
+      },
+      {
+       "w": "design",
+       "vi": "thiết kế"
+      }
+     ],
+     "tw": "revolutionary"
+    },
+    {
+     "type": "tx",
+     "ctx": "History class",
+     "s": "The Industrial ___ moved millions of people from farms to cities, where they worked in factories and lived in crowded houses.",
+     "acc": [
+      "revolution"
+     ],
+     "vi": "Cách mạng Công nghiệp đưa hàng triệu người từ nông trại ra thành phố, nơi họ làm trong nhà máy và sống trong nhà chật chội.",
+     "why": "revolution = cuộc cách mạng, sự thay đổi lớn và nhanh (a revolution in + lĩnh vực).",
+     "hint": "Nghĩa: cuộc cách mạng / sự thay đổi lớn",
+     "new": [
+      {
+       "w": "factories",
+       "vi": "nhà máy"
+      },
+      {
+       "w": "crowded",
+       "vi": "đông đúc"
+      }
+     ],
+     "tw": "revolution",
+     "ipa": "/ˌrev.əˈluː.ʃən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Volunteer speech",
+     "s": "She has spent her whole career working for the ___ of her community, organising free classes for children and cleaning rivers on weekends.",
+     "acc": [
+      "betterment"
+     ],
+     "vi": "Cô đã dành cả sự nghiệp để làm cho cộng đồng tốt đẹp hơn, tổ chức lớp học miễn phí cho trẻ và dọn sông vào cuối tuần.",
+     "why": "betterment of sth = sự cải thiện (trang trọng); thường dùng: the betterment of society.",
+     "hint": "Nghĩa: sự cải thiện, làm cho điều gì tốt đẹp hơn",
+     "new": [
+      {
+       "w": "community",
+       "vi": "cộng đồng"
+      }
+     ],
+     "tw": "betterment of something",
+     "ipa": "/ˈbet̬.ɚ.mənt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Environment talk",
+     "s": "Climate change is not only a problem for one country; it is a serious threat to ___ as a whole, so all nations must cooperate.",
+     "acc": [
+      "humanity"
+     ],
+     "vi": "Biến đổi khí hậu không chỉ là vấn đề của một quốc gia; nó là mối đe dọa nghiêm trọng với toàn nhân loại nên mọi nước phải hợp tác.",
+     "why": "humanity = nhân loại, loài người (cũng có nghĩa lòng nhân đạo).",
+     "hint": "Nghĩa: nhân loại, loài người",
+     "new": [
+      {
+       "w": "threat",
+       "vi": "mối đe dọa"
+      },
+      {
+       "w": "cooperate",
+       "vi": "hợp tác"
+      }
+     ],
+     "tw": "humanity",
+     "ipa": "/hjuːˈmæn.ə.t̬i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Sports news",
+     "s": "The young swimmer ___ the national record by almost two seconds, which surprised even her coach, who had expected only a good result.",
+     "acc": [
+      "broke",
+      "broken",
+      "break",
+      "breaks",
+      "breaking"
+     ],
+     "vi": "Nữ vận động viên bơi trẻ đã phá kỷ lục quốc gia gần hai giây, khiến cả huấn luyện viên ngạc nhiên vì ông chỉ mong một kết quả tốt.",
+     "why": "break a record = phá kỷ lục (break – broke – broken); set a record = lập kỷ lục.",
+     "hint": "Nghĩa: phá kỷ lục",
+     "new": [
+      {
+       "w": "coach",
+       "vi": "huấn luyện viên"
+      }
+     ],
+     "tw": "break a record",
+     "ipa": "/rɪˈkɔːrd/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Local news",
+     "s": "At only sixteen, the cyclist became a ___ in the regional championship, beating a time that had been the best for twenty years.",
+     "acc": [
+      "record breaker",
+      "record-breaker"
+     ],
+     "vi": "Mới mười sáu tuổi, tay đua xe đạp đã trở thành người phá kỷ lục ở giải vô địch vùng, vượt thành tích tốt nhất suốt hai mươi năm.",
+     "why": "record breaker = người hoặc vật phá kỷ lục (cũng viết record-breaker).",
+     "hint": "Nghĩa: người/vật phá kỷ lục",
+     "new": [
+      {
+       "w": "regional",
+       "vi": "thuộc vùng"
+      }
+     ],
+     "tw": "record breaker",
+     "ipa": "/ˈrek.ɚd ˌbreɪ.kɚ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Sports science",
+     "s": "Professional ___ must eat carefully and sleep nine hours a night, otherwise their muscles cannot recover after the heavy training sessions.",
+     "acc": [
+      "athlete",
+      "athletes"
+     ],
+     "vi": "Vận động viên chuyên nghiệp phải ăn uống cẩn thận và ngủ chín tiếng mỗi đêm, nếu không cơ bắp không thể hồi phục sau các buổi tập nặng.",
+     "why": "athlete = vận động viên (người thi đấu thể thao, đặc biệt điền kinh).",
+     "hint": "Nghĩa: vận động viên",
+     "new": [
+      {
+       "w": "muscles",
+       "vi": "cơ bắp"
+      },
+      {
+       "w": "recover",
+       "vi": "hồi phục"
+      }
+     ],
+     "tw": "athlete",
+     "ipa": "/ˈæθ.liːt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family stories",
+     "s": "My uncle was a talented ___ in his youth, playing football for the town and running in the regional marathon every autumn.",
+     "acc": [
+      "sportsman"
+     ],
+     "vi": "Chú tôi là một người chơi thể thao tài năng thời trẻ, chơi bóng đá cho thị trấn và chạy marathon vùng mỗi mùa thu.",
+     "why": "sportsman = người chơi thể thao (nam); nữ: sportswoman; chung: athlete.",
+     "hint": "Nghĩa: người chơi thể thao (nam)",
+     "new": [
+      {
+       "w": "marathon",
+       "vi": "cuộc chạy marathon"
+      }
+     ],
+     "tw": "sportsman",
+     "ipa": "/ˈspɔːrts.mən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Misunderstanding",
+     "s": "I ___ that the museum would be open on Monday, but when we arrived, a sign on the door said it closes every week on that day.",
+     "acc": [
+      "assume",
+      "assumed",
+      "assuming"
+     ],
+     "vi": "Tôi đã cho rằng bảo tàng mở cửa thứ Hai, nhưng khi tới nơi, biển trên cửa ghi nó đóng cửa vào ngày đó hằng tuần.",
+     "why": "assume (that) = cho rằng, giả định điều gì đúng khi chưa chắc.",
+     "hint": "Nghĩa: cho rằng, giả định",
+     "tw": "assume",
+     "ipa": "/əˈsuːm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Interview",
+     "s": "Although she studied economics, Lan has always had a ___ for photography, and she spends every free weekend taking pictures of old streets.",
+     "acc": [
+      "passion"
+     ],
+     "vi": "Dù học kinh tế, Lan luôn có niềm đam mê nhiếp ảnh và dành mọi cuối tuần rảnh để chụp những con phố cũ.",
+     "why": "have a passion for sth = có niềm đam mê với điều gì; passion = đam mê mãnh liệt.",
+     "hint": "Nghĩa: niềm đam mê",
+     "new": [
+      {
+       "w": "economics",
+       "vi": "kinh tế học"
+      }
+     ],
+     "tw": "have a passion for something",
+     "ipa": "/ˈpæʃ.ən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Marathon training",
+     "s": "When she finally crossed the finishing line after months of training, she felt a great sense of ___ that no prize could replace.",
+     "acc": [
+      "achievement"
+     ],
+     "vi": "Khi cuối cùng cô về đích sau nhiều tháng luyện tập, cô cảm thấy cảm giác thành tựu lớn mà không giải thưởng nào thay thế được.",
+     "why": "a sense of achievement = cảm giác thành tựu khi hoàn thành điều khó; achieve (v) = đạt được.",
+     "hint": "Nghĩa: cảm giác thành tựu",
+     "new": [
+      {
+       "w": "finishing line",
+       "vi": "vạch đích"
+      }
+     ],
+     "tw": "a sense of achievement",
+     "ipa": "/ə sens əv əˈtʃiːv.mənt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Job search",
+     "s": "She applied for a management ___ at an international company, although she knew that more than two hundred people had sent in their applications.",
+     "acc": [
+      "position"
+     ],
+     "vi": "Cô ứng tuyển vào vị trí quản lý ở một công ty quốc tế dù biết hơn hai trăm người đã nộp hồ sơ.",
+     "why": "position = vị trí công việc/chức vụ (apply for a position); còn là vị trí đặt, tư thế, địa vị.",
+     "hint": "Nghĩa: vị trí / địa vị / chức vụ",
+     "new": [
+      {
+       "w": "applications",
+       "vi": "hồ sơ ứng tuyển"
+      }
+     ],
+     "tw": "position",
+     "ipa": "/pəˈzɪʃ.ən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Seafood restaurant",
+     "s": "The waiter recommended the ___ cooked in white wine and garlic, which arrived in a big pot with fresh bread on the side.",
+     "acc": [
+      "mussel",
+      "mussels"
+     ],
+     "vi": "Người phục vụ gợi ý món vẹm nấu rượu vang trắng và tỏi, được mang ra trong nồi lớn kèm bánh mì tươi.",
+     "why": "mussel = con vẹm/trai biển (động vật thân mềm hai mảnh vỏ, ăn được).",
+     "hint": "Nghĩa: con trai, vẹm",
+     "new": [
+      {
+       "w": "recommended",
+       "vi": "gợi ý"
+      }
+     ],
+     "tw": "mussel",
+     "ipa": "/ˈmʌs.əl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Chef's table",
+     "s": "The restaurant's most famous dish is grilled ___ with butter and garlic, which taste slightly sweet and are always served very hot.",
+     "acc": [
+      "scallop",
+      "scallops"
+     ],
+     "vi": "Món nổi tiếng nhất của nhà hàng là sò điệp nướng bơ tỏi, có vị hơi ngọt và luôn được dọn rất nóng.",
+     "why": "scallop = sò điệp (hải sản có vỏ hình quạt, thịt trắng mềm).",
+     "hint": "Nghĩa: sò điệp",
+     "tw": "scallop",
+     "ipa": "/ˈskæləp/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Giving directions",
+     "s": "The pharmacy you need is just around the corner ___ the train station, so you can walk there in less than two minutes.",
+     "acc": [
+      "from"
+     ],
+     "vi": "Hiệu thuốc bạn cần ở ngay gần ga tàu nên bạn đi bộ chưa đến hai phút.",
+     "why": "be (just) around the corner from + địa điểm = ở ngay gần chỗ đó (nghĩa đen: nearby).",
+     "hint": "Nghĩa: gần đây (ngay gần một địa điểm)",
+     "new": [
+      {
+       "w": "pharmacy",
+       "vi": "hiệu thuốc"
+      }
+     ],
+     "tw": "be just around the corner from",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Shopping season",
+     "s": "Christmas is just ___ so many shops have already put up decorations, and families are starting to plan their trips home.",
+     "acc": [
+      "around the corner"
+     ],
+     "vi": "Giáng sinh sắp đến nên nhiều cửa hàng đã treo đồ trang trí và các gia đình bắt đầu lên kế hoạch về quê.",
+     "why": "be (just) around the corner (thời gian) = sắp đến rồi; không nói về vị trí.",
+     "hint": "Nghĩa: sắp đến",
+     "new": [
+      {
+       "w": "decorations",
+       "vi": "đồ trang trí"
+      }
+     ],
+     "tw": "be just around the corner",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Asking for help",
+     "s": "Excuse me, is there a bank near here? — Yes, there's one just ___ the corner, next to the bakery, and it opens at nine.",
+     "acc": [
+      "around"
+     ],
+     "vi": "Xin lỗi, gần đây có ngân hàng không? — Có, ngay góc đường cạnh tiệm bánh và nó mở lúc chín giờ.",
+     "why": "There's + danh từ + (just) around the corner = có ... ở ngay gần đây.",
+     "hint": "Nghĩa: có (cái gì) ở gần đây",
+     "new": [
+      {
+       "w": "bakery",
+       "vi": "tiệm bánh"
+      }
+     ],
+     "tw": "around the corner",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Job description",
+     "s": "My office hours ___ from eight in the morning to six in the evening, so I rarely have time to cook dinner on weekdays.",
+     "acc": [
+      "stretch",
+      "stretches",
+      "stretched"
+     ],
+     "vi": "Giờ làm việc của tôi kéo dài từ tám giờ sáng đến sáu giờ chiều nên tôi hiếm khi có thời gian nấu bữa tối ngày thường.",
+     "why": "stretch = kéo dài, trải dài (thời gian hoặc không gian); stretch from A to B.",
+     "hint": "Nghĩa: kéo dài, trải dài",
+     "tw": "stretch",
+     "ipa": "/stretʃ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "City centre",
+     "s": "It took me twenty minutes to find a ___ near the theatre, so we were late and missed the beginning of the play.",
+     "acc": [
+      "parking space",
+      "parking spaces"
+     ],
+     "vi": "Tôi mất hai mươi phút mới tìm được chỗ đỗ xe gần nhà hát nên chúng tôi trễ và lỡ phần đầu vở kịch.",
+     "why": "parking space = chỗ đỗ xe (một ô cho một xe); car park = bãi đỗ xe.",
+     "hint": "Nghĩa: chỗ đỗ xe",
+     "tw": "parking space",
+     "ipa": "/ˈkɑː pɑːk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Commuter talk",
+     "s": "Driving in the city centre during rush hour is extremely ___ because of the heavy traffic, the noise and the impatient drivers.",
+     "acc": [
+      "stressful"
+     ],
+     "vi": "Lái xe ở trung tâm giờ cao điểm cực kỳ căng thẳng vì giao thông đông, tiếng ồn và các tài xế nóng vội.",
+     "why": "stressful = gây căng thẳng (nói về việc/tình huống); stressed = cảm thấy căng thẳng (nói về người).",
+     "hint": "Nghĩa: gây căng thẳng (nói về sự việc)",
+     "new": [
+      {
+       "w": "impatient",
+       "vi": "thiếu kiên nhẫn"
+      }
+     ],
+     "tw": "stressful",
+     "ipa": "/ˈstresfl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Student life",
+     "s": "Hoa felt completely ___ before her presentation because she had too many deadlines and had slept only four hours the night before.",
+     "acc": [
+      "stressed"
+     ],
+     "vi": "Hoa cảm thấy hoàn toàn căng thẳng trước buổi thuyết trình vì có quá nhiều hạn chót và chỉ ngủ bốn tiếng đêm trước.",
+     "why": "stressed = (người) cảm thấy căng thẳng; stressful = (việc) gây căng thẳng.",
+     "hint": "Nghĩa: cảm thấy căng thẳng (nói về người)",
+     "new": [
+      {
+       "w": "deadlines",
+       "vi": "hạn chót"
+      }
+     ],
+     "tw": "stressed",
+     "ipa": "/strest/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Tourism brochure",
+     "s": "Young people love Bangkok because of its exciting ___, with night markets, live music and rooftop bars that stay open until dawn.",
+     "acc": [
+      "nightlife"
+     ],
+     "vi": "Giới trẻ yêu Bangkok vì cuộc sống về đêm sôi động với chợ đêm, nhạc sống và quán bar sân thượng mở đến sáng.",
+     "why": "nightlife = cuộc sống về đêm (quán bar, câu lạc bộ, nhạc sống).",
+     "hint": "Nghĩa: cuộc sống về đêm",
+     "new": [
+      {
+       "w": "rooftop",
+       "vi": "sân thượng"
+      },
+      {
+       "w": "dawn",
+       "vi": "bình minh"
+      }
+     ],
+     "tw": "nightlife",
+     "ipa": "/ˈnaɪtlaɪf/"
+    },
+    {
+     "type": "tx",
+     "ctx": "City guide",
+     "s": "If you enjoy ___, the capital offers plenty of choices, from free museum evenings to open-air concerts in the main square.",
+     "acc": [
+      "cultural activities"
+     ],
+     "vi": "Nếu bạn thích hoạt động văn hóa, thủ đô có nhiều lựa chọn, từ các buổi tối bảo tàng miễn phí đến hòa nhạc ngoài trời ở quảng trường chính.",
+     "why": "cultural activities = hoạt động văn hóa (bảo tàng, nhà hát, triển lãm, lễ hội).",
+     "hint": "Nghĩa: hoạt động văn hóa",
+     "new": [
+      {
+       "w": "open-air",
+       "vi": "ngoài trời"
+      }
+     ],
+     "tw": "cultural activities",
+     "ipa": "/ˈkʌltʃərəl ækˈtɪvətiz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "News report",
+     "s": "Although the city has grown quickly, the ___ has fallen by almost twenty percent because the police now patrol the busiest streets at night.",
+     "acc": [
+      "crime rate"
+     ],
+     "vi": "Dù thành phố phát triển nhanh, tỷ lệ tội phạm đã giảm gần hai mươi phần trăm vì cảnh sát nay tuần tra những con phố đông nhất vào ban đêm.",
+     "why": "crime rate = tỷ lệ tội phạm (số vụ phạm tội so với dân số).",
+     "hint": "Nghĩa: tỷ lệ tội phạm",
+     "new": [
+      {
+       "w": "patrol",
+       "vi": "tuần tra"
+      }
+     ],
+     "tw": "crime rate",
+     "ipa": "/kraɪm reɪt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Street food tour",
+     "s": "This noodle shop is cheap, delicious and ___ for money, so it is always full of students at lunchtime.",
+     "acc": [
+      "good value"
+     ],
+     "vi": "Quán mì này rẻ, ngon và rất đáng đồng tiền nên lúc trưa luôn đầy sinh viên.",
+     "why": "good value for money = đáng đồng tiền; nhớ cả cụm: good value (for money).",
+     "hint": "Nghĩa: đáng đồng tiền",
+     "tw": "good value for money",
+     "ipa": "/ɡʊd ˈvæljuː fə ˈmʌni/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Architecture tour",
+     "s": "Walking through the old quarter, you see a real ___ of crumbling temples and glass towers, which shows how quickly the city is changing.",
+     "acc": [
+      "mix"
+     ],
+     "vi": "Đi qua khu phố cổ, bạn thấy sự pha trộn thật sự giữa những ngôi đền đổ nát và tháp kính, cho thấy thành phố đổi thay nhanh thế nào.",
+     "why": "a mix of A and B = sự pha trộn giữa A và B.",
+     "hint": "Nghĩa: sự pha trộn của",
+     "new": [
+      {
+       "w": "crumbling",
+       "vi": "đổ nát"
+      }
+     ],
+     "tw": "a mix of",
+     "ipa": "/ə mɪks əv/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Weekend plans",
+     "s": "There is always something ___ in the city at the weekend, from street parades to free concerts, so you will never feel bored.",
+     "acc": [
+      "going on"
+     ],
+     "vi": "Cuối tuần thành phố luôn có gì đó đang diễn ra, từ diễu hành đường phố đến hòa nhạc miễn phí nên bạn không bao giờ chán.",
+     "why": "be going on = đang diễn ra; What's going on? = Chuyện gì đang xảy ra?",
+     "hint": "Nghĩa: đang diễn ra",
+     "new": [
+      {
+       "w": "parades",
+       "vi": "cuộc diễu hành"
+      }
+     ],
+     "tw": "be going on",
+     "ipa": "/ˈɡəʊɪŋ ɒn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Complaint letter",
+     "s": "The concert tickets were expensive and ___ value for money, as the seats were far from the stage and the sound system kept failing.",
+     "acc": [
+      "poor"
+     ],
+     "vi": "Vé hòa nhạc vừa đắt vừa không đáng tiền vì chỗ ngồi xa sân khấu và hệ thống âm thanh liên tục hỏng.",
+     "why": "poor value for money = không đáng đồng tiền (trả nhiều nhưng nhận ít); đối lập: good value for money.",
+     "hint": "Nghĩa: không đáng đồng tiền",
+     "tw": "poor value for money"
+    },
+    {
+     "type": "tx",
+     "ctx": "Daily routine",
+     "s": "I usually ___ the bus to work because there is nowhere to park near the office, and the fare is cheaper than petrol.",
+     "acc": [
+      "get",
+      "take"
+     ],
+     "vi": "Tôi thường đi xe buýt đi làm vì gần văn phòng không có chỗ đỗ và vé rẻ hơn tiền xăng.",
+     "why": "get/take the bus = đi/bắt xe buýt; get a taxi, get the train tương tự.",
+     "hint": "Nghĩa: bắt xe bus",
+     "new": [
+      {
+       "w": "petrol",
+       "vi": "xăng"
+      }
+     ],
+     "tw": "get the bus"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family party",
+     "s": "My sister-in-law is really ___ cooking Chinese dishes, so at every family party we ask her to prepare the main course.",
+     "acc": [
+      "good at"
+     ],
+     "vi": "Chị dâu tôi nấu món Hoa rất giỏi nên trong mỗi bữa tiệc gia đình chúng tôi nhờ chị làm món chính.",
+     "why": "be good at cooking sth = nấu món gì đó giỏi; be good at + V-ing/danh từ.",
+     "hint": "Nghĩa: nấu (món gì) giỏi",
+     "new": [
+      {
+       "w": "main course",
+       "vi": "món chính"
+      }
+     ],
+     "tw": "be good at cooking something",
+     "ipa": "/bi ɡʊd æt ˈkʊkɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Brainstorm",
+     "s": "After a long meeting, our team finally ___ a clever plan to reduce food waste in the school canteen without raising the price.",
+     "acc": [
+      "come up with",
+      "comes up with",
+      "came up with"
+     ],
+     "vi": "Sau cuộc họp dài, nhóm chúng tôi cuối cùng nghĩ ra kế hoạch thông minh giảm lãng phí thức ăn ở căng tin trường mà không tăng giá.",
+     "why": "come up with sth = nghĩ ra (ý tưởng, giải pháp, kế hoạch).",
+     "hint": "Nghĩa: nảy ra, nghĩ ra ý tưởng",
+     "new": [
+      {
+       "w": "canteen",
+       "vi": "căng tin"
+      }
+     ],
+     "tw": "come up with something"
+    },
+    {
+     "type": "tx",
+     "ctx": "Road trip",
+     "s": "We did not mind the long journey because the ___ along the mountain road was breathtaking, with green valleys and tiny waterfalls everywhere.",
+     "acc": [
+      "scenery"
+     ],
+     "vi": "Chúng tôi không ngại chuyến đi dài vì phong cảnh dọc đường núi đẹp ngoạn mục, với thung lũng xanh và thác nước nhỏ khắp nơi.",
+     "why": "scenery = phong cảnh thiên nhiên (không đếm được, không có -s).",
+     "hint": "Nghĩa: phong cảnh",
+     "new": [
+      {
+       "w": "breathtaking",
+       "vi": "đẹp nghẹt thở"
+      },
+      {
+       "w": "valleys",
+       "vi": "thung lũng"
+      }
+     ],
+     "tw": "scenery",
+     "ipa": "/ˈsiː.nər.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Countryside visit",
+     "s": "My uncle ___ a small farm in the hills, where he grows vegetables and keeps a few goats to provide milk for the village.",
+     "acc": [
+      "own",
+      "owns",
+      "owned"
+     ],
+     "vi": "Chú tôi sở hữu một trang trại nhỏ trên đồi, nơi chú trồng rau và nuôi vài con dê để cung cấp sữa cho làng.",
+     "why": "own a farm = sở hữu một trang trại; own (v) = sở hữu; owner = chủ sở hữu.",
+     "hint": "Nghĩa: sở hữu một trang trại",
+     "new": [
+      {
+       "w": "goats",
+       "vi": "dê"
+      }
+     ],
+     "tw": "own a farm",
+     "ipa": "/əʊn ə fɑːm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Farm tour",
+     "s": "Some farmers ___ animals such as cows and chickens, whereas others only grow vegetables because looking after animals takes so much time.",
+     "acc": [
+      "keep",
+      "keeps",
+      "kept"
+     ],
+     "vi": "Một số nông dân nuôi động vật như bò và gà, còn người khác chỉ trồng rau vì chăm sóc vật nuôi tốn rất nhiều thời gian.",
+     "why": "keep animals = nuôi động vật (gia súc, gia cầm) làm nghề hoặc để lấy sản phẩm.",
+     "hint": "Nghĩa: nuôi động vật, gia súc",
+     "tw": "keep animals",
+     "ipa": "/kiːp ˈæn.ɪ.məlz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Agriculture class",
+     "s": "Farmers in this region ___ crops such as rice and corn, but long droughts have made it harder to produce enough food every year.",
+     "acc": [
+      "grow",
+      "grows",
+      "grew"
+     ],
+     "vi": "Nông dân vùng này trồng các loại cây như lúa và ngô, nhưng hạn hán kéo dài khiến việc làm đủ lương thực mỗi năm khó hơn.",
+     "why": "grow crops = trồng cây nông nghiệp (lúa, ngô, lúa mạch...).",
+     "hint": "Nghĩa: trồng cây nông nghiệp",
+     "new": [
+      {
+       "w": "droughts",
+       "vi": "hạn hán"
+      }
+     ],
+     "tw": "grow crops",
+     "ipa": "/ɡrəʊ krɒps/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Geography lesson",
+     "s": "Rice is the most important ___ in Vietnam, and in some provinces farmers can harvest it three times a year.",
+     "acc": [
+      "crop",
+      "crops"
+     ],
+     "vi": "Lúa là cây trồng quan trọng nhất ở Việt Nam, và ở vài tỉnh nông dân thu hoạch ba lần một năm.",
+     "why": "crop = cây trồng nông nghiệp hoặc vụ mùa thu hoạch; cash crop = cây bán lấy tiền.",
+     "hint": "Nghĩa: cây trồng; vụ mùa",
+     "new": [
+      {
+       "w": "harvest",
+       "vi": "thu hoạch"
+      }
+     ],
+     "tw": "crop",
+     "ipa": "/krɒp/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Food science",
+     "s": "Beer is usually made from ___, which is first soaked in water and then dried, so the grain can release its natural sugar.",
+     "acc": [
+      "barley"
+     ],
+     "vi": "Bia thường làm từ lúa mạch, loại này trước tiên được ngâm nước rồi sấy khô để hạt giải phóng đường tự nhiên.",
+     "why": "barley = lúa mạch (dùng làm bia, bánh mì, thức ăn gia súc).",
+     "hint": "Nghĩa: lúa mạch",
+     "new": [
+      {
+       "w": "soaked",
+       "vi": "ngâm"
+      },
+      {
+       "w": "grain",
+       "vi": "ngũ cốc"
+      }
+     ],
+     "tw": "barley",
+     "ipa": "/ˈbɑː.li/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Rural interview",
+     "s": "___ can be hard work, especially during the harvest, when the whole family gets up before sunrise and works until it is dark.",
+     "acc": [
+      "farming"
+     ],
+     "vi": "Nghề nông có thể vất vả, đặc biệt vào mùa gặt khi cả nhà dậy trước bình minh và làm đến tối.",
+     "why": "farming = nghề nông, việc làm nông (không đếm được); farmer = nông dân.",
+     "hint": "Nghĩa: nghề nông",
+     "new": [
+      {
+       "w": "sunrise",
+       "vi": "bình minh"
+      }
+     ],
+     "tw": "farming",
+     "ipa": "/ˈfɑː.mɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Farm routine",
+     "s": "My uncle is usually ___ at five in the morning because the cows need to be milked before the sun gets too hot.",
+     "acc": [
+      "up"
+     ],
+     "vi": "Chú tôi thường dậy lúc năm giờ sáng vì bò cần được vắt sữa trước khi nắng gắt.",
+     "why": "be up at + giờ = đã dậy/ra khỏi giường lúc mấy giờ (ví dụ: I'm up at six).",
+     "hint": "Nghĩa: đã thức dậy lúc mấy giờ",
+     "new": [
+      {
+       "w": "milked",
+       "vi": "được vắt sữa"
+      }
+     ],
+     "tw": "be up at",
+     "ipa": "/bi ʌp ət/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family visit",
+     "s": "My grandparents live in a small ___ where everyone knows everyone, so they never lock the door when they go to the market.",
+     "acc": [
+      "village"
+     ],
+     "vi": "Ông bà tôi sống trong một ngôi làng nhỏ nơi ai cũng biết nhau nên họ không bao giờ khóa cửa khi đi chợ.",
+     "why": "live in a village = sống trong một ngôi làng; village (n) = làng, thôn.",
+     "hint": "Nghĩa: sống trong một ngôi làng",
+     "new": [
+      {
+       "w": "lock",
+       "vi": "khóa"
+      }
+     ],
+     "tw": "live in a village",
+     "ipa": "/lɪv ɪn ə ˈvɪl.ɪdʒ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Bus stop",
+     "s": "After we had waited for nearly twenty minutes, three buses ___ at the same time, which made everyone in the queue laugh.",
+     "acc": [
+      "came along",
+      "come along",
+      "comes along"
+     ],
+     "vi": "Sau khi chờ gần hai mươi phút, ba chiếc xe buýt cùng xuất hiện một lúc, khiến mọi người trong hàng bật cười.",
+     "why": "come along = xuất hiện, đến (thường nói về xe cộ hoặc cơ hội); cũng nghĩa đi cùng.",
+     "hint": "Nghĩa: xuất hiện, đi tới",
+     "new": [
+      {
+       "w": "queue",
+       "vi": "hàng người xếp"
+      }
+     ],
+     "tw": "come along",
+     "ipa": "/kʌm əˈlɒŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Traffic jam",
+     "s": "There was a long queue of cars at the ___ because the traffic lights had stopped working, and nobody knew who should go first.",
+     "acc": [
+      "junction"
+     ],
+     "vi": "Có hàng xe dài ở ngã tư vì đèn giao thông hỏng và không ai biết ai nên đi trước.",
+     "why": "junction = giao lộ, ngã tư/ngã ba (nơi các đường gặp nhau).",
+     "hint": "Nghĩa: ngã tư, giao lộ",
+     "tw": "junction",
+     "ipa": "/ˈdʒʌŋkʃn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Driving lesson",
+     "s": "You should slow down before the sharp ___ because the road is wet after the rain, and a car could easily skid.",
+     "acc": [
+      "bend"
+     ],
+     "vi": "Bạn nên giảm tốc trước khúc cua gấp vì đường ướt sau mưa và xe dễ bị trượt.",
+     "why": "a bend (in the road) = khúc cua, đoạn đường cong; a sharp bend = khúc cua gấp.",
+     "hint": "Nghĩa: khúc cua",
+     "new": [
+      {
+       "w": "skid",
+       "vi": "trượt bánh"
+      }
+     ],
+     "tw": "a bend (in the road)",
+     "ipa": "/bend/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Directions",
+     "s": "The road ___ to the left just after the bridge, so be careful when you drive because the view is blocked by tall trees.",
+     "acc": [
+      "bends",
+      "bend",
+      "bent"
+     ],
+     "vi": "Con đường cua sang trái ngay sau cây cầu nên hãy cẩn thận khi lái xe vì tầm nhìn bị cây cao che.",
+     "why": "bend (to the left/right) = (đường) cua, uốn cong sang trái/phải; động từ bend – bent – bent.",
+     "hint": "Nghĩa: (đường) cua, uốn cong",
+     "new": [
+      {
+       "w": "blocked",
+       "vi": "bị che chắn"
+      }
+     ],
+     "tw": "bend (to the left/right)",
+     "ipa": "/bend/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Near the nursery",
+     "s": "I always hold my child's hand when we use the ___ near the nursery, because many drivers do not slow down in time.",
+     "acc": [
+      "pedestrian crossing"
+     ],
+     "vi": "Tôi luôn nắm tay con khi chúng tôi qua vạch sang đường gần nhà trẻ vì nhiều tài xế không giảm tốc kịp.",
+     "why": "pedestrian crossing = vạch sang đường cho người đi bộ (Anh-Anh); Anh-Mỹ: crosswalk.",
+     "hint": "Nghĩa: vạch qua đường cho người đi bộ (Anh)",
+     "new": [
+      {
+       "w": "nursery",
+       "vi": "nhà trẻ"
+      }
+     ],
+     "tw": "pedestrian crossing",
+     "ipa": "/pəˈdestriən ˈkrɒsɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "American suburb",
+     "s": "The children waited at the ___ until the light turned green, and then they walked across together with their teacher.",
+     "acc": [
+      "crosswalk"
+     ],
+     "vi": "Bọn trẻ đợi ở vạch sang đường đến khi đèn chuyển xanh rồi cùng đi qua với cô giáo.",
+     "why": "crosswalk = vạch sang đường cho người đi bộ (Anh-Mỹ); Anh-Anh: pedestrian crossing.",
+     "hint": "Nghĩa: vạch qua đường cho người đi bộ (Mỹ)",
+     "tw": "crosswalk",
+     "ipa": "/ˈkrɔːs.wɔːk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Road safety class",
+     "s": "You should always look both ways when ___ the road, and you should never use your phone while you are walking across.",
+     "acc": [
+      "crossing"
+     ],
+     "vi": "Bạn nên luôn nhìn cả hai hướng khi sang đường, và không bao giờ dùng điện thoại lúc đang đi qua.",
+     "why": "crossing the road = sang đường, băng qua đường; cross the road.",
+     "hint": "Nghĩa: sang đường",
+     "tw": "crossing the road"
+    },
+    {
+     "type": "tx",
+     "ctx": "Wrong exit",
+     "s": "I did not see the ___ because it was covered by tree branches, so I drove past the exit and had to turn back.",
+     "acc": [
+      "road sign"
+     ],
+     "vi": "Tôi không thấy biển báo vì nó bị cành cây che nên tôi lái qua lối ra và phải quay lại.",
+     "why": "road sign = biển báo giao thông; traffic sign cũng dùng.",
+     "hint": "Nghĩa: biển báo giao thông",
+     "new": [
+      {
+       "w": "branches",
+       "vi": "cành cây"
+      }
+     ],
+     "tw": "road sign",
+     "ipa": "/ˈrəʊd saɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Country road",
+     "s": "There is a ___ sign on this narrow road, so we have to stay behind the lorry even though it is moving very slowly.",
+     "acc": [
+      "no overtaking"
+     ],
+     "vi": "Con đường hẹp này có biển cấm vượt nên chúng tôi phải đi sau chiếc xe tải dù nó chạy rất chậm.",
+     "why": "no overtaking = cấm vượt (biển báo hoặc quy định); overtake = vượt xe khác.",
+     "hint": "Nghĩa: cấm vượt",
+     "new": [
+      {
+       "w": "lorry",
+       "vi": "xe tải"
+      }
+     ],
+     "tw": "no overtaking",
+     "ipa": "/ˌnəʊ ˌəʊvəˈteɪkɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family trip",
+     "s": "My brother ___ a slow tractor just before the bend, which was quite dangerous, so my mother asked him to drive more carefully.",
+     "acc": [
+      "overtook",
+      "overtake",
+      "overtaken",
+      "overtakes"
+     ],
+     "vi": "Anh trai tôi vượt một chiếc máy kéo chạy chậm ngay trước khúc cua, khá nguy hiểm nên mẹ tôi nhờ anh lái cẩn thận hơn.",
+     "why": "overtake sth/sb = vượt (xe khác); quá khứ overtook; quá khứ phân từ overtaken.",
+     "hint": "Nghĩa: vượt (xe khác)",
+     "new": [
+      {
+       "w": "tractor",
+       "vi": "máy kéo"
+      }
+     ],
+     "tw": "overtake something/somebody",
+     "ipa": "/ˌəʊvəˈteɪk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Town centre",
+     "s": "The ___ in the town centre is thirty kilometres an hour, so I drive carefully when the streets are busy with shoppers.",
+     "acc": [
+      "speed limit"
+     ],
+     "vi": "Giới hạn tốc độ ở trung tâm thị trấn là ba mươi km/giờ nên tôi lái cẩn thận khi phố đông người mua sắm.",
+     "why": "speed limit = giới hạn tốc độ (tốc độ tối đa cho phép).",
+     "hint": "Nghĩa: giới hạn tốc độ",
+     "tw": "speed limit",
+     "ipa": "/ˈspiːd ˌlɪmɪt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Weekend plan",
+     "s": "It takes about two hours by ___, but the traffic is heavy at weekends, so we usually leave before sunrise to avoid the queues.",
+     "acc": [
+      "motorway"
+     ],
+     "vi": "Đi bằng đường cao tốc mất khoảng hai tiếng nhưng cuối tuần xe rất đông nên chúng tôi thường đi trước bình minh để tránh kẹt.",
+     "why": "motorway = đường cao tốc (Anh-Anh); Anh-Mỹ: highway/freeway.",
+     "hint": "Nghĩa: đường cao tốc",
+     "new": [
+      {
+       "w": "queues",
+       "vi": "hàng xe nối đuôi"
+      }
+     ],
+     "tw": "motorway",
+     "ipa": "/ˈməʊtəweɪ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Motorway code",
+     "s": "If you want to drive slowly on the motorway, stay in the ___ lane and let faster cars pass on your right-hand side.",
+     "acc": [
+      "inside",
+      "slow"
+     ],
+     "vi": "Nếu muốn lái chậm trên đường cao tốc, hãy ở làn trong và để xe nhanh hơn vượt bên phải bạn.",
+     "why": "inside lane = làn gần lề/làn chậm trên đường cao tốc (Anh); outside lane = làn nhanh.",
+     "hint": "Nghĩa: làn trong (làn chạy chậm)",
+     "tw": "inside (slow) lane",
+     "ipa": "/ˌɪnsaɪd ˈsləʊ leɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Motorway code",
+     "s": "He moved into the ___ lane to overtake the lorry, and then returned to his original position once the road ahead was clear.",
+     "acc": [
+      "outside",
+      "fast"
+     ],
+     "vi": "Anh chuyển sang làn ngoài để vượt xe tải rồi quay lại vị trí cũ khi đường phía trước thông thoáng.",
+     "why": "outside lane = làn xa lề/làn nhanh để vượt trên đường cao tốc (Anh); inside lane = làn chậm.",
+     "hint": "Nghĩa: làn ngoài (làn chạy nhanh)",
+     "new": [
+      {
+       "w": "clear",
+       "vi": "thông thoáng"
+      }
+     ],
+     "tw": "outside (fast) lane",
+     "ipa": "/ˌaʊtsaɪd ˈfɑːst leɪn/"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Doctor's advice",
+     "s": "Because her spine often hurts, the physiotherapist told her to sit in a ___ armchair, which keeps her back straight, instead of a very soft one.",
+     "o": [
+      "firm",
+      "loose",
+      "tiny"
+     ],
+     "a": "firm",
+     "vi": "Vì cột sống hay đau, nhà vật lý trị liệu bảo cô ngồi ghế bành chắc, giúp lưng thẳng, thay vì loại rất mềm.",
+     "why": "a firm armchair = ghế bành chắc, không lún; firm (adj) = cứng vừa phải, vững.",
+     "new": [
+      {
+       "w": "physiotherapist",
+       "vi": "nhà vật lý trị liệu"
+      },
+      {
+       "w": "spine",
+       "vi": "cột sống"
+      }
+     ],
+     "tw": "firm"
+    },
+    {
+     "type": "mc",
+     "ctx": "Choosing a flat",
+     "s": "The baby has just started crawling, so the couple prefer a ___ room where the floor is soft, rather than cold tiles.",
+     "o": [
+      "carpeted",
+      "tiled",
+      "empty"
+     ],
+     "a": "carpeted",
+     "vi": "Em bé vừa tập bò nên cặp vợ chồng thích căn phòng trải thảm có sàn mềm hơn là gạch lạnh.",
+     "why": "carpeted = được trải thảm kín sàn; trái nghĩa với floorboards/tiled (sàn gỗ/gạch).",
+     "new": [
+      {
+       "w": "crawling",
+       "vi": "bò"
+      },
+      {
+       "w": "tiles",
+       "vi": "gạch lát"
+      }
+     ],
+     "tw": "carpeted"
+    },
+    {
+     "type": "mc",
+     "ctx": "Job interview",
+     "s": "The advertisement promises that new employees can earn a ___ amount of money, so you will be able to live comfortably without working overtime.",
+     "o": [
+      "reasonable",
+      "musical",
+      "unlucky"
+     ],
+     "a": "reasonable",
+     "vi": "Quảng cáo hứa rằng nhân viên mới có thể kiếm một khoản tiền khá ổn, nên bạn sống thoải mái mà không phải làm thêm giờ.",
+     "why": "a reasonable amount of money = một khoản tiền vừa phải, đủ sống; reasonable = hợp lý, ở mức chấp nhận được.",
+     "new": [
+      {
+       "w": "overtime",
+       "vi": "làm thêm giờ"
+      },
+      {
+       "w": "advertisement",
+       "vi": "quảng cáo"
+      }
+     ],
+     "tw": "reasonable"
+    },
+    {
+     "type": "mc",
+     "ctx": "Shopping advice",
+     "s": "These winter boots cost more than the others, yet reviewers say they are good ___ for money, since they usually last for at least five years.",
+     "o": [
+      "value",
+      "price",
+      "cost"
+     ],
+     "a": "value",
+     "vi": "Đôi bốt mùa đông này đắt hơn các loại khác, nhưng người đánh giá nói rất đáng tiền vì thường dùng được ít nhất năm năm.",
+     "why": "good value for money = đáng đồng tiền (chất lượng tương xứng với giá); value = giá trị.",
+     "new": [
+      {
+       "w": "reviewers",
+       "vi": "người đánh giá"
+      }
+     ],
+     "tw": "value"
+    },
+    {
+     "type": "mc",
+     "ctx": "Car park",
+     "s": "If you leave your car here for more than three hours, the company will ___ you double the normal price, which is why many drivers move early.",
+     "o": [
+      "charge",
+      "borrow",
+      "spare"
+     ],
+     "a": "charge",
+     "vi": "Nếu để xe ở đây hơn ba tiếng, công ty sẽ thu bạn gấp đôi giá thường, nên nhiều tài xế dời xe sớm.",
+     "why": "charge sb (an amount) = tính/thu tiền ai; thì quá khứ charged.",
+     "new": [
+      {
+       "w": "double",
+       "vi": "gấp đôi"
+      }
+     ],
+     "tw": "charge"
+    },
+    {
+     "type": "mc",
+     "ctx": "Bank customer",
+     "s": "She was angry that the bank had charged her ___ sending a simple message to her account, because nobody had mentioned any fee before.",
+     "o": [
+      "for",
+      "at",
+      "with"
+     ],
+     "a": "for",
+     "vi": "Cô tức giận vì ngân hàng tính tiền cô cho việc gửi một tin nhắn đơn giản đến tài khoản, vì trước đó không ai nhắc đến phí.",
+     "why": "charge sb for sth = tính tiền ai cho khoản gì; giới từ đi sau là for.",
+     "new": [
+      {
+       "w": "fee",
+       "vi": "khoản phí"
+      },
+      {
+       "w": "mentioned",
+       "vi": "đề cập"
+      }
+     ],
+     "tw": "for"
+    },
+    {
+     "type": "mc",
+     "ctx": "University housing",
+     "s": "When her scholarship started, Mai ___ a room near the campus for twelve months, which was cheaper than staying in the dormitory.",
+     "o": [
+      "rented",
+      "hired",
+      "borrowed"
+     ],
+     "a": "rented",
+     "vi": "Khi học bổng bắt đầu, Mai thuê một phòng gần khuôn viên trường trong mười hai tháng, rẻ hơn ở ký túc xá.",
+     "why": "rent = thuê dài hạn (nhà, căn hộ); hire = thuê ngắn hạn (xe, đồ dùng một ngày).",
+     "new": [
+      {
+       "w": "scholarship",
+       "vi": "học bổng"
+      },
+      {
+       "w": "dormitory",
+       "vi": "ký túc xá"
+      }
+     ],
+     "tw": "rented"
+    },
+    {
+     "type": "mc",
+     "ctx": "Wedding preparations",
+     "s": "They did not want to buy such expensive equipment for one party, so they ___ a sound system for the weekend and returned it on Monday.",
+     "o": [
+      "hired",
+      "owned",
+      "wrapped"
+     ],
+     "a": "hired",
+     "vi": "Họ không muốn mua thiết bị đắt tiền cho một bữa tiệc nên đã thuê hệ thống âm thanh cuối tuần và trả lại vào thứ Hai.",
+     "why": "hire = thuê ngắn hạn (xe đạp, xe hơi, dụng cụ) trong vài giờ/ngày; rent = thuê dài hạn.",
+     "new": [
+      {
+       "w": "equipment",
+       "vi": "thiết bị"
+      }
+     ],
+     "tw": "hired"
+    },
+    {
+     "type": "mc",
+     "ctx": "At the airport",
+     "s": "\"___ a second,\" she said to the taxi driver, \"I think I left my passport in the café, so I need to go back and look for it.\"",
+     "o": [
+      "Hold on",
+      "Take off",
+      "Look out"
+     ],
+     "a": "Hold on",
+     "vi": "“Chờ một chút,” cô nói với tài xế, “tôi nghĩ tôi để quên hộ chiếu ở quán cà phê nên cần quay lại tìm.”",
+     "why": "hold on a second = chờ một chút (lịch sự, văn nói); cũng dùng khi nghe điện thoại.",
+     "new": [
+      {
+       "w": "passport",
+       "vi": "hộ chiếu"
+      }
+     ],
+     "tw": "Hold on"
+    },
+    {
+     "type": "mc",
+     "ctx": "Business meeting",
+     "s": "The new policy is ___ a way of reducing costs, even though the manager described it as a plan to improve customer service.",
+     "o": [
+      "essentially",
+      "rarely",
+      "politely"
+     ],
+     "a": "essentially",
+     "vi": "Chính sách mới thực chất là cách cắt giảm chi phí, dù quản lý mô tả đó là kế hoạch cải thiện dịch vụ khách hàng.",
+     "why": "essentially = về cơ bản, thực chất (đi trước điều cốt lõi); adj: essential.",
+     "new": [
+      {
+       "w": "policy",
+       "vi": "chính sách"
+      }
+     ],
+     "tw": "essentially",
+     "ipa": "/ɪˈsen.ʃəl.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel tips",
+     "s": "A warm jacket and a map are ___ items if you plan to hike in the mountains, whereas a camera is only a pleasant extra.",
+     "o": [
+      "essential",
+      "optional",
+      "harmful"
+     ],
+     "a": "essential",
+     "vi": "Áo khoác ấm và bản đồ là vật dụng thiết yếu nếu bạn định leo núi, còn máy ảnh chỉ là món thêm cho vui.",
+     "why": "essential (adj) = thiết yếu, không thể thiếu; also a noun: essentials = những thứ cần thiết.",
+     "new": [
+      {
+       "w": "hike",
+       "vi": "đi bộ đường dài"
+      },
+      {
+       "w": "extra",
+       "vi": "món thêm"
+      }
+     ],
+     "tw": "essential",
+     "ipa": "/ɪˈsen.ʃəl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Chatting about cars",
+     "s": "Maya says her brother must have a ___ of money, since he bought a luxury sports car and a house by the sea in the same year.",
+     "o": [
+      "potload",
+      "handful",
+      "pinch"
+     ],
+     "a": "potload",
+     "vi": "Maya nói anh cô chắc có cả đống tiền vì anh mua xe thể thao sang và nhà ven biển trong cùng một năm.",
+     "why": "a potload of money = cả đống tiền (khẩu ngữ, không trang trọng).",
+     "new": [
+      {
+       "w": "luxury",
+       "vi": "sang trọng"
+      }
+     ],
+     "tw": "potload"
+    },
+    {
+     "type": "mc",
+     "ctx": "Medical conference",
+     "s": "Online video consultations have ___ healthcare in rural areas, because patients no longer have to travel for hours just to see a doctor.",
+     "o": [
+      "revolutionized",
+      "postponed",
+      "complained"
+     ],
+     "a": "revolutionized",
+     "vi": "Tư vấn khám qua video đã thay đổi hoàn toàn y tế ở vùng nông thôn vì bệnh nhân không phải đi hàng giờ chỉ để gặp bác sĩ.",
+     "why": "revolutionize = làm thay đổi hoàn toàn một lĩnh vực; danh từ: revolution; tính từ: revolutionary.",
+     "new": [
+      {
+       "w": "consultations",
+       "vi": "buổi tư vấn khám"
+      },
+      {
+       "w": "rural",
+       "vi": "nông thôn"
+      }
+     ],
+     "tw": "revolutionized"
+    },
+    {
+     "type": "mc",
+     "ctx": "Museum guide",
+     "s": "The printing press was a truly ___ invention, since books became cheap enough for ordinary families to buy and read.",
+     "o": [
+      "revolutionary",
+      "ordinary",
+      "temporary"
+     ],
+     "a": "revolutionary",
+     "vi": "Máy in là phát minh thực sự mang tính cách mạng vì sách trở nên đủ rẻ để các gia đình bình thường mua và đọc.",
+     "why": "revolutionary (adj) = mang tính cách mạng, hoàn toàn mới; cũng là danh từ chỉ nhà cách mạng.",
+     "new": [
+      {
+       "w": "printing press",
+       "vi": "máy in"
+      },
+      {
+       "w": "invention",
+       "vi": "phát minh"
+      }
+     ],
+     "tw": "revolutionary"
+    },
+    {
+     "type": "mc",
+     "ctx": "News report",
+     "s": "The spread of mobile internet has caused a ___ in education, because students in distant villages can now join the same lessons as city children.",
+     "o": [
+      "revolution",
+      "argument",
+      "accident"
+     ],
+     "a": "revolution",
+     "vi": "Sự lan rộng của internet di động đã tạo ra một cuộc cách mạng trong giáo dục vì học sinh ở làng xa nay có thể học cùng bài như trẻ thành phố.",
+     "why": "revolution = cuộc cách mạng, sự thay đổi lớn và nhanh (a revolution in + lĩnh vực).",
+     "new": [
+      {
+       "w": "distant",
+       "vi": "xa xôi"
+      }
+     ],
+     "tw": "revolution",
+     "ipa": "/ˌrev.əˈluː.ʃən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Charity event",
+     "s": "The foundation says that every donation will be used for the ___ of local schools, for example by repairing roofs and buying books.",
+     "o": [
+      "betterment",
+      "weakness",
+      "disappointment"
+     ],
+     "a": "betterment",
+     "vi": "Quỹ cho biết mọi khoản quyên góp sẽ dùng để cải thiện các trường địa phương, ví dụ sửa mái nhà và mua sách.",
+     "why": "betterment of sth = sự cải thiện (trang trọng); thường dùng: the betterment of society.",
+     "new": [
+      {
+       "w": "donation",
+       "vi": "khoản quyên góp"
+      },
+      {
+       "w": "roofs",
+       "vi": "mái nhà"
+      }
+     ],
+     "tw": "betterment"
+    },
+    {
+     "type": "mc",
+     "ctx": "Space exhibition",
+     "s": "The first landing on the Moon was described as a giant step for ___, because it showed what people could achieve together.",
+     "o": [
+      "humanity",
+      "furniture",
+      "machinery"
+     ],
+     "a": "humanity",
+     "vi": "Lần đáp xuống Mặt Trăng đầu tiên được mô tả là bước tiến khổng lồ của nhân loại vì nó cho thấy con người có thể đạt được gì khi cùng nhau.",
+     "why": "humanity = nhân loại, loài người (cũng có nghĩa lòng nhân đạo).",
+     "new": [
+      {
+       "w": "achieve",
+       "vi": "đạt được"
+      }
+     ],
+     "tw": "humanity",
+     "ipa": "/hjuːˈmæn.ə.t̬i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Athletics final",
+     "s": "If the runner keeps this speed until the end of the race, she will ___ the world record that has stood for more than thirty years.",
+     "o": [
+      "break",
+      "miss",
+      "wear"
+     ],
+     "a": "break",
+     "vi": "Nếu vận động viên giữ tốc độ này đến cuối cuộc đua, cô sẽ phá kỷ lục thế giới tồn tại hơn ba mươi năm.",
+     "why": "break a record = phá kỷ lục (break – broke – broken); set a record = lập kỷ lục.",
+     "new": [
+      {
+       "w": "stood",
+       "vi": "đứng vững, tồn tại"
+      }
+     ],
+     "tw": "break"
+    },
+    {
+     "type": "mc",
+     "ctx": "Festival report",
+     "s": "The world's largest pizza, which weighed over three tonnes, was a real ___ and attracted thousands of curious visitors to the small town.",
+     "o": [
+      "record breaker",
+      "bakery",
+      "guide"
+     ],
+     "a": "record breaker",
+     "vi": "Chiếc pizza lớn nhất thế giới, nặng hơn ba tấn, là vật phá kỷ lục thật sự và thu hút hàng nghìn du khách tò mò đến thị trấn nhỏ.",
+     "why": "record breaker = người hoặc vật phá kỷ lục (cũng viết record-breaker).",
+     "new": [
+      {
+       "w": "tonnes",
+       "vi": "tấn"
+      }
+     ],
+     "tw": "record breaker",
+     "ipa": "/ˈrek.ɚd ˌbreɪ.kɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Olympic village",
+     "s": "Thousands of ___ from over two hundred countries arrived in the city, and the mayor welcomed them with a big ceremony.",
+     "o": [
+      "athletes",
+      "passengers",
+      "tenants"
+     ],
+     "a": "athletes",
+     "vi": "Hàng nghìn vận động viên từ hơn hai trăm quốc gia đến thành phố và thị trưởng chào đón họ bằng một buổi lễ lớn.",
+     "why": "athlete = vận động viên (người thi đấu thể thao, đặc biệt điền kinh).",
+     "new": [
+      {
+       "w": "mayor",
+       "vi": "thị trưởng"
+      },
+      {
+       "w": "ceremony",
+       "vi": "buổi lễ"
+      }
+     ],
+     "tw": "athletes"
+    },
+    {
+     "type": "mc",
+     "ctx": "Club newsletter",
+     "s": "The club is proud of its oldest member, a former ___ who still swims every morning although he is almost eighty years old.",
+     "o": [
+      "sportsman",
+      "salesman",
+      "neighbour"
+     ],
+     "a": "sportsman",
+     "vi": "Câu lạc bộ tự hào về thành viên lớn tuổi nhất, một cựu vận động viên vẫn bơi mỗi sáng dù gần tám mươi tuổi.",
+     "why": "sportsman = người chơi thể thao (nam); nữ: sportswoman; chung: athlete.",
+     "new": [
+      {
+       "w": "former",
+       "vi": "trước đây"
+      }
+     ],
+     "tw": "sportsman",
+     "ipa": "/ˈspɔːrts.mən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Project meeting",
+     "s": "Don't just ___ that everyone has read the email; ask them directly, because several colleagues were on holiday last week.",
+     "o": [
+      "assume",
+      "prove",
+      "deny"
+     ],
+     "a": "assume",
+     "vi": "Đừng chỉ giả định rằng ai cũng đọc email; hãy hỏi trực tiếp vì vài đồng nghiệp đã nghỉ phép tuần trước.",
+     "why": "assume (that) = cho rằng, giả định điều gì đúng khi chưa chắc.",
+     "new": [
+      {
+       "w": "colleagues",
+       "vi": "đồng nghiệp"
+      }
+     ],
+     "tw": "assume",
+     "ipa": "/əˈsuːm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Teacher's speech",
+     "s": "Students who have a ___ for their subject usually work harder, so good teachers try to make every lesson as interesting as possible.",
+     "o": [
+      "passion",
+      "permission",
+      "pension"
+     ],
+     "a": "passion",
+     "vi": "Học sinh có niềm đam mê môn học thường học chăm hơn nên giáo viên giỏi cố làm mọi bài học thật thú vị.",
+     "why": "have a passion for sth = có niềm đam mê với điều gì; passion = đam mê mãnh liệt.",
+     "tw": "passion"
+    },
+    {
+     "type": "mc",
+     "ctx": "Workplace survey",
+     "s": "Many employees say that a high salary is less important than a sense of ___ when they complete a difficult task successfully.",
+     "o": [
+      "achievement",
+      "agreement",
+      "advertisement"
+     ],
+     "a": "achievement",
+     "vi": "Nhiều nhân viên nói lương cao ít quan trọng hơn cảm giác thành tựu khi hoàn thành thành công một việc khó.",
+     "why": "a sense of achievement = cảm giác thành tựu khi hoàn thành điều khó; achieve (v) = đạt được.",
+     "new": [
+      {
+       "w": "salary",
+       "vi": "tiền lương"
+      }
+     ],
+     "tw": "achievement"
+    },
+    {
+     "type": "mc",
+     "ctx": "Company news",
+     "s": "After ten years in the sales department, Mr Brown was offered the ___ of regional director, which meant a higher salary and more responsibility.",
+     "o": [
+      "position",
+      "pollution",
+      "patience"
+     ],
+     "a": "position",
+     "vi": "Sau mười năm ở phòng kinh doanh, ông Brown được đề nghị vị trí giám đốc khu vực, nghĩa là lương cao hơn và trách nhiệm lớn hơn.",
+     "why": "position = vị trí công việc/chức vụ (apply for a position); còn là vị trí đặt, tư thế, địa vị.",
+     "new": [
+      {
+       "w": "responsibility",
+       "vi": "trách nhiệm"
+      }
+     ],
+     "tw": "position",
+     "ipa": "/pəˈzɪʃ.ən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking class",
+     "s": "To clean fresh ___, you should scrub the shells under cold water and throw away any that stay open after you tap them.",
+     "o": [
+      "mussels",
+      "carrots",
+      "noodles"
+     ],
+     "a": "mussels",
+     "vi": "Để làm sạch vẹm tươi, bạn nên cọ vỏ dưới nước lạnh và bỏ những con vẫn mở sau khi gõ nhẹ.",
+     "why": "mussel = con vẹm/trai biển (động vật thân mềm hai mảnh vỏ, ăn được).",
+     "new": [
+      {
+       "w": "scrub",
+       "vi": "cọ rửa"
+      },
+      {
+       "w": "shells",
+       "vi": "vỏ"
+      }
+     ],
+     "tw": "mussels"
+    },
+    {
+     "type": "mc",
+     "ctx": "Market visit",
+     "s": "Because ___ become tough if they are cooked for too long, the chef fries them for only two minutes on each side.",
+     "o": [
+      "scallops",
+      "potatoes",
+      "onions"
+     ],
+     "a": "scallops",
+     "vi": "Vì sò điệp dai nếu nấu quá lâu nên đầu bếp chiên chỉ hai phút mỗi mặt.",
+     "why": "scallop = sò điệp (hải sản có vỏ hình quạt, thịt trắng mềm).",
+     "new": [
+      {
+       "w": "tough",
+       "vi": "dai"
+      }
+     ],
+     "tw": "scallops"
+    },
+    {
+     "type": "mc",
+     "ctx": "House hunting",
+     "s": "The flat is perfect for commuters because it is just around the corner ___ the metro, whereas the other apartments are a long bus ride away.",
+     "o": [
+      "from",
+      "of",
+      "with"
+     ],
+     "a": "from",
+     "vi": "Căn hộ lý tưởng cho người đi làm vì ở ngay gần tàu điện, trong khi các căn khác cách một chuyến xe buýt dài.",
+     "why": "be (just) around the corner from + địa điểm = ở ngay gần chỗ đó (nghĩa đen: nearby).",
+     "new": [
+      {
+       "w": "commuters",
+       "vi": "người đi làm xa"
+      }
+     ],
+     "tw": "from"
+    },
+    {
+     "type": "mc",
+     "ctx": "Exam time",
+     "s": "Students are becoming more nervous because the final exams are just ___, and they have only two weeks left to revise.",
+     "o": [
+      "around the corner",
+      "out of order",
+      "on the table"
+     ],
+     "a": "around the corner",
+     "vi": "Học sinh ngày càng lo vì kỳ thi cuối kỳ sắp đến và chỉ còn hai tuần để ôn.",
+     "why": "be (just) around the corner (thời gian) = sắp đến rồi; không nói về vị trí.",
+     "new": [
+      {
+       "w": "revise",
+       "vi": "ôn tập"
+      }
+     ],
+     "tw": "around the corner"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hotel reception",
+     "s": "If you need to buy medicine tonight, there is a small shop just ___ the corner that stays open until midnight.",
+     "o": [
+      "around",
+      "across",
+      "under"
+     ],
+     "a": "around",
+     "vi": "Nếu tối nay bạn cần mua thuốc, có một cửa hàng nhỏ ngay gần đây mở đến nửa đêm.",
+     "why": "There's + danh từ + (just) around the corner = có ... ở ngay gần đây.",
+     "tw": "around"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel guide",
+     "s": "Golden beaches ___ along the coast for more than fifty kilometres, which makes the region ideal for long walks and cycling.",
+     "o": [
+      "stretch",
+      "reduce",
+      "bend"
+     ],
+     "a": "stretch",
+     "vi": "Những bãi biển vàng trải dài dọc bờ biển hơn năm mươi cây số, rất lý tưởng để đi bộ và đạp xe dài.",
+     "why": "stretch = kéo dài, trải dài (thời gian hoặc không gian); stretch from A to B.",
+     "new": [
+      {
+       "w": "coast",
+       "vi": "bờ biển"
+      }
+     ],
+     "tw": "stretch",
+     "ipa": "/stretʃ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Apartment ad",
+     "s": "The flat comes with its own ___, which is a huge advantage in a crowded area where residents often circle the block for half an hour.",
+     "o": [
+      "parking space",
+      "dining table",
+      "fire exit"
+     ],
+     "a": "parking space",
+     "vi": "Căn hộ có chỗ đỗ xe riêng, một lợi thế lớn ở khu đông đúc nơi cư dân thường chạy quanh dãy nhà nửa tiếng.",
+     "why": "parking space = chỗ đỗ xe (một ô cho một xe); car park = bãi đỗ xe.",
+     "new": [
+      {
+       "w": "residents",
+       "vi": "cư dân"
+      },
+      {
+       "w": "circle",
+       "vi": "đi vòng quanh"
+      }
+     ],
+     "tw": "parking space",
+     "ipa": "/ˈkɑː pɑːk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Career advice",
+     "s": "Nursing can be a very ___ job, since nurses often work long shifts and have to make serious decisions quickly.",
+     "o": [
+      "stressful",
+      "peaceful",
+      "flexible"
+     ],
+     "a": "stressful",
+     "vi": "Điều dưỡng có thể là nghề rất căng thẳng vì điều dưỡng thường làm ca dài và phải quyết định nghiêm trọng thật nhanh.",
+     "why": "stressful = gây căng thẳng (nói về việc/tình huống); stressed = cảm thấy căng thẳng (nói về người).",
+     "new": [
+      {
+       "w": "shifts",
+       "vi": "ca làm việc"
+      }
+     ],
+     "tw": "stressful",
+     "ipa": "/ˈstresfl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Office chat",
+     "s": "My manager looked very ___ this morning, so I offered to take over some of her emails while she prepared for the board meeting.",
+     "o": [
+      "stressed",
+      "relaxed",
+      "generous"
+     ],
+     "a": "stressed",
+     "vi": "Sáng nay quản lý trông rất căng thẳng nên tôi đề nghị nhận bớt email giúp khi cô chuẩn bị họp hội đồng.",
+     "why": "stressed = (người) cảm thấy căng thẳng; stressful = (việc) gây căng thẳng.",
+     "new": [
+      {
+       "w": "board meeting",
+       "vi": "cuộc họp hội đồng quản trị"
+      }
+     ],
+     "tw": "stressed",
+     "ipa": "/strest/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Choosing a university",
+     "s": "Although the town is cheap and friendly, some students complain that it has almost no ___, since all the cafés close at nine o'clock.",
+     "o": [
+      "nightlife",
+      "weather",
+      "harvest"
+     ],
+     "a": "nightlife",
+     "vi": "Dù thị trấn rẻ và thân thiện, vài sinh viên phàn nàn gần như không có cuộc sống về đêm vì quán cà phê đều đóng lúc chín giờ.",
+     "why": "nightlife = cuộc sống về đêm (quán bar, câu lạc bộ, nhạc sống).",
+     "tw": "nightlife",
+     "ipa": "/ˈnaɪtlaɪf/"
+    },
+    {
+     "type": "mc",
+     "ctx": "School trip",
+     "s": "Teachers hope that ___ such as visiting art galleries and learning folk songs will help pupils understand the traditions of their region.",
+     "o": [
+      "cultural activities",
+      "safety rules",
+      "tax forms"
+     ],
+     "a": "cultural activities",
+     "vi": "Giáo viên hy vọng các hoạt động văn hóa như tham quan phòng tranh và học dân ca sẽ giúp học sinh hiểu truyền thống vùng mình.",
+     "why": "cultural activities = hoạt động văn hóa (bảo tàng, nhà hát, triển lãm, lễ hội).",
+     "new": [
+      {
+       "w": "folk songs",
+       "vi": "dân ca"
+      },
+      {
+       "w": "traditions",
+       "vi": "truyền thống"
+      }
+     ],
+     "tw": "cultural activities",
+     "ipa": "/ˈkʌltʃərəl ækˈtɪvətiz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family discussion",
+     "s": "We chose to live in a small town where the ___ is low, so our children can walk to school without any worry.",
+     "o": [
+      "crime rate",
+      "tax rate",
+      "birth date"
+     ],
+     "a": "crime rate",
+     "vi": "Chúng tôi chọn sống ở thị trấn nhỏ nơi tỷ lệ tội phạm thấp, nên con có thể đi bộ đến trường mà không lo lắng.",
+     "why": "crime rate = tỷ lệ tội phạm (số vụ phạm tội so với dân số).",
+     "tw": "crime rate",
+     "ipa": "/kraɪm reɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hostel review",
+     "s": "Our room was small, but for twenty dollars a night it was excellent ___ for money, because it included breakfast, laundry and fast Wi-Fi.",
+     "o": [
+      "value",
+      "bargain",
+      "payment"
+     ],
+     "a": "value",
+     "vi": "Phòng nhỏ nhưng với hai mươi đô một đêm thì rất đáng tiền vì gồm bữa sáng, giặt đồ và Wi-Fi nhanh.",
+     "why": "good value for money = đáng đồng tiền; nhớ cả cụm: good value (for money).",
+     "new": [
+      {
+       "w": "laundry",
+       "vi": "giặt giũ"
+      }
+     ],
+     "tw": "value"
+    },
+    {
+     "type": "mc",
+     "ctx": "Class description",
+     "s": "Our English class is a ___ of young students and retired workers, so the discussions are often more interesting than the textbook.",
+     "o": [
+      "mix",
+      "mask",
+      "map"
+     ],
+     "a": "mix",
+     "vi": "Lớp tiếng Anh của chúng tôi là sự pha trộn giữa sinh viên trẻ và người đã nghỉ hưu nên các buổi thảo luận thường thú vị hơn sách giáo khoa.",
+     "why": "a mix of A and B = sự pha trộn giữa A và B.",
+     "new": [
+      {
+       "w": "retired",
+       "vi": "đã nghỉ hưu"
+      }
+     ],
+     "tw": "mix"
+    },
+    {
+     "type": "mc",
+     "ctx": "Noisy street",
+     "s": "I heard shouting outside my window, so I looked out to see what was ___ and noticed that a crowd had gathered near the bank.",
+     "o": [
+      "going on",
+      "going up",
+      "going off"
+     ],
+     "a": "going on",
+     "vi": "Tôi nghe tiếng la hét ngoài cửa sổ nên nhìn ra xem chuyện gì đang diễn ra và thấy đám đông tụ tập gần ngân hàng.",
+     "why": "be going on = đang diễn ra; What's going on? = Chuyện gì đang xảy ra?",
+     "new": [
+      {
+       "w": "gathered",
+       "vi": "tụ tập"
+      }
+     ],
+     "tw": "going on"
+    },
+    {
+     "type": "mc",
+     "ctx": "Product review",
+     "s": "The phone looked attractive, but it proved to be ___ value for money, since the battery lasted only half a day and the screen cracked easily.",
+     "o": [
+      "poor",
+      "fair",
+      "rich"
+     ],
+     "a": "poor",
+     "vi": "Chiếc điện thoại trông hấp dẫn nhưng hóa ra không đáng tiền vì pin chỉ dùng nửa ngày và màn hình dễ nứt.",
+     "why": "poor value for money = không đáng đồng tiền (trả nhiều nhưng nhận ít); đối lập: good value for money.",
+     "new": [
+      {
+       "w": "cracked",
+       "vi": "nứt"
+      }
+     ],
+     "tw": "poor"
+    },
+    {
+     "type": "mc",
+     "ctx": "Rainy night",
+     "s": "Since the last train had already left, we decided to ___ a taxi instead of waiting two hours at the cold station.",
+     "o": [
+      "get",
+      "pay",
+      "miss"
+     ],
+     "a": "get",
+     "vi": "Vì chuyến tàu cuối đã chạy, chúng tôi quyết định bắt taxi thay vì đợi hai tiếng ở nhà ga lạnh.",
+     "why": "get/take the bus = đi/bắt xe buýt; get a taxi, get the train tương tự.",
+     "tw": "get"
+    },
+    {
+     "type": "mc",
+     "ctx": "Restaurant opening",
+     "s": "The new chef, who trained in Italy, is ___ cooking pasta from scratch, so customers can taste the difference immediately.",
+     "o": [
+      "good at",
+      "fond to",
+      "tired at"
+     ],
+     "a": "good at",
+     "vi": "Đầu bếp mới, từng học ở Ý, nấu mì ống từ đầu rất giỏi nên khách nếm là thấy khác biệt ngay.",
+     "why": "be good at cooking sth = nấu món gì đó giỏi; be good at + V-ing/danh từ.",
+     "new": [
+      {
+       "w": "from scratch",
+       "vi": "từ đầu, tự làm"
+      }
+     ],
+     "tw": "good at"
+    },
+    {
+     "type": "mc",
+     "ctx": "Creative kitchen",
+     "s": "My mother is very creative, and she always ___ new dishes by mixing leftovers with herbs from her little balcony garden.",
+     "o": [
+      "comes up with",
+      "gets out of",
+      "puts up with"
+     ],
+     "a": "comes up with",
+     "vi": "Mẹ tôi rất sáng tạo và luôn nghĩ ra món mới bằng cách trộn đồ thừa với rau thơm từ vườn ban công nhỏ.",
+     "why": "come up with sth = nghĩ ra (ý tưởng, giải pháp, kế hoạch).",
+     "new": [
+      {
+       "w": "leftovers",
+       "vi": "đồ ăn thừa"
+      },
+      {
+       "w": "herbs",
+       "vi": "rau thơm"
+      }
+     ],
+     "tw": "comes up with"
+    },
+    {
+     "type": "mc",
+     "ctx": "Photography club",
+     "s": "Many photographers travel to this region every autumn to capture the beautiful ___, particularly when the hills turn orange and red.",
+     "o": [
+      "scenery",
+      "machinery",
+      "delivery"
+     ],
+     "a": "scenery",
+     "vi": "Nhiều nhiếp ảnh gia đến vùng này mỗi mùa thu để chụp phong cảnh đẹp, đặc biệt khi đồi chuyển màu cam và đỏ.",
+     "why": "scenery = phong cảnh thiên nhiên (không đếm được, không có -s).",
+     "new": [
+      {
+       "w": "capture",
+       "vi": "ghi lại"
+      }
+     ],
+     "tw": "scenery",
+     "ipa": "/ˈsiː.nər.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Career change",
+     "s": "After working in a bank for fifteen years, Sam dreamed of the day when he could ___ a farm and live far from the city.",
+     "o": [
+      "own",
+      "owe",
+      "open"
+     ],
+     "a": "own",
+     "vi": "Sau mười lăm năm làm ngân hàng, Sam mơ đến ngày có thể sở hữu một trang trại và sống xa thành phố.",
+     "why": "own a farm = sở hữu một trang trại; own (v) = sở hữu; owner = chủ sở hữu.",
+     "tw": "own"
+    },
+    {
+     "type": "mc",
+     "ctx": "Village life",
+     "s": "In the past, nearly every family in the valley used to ___ a pig or a few ducks in the yard, which gave them meat and eggs.",
+     "o": [
+      "keep",
+      "wear",
+      "spend"
+     ],
+     "a": "keep",
+     "vi": "Ngày xưa, gần như nhà nào trong thung lũng cũng nuôi một con lợn hoặc vài con vịt ngoài sân, cho họ thịt và trứng.",
+     "why": "keep animals = nuôi động vật (gia súc, gia cầm) làm nghề hoặc để lấy sản phẩm.",
+     "new": [
+      {
+       "w": "valley",
+       "vi": "thung lũng"
+      }
+     ],
+     "tw": "keep"
+    },
+    {
+     "type": "mc",
+     "ctx": "Climate report",
+     "s": "If the soil becomes too salty, farmers will no longer be able to ___ crops there, which could cause a serious food shortage.",
+     "o": [
+      "grow",
+      "drive",
+      "print"
+     ],
+     "a": "grow",
+     "vi": "Nếu đất nhiễm mặn quá, nông dân sẽ không còn trồng trọt được ở đó, có thể gây thiếu lương thực nghiêm trọng.",
+     "why": "grow crops = trồng cây nông nghiệp (lúa, ngô, lúa mạch...).",
+     "new": [
+      {
+       "w": "soil",
+       "vi": "đất"
+      },
+      {
+       "w": "shortage",
+       "vi": "sự thiếu hụt"
+      }
+     ],
+     "tw": "grow"
+    },
+    {
+     "type": "mc",
+     "ctx": "Weather news",
+     "s": "Heavy storms destroyed a large part of this year's ___, which means that the price of vegetables will probably rise next month.",
+     "o": [
+      "crop",
+      "coast",
+      "cloud"
+     ],
+     "a": "crop",
+     "vi": "Bão lớn phá hủy phần lớn vụ mùa năm nay, nghĩa là giá rau có thể tăng vào tháng tới.",
+     "why": "crop = cây trồng nông nghiệp hoặc vụ mùa thu hoạch; cash crop = cây bán lấy tiền.",
+     "new": [
+      {
+       "w": "destroyed",
+       "vi": "phá hủy"
+      }
+     ],
+     "tw": "crop",
+     "ipa": "/krɒp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cold climate farming",
+     "s": "In northern regions where summers are short, farmers often plant ___ instead of rice, since it grows well in cool weather.",
+     "o": [
+      "barley",
+      "bamboo",
+      "banana"
+     ],
+     "a": "barley",
+     "vi": "Ở vùng phía bắc nơi mùa hè ngắn, nông dân thường trồng lúa mạch thay vì lúa gạo vì nó mọc tốt khi trời mát.",
+     "why": "barley = lúa mạch (dùng làm bia, bánh mì, thức ăn gia súc).",
+     "tw": "barley",
+     "ipa": "/ˈbɑː.li/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Job fair",
+     "s": "Modern ___ relies on drones and sensors to measure water and soil conditions, which helps farmers use less water and produce more food.",
+     "o": [
+      "farming",
+      "fishing",
+      "shopping"
+     ],
+     "a": "farming",
+     "vi": "Nghề nông hiện đại dựa vào máy bay không người lái và cảm biến để đo nước và đất, giúp nông dân dùng ít nước hơn và làm ra nhiều lương thực hơn.",
+     "why": "farming = nghề nông, việc làm nông (không đếm được); farmer = nông dân.",
+     "new": [
+      {
+       "w": "drones",
+       "vi": "máy bay không người lái"
+      },
+      {
+       "w": "sensors",
+       "vi": "cảm biến"
+      }
+     ],
+     "tw": "farming",
+     "ipa": "/ˈfɑː.mɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Early flight",
+     "s": "We must be ___ at four tomorrow, so please set two alarms in case one of them fails to ring.",
+     "o": [
+      "up",
+      "out",
+      "off"
+     ],
+     "a": "up",
+     "vi": "Ngày mai chúng ta phải dậy lúc bốn giờ, nên hãy đặt hai báo thức phòng khi một cái không kêu.",
+     "why": "be up at + giờ = đã dậy/ra khỏi giường lúc mấy giờ (ví dụ: I'm up at six).",
+     "new": [
+      {
+       "w": "alarms",
+       "vi": "báo thức"
+      }
+     ],
+     "tw": "up"
+    },
+    {
+     "type": "mc",
+     "ctx": "Moving plans",
+     "s": "Although it is peaceful to live in a ___, there is only one bus a day, which makes it difficult for teenagers to attend evening classes.",
+     "o": [
+      "village",
+      "metropolis",
+      "airport"
+     ],
+     "a": "village",
+     "vi": "Dù sống trong làng thì yên bình, chỉ có một chuyến xe buýt mỗi ngày nên thanh thiếu niên khó đi học buổi tối.",
+     "why": "live in a village = sống trong một ngôi làng; village (n) = làng, thôn.",
+     "new": [
+      {
+       "w": "attend",
+       "vi": "tham dự"
+      }
+     ],
+     "tw": "village"
+    },
+    {
+     "type": "mc",
+     "ctx": "Job hunting",
+     "s": "Don't refuse a good chance when it ___; opportunities like this may not appear again for several years.",
+     "o": [
+      "comes along",
+      "goes off",
+      "falls out"
+     ],
+     "a": "comes along",
+     "vi": "Đừng từ chối cơ hội tốt khi nó xuất hiện; cơ hội như vậy có thể vài năm mới có lại.",
+     "why": "come along = xuất hiện, đến (thường nói về xe cộ hoặc cơ hội); cũng nghĩa đi cùng.",
+     "new": [
+      {
+       "w": "opportunities",
+       "vi": "cơ hội"
+      }
+     ],
+     "tw": "comes along"
+    },
+    {
+     "type": "mc",
+     "ctx": "Giving directions",
+     "s": "Drive straight for two kilometres, and when you reach the ___ with the petrol station, turn left towards the airport.",
+     "o": [
+      "junction",
+      "platform",
+      "ceiling"
+     ],
+     "a": "junction",
+     "vi": "Lái thẳng hai cây số, khi tới giao lộ có trạm xăng thì rẽ trái hướng sân bay.",
+     "why": "junction = giao lộ, ngã tư/ngã ba (nơi các đường gặp nhau).",
+     "tw": "junction",
+     "ipa": "/ˈdʒʌŋkʃn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Mountain road",
+     "s": "The accident happened at a dangerous ___ in the road, where drivers cannot see cars coming from the opposite direction.",
+     "o": [
+      "bend",
+      "hole",
+      "bridge"
+     ],
+     "a": "bend",
+     "vi": "Tai nạn xảy ra ở khúc cua nguy hiểm trên đường, nơi tài xế không thấy xe từ hướng ngược lại.",
+     "why": "a bend (in the road) = khúc cua, đoạn đường cong; a sharp bend = khúc cua gấp.",
+     "new": [
+      {
+       "w": "opposite",
+       "vi": "đối diện"
+      }
+     ],
+     "tw": "bend"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cycling route",
+     "s": "After about a kilometre, the river path slowly ___ to the right, and you will see the old stone mill on the hill.",
+     "o": [
+      "bends",
+      "ends",
+      "sends"
+     ],
+     "a": "bends",
+     "vi": "Sau khoảng một cây số, đường ven sông từ từ uốn sang phải và bạn sẽ thấy cối xay đá cổ trên đồi.",
+     "why": "bend (to the left/right) = (đường) cua, uốn cong sang trái/phải; động từ bend – bent – bent.",
+     "new": [
+      {
+       "w": "mill",
+       "vi": "cối xay"
+      }
+     ],
+     "tw": "bends"
+    },
+    {
+     "type": "mc",
+     "ctx": "Road safety",
+     "s": "Drivers must stop whenever someone steps onto the ___, and those who ignore this rule can lose their licence.",
+     "o": [
+      "pedestrian crossing",
+      "speed bump",
+      "petrol station"
+     ],
+     "a": "pedestrian crossing",
+     "vi": "Tài xế phải dừng khi có người bước lên vạch sang đường, và ai phớt lờ quy tắc này có thể mất bằng lái.",
+     "why": "pedestrian crossing = vạch sang đường cho người đi bộ (Anh-Anh); Anh-Mỹ: crosswalk.",
+     "new": [
+      {
+       "w": "licence",
+       "vi": "bằng lái"
+      },
+      {
+       "w": "ignore",
+       "vi": "phớt lờ"
+      }
+     ],
+     "tw": "pedestrian crossing",
+     "ipa": "/pəˈdestriən ˈkrɒsɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "US traffic rules",
+     "s": "In many American cities, drivers must stop for anyone who is standing at a ___, even if there are no traffic lights.",
+     "o": [
+      "crosswalk",
+      "airport",
+      "garage"
+     ],
+     "a": "crosswalk",
+     "vi": "Ở nhiều thành phố Mỹ, tài xế phải dừng cho bất cứ ai đứng ở vạch sang đường, ngay cả khi không có đèn giao thông.",
+     "why": "crosswalk = vạch sang đường cho người đi bộ (Anh-Mỹ); Anh-Anh: pedestrian crossing.",
+     "tw": "crosswalk",
+     "ipa": "/ˈkrɔːs.wɔːk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Safety campaign",
+     "s": "The advertisement warns teenagers about ___ the road with headphones on, because they cannot hear approaching cars or horns.",
+     "o": [
+      "crossing",
+      "painting",
+      "crashing"
+     ],
+     "a": "crossing",
+     "vi": "Quảng cáo cảnh báo thanh thiếu niên về việc sang đường khi đeo tai nghe vì họ không nghe thấy xe đến hoặc tiếng còi.",
+     "why": "crossing the road = sang đường, băng qua đường; cross the road.",
+     "new": [
+      {
+       "w": "approaching",
+       "vi": "đang đến gần"
+      },
+      {
+       "w": "horns",
+       "vi": "còi xe"
+      }
+     ],
+     "tw": "crossing"
+    },
+    {
+     "type": "mc",
+     "ctx": "Learning to drive",
+     "s": "Before taking the test, you have to memorise the meaning of every ___, such as stop, no entry and give way.",
+     "o": [
+      "road sign",
+      "bank loan",
+      "dinner menu"
+     ],
+     "a": "road sign",
+     "vi": "Trước khi thi, bạn phải nhớ nghĩa mọi biển báo giao thông, chẳng hạn dừng, cấm vào và nhường đường.",
+     "why": "road sign = biển báo giao thông; traffic sign cũng dùng.",
+     "new": [
+      {
+       "w": "memorise",
+       "vi": "ghi nhớ"
+      }
+     ],
+     "tw": "road sign",
+     "ipa": "/ˈrəʊd saɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Police warning",
+     "s": "The police fined him because he ignored the ___ rule on the mountain road, which is famous for its dangerous curves.",
+     "o": [
+      "no overtaking",
+      "no smoking",
+      "no parking"
+     ],
+     "a": "no overtaking",
+     "vi": "Cảnh sát phạt anh vì anh phớt lờ quy định cấm vượt trên đường núi nổi tiếng với những khúc cua nguy hiểm.",
+     "why": "no overtaking = cấm vượt (biển báo hoặc quy định); overtake = vượt xe khác.",
+     "new": [
+      {
+       "w": "fined",
+       "vi": "phạt tiền"
+      },
+      {
+       "w": "curves",
+       "vi": "khúc cua"
+      }
+     ],
+     "tw": "no overtaking",
+     "ipa": "/ˌnəʊ ˌəʊvəˈteɪkɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Driving test",
+     "s": "It is illegal to ___ another vehicle when you are approaching a junction, because you might not see cars coming from the side.",
+     "o": [
+      "overtake",
+      "borrow",
+      "announce"
+     ],
+     "a": "overtake",
+     "vi": "Vượt xe khác khi đang tiến gần giao lộ là bất hợp pháp vì bạn có thể không thấy xe đến từ bên cạnh.",
+     "why": "overtake sth/sb = vượt (xe khác); quá khứ overtook; quá khứ phân từ overtaken.",
+     "new": [
+      {
+       "w": "illegal",
+       "vi": "bất hợp pháp"
+      }
+     ],
+     "tw": "overtake"
+    },
+    {
+     "type": "mc",
+     "ctx": "Traffic fine",
+     "s": "He received a letter from the police because he had driven well above the ___ on the motorway, and he had to pay a heavy fine.",
+     "o": [
+      "speed limit",
+      "road map",
+      "phone number"
+     ],
+     "a": "speed limit",
+     "vi": "Anh nhận thư từ cảnh sát vì lái vượt xa giới hạn tốc độ trên đường cao tốc và phải nộp phạt nặng.",
+     "why": "speed limit = giới hạn tốc độ (tốc độ tối đa cho phép).",
+     "new": [
+      {
+       "w": "heavy",
+       "vi": "nặng"
+      }
+     ],
+     "tw": "speed limit",
+     "ipa": "/ˈspiːd ˌlɪmɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel safety",
+     "s": "Although driving on the ___ is faster than using local roads, tired drivers should stop at a service station every two hours.",
+     "o": [
+      "motorway",
+      "pavement",
+      "stairway"
+     ],
+     "a": "motorway",
+     "vi": "Dù lái trên đường cao tốc nhanh hơn đường địa phương, tài xế mệt nên dừng ở trạm dịch vụ mỗi hai tiếng.",
+     "why": "motorway = đường cao tốc (Anh-Anh); Anh-Mỹ: highway/freeway.",
+     "new": [
+      {
+       "w": "service station",
+       "vi": "trạm dịch vụ"
+      }
+     ],
+     "tw": "motorway",
+     "ipa": "/ˈməʊtəweɪ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Driving instructor",
+     "s": "Learner drivers are advised to use the ___ lane until they feel confident, and only then move out to overtake a lorry.",
+     "o": [
+      "inside",
+      "outside",
+      "upside"
+     ],
+     "a": "inside",
+     "vi": "Người mới lái được khuyên dùng làn trong cho đến khi tự tin, rồi mới chuyển ra làn ngoài vượt xe tải.",
+     "why": "inside lane = làn gần lề/làn chậm trên đường cao tốc (Anh); outside lane = làn nhanh.",
+     "new": [
+      {
+       "w": "learner",
+       "vi": "người mới học"
+      }
+     ],
+     "tw": "inside"
+    },
+    {
+     "type": "mc",
+     "ctx": "Driving theory",
+     "s": "You should not stay in the ___ lane for a long time, because it is intended for overtaking rather than for steady driving.",
+     "o": [
+      "outside",
+      "inside",
+      "indoor"
+     ],
+     "a": "outside",
+     "vi": "Bạn không nên ở lâu trong làn ngoài vì nó dành cho việc vượt, không phải chạy đều.",
+     "why": "outside lane = làn xa lề/làn nhanh để vượt trên đường cao tốc (Anh); inside lane = làn chậm.",
+     "new": [
+      {
+       "w": "steady",
+       "vi": "đều đặn"
+      }
+     ],
+     "tw": "outside"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Our new sofa was too soft, so after a week my father bought a firm armchair instead. He says it feels much better for his back when he reads the newspaper. What does \"firm\" mean?",
+     "o": [
+      "chắc, cứng vừa phải, không lún",
+      "mềm và rất êm",
+      "cũ và rẻ tiền"
+     ],
+     "a": "chắc, cứng vừa phải, không lún",
+     "vi": "Chiếc sofa mới quá mềm nên sau một tuần bố tôi mua một chiếc ghế bành chắc thay thế. Ông nói ngồi đọc báo thoải mái hơn nhiều cho lưng.",
+     "why": "a firm armchair = ghế bành chắc, không lún; firm (adj) = cứng vừa phải, vững.",
+     "noblank": true,
+     "say": "Our new sofa was too soft, so after a week my father bought a firm armchair instead. He says it feels much better for his back when he reads the newspaper.",
+     "new": [
+      {
+       "w": "instead",
+       "vi": "thay vào đó"
+      }
+     ],
+     "tw": "a firm armchair"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The estate agent showed us a carpeted room on the second floor. Because the floor was covered with thick carpet, our footsteps made almost no noise. What does \"carpeted\" mean?",
+     "o": [
+      "được trải thảm",
+      "được sơn mới",
+      "có nhiều cửa sổ"
+     ],
+     "a": "được trải thảm",
+     "vi": "Nhân viên bất động sản cho chúng tôi xem một căn phòng trải thảm ở tầng hai. Vì sàn phủ thảm dày nên bước chân hầu như không phát ra tiếng.",
+     "why": "carpeted = được trải thảm kín sàn; trái nghĩa với floorboards/tiled (sàn gỗ/gạch).",
+     "noblank": true,
+     "say": "The estate agent showed us a carpeted room on the second floor. Because the floor was covered with thick carpet, our footsteps made almost no noise.",
+     "new": [
+      {
+       "w": "estate agent",
+       "vi": "nhân viên môi giới"
+      },
+      {
+       "w": "footsteps",
+       "vi": "tiếng bước chân"
+      }
+     ],
+     "tw": "a carpeted room"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "My cousin does not have a glamorous job, but she earns a reasonable amount of money. It is enough to pay her bills, save a little and take one holiday a year. What does \"a reasonable amount of money\" mean?",
+     "o": [
+      "một khoản tiền khá ổn, đủ dùng",
+      "một khoản tiền khổng lồ",
+      "một khoản tiền rất ít ỏi"
+     ],
+     "a": "một khoản tiền khá ổn, đủ dùng",
+     "vi": "Em họ tôi không có công việc hào nhoáng, nhưng kiếm được một khoản tiền khá ổn. Đủ để trả hóa đơn, tiết kiệm một ít và đi nghỉ mỗi năm một lần.",
+     "why": "a reasonable amount of money = một khoản tiền vừa phải, đủ sống; reasonable = hợp lý, ở mức chấp nhận được.",
+     "noblank": true,
+     "say": "My cousin does not have a glamorous job, but she earns a reasonable amount of money. It is enough to pay her bills, save a little and take one holiday a year.",
+     "new": [
+      {
+       "w": "glamorous",
+       "vi": "hào nhoáng"
+      },
+      {
+       "w": "bills",
+       "vi": "hóa đơn"
+      }
+     ],
+     "tw": "earn a reasonable amount of money",
+     "ipa": "/ˈriː.zən.ə.bəl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The restaurant charges a little more than its neighbours, yet it is good value for money. The portions are generous, and the ingredients are fresh and locally grown. What does \"good value for money\" mean?",
+     "o": [
+      "đáng tiền, chất lượng xứng với giá",
+      "rẻ nhưng chất lượng tệ",
+      "đắt và không đáng"
+     ],
+     "a": "đáng tiền, chất lượng xứng với giá",
+     "vi": "Nhà hàng tính giá cao hơn chút so với hàng xóm, nhưng rất đáng tiền. Khẩu phần đầy đặn, nguyên liệu tươi và trồng tại địa phương.",
+     "why": "good value for money = đáng đồng tiền (chất lượng tương xứng với giá); value = giá trị.",
+     "noblank": true,
+     "say": "The restaurant charges a little more than its neighbours, yet it is good value for money. The portions are generous, and the ingredients are fresh and locally grown.",
+     "new": [
+      {
+       "w": "portions",
+       "vi": "khẩu phần"
+      },
+      {
+       "w": "generous",
+       "vi": "hào phóng, đầy đặn"
+      },
+      {
+       "w": "ingredients",
+       "vi": "nguyên liệu"
+      }
+     ],
+     "tw": "good value for money"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "When we returned the bicycles one day late, the shop charged us a small fine. The owner explained that this rule is written clearly on the rental form. What does \"charged\" mean here?",
+     "o": [
+      "tính/thu tiền",
+      "tặng miễn phí",
+      "hoàn lại tiền"
+     ],
+     "a": "tính/thu tiền",
+     "vi": "Khi chúng tôi trả xe đạp trễ một ngày, cửa hàng thu của chúng tôi một khoản phạt nhỏ. Chủ tiệm giải thích quy định này ghi rõ trong phiếu thuê.",
+     "why": "charge sb (an amount) = tính/thu tiền ai; thì quá khứ charged.",
+     "noblank": true,
+     "say": "When we returned the bicycles one day late, the shop charged us a small fine. The owner explained that this rule is written clearly on the rental form.",
+     "new": [
+      {
+       "w": "fine",
+       "vi": "tiền phạt"
+      },
+      {
+       "w": "rental",
+       "vi": "việc cho thuê"
+      }
+     ],
+     "tw": "charge someone",
+     "ipa": "/tʃɑːrdʒ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The café charged us for the water, although we had not ordered it. After a short discussion, the waiter removed the amount from the bill. What does \"charged us for\" mean?",
+     "o": [
+      "tính tiền chúng tôi cho",
+      "cảm ơn chúng tôi vì",
+      "đưa nước cho chúng tôi"
+     ],
+     "a": "tính tiền chúng tôi cho",
+     "vi": "Quán cà phê tính tiền nước của chúng tôi dù chúng tôi không gọi. Sau một cuộc trao đổi ngắn, người phục vụ bỏ khoản đó khỏi hóa đơn.",
+     "why": "charge sb for sth = tính tiền ai cho khoản gì; giới từ đi sau là for.",
+     "noblank": true,
+     "say": "The café charged us for the water, although we had not ordered it. After a short discussion, the waiter removed the amount from the bill.",
+     "new": [
+      {
+       "w": "discussion",
+       "vi": "cuộc trao đổi"
+      },
+      {
+       "w": "amount",
+       "vi": "khoản tiền"
+      }
+     ],
+     "tw": "charge someone for something",
+     "ipa": "/tʃɑːrdʒ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Our landlord decided to rent the flat to a young couple for two years. They pay the money every month and have signed a long contract. What does \"rent\" mean here?",
+     "o": [
+      "thuê/cho thuê lâu dài",
+      "mua đứt",
+      "sửa chữa"
+     ],
+     "a": "thuê/cho thuê lâu dài",
+     "vi": "Chủ nhà quyết định cho một cặp trẻ thuê căn hộ trong hai năm. Họ trả tiền hằng tháng và đã ký hợp đồng dài hạn.",
+     "why": "rent = thuê dài hạn (nhà, căn hộ); hire = thuê ngắn hạn (xe, đồ dùng một ngày).",
+     "noblank": true,
+     "say": "Our landlord decided to rent the flat to a young couple for two years. They pay the money every month and have signed a long contract.",
+     "new": [
+      {
+       "w": "landlord",
+       "vi": "chủ nhà"
+      },
+      {
+       "w": "contract",
+       "vi": "hợp đồng"
+      }
+     ],
+     "tw": "rent",
+     "ipa": "/rent/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "We hired a car for three days to visit the national park. Instead of buying a vehicle, we simply paid a daily fee and gave the keys back at the airport. What does \"hired\" mean here?",
+     "o": [
+      "thuê trong thời gian ngắn",
+      "mua trả góp",
+      "cho mượn miễn phí"
+     ],
+     "a": "thuê trong thời gian ngắn",
+     "vi": "Chúng tôi thuê một chiếc xe ba ngày để đi vườn quốc gia. Thay vì mua xe, chúng tôi chỉ trả phí hằng ngày rồi trả chìa khóa ở sân bay.",
+     "why": "hire = thuê ngắn hạn (xe đạp, xe hơi, dụng cụ) trong vài giờ/ngày; rent = thuê dài hạn.",
+     "noblank": true,
+     "say": "We hired a car for three days to visit the national park. Instead of buying a vehicle, we simply paid a daily fee and gave the keys back at the airport.",
+     "new": [
+      {
+       "w": "vehicle",
+       "vi": "phương tiện"
+      }
+     ],
+     "tw": "hire",
+     "ipa": "/haɪr/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The shop assistant was talking to a customer when I asked about the price. \"Hold on a second,\" she said, and she finished writing the receipt first. What does \"Hold on a second\" mean?",
+     "o": [
+      "Chờ một chút",
+      "Đi ngay đi",
+      "Tôi không biết"
+     ],
+     "a": "Chờ một chút",
+     "vi": "Nhân viên đang nói chuyện với khách thì tôi hỏi giá. “Chờ một chút,” cô nói rồi viết xong hóa đơn trước.",
+     "why": "hold on a second = chờ một chút (lịch sự, văn nói); cũng dùng khi nghe điện thoại.",
+     "noblank": true,
+     "say": "The shop assistant was talking to a customer when I asked about the price. \"Hold on a second,\" she said, and she finished writing the receipt first.",
+     "new": [
+      {
+       "w": "receipt",
+       "vi": "hóa đơn"
+      }
+     ],
+     "tw": "hold on a second",
+     "ipa": "/həʊld ɒn ə ˈsek.ənd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The report is long and complicated, but essentially it says one thing: people who sleep less than six hours are more likely to become ill. What does \"essentially\" mean?",
+     "o": [
+      "về cơ bản, thực chất",
+      "hoàn toàn không",
+      "thỉnh thoảng"
+     ],
+     "a": "về cơ bản, thực chất",
+     "vi": "Bản báo cáo dài và phức tạp, nhưng thực chất nó nói một điều: người ngủ dưới sáu tiếng dễ bị bệnh hơn.",
+     "why": "essentially = về cơ bản, thực chất (đi trước điều cốt lõi); adj: essential.",
+     "noblank": true,
+     "say": "The report is long and complicated, but essentially it says one thing: people who sleep less than six hours are more likely to become ill.",
+     "new": [
+      {
+       "w": "complicated",
+       "vi": "phức tạp"
+      }
+     ],
+     "tw": "essentially",
+     "ipa": "/ɪˈsen.ʃəl.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "For this job, good communication is essential. Without it, even a brilliant engineer cannot explain ideas to the team or work well with customers. What does \"essential\" mean?",
+     "o": [
+      "thiết yếu, không thể thiếu",
+      "không quan trọng",
+      "dễ dàng"
+     ],
+     "a": "thiết yếu, không thể thiếu",
+     "vi": "Với công việc này, giao tiếp tốt là thiết yếu. Thiếu nó, ngay cả kỹ sư xuất sắc cũng không thể giải thích ý tưởng cho nhóm hay làm việc tốt với khách hàng.",
+     "why": "essential (adj) = thiết yếu, không thể thiếu; also a noun: essentials = những thứ cần thiết.",
+     "noblank": true,
+     "say": "For this job, good communication is essential. Without it, even a brilliant engineer cannot explain ideas to the team or work well with customers.",
+     "new": [
+      {
+       "w": "brilliant",
+       "vi": "xuất sắc"
+      }
+     ],
+     "tw": "essential",
+     "ipa": "/ɪˈsen.ʃəl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Everyone in the village was surprised when the old man built a swimming pool. \"He must have a potload of money,\" my aunt whispered. What does \"a potload of money\" mean?",
+     "o": [
+      "rất nhiều tiền",
+      "một ít tiền lẻ",
+      "khoản nợ lớn"
+     ],
+     "a": "rất nhiều tiền",
+     "vi": "Mọi người trong làng ngạc nhiên khi ông lão xây hồ bơi. “Chắc ông ấy có cả đống tiền,” dì tôi thì thầm.",
+     "why": "a potload of money = cả đống tiền (khẩu ngữ, không trang trọng).",
+     "noblank": true,
+     "say": "Everyone in the village was surprised when the old man built a swimming pool. \"He must have a potload of money,\" my aunt whispered.",
+     "new": [
+      {
+       "w": "whispered",
+       "vi": "thì thầm"
+      }
+     ],
+     "tw": "a potload of money",
+     "ipa": "/ə ˈpɒt.ləʊd əv ˈmʌn.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "When smartphones first appeared, they revolutionized the way we take photos, pay bills and find our way around cities. Few people could imagine life without them today. What does \"revolutionized\" mean?",
+     "o": [
+      "thay đổi hoàn toàn",
+      "làm chậm lại",
+      "làm hỏng"
+     ],
+     "a": "thay đổi hoàn toàn",
+     "vi": "Khi điện thoại thông minh xuất hiện, chúng thay đổi hoàn toàn cách ta chụp ảnh, trả hóa đơn và tìm đường trong thành phố. Ngày nay ít ai tưởng tượng được cuộc sống thiếu chúng.",
+     "why": "revolutionize = làm thay đổi hoàn toàn một lĩnh vực; danh từ: revolution; tính từ: revolutionary.",
+     "noblank": true,
+     "say": "When smartphones first appeared, they revolutionized the way we take photos, pay bills and find our way around cities. Few people could imagine life without them today.",
+     "new": [
+      {
+       "w": "imagine",
+       "vi": "tưởng tượng"
+      }
+     ],
+     "tw": "revolutionize",
+     "ipa": "/ˌrev.əˈluː.ʃən.aɪz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The scientist's idea was revolutionary, so many experts rejected it at first. Only years later did they accept that it had completely changed the field. What does \"revolutionary\" mean?",
+     "o": [
+      "mang tính cách mạng, hoàn toàn mới",
+      "cũ kỹ, lỗi thời",
+      "không quan trọng"
+     ],
+     "a": "mang tính cách mạng, hoàn toàn mới",
+     "vi": "Ý tưởng của nhà khoa học mang tính cách mạng nên lúc đầu nhiều chuyên gia bác bỏ. Nhiều năm sau họ mới chấp nhận nó đã thay đổi hoàn toàn lĩnh vực.",
+     "why": "revolutionary (adj) = mang tính cách mạng, hoàn toàn mới; cũng là danh từ chỉ nhà cách mạng.",
+     "noblank": true,
+     "say": "The scientist's idea was revolutionary, so many experts rejected it at first. Only years later did they accept that it had completely changed the field.",
+     "new": [
+      {
+       "w": "rejected",
+       "vi": "bác bỏ"
+      },
+      {
+       "w": "field",
+       "vi": "lĩnh vực"
+      }
+     ],
+     "tw": "revolutionary"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Some historians describe the arrival of cheap computers as a revolution in office work. Within a decade, typewriters disappeared and most letters were sent by email. What does \"revolution\" mean here?",
+     "o": [
+      "cuộc cách mạng, thay đổi lớn",
+      "sự thất bại",
+      "buổi họp"
+     ],
+     "a": "cuộc cách mạng, thay đổi lớn",
+     "vi": "Một số nhà sử học mô tả sự xuất hiện của máy tính giá rẻ như cuộc cách mạng trong công việc văn phòng. Trong một thập kỷ, máy đánh chữ biến mất và hầu hết thư được gửi qua email.",
+     "why": "revolution = cuộc cách mạng, sự thay đổi lớn và nhanh (a revolution in + lĩnh vực).",
+     "noblank": true,
+     "say": "Some historians describe the arrival of cheap computers as a revolution in office work. Within a decade, typewriters disappeared and most letters were sent by email.",
+     "new": [
+      {
+       "w": "typewriters",
+       "vi": "máy đánh chữ"
+      },
+      {
+       "w": "decade",
+       "vi": "thập kỷ"
+      }
+     ],
+     "tw": "revolution",
+     "ipa": "/ˌrev.əˈluː.ʃən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The professor argued that science should serve the betterment of society, not only the profits of big companies. Without that aim, he said, new technology might help only a few people. What does \"betterment of society\" mean?",
+     "o": [
+      "sự cải thiện xã hội",
+      "sự suy thoái xã hội",
+      "lợi nhuận công ty"
+     ],
+     "a": "sự cải thiện xã hội",
+     "vi": "Giáo sư cho rằng khoa học nên phục vụ việc cải thiện xã hội, không chỉ lợi nhuận của các công ty lớn. Thiếu mục tiêu đó, công nghệ mới có thể chỉ giúp được vài người.",
+     "why": "betterment of sth = sự cải thiện (trang trọng); thường dùng: the betterment of society.",
+     "noblank": true,
+     "say": "The professor argued that science should serve the betterment of society, not only the profits of big companies. Without that aim, he said, new technology might help only a few people.",
+     "new": [
+      {
+       "w": "profits",
+       "vi": "lợi nhuận"
+      }
+     ],
+     "tw": "betterment of something",
+     "ipa": "/ˈbet̬.ɚ.mənt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Doctors have helped humanity by finding cures for deadly diseases such as smallpox. Because of their work, millions of people around the world now live longer and healthier lives. What does \"humanity\" mean?",
+     "o": [
+      "nhân loại, loài người",
+      "động vật hoang dã",
+      "chính phủ"
+     ],
+     "a": "nhân loại, loài người",
+     "vi": "Các bác sĩ đã giúp nhân loại bằng cách tìm ra thuốc chữa các bệnh chết người như đậu mùa. Nhờ họ, hàng triệu người trên thế giới sống lâu và khỏe hơn.",
+     "why": "humanity = nhân loại, loài người (cũng có nghĩa lòng nhân đạo).",
+     "noblank": true,
+     "say": "Doctors have helped humanity by finding cures for deadly diseases such as smallpox. Because of their work, millions of people around the world now live longer and healthier lives.",
+     "new": [
+      {
+       "w": "cures",
+       "vi": "phương thuốc chữa"
+      },
+      {
+       "w": "deadly",
+       "vi": "chết người"
+      }
+     ],
+     "tw": "humanity",
+     "ipa": "/hjuːˈmæn.ə.t̬i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "At the stadium, the crowd went wild when the jumper broke the record. Nobody had ever jumped so high at this competition, and the old number was removed from the board. What does \"broke the record\" mean?",
+     "o": [
+      "phá kỷ lục",
+      "giữ nguyên kỷ lục",
+      "làm hỏng sân"
+     ],
+     "a": "phá kỷ lục",
+     "vi": "Tại sân vận động, đám đông náo nhiệt khi vận động viên nhảy phá kỷ lục. Chưa ai nhảy cao như vậy ở giải này, và con số cũ bị xóa khỏi bảng.",
+     "why": "break a record = phá kỷ lục (break – broke – broken); set a record = lập kỷ lục.",
+     "noblank": true,
+     "say": "At the stadium, the crowd went wild when the jumper broke the record. Nobody had ever jumped so high at this competition, and the old number was removed from the board.",
+     "new": [
+      {
+       "w": "crowd",
+       "vi": "đám đông"
+      },
+      {
+       "w": "went wild",
+       "vi": "phát cuồng"
+      }
+     ],
+     "tw": "break a record",
+     "ipa": "/rɪˈkɔːrd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The team celebrated loudly because their new roller coaster is a record breaker. It is the tallest and fastest ride in the country, so tickets sell out within minutes. What does \"record breaker\" mean?",
+     "o": [
+      "người/vật phá kỷ lục",
+      "người quản lý vé",
+      "nhà thiết kế"
+     ],
+     "a": "người/vật phá kỷ lục",
+     "vi": "Cả nhóm ăn mừng ồn ào vì tàu lượn mới là kỷ lục. Nó cao nhất và nhanh nhất cả nước nên vé bán hết trong vài phút.",
+     "why": "record breaker = người hoặc vật phá kỷ lục (cũng viết record-breaker).",
+     "noblank": true,
+     "say": "The team celebrated loudly because their new roller coaster is a record breaker. It is the tallest and fastest ride in the country, so tickets sell out within minutes.",
+     "new": [
+      {
+       "w": "roller coaster",
+       "vi": "tàu lượn siêu tốc"
+      }
+     ],
+     "tw": "record breaker",
+     "ipa": "/ˈrek.ɚd ˌbreɪ.kɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The athlete trains six days a week, whereas her sister, who works in an office, only goes to the gym on Sundays. She hopes to compete in the next national games. What does \"athlete\" mean?",
+     "o": [
+      "vận động viên",
+      "nhân viên văn phòng",
+      "huấn luyện viên"
+     ],
+     "a": "vận động viên",
+     "vi": "Vận động viên tập sáu ngày một tuần, còn chị gái cô làm văn phòng chỉ đến phòng gym vào Chủ nhật. Cô hy vọng thi đấu ở đại hội thể thao quốc gia tới.",
+     "why": "athlete = vận động viên (người thi đấu thể thao, đặc biệt điền kinh).",
+     "noblank": true,
+     "say": "The athlete trains six days a week, whereas her sister, who works in an office, only goes to the gym on Sundays. She hopes to compete in the next national games.",
+     "new": [
+      {
+       "w": "compete",
+       "vi": "thi đấu"
+      }
+     ],
+     "tw": "athlete",
+     "ipa": "/ˈæθ.liːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Everyone respected him as a true sportsman. He played tennis, rowed on the river and never complained when he lost, which made him popular among his rivals. What does \"sportsman\" mean?",
+     "o": [
+      "người chơi thể thao (nam)",
+      "nhà báo",
+      "người bán dụng cụ"
+     ],
+     "a": "người chơi thể thao (nam)",
+     "vi": "Mọi người kính trọng ông như một người chơi thể thao thực thụ. Ông chơi tennis, chèo thuyền trên sông và không bao giờ phàn nàn khi thua, nên được các đối thủ quý mến.",
+     "why": "sportsman = người chơi thể thao (nam); nữ: sportswoman; chung: athlete.",
+     "noblank": true,
+     "say": "Everyone respected him as a true sportsman. He played tennis, rowed on the river and never complained when he lost, which made him popular among his rivals.",
+     "new": [
+      {
+       "w": "rowed",
+       "vi": "chèo thuyền"
+      },
+      {
+       "w": "rivals",
+       "vi": "đối thủ"
+      }
+     ],
+     "tw": "sportsman",
+     "ipa": "/ˈspɔːrts.mən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "When the lights were off, I assumed the shop had closed early. However, the owner was simply repairing a broken switch at the back. What does \"assumed\" mean?",
+     "o": [
+      "cho rằng (khi chưa chắc)",
+      "biết chắc chắn",
+      "hỏi lại"
+     ],
+     "a": "cho rằng (khi chưa chắc)",
+     "vi": "Khi đèn tắt, tôi cho rằng cửa hàng đóng cửa sớm. Tuy nhiên chủ tiệm chỉ đang sửa công tắc hỏng ở phía sau.",
+     "why": "assume (that) = cho rằng, giả định điều gì đúng khi chưa chắc.",
+     "noblank": true,
+     "say": "When the lights were off, I assumed the shop had closed early. However, the owner was simply repairing a broken switch at the back.",
+     "new": [
+      {
+       "w": "switch",
+       "vi": "công tắc"
+      }
+     ],
+     "tw": "assume",
+     "ipa": "/əˈsuːm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Our chef has a passion for fresh food. Every morning he visits the market himself, talks to the farmers and chooses the best vegetables for the menu. What does \"passion\" mean here?",
+     "o": [
+      "niềm đam mê",
+      "nỗi sợ",
+      "thói quen xấu"
+     ],
+     "a": "niềm đam mê",
+     "vi": "Đầu bếp của chúng tôi có niềm đam mê thực phẩm tươi. Mỗi sáng ông tự đến chợ, trò chuyện với nông dân và chọn rau ngon nhất cho thực đơn.",
+     "why": "have a passion for sth = có niềm đam mê với điều gì; passion = đam mê mãnh liệt.",
+     "noblank": true,
+     "say": "Our chef has a passion for fresh food. Every morning he visits the market himself, talks to the farmers and chooses the best vegetables for the menu.",
+     "new": [
+      {
+       "w": "chef",
+       "vi": "đầu bếp"
+      }
+     ],
+     "tw": "have a passion for something",
+     "ipa": "/ˈpæʃ.ən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "After three weeks of coding, Tom finally made his first mobile app work. He said it gave him a real sense of achievement, even though the app was very simple. What does \"a sense of achievement\" mean?",
+     "o": [
+      "cảm giác thành tựu",
+      "cảm giác thất vọng",
+      "cảm giác buồn ngủ"
+     ],
+     "a": "cảm giác thành tựu",
+     "vi": "Sau ba tuần lập trình, Tom cuối cùng làm ứng dụng di động đầu tiên chạy được. Anh nói nó mang lại cảm giác thành tựu thực sự dù ứng dụng rất đơn giản.",
+     "why": "a sense of achievement = cảm giác thành tựu khi hoàn thành điều khó; achieve (v) = đạt được.",
+     "noblank": true,
+     "say": "After three weeks of coding, Tom finally made his first mobile app work. He said it gave him a real sense of achievement, even though the app was very simple.",
+     "new": [
+      {
+       "w": "coding",
+       "vi": "lập trình"
+      }
+     ],
+     "tw": "a sense of achievement",
+     "ipa": "/ə sens əv əˈtʃiːv.mənt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The advertisement said the company had an open position for a designer. Candidates needed three years of experience and had to send a portfolio before Friday. What does \"position\" mean here?",
+     "o": [
+      "vị trí công việc, chức vụ",
+      "vị trí địa lý trên bản đồ",
+      "tư thế đứng"
+     ],
+     "a": "vị trí công việc, chức vụ",
+     "vi": "Quảng cáo cho biết công ty còn một vị trí tuyển nhà thiết kế. Ứng viên cần ba năm kinh nghiệm và phải gửi hồ sơ năng lực trước thứ Sáu.",
+     "why": "position = vị trí công việc/chức vụ (apply for a position); còn là vị trí đặt, tư thế, địa vị.",
+     "noblank": true,
+     "say": "The advertisement said the company had an open position for a designer. Candidates needed three years of experience and had to send a portfolio before Friday.",
+     "new": [
+      {
+       "w": "candidates",
+       "vi": "ứng viên"
+      },
+      {
+       "w": "portfolio",
+       "vi": "hồ sơ năng lực"
+      }
+     ],
+     "tw": "position",
+     "ipa": "/pəˈzɪʃ.ən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "On the coast, many families collect mussels from the rocks at low tide. They boil them for a few minutes until the shells open, then eat them with lemon. What does \"mussels\" mean?",
+     "o": [
+      "vẹm, con trai biển",
+      "cua lớn",
+      "rong biển"
+     ],
+     "a": "vẹm, con trai biển",
+     "vi": "Ở bờ biển, nhiều gia đình nhặt vẹm trên đá lúc thủy triều xuống. Họ luộc vài phút đến khi vỏ mở rồi ăn với chanh.",
+     "why": "mussel = con vẹm/trai biển (động vật thân mềm hai mảnh vỏ, ăn được).",
+     "noblank": true,
+     "say": "On the coast, many families collect mussels from the rocks at low tide. They boil them for a few minutes until the shells open, then eat them with lemon.",
+     "new": [
+      {
+       "w": "low tide",
+       "vi": "thủy triều xuống"
+      }
+     ],
+     "tw": "mussel",
+     "ipa": "/ˈmʌs.əl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Scallops are expensive because divers collect many of them by hand from the sea floor. The soft white meat inside the fan-shaped shell is very popular in fine restaurants. What does \"scallops\" mean?",
+     "o": [
+      "sò điệp",
+      "cá hồi",
+      "tôm hùm"
+     ],
+     "a": "sò điệp",
+     "vi": "Sò điệp đắt vì thợ lặn nhặt nhiều con bằng tay dưới đáy biển. Phần thịt trắng mềm trong vỏ hình quạt rất được ưa chuộng ở nhà hàng cao cấp.",
+     "why": "scallop = sò điệp (hải sản có vỏ hình quạt, thịt trắng mềm).",
+     "noblank": true,
+     "say": "Scallops are expensive because divers collect many of them by hand from the sea floor. The soft white meat inside the fan-shaped shell is very popular in fine restaurants.",
+     "new": [
+      {
+       "w": "divers",
+       "vi": "thợ lặn"
+      },
+      {
+       "w": "fan-shaped",
+       "vi": "hình quạt"
+      }
+     ],
+     "tw": "scallop",
+     "ipa": "/ˈskæləp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "My daughter's school is just around the corner from our house, so I don't need to drive her. We walk together every morning, whatever the weather. What does \"just around the corner from\" mean?",
+     "o": [
+      "ở ngay gần",
+      "ở rất xa",
+      "ở phía sau"
+     ],
+     "a": "ở ngay gần",
+     "vi": "Trường của con gái tôi ở ngay gần nhà nên tôi không cần chở cháu. Chúng tôi đi bộ cùng nhau mỗi sáng, dù thời tiết ra sao.",
+     "why": "be (just) around the corner from + địa điểm = ở ngay gần chỗ đó (nghĩa đen: nearby).",
+     "noblank": true,
+     "say": "My daughter's school is just around the corner from our house, so I don't need to drive her. We walk together every morning, whatever the weather.",
+     "new": [
+      {
+       "w": "whatever",
+       "vi": "dù thế nào"
+      }
+     ],
+     "tw": "be just around the corner from",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Don't worry about the long winter. Spring is just around the corner, and soon the days will be longer and warmer. What does \"just around the corner\" mean here?",
+     "o": [
+      "sắp đến",
+      "đã kết thúc",
+      "rất xa"
+     ],
+     "a": "sắp đến",
+     "vi": "Đừng lo về mùa đông dài. Mùa xuân sắp đến rồi và chẳng bao lâu ngày sẽ dài và ấm hơn.",
+     "why": "be (just) around the corner (thời gian) = sắp đến rồi; không nói về vị trí.",
+     "noblank": true,
+     "say": "Don't worry about the long winter. Spring is just around the corner, and soon the days will be longer and warmer.",
+     "tw": "be just around the corner",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Don't take the car to the post office. There's a post box around the corner, so you can post your letter in half a minute. What does \"around the corner\" mean here?",
+     "o": [
+      "ở ngay gần đây",
+      "ở nước ngoài",
+      "ở trên tầng cao"
+     ],
+     "a": "ở ngay gần đây",
+     "vi": "Đừng lái xe đến bưu điện. Có thùng thư ở ngay gần đây nên bạn gửi thư trong nửa phút.",
+     "why": "There's + danh từ + (just) around the corner = có ... ở ngay gần đây.",
+     "noblank": true,
+     "say": "Don't take the car to the post office. There's a post box around the corner, so you can post your letter in half a minute.",
+     "new": [
+      {
+       "w": "post box",
+       "vi": "thùng thư"
+      }
+     ],
+     "tw": "around the corner",
+     "ipa": "/əˌraʊnd ðə ˈkɔː.nər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The desert stretches for hundreds of kilometres in every direction. Travellers must carry plenty of water, because they may not see a village for days. What does \"stretches\" mean?",
+     "o": [
+      "trải dài",
+      "thu hẹp lại",
+      "biến mất"
+     ],
+     "a": "trải dài",
+     "vi": "Sa mạc trải dài hàng trăm cây số theo mọi hướng. Du khách phải mang nhiều nước vì có thể nhiều ngày không thấy làng nào.",
+     "why": "stretch = kéo dài, trải dài (thời gian hoặc không gian); stretch from A to B.",
+     "noblank": true,
+     "say": "The desert stretches for hundreds of kilometres in every direction. Travellers must carry plenty of water, because they may not see a village for days.",
+     "new": [
+      {
+       "w": "desert",
+       "vi": "sa mạc"
+      }
+     ],
+     "tw": "stretch",
+     "ipa": "/stretʃ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Because there is a shortage of parking spaces in the old town, many residents leave their cars outside and take the bus. The council wants to build a new car park next year. What does \"parking spaces\" mean?",
+     "o": [
+      "chỗ đỗ xe",
+      "trạm xăng",
+      "làn đường"
+     ],
+     "a": "chỗ đỗ xe",
+     "vi": "Vì thiếu chỗ đỗ xe ở khu phố cổ nên nhiều cư dân để xe bên ngoài và đi xe buýt. Hội đồng muốn xây bãi đỗ mới vào năm tới.",
+     "why": "parking space = chỗ đỗ xe (một ô cho một xe); car park = bãi đỗ xe.",
+     "noblank": true,
+     "say": "Because there is a shortage of parking spaces in the old town, many residents leave their cars outside and take the bus. The council wants to build a new car park next year.",
+     "new": [
+      {
+       "w": "shortage",
+       "vi": "sự thiếu hụt"
+      }
+     ],
+     "tw": "parking space",
+     "ipa": "/ˈkɑː pɑːk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Moving house is one of the most stressful experiences in life. You have to pack everything, change your address and deal with many forms, all within a few weeks. What does \"stressful\" mean?",
+     "o": [
+      "gây căng thẳng",
+      "thú vị",
+      "rẻ tiền"
+     ],
+     "a": "gây căng thẳng",
+     "vi": "Chuyển nhà là một trong những trải nghiệm căng thẳng nhất đời. Bạn phải đóng gói mọi thứ, đổi địa chỉ và xử lý nhiều giấy tờ, tất cả trong vài tuần.",
+     "why": "stressful = gây căng thẳng (nói về việc/tình huống); stressed = cảm thấy căng thẳng (nói về người).",
+     "noblank": true,
+     "say": "Moving house is one of the most stressful experiences in life. You have to pack everything, change your address and deal with many forms, all within a few weeks.",
+     "new": [
+      {
+       "w": "deal with",
+       "vi": "xử lý"
+      }
+     ],
+     "tw": "stressful",
+     "ipa": "/ˈstresfl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "I always feel stressed when I have to speak in public. My hands shake and my heart beats faster, but breathing slowly usually helps me calm down. What does \"stressed\" mean?",
+     "o": [
+      "cảm thấy căng thẳng",
+      "cảm thấy buồn ngủ",
+      "cảm thấy đói"
+     ],
+     "a": "cảm thấy căng thẳng",
+     "vi": "Tôi luôn thấy căng thẳng khi phải nói trước đám đông. Tay run và tim đập nhanh hơn, nhưng thở chậm thường giúp tôi bình tĩnh.",
+     "why": "stressed = (người) cảm thấy căng thẳng; stressful = (việc) gây căng thẳng.",
+     "noblank": true,
+     "say": "I always feel stressed when I have to speak in public. My hands shake and my heart beats faster, but breathing slowly usually helps me calm down.",
+     "new": [
+      {
+       "w": "shake",
+       "vi": "run"
+      },
+      {
+       "w": "calm down",
+       "vi": "bình tĩnh lại"
+      }
+     ],
+     "tw": "stressed",
+     "ipa": "/strest/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The old town is quiet during the day, but its nightlife is lively. After dark, the streets fill with musicians, street food stalls and groups of friends. What does \"nightlife\" mean?",
+     "o": [
+      "cuộc sống về đêm",
+      "giấc ngủ ban đêm",
+      "thời tiết ban đêm"
+     ],
+     "a": "cuộc sống về đêm",
+     "vi": "Khu phố cổ yên tĩnh ban ngày nhưng cuộc sống về đêm sôi động. Sau khi trời tối, đường phố đầy nhạc sĩ, quầy đồ ăn đường phố và nhóm bạn.",
+     "why": "nightlife = cuộc sống về đêm (quán bar, câu lạc bộ, nhạc sống).",
+     "noblank": true,
+     "say": "The old town is quiet during the day, but its nightlife is lively. After dark, the streets fill with musicians, street food stalls and groups of friends.",
+     "new": [
+      {
+       "w": "lively",
+       "vi": "sôi động"
+      },
+      {
+       "w": "stalls",
+       "vi": "quầy hàng"
+      }
+     ],
+     "tw": "nightlife",
+     "ipa": "/ˈnaɪtlaɪf/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Our village has few shops, but there are many cultural activities during the summer. Local people organise dance festivals, craft workshops and poetry readings in the old temple. What does \"cultural activities\" mean?",
+     "o": [
+      "hoạt động văn hóa",
+      "hoạt động thể thao mạo hiểm",
+      "hoạt động mua sắm"
+     ],
+     "a": "hoạt động văn hóa",
+     "vi": "Làng chúng tôi ít cửa hàng nhưng có nhiều hoạt động văn hóa vào mùa hè. Người dân tổ chức lễ hội múa, lớp thủ công và buổi đọc thơ trong ngôi đền cổ.",
+     "why": "cultural activities = hoạt động văn hóa (bảo tàng, nhà hát, triển lãm, lễ hội).",
+     "noblank": true,
+     "say": "Our village has few shops, but there are many cultural activities during the summer. Local people organise dance festivals, craft workshops and poetry readings in the old temple.",
+     "new": [
+      {
+       "w": "craft",
+       "vi": "thủ công"
+      },
+      {
+       "w": "poetry",
+       "vi": "thơ"
+      }
+     ],
+     "tw": "cultural activities",
+     "ipa": "/ˈkʌltʃərəl ækˈtɪvətiz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Experts say that better street lighting can help lower the crime rate. When dark corners disappear, fewer people dare to steal, and residents feel safer at night. What does \"crime rate\" mean?",
+     "o": [
+      "tỷ lệ tội phạm",
+      "giá nhà đất",
+      "tốc độ xe"
+     ],
+     "a": "tỷ lệ tội phạm",
+     "vi": "Các chuyên gia nói chiếu sáng đường tốt hơn có thể giảm tỷ lệ tội phạm. Khi góc tối biến mất, ít người dám trộm cắp và cư dân thấy an toàn hơn vào ban đêm.",
+     "why": "crime rate = tỷ lệ tội phạm (số vụ phạm tội so với dân số).",
+     "noblank": true,
+     "say": "Experts say that better street lighting can help lower the crime rate. When dark corners disappear, fewer people dare to steal, and residents feel safer at night.",
+     "new": [
+      {
+       "w": "lighting",
+       "vi": "hệ thống chiếu sáng"
+      },
+      {
+       "w": "dare",
+       "vi": "dám"
+      }
+     ],
+     "tw": "crime rate",
+     "ipa": "/kraɪm reɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The tour is not the cheapest, yet most visitors agree that it is good value for money. The guide is knowledgeable, the groups are small and lunch is included. What does \"good value for money\" mean?",
+     "o": [
+      "đáng đồng tiền",
+      "quá đắt",
+      "hoàn toàn miễn phí"
+     ],
+     "a": "đáng đồng tiền",
+     "vi": "Chuyến tham quan không rẻ nhất nhưng đa số du khách đồng ý nó rất đáng đồng tiền. Hướng dẫn viên am hiểu, nhóm nhỏ và có bữa trưa.",
+     "why": "good value for money = đáng đồng tiền; nhớ cả cụm: good value (for money).",
+     "noblank": true,
+     "say": "The tour is not the cheapest, yet most visitors agree that it is good value for money. The guide is knowledgeable, the groups are small and lunch is included.",
+     "new": [
+      {
+       "w": "knowledgeable",
+       "vi": "am hiểu"
+      }
+     ],
+     "tw": "good value for money",
+     "ipa": "/ɡʊd ˈvæljuː fə ˈmʌni/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The market sells a mix of fresh fruit, secondhand books and handmade jewellery. You never know what you will find, which is why people visit every Saturday. What does \"a mix of\" mean?",
+     "o": [
+      "sự pha trộn của",
+      "sự thiếu vắng của",
+      "sự lặp lại của"
+     ],
+     "a": "sự pha trộn của",
+     "vi": "Chợ bán sự pha trộn trái cây tươi, sách cũ và trang sức thủ công. Bạn không biết sẽ tìm thấy gì, vì vậy mọi người đến mỗi thứ Bảy.",
+     "why": "a mix of A and B = sự pha trộn giữa A và B.",
+     "noblank": true,
+     "say": "The market sells a mix of fresh fruit, secondhand books and handmade jewellery. You never know what you will find, which is why people visit every Saturday.",
+     "new": [
+      {
+       "w": "secondhand",
+       "vi": "đã qua sử dụng"
+      },
+      {
+       "w": "jewellery",
+       "vi": "trang sức"
+      }
+     ],
+     "tw": "a mix of",
+     "ipa": "/ə mɪks əv/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Is there anything going on in town this weekend? — Yes, a food festival is going on in the main square, and it lasts until Sunday evening. What does \"going on\" mean?",
+     "o": [
+      "đang diễn ra",
+      "đang kết thúc",
+      "bị hủy"
+     ],
+     "a": "đang diễn ra",
+     "vi": "Cuối tuần này trong thị trấn có gì đang diễn ra không? — Có, một lễ hội ẩm thực đang diễn ra ở quảng trường chính và kéo dài đến tối Chủ nhật.",
+     "why": "be going on = đang diễn ra; What's going on? = Chuyện gì đang xảy ra?",
+     "noblank": true,
+     "say": "Is there anything going on in town this weekend? — Yes, a food festival is going on in the main square, and it lasts until Sunday evening.",
+     "new": [
+      {
+       "w": "festival",
+       "vi": "lễ hội"
+      }
+     ],
+     "tw": "be going on",
+     "ipa": "/ˈɡəʊɪŋ ɒn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "We paid a lot for the weekend break, but it was poor value for money. The room was dirty, the pool was closed and breakfast was cold. What does \"poor value for money\" mean?",
+     "o": [
+      "không đáng đồng tiền",
+      "rất đáng đồng tiền",
+      "hoàn toàn miễn phí"
+     ],
+     "a": "không đáng đồng tiền",
+     "vi": "Chúng tôi trả nhiều cho kỳ nghỉ cuối tuần nhưng không đáng tiền. Phòng bẩn, hồ bơi đóng và bữa sáng nguội.",
+     "why": "poor value for money = không đáng đồng tiền (trả nhiều nhưng nhận ít); đối lập: good value for money.",
+     "noblank": true,
+     "say": "We paid a lot for the weekend break, but it was poor value for money. The room was dirty, the pool was closed and breakfast was cold.",
+     "new": [
+      {
+       "w": "break",
+       "vi": "kỳ nghỉ ngắn"
+      }
+     ],
+     "tw": "poor value for money"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "I don't own a car, so I get the tram to the university every morning. It is quick, cheap and stops right outside my faculty. What does \"get the tram\" mean?",
+     "o": [
+      "đi/bắt xe điện",
+      "sửa xe điện",
+      "bán xe điện"
+     ],
+     "a": "đi/bắt xe điện",
+     "vi": "Tôi không có xe hơi nên mỗi sáng đi tàu điện đến trường đại học. Nhanh, rẻ và dừng ngay trước khoa của tôi.",
+     "why": "get/take the bus = đi/bắt xe buýt; get a taxi, get the train tương tự.",
+     "noblank": true,
+     "say": "I don't own a car, so I get the tram to the university every morning. It is quick, cheap and stops right outside my faculty.",
+     "new": [
+      {
+       "w": "faculty",
+       "vi": "khoa"
+      }
+     ],
+     "tw": "get the bus"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Although my brother is good at cooking spicy curry, he never follows a recipe. He adds a little of everything and somehow it always tastes perfect. What does \"good at cooking\" mean?",
+     "o": [
+      "nấu ăn giỏi",
+      "ghét nấu ăn",
+      "sợ nấu ăn"
+     ],
+     "a": "nấu ăn giỏi",
+     "vi": "Dù anh trai tôi nấu cà ri cay giỏi, anh không bao giờ theo công thức. Anh thêm ít từ mọi thứ và bằng cách nào đó món luôn ngon.",
+     "why": "be good at cooking sth = nấu món gì đó giỏi; be good at + V-ing/danh từ.",
+     "noblank": true,
+     "say": "Although my brother is good at cooking spicy curry, he never follows a recipe. He adds a little of everything and somehow it always tastes perfect.",
+     "new": [
+      {
+       "w": "recipe",
+       "vi": "công thức"
+      }
+     ],
+     "tw": "be good at cooking something",
+     "ipa": "/bi ɡʊd æt ˈkʊkɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The engineers were stuck for weeks until a young intern came up with a simple solution. She suggested changing the order of two steps, which saved hours of work. What does \"came up with\" mean?",
+     "o": [
+      "nghĩ ra",
+      "từ chối",
+      "quên mất"
+     ],
+     "a": "nghĩ ra",
+     "vi": "Các kỹ sư bị kẹt nhiều tuần cho đến khi một thực tập sinh trẻ nghĩ ra giải pháp đơn giản. Cô đề xuất đổi thứ tự hai bước, tiết kiệm nhiều giờ.",
+     "why": "come up with sth = nghĩ ra (ý tưởng, giải pháp, kế hoạch).",
+     "noblank": true,
+     "say": "The engineers were stuck for weeks until a young intern came up with a simple solution. She suggested changing the order of two steps, which saved hours of work.",
+     "new": [
+      {
+       "w": "intern",
+       "vi": "thực tập sinh"
+      },
+      {
+       "w": "solution",
+       "vi": "giải pháp"
+      }
+     ],
+     "tw": "come up with something"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "I love the beautiful scenery in the countryside. The fields, rivers and distant mountains make me forget the noise of the city for a while. What does \"scenery\" mean?",
+     "o": [
+      "phong cảnh",
+      "tiếng ồn",
+      "đồ nội thất"
+     ],
+     "a": "phong cảnh",
+     "vi": "Tôi yêu phong cảnh đẹp ở vùng quê. Cánh đồng, sông và núi xa khiến tôi quên tiếng ồn thành phố một lúc.",
+     "why": "scenery = phong cảnh thiên nhiên (không đếm được, không có -s).",
+     "noblank": true,
+     "say": "I love the beautiful scenery in the countryside. The fields, rivers and distant mountains make me forget the noise of the city for a while.",
+     "new": [
+      {
+       "w": "distant",
+       "vi": "xa"
+      }
+     ],
+     "tw": "scenery",
+     "ipa": "/ˈsiː.nər.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Few young people can afford to own a farm today because land is so expensive. Most of them rent small fields or work for the families who already own large areas. What does \"own a farm\" mean?",
+     "o": [
+      "sở hữu một trang trại",
+      "thăm một trang trại",
+      "bán một trang trại"
+     ],
+     "a": "sở hữu một trang trại",
+     "vi": "Ngày nay ít người trẻ đủ tiền sở hữu trang trại vì đất quá đắt. Phần lớn thuê ruộng nhỏ hoặc làm cho các gia đình đã có diện tích lớn.",
+     "why": "own a farm = sở hữu một trang trại; own (v) = sở hữu; owner = chủ sở hữu.",
+     "noblank": true,
+     "say": "Few young people can afford to own a farm today because land is so expensive. Most of them rent small fields or work for the families who already own large areas.",
+     "new": [
+      {
+       "w": "afford",
+       "vi": "đủ khả năng chi trả"
+      }
+     ],
+     "tw": "own a farm",
+     "ipa": "/əʊn ə fɑːm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "It is not easy to keep animals in a small flat. They need space, exercise and regular visits to the vet, which is why most people choose a quiet pet like a fish. What does \"keep animals\" mean?",
+     "o": [
+      "nuôi động vật",
+      "săn động vật",
+      "vẽ động vật"
+     ],
+     "a": "nuôi động vật",
+     "vi": "Không dễ nuôi động vật trong căn hộ nhỏ. Chúng cần chỗ, vận động và khám thú y đều đặn, nên đa số chọn thú cưng yên lặng như cá.",
+     "why": "keep animals = nuôi động vật (gia súc, gia cầm) làm nghề hoặc để lấy sản phẩm.",
+     "noblank": true,
+     "say": "It is not easy to keep animals in a small flat. They need space, exercise and regular visits to the vet, which is why most people choose a quiet pet like a fish.",
+     "new": [
+      {
+       "w": "vet",
+       "vi": "bác sĩ thú y"
+      }
+     ],
+     "tw": "keep animals",
+     "ipa": "/kiːp ˈæn.ɪ.məlz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Many small farmers grow crops to earn money rather than just feed their families. They sell the rice at the market and use the profit to buy seeds for the next season. What does \"grow crops\" mean?",
+     "o": [
+      "trồng cây nông nghiệp",
+      "xây nhà kho",
+      "nuôi gia súc"
+     ],
+     "a": "trồng cây nông nghiệp",
+     "vi": "Nhiều nông dân nhỏ trồng cây để kiếm tiền chứ không chỉ nuôi gia đình. Họ bán gạo ở chợ và dùng lời mua hạt giống cho vụ sau.",
+     "why": "grow crops = trồng cây nông nghiệp (lúa, ngô, lúa mạch...).",
+     "noblank": true,
+     "say": "Many small farmers grow crops to earn money rather than just feed their families. They sell the rice at the market and use the profit to buy seeds for the next season.",
+     "new": [
+      {
+       "w": "seeds",
+       "vi": "hạt giống"
+      }
+     ],
+     "tw": "grow crops",
+     "ipa": "/ɡrəʊ krɒps/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Coffee is a major cash crop in the highlands, so thousands of families depend on it. When prices fall, they earn very little, even after months of hard work. What does \"crop\" mean?",
+     "o": [
+      "cây trồng nông nghiệp",
+      "máy cày",
+      "sản phẩm nhà máy"
+     ],
+     "a": "cây trồng nông nghiệp",
+     "vi": "Cà phê là cây trồng bán lấy tiền chủ lực ở vùng cao nên hàng nghìn gia đình sống nhờ nó. Khi giá giảm, họ kiếm rất ít dù làm việc vất vả nhiều tháng.",
+     "why": "crop = cây trồng nông nghiệp hoặc vụ mùa thu hoạch; cash crop = cây bán lấy tiền.",
+     "noblank": true,
+     "say": "Coffee is a major cash crop in the highlands, so thousands of families depend on it. When prices fall, they earn very little, even after months of hard work.",
+     "new": [
+      {
+       "w": "highlands",
+       "vi": "vùng cao"
+      },
+      {
+       "w": "depend on",
+       "vi": "phụ thuộc vào"
+      }
+     ],
+     "tw": "crop",
+     "ipa": "/krɒp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Barley is grown on some farms in Scotland. After the harvest, part of it is sold to breweries, and the rest is used to feed cattle during winter. What does \"barley\" mean?",
+     "o": [
+      "lúa mạch",
+      "khoai tây",
+      "hạt tiêu"
+     ],
+     "a": "lúa mạch",
+     "vi": "Lúa mạch được trồng ở một số trang trại ở Scotland. Sau thu hoạch, một phần bán cho nhà máy bia, phần còn lại dùng nuôi bò trong mùa đông.",
+     "why": "barley = lúa mạch (dùng làm bia, bánh mì, thức ăn gia súc).",
+     "noblank": true,
+     "say": "Barley is grown on some farms in Scotland. After the harvest, part of it is sold to breweries, and the rest is used to feed cattle during winter.",
+     "new": [
+      {
+       "w": "breweries",
+       "vi": "nhà máy bia"
+      },
+      {
+       "w": "cattle",
+       "vi": "gia súc"
+      }
+     ],
+     "tw": "barley",
+     "ipa": "/ˈbɑː.li/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Farming is not only physically difficult but also unpredictable. A single storm or a sudden fall in prices can destroy a year's income. What does \"farming\" mean?",
+     "o": [
+      "nghề nông",
+      "nghề dạy học",
+      "nghề lái xe"
+     ],
+     "a": "nghề nông",
+     "vi": "Nghề nông không chỉ vất vả về thể chất mà còn khó đoán. Một cơn bão hay giá giảm đột ngột có thể phá hủy thu nhập cả năm.",
+     "why": "farming = nghề nông, việc làm nông (không đếm được); farmer = nông dân.",
+     "noblank": true,
+     "say": "Farming is not only physically difficult but also unpredictable. A single storm or a sudden fall in prices can destroy a year's income.",
+     "new": [
+      {
+       "w": "unpredictable",
+       "vi": "khó đoán"
+      },
+      {
+       "w": "income",
+       "vi": "thu nhập"
+      }
+     ],
+     "tw": "farming",
+     "ipa": "/ˈfɑː.mɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The bakers are up at three every morning, long before the town wakes up. By the time customers arrive, the first bread is already hot on the shelves. What does \"are up at three\" mean?",
+     "o": [
+      "đã dậy lúc ba giờ",
+      "đi ngủ lúc ba giờ",
+      "đến muộn lúc ba giờ"
+     ],
+     "a": "đã dậy lúc ba giờ",
+     "vi": "Các thợ làm bánh dậy lúc ba giờ mỗi sáng, rất lâu trước khi thị trấn thức giấc. Khi khách đến, ổ bánh đầu tiên đã nóng trên kệ.",
+     "why": "be up at + giờ = đã dậy/ra khỏi giường lúc mấy giờ (ví dụ: I'm up at six).",
+     "noblank": true,
+     "say": "The bakers are up at three every morning, long before the town wakes up. By the time customers arrive, the first bread is already hot on the shelves.",
+     "new": [
+      {
+       "w": "shelves",
+       "vi": "kệ"
+      }
+     ],
+     "tw": "be up at",
+     "ipa": "/bi ʌp ət/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "People who live in a village often share vegetables and help each other during the harvest. This friendly custom is slowly disappearing as young residents move to the cities. What does \"live in a village\" mean?",
+     "o": [
+      "sống trong một ngôi làng",
+      "sống trên một con tàu",
+      "sống ở nước ngoài"
+     ],
+     "a": "sống trong một ngôi làng",
+     "vi": "Người sống trong làng thường chia sẻ rau và giúp nhau lúc thu hoạch. Phong tục thân thiện này dần mất đi khi người trẻ chuyển lên thành phố.",
+     "why": "live in a village = sống trong một ngôi làng; village (n) = làng, thôn.",
+     "noblank": true,
+     "say": "People who live in a village often share vegetables and help each other during the harvest. This friendly custom is slowly disappearing as young residents move to the cities.",
+     "new": [
+      {
+       "w": "custom",
+       "vi": "phong tục"
+      }
+     ],
+     "tw": "live in a village",
+     "ipa": "/lɪv ɪn ə ˈvɪl.ɪdʒ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "We were standing in the rain for ages, hoping a taxi would come along. Finally, a yellow cab appeared at the corner, and we jumped in. What does \"come along\" mean?",
+     "o": [
+      "xuất hiện, đi tới",
+      "rời đi",
+      "dừng hẳn"
+     ],
+     "a": "xuất hiện, đi tới",
+     "vi": "Chúng tôi đứng dưới mưa rất lâu, mong có taxi xuất hiện. Cuối cùng một chiếc taxi vàng hiện ra ở góc đường và chúng tôi nhảy lên.",
+     "why": "come along = xuất hiện, đến (thường nói về xe cộ hoặc cơ hội); cũng nghĩa đi cùng.",
+     "noblank": true,
+     "say": "We were standing in the rain for ages, hoping a taxi would come along. Finally, a yellow cab appeared at the corner, and we jumped in.",
+     "new": [
+      {
+       "w": "ages",
+       "vi": "rất lâu"
+      },
+      {
+       "w": "cab",
+       "vi": "taxi"
+      }
+     ],
+     "tw": "come along",
+     "ipa": "/kʌm əˈlɒŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Many accidents happen at this junction because the road is narrow and drivers cannot see traffic from the right. The council is planning to install a roundabout. What does \"junction\" mean?",
+     "o": [
+      "ngã tư, giao lộ",
+      "cầu vượt",
+      "bãi đỗ xe"
+     ],
+     "a": "ngã tư, giao lộ",
+     "vi": "Nhiều tai nạn xảy ra ở giao lộ này vì đường hẹp và tài xế không thấy xe từ bên phải. Hội đồng định lắp một vòng xuyến.",
+     "why": "junction = giao lộ, ngã tư/ngã ba (nơi các đường gặp nhau).",
+     "noblank": true,
+     "say": "Many accidents happen at this junction because the road is narrow and drivers cannot see traffic from the right. The council is planning to install a roundabout.",
+     "new": [
+      {
+       "w": "roundabout",
+       "vi": "vòng xuyến"
+      }
+     ],
+     "tw": "junction",
+     "ipa": "/ˈdʒʌŋkʃn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Just after the village there is a bend in the road, so cyclists should keep to the left side. Some drivers go too fast and cannot stop in time. What does \"a bend in the road\" mean?",
+     "o": [
+      "khúc cua trên đường",
+      "ổ gà trên đường",
+      "biển báo giao thông"
+     ],
+     "a": "khúc cua trên đường",
+     "vi": "Ngay sau làng có khúc cua trên đường nên người đạp xe nên đi bên trái. Một số tài xế đi quá nhanh và không dừng kịp.",
+     "why": "a bend (in the road) = khúc cua, đoạn đường cong; a sharp bend = khúc cua gấp.",
+     "noblank": true,
+     "say": "Just after the village there is a bend in the road, so cyclists should keep to the left side. Some drivers go too fast and cannot stop in time.",
+     "tw": "a bend (in the road)",
+     "ipa": "/bend/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The railway bends to the right near the station, which means trains must slow down. Passengers sometimes feel the carriage lean as it goes round. What does \"bends\" mean?",
+     "o": [
+      "uốn cong, cua",
+      "dừng lại",
+      "kéo dài thẳng"
+     ],
+     "a": "uốn cong, cua",
+     "vi": "Đường ray cua sang phải gần nhà ga nên tàu phải giảm tốc. Hành khách đôi khi cảm thấy toa nghiêng khi tàu đi vòng.",
+     "why": "bend (to the left/right) = (đường) cua, uốn cong sang trái/phải; động từ bend – bent – bent.",
+     "noblank": true,
+     "say": "The railway bends to the right near the station, which means trains must slow down. Passengers sometimes feel the carriage lean as it goes round.",
+     "new": [
+      {
+       "w": "carriage",
+       "vi": "toa tàu"
+      },
+      {
+       "w": "lean",
+       "vi": "nghiêng"
+      }
+     ],
+     "tw": "bend (to the left/right)",
+     "ipa": "/bend/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The council has painted a new pedestrian crossing outside the primary school. Since then, fewer children have been hurt, and parents feel more confident about the morning walk. What does \"pedestrian crossing\" mean?",
+     "o": [
+      "vạch sang đường cho người đi bộ",
+      "bãi đỗ xe buýt",
+      "đường cao tốc"
+     ],
+     "a": "vạch sang đường cho người đi bộ",
+     "vi": "Hội đồng đã sơn vạch sang đường mới trước trường tiểu học. Từ đó ít trẻ bị thương hơn và phụ huynh yên tâm hơn khi đưa con đi bộ buổi sáng.",
+     "why": "pedestrian crossing = vạch sang đường cho người đi bộ (Anh-Anh); Anh-Mỹ: crosswalk.",
+     "noblank": true,
+     "say": "The council has painted a new pedestrian crossing outside the primary school. Since then, fewer children have been hurt, and parents feel more confident about the morning walk.",
+     "new": [
+      {
+       "w": "primary",
+       "vi": "tiểu học"
+      },
+      {
+       "w": "confident",
+       "vi": "yên tâm"
+      }
+     ],
+     "tw": "pedestrian crossing",
+     "ipa": "/pəˈdestriən ˈkrɒsɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "An American friend told me to use the crosswalk instead of running across the busy street. She said it is not only safer but also required by law. What does \"crosswalk\" mean?",
+     "o": [
+      "vạch sang đường cho người đi bộ",
+      "dải phân cách đường",
+      "làn xe đạp"
+     ],
+     "a": "vạch sang đường cho người đi bộ",
+     "vi": "Một người bạn Mỹ bảo tôi dùng vạch sang đường thay vì chạy qua con phố đông. Cô nói như vậy không chỉ an toàn hơn mà còn bắt buộc theo luật.",
+     "why": "crosswalk = vạch sang đường cho người đi bộ (Anh-Mỹ); Anh-Anh: pedestrian crossing.",
+     "noblank": true,
+     "say": "An American friend told me to use the crosswalk instead of running across the busy street. She said it is not only safer but also required by law.",
+     "new": [
+      {
+       "w": "required",
+       "vi": "bắt buộc"
+      }
+     ],
+     "tw": "crosswalk",
+     "ipa": "/ˈkrɔːs.wɔːk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Crossing the road in this city can be difficult because motorbikes come from every direction. Locals advise tourists to walk slowly and steadily so that drivers can avoid them. What does \"crossing the road\" mean?",
+     "o": [
+      "sang đường",
+      "sửa đường",
+      "đi dọc theo đường"
+     ],
+     "a": "sang đường",
+     "vi": "Sang đường ở thành phố này có thể khó vì xe máy đến từ mọi hướng. Người địa phương khuyên du khách đi chậm và đều để tài xế tránh được.",
+     "why": "crossing the road = sang đường, băng qua đường; cross the road.",
+     "noblank": true,
+     "say": "Crossing the road in this city can be difficult because motorbikes come from every direction. Locals advise tourists to walk slowly and steadily so that drivers can avoid them.",
+     "new": [
+      {
+       "w": "steadily",
+       "vi": "đều đặn"
+      }
+     ],
+     "tw": "crossing the road"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "A new road sign has been put up near the school to remind drivers to slow down. It shows two children crossing, and it flashes when a car goes too fast. What does \"road sign\" mean?",
+     "o": [
+      "biển báo giao thông",
+      "tai nạn giao thông",
+      "giấy phép lái xe"
+     ],
+     "a": "biển báo giao thông",
+     "vi": "Một biển báo giao thông mới được dựng gần trường để nhắc tài xế giảm tốc. Biển hình hai đứa trẻ băng qua và nhấp nháy khi xe đi quá nhanh.",
+     "why": "road sign = biển báo giao thông; traffic sign cũng dùng.",
+     "noblank": true,
+     "say": "A new road sign has been put up near the school to remind drivers to slow down. It shows two children crossing, and it flashes when a car goes too fast.",
+     "new": [
+      {
+       "w": "flashes",
+       "vi": "nhấp nháy"
+      }
+     ],
+     "tw": "road sign",
+     "ipa": "/ˈrəʊd saɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "A sign saying no overtaking appears every few hundred metres on this hill road. Because the view ahead is limited, passing another car there could cause a head-on crash. What does \"no overtaking\" mean?",
+     "o": [
+      "cấm vượt",
+      "cấm đỗ xe",
+      "cấm rẽ trái"
+     ],
+     "a": "cấm vượt",
+     "vi": "Biển cấm vượt xuất hiện cứ vài trăm mét trên đường đồi này. Vì tầm nhìn phía trước hạn chế, vượt xe ở đó có thể gây va chạm trực diện.",
+     "why": "no overtaking = cấm vượt (biển báo hoặc quy định); overtake = vượt xe khác.",
+     "noblank": true,
+     "say": "A sign saying no overtaking appears every few hundred metres on this hill road. Because the view ahead is limited, passing another car there could cause a head-on crash.",
+     "new": [
+      {
+       "w": "head-on",
+       "vi": "trực diện"
+      }
+     ],
+     "tw": "no overtaking",
+     "ipa": "/ˌnəʊ ˌəʊvəˈteɪkɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "On the motorway, a red sports car overtook us at great speed and disappeared round the corner within seconds. Dad said such drivers should be careful. What does \"overtook\" mean?",
+     "o": [
+      "vượt qua (xe khác)",
+      "đi theo sau",
+      "dừng lại phía trước"
+     ],
+     "a": "vượt qua (xe khác)",
+     "vi": "Trên đường cao tốc, một chiếc xe thể thao đỏ vượt chúng tôi với tốc độ rất cao và biến mất sau góc cua trong vài giây. Bố nói những tài xế như vậy nên cẩn thận.",
+     "why": "overtake sth/sb = vượt (xe khác); quá khứ overtook; quá khứ phân từ overtaken.",
+     "noblank": true,
+     "say": "On the motorway, a red sports car overtook us at great speed and disappeared round the corner within seconds. Dad said such drivers should be careful.",
+     "tw": "overtake something/somebody",
+     "ipa": "/ˌəʊvəˈteɪk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "After several accidents, the council lowered the speed limit near the school from fifty to thirty. Drivers who break the rule are caught by cameras at the roadside. What does \"speed limit\" mean?",
+     "o": [
+      "giới hạn tốc độ",
+      "đoạn đường cong",
+      "chi phí xăng"
+     ],
+     "a": "giới hạn tốc độ",
+     "vi": "Sau vài vụ tai nạn, hội đồng hạ giới hạn tốc độ gần trường từ năm mươi xuống ba mươi. Tài xế vi phạm bị camera ven đường ghi lại.",
+     "why": "speed limit = giới hạn tốc độ (tốc độ tối đa cho phép).",
+     "noblank": true,
+     "say": "After several accidents, the council lowered the speed limit near the school from fifty to thirty. Drivers who break the rule are caught by cameras at the roadside.",
+     "new": [
+      {
+       "w": "lowered",
+       "vi": "hạ thấp"
+      }
+     ],
+     "tw": "speed limit",
+     "ipa": "/ˈspiːd ˌlɪmɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "A new motorway will connect the port to the capital, cutting the journey from five hours to three. Local businesses hope it will bring more customers and cheaper deliveries. What does \"motorway\" mean?",
+     "o": [
+      "đường cao tốc",
+      "đường mòn",
+      "đường ray"
+     ],
+     "a": "đường cao tốc",
+     "vi": "Một đường cao tốc mới sẽ nối cảng với thủ đô, rút chuyến đi từ năm xuống ba tiếng. Doanh nghiệp địa phương hy vọng nó đem thêm khách và giao hàng rẻ hơn.",
+     "why": "motorway = đường cao tốc (Anh-Anh); Anh-Mỹ: highway/freeway.",
+     "noblank": true,
+     "say": "A new motorway will connect the port to the capital, cutting the journey from five hours to three. Local businesses hope it will bring more customers and cheaper deliveries.",
+     "new": [
+      {
+       "w": "deliveries",
+       "vi": "việc giao hàng"
+      }
+     ],
+     "tw": "motorway",
+     "ipa": "/ˈməʊtəweɪ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "My grandmother always stays in the inside lane on the motorway because she drives at about sixty. Faster cars use the other lane, so they pass her without any problem. What does \"inside lane\" mean?",
+     "o": [
+      "làn trong, làn chạy chậm",
+      "làn khẩn cấp",
+      "làn dành cho xe đạp"
+     ],
+     "a": "làn trong, làn chạy chậm",
+     "vi": "Bà tôi luôn đi làn trong trên đường cao tốc vì bà lái khoảng sáu mươi. Xe nhanh hơn dùng làn kia nên vượt bà không vấn đề gì.",
+     "why": "inside lane = làn gần lề/làn chậm trên đường cao tốc (Anh); outside lane = làn nhanh.",
+     "noblank": true,
+     "say": "My grandmother always stays in the inside lane on the motorway because she drives at about sixty. Faster cars use the other lane, so they pass her without any problem.",
+     "tw": "inside (slow) lane",
+     "ipa": "/ˌɪnsaɪd ˈsləʊ leɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Racing drivers love the outside lane, where they can accelerate and pass slower cars. However, ordinary drivers should return to the inside lane after overtaking. What does \"outside lane\" mean?",
+     "o": [
+      "làn ngoài, làn chạy nhanh",
+      "làn rẽ phải",
+      "làn dành cho người đi bộ"
+     ],
+     "a": "làn ngoài, làn chạy nhanh",
+     "vi": "Tay đua yêu làn ngoài, nơi họ tăng tốc và vượt xe chậm hơn. Tuy nhiên tài xế bình thường nên trở lại làn trong sau khi vượt.",
+     "why": "outside lane = làn xa lề/làn nhanh để vượt trên đường cao tốc (Anh); inside lane = làn chậm.",
+     "noblank": true,
+     "say": "Racing drivers love the outside lane, where they can accelerate and pass slower cars. However, ordinary drivers should return to the inside lane after overtaking.",
+     "new": [
+      {
+       "w": "accelerate",
+       "vi": "tăng tốc"
+      }
+     ],
+     "tw": "outside (fast) lane",
+     "ipa": "/ˌaʊtsaɪd ˈfɑːst leɪn/"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Nói vận dụng",
+   "note": "Bấm ghi âm và trả lời bằng tiếng Anh, cố dùng các từ gợi ý; trang sẽ chấm ước tính 4 tiêu chí.",
+   "qs": [
+    {
+     "type": "sp",
+     "ctx": "Home and renting",
+     "s": "Describe the place where you live or would like to live. Say what the main rooms are like and how you got it.",
+     "vi": "Hãy tả nơi bạn sống hoặc muốn sống. Nói các phòng chính như thế nào và bạn có nơi đó bằng cách nào.",
+     "words": [
+      "a firm armchair",
+      "a carpeted room",
+      "rent",
+      "hire",
+      "parking space"
+     ],
+     "why": "Nêu loại nhà, phòng bạn thích, đồ nội thất; so sánh thuê dài hạn (rent) và thuê ngắn hạn (hire); dùng although/instead of.",
+     "sample": "I would like to describe my ideal flat. Last year I decided to rent a small place near my office instead of buying one, because I wanted flexibility. The living room is a carpeted room with large windows, and in the corner there is a firm armchair where I read in the evenings. The only problem is the parking space: there are very few, so I hire a car only when I travel at weekends. Although the flat is not luxurious, it is comfortable and quiet, and I feel at home there."
+    },
+    {
+     "type": "sp",
+     "ctx": "Money and shopping",
+     "s": "Talk about a time when you bought something expensive. Was it worth the price? Explain why or why not.",
+     "vi": "Hãy kể về một lần bạn mua món đồ đắt tiền. Nó có đáng giá không? Giải thích vì sao.",
+     "words": [
+      "earn a reasonable amount of money",
+      "good value for money",
+      "poor value for money",
+      "charge someone",
+      "charge someone for something",
+      "a potload of money",
+      "good value"
+     ],
+     "why": "Kể món đồ, giá, so sánh với món khác; dùng good/poor value for money và lý do; thêm whereas/although.",
+     "sample": "Last year I bought a laptop for my studies. Many shops charge customers a lot for famous brands, so I compared prices for a week. I do not earn a reasonable amount of money yet, only a small part-time salary, so I could not spend a potload of money. Finally I chose a mid-priced model, which I think was good value for money, whereas a friend's tablet was poor value for money because it broke after six months. Next time I will ask whether the shop will charge me for repairs, because some stores charge customers for services that should be free."
+    },
+    {
+     "type": "sp",
+     "ctx": "Work and motivation",
+     "s": "Why do some people choose a job because they love it rather than because of the salary? What do you think?",
+     "vi": "Vì sao một số người chọn công việc vì yêu thích hơn là vì lương? Bạn nghĩ sao?",
+     "words": [
+      "hold on a second",
+      "essentially",
+      "essential",
+      "assume",
+      "position",
+      "have a passion for something",
+      "a sense of achievement",
+      "betterment of something"
+     ],
+     "why": "Nêu quan điểm, lấy ví dụ người thân bỏ lương cao theo đam mê; dùng essentially, a sense of achievement, nhượng bộ bằng although.",
+     "sample": "Hold on a second, let me think. Essentially, I believe people are happier when they have a passion for their work. Many of us assume that a high salary is essential, but I think a sense of achievement matters more. For example, my aunt left a well-paid position at a bank to teach children, and she says that contributing to the betterment of her community gives her more satisfaction than money ever did. Of course, we all need enough income to live, although it should not be the only goal."
+    },
+    {
+     "type": "sp",
+     "ctx": "Technology and society",
+     "s": "Which invention do you think has changed people's lives the most? Explain your choice.",
+     "vi": "Theo bạn phát minh nào đã thay đổi cuộc sống con người nhiều nhất? Giải thích lựa chọn của bạn.",
+     "words": [
+      "revolutionize",
+      "revolutionary",
+      "revolution",
+      "humanity"
+     ],
+     "why": "Chọn một phát minh, nói nó thay đổi lĩnh vực nào, nêu ví dụ và mặt trái; dùng revolutionize, revolution, humanity.",
+     "sample": "I think the smartphone has changed life more than any other invention. It was a revolutionary device because it combined a phone, a camera and a computer in one pocket. In just ten years it started to revolutionize education, banking and entertainment, and many experts describe the change as a digital revolution. Although it causes problems such as addiction, I believe it has helped humanity by giving people instant access to information. For instance, students in remote villages can now watch lessons online, which would have been impossible a generation ago."
+    },
+    {
+     "type": "sp",
+     "ctx": "Sport",
+     "s": "Describe a sports person you admire. Say what they have achieved and why you respect them.",
+     "vi": "Hãy tả một người chơi thể thao bạn ngưỡng mộ. Nói họ đạt được gì và vì sao bạn kính trọng họ.",
+     "words": [
+      "break a record",
+      "record breaker",
+      "athlete",
+      "sportsman"
+     ],
+     "why": "Giới thiệu người đó, thành tích, quá trình luyện tập, lý do ngưỡng mộ; dùng thì quá khứ và which.",
+     "sample": "I admire a swimmer from my country who is a real record breaker. She trained like a professional athlete from the age of ten, getting up before dawn every day. At the age of twenty she managed to break a record that nobody had beaten for fifteen years. My father, who used to be a keen sportsman himself, says her discipline is what impresses him most. I respect her because she never gave up, even after a serious injury, and she now encourages younger girls to take up sport."
+    },
+    {
+     "type": "sp",
+     "ctx": "Food and cooking",
+     "s": "Do you enjoy cooking? Tell me about a dish you like to prepare or eat.",
+     "vi": "Bạn có thích nấu ăn không? Hãy kể về một món bạn thích nấu hoặc ăn.",
+     "words": [
+      "mussel",
+      "scallop",
+      "be good at cooking",
+      "come up with"
+     ],
+     "why": "Nói mức nấu ăn của bạn, món yêu thích, nguyên liệu, cách tự sáng tạo; dùng although, which, otherwise.",
+     "sample": "I enjoy cooking, although I am not good at cooking complicated dishes yet. My favourite meal is a seafood pasta with mussels and scallops, which I first tried at a restaurant near the sea. When I got home, I came up with my own version, using garlic, lemon and a little cream. The scallops must be cooked very quickly, otherwise they become tough, while the mussels need only a few minutes in hot wine. My friends say it tastes better than the restaurant's version, which makes me feel proud."
+    },
+    {
+     "type": "sp",
+     "ctx": "City life",
+     "s": "Would you prefer to live in a big city or in a small town? Give reasons for your answer.",
+     "vi": "Bạn thích sống ở thành phố lớn hay thị trấn nhỏ? Nêu lý do.",
+     "words": [
+      "be just around the corner from",
+      "be just around the corner",
+      "around the corner",
+      "stressful",
+      "stressed",
+      "nightlife",
+      "cultural activities",
+      "crime rate",
+      "a mix of",
+      "be going on"
+     ],
+     "why": "Chọn một bên, nêu 2-3 lý do (hoạt động, giao thông, an ninh), so sánh bằng whereas; dùng các cụm around the corner.",
+     "sample": "I would prefer a big city, mainly because there is always something going on. Cultural activities such as concerts and exhibitions are everywhere, and the nightlife is lively. My flat would be just around the corner from the metro, so travelling would not be stressful, whereas in the countryside I would feel stressed by long journeys. A city is also a mix of different people and ideas. Of course, the crime rate is usually higher, but I would choose a safe district. Besides, the weekend is just around the corner, and there is a café around the corner where I could meet friends."
+    },
+    {
+     "type": "sp",
+     "ctx": "Commuting",
+     "s": "Describe your journey to work or school. How do you travel, and what problems do you have on the way?",
+     "vi": "Hãy tả hành trình đến chỗ làm hoặc trường học. Bạn đi bằng gì và gặp vấn đề gì trên đường?",
+     "words": [
+      "get the bus",
+      "come along",
+      "parking space",
+      "stretch",
+      "pedestrian crossing",
+      "crosswalk",
+      "crossing the road"
+     ],
+     "why": "Nêu phương tiện, thời gian, khó khăn (đợi xe, sang đường); dùng so, because, sometimes để nối ý.",
+     "sample": "I usually get the bus to university because there is no parking space near my building. I wait at the stop for ten minutes, and sometimes two buses come along together. The journey stretches over forty minutes, so I listen to podcasts. Before reaching the stop I use the pedestrian crossing, which Americans call a crosswalk. Crossing the road in my city can be dangerous in the rush hour because motorbikes rarely stop, so I always wait for the green light and walk carefully with other people."
+    },
+    {
+     "type": "sp",
+     "ctx": "Countryside and farming",
+     "s": "Tell me about a place in the countryside that you know. What do people do there, and what is life like?",
+     "vi": "Hãy kể về một nơi ở nông thôn mà bạn biết. Người ta làm gì ở đó và cuộc sống ra sao?",
+     "words": [
+      "scenery",
+      "own a farm",
+      "keep animals",
+      "grow crops",
+      "crop",
+      "barley",
+      "farming",
+      "be up at",
+      "live in a village"
+     ],
+     "why": "Tả cảnh, nghề nghiệp, một ngày của người nông dân; dùng although để nói mặt tốt và mặt khó.",
+     "sample": "My grandparents live in a village in the north, where the scenery is beautiful, with green hills and a clear river. My uncle owns a farm there. He keeps animals such as cows and chickens, and he grows crops like rice, corn and even a little barley. Rice is the main crop, and farming is hard work, so he is up at five every morning. Although life is simple, I envy him a little, because the air is clean and the neighbours are friendly. One day I would like to live in a village like that."
+    },
+    {
+     "type": "sp",
+     "ctx": "Road safety",
+     "s": "What advice would you give to a new driver? Talk about the most important rules on the road.",
+     "vi": "Bạn sẽ khuyên người mới lái xe điều gì? Hãy nói về các quy tắc quan trọng nhất.",
+     "words": [
+      "junction",
+      "a bend",
+      "bend",
+      "road sign",
+      "no overtaking",
+      "overtake",
+      "speed limit",
+      "motorway",
+      "inside lane",
+      "outside lane"
+     ],
+     "why": "Đưa 3-4 lời khuyên có lý do (tốc độ, giao lộ, biển báo, làn đường), dùng if/because/until để triển khai.",
+     "sample": "My main advice to a new driver is to respect the speed limit at all times. When you reach a junction, slow down and look carefully. If there is a bend ahead, remember that the road may bend sharply, so stay in control. Always read every road sign, especially no overtaking signs near hills. On the motorway, stay in the inside lane until you feel confident, then use the outside lane only when you need to overtake. Most accidents happen because people hurry, so patience is the best rule of all."
+    }
+   ]
+  }
+ ]
+}
