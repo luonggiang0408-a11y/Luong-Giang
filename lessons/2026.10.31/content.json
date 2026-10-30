@@ -1,0 +1,3116 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 2026.10.31",
+  "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 31/10/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 44 từ. Mỗi từ làm 1 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (132 câu), sau đó là 10 câu nói vận dụng có ghi âm và chấm theo 4 tiêu chí IELTS Speaking, mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.10.31-v6",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma202610310500"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "Gõ từ hoặc cụm còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "Missed bus",
+     "s": "Because the last bus had already left and she had no money for a taxi, Mai decided to ___, even though it was almost five kilometres.",
+     "acc": [
+      "run all the way home"
+     ],
+     "vi": "Vì chuyến xe buýt cuối đã rời đi và không có tiền đi taxi, Mai quyết định chạy một mạch về nhà dù gần năm cây số.",
+     "why": "run all the way home = chạy liền một mạch về nhà, không dừng lại giữa đường.",
+     "hint": "Nghĩa: chạy một mạch về nhà",
+     "new": [
+      {
+       "w": "kilometres",
+       "vi": "km"
+      }
+     ],
+     "tw": "run all the way home"
+    },
+    {
+     "type": "tx",
+     "ctx": "An argument",
+     "s": "He was so furious that he stormed out of the room and ___ behind him, making the pictures on the wall shake.",
+     "acc": [
+      "slammed the door shut",
+      "slammed the door"
+     ],
+     "vi": "Anh ta giận đến mức đùng đùng bỏ ra khỏi phòng và đóng sầm cửa lại sau lưng, làm những bức tranh trên tường rung lên.",
+     "why": "slam the door shut = đóng sầm cửa lại, thường vì giận dữ hoặc gió mạnh.",
+     "hint": "Nghĩa: đóng sầm cửa",
+     "new": [
+      {
+       "w": "furious",
+       "vi": "giận dữ"
+      },
+      {
+       "w": "stormed out",
+       "vi": "đùng đùng bỏ đi"
+      }
+     ],
+     "tw": "slam the door shut"
+    },
+    {
+     "type": "tx",
+     "ctx": "Injured fox",
+     "s": "The injured fox limped slowly towards the farm, holding up one front ___ because a thorn had gone deep into it.",
+     "acc": [
+      "paw",
+      "paws"
+     ],
+     "vi": "Con cáo bị thương đi khập khiễng về phía trang trại, co một chân trước lên vì một cái gai đã đâm sâu vào đó.",
+     "why": "paw = bàn chân có vuốt của động vật như mèo, chó, gấu.",
+     "hint": "Nghĩa: móng vuốt, chân (của thú)",
+     "new": [
+      {
+       "w": "limped",
+       "vi": "đi khập khiễng"
+      },
+      {
+       "w": "thorn",
+       "vi": "cái gai"
+      }
+     ],
+     "tw": "paw"
+    },
+    {
+     "type": "tx",
+     "ctx": "On the farm",
+     "s": "The farmer wore a protective suit before he lifted the lid of the ___, because thousands of bees were buzzing inside.",
+     "acc": [
+      "beehive",
+      "beehives"
+     ],
+     "vi": "Người nông dân mặc đồ bảo hộ trước khi mở nắp tổ ong, vì hàng nghìn con ong đang vo ve bên trong.",
+     "why": "beehive = tổ ong, nơi đàn ong sống và làm mật.",
+     "hint": "Nghĩa: tổ ong",
+     "new": [
+      {
+       "w": "protective",
+       "vi": "bảo hộ"
+      },
+      {
+       "w": "lid",
+       "vi": "cái nắp"
+      }
+     ],
+     "tw": "beehive"
+    },
+    {
+     "type": "tx",
+     "ctx": "At the zoo",
+     "s": "The little boy tried to ___ his hand through the fence to touch the horse, but his mother pulled him back.",
+     "acc": [
+      "stick"
+     ],
+     "vi": "Cậu bé cố thò tay qua hàng rào để chạm vào con ngựa, nhưng mẹ cậu đã kéo lại.",
+     "why": "stick sth in/into/through = thò, đút, cắm cái gì vào đâu.",
+     "hint": "Nghĩa: thò, đút (tay) vào",
+     "new": [
+      {
+       "w": "fence",
+       "vi": "hàng rào"
+      }
+     ],
+     "tw": "stick"
+    },
+    {
+     "type": "tx",
+     "ctx": "Little brother",
+     "s": "When my little brother kept reading my diary, I shouted at him to ___ and leave my room immediately.",
+     "acc": [
+      "buzz off"
+     ],
+     "vi": "Khi em trai cứ đọc nhật ký của tôi, tôi quát nó cút đi và ra khỏi phòng ngay lập tức.",
+     "why": "buzz off = đi chỗ khác đi (cách nói suồng sã, hơi thô).",
+     "hint": "Nghĩa: đi đi, tránh xa ra (suồng sã)",
+     "new": [
+      {
+       "w": "diary",
+       "vi": "nhật ký"
+      }
+     ],
+     "tw": "buzz off"
+    },
+    {
+     "type": "tx",
+     "ctx": "Deadline",
+     "s": "I am trying to finish my report before midnight, so please ___ unless the building is on fire.",
+     "acc": [
+      "don't bother me",
+      "don’t bother me"
+     ],
+     "vi": "Tôi đang cố hoàn thành báo cáo trước nửa đêm, nên đừng làm phiền tôi trừ khi tòa nhà cháy.",
+     "why": "don't bother me = đừng làm phiền tôi (đang bận hoặc không muốn bị quấy rầy).",
+     "hint": "Nghĩa: đừng làm phiền tôi",
+     "new": [
+      {
+       "w": "unless",
+       "vi": "trừ khi"
+      }
+     ],
+     "tw": "don't bother me"
+    },
+    {
+     "type": "tx",
+     "ctx": "In the garden",
+     "s": "Be careful near the flowers, because a wasp can ___ you if it feels frightened, and the pain can last for hours.",
+     "acc": [
+      "sting"
+     ],
+     "vi": "Hãy cẩn thận gần những bông hoa, vì ong bắp cày có thể đốt bạn nếu nó thấy sợ, và cơn đau có thể kéo dài hàng giờ.",
+     "why": "sting = đốt, chích bằng ngòi hoặc nọc (ong, bọ cạp, sứa).",
+     "hint": "Nghĩa: đốt, chích (ong, côn trùng)",
+     "new": [
+      {
+       "w": "wasp",
+       "vi": "ong bắp cày"
+      }
+     ],
+     "tw": "sting"
+    },
+    {
+     "type": "tx",
+     "ctx": "Riverside fun",
+     "s": "The children laughed loudly as they took turns to ___ from the thick rope hanging over the river.",
+     "acc": [
+      "swing"
+     ],
+     "vi": "Lũ trẻ cười lớn khi lần lượt đu mình trên sợi dây thừng dày treo trên sông.",
+     "why": "swing = đu đưa, lắc lư qua lại hoặc vung mạnh (vật gì).",
+     "hint": "Nghĩa: đu đưa, vung",
+     "new": [
+      {
+       "w": "rope",
+       "vi": "dây thừng"
+      }
+     ],
+     "tw": "swing"
+    },
+    {
+     "type": "tx",
+     "ctx": "A protest",
+     "s": "Angry protesters threatened to ___ the shop windows with stones unless the manager came outside to speak to them.",
+     "acc": [
+      "smash"
+     ],
+     "vi": "Những người biểu tình giận dữ dọa đập vỡ cửa kính cửa hàng bằng đá nếu người quản lý không ra nói chuyện.",
+     "why": "smash = đập vỡ tan hoặc đâm mạnh vào vật gì.",
+     "hint": "Nghĩa: đập vỡ, đập tan",
+     "new": [
+      {
+       "w": "protesters",
+       "vi": "người biểu tình"
+      }
+     ],
+     "tw": "smash"
+    },
+    {
+     "type": "tx",
+     "ctx": "Job interview",
+     "s": "If you ___ during a job interview, the panel will probably doubt that you can handle pressure.",
+     "acc": [
+      "lose your temper"
+     ],
+     "vi": "Nếu bạn nổi nóng trong buổi phỏng vấn, hội đồng có lẽ sẽ nghi ngờ bạn chịu được áp lực.",
+     "why": "lose your temper = mất bình tĩnh, nổi nóng (lost your temper ở quá khứ).",
+     "hint": "Nghĩa: mất bình tĩnh, nổi nóng",
+     "new": [
+      {
+       "w": "panel",
+       "vi": "hội đồng"
+      },
+      {
+       "w": "handle pressure",
+       "vi": "chịu áp lực"
+      }
+     ],
+     "tw": "lose your temper"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family dinner",
+     "s": "My uncle has a ___, so the whole family avoids arguing with him about politics at dinner.",
+     "acc": [
+      "hot temper",
+      "a hot temper"
+     ],
+     "vi": "Chú tôi có tính nóng nảy nên cả nhà tránh tranh cãi với chú về chính trị trong bữa tối.",
+     "why": "a hot temper = tính nóng nảy, dễ nổi giận.",
+     "hint": "Nghĩa: tính nóng nảy",
+     "new": [
+      {
+       "w": "politics",
+       "vi": "chính trị"
+      }
+     ],
+     "tw": "hot temper"
+    },
+    {
+     "type": "tx",
+     "ctx": "Social media",
+     "s": "Posting that angry message online could ___ with your employer, so think twice before you click send.",
+     "acc": [
+      "get you into trouble",
+      "get someone into trouble",
+      "get somebody into trouble"
+     ],
+     "vi": "Đăng tin nhắn giận dữ đó lên mạng có thể khiến bạn gặp rắc rối với sếp, nên hãy nghĩ kỹ trước khi nhấn gửi.",
+     "why": "get somebody into trouble = khiến ai gặp rắc rối.",
+     "hint": "Nghĩa: khiến ai gặp rắc rối",
+     "new": [
+      {
+       "w": "employer",
+       "vi": "người sử dụng lao động"
+      },
+      {
+       "w": "think twice",
+       "vi": "suy nghĩ kỹ"
+      }
+     ],
+     "tw": "get someone into trouble"
+    },
+    {
+     "type": "tx",
+     "ctx": "Growing up",
+     "s": "Anna grew up in a busy ___ in London, where about forty families shared one entrance and a small garden.",
+     "acc": [
+      "block of flats",
+      "apartment building",
+      "an apartment building"
+     ],
+     "vi": "Anna lớn lên trong một tòa chung cư đông đúc ở London, nơi khoảng bốn mươi gia đình dùng chung một lối vào và một khu vườn nhỏ.",
+     "why": "block of flats = tòa nhà nhiều căn hộ (Anh-Anh).",
+     "hint": "Nghĩa: tòa nhà gồm nhiều căn hộ",
+     "new": [
+      {
+       "w": "shared",
+       "vi": "dùng chung"
+      }
+     ],
+     "tw": "block of flats",
+     "ipa": "/ˌblɑːk əv ˈflæts/"
+    },
+    {
+     "type": "tx",
+     "ctx": "No elevator",
+     "s": "We live on the fifth floor of ___ with no elevator, so carrying shopping upstairs is exhausting.",
+     "acc": [
+      "an apartment building",
+      "a block of flats",
+      "a block of apartments"
+     ],
+     "vi": "Chúng tôi sống ở tầng năm của một tòa chung cư không có thang máy nên xách đồ đi chợ lên lầu thật mệt nhoài.",
+     "why": "an apartment building = tòa chung cư (Anh-Mỹ).",
+     "hint": "Nghĩa: tòa nhà chung cư",
+     "new": [
+      {
+       "w": "elevator",
+       "vi": "thang máy"
+      },
+      {
+       "w": "exhausting",
+       "vi": "mệt nhoài"
+      }
+     ],
+     "tw": "an apartment building",
+     "ipa": "/ən əˈpɑːrtmənt ˌbɪldɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Spring menu",
+     "s": "In spring, the restaurant serves grilled ___ with lemon butter, a light dish that many vegetarians order.",
+     "acc": [
+      "asparagus"
+     ],
+     "vi": "Vào mùa xuân, nhà hàng phục vụ măng tây nướng với bơ chanh, một món nhẹ mà nhiều người ăn chay gọi.",
+     "why": "asparagus = măng tây, rau xanh thân dài, mùa xuân.",
+     "hint": "Nghĩa: măng tây",
+     "new": [
+      {
+       "w": "grilled",
+       "vi": "nướng"
+      },
+      {
+       "w": "vegetarians",
+       "vi": "người ăn chay"
+      }
+     ],
+     "tw": "asparagus",
+     "ipa": "/əˈsper.ə.ɡəs/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Village life",
+     "s": "The nearest hospital is only five kilometres ___, so the ambulance usually arrives within minutes.",
+     "acc": [
+      "away"
+     ],
+     "vi": "Bệnh viện gần nhất chỉ cách đó năm cây số nên xe cứu thương thường đến trong vài phút.",
+     "why": "be + khoảng cách + away = cách đây/cách đó bao xa.",
+     "hint": "Nghĩa: cách đó (bao xa)",
+     "new": [
+      {
+       "w": "ambulance",
+       "vi": "xe cứu thương"
+      }
+     ],
+     "tw": "away",
+     "ipa": "/əˈweɪ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Remote villages",
+     "s": "In remote mountain villages, ___ cafés, so tourists should bring their own snacks.",
+     "acc": [
+      "you don't get many",
+      "you do not get many",
+      "you don’t get many"
+     ],
+     "vi": "Ở những ngôi làng miền núi hẻo lánh không có nhiều quán cà phê nên du khách nên mang theo đồ ăn vặt.",
+     "why": "you don't get many + N = không có nhiều... ở nơi nào đó.",
+     "hint": "Nghĩa: không có/không tìm thấy nhiều...",
+     "new": [
+      {
+       "w": "remote",
+       "vi": "hẻo lánh"
+      }
+     ],
+     "tw": "you don't get many",
+     "ipa": "/ju dəʊnt ɡet ˈmen.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Rush hour",
+     "s": "Traffic is always terrible at the ___ near the market, where three main roads meet and the lights change slowly.",
+     "acc": [
+      "junction",
+      "junctions"
+     ],
+     "vi": "Giao thông luôn tệ ở ngã giao gần chợ, nơi ba con đường chính gặp nhau và đèn đổi rất chậm.",
+     "why": "junction = chỗ giao nhau của các con đường.",
+     "hint": "Nghĩa: ngã tư, giao lộ",
+     "new": [
+      {
+       "w": "rush hour",
+       "vi": "giờ cao điểm"
+      }
+     ],
+     "tw": "junction",
+     "ipa": "/ˈdʒʌŋkʃn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Wildlife on the road",
+     "s": "Just after ___, a deer ran out of the forest, forcing the driver to brake suddenly.",
+     "acc": [
+      "a bend in the road",
+      "the bend in the road",
+      "a bend"
+     ],
+     "vi": "Ngay sau khúc cua, một con hươu chạy ra khỏi rừng, buộc tài xế phanh gấp.",
+     "why": "a bend in the road = khúc cua trên đường.",
+     "hint": "Nghĩa: khúc cua trên đường",
+     "new": [
+      {
+       "w": "deer",
+       "vi": "hươu"
+      },
+      {
+       "w": "brake",
+       "vi": "phanh"
+      }
+     ],
+     "tw": "a bend in the road",
+     "ipa": "/bend/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Country walk",
+     "s": "After the stone bridge, the narrow path begins to ___ sharply to the right and disappears behind some trees.",
+     "acc": [
+      "bend",
+      "curve"
+     ],
+     "vi": "Sau cây cầu đá, lối đi hẹp bắt đầu cua gấp sang phải rồi biến mất sau mấy hàng cây.",
+     "why": "bend = (đường) uốn cong, cua sang một hướng.",
+     "hint": "Nghĩa: (đường) cua, uốn cong",
+     "new": [
+      {
+       "w": "path",
+       "vi": "lối đi"
+      }
+     ],
+     "tw": "bend",
+     "ipa": "/bend/"
+    },
+    {
+     "type": "tx",
+     "ctx": "School safety",
+     "s": "Always use the ___ outside the school, because cars often drive faster than they should there.",
+     "acc": [
+      "pedestrian crossing",
+      "crosswalk",
+      "zebra crossing"
+     ],
+     "vi": "Hãy luôn dùng vạch qua đường cho người đi bộ trước cổng trường vì xe ở đó hay chạy nhanh quá mức.",
+     "why": "pedestrian crossing = vạch qua đường cho người đi bộ (Anh-Anh).",
+     "hint": "Nghĩa: vạch qua đường cho người đi bộ",
+     "new": [
+      {
+       "w": "pedestrian",
+       "vi": "người đi bộ"
+      }
+     ],
+     "tw": "pedestrian crossing",
+     "ipa": "/pəˈdestriən ˈkrɒsɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Town planning",
+     "s": "The mayor wants to paint a bright ___ in front of the library so that students can cross safely.",
+     "acc": [
+      "crosswalk",
+      "pedestrian crossing",
+      "zebra crossing"
+     ],
+     "vi": "Thị trưởng muốn sơn một vạch qua đường sáng màu trước thư viện để sinh viên băng qua an toàn.",
+     "why": "crosswalk = vạch qua đường cho người đi bộ (Anh-Mỹ).",
+     "hint": "Nghĩa: vạch qua đường cho người đi bộ (Mỹ)",
+     "new": [
+      {
+       "w": "mayor",
+       "vi": "thị trưởng"
+      }
+     ],
+     "tw": "crosswalk",
+     "ipa": "/ˈkrɔːs.wɔːk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Grandfather's advice",
+     "s": "My grandfather taught me to look left and right before ___, even if the street seems completely empty.",
+     "acc": [
+      "crossing the road"
+     ],
+     "vi": "Ông tôi dạy tôi nhìn trái nhìn phải trước khi sang đường, dù phố trông hoàn toàn vắng.",
+     "why": "crossing the road = sang đường, băng qua đường.",
+     "hint": "Nghĩa: sang đường",
+     "new": [
+      {
+       "w": "empty",
+       "vi": "vắng"
+      }
+     ],
+     "tw": "crossing the road"
+    },
+    {
+     "type": "tx",
+     "ctx": "Lost tourists",
+     "s": "The tourists were confused because the only ___ at the crossroads was covered by thick bushes.",
+     "acc": [
+      "road sign",
+      "road signs"
+     ],
+     "vi": "Du khách bối rối vì biển báo duy nhất ở ngã tư bị bụi rậm dày che khuất.",
+     "why": "road sign = biển báo giao thông.",
+     "hint": "Nghĩa: biển báo giao thông",
+     "new": [
+      {
+       "w": "crossroads",
+       "vi": "ngã tư"
+      },
+      {
+       "w": "bushes",
+       "vi": "bụi cây"
+      }
+     ],
+     "tw": "road sign",
+     "ipa": "/ˈrəʊd saɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Cliff road",
+     "s": "There is a ___ zone along the cliff road, so even impatient drivers have to stay behind the slow bus.",
+     "acc": [
+      "no overtaking",
+      "no-overtaking"
+     ],
+     "vi": "Có khu vực cấm vượt dọc con đường ven vách đá nên ngay cả tài xế thiếu kiên nhẫn cũng phải đi sau chiếc xe buýt chậm.",
+     "why": "no overtaking = cấm vượt (biển báo, khu vực).",
+     "hint": "Nghĩa: cấm vượt",
+     "new": [
+      {
+       "w": "cliff",
+       "vi": "vách đá"
+      },
+      {
+       "w": "impatient",
+       "vi": "thiếu kiên nhẫn"
+      }
+     ],
+     "tw": "no overtaking",
+     "ipa": "/ˌnəʊ ˌəʊvəˈteɪkɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Driving lesson",
+     "s": "It is dangerous to ___ another car on a bend, since you cannot see what is coming from the opposite direction.",
+     "acc": [
+      "overtake"
+     ],
+     "vi": "Vượt một chiếc xe khác ở khúc cua rất nguy hiểm vì bạn không thấy gì từ hướng ngược lại.",
+     "why": "overtake sb/sth = vượt xe khác trên đường.",
+     "hint": "Nghĩa: vượt (xe khác)",
+     "new": [
+      {
+       "w": "opposite direction",
+       "vi": "hướng ngược lại"
+      }
+     ],
+     "tw": "overtake",
+     "ipa": "/ˌəʊvəˈteɪk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Careful driver",
+     "s": "Although there were no police cars around, Linda kept to the ___ because she had already been fined once this year.",
+     "acc": [
+      "speed limit"
+     ],
+     "vi": "Dù không có xe cảnh sát quanh đó, Linda vẫn giữ đúng giới hạn tốc độ vì năm nay cô đã bị phạt một lần.",
+     "why": "speed limit = giới hạn tốc độ cho phép.",
+     "hint": "Nghĩa: giới hạn tốc độ",
+     "new": [
+      {
+       "w": "fined",
+       "vi": "bị phạt"
+      }
+     ],
+     "tw": "speed limit",
+     "ipa": "/ˈspiːd ˌlɪmɪt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Roadworks",
+     "s": "We left the ___ at the next exit because there was a long queue caused by roadworks.",
+     "acc": [
+      "motorway"
+     ],
+     "vi": "Chúng tôi rời đường cao tốc ở lối ra kế tiếp vì có hàng xe dài do thi công đường.",
+     "why": "motorway = đường cao tốc (Anh-Anh).",
+     "hint": "Nghĩa: đường cao tốc",
+     "new": [
+      {
+       "w": "queue",
+       "vi": "hàng dài"
+      },
+      {
+       "w": "roadworks",
+       "vi": "thi công đường"
+      }
+     ],
+     "tw": "motorway",
+     "ipa": "/ˈməʊtəweɪ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Tired driver",
+     "s": "If you are driving slowly because you are tired, move into the ___ and let faster cars pass on the right.",
+     "acc": [
+      "inside lane",
+      "inside slow lane",
+      "slow lane"
+     ],
+     "vi": "Nếu bạn lái chậm vì mệt, hãy chuyển vào làn trong và để xe nhanh hơn vượt bên phải.",
+     "why": "inside lane = làn trong, làn chạy chậm (làn bên trái ở Anh).",
+     "hint": "Nghĩa: làn trong (làn chạy chậm)",
+     "new": [
+      {
+       "w": "pass",
+       "vi": "vượt qua"
+      }
+     ],
+     "tw": "inside lane",
+     "ipa": "/ˌɪnsaɪd ˈsləʊ leɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Overtaking lorries",
+     "s": "He pressed the accelerator and moved into the ___ to overtake a row of lorries before the next exit.",
+     "acc": [
+      "outside lane",
+      "outside fast lane",
+      "fast lane"
+     ],
+     "vi": "Anh nhấn ga và chuyển sang làn ngoài để vượt một hàng xe tải trước lối ra kế tiếp.",
+     "why": "outside lane = làn ngoài, làn vượt/chạy nhanh.",
+     "hint": "Nghĩa: làn ngoài (làn chạy nhanh)",
+     "new": [
+      {
+       "w": "accelerator",
+       "vi": "chân ga"
+      }
+     ],
+     "tw": "outside lane",
+     "ipa": "/ˌaʊtsaɪd ˈfɑːst leɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Avoiding traffic",
+     "s": "To avoid the traffic jam on the main road, Karen turned into a quiet ___ and followed it past a small church.",
+     "acc": [
+      "side road",
+      "side street"
+     ],
+     "vi": "Để tránh kẹt xe trên đường chính, Karen rẽ vào một con đường nhỏ yên tĩnh và đi theo nó qua một nhà thờ nhỏ.",
+     "why": "side road = đường nhỏ rẽ ra từ đường chính.",
+     "hint": "Nghĩa: đường nhánh, đường nhỏ",
+     "new": [
+      {
+       "w": "church",
+       "vi": "nhà thờ"
+      }
+     ],
+     "tw": "side road",
+     "ipa": "/ˈsaɪd rəʊd/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Travel tip",
+     "s": "I always download an offline map before travelling abroad, because I don't want to ___ in an unfamiliar city at night.",
+     "acc": [
+      "get lost"
+     ],
+     "vi": "Tôi luôn tải bản đồ ngoại tuyến trước khi đi nước ngoài vì không muốn bị lạc ở thành phố lạ vào ban đêm.",
+     "why": "get lost = bị lạc đường.",
+     "hint": "Nghĩa: bị lạc",
+     "new": [
+      {
+       "w": "offline",
+       "vi": "ngoại tuyến"
+      },
+      {
+       "w": "unfamiliar",
+       "vi": "xa lạ"
+      }
+     ],
+     "tw": "get lost",
+     "ipa": "/ˌɡet ˈlɒst/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Helping out",
+     "s": "I will pick up your parcel ___ the post office this afternoon, so you don't have to leave the house.",
+     "acc": [
+      "on my way to"
+     ],
+     "vi": "Chiều nay trên đường đến bưu điện tôi sẽ lấy bưu kiện của bạn nên bạn không cần ra khỏi nhà.",
+     "why": "on my way to + nơi chốn = trên đường tới đó.",
+     "hint": "Nghĩa: trên đường tới (nơi nào)",
+     "new": [
+      {
+       "w": "parcel",
+       "vi": "bưu kiện"
+      }
+     ],
+     "tw": "on my way to",
+     "ipa": "/ɒn maɪ weɪ tə/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Cheap flights",
+     "s": "Flights to Sydney are cheaper if you ___ Singapore, although you have to wait three hours for the connection.",
+     "acc": [
+      "go via",
+      "travel via",
+      "fly via"
+     ],
+     "vi": "Vé bay đến Sydney rẻ hơn nếu bạn đi qua Singapore, dù phải đợi ba giờ để nối chuyến.",
+     "why": "go via + nơi = đi qua / ghé qua nơi đó trên đường.",
+     "hint": "Nghĩa: đi qua (nơi nào)",
+     "new": [
+      {
+       "w": "connection",
+       "vi": "chuyến nối"
+      }
+     ],
+     "tw": "go via",
+     "ipa": "/ˈvaɪə/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Giving directions",
+     "s": "You have already missed the first ___, so take the next one on the right and then drive straight for a kilometre.",
+     "acc": [
+      "turning",
+      "turn"
+     ],
+     "vi": "Bạn đã bỏ lỡ chỗ rẽ đầu tiên nên hãy rẽ ở chỗ kế tiếp bên phải rồi đi thẳng một cây số.",
+     "why": "turning = chỗ rẽ, ngã rẽ ra khỏi đường đang đi.",
+     "hint": "Nghĩa: chỗ rẽ, ngã rẽ",
+     "new": [
+      {
+       "w": "straight",
+       "vi": "thẳng"
+      }
+     ],
+     "tw": "turning",
+     "ipa": "/ˈtɜːnɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Ignoring the satnav",
+     "s": "The satnav was working perfectly, but my brother ignored it and ___, so we ended up beside a lake.",
+     "acc": [
+      "took the wrong turning",
+      "take the wrong turning"
+     ],
+     "vi": "Thiết bị định vị hoạt động hoàn hảo nhưng anh trai tôi phớt lờ nó và rẽ nhầm đường nên cuối cùng chúng tôi ở cạnh một cái hồ.",
+     "why": "take the wrong turning = rẽ nhầm đường.",
+     "hint": "Nghĩa: rẽ nhầm đường",
+     "new": [
+      {
+       "w": "satnav",
+       "vi": "thiết bị định vị"
+      }
+     ],
+     "tw": "take the wrong turning",
+     "ipa": "/teɪk ðə rɒŋ ˈtɜːnɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Unplanned evening",
+     "s": "I wanted a quiet evening at home, but I ___ at my cousin's party, dancing until midnight.",
+     "acc": [
+      "ended up"
+     ],
+     "vi": "Tôi muốn một buổi tối yên tĩnh ở nhà nhưng rốt cuộc lại ở bữa tiệc của anh họ, nhảy đến nửa đêm.",
+     "why": "end up = rốt cuộc lại ở / làm gì (ngoài dự định).",
+     "hint": "Nghĩa: rốt cuộc lại ở (nơi không định đến)",
+     "new": [
+      {
+       "w": "cousin",
+       "vi": "anh/chị em họ"
+      }
+     ],
+     "tw": "end up",
+     "ipa": "/ˌend ˈʌp/"
+    },
+    {
+     "type": "tx",
+     "ctx": "No signal",
+     "s": "Since my phone had no signal, I had to ___ to the museum, and an old lady kindly walked with me.",
+     "acc": [
+      "ask someone the way",
+      "ask somebody the way"
+     ],
+     "vi": "Vì điện thoại không có sóng nên tôi phải hỏi đường tới bảo tàng, và một bà cụ tốt bụng đã đi cùng tôi.",
+     "why": "ask somebody the way (to somewhere) = hỏi đường ai đó.",
+     "hint": "Nghĩa: hỏi đường ai đó",
+     "new": [
+      {
+       "w": "signal",
+       "vi": "sóng"
+      }
+     ],
+     "tw": "ask somebody the way",
+     "ipa": "/ɑːsk ðə weɪ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Train station",
+     "s": "A volunteer at the station will ___ you to the correct platform if you cannot find your train.",
+     "acc": [
+      "direct"
+     ],
+     "vi": "Một tình nguyện viên ở nhà ga sẽ chỉ đường cho bạn tới đúng sân ga nếu bạn không tìm thấy tàu.",
+     "why": "direct somebody to somewhere = chỉ đường cho ai tới đâu.",
+     "hint": "Nghĩa: chỉ đường cho ai tới đâu",
+     "new": [
+      {
+       "w": "volunteer",
+       "vi": "tình nguyện viên"
+      }
+     ],
+     "tw": "direct",
+     "ipa": "/dəˈrekt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Leaving the car park",
+     "s": "After you leave the car park, ___ the airport and you won't need a map at all.",
+     "acc": [
+      "follow the signs for",
+      "follow signs for"
+     ],
+     "vi": "Sau khi ra khỏi bãi đỗ xe, hãy đi theo biển chỉ dẫn tới sân bay và bạn sẽ không cần bản đồ nào cả.",
+     "why": "follow the signs for + nơi = đi theo biển chỉ dẫn tới nơi đó.",
+     "hint": "Nghĩa: đi theo biển chỉ dẫn tới",
+     "new": [
+      {
+       "w": "airport",
+       "vi": "sân bay"
+      }
+     ],
+     "tw": "follow signs for",
+     "ipa": "/ˈfɒləʊ saɪnz fə/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Weather",
+     "s": "Take a raincoat ___ the weather changes, because afternoon storms are common in this region.",
+     "acc": [
+      "in case"
+     ],
+     "vi": "Hãy mang áo mưa phòng khi thời tiết thay đổi vì mưa bão buổi chiều rất hay xảy ra ở vùng này.",
+     "why": "in case + mệnh đề = phòng khi điều gì xảy ra.",
+     "hint": "Nghĩa: phòng khi, trong trường hợp",
+     "new": [
+      {
+       "w": "region",
+       "vi": "vùng"
+      }
+     ],
+     "tw": "in case"
+    },
+    {
+     "type": "tx",
+     "ctx": "Renting",
+     "s": "The landlord will allow you to keep a cat ___ you pay a small deposit and keep the flat clean.",
+     "acc": [
+      "provided that",
+      "providing that",
+      "as long as",
+      "provided"
+     ],
+     "vi": "Chủ nhà cho bạn nuôi mèo với điều kiện bạn đặt một khoản cọc nhỏ và giữ căn hộ sạch sẽ.",
+     "why": "provided that = với điều kiện là (trang trọng hơn as long as).",
+     "hint": "Nghĩa: với điều kiện là, miễn là",
+     "new": [
+      {
+       "w": "deposit",
+       "vi": "tiền đặt cọc"
+      }
+     ],
+     "tw": "provided that"
+    },
+    {
+     "type": "tx",
+     "ctx": "Guest",
+     "s": "You can stay in my apartment for the whole month ___ you help with the cleaning.",
+     "acc": [
+      "as long as",
+      "provided that",
+      "providing that"
+     ],
+     "vi": "Bạn có thể ở căn hộ của tôi cả tháng miễn là bạn giúp dọn dẹp.",
+     "why": "as long as = miễn là, với điều kiện là.",
+     "hint": "Nghĩa: miễn là, với điều kiện",
+     "new": [
+      {
+       "w": "whole",
+       "vi": "cả"
+      }
+     ],
+     "tw": "as long as"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Rainy evening",
+     "s": "If the rain stops soon, we might ___ instead of waiting for a taxi that never seems to arrive.",
+     "o": [
+      "run all the way home",
+      "buy a new phone",
+      "call an old friend"
+     ],
+     "a": "run all the way home",
+     "vi": "Nếu mưa tạnh sớm, có lẽ chúng ta sẽ chạy một mạch về nhà thay vì chờ chiếc taxi mãi không tới.",
+     "why": "run all the way home = chạy liền một mạch về nhà, không dừng lại giữa đường.",
+     "new": [
+      {
+       "w": "might",
+       "vi": "có lẽ"
+      }
+     ],
+     "tw": "run all the way home"
+    },
+    {
+     "type": "mc",
+     "ctx": "Baby asleep",
+     "s": "Please don't ___ when the baby is sleeping, because the noise could wake her up immediately.",
+     "o": [
+      "tiptoe across the floor",
+      "whisper to the nurse",
+      "slam the door shut"
+     ],
+     "a": "slam the door shut",
+     "vi": "Làm ơn đừng đóng sầm cửa khi em bé đang ngủ, vì tiếng ồn có thể đánh thức bé ngay lập tức.",
+     "why": "slam the door shut = đóng sầm cửa lại, thường vì giận dữ hoặc gió mạnh.",
+     "new": [
+      {
+       "w": "immediately",
+       "vi": "ngay lập tức"
+      }
+     ],
+     "tw": "slam the door shut"
+    },
+    {
+     "type": "mc",
+     "ctx": "Playing with the dog",
+     "s": "Our dog always puts his ___ on my knee whenever he wants me to play, which is impossible to ignore.",
+     "o": [
+      "horn",
+      "paw",
+      "wing"
+     ],
+     "a": "paw",
+     "vi": "Con chó nhà chúng tôi luôn đặt chân lên đầu gối tôi mỗi khi muốn tôi chơi cùng, thật khó mà làm ngơ.",
+     "why": "paw = bàn chân có vuốt của động vật như mèo, chó, gấu.",
+     "new": [
+      {
+       "w": "ignore",
+       "vi": "làm ngơ"
+      }
+     ],
+     "tw": "paw"
+    },
+    {
+     "type": "mc",
+     "ctx": "A hiking trip",
+     "s": "If you disturb a wild ___ while hiking, the angry bees may chase you for several hundred metres.",
+     "o": [
+      "beehive",
+      "greenhouse",
+      "fishpond"
+     ],
+     "a": "beehive",
+     "vi": "Nếu bạn làm phiền một tổ ong rừng khi đi bộ đường dài, đàn ong tức giận có thể đuổi theo bạn hàng trăm mét.",
+     "why": "beehive = tổ ong, nơi đàn ong sống và làm mật.",
+     "new": [
+      {
+       "w": "disturb",
+       "vi": "quấy rầy"
+      }
+     ],
+     "tw": "beehive"
+    },
+    {
+     "type": "mc",
+     "ctx": "Safety rules",
+     "s": "Never ___ your fingers into the machine while it is running, or you could seriously injure yourself.",
+     "o": [
+      "pour",
+      "lend",
+      "stick"
+     ],
+     "a": "stick",
+     "vi": "Đừng bao giờ thò ngón tay vào máy khi nó đang chạy, nếu không bạn có thể bị thương nặng.",
+     "why": "stick sth in/into/through = thò, đút, cắm cái gì vào đâu.",
+     "new": [
+      {
+       "w": "injure",
+       "vi": "làm bị thương"
+      }
+     ],
+     "tw": "stick"
+    },
+    {
+     "type": "mc",
+     "ctx": "A famous singer",
+     "s": "The singer was tired of the crowd taking photos, so he told the fans to ___ and let him eat dinner in peace.",
+     "o": [
+      "sit down",
+      "buzz off",
+      "come in"
+     ],
+     "a": "buzz off",
+     "vi": "Ca sĩ đã chán cảnh đám đông chụp ảnh nên bảo người hâm mộ đi chỗ khác để anh ăn tối yên tĩnh.",
+     "why": "buzz off = đi chỗ khác đi (cách nói suồng sã, hơi thô).",
+     "new": [
+      {
+       "w": "in peace",
+       "vi": "yên ổn"
+      }
+     ],
+     "tw": "buzz off"
+    },
+    {
+     "type": "mc",
+     "ctx": "Exam week",
+     "s": "He put a sign on the door saying \"___\", because he needed complete silence to prepare for his exam.",
+     "o": [
+      "don't bother me",
+      "welcome back",
+      "come and join us"
+     ],
+     "a": "don't bother me",
+     "vi": "Anh ta treo biển trên cửa ghi \"đừng làm phiền tôi\" vì cần hoàn toàn yên tĩnh để ôn thi.",
+     "why": "don't bother me = đừng làm phiền tôi (đang bận hoặc không muốn bị quấy rầy).",
+     "new": [
+      {
+       "w": "complete silence",
+       "vi": "hoàn toàn yên lặng"
+      }
+     ],
+     "tw": "don't bother me"
+    },
+    {
+     "type": "mc",
+     "ctx": "Seaside warning",
+     "s": "Lifeguards warn swimmers to stay away from jellyfish, because their tentacles can ___ badly enough to ruin a holiday.",
+     "o": [
+      "tickle",
+      "hug",
+      "sting"
+     ],
+     "a": "sting",
+     "vi": "Nhân viên cứu hộ cảnh báo người bơi tránh xa sứa vì xúc tu của chúng có thể đốt đau đến mức làm hỏng cả kỳ nghỉ.",
+     "why": "sting = đốt, chích bằng ngòi hoặc nọc (ong, bọ cạp, sứa).",
+     "new": [
+      {
+       "w": "tentacles",
+       "vi": "xúc tu"
+      },
+      {
+       "w": "lifeguards",
+       "vi": "nhân viên cứu hộ"
+      }
+     ],
+     "tw": "sting"
+    },
+    {
+     "type": "mc",
+     "ctx": "Baseball match",
+     "s": "The batter prepared to ___ the bat with all his strength, hoping to hit the ball far over the fence.",
+     "o": [
+      "stir",
+      "swing",
+      "bend"
+     ],
+     "a": "swing",
+     "vi": "Cầu thủ đánh bóng chuẩn bị vung gậy hết sức, hy vọng đánh quả bóng bay xa qua hàng rào.",
+     "why": "swing = đu đưa, lắc lư qua lại hoặc vung mạnh (vật gì).",
+     "new": [
+      {
+       "w": "batter",
+       "vi": "người đánh bóng"
+      }
+     ],
+     "tw": "swing"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family antique",
+     "s": "If you ___ that vase against the wall, nobody will be able to repair it afterwards.",
+     "o": [
+      "smash",
+      "paint",
+      "admire"
+     ],
+     "a": "smash",
+     "vi": "Nếu bạn đập vỡ cái bình đó vào tường, sau này sẽ không ai sửa lại được.",
+     "why": "smash = đập vỡ tan hoặc đâm mạnh vào vật gì.",
+     "new": [
+      {
+       "w": "repair",
+       "vi": "sửa chữa"
+      }
+     ],
+     "tw": "smash"
+    },
+    {
+     "type": "mc",
+     "ctx": "Tight deadlines",
+     "s": "Sam promised the doctor that he would stop shouting at his team, because it is easy to ___ when deadlines are tight.",
+     "o": [
+      "lose your way",
+      "lose your keys",
+      "lose your temper"
+     ],
+     "a": "lose your temper",
+     "vi": "Sam hứa với bác sĩ sẽ thôi quát nhân viên, vì rất dễ mất bình tĩnh khi hạn chót gấp gáp.",
+     "why": "lose your temper = mất bình tĩnh, nổi nóng (lost your temper ở quá khứ).",
+     "new": [
+      {
+       "w": "deadlines",
+       "vi": "hạn chót"
+      }
+     ],
+     "tw": "lose your temper"
+    },
+    {
+     "type": "mc",
+     "ctx": "Football match",
+     "s": "Because of his ___, the young footballer often argues with referees and has already received three red cards this season.",
+     "o": [
+      "sense of humour",
+      "hot temper",
+      "great patience"
+     ],
+     "a": "hot temper",
+     "vi": "Vì tính nóng nảy, cầu thủ trẻ thường cãi nhau với trọng tài và đã nhận ba thẻ đỏ trong mùa này.",
+     "why": "a hot temper = tính nóng nảy, dễ nổi giận.",
+     "new": [
+      {
+       "w": "referees",
+       "vi": "trọng tài"
+      },
+      {
+       "w": "red cards",
+       "vi": "thẻ đỏ"
+      }
+     ],
+     "tw": "hot temper"
+    },
+    {
+     "type": "mc",
+     "ctx": "Exam rules",
+     "s": "Sharing the exam answers with classmates might ___, because the teachers have installed hidden cameras.",
+     "o": [
+      "get someone into trouble",
+      "give someone a discount",
+      "make someone a coffee"
+     ],
+     "a": "get someone into trouble",
+     "vi": "Chia sẻ đáp án thi cho bạn học có thể khiến ai đó gặp rắc rối vì giáo viên đã lắp camera giấu kín.",
+     "why": "get somebody into trouble = khiến ai gặp rắc rối.",
+     "new": [
+      {
+       "w": "installed",
+       "vi": "lắp đặt"
+      },
+      {
+       "w": "hidden",
+       "vi": "giấu kín"
+      }
+     ],
+     "tw": "get someone into trouble"
+    },
+    {
+     "type": "mc",
+     "ctx": "Renting in a city",
+     "s": "Instead of buying a house, many young couples in big cities rent a flat in a ___ near the metro line.",
+     "o": [
+      "farm shed",
+      "car park",
+      "block of flats"
+     ],
+     "a": "block of flats",
+     "vi": "Thay vì mua nhà, nhiều cặp vợ chồng trẻ ở thành phố lớn thuê một căn hộ trong tòa chung cư gần tuyến tàu điện.",
+     "why": "block of flats = tòa nhà nhiều căn hộ (Anh-Anh).",
+     "new": [
+      {
+       "w": "metro",
+       "vi": "tàu điện ngầm"
+      }
+     ],
+     "tw": "block of flats",
+     "ipa": "/ˌblɑːk əv ˈflæts/"
+    },
+    {
+     "type": "mc",
+     "ctx": "A landlord",
+     "s": "The landlord owns ___ downtown and rents the apartments to students who want to be close to the university.",
+     "o": [
+      "a shopping mall",
+      "an apartment building",
+      "an elementary school"
+     ],
+     "a": "an apartment building",
+     "vi": "Chủ nhà sở hữu một tòa chung cư ở trung tâm và cho sinh viên muốn ở gần trường đại học thuê các căn hộ.",
+     "why": "an apartment building = tòa chung cư (Anh-Mỹ).",
+     "new": [
+      {
+       "w": "landlord",
+       "vi": "chủ nhà"
+      }
+     ],
+     "tw": "an apartment building",
+     "ipa": "/ən əˈpɑːrtmənt ˌbɪldɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Picky eater",
+     "s": "Although some children dislike green vegetables, my daughter happily eats ___, especially when it is roasted with garlic.",
+     "o": [
+      "asparagus",
+      "chocolate",
+      "popcorn"
+     ],
+     "a": "asparagus",
+     "vi": "Dù vài đứa trẻ ghét rau xanh, con gái tôi vẫn ăn măng tây vui vẻ, nhất là khi nướng với tỏi.",
+     "why": "asparagus = măng tây, rau xanh thân dài, mùa xuân.",
+     "new": [
+      {
+       "w": "roasted",
+       "vi": "nướng"
+      }
+     ],
+     "tw": "asparagus",
+     "ipa": "/əˈsper.ə.ɡəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Beach holiday",
+     "s": "The beach is about three kilometres ___ from our hotel, so we usually rent bicycles.",
+     "o": [
+      "far",
+      "long",
+      "away"
+     ],
+     "a": "away",
+     "vi": "Bãi biển cách khách sạn khoảng ba cây số nên chúng tôi thường thuê xe đạp.",
+     "why": "be + khoảng cách + away = cách đây/cách đó bao xa.",
+     "new": [
+      {
+       "w": "rent",
+       "vi": "thuê"
+      }
+     ],
+     "tw": "away",
+     "ipa": "/əˈweɪ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hometown",
+     "s": "Where I grew up, ___ foreign visitors, because the nearest airport was four hours away.",
+     "o": [
+      "you will get too many",
+      "you don't get many",
+      "you get plenty of"
+     ],
+     "a": "you don't get many",
+     "vi": "Nơi tôi lớn lên không có nhiều du khách nước ngoài vì sân bay gần nhất cách bốn tiếng.",
+     "why": "you don't get many + N = không có nhiều... ở nơi nào đó.",
+     "new": [
+      {
+       "w": "airport",
+       "vi": "sân bay"
+      }
+     ],
+     "tw": "you don't get many",
+     "ipa": "/ju dəʊnt ɡet ˈmen.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Giving directions",
+     "s": "Turn right at the next ___, and you will see the petrol station next to a small bakery.",
+     "o": [
+      "junction",
+      "kitchen",
+      "platform"
+     ],
+     "a": "junction",
+     "vi": "Rẽ phải ở ngã giao tiếp theo và bạn sẽ thấy trạm xăng cạnh một tiệm bánh nhỏ.",
+     "why": "junction = chỗ giao nhau của các con đường.",
+     "new": [
+      {
+       "w": "petrol station",
+       "vi": "trạm xăng"
+      }
+     ],
+     "tw": "junction",
+     "ipa": "/ˈdʒʌŋkʃn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cycling safety",
+     "s": "Cyclists should slow down before ___, because they cannot see oncoming cars until it is too late.",
+     "o": [
+      "a tree in the garden",
+      "a hole in the pocket",
+      "a bend in the road"
+     ],
+     "a": "a bend in the road",
+     "vi": "Người đi xe đạp nên giảm tốc trước khúc cua vì họ không thể thấy xe ngược chiều cho đến khi quá muộn.",
+     "why": "a bend in the road = khúc cua trên đường.",
+     "new": [
+      {
+       "w": "oncoming",
+       "vi": "ngược chiều"
+      }
+     ],
+     "tw": "a bend in the road",
+     "ipa": "/bend/"
+    },
+    {
+     "type": "mc",
+     "ctx": "River journey",
+     "s": "Because the river has to ___ around the hill, the boat trip takes much longer than the journey by road.",
+     "o": [
+      "freeze",
+      "bend",
+      "melt"
+     ],
+     "a": "bend",
+     "vi": "Vì con sông phải uốn quanh ngọn đồi nên chuyến đi bằng thuyền lâu hơn nhiều so với đi bằng đường bộ.",
+     "why": "bend = (đường) uốn cong, cua sang một hướng.",
+     "new": [
+      {
+       "w": "journey",
+       "vi": "chuyến đi"
+      }
+     ],
+     "tw": "bend",
+     "ipa": "/bend/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Polite driver",
+     "s": "The driver stopped his car to let an elderly man cross at the ___, and everyone behind him waited patiently.",
+     "o": [
+      "pedestrian crossing",
+      "traffic jam",
+      "petrol station"
+     ],
+     "a": "pedestrian crossing",
+     "vi": "Tài xế dừng xe để cho một cụ ông băng qua tại vạch dành cho người đi bộ và mọi người phía sau kiên nhẫn chờ.",
+     "why": "pedestrian crossing = vạch qua đường cho người đi bộ (Anh-Anh).",
+     "new": [
+      {
+       "w": "elderly",
+       "vi": "cao tuổi"
+      }
+     ],
+     "tw": "pedestrian crossing",
+     "ipa": "/pəˈdestriən ˈkrɒsɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "American habits",
+     "s": "In the United States, children are taught to press the button and wait at the ___ until the little green figure appears.",
+     "o": [
+      "bakery",
+      "airport gate",
+      "crosswalk"
+     ],
+     "a": "crosswalk",
+     "vi": "Ở Mỹ, trẻ em được dạy bấm nút và đợi ở vạch qua đường cho đến khi hình người nhỏ màu xanh hiện lên.",
+     "why": "crosswalk = vạch qua đường cho người đi bộ (Anh-Mỹ).",
+     "new": [
+      {
+       "w": "figure",
+       "vi": "hình người"
+      }
+     ],
+     "tw": "crosswalk",
+     "ipa": "/ˈkrɔːs.wɔːk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Phone distraction",
+     "s": "Many accidents happen because people are looking at their phones while ___ near busy junctions.",
+     "o": [
+      "boiling the water",
+      "crossing the road",
+      "painting the wall"
+     ],
+     "a": "crossing the road",
+     "vi": "Nhiều tai nạn xảy ra vì người ta nhìn điện thoại khi đang sang đường gần các ngã tư đông đúc.",
+     "why": "crossing the road = sang đường, băng qua đường.",
+     "new": [
+      {
+       "w": "distraction",
+       "vi": "sự xao nhãng"
+      }
+     ],
+     "tw": "crossing the road"
+    },
+    {
+     "type": "mc",
+     "ctx": "Mountain pass",
+     "s": "A new ___ warns drivers about falling rocks, so everyone slows down when they enter the mountain pass.",
+     "o": [
+      "road sign",
+      "road trip",
+      "road tax"
+     ],
+     "a": "road sign",
+     "vi": "Một biển báo mới cảnh báo tài xế về đá rơi nên ai cũng giảm tốc khi vào đèo.",
+     "why": "road sign = biển báo giao thông.",
+     "new": [
+      {
+       "w": "falling rocks",
+       "vi": "đá rơi"
+      },
+      {
+       "w": "pass",
+       "vi": "đèo"
+      }
+     ],
+     "tw": "road sign",
+     "ipa": "/ˈrəʊd saɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Traffic fine",
+     "s": "The police fined him because he ignored the ___ sign near the school and passed three cars at once.",
+     "o": [
+      "no parking",
+      "no smoking",
+      "no overtaking"
+     ],
+     "a": "no overtaking",
+     "vi": "Cảnh sát phạt anh ta vì phớt lờ biển cấm vượt gần trường và vượt ba xe cùng lúc.",
+     "why": "no overtaking = cấm vượt (biển báo, khu vực).",
+     "new": [
+      {
+       "w": "fined",
+       "vi": "phạt"
+      }
+     ],
+     "tw": "no overtaking",
+     "ipa": "/ˌnəʊ ˌəʊvəˈteɪkɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Slow tractor",
+     "s": "The cyclist waited until the road was clear before he decided to ___ the slow tractor in front of him.",
+     "o": [
+      "borrow",
+      "overtake",
+      "photograph"
+     ],
+     "a": "overtake",
+     "vi": "Người đi xe đạp đợi đến khi đường vắng mới quyết định vượt chiếc máy kéo chạy chậm phía trước.",
+     "why": "overtake sb/sth = vượt xe khác trên đường.",
+     "new": [
+      {
+       "w": "tractor",
+       "vi": "máy kéo"
+      }
+     ],
+     "tw": "overtake",
+     "ipa": "/ˌəʊvəˈteɪk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "School zone",
+     "s": "The council plans to lower the ___ outside the primary school from fifty to thirty kilometres an hour.",
+     "o": [
+      "speed limit",
+      "bus fare",
+      "ticket price"
+     ],
+     "a": "speed limit",
+     "vi": "Hội đồng dự định hạ giới hạn tốc độ trước trường tiểu học từ năm mươi xuống ba mươi km/giờ.",
+     "why": "speed limit = giới hạn tốc độ cho phép.",
+     "new": [
+      {
+       "w": "primary school",
+       "vi": "trường tiểu học"
+      }
+     ],
+     "tw": "speed limit",
+     "ipa": "/ˈspiːd ˌlɪmɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Long trip",
+     "s": "A journey that takes five hours on small roads might take only three on the ___, although the tolls can be expensive.",
+     "o": [
+      "pavement",
+      "bus stop",
+      "motorway"
+     ],
+     "a": "motorway",
+     "vi": "Một chuyến đi mất năm giờ trên đường nhỏ có thể chỉ mất ba giờ trên đường cao tốc, dù phí cầu đường có thể đắt.",
+     "why": "motorway = đường cao tốc (Anh-Anh).",
+     "new": [
+      {
+       "w": "tolls",
+       "vi": "phí cầu đường"
+      }
+     ],
+     "tw": "motorway",
+     "ipa": "/ˈməʊtəweɪ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Lorry rules",
+     "s": "Lorries are usually advised to stay in the ___ on the motorway, so fast cars can overtake them safely.",
+     "o": [
+      "car park",
+      "inside lane",
+      "bus stop"
+     ],
+     "a": "inside lane",
+     "vi": "Xe tải thường được khuyên đi làn trong trên đường cao tốc để xe nhanh có thể vượt chúng an toàn.",
+     "why": "inside lane = làn trong, làn chạy chậm (làn bên trái ở Anh).",
+     "new": [
+      {
+       "w": "advised",
+       "vi": "được khuyên"
+      }
+     ],
+     "tw": "inside lane",
+     "ipa": "/ˌɪnsaɪd ˈsləʊ leɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Lane discipline",
+     "s": "Drivers who stay in the ___ for too long without overtaking can annoy others, because it is reserved for faster traffic.",
+     "o": [
+      "outside lane",
+      "inside lane",
+      "cycle path"
+     ],
+     "a": "outside lane",
+     "vi": "Tài xế ở lì trong làn ngoài quá lâu mà không vượt có thể làm người khác khó chịu vì làn này dành cho xe chạy nhanh.",
+     "why": "outside lane = làn ngoài, làn vượt/chạy nhanh.",
+     "new": [
+      {
+       "w": "reserved",
+       "vi": "dành riêng"
+      }
+     ],
+     "tw": "outside lane",
+     "ipa": "/ˌaʊtsaɪd ˈfɑːst leɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Emergency",
+     "s": "The ambulance could not get through the crowded high street, so it took a ___ that was just wide enough.",
+     "o": [
+      "motorway",
+      "roundabout",
+      "side road"
+     ],
+     "a": "side road",
+     "vi": "Xe cứu thương không qua được phố chính đông đúc nên đã đi một đường nhánh vừa đủ rộng.",
+     "why": "side road = đường nhỏ rẽ ra từ đường chính.",
+     "new": [
+      {
+       "w": "crowded",
+       "vi": "đông đúc"
+      }
+     ],
+     "tw": "side road",
+     "ipa": "/ˈsaɪd rəʊd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Old town",
+     "s": "If you don't pay attention to the road signs in the old town, you will certainly ___ among its narrow streets.",
+     "o": [
+      "get dressed",
+      "get lost",
+      "get married"
+     ],
+     "a": "get lost",
+     "vi": "Nếu không để ý biển báo ở khu phố cổ, bạn chắc chắn sẽ bị lạc giữa những con phố hẹp.",
+     "why": "get lost = bị lạc đường.",
+     "new": [
+      {
+       "w": "certainly",
+       "vi": "chắc chắn"
+      }
+     ],
+     "tw": "get lost",
+     "ipa": "/ˌɡet ˈlɒst/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Car trouble",
+     "s": "My car broke down ___ the airport, so I called a taxi and arrived just in time for the check-in.",
+     "o": [
+      "on my way to",
+      "at the top of",
+      "in spite of"
+     ],
+     "a": "on my way to",
+     "vi": "Xe tôi hỏng trên đường tới sân bay nên tôi gọi taxi và đến vừa kịp làm thủ tục.",
+     "why": "on my way to + nơi chốn = trên đường tới đó.",
+     "new": [
+      {
+       "w": "broke down",
+       "vi": "bị hỏng"
+      },
+      {
+       "w": "check-in",
+       "vi": "làm thủ tục"
+      }
+     ],
+     "tw": "on my way to",
+     "ipa": "/ɒn maɪ weɪ tə/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Road trip",
+     "s": "To reach the coast, we can either take the old road or ___ the mountain pass, which is longer but much more beautiful.",
+     "o": [
+      "go against",
+      "go without",
+      "go via"
+     ],
+     "a": "go via",
+     "vi": "Để ra bờ biển, ta có thể đi đường cũ hoặc đi qua đèo, dài hơn nhưng đẹp hơn nhiều.",
+     "why": "go via + nơi = đi qua / ghé qua nơi đó trên đường.",
+     "new": [
+      {
+       "w": "coast",
+       "vi": "bờ biển"
+      }
+     ],
+     "tw": "go via",
+     "ipa": "/ˈvaɪə/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Finding a shop",
+     "s": "The bakery is down the second ___ on the left, just before the post office and the small park.",
+     "o": [
+      "lesson",
+      "turning",
+      "chapter"
+     ],
+     "a": "turning",
+     "vi": "Tiệm bánh nằm ở ngã rẽ thứ hai bên trái, ngay trước bưu điện và công viên nhỏ.",
+     "why": "turning = chỗ rẽ, ngã rẽ ra khỏi đường đang đi.",
+     "new": [
+      {
+       "w": "just before",
+       "vi": "ngay trước"
+      }
+     ],
+     "tw": "turning",
+     "ipa": "/ˈtɜːnɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Roundabout",
+     "s": "If you ___ at the roundabout, you will arrive at the factory instead of the city.",
+     "o": [
+      "take the wrong turning",
+      "take a short break",
+      "take a long shower"
+     ],
+     "a": "take the wrong turning",
+     "vi": "Nếu bạn rẽ nhầm đường ở vòng xuyến, bạn sẽ tới nhà máy thay vì thành phố.",
+     "why": "take the wrong turning = rẽ nhầm đường.",
+     "new": [
+      {
+       "w": "roundabout",
+       "vi": "vòng xuyến"
+      }
+     ],
+     "tw": "take the wrong turning",
+     "ipa": "/teɪk ðə rɒŋ ˈtɜːnɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Planning a route",
+     "s": "If you don't plan your route carefully, you might ___ in a place that has no hotels at all.",
+     "o": [
+      "look up",
+      "give up",
+      "end up"
+     ],
+     "a": "end up",
+     "vi": "Nếu không lên lộ trình cẩn thận, rốt cuộc bạn có thể ở một nơi chẳng có khách sạn nào.",
+     "why": "end up = rốt cuộc lại ở / làm gì (ngoài dự định).",
+     "new": [
+      {
+       "w": "route",
+       "vi": "lộ trình"
+      }
+     ],
+     "tw": "end up",
+     "ipa": "/ˌend ˈʌp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel advice",
+     "s": "It is better to ___ than to wander for an hour, since most people are happy to help a lost visitor.",
+     "o": [
+      "take a nap",
+      "ask somebody the way",
+      "buy a ticket"
+     ],
+     "a": "ask somebody the way",
+     "vi": "Tốt hơn là hỏi đường còn hơn lang thang cả tiếng, vì hầu hết mọi người vui lòng giúp du khách bị lạc.",
+     "why": "ask somebody the way (to somewhere) = hỏi đường ai đó.",
+     "new": [
+      {
+       "w": "wander",
+       "vi": "đi lang thang"
+      }
+     ],
+     "tw": "ask somebody the way",
+     "ipa": "/ɑːsk ðə weɪ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Office security",
+     "s": "Security guards can ___ visitors to the reception desk instead of letting them wander around the offices.",
+     "o": [
+      "direct",
+      "paint",
+      "compare"
+     ],
+     "a": "direct",
+     "vi": "Bảo vệ có thể chỉ đường cho khách tới quầy lễ tân thay vì để họ đi lang thang quanh các văn phòng.",
+     "why": "direct somebody to somewhere = chỉ đường cho ai tới đâu.",
+     "new": [
+      {
+       "w": "reception desk",
+       "vi": "quầy lễ tân"
+      }
+     ],
+     "tw": "direct",
+     "ipa": "/dəˈrekt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Ring road",
+     "s": "Once you are on the ring road, ___ the old town and park near the cathedral.",
+     "o": [
+      "wave goodbye to",
+      "write a note about",
+      "follow signs for"
+     ],
+     "a": "follow signs for",
+     "vi": "Khi đã ở trên đường vành đai, hãy đi theo biển chỉ dẫn tới phố cổ và đỗ xe gần nhà thờ lớn.",
+     "why": "follow the signs for + nơi = đi theo biển chỉ dẫn tới nơi đó.",
+     "new": [
+      {
+       "w": "ring road",
+       "vi": "đường vành đai"
+      },
+      {
+       "w": "cathedral",
+       "vi": "nhà thờ lớn"
+      }
+     ],
+     "tw": "follow signs for",
+     "ipa": "/ˈfɒləʊ saɪnz fə/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Presentation",
+     "s": "I saved the document on a USB stick ___ my laptop crashes during the presentation.",
+     "o": [
+      "unless",
+      "in case",
+      "although"
+     ],
+     "a": "in case",
+     "vi": "Tôi lưu tài liệu vào USB phòng khi máy tính xách tay bị sập trong buổi thuyết trình.",
+     "why": "in case + mệnh đề = phòng khi điều gì xảy ra.",
+     "new": [
+      {
+       "w": "crashes",
+       "vi": "bị sập"
+      }
+     ],
+     "tw": "in case"
+    },
+    {
+     "type": "mc",
+     "ctx": "Borrowing",
+     "s": "You may borrow my laptop ___ you return it before Friday and do not install any new programs.",
+     "o": [
+      "provided that",
+      "because",
+      "even though"
+     ],
+     "a": "provided that",
+     "vi": "Bạn có thể mượn laptop của tôi với điều kiện trả lại trước thứ Sáu và không cài chương trình mới.",
+     "why": "provided that = với điều kiện là (trang trọng hơn as long as).",
+     "new": [
+      {
+       "w": "install",
+       "vi": "cài đặt"
+      }
+     ],
+     "tw": "provided that"
+    },
+    {
+     "type": "mc",
+     "ctx": "Holiday plans",
+     "s": "Our trip will be wonderful ___ the weather stays dry, because we have no tickets for indoor activities.",
+     "o": [
+      "as well as",
+      "as far as",
+      "as long as"
+     ],
+     "a": "as long as",
+     "vi": "Chuyến đi sẽ tuyệt vời miễn là thời tiết khô ráo vì chúng tôi không có vé cho hoạt động trong nhà.",
+     "why": "as long as = miễn là, với điều kiện là.",
+     "new": [
+      {
+       "w": "indoor",
+       "vi": "trong nhà"
+      }
+     ],
+     "tw": "as long as"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "After missing the last train, Tom had no money for a taxi. He felt panicked, so he decided to run all the way home, and he arrived exhausted but safe. What does \"run all the way home\" mean?",
+     "o": [
+      "đi bộ thong thả về nhà",
+      "bắt taxi về nhà rồi nghỉ ngơi",
+      "chạy một mạch về nhà, không dừng lại"
+     ],
+     "a": "chạy một mạch về nhà, không dừng lại",
+     "vi": "Sau khi lỡ chuyến tàu cuối, Tom không có tiền đi taxi. Anh hoảng hốt nên quyết định chạy một mạch về nhà và về đến nơi trong tình trạng kiệt sức nhưng an toàn.",
+     "why": "run all the way home = chạy liền một mạch về nhà, không dừng lại giữa đường.",
+     "noblank": true,
+     "say": "After missing the last train, Tom had no money for a taxi. He felt panicked, so he decided to run all the way home, and he arrived exhausted but safe.",
+     "new": [
+      {
+       "w": "panicked",
+       "vi": "hoảng hốt"
+      },
+      {
+       "w": "exhausted",
+       "vi": "kiệt sức"
+      }
+     ],
+     "tw": "run all the way home"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The wind was so strong that it blew the front door closed with a loud bang. Everyone in the house jumped, because it sounded as if someone had slammed the door shut in anger. What does \"slam the door shut\" mean?",
+     "o": [
+      "khóa cửa bằng chìa",
+      "đóng sầm cửa lại",
+      "khẽ khàng khép cửa lại"
+     ],
+     "a": "đóng sầm cửa lại",
+     "vi": "Gió mạnh đến mức thổi cánh cửa trước đóng lại với một tiếng đập lớn. Mọi người trong nhà giật mình vì nghe như ai đó đã đóng sầm cửa trong cơn giận.",
+     "why": "slam the door shut = đóng sầm cửa lại, thường vì giận dữ hoặc gió mạnh.",
+     "noblank": true,
+     "say": "The wind was so strong that it blew the front door closed with a loud bang. Everyone in the house jumped, because it sounded as if someone had slammed the door shut in anger.",
+     "new": [
+      {
+       "w": "bang",
+       "vi": "tiếng đập mạnh"
+      }
+     ],
+     "tw": "slam the door shut"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Cats clean their faces by licking one paw and rubbing it over their ears. Their soft paws also hide sharp claws, which they use to climb trees and catch small animals. What does \"paw\" mean?",
+     "o": [
+      "bàn chân có vuốt của động vật (như mèo, chó)",
+      "cái đuôi dài của con vật",
+      "bộ lông dày của con vật"
+     ],
+     "a": "bàn chân có vuốt của động vật (như mèo, chó)",
+     "vi": "Mèo rửa mặt bằng cách liếm một chân rồi xoa lên tai. Những bàn chân mềm của chúng còn giấu móng vuốt sắc, dùng để leo cây và bắt những con vật nhỏ.",
+     "why": "paw = bàn chân có vuốt của động vật như mèo, chó, gấu.",
+     "noblank": true,
+     "say": "Cats clean their faces by licking one paw and rubbing it over their ears. Their soft paws also hide sharp claws, which they use to climb trees and catch small animals.",
+     "new": [
+      {
+       "w": "claws",
+       "vi": "móng vuốt"
+      },
+      {
+       "w": "licking",
+       "vi": "liếm"
+      }
+     ],
+     "tw": "paw"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "A beehive is a home built or provided for bees. Beekeepers collect honey from each beehive once or twice a year, while the bees inside keep working to produce more. What does \"beehive\" mean?",
+     "o": [
+      "đàn ong bay ra khỏi tổ",
+      "bình đựng mật ong",
+      "tổ ong, nơi đàn ong sống và làm mật"
+     ],
+     "a": "tổ ong, nơi đàn ong sống và làm mật",
+     "vi": "Tổ ong là ngôi nhà do ong xây hoặc do con người làm cho chúng. Người nuôi ong thu mật từ mỗi tổ một hoặc hai lần mỗi năm, trong khi đàn ong bên trong tiếp tục làm việc để tạo thêm mật.",
+     "why": "beehive = tổ ong, nơi đàn ong sống và làm mật.",
+     "noblank": true,
+     "say": "A beehive is a home built or provided for bees. Beekeepers collect honey from each beehive once or twice a year, while the bees inside keep working to produce more.",
+     "new": [
+      {
+       "w": "beekeepers",
+       "vi": "người nuôi ong"
+      },
+      {
+       "w": "collect",
+       "vi": "thu hoạch"
+      }
+     ],
+     "tw": "beehive"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Maria stuck her hand into the dark hole to find her lost keys. Suddenly something moved inside, so she pulled her arm out quickly and screamed. What does \"stuck\" (stick) mean in \"stuck her hand into the dark hole\"?",
+     "o": [
+      "rửa sạch",
+      "thò, đút (tay) vào",
+      "dán lên"
+     ],
+     "a": "thò, đút (tay) vào",
+     "vi": "Maria thò tay vào cái lỗ tối để tìm chùm chìa khóa bị mất. Đột nhiên có thứ gì đó cử động bên trong nên cô rút tay ra nhanh và hét lên.",
+     "why": "stick sth in/into/through = thò, đút, cắm cái gì vào đâu.",
+     "noblank": true,
+     "say": "Maria stuck her hand into the dark hole to find her lost keys. Suddenly something moved inside, so she pulled her arm out quickly and screamed.",
+     "new": [
+      {
+       "w": "screamed",
+       "vi": "hét lên"
+      }
+     ],
+     "tw": "stick"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "\"Buzz off!\" Lena snapped at the man who kept following her down the street asking for her phone number. He looked offended, but he finally stopped and walked away. What does \"Buzz off!\" mean?",
+     "o": [
+      "Đi chỗ khác đi! (suồng sã, hơi thô)",
+      "Giúp tôi với!",
+      "Nói to lên!"
+     ],
+     "a": "Đi chỗ khác đi! (suồng sã, hơi thô)",
+     "vi": "\"Cút đi!\" Lena gắt lên với người đàn ông cứ đi theo cô dọc phố để xin số điện thoại. Anh ta có vẻ bị xúc phạm nhưng cuối cùng cũng dừng lại và bỏ đi.",
+     "why": "buzz off = đi chỗ khác đi (cách nói suồng sã, hơi thô).",
+     "noblank": true,
+     "say": "\"Buzz off!\" Lena snapped at the man who kept following her down the street asking for her phone number. He looked offended, but he finally stopped and walked away.",
+     "new": [
+      {
+       "w": "snapped",
+       "vi": "gắt lên"
+      },
+      {
+       "w": "offended",
+       "vi": "bị xúc phạm"
+      }
+     ],
+     "tw": "buzz off"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Dan was cooking dinner and answering emails at the same time. When his roommate asked a silly question, he sighed and said, \"Please don't bother me right now.\" What does \"don't bother me\" mean?",
+     "o": [
+      "đừng lo lắng cho tôi",
+      "đừng bỏ tôi lại",
+      "đừng làm phiền tôi"
+     ],
+     "a": "đừng làm phiền tôi",
+     "vi": "Dan vừa nấu bữa tối vừa trả lời email. Khi bạn cùng phòng hỏi một câu ngớ ngẩn, anh thở dài và nói: \"Làm ơn đừng làm phiền tôi lúc này.\"",
+     "why": "don't bother me = đừng làm phiền tôi (đang bận hoặc không muốn bị quấy rầy).",
+     "noblank": true,
+     "say": "Dan was cooking dinner and answering emails at the same time. When his roommate asked a silly question, he sighed and said, \"Please don't bother me right now.\"",
+     "new": [
+      {
+       "w": "roommate",
+       "vi": "bạn cùng phòng"
+      },
+      {
+       "w": "sighed",
+       "vi": "thở dài"
+      }
+     ],
+     "tw": "don't bother me"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Bees sting only when they feel in danger. A single sting is usually harmless, but it can be dangerous for people who are allergic to bee venom. What does \"sting\" mean?",
+     "o": [
+      "húc bằng sừng",
+      "đốt, chích bằng ngòi hoặc nọc độc",
+      "cắn bằng răng"
+     ],
+     "a": "đốt, chích bằng ngòi hoặc nọc độc",
+     "vi": "Ong chỉ đốt khi cảm thấy nguy hiểm. Một vết đốt thường vô hại, nhưng có thể nguy hiểm với người dị ứng với nọc ong.",
+     "why": "sting = đốt, chích bằng ngòi hoặc nọc (ong, bọ cạp, sứa).",
+     "noblank": true,
+     "say": "Bees sting only when they feel in danger. A single sting is usually harmless, but it can be dangerous for people who are allergic to bee venom.",
+     "new": [
+      {
+       "w": "venom",
+       "vi": "nọc độc"
+      },
+      {
+       "w": "allergic",
+       "vi": "dị ứng"
+      }
+     ],
+     "tw": "sting"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "On windy days, the old sign outside the shop swings back and forth and creaks loudly. Customers say the noise is annoying, but the owner refuses to fix it. What does \"swing\" mean?",
+     "o": [
+      "đu đưa, lắc qua lắc lại",
+      "rơi xuống đất",
+      "bốc cháy"
+     ],
+     "a": "đu đưa, lắc qua lắc lại",
+     "vi": "Vào những ngày gió, tấm biển cũ trước cửa hàng đu đưa qua lại và kêu cọt kẹt. Khách nói tiếng ồn rất khó chịu nhưng chủ tiệm không chịu sửa.",
+     "why": "swing = đu đưa, lắc lư qua lại hoặc vung mạnh (vật gì).",
+     "noblank": true,
+     "say": "On windy days, the old sign outside the shop swings back and forth and creaks loudly. Customers say the noise is annoying, but the owner refuses to fix it.",
+     "new": [
+      {
+       "w": "creaks",
+       "vi": "kêu cọt kẹt"
+      },
+      {
+       "w": "annoying",
+       "vi": "khó chịu"
+      }
+     ],
+     "tw": "swing"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The truck lost control and smashed into a wall at the end of the street. The front of the vehicle was completely destroyed, but luckily the driver escaped with only a few bruises. What does \"smash\" mean?",
+     "o": [
+      "lái chậm lại",
+      "đỗ gọn vào lề",
+      "đâm mạnh, đập vỡ tan"
+     ],
+     "a": "đâm mạnh, đập vỡ tan",
+     "vi": "Chiếc xe tải mất lái và đâm mạnh vào bức tường ở cuối phố. Phần đầu xe bị phá hủy hoàn toàn, nhưng may mắn tài xế chỉ bị vài vết bầm.",
+     "why": "smash = đập vỡ tan hoặc đâm mạnh vào vật gì.",
+     "noblank": true,
+     "say": "The truck lost control and smashed into a wall at the end of the street. The front of the vehicle was completely destroyed, but luckily the driver escaped with only a few bruises.",
+     "new": [
+      {
+       "w": "bruises",
+       "vi": "vết bầm"
+      },
+      {
+       "w": "escaped",
+       "vi": "thoát được"
+      }
+     ],
+     "tw": "smash"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Mr Lee is usually patient, but yesterday he lost his temper when the printer broke for the third time. He shouted at the machine, and his colleagues stared at him in surprise. What does \"lost his temper\" mean?",
+     "o": [
+      "mất việc vì đi trễ",
+      "nổi giận, mất bình tĩnh",
+      "bình tĩnh ngồi sửa máy"
+     ],
+     "a": "nổi giận, mất bình tĩnh",
+     "vi": "Ông Lee thường rất kiên nhẫn, nhưng hôm qua ông mất bình tĩnh khi máy in hỏng lần thứ ba. Ông quát vào chiếc máy và đồng nghiệp ngạc nhiên nhìn ông.",
+     "why": "lose your temper = mất bình tĩnh, nổi nóng (lost your temper ở quá khứ).",
+     "noblank": true,
+     "say": "Mr Lee is usually patient, but yesterday he lost his temper when the printer broke for the third time. He shouted at the machine, and his colleagues stared at him in surprise.",
+     "new": [
+      {
+       "w": "stared",
+       "vi": "nhìn chằm chằm"
+      },
+      {
+       "w": "colleagues",
+       "vi": "đồng nghiệp"
+      }
+     ],
+     "tw": "lose your temper"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Although Hana is clever and generous, she has a hot temper. A small mistake can make her shout, but she usually calms down and apologizes within ten minutes. What does \"hot temper\" mean?",
+     "o": [
+      "tính nóng nảy, dễ nổi giận",
+      "tính hay quên",
+      "tính hay xấu hổ"
+     ],
+     "a": "tính nóng nảy, dễ nổi giận",
+     "vi": "Dù Hana thông minh và hào phóng, cô ấy có tính nóng nảy. Một lỗi nhỏ cũng khiến cô quát lên, nhưng thường cô nguôi nhanh và xin lỗi trong mười phút.",
+     "why": "a hot temper = tính nóng nảy, dễ nổi giận.",
+     "noblank": true,
+     "say": "Although Hana is clever and generous, she has a hot temper. A small mistake can make her shout, but she usually calms down and apologizes within ten minutes.",
+     "new": [
+      {
+       "w": "generous",
+       "vi": "hào phóng"
+      },
+      {
+       "w": "apologizes",
+       "vi": "xin lỗi"
+      }
+     ],
+     "tw": "hot temper"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Tom told his manager that Anna had arrived late again. Anna was upset because his comment got her into serious trouble, and she had to explain herself in a meeting. What does \"got her into trouble\" mean?",
+     "o": [
+      "giúp cô ấy được thăng chức",
+      "đưa cô ấy vào phòng họp",
+      "khiến cô ấy gặp rắc rối"
+     ],
+     "a": "khiến cô ấy gặp rắc rối",
+     "vi": "Tom nói với quản lý rằng Anna lại đến muộn. Anna buồn vì lời nói đó khiến cô gặp rắc rối nghiêm trọng và phải giải trình trong một cuộc họp.",
+     "why": "get somebody into trouble = khiến ai gặp rắc rối.",
+     "noblank": true,
+     "say": "Tom told his manager that Anna had arrived late again. Anna was upset because his comment got her into serious trouble, and she had to explain herself in a meeting.",
+     "new": [
+      {
+       "w": "explain herself",
+       "vi": "giải thích, giải trình"
+      }
+     ],
+     "tw": "get someone into trouble"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "In Britain, a block of flats usually has a shared entrance and several floors. Residents often meet in the lift or on the stairs, so they quickly learn each other's habits. What does \"block of flats\" mean?",
+     "o": [
+      "khu nghỉ dưỡng ven biển",
+      "tòa nhà gồm nhiều căn hộ",
+      "ngôi nhà một tầng có vườn"
+     ],
+     "a": "tòa nhà gồm nhiều căn hộ",
+     "vi": "Ở Anh, một tòa chung cư thường có lối vào chung và nhiều tầng. Cư dân hay gặp nhau trong thang máy hoặc cầu thang nên nhanh chóng biết thói quen của nhau.",
+     "why": "block of flats = tòa nhà nhiều căn hộ (Anh-Anh).",
+     "noblank": true,
+     "say": "In Britain, a block of flats usually has a shared entrance and several floors. Residents often meet in the lift or on the stairs, so they quickly learn each other's habits.",
+     "new": [
+      {
+       "w": "residents",
+       "vi": "cư dân"
+      },
+      {
+       "w": "lift",
+       "vi": "thang máy"
+      }
+     ],
+     "tw": "block of flats",
+     "ipa": "/ˌblɑːk əv ˈflæts/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Ben's apartment building has twelve floors and a small gym in the basement. Most tenants are young professionals, and many of them work in the nearby financial district. What does \"apartment building\" mean?",
+     "o": [
+      "tòa chung cư nhiều căn hộ",
+      "khách sạn năm sao",
+      "nhà kho lớn"
+     ],
+     "a": "tòa chung cư nhiều căn hộ",
+     "vi": "Tòa chung cư của Ben có mười hai tầng và một phòng tập nhỏ ở tầng hầm. Hầu hết người thuê là nhân viên trẻ, nhiều người làm việc ở khu tài chính gần đó.",
+     "why": "an apartment building = tòa chung cư (Anh-Mỹ).",
+     "noblank": true,
+     "say": "Ben's apartment building has twelve floors and a small gym in the basement. Most tenants are young professionals, and many of them work in the nearby financial district.",
+     "new": [
+      {
+       "w": "tenants",
+       "vi": "người thuê nhà"
+      },
+      {
+       "w": "basement",
+       "vi": "tầng hầm"
+      }
+     ],
+     "tw": "an apartment building",
+     "ipa": "/ən əˈpɑːrtmənt ˌbɪldɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Asparagus is a long, thin green vegetable that is harvested in spring. It is rich in vitamins, and chefs often boil, steam or grill the young stems. What does \"asparagus\" mean?",
+     "o": [
+      "củ cải đỏ",
+      "bắp cải tím",
+      "măng tây"
+     ],
+     "a": "măng tây",
+     "vi": "Măng tây là loại rau xanh dài, mảnh, được thu hoạch vào mùa xuân. Nó giàu vitamin và đầu bếp thường luộc, hấp hoặc nướng các thân non.",
+     "why": "asparagus = măng tây, rau xanh thân dài, mùa xuân.",
+     "noblank": true,
+     "say": "Asparagus is a long, thin green vegetable that is harvested in spring. It is rich in vitamins, and chefs often boil, steam or grill the young stems.",
+     "new": [
+      {
+       "w": "harvested",
+       "vi": "thu hoạch"
+      },
+      {
+       "w": "stems",
+       "vi": "thân cây"
+      }
+     ],
+     "tw": "asparagus",
+     "ipa": "/əˈsper.ə.ɡəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Our village is small and quiet. The nearest supermarket is twelve miles away, so most families drive there once a week and stock up on food. What does \"twelve miles away\" mean?",
+     "o": [
+      "mở cửa lúc mười hai giờ",
+      "cách đó mười hai dặm",
+      "mất mười hai phút để đến"
+     ],
+     "a": "cách đó mười hai dặm",
+     "vi": "Làng chúng tôi nhỏ và yên tĩnh. Siêu thị gần nhất cách đó mười hai dặm nên đa số gia đình lái xe đến đó mỗi tuần một lần để tích trữ thực phẩm.",
+     "why": "be + khoảng cách + away = cách đây/cách đó bao xa.",
+     "noblank": true,
+     "say": "Our village is small and quiet. The nearest supermarket is twelve miles away, so most families drive there once a week and stock up on food.",
+     "new": [
+      {
+       "w": "stock up",
+       "vi": "tích trữ"
+      }
+     ],
+     "tw": "away",
+     "ipa": "/əˈweɪ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "\"You don't get many cheap flats in the city centre,\" the agent explained. \"Most of them are rented within a day, and the rest are far too expensive for students.\" What does \"You don't get many cheap flats\" mean?",
+     "o": [
+      "Có rất ít căn hộ giá rẻ",
+      "Có rất nhiều căn hộ giá rẻ",
+      "Bạn không nhận được căn hộ nào"
+     ],
+     "a": "Có rất ít căn hộ giá rẻ",
+     "vi": "\"Ở trung tâm không có nhiều căn hộ giá rẻ,\" nhân viên môi giới giải thích. \"Hầu hết được thuê trong một ngày, phần còn lại quá đắt với sinh viên.\"",
+     "why": "you don't get many + N = không có nhiều... ở nơi nào đó.",
+     "noblank": true,
+     "say": "\"You don't get many cheap flats in the city centre,\" the agent explained. \"Most of them are rented within a day, and the rest are far too expensive for students.\"",
+     "new": [
+      {
+       "w": "agent",
+       "vi": "nhân viên môi giới"
+      }
+     ],
+     "tw": "you don't get many",
+     "ipa": "/ju dəʊnt ɡet ˈmen.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "A serious accident happened at the junction of Park Road and High Street last night. Police closed the area for two hours, and drivers had to use another route. What does \"junction\" mean?",
+     "o": [
+      "bãi đỗ xe ngầm",
+      "cây cầu bắc qua sông",
+      "ngã tư, chỗ giao nhau của các con đường"
+     ],
+     "a": "ngã tư, chỗ giao nhau của các con đường",
+     "vi": "Tối qua một vụ tai nạn nghiêm trọng xảy ra tại ngã giao giữa đường Park và phố High. Cảnh sát phong tỏa khu vực hai tiếng và tài xế phải đi lối khác.",
+     "why": "junction = chỗ giao nhau của các con đường.",
+     "noblank": true,
+     "say": "A serious accident happened at the junction of Park Road and High Street last night. Police closed the area for two hours, and drivers had to use another route.",
+     "new": [
+      {
+       "w": "route",
+       "vi": "lộ trình"
+      }
+     ],
+     "tw": "junction",
+     "ipa": "/ˈdʒʌŋkʃn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The village is hidden behind a sharp bend in the road. Visitors often miss it because they drive too fast, so the council has put up a warning sign. What does \"a sharp bend in the road\" mean?",
+     "o": [
+      "chỗ đường bị ngập",
+      "khúc cua gấp trên đường",
+      "đoạn đường thẳng dài"
+     ],
+     "a": "khúc cua gấp trên đường",
+     "vi": "Ngôi làng nằm khuất sau một khúc cua gấp. Du khách thường bỏ lỡ vì lái quá nhanh nên chính quyền đã dựng biển cảnh báo.",
+     "why": "a bend in the road = khúc cua trên đường.",
+     "noblank": true,
+     "say": "The village is hidden behind a sharp bend in the road. Visitors often miss it because they drive too fast, so the council has put up a warning sign.",
+     "new": [
+      {
+       "w": "council",
+       "vi": "hội đồng địa phương"
+      }
+     ],
+     "tw": "a bend in the road",
+     "ipa": "/bend/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The motorway bends gently to the left after the bridge, so drivers can see the whole valley. Because it bends so slowly, nobody needs to brake. What does \"bends to the left\" mean?",
+     "o": [
+      "cua, uốn sang bên trái",
+      "kết thúc ở bên trái",
+      "bị ngập ở bên trái"
+     ],
+     "a": "cua, uốn sang bên trái",
+     "vi": "Đường cao tốc uốn nhẹ sang trái sau cây cầu nên tài xế nhìn thấy cả thung lũng. Vì nó uốn rất thoai thoải nên không ai cần phanh.",
+     "why": "bend = (đường) uốn cong, cua sang một hướng.",
+     "noblank": true,
+     "say": "The motorway bends gently to the left after the bridge, so drivers can see the whole valley. Because it bends so slowly, nobody needs to brake.",
+     "new": [
+      {
+       "w": "valley",
+       "vi": "thung lũng"
+      }
+     ],
+     "tw": "bend",
+     "ipa": "/bend/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "In British cities, a pedestrian crossing is marked with black and white stripes. Drivers must stop when someone steps onto it, otherwise they may be fined. What does \"pedestrian crossing\" mean?",
+     "o": [
+      "làn đường dành riêng cho xe đạp",
+      "trạm dừng xe buýt",
+      "vạch qua đường cho người đi bộ"
+     ],
+     "a": "vạch qua đường cho người đi bộ",
+     "vi": "Ở các thành phố Anh, vạch qua đường cho người đi bộ có sọc đen trắng. Tài xế phải dừng khi có người bước lên, nếu không có thể bị phạt.",
+     "why": "pedestrian crossing = vạch qua đường cho người đi bộ (Anh-Anh).",
+     "noblank": true,
+     "say": "In British cities, a pedestrian crossing is marked with black and white stripes. Drivers must stop when someone steps onto it, otherwise they may be fined.",
+     "new": [
+      {
+       "w": "stripes",
+       "vi": "sọc"
+      },
+      {
+       "w": "fined",
+       "vi": "bị phạt"
+      }
+     ],
+     "tw": "pedestrian crossing",
+     "ipa": "/pəˈdestriən ˈkrɒsɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "A man was hit by a bike while he was walking in the crosswalk. Witnesses said the cyclist ignored the red light, which is why the police are looking for him. What does \"crosswalk\" mean?",
+     "o": [
+      "vỉa hè cạnh tòa nhà",
+      "vạch qua đường cho người đi bộ (Mỹ)",
+      "làn đường dành cho xe đạp"
+     ],
+     "a": "vạch qua đường cho người đi bộ (Mỹ)",
+     "vi": "Một người đàn ông bị xe đạp tông khi đang đi trên vạch qua đường. Nhân chứng nói người đi xe đạp phớt lờ đèn đỏ, vì thế cảnh sát đang tìm anh ta.",
+     "why": "crosswalk = vạch qua đường cho người đi bộ (Anh-Mỹ).",
+     "noblank": true,
+     "say": "A man was hit by a bike while he was walking in the crosswalk. Witnesses said the cyclist ignored the red light, which is why the police are looking for him.",
+     "new": [
+      {
+       "w": "witnesses",
+       "vi": "nhân chứng"
+      },
+      {
+       "w": "ignored",
+       "vi": "phớt lờ"
+      }
+     ],
+     "tw": "crosswalk",
+     "ipa": "/ˈkrɔːs.wɔːk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "A new app warns users when they are crossing the road while looking at their screens. It vibrates and shows a message, which helps to prevent accidents among teenagers. What does \"crossing the road\" mean?",
+     "o": [
+      "sang đường, băng qua đường",
+      "đi dọc theo con đường",
+      "sửa lại con đường"
+     ],
+     "a": "sang đường, băng qua đường",
+     "vi": "Một ứng dụng mới cảnh báo người dùng khi họ đang sang đường mà vẫn nhìn màn hình. Nó rung và hiện tin nhắn, giúp ngăn tai nạn ở thanh thiếu niên.",
+     "why": "crossing the road = sang đường, băng qua đường.",
+     "noblank": true,
+     "say": "A new app warns users when they are crossing the road while looking at their screens. It vibrates and shows a message, which helps to prevent accidents among teenagers.",
+     "new": [
+      {
+       "w": "vibrates",
+       "vi": "rung"
+      },
+      {
+       "w": "prevent",
+       "vi": "ngăn ngừa"
+      }
+     ],
+     "tw": "crossing the road"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "A red triangle is a common road sign that tells drivers to be careful. Because signs are placed beside the road, they must be clear enough to read even at high speed. What does \"road sign\" mean?",
+     "o": [
+      "đèn giao thông",
+      "vạch kẻ đường",
+      "biển báo giao thông"
+     ],
+     "a": "biển báo giao thông",
+     "vi": "Hình tam giác đỏ là một biển báo giao thông phổ biến, nhắc tài xế cẩn thận. Vì biển đặt bên đường nên phải đủ rõ để đọc được cả khi chạy nhanh.",
+     "why": "road sign = biển báo giao thông.",
+     "noblank": true,
+     "say": "A red triangle is a common road sign that tells drivers to be careful. Because signs are placed beside the road, they must be clear enough to read even at high speed.",
+     "new": [
+      {
+       "w": "triangle",
+       "vi": "hình tam giác"
+      }
+     ],
+     "tw": "road sign",
+     "ipa": "/ˈrəʊd saɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "On narrow country roads, a no overtaking sign appears wherever it is difficult to see oncoming vehicles. Drivers who ignore it risk a serious collision. What does \"no overtaking\" mean?",
+     "o": [
+      "cấm quay đầu xe",
+      "cấm vượt (xe khác)",
+      "cấm dừng xe"
+     ],
+     "a": "cấm vượt (xe khác)",
+     "vi": "Trên những con đường quê hẹp, biển cấm vượt xuất hiện ở nơi khó thấy xe ngược chiều. Tài xế phớt lờ nó có nguy cơ va chạm nghiêm trọng.",
+     "why": "no overtaking = cấm vượt (biển báo, khu vực).",
+     "noblank": true,
+     "say": "On narrow country roads, a no overtaking sign appears wherever it is difficult to see oncoming vehicles. Drivers who ignore it risk a serious collision.",
+     "new": [
+      {
+       "w": "collision",
+       "vi": "va chạm"
+      },
+      {
+       "w": "oncoming",
+       "vi": "ngược chiều"
+      }
+     ],
+     "tw": "no overtaking",
+     "ipa": "/ˌnəʊ ˌəʊvəˈteɪkɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "A white van tried to overtake a lorry just before the tunnel. Unfortunately, another car was coming the other way, so the van had to move back quickly. What does \"overtake\" mean?",
+     "o": [
+      "vượt qua xe phía trước",
+      "dừng lại sau xe khác",
+      "chạy vào hầm"
+     ],
+     "a": "vượt qua xe phía trước",
+     "vi": "Một chiếc xe tải nhỏ màu trắng cố vượt xe tải lớn ngay trước hầm. Không may có xe khác chạy ngược chiều nên xe phải quay lại làn cũ ngay.",
+     "why": "overtake sb/sth = vượt xe khác trên đường.",
+     "noblank": true,
+     "say": "A white van tried to overtake a lorry just before the tunnel. Unfortunately, another car was coming the other way, so the van had to move back quickly.",
+     "new": [
+      {
+       "w": "tunnel",
+       "vi": "đường hầm"
+      },
+      {
+       "w": "lorry",
+       "vi": "xe tải"
+      }
+     ],
+     "tw": "overtake",
+     "ipa": "/ˌəʊvəˈteɪk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "On most motorways in Britain, the speed limit is seventy miles an hour. If a driver goes faster, a camera may take a photo and the owner of the car will receive a fine. What does \"speed limit\" mean?",
+     "o": [
+      "thời gian đỗ xe tối đa",
+      "giá vé đường cao tốc",
+      "giới hạn tốc độ"
+     ],
+     "a": "giới hạn tốc độ",
+     "vi": "Trên hầu hết đường cao tốc ở Anh, giới hạn tốc độ là bảy mươi dặm một giờ. Nếu tài xế chạy nhanh hơn, camera có thể chụp ảnh và chủ xe sẽ nhận giấy phạt.",
+     "why": "speed limit = giới hạn tốc độ cho phép.",
+     "noblank": true,
+     "say": "On most motorways in Britain, the speed limit is seventy miles an hour. If a driver goes faster, a camera may take a photo and the owner of the car will receive a fine.",
+     "new": [
+      {
+       "w": "fine",
+       "vi": "tiền phạt"
+      }
+     ],
+     "tw": "speed limit",
+     "ipa": "/ˈspiːd ˌlɪmɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The motorway between the two cities was built in the nineties. Cars can travel much faster there than on local roads, but drivers must pay attention because accidents at high speed are often serious. What does \"motorway\" mean?",
+     "o": [
+      "lối đi bộ dọc sông",
+      "đường cao tốc",
+      "đường làng hẹp"
+     ],
+     "a": "đường cao tốc",
+     "vi": "Đường cao tốc giữa hai thành phố được xây vào những năm chín mươi. Xe chạy ở đó nhanh hơn nhiều so với đường địa phương, nhưng tài xế phải tập trung vì tai nạn ở tốc độ cao thường rất nghiêm trọng.",
+     "why": "motorway = đường cao tốc (Anh-Anh).",
+     "noblank": true,
+     "say": "The motorway between the two cities was built in the nineties. Cars can travel much faster there than on local roads, but drivers must pay attention because accidents at high speed are often serious.",
+     "new": [
+      {
+       "w": "local",
+       "vi": "địa phương"
+      }
+     ],
+     "tw": "motorway",
+     "ipa": "/ˈməʊtəweɪ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "On a British motorway, the inside lane is the one on the left. It is meant for slower vehicles, while drivers use the lanes on the right to overtake. What does \"inside lane\" mean?",
+     "o": [
+      "làn trong, làn dành cho xe chạy chậm",
+      "làn dành riêng cho xe cứu thương",
+      "làn nhanh nhất để vượt xe"
+     ],
+     "a": "làn trong, làn dành cho xe chạy chậm",
+     "vi": "Trên đường cao tốc Anh, làn trong là làn bên trái. Nó dành cho xe chạy chậm, còn tài xế dùng các làn bên phải để vượt.",
+     "why": "inside lane = làn trong, làn chạy chậm (làn bên trái ở Anh).",
+     "noblank": true,
+     "say": "On a British motorway, the inside lane is the one on the left. It is meant for slower vehicles, while drivers use the lanes on the right to overtake.",
+     "new": [
+      {
+       "w": "vehicles",
+       "vi": "phương tiện"
+      }
+     ],
+     "tw": "inside lane",
+     "ipa": "/ˌɪnsaɪd ˈsləʊ leɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The outside lane of the motorway is used for overtaking. After passing a slower vehicle, drivers are expected to return to the inside lane so that others can use it. What does \"outside lane\" mean?",
+     "o": [
+      "làn dành cho xe tải",
+      "làn đỗ khẩn cấp",
+      "làn ngoài (làn vượt, chạy nhanh)"
+     ],
+     "a": "làn ngoài (làn vượt, chạy nhanh)",
+     "vi": "Làn ngoài của đường cao tốc dùng để vượt. Sau khi vượt xe chậm hơn, tài xế được kỳ vọng quay lại làn trong để người khác dùng.",
+     "why": "outside lane = làn ngoài, làn vượt/chạy nhanh.",
+     "noblank": true,
+     "say": "The outside lane of the motorway is used for overtaking. After passing a slower vehicle, drivers are expected to return to the inside lane so that others can use it.",
+     "new": [
+      {
+       "w": "expected",
+       "vi": "được kỳ vọng"
+      }
+     ],
+     "tw": "outside lane",
+     "ipa": "/ˌaʊtsaɪd ˈfɑːst leɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Our hotel is not on the main road. You have to leave the avenue and drive down a narrow side road, where you will find the car park behind a garden. What does \"side road\" mean?",
+     "o": [
+      "vòng xuyến",
+      "đường nhánh nhỏ",
+      "đường cao tốc chính"
+     ],
+     "a": "đường nhánh nhỏ",
+     "vi": "Khách sạn của chúng tôi không nằm trên đường chính. Bạn phải rời đại lộ và lái xuống một con đường nhánh hẹp, nơi bãi đỗ xe nằm sau một khu vườn.",
+     "why": "side road = đường nhỏ rẽ ra từ đường chính.",
+     "noblank": true,
+     "say": "Our hotel is not on the main road. You have to leave the avenue and drive down a narrow side road, where you will find the car park behind a garden.",
+     "new": [
+      {
+       "w": "avenue",
+       "vi": "đại lộ"
+      },
+      {
+       "w": "narrow",
+       "vi": "hẹp"
+      }
+     ],
+     "tw": "side road",
+     "ipa": "/ˈsaɪd rəʊd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Jake got lost while walking in the forest because the paths all looked the same. After two hours he finally found a stream and followed it back to the camp. What does \"got lost\" mean?",
+     "o": [
+      "bị lạc, không biết đường",
+      "bị mất điện thoại",
+      "bị ướt hết quần áo"
+     ],
+     "a": "bị lạc, không biết đường",
+     "vi": "Jake bị lạc khi đi trong rừng vì các lối đi đều trông giống nhau. Sau hai giờ anh tìm thấy một con suối và đi theo nó về trại.",
+     "why": "get lost = bị lạc đường.",
+     "noblank": true,
+     "say": "Jake got lost while walking in the forest because the paths all looked the same. After two hours he finally found a stream and followed it back to the camp.",
+     "new": [
+      {
+       "w": "stream",
+       "vi": "con suối"
+      }
+     ],
+     "tw": "get lost",
+     "ipa": "/ˌɡet ˈlɒst/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "\"Hi Mum, I'm on my way to the station now. The train leaves at six, so I should arrive home before it gets dark.\" What does \"on my way to\" mean?",
+     "o": [
+      "vừa rời khỏi",
+      "đang đợi ở",
+      "đang trên đường tới"
+     ],
+     "a": "đang trên đường tới",
+     "vi": "\"Chào mẹ, con đang trên đường tới nhà ga. Tàu chạy lúc sáu giờ nên con sẽ về nhà trước khi trời tối.\"",
+     "why": "on my way to + nơi chốn = trên đường tới đó.",
+     "noblank": true,
+     "say": "\"Hi Mum, I'm on my way to the station now. The train leaves at six, so I should arrive home before it gets dark.\"",
+     "new": [
+      {
+       "w": "station",
+       "vi": "nhà ga"
+      }
+     ],
+     "tw": "on my way to",
+     "ipa": "/ɒn maɪ weɪ tə/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The bus from Hanoi to Sapa goes via Lao Cai, where passengers can have a short break. The whole journey takes about six hours, depending on traffic. What does \"goes via\" mean?",
+     "o": [
+      "bắt đầu từ",
+      "đi qua, ghé qua",
+      "đi vòng quanh"
+     ],
+     "a": "đi qua, ghé qua",
+     "vi": "Xe buýt từ Hà Nội đến Sa Pa đi qua Lào Cai, nơi hành khách có thể nghỉ ngắn. Cả chuyến mất khoảng sáu giờ tùy giao thông.",
+     "why": "go via + nơi = đi qua / ghé qua nơi đó trên đường.",
+     "noblank": true,
+     "say": "The bus from Hanoi to Sapa goes via Lao Cai, where passengers can have a short break. The whole journey takes about six hours, depending on traffic.",
+     "new": [
+      {
+       "w": "passengers",
+       "vi": "hành khách"
+      }
+     ],
+     "tw": "go via",
+     "ipa": "/ˈvaɪə/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Take the first turning on the right after the supermarket. If you reach the traffic lights, you have gone too far and need to turn around. What does \"turning\" mean?",
+     "o": [
+      "chỗ rẽ, ngã rẽ",
+      "đèn giao thông",
+      "chỗ quay xe"
+     ],
+     "a": "chỗ rẽ, ngã rẽ",
+     "vi": "Hãy rẽ ở ngã rẽ đầu tiên bên phải sau siêu thị. Nếu bạn tới đèn giao thông thì đã đi quá và cần quay lại.",
+     "why": "turning = chỗ rẽ, ngã rẽ ra khỏi đường đang đi.",
+     "noblank": true,
+     "say": "Take the first turning on the right after the supermarket. If you reach the traffic lights, you have gone too far and need to turn around.",
+     "new": [
+      {
+       "w": "turn around",
+       "vi": "quay lại"
+      }
+     ],
+     "tw": "turning",
+     "ipa": "/ˈtɜːnɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "We were late for the wedding because Dad took the wrong turning near the village. He had to drive back ten minutes, and everyone in the car stayed silent. What does \"took the wrong turning\" mean?",
+     "o": [
+      "chạy quá tốc độ",
+      "quên mang quà cưới",
+      "rẽ nhầm đường"
+     ],
+     "a": "rẽ nhầm đường",
+     "vi": "Chúng tôi đến muộn đám cưới vì bố rẽ nhầm đường gần làng. Ông phải lái quay lại mười phút và mọi người trong xe im lặng.",
+     "why": "take the wrong turning = rẽ nhầm đường.",
+     "noblank": true,
+     "say": "We were late for the wedding because Dad took the wrong turning near the village. He had to drive back ten minutes, and everyone in the car stayed silent.",
+     "new": [
+      {
+       "w": "wedding",
+       "vi": "đám cưới"
+      }
+     ],
+     "tw": "take the wrong turning",
+     "ipa": "/teɪk ðə rɒŋ ˈtɜːnɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "We did not plan to stay in Hue. However, the ferry was cancelled, so we ended up spending three nights in a small guesthouse near the river. What does \"ended up\" mean?",
+     "o": [
+      "quyết định bỏ cuộc",
+      "rốt cuộc lại (ở đâu/làm gì) ngoài dự định",
+      "cố tình chọn từ đầu"
+     ],
+     "a": "rốt cuộc lại (ở đâu/làm gì) ngoài dự định",
+     "vi": "Chúng tôi không định ở lại Huế. Nhưng chuyến phà bị hủy nên rốt cuộc chúng tôi ở ba đêm trong một nhà nghỉ nhỏ gần sông.",
+     "why": "end up = rốt cuộc lại ở / làm gì (ngoài dự định).",
+     "noblank": true,
+     "say": "We did not plan to stay in Hue. However, the ferry was cancelled, so we ended up spending three nights in a small guesthouse near the river.",
+     "new": [
+      {
+       "w": "ferry",
+       "vi": "phà"
+      },
+      {
+       "w": "guesthouse",
+       "vi": "nhà nghỉ"
+      }
+     ],
+     "tw": "end up",
+     "ipa": "/ˌend ˈʌp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "A traveller stopped his bicycle and asked a farmer the way to the nearest town. The farmer pointed to a hill and explained that he should turn left at the old mill. What does \"asked a farmer the way\" mean?",
+     "o": [
+      "hỏi đường người nông dân",
+      "chỉ đường cho người nông dân",
+      "mua bản đồ của người nông dân"
+     ],
+     "a": "hỏi đường người nông dân",
+     "vi": "Một du khách dừng xe đạp và hỏi người nông dân đường tới thị trấn gần nhất. Người nông dân chỉ lên đồi và giải thích rằng anh nên rẽ trái ở cối xay cũ.",
+     "why": "ask somebody the way (to somewhere) = hỏi đường ai đó.",
+     "noblank": true,
+     "say": "A traveller stopped his bicycle and asked a farmer the way to the nearest town. The farmer pointed to a hill and explained that he should turn left at the old mill.",
+     "new": [
+      {
+       "w": "mill",
+       "vi": "cối xay"
+      },
+      {
+       "w": "pointed",
+       "vi": "chỉ tay"
+      }
+     ],
+     "tw": "ask somebody the way",
+     "ipa": "/ɑːsk ðə weɪ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The officer directed the lost tourists to the main square, which was only two streets away. He drew a small map on a piece of paper to make it easier. What does \"directed\" mean in this text?",
+     "o": [
+      "đưa tiền cho",
+      "cấm đi vào",
+      "chỉ đường cho (ai) đến nơi nào"
+     ],
+     "a": "chỉ đường cho (ai) đến nơi nào",
+     "vi": "Viên cảnh sát chỉ đường cho đoàn du khách bị lạc tới quảng trường chính, chỉ cách hai con phố. Anh vẽ một bản đồ nhỏ lên mảnh giấy cho dễ hiểu hơn.",
+     "why": "direct somebody to somewhere = chỉ đường cho ai tới đâu.",
+     "noblank": true,
+     "say": "The officer directed the lost tourists to the main square, which was only two streets away. He drew a small map on a piece of paper to make it easier.",
+     "new": [
+      {
+       "w": "square",
+       "vi": "quảng trường"
+      }
+     ],
+     "tw": "direct",
+     "ipa": "/dəˈrekt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The guide told us to follow the signs for the waterfall. Half an hour later, we heard the sound of water, so we knew we were close. What does \"follow the signs for\" mean?",
+     "o": [
+      "đọc báo",
+      "đi theo biển chỉ dẫn tới",
+      "vẽ biển chỉ dẫn mới"
+     ],
+     "a": "đi theo biển chỉ dẫn tới",
+     "vi": "Hướng dẫn viên bảo chúng tôi đi theo biển chỉ dẫn tới thác nước. Nửa giờ sau chúng tôi nghe tiếng nước nên biết đã gần tới.",
+     "why": "follow the signs for + nơi = đi theo biển chỉ dẫn tới nơi đó.",
+     "noblank": true,
+     "say": "The guide told us to follow the signs for the waterfall. Half an hour later, we heard the sound of water, so we knew we were close.",
+     "new": [
+      {
+       "w": "waterfall",
+       "vi": "thác nước"
+      }
+     ],
+     "tw": "follow signs for",
+     "ipa": "/ˈfɒləʊ saɪnz fə/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Mia always packs a spare charger in her bag in case her phone dies during a long journey. Last week, this simple habit saved her from missing an important call. What does \"in case\" mean?",
+     "o": [
+      "phòng khi (có chuyện xảy ra)",
+      "ngay khi",
+      "mặc dù"
+     ],
+     "a": "phòng khi (có chuyện xảy ra)",
+     "vi": "Mia luôn để một cục sạc dự phòng trong túi phòng khi điện thoại hết pin trong hành trình dài. Tuần trước thói quen đơn giản này giúp cô không bỏ lỡ một cuộc gọi quan trọng.",
+     "why": "in case + mệnh đề = phòng khi điều gì xảy ra.",
+     "noblank": true,
+     "say": "Mia always packs a spare charger in her bag in case her phone dies during a long journey. Last week, this simple habit saved her from missing an important call.",
+     "new": [
+      {
+       "w": "spare",
+       "vi": "dự phòng"
+      }
+     ],
+     "tw": "in case"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "The company promised to hire all the trainees provided that they pass the final test. Several of them are nervous, because the exam is said to be very difficult. What does \"provided that\" mean?",
+     "o": [
+      "mặc dù",
+      "cho đến khi",
+      "với điều kiện là"
+     ],
+     "a": "với điều kiện là",
+     "vi": "Công ty hứa sẽ tuyển tất cả thực tập sinh với điều kiện họ vượt qua bài kiểm tra cuối. Một số người lo lắng vì bài thi được cho là rất khó.",
+     "why": "provided that = với điều kiện là (trang trọng hơn as long as).",
+     "noblank": true,
+     "say": "The company promised to hire all the trainees provided that they pass the final test. Several of them are nervous, because the exam is said to be very difficult.",
+     "new": [
+      {
+       "w": "trainees",
+       "vi": "thực tập sinh"
+      }
+     ],
+     "tw": "provided that"
+    },
+    {
+     "type": "mc",
+     "ctx": "Reading",
+     "s": "Parents are happy to let teenagers go out in the evening as long as they come home before eleven and send a message to say where they are. What does \"as long as\" mean?",
+     "o": [
+      "giống như",
+      "miễn là, với điều kiện là",
+      "ngay khi"
+     ],
+     "a": "miễn là, với điều kiện là",
+     "vi": "Bố mẹ vui lòng cho thiếu niên ra ngoài buổi tối miễn là các em về trước mười một giờ và nhắn tin cho biết mình ở đâu.",
+     "why": "as long as = miễn là, với điều kiện là.",
+     "noblank": true,
+     "say": "Parents are happy to let teenagers go out in the evening as long as they come home before eleven and send a message to say where they are.",
+     "new": [
+      {
+       "w": "teenagers",
+       "vi": "thiếu niên"
+      }
+     ],
+     "tw": "as long as"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Nói vận dụng",
+   "note": "Bấm ghi âm và trả lời bằng tiếng Anh, cố dùng các từ gợi ý; trang sẽ chấm ước tính 4 tiêu chí.",
+   "qs": [
+    {
+     "type": "sp",
+     "ctx": "Animals and insects",
+     "s": "Tell me about a time when an animal or an insect frightened you. What happened, and how did you react?",
+     "vi": "Hãy kể về một lần con vật hoặc côn trùng làm bạn sợ. Chuyện gì đã xảy ra và bạn phản ứng thế nào?",
+     "words": [
+      "paw",
+      "beehive",
+      "sting",
+      "stick",
+      "buzz off",
+      "run all the way home",
+      "swing"
+     ],
+     "why": "Kể theo thứ tự: bạn ở đâu, con vật xuất hiện thế nào, bạn làm gì (dùng thì quá khứ) và cảm xúc sau đó.",
+     "sample": "When I was ten, I decided to stick a long branch into a beehive near my grandfather's garden, because I wanted to see the honey. The bees flew out immediately, and one of them managed to sting me on the arm. I shouted at the insects to buzz off, but of course they did not listen. In the end I had to run all the way home, still holding the branch, while my cousin laughed on the swing. Looking back, it was a silly idea, and even now I keep away from any paw-sized hole or nest in the ground."
+    },
+    {
+     "type": "sp",
+     "ctx": "Anger and arguments",
+     "s": "Describe a person you know who gets angry easily. How do other people deal with this behaviour?",
+     "vi": "Hãy mô tả một người bạn biết hay nổi nóng. Những người khác đối phó với hành vi này thế nào?",
+     "words": [
+      "hot temper",
+      "lose your temper",
+      "slam the door shut",
+      "smash",
+      "don't bother me",
+      "get someone into trouble"
+     ],
+     "why": "Giới thiệu người đó, nêu một ví dụ cụ thể về lúc họ nổi giận, rồi nói mọi người phản ứng ra sao.",
+     "sample": "My uncle has a hot temper, and everyone in the family knows it. Last month he tried hard not to lose your temper, but he lost his temper anyway when his neighbour parked in front of his gate. He shouted, slammed the door shut, and nearly smashed a plate on the floor. When he is upset, he usually says, don't bother me, and we leave him alone for an hour. We also try not to say anything that could get someone into trouble, because he reacts so strongly. Fortunately, he always apologises later and cooks dinner for us."
+    },
+    {
+     "type": "sp",
+     "ctx": "Where you live",
+     "s": "Do you live in a house or in an apartment? Describe your neighbourhood and say what facilities are missing there.",
+     "vi": "Bạn sống trong nhà riêng hay chung cư? Hãy mô tả khu bạn sống và nói thiếu những tiện ích nào.",
+     "words": [
+      "a block of flats",
+      "an apartment building",
+      "away",
+      "you don't get many"
+     ],
+     "why": "Nói loại nhà bạn ở, vị trí, khoảng cách tới nơi quan trọng (be + khoảng cách + away) và điều còn thiếu.",
+     "sample": "I live on the sixth floor of an apartment building in a quiet part of the city. In my country many people call this kind of place a block of flats, and it is very common among young families. The metro station is about two kilometres away, so I usually take a bus. The area is pleasant, but you don't get many parks or playgrounds around here, which is a pity for children. Although the rent is high, I like the neighbours, and the view of the river in the evening is wonderful."
+    },
+    {
+     "type": "sp",
+     "ctx": "Food and health",
+     "s": "Talk about a healthy meal you like to cook. What ingredients do you need, and what conditions make it worth eating?",
+     "vi": "Hãy nói về một bữa ăn lành mạnh bạn thích nấu. Bạn cần nguyên liệu gì và điều kiện nào khiến nó đáng ăn?",
+     "words": [
+      "asparagus",
+      "provided that",
+      "as long as",
+      "in case"
+     ],
+     "why": "Nêu món ăn, nguyên liệu, cách nấu ngắn gọn rồi nêu điều kiện bằng provided that, as long as, in case.",
+     "sample": "One of my favourite healthy meals is grilled salmon with asparagus. The dish is easy to prepare, provided that the fish is fresh and you do not cook it for too long. I usually add a little lemon and olive oil, and I serve it with brown rice. As long as I eat it with plenty of vegetables, I feel full but not heavy. I also buy extra ingredients in case some friends come over unexpectedly. Besides, it takes less than thirty minutes, which suits my busy schedule."
+    },
+    {
+     "type": "sp",
+     "ctx": "Roads in your city",
+     "s": "Describe a road or a junction in your city that is difficult for drivers. Why is it a problem?",
+     "vi": "Hãy mô tả một con đường hoặc ngã giao khó đi ở thành phố bạn. Vì sao nó là vấn đề?",
+     "words": [
+      "junction",
+      "a bend in the road",
+      "bend",
+      "side road",
+      "pedestrian crossing",
+      "crosswalk",
+      "crossing the road"
+     ],
+     "why": "Nói vị trí, đặc điểm (khúc cua, ngã giao, người sang đường) và hậu quả hoặc giải pháp bạn đề nghị.",
+     "sample": "There is a dangerous junction near my old school where three streets meet. Just after a bend in the road, the traffic lights are hidden behind some trees, so drivers do not see them until the last moment. The road also bends sharply to the right, and many motorbikes use a side road to avoid the queue. In my view, the city should paint a clear pedestrian crossing, or crosswalk as Americans say, because children are crossing the road there every morning. Until something changes, I think accidents will continue."
+    },
+    {
+     "type": "sp",
+     "ctx": "Driving rules",
+     "s": "Do you think drivers in your country follow the rules? Talk about speed limits, overtaking and the lanes on a motorway.",
+     "vi": "Bạn có nghĩ tài xế ở nước bạn tuân thủ luật không? Hãy nói về giới hạn tốc độ, vượt xe và làn đường cao tốc.",
+     "words": [
+      "speed limit",
+      "overtake",
+      "no overtaking",
+      "road sign",
+      "motorway",
+      "inside lane",
+      "outside lane"
+     ],
+     "why": "Nêu quan điểm, đưa ví dụ về vi phạm phổ biến và đề xuất cách cải thiện (dùng although, as a result).",
+     "sample": "In my opinion, many drivers ignore the rules, especially on the motorway. The speed limit is clearly shown on every road sign, but some people drive much faster. Others stay in the outside lane for no reason, although it is meant for those who overtake. Slow vehicles should use the inside lane, as a result, traffic would flow better. I have also seen drivers overtake lorries where a no overtaking sign is obvious, which is extremely dangerous. Stricter fines and more cameras would probably help."
+    },
+    {
+     "type": "sp",
+     "ctx": "Travel mistakes",
+     "s": "Tell me about a time you got lost while travelling. How did you find your way in the end?",
+     "vi": "Hãy kể về lần bạn bị lạc khi đi du lịch. Cuối cùng bạn tìm đường như thế nào?",
+     "words": [
+      "get lost",
+      "take the wrong turning",
+      "end up",
+      "turning",
+      "ask somebody the way",
+      "direct",
+      "follow signs for"
+     ],
+     "why": "Kể theo thứ tự thời gian: nơi đến, sai lầm, cảm giác, người giúp đỡ và kết quả.",
+     "sample": "Last summer I rented a car in the countryside and tried to find a lake my friends had recommended. I took the wrong turning at a small village, and soon we started to get lost. After an hour we ended up in a field full of cows. Finally I decided to ask a farmer the way, and he directed us back to the main road. At the next turning we began to follow signs for the lake, and we arrived before sunset. It was stressful, but it became our funniest memory."
+    },
+    {
+     "type": "sp",
+     "ctx": "Making plans",
+     "s": "Describe a trip you plan to take in the near future. How will you get there, and what will you prepare?",
+     "vi": "Hãy mô tả một chuyến đi bạn dự định trong tương lai gần. Bạn sẽ đến đó bằng cách nào và chuẩn bị gì?",
+     "words": [
+      "on my way to",
+      "go via",
+      "away",
+      "in case",
+      "as long as"
+     ],
+     "why": "Nêu điểm đến, đường đi (go via), khoảng cách (away) và những thứ chuẩn bị phòng khi (in case).",
+     "sample": "Next month I am going to visit my grandparents, who live in a small town about three hundred kilometres away. I will go via Da Nang, because I want to see an old friend there. On my way to the bus station, I will buy some fruit as a gift. I will also pack a raincoat and a spare charger in case the weather turns bad or my phone dies. The journey should be enjoyable as long as the roads are not blocked by floods."
+    },
+    {
+     "type": "sp",
+     "ctx": "Road safety",
+     "s": "How can parents teach young children to be safe near the road? Give some practical advice.",
+     "vi": "Cha mẹ có thể dạy trẻ nhỏ an toàn khi ở gần đường như thế nào? Hãy đưa ra lời khuyên thực tế.",
+     "words": [
+      "crossing the road",
+      "pedestrian crossing",
+      "crosswalk",
+      "speed limit",
+      "road sign",
+      "in case"
+     ],
+     "why": "Nêu 2–3 lời khuyên, mỗi lời khuyên kèm lý do hoặc ví dụ; dùng should / must / it is important to.",
+     "sample": "First, parents should explain that crossing the road is only safe at a pedestrian crossing or a crosswalk, where drivers are expected to stop. It is also important to teach children to look at each road sign, because pictures are easier to remember than words. Parents must hold their child's hand even if the speed limit is low, since small kids move unpredictably. Finally, they should practise the route to school several times, in case the child ever has to walk alone. Patience and repetition really make a difference."
+    },
+    {
+     "type": "sp",
+     "ctx": "Childhood memory",
+     "s": "Tell me about a memorable event from your childhood that involved playing outdoors and a small mistake.",
+     "vi": "Hãy kể về một sự kiện đáng nhớ thời thơ ấu khi chơi ngoài trời và một lỗi nhỏ.",
+     "words": [
+      "swing",
+      "smash",
+      "run all the way home",
+      "slam the door shut",
+      "get someone into trouble",
+      "end up"
+     ],
+     "why": "Mở đầu bằng thời gian và địa điểm, kể điều đã xảy ra, hậu quả và bài học bằng thì quá khứ.",
+     "sample": "When I was eight, I was playing on a swing in the park with my younger brother. We threw a ball too hard and managed to smash a neighbour's window by accident. Terrified, we decided to run all the way home, and I slammed the door shut behind us. Then I realised that my brother could get someone into trouble, namely me, because I was the older one. In the end we ended up apologising and paying for the glass with our pocket money. Since then, I have always been careful near windows."
+    }
+   ]
+  }
+ ]
+}
