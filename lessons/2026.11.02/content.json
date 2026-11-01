@@ -1,0 +1,2346 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 2026.11.02",
+  "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 02/11/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 32 từ. Mỗi từ làm 1 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (96 câu), sau đó là 10 câu nói vận dụng có ghi âm và chấm theo 4 tiêu chí IELTS Speaking, mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.11.02-v6",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma202611020439"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "Gõ từ hoặc cụm còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "Starting a business",
+     "s": "Before you ___ any new business venture, it is wise to research the market carefully, because many small start-ups fail within two years.",
+     "acc": [
+      "engage in"
+     ],
+     "vi": "Trước khi tham gia vào bất kỳ dự án kinh doanh mới nào, bạn nên nghiên cứu thị trường kỹ vì nhiều công ty khởi nghiệp nhỏ thất bại trong vòng hai năm.",
+     "why": "engage in + N/V-ing = tham gia vào một hoạt động; theo sau là danh từ hoặc V-ing.",
+     "hint": "Nghĩa: tham gia vào (một hoạt động)",
+     "tw": "engage in",
+     "new": [
+      {
+       "w": "venture",
+       "vi": "dự án kinh doanh"
+      },
+      {
+       "w": "start-ups",
+       "vi": "công ty khởi nghiệp"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Hospital visit",
+     "s": "After the blood test, the doctor explained that ___ is a serious infection which damages the liver and can spread through contaminated needles.",
+     "acc": [
+      "hepatitis"
+     ],
+     "vi": "Sau xét nghiệm máu, bác sĩ giải thích rằng viêm gan là một bệnh nhiễm trùng nghiêm trọng làm tổn thương gan và có thể lây qua kim tiêm nhiễm bẩn.",
+     "why": "hepatitis = viêm gan, bệnh nhiễm trùng hoặc viêm làm tổn thương gan.",
+     "hint": "Nghĩa: viêm gan",
+     "tw": "hepatitis",
+     "ipa": "/ˌhep.əˈtaɪ.t̬əs/",
+     "new": [
+      {
+       "w": "contaminated",
+       "vi": "bị nhiễm bẩn"
+      },
+      {
+       "w": "needles",
+       "vi": "kim tiêm"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Online shopping",
+     "s": "I ordered these boots online, but when they arrived I realised they did not ___ me, so I have to return them before the deadline.",
+     "acc": [
+      "fit"
+     ],
+     "vi": "Tôi đặt đôi bốt này trên mạng, nhưng khi nhận hàng tôi nhận ra chúng không vừa với tôi nên phải trả lại trước hạn chót.",
+     "why": "fit somebody = vừa vặn với kích cỡ của ai (fit - fitted/fit - fitted).",
+     "hint": "Nghĩa: vừa với ai",
+     "tw": "fit somebody",
+     "ipa": "/fɪt/",
+     "new": [
+      {
+       "w": "deadline",
+       "vi": "hạn chót"
+      },
+      {
+       "w": "realised",
+       "vi": "nhận ra"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Buying a suit",
+     "s": "The tailor measured my shoulders twice, and the new jacket now ___ so that I can move my arms freely during long meetings.",
+     "acc": [
+      "fits well",
+      "fit well"
+     ],
+     "vi": "Thợ may đo vai tôi hai lần, và chiếc áo khoác mới giờ rất vừa nên tôi cử động tay thoải mái trong các cuộc họp dài.",
+     "why": "fit well = vừa vặn, đúng kích cỡ; trái nghĩa là don't fit / fit badly.",
+     "hint": "Nghĩa: khá vừa, vừa đẹp",
+     "tw": "fit well",
+     "ipa": "/fɪt wel/",
+     "new": [
+      {
+       "w": "tailor",
+       "vi": "thợ may"
+      },
+      {
+       "w": "measured",
+       "vi": "đã đo"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Clothes shop",
+     "s": "I love the colour of this dress, but it ___ around the waist, so could you bring me the next size up, please?",
+     "acc": [
+      "doesn't quite fit",
+      "doesn’t quite fit",
+      "does not quite fit"
+     ],
+     "vi": "Tôi thích màu của chiếc váy này, nhưng nó không được vừa lắm ở eo, nên bạn có thể lấy giúp tôi cỡ lớn hơn một chút không?",
+     "why": "doesn't quite fit = gần vừa nhưng chưa hoàn toàn; quite làm lời chê nhẹ hơn.",
+     "hint": "Nghĩa: không được vừa lắm",
+     "tw": "doesn't quite fit",
+     "ipa": "/ˈdʌz.ənt kwaɪt fɪt/",
+     "new": [
+      {
+       "w": "waist",
+       "vi": "vòng eo"
+      },
+      {
+       "w": "next size up",
+       "vi": "cỡ lớn hơn một cỡ"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Shopping for shirts",
+     "s": "I think I need a bigger size because this shirt is ___ around the chest, and I can hardly raise my arms comfortably.",
+     "acc": [
+      "a bit tight"
+     ],
+     "vi": "Tôi nghĩ mình cần cỡ lớn hơn vì chiếc áo sơ mi này hơi chật ở ngực và tôi khó giơ tay thoải mái.",
+     "why": "a bit tight = hơi chật (a bit = một chút); trái nghĩa là loose.",
+     "hint": "Nghĩa: hơi chật",
+     "tw": "a bit tight",
+     "ipa": "/ə bɪt taɪt/",
+     "new": [
+      {
+       "w": "hardly",
+       "vi": "hầu như không"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Changing room",
+     "s": "These trousers were far too ___ around the waist, whereas the smaller pair stayed up properly without needing a belt.",
+     "acc": [
+      "loose"
+     ],
+     "vi": "Chiếc quần này quá rộng ở eo, trong khi chiếc cỡ nhỏ hơn thì giữ chắc mà không cần thắt lưng.",
+     "why": "loose = rộng, lỏng, không ôm sát (trái nghĩa: tight).",
+     "hint": "Nghĩa: rộng, lỏng",
+     "tw": "loose",
+     "ipa": "/luːs/",
+     "new": [
+      {
+       "w": "whereas",
+       "vi": "trong khi"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Choosing a haircut",
+     "s": "I tried both short and long styles, and the stylist agreed that the shorter cut would ___ , since it shows off my face.",
+     "acc": [
+      "suit me better"
+     ],
+     "vi": "Tôi thử cả kiểu ngắn lẫn dài, và nhà tạo mẫu đồng ý rằng kiểu ngắn hợp với tôi hơn vì nó làm nổi bật khuôn mặt.",
+     "why": "suit somebody = hợp với ai (về màu sắc, kiểu dáng); better = hợp hơn.",
+     "hint": "Nghĩa: hợp với ai hơn",
+     "tw": "suit somebody better",
+     "ipa": "/suːt ˈsʌm.bə.di ˈbet.ə(r)/",
+     "new": [
+      {
+       "w": "stylist",
+       "vi": "nhà tạo mẫu tóc"
+      },
+      {
+       "w": "shows off",
+       "vi": "làm nổi bật"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Before an interview",
+     "s": "The brown shoes did not ___ his dark grey suit, so he went back to the shop and exchanged them for a black pair.",
+     "acc": [
+      "match"
+     ],
+     "vi": "Đôi giày nâu không hợp với bộ vest xám đậm của anh ấy, nên anh quay lại cửa hàng và đổi lấy đôi màu đen.",
+     "why": "match something = hợp/đồng bộ về màu sắc hoặc kiểu dáng với thứ khác.",
+     "hint": "Nghĩa: hợp, đồng bộ với thứ khác",
+     "tw": "match something",
+     "ipa": "/mætʃ/",
+     "new": [
+      {
+       "w": "exchanged",
+       "vi": "đã đổi"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Buying accessories",
+     "s": "She wasn't planning to buy a handbag, but she found one that seemed to ___ her new dress, so she changed her mind.",
+     "acc": [
+      "match perfectly"
+     ],
+     "vi": "Cô ấy không định mua túi xách, nhưng cô tìm được một chiếc dường như hợp hoàn hảo với chiếc váy mới nên đổi ý.",
+     "why": "match perfectly = hợp hoàn hảo, khớp hoàn toàn.",
+     "hint": "Nghĩa: cực kỳ hợp",
+     "tw": "match perfectly",
+     "ipa": "/mætʃ ˈpɜː.fɪkt.li/",
+     "new": [
+      {
+       "w": "handbag",
+       "vi": "túi xách"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Packing for a trip",
+     "s": "I'm looking for a simple jacket that will ___ both my work trousers and my jeans, because I can only take one on the plane.",
+     "acc": [
+      "go with"
+     ],
+     "vi": "Tôi đang tìm một chiếc áo khoác đơn giản hợp với cả quần đi làm lẫn quần jeans vì tôi chỉ mang được một chiếc lên máy bay.",
+     "why": "go with something = hợp/ăn ý với thứ khác, dùng cho quần áo, màu sắc, món ăn.",
+     "hint": "Nghĩa: phối hợp với, hợp với",
+     "tw": "go with something",
+     "ipa": "/ɡoʊ wɪð/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Restaurant",
+     "s": "The waiter suggested a glass of sparkling water because he thought it would ___ the spicy seafood that we had ordered.",
+     "acc": [
+      "go well with"
+     ],
+     "vi": "Người phục vụ gợi ý một ly nước có ga vì anh nghĩ nó rất hợp với món hải sản cay mà chúng tôi đã gọi.",
+     "why": "go well with = rất hợp với; dùng cho đồ ăn, màu sắc, phối đồ.",
+     "hint": "Nghĩa: rất hợp với",
+     "tw": "go well with",
+     "ipa": "/ɡoʊ wel wɪð/",
+     "new": [
+      {
+       "w": "sparkling",
+       "vi": "có ga"
+      },
+      {
+       "w": "spicy",
+       "vi": "cay"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Trying on clothes",
+     "s": "I wasn't sure about the colours at first, but after trying everything on, I thought the shirt and the trousers actually ___ .",
+     "acc": [
+      "looked good together",
+      "look good together"
+     ],
+     "vi": "Lúc đầu tôi không chắc về các màu, nhưng sau khi thử hết, tôi thấy chiếc sơ mi và quần thực ra trông khá hợp nhau.",
+     "why": "look good together = nhìn hợp nhau, hài hòa khi đặt cạnh nhau.",
+     "hint": "Nghĩa: trông hợp nhau",
+     "tw": "look good together",
+     "ipa": "/lʊk ɡʊd təˈɡeð.ə(r)/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Buying a winter coat",
+     "s": "I don't mind paying more for a coat as long as it is warm and sold at ___ , rather than at a luxury shop price.",
+     "acc": [
+      "a reasonable price"
+     ],
+     "vi": "Tôi không ngại trả nhiều hơn cho áo khoác miễn là nó ấm và bán với mức giá hợp lý, chứ không phải giá của cửa hàng cao cấp.",
+     "why": "a reasonable price = giá phải chăng, hợp lý so với chất lượng.",
+     "hint": "Nghĩa: mức giá hợp lý",
+     "tw": "a reasonable price",
+     "ipa": "/ə ˈriː.zən.ə.bəl praɪs/",
+     "new": [
+      {
+       "w": "luxury",
+       "vi": "sang trọng, cao cấp"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Buying a gift",
+     "s": "I wasn't planning to buy anything, but ___ and the shirt fitted me well, so I bought it without thinking twice.",
+     "acc": [
+      "the price was reasonable"
+     ],
+     "vi": "Tôi không định mua gì, nhưng giá hợp lý và chiếc sơ mi lại vừa nên tôi mua mà không nghĩ ngợi thêm.",
+     "why": "the price is reasonable = giá cả phải chăng (dùng như nhận xét ngắn).",
+     "hint": "Nghĩa: giá cả hợp lý",
+     "tw": "the price is reasonable",
+     "new": [
+      {
+       "w": "without thinking twice",
+       "vi": "không phải suy nghĩ lại"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "In a shoe shop",
+     "s": "“We have the jacket in your size, but I'm afraid we don't have it in black.” — “Oh, ___ Black was the colour I wanted.”",
+     "acc": [
+      "That's a shame",
+      "That’s a shame",
+      "That's a shame.",
+      "That’s a shame."
+     ],
+     "vi": "“Chúng tôi có áo khoác cỡ của bạn, nhưng tiếc là không có màu đen.” — “Ồ, tiếc thật. Đen là màu tôi muốn.”",
+     "why": "That's a shame. = Tiếc thật; lời đáp thông cảm khi nghe điều đáng tiếc.",
+     "hint": "Nghĩa: Tiếc thật.",
+     "tw": "That's a shame.",
+     "ipa": "/ðæts ə ʃeɪm/",
+     "new": [
+      {
+       "w": "I'm afraid",
+       "vi": "tiếc là, e rằng"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "At a shop counter",
+     "s": "“I'm afraid we've sold the last pair of these shoes in your size.” — “Oh, ___ I really liked them.”",
+     "acc": [
+      "that's a pity",
+      "that’s a pity",
+      "That's a pity",
+      "That’s a pity",
+      "that's a pity.",
+      "that’s a pity."
+     ],
+     "vi": "“Tiếc là chúng tôi vừa bán đôi cuối cùng của mẫu giày này cỡ của bạn.” — “Ồ, tiếc thật. Tôi rất thích chúng.”",
+     "why": "that's a pity = tiếc thật; giống that's a shame, hơi trang trọng hơn.",
+     "hint": "Nghĩa: tiếc thật; đáng tiếc",
+     "tw": "that's a pity",
+     "ipa": "/ðæts ə ˈpɪt.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Planning a wedding",
+     "s": "___ they don't have this dress in a bigger size, because it would be perfect for my sister's wedding next month.",
+     "acc": [
+      "It's a shame that",
+      "It’s a shame that",
+      "its a shame that"
+     ],
+     "vi": "Thật tiếc là họ không có chiếc váy này cỡ lớn hơn, vì nó sẽ hoàn hảo cho đám cưới của chị tôi tháng sau.",
+     "why": "It's a shame that + mệnh đề = thật tiếc là...; dùng để bày tỏ sự tiếc nuối.",
+     "hint": "Nghĩa: thật tiếc rằng...",
+     "tw": "It's a shame that",
+     "ipa": "/ɪts ə ʃeɪm ðæt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Returning to a shop",
+     "s": "I went back to buy the coat yesterday, but someone had already bought the last one. ___",
+     "acc": [
+      "What a shame!",
+      "What a shame",
+      "what a shame!",
+      "what a shame"
+     ],
+     "vi": "Hôm qua tôi quay lại mua chiếc áo khoác nhưng đã có người mua chiếc cuối cùng. Tiếc quá!",
+     "why": "What a shame! = Tiếc quá! (câu cảm thán), dùng khi nghe tin đáng tiếc.",
+     "hint": "Nghĩa: Tiếc quá!",
+     "tw": "What a shame!",
+     "ipa": "/wɒt ə ʃeɪm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Buying a jacket",
+     "s": "The jacket was a little more expensive than I'd planned, but it fitted me perfectly, so I said, “___”",
+     "acc": [
+      "I'll take it",
+      "I’ll take it",
+      "I'll take it.",
+      "I’ll take it."
+     ],
+     "vi": "Chiếc áo khoác đắt hơn tôi dự tính một chút, nhưng nó vừa hoàn hảo, nên tôi nói: “Tôi lấy cái này.”",
+     "why": "I'll take it. = Tôi lấy món này; câu quyết định mua hàng.",
+     "hint": "Nghĩa: Tôi lấy/mua món này.",
+     "tw": "I'll take it."
+    },
+    {
+     "type": "tx",
+     "ctx": "At a boutique",
+     "s": "I liked the dress, but even after the discount it was still too expensive, so in the end I told the assistant, “___”",
+     "acc": [
+      "I'll leave it",
+      "I’ll leave it",
+      "I'll leave it.",
+      "I’ll leave it."
+     ],
+     "vi": "Tôi thích chiếc váy, nhưng ngay cả sau khi giảm giá nó vẫn quá đắt, nên cuối cùng tôi nói với nhân viên: “Thôi, tôi không mua.”",
+     "why": "I'll leave it. = Thôi tôi không mua; từ chối lịch sự khi mua sắm.",
+     "hint": "Nghĩa: Tôi thôi, không mua nữa.",
+     "tw": "I'll leave it.",
+     "new": [
+      {
+       "w": "boutique",
+       "vi": "cửa hàng thời trang nhỏ"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Volunteer work",
+     "s": "After the flood, volunteers stood in a row and ___ , so that every bucket of water reached the village hall quickly.",
+     "acc": [
+      "passed the buckets down the line",
+      "passed buckets down the line",
+      "passed them down the line",
+      "passed it down the line"
+     ],
+     "vi": "Sau trận lụt, các tình nguyện viên đứng thành hàng và chuyền các xô dọc theo hàng, để mỗi xô nước nhanh chóng đến hội trường làng.",
+     "why": "pass something down the line = chuyền vật gì lần lượt dọc theo hàng người.",
+     "hint": "Nghĩa: chuyền thứ gì dọc theo hàng người",
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/",
+     "new": [
+      {
+       "w": "buckets",
+       "vi": "cái xô"
+      },
+      {
+       "w": "flood",
+       "vi": "trận lụt"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Weekend at the market",
+     "s": "We stopped going to the old market on Saturdays because ___ nearby, and the traffic is unbearable after ten o'clock.",
+     "acc": [
+      "there is nowhere to park",
+      "there’s nowhere to park",
+      "there's nowhere to park"
+     ],
+     "vi": "Chúng tôi thôi đi chợ cũ vào thứ Bảy vì gần đó không có chỗ đậu xe, và giao thông không chịu nổi sau mười giờ.",
+     "why": "there is nowhere to park = không có chỗ nào để đậu xe; nowhere + to V.",
+     "hint": "Nghĩa: không có chỗ đậu xe",
+     "tw": "there is nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/",
+     "new": [
+      {
+       "w": "unbearable",
+       "vi": "không chịu nổi"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Farming",
+     "s": "In this region, farmers grow ___ on the flat land and use the harvest to make flour for bread and pasta.",
+     "acc": [
+      "wheat"
+     ],
+     "vi": "Ở vùng này, nông dân trồng lúa mì trên đất bằng và dùng thu hoạch để làm bột cho bánh mì và mì ống.",
+     "why": "wheat = lúa mì, ngũ cốc dùng làm bột mì và bánh mì.",
+     "hint": "Nghĩa: lúa mì",
+     "tw": "wheat",
+     "ipa": "/wiːt/",
+     "new": [
+      {
+       "w": "harvest",
+       "vi": "vụ thu hoạch"
+      },
+      {
+       "w": "flour",
+       "vi": "bột mì"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Summer camp",
+     "s": "During harvest week, the volunteers worked in the orchard ___ , and then everyone gathered around a fire to eat together.",
+     "acc": [
+      "until sunset"
+     ],
+     "vi": "Trong tuần thu hoạch, các tình nguyện viên làm việc trong vườn cây ăn quả cho đến khi mặt trời lặn, rồi mọi người quây quần quanh đống lửa ăn cùng nhau.",
+     "why": "until sunset = cho đến lúc mặt trời lặn.",
+     "hint": "Nghĩa: cho đến khi mặt trời lặn",
+     "tw": "until sunset",
+     "ipa": "/ənˈtɪl ˈsʌn.set/",
+     "new": [
+      {
+       "w": "orchard",
+       "vi": "vườn cây ăn quả"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Small town",
+     "s": "___ visiting the local market, there isn't much for tourists to do here, which is why most of them stay only one night.",
+     "acc": [
+      "Apart from"
+     ],
+     "vi": "Ngoài việc tham quan chợ địa phương, ở đây không có nhiều thứ để du khách làm, vì thế hầu hết chỉ ở lại một đêm.",
+     "why": "apart from + N/V-ing = ngoài ra, ngoại trừ (= besides/except).",
+     "hint": "Nghĩa: ngoài, ngoại trừ",
+     "tw": "apart from",
+     "ipa": "/əˈpɑːt frəm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Marketing meeting",
+     "s": "Our company should develop an effective strategy to ___ before the holiday season, because last year's numbers were disappointing.",
+     "acc": [
+      "boost sales",
+      "boost our sales"
+     ],
+     "vi": "Công ty chúng ta nên phát triển chiến lược hiệu quả để thúc đẩy doanh số trước mùa lễ, vì số liệu năm ngoái đáng thất vọng.",
+     "why": "boost sales = thúc đẩy, làm tăng doanh số bán hàng. (Sheet ghi 'boots sales' là lỗi gõ, suy ra 'boost sales'.)",
+     "hint": "Nghĩa: thúc đẩy doanh số",
+     "tw": "boost sales",
+     "new": [
+      {
+       "w": "strategy",
+       "vi": "chiến lược"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Café owner",
+     "s": "My company needs an effective plan to ___ , or else we will have to reduce the number of staff before the summer.",
+     "acc": [
+      "increase revenue",
+      "increase its revenue",
+      "increase our revenue"
+     ],
+     "vi": "Công ty tôi cần một kế hoạch hiệu quả để tăng doanh thu, nếu không chúng tôi sẽ phải giảm số nhân viên trước mùa hè.",
+     "why": "increase revenue = tăng doanh thu (tổng tiền thu được từ bán hàng/dịch vụ).",
+     "hint": "Nghĩa: tăng doanh thu",
+     "tw": "increase revenue",
+     "ipa": "/ˈrevənuː/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Countryside walk",
+     "s": "We followed a narrow ___ through the fields, which led us to a small stream where we stopped for a picnic.",
+     "acc": [
+      "footpath"
+     ],
+     "vi": "Chúng tôi đi theo một lối mòn hẹp xuyên qua cánh đồng, dẫn tới một con suối nhỏ nơi chúng tôi dừng lại dã ngoại.",
+     "why": "footpath = lối đi bộ, đường mòn dành cho người đi bộ (ở ngoại ô, làng quê).",
+     "hint": "Nghĩa: lối đi bộ, đường mòn dành cho người đi bộ",
+     "tw": "footpath",
+     "ipa": "/ˈfʊt.pɑːθ/",
+     "new": [
+      {
+       "w": "stream",
+       "vi": "con suối"
+      },
+      {
+       "w": "narrow",
+       "vi": "hẹp"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Travel advice",
+     "s": "You should bring some cash ___ your credit card doesn't work, particularly if you are visiting small villages without cash machines.",
+     "acc": [
+      "in case"
+     ],
+     "vi": "Bạn nên mang theo ít tiền mặt phòng khi thẻ tín dụng không dùng được, nhất là khi thăm những ngôi làng nhỏ không có máy ATM.",
+     "why": "in case + mệnh đề = phòng khi (điều gì xảy ra); khác với if.",
+     "hint": "Nghĩa: phòng khi, trong trường hợp",
+     "tw": "in case",
+     "new": [
+      {
+       "w": "cash machines",
+       "vi": "máy ATM"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Loan agreement",
+     "s": "The bank will lend you the money ___ you can show regular income for at least two years and have no other large debts.",
+     "acc": [
+      "provided that",
+      "providing that"
+     ],
+     "vi": "Ngân hàng sẽ cho bạn vay tiền với điều kiện bạn chứng minh được thu nhập đều đặn ít nhất hai năm và không có nợ lớn khác.",
+     "why": "provided that + mệnh đề = với điều kiện là (trang trọng hơn as long as).",
+     "hint": "Nghĩa: với điều kiện là, miễn là",
+     "tw": "provided that",
+     "new": [
+      {
+       "w": "income",
+       "vi": "thu nhập"
+      },
+      {
+       "w": "debts",
+       "vi": "các khoản nợ"
+      }
+     ]
+    },
+    {
+     "type": "tx",
+     "ctx": "Exam advice",
+     "s": "You can pass the exam ___ you prepare well, so spend the next two weeks revising grammar and practising past papers every evening.",
+     "acc": [
+      "as long as"
+     ],
+     "vi": "Bạn có thể đỗ kỳ thi miễn là chuẩn bị kỹ, nên hãy dành hai tuần tới ôn ngữ pháp và luyện đề cũ mỗi tối.",
+     "why": "as long as + mệnh đề = miễn là, với điều kiện là (thân mật hơn provided that).",
+     "hint": "Nghĩa: với điều kiện, miễn là",
+     "tw": "as long as",
+     "new": [
+      {
+       "w": "revising",
+       "vi": "ôn tập"
+      },
+      {
+       "w": "past papers",
+       "vi": "đề thi cũ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Community life",
+     "s": "Rather than staying at home all day, more retired people now ___ community projects, such as repairing playgrounds or organising charity concerts.",
+     "o": [
+      "engage in",
+      "object to",
+      "get rid of"
+     ],
+     "a": "engage in",
+     "vi": "Thay vì ở nhà cả ngày, ngày càng nhiều người về hưu tham gia các dự án cộng đồng, như sửa sân chơi hay tổ chức hòa nhạc từ thiện.",
+     "why": "engage in + N/V-ing = tham gia vào một hoạt động; theo sau là danh từ hoặc V-ing.",
+     "tw": "engage in",
+     "new": [
+      {
+       "w": "charity",
+       "vi": "từ thiện"
+      },
+      {
+       "w": "retired",
+       "vi": "đã nghỉ hưu"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel and health",
+     "s": "Several tourists caught ___ after eating raw shellfish at a street stall, and the local health office warned visitors to be more careful.",
+     "o": [
+      "a fracture",
+      "a sprain",
+      "hepatitis"
+     ],
+     "a": "hepatitis",
+     "vi": "Vài du khách bị viêm gan sau khi ăn hải sản sống ở một quầy ven đường, và cơ quan y tế địa phương cảnh báo du khách cẩn thận hơn.",
+     "why": "hepatitis = viêm gan, bệnh nhiễm trùng hoặc viêm làm tổn thương gan.",
+     "tw": "hepatitis",
+     "ipa": "/ˌhep.əˈtaɪ.t̬əs/",
+     "new": [
+      {
+       "w": "shellfish",
+       "vi": "hải sản có vỏ"
+      },
+      {
+       "w": "stall",
+       "vi": "quầy hàng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Family event",
+     "s": "My sister's old wedding dress was beautiful, but it no longer ___ her after she lost a lot of weight during the last year.",
+     "o": [
+      "carries",
+      "fits",
+      "holds"
+     ],
+     "a": "fits",
+     "vi": "Chiếc váy cưới cũ của chị tôi rất đẹp, nhưng nó không còn vừa với chị sau khi chị giảm nhiều cân trong năm ngoái.",
+     "why": "fit somebody = vừa vặn với kích cỡ của ai (fit - fitted/fit - fitted).",
+     "tw": "fit somebody",
+     "ipa": "/fɪt/",
+     "new": [
+      {
+       "w": "wedding",
+       "vi": "đám cưới"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Hiking trip",
+     "s": "Good walking boots should ___ , otherwise your feet will hurt after a few kilometres and you may even get painful blisters.",
+     "o": [
+      "fit well",
+      "look cheap",
+      "feel proud"
+     ],
+     "a": "fit well",
+     "vi": "Giày đi bộ tốt phải vừa chân, nếu không chân bạn sẽ đau sau vài cây số và thậm chí bị phồng rộp đau đớn.",
+     "why": "fit well = vừa vặn, đúng kích cỡ; trái nghĩa là don't fit / fit badly.",
+     "tw": "fit well",
+     "ipa": "/fɪt wel/",
+     "new": [
+      {
+       "w": "blisters",
+       "vi": "vết phồng rộp"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Tailor's shop",
+     "s": "The sleeves are the right length, yet the jacket ___ across the back, so the tailor decided to adjust it by hand.",
+     "o": [
+      "isn't paid for",
+      "hasn't been washed",
+      "doesn't quite fit"
+     ],
+     "a": "doesn't quite fit",
+     "vi": "Tay áo dài vừa phải, nhưng áo khoác không được vừa lắm ở phần lưng, nên thợ may quyết định chỉnh lại bằng tay.",
+     "why": "doesn't quite fit = gần vừa nhưng chưa hoàn toàn; quite làm lời chê nhẹ hơn.",
+     "tw": "doesn't quite fit",
+     "ipa": "/ˈdʌz.ənt kwaɪt fɪt/",
+     "new": [
+      {
+       "w": "sleeves",
+       "vi": "tay áo"
+      },
+      {
+       "w": "adjust",
+       "vi": "chỉnh sửa"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "After the holidays",
+     "s": "Because he ate so much during the festival, his favourite jeans felt ___ when he tried to button them up this morning.",
+     "o": [
+      "quite expensive",
+      "a bit tight",
+      "very familiar"
+     ],
+     "a": "a bit tight",
+     "vi": "Vì ăn quá nhiều trong dịp lễ, chiếc quần jeans yêu thích của anh ấy thấy hơi chật khi anh cố cài khuy sáng nay.",
+     "why": "a bit tight = hơi chật (a bit = một chút); trái nghĩa là loose.",
+     "tw": "a bit tight",
+     "ipa": "/ə bɪt taɪt/",
+     "new": [
+      {
+       "w": "festival",
+       "vi": "dịp lễ hội"
+      },
+      {
+       "w": "button up",
+       "vi": "cài khuy"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Summer travel",
+     "s": "In hot countries, many visitors prefer ___ cotton shirts, which let the air move around the body and keep them cool all day.",
+     "o": [
+      "loose",
+      "tight",
+      "narrow"
+     ],
+     "a": "loose",
+     "vi": "Ở các nước nóng, nhiều du khách thích áo sơ mi cotton rộng, giúp không khí lưu thông quanh người và mát suốt ngày.",
+     "why": "loose = rộng, lỏng, không ôm sát (trái nghĩa: tight).",
+     "tw": "loose",
+     "ipa": "/luːs/",
+     "new": [
+      {
+       "w": "cotton",
+       "vi": "vải cotton"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Shopping with a friend",
+     "s": "Although the red scarf was prettier, my friend pointed out that the grey one would ___ because it matched my eyes.",
+     "o": [
+      "fit me tightly",
+      "cost me less",
+      "suit me better"
+     ],
+     "a": "suit me better",
+     "vi": "Dù chiếc khăn đỏ đẹp hơn, bạn tôi chỉ ra chiếc màu xám sẽ hợp với tôi hơn vì nó hợp với màu mắt tôi.",
+     "why": "suit somebody = hợp với ai (về màu sắc, kiểu dáng); better = hợp hơn.",
+     "tw": "suit somebody better",
+     "ipa": "/suːt ˈsʌm.bə.di ˈbet.ə(r)/",
+     "new": [
+      {
+       "w": "scarf",
+       "vi": "khăn quàng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Home decoration",
+     "s": "We chose curtains that ___ the sofa, so the living room looks tidy and calm even when the children's toys are everywhere.",
+     "o": [
+      "follow",
+      "match",
+      "reach"
+     ],
+     "a": "match",
+     "vi": "Chúng tôi chọn rèm cửa hợp với ghế sofa, nên phòng khách trông gọn và dịu ngay cả khi đồ chơi của bọn trẻ vứt khắp nơi.",
+     "why": "match something = hợp/đồng bộ về màu sắc hoặc kiểu dáng với thứ khác.",
+     "tw": "match something",
+     "ipa": "/mætʃ/",
+     "new": [
+      {
+       "w": "curtains",
+       "vi": "rèm cửa"
+      },
+      {
+       "w": "calm",
+       "vi": "yên bình"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Painting a room",
+     "s": "The painter mixed the colours several times until the new paint ___ the old wall, so nobody could see where the repair had been.",
+     "o": [
+      "matched perfectly",
+      "argued loudly",
+      "stayed quietly"
+     ],
+     "a": "matched perfectly",
+     "vi": "Người thợ sơn pha màu nhiều lần cho đến khi sơn mới khớp hoàn hảo với bức tường cũ nên không ai thấy chỗ đã sửa.",
+     "why": "match perfectly = hợp hoàn hảo, khớp hoàn toàn.",
+     "tw": "match perfectly",
+     "ipa": "/mætʃ ˈpɜː.fɪkt.li/",
+     "new": [
+      {
+       "w": "repair",
+       "vi": "chỗ sửa chữa"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking at home",
+     "s": "Red wine is traditionally served with beef, but many chefs say that lighter dishes such as fish ___ white wine.",
+     "o": [
+      "depend on",
+      "look after",
+      "go with"
+     ],
+     "a": "go with",
+     "vi": "Rượu vang đỏ theo truyền thống dùng với thịt bò, nhưng nhiều đầu bếp nói món nhẹ hơn như cá hợp với rượu vang trắng.",
+     "why": "go with something = hợp/ăn ý với thứ khác, dùng cho quần áo, màu sắc, món ăn.",
+     "tw": "go with something",
+     "ipa": "/ɡoʊ wɪð/",
+     "new": [
+      {
+       "w": "traditionally",
+       "vi": "theo truyền thống"
+      },
+      {
+       "w": "dishes",
+       "vi": "món ăn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Style advice",
+     "s": "A plain white shirt will ___ almost any skirt, which is why a lot of office workers keep several of them in their wardrobe.",
+     "o": [
+      "take care of",
+      "go well with",
+      "get used to"
+     ],
+     "a": "go well with",
+     "vi": "Một chiếc sơ mi trắng trơn rất hợp với hầu hết các loại váy, vì thế nhiều nhân viên văn phòng giữ vài chiếc trong tủ.",
+     "why": "go well with = rất hợp với; dùng cho đồ ăn, màu sắc, phối đồ.",
+     "tw": "go well with",
+     "ipa": "/ɡoʊ wel wɪð/",
+     "new": [
+      {
+       "w": "plain",
+       "vi": "trơn, đơn giản"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Interior design",
+     "s": "The designer placed a wooden table next to a dark leather sofa, and the two pieces ___ , giving the room a warm and modern feeling.",
+     "o": [
+      "looked good together",
+      "lived far apart",
+      "cost too much"
+     ],
+     "a": "looked good together",
+     "vi": "Nhà thiết kế đặt một bàn gỗ cạnh ghế sofa da tối màu, và hai món trông hợp nhau, mang lại cho căn phòng cảm giác ấm cúng và hiện đại.",
+     "why": "look good together = nhìn hợp nhau, hài hòa khi đặt cạnh nhau.",
+     "tw": "look good together",
+     "ipa": "/lʊk ɡʊd təˈɡeð.ə(r)/",
+     "new": [
+      {
+       "w": "leather",
+       "vi": "da thuộc"
+      },
+      {
+       "w": "warm",
+       "vi": "ấm cúng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Looking for a flat",
+     "s": "After visiting six apartments, they finally found one in a quiet street at ___ , so they signed the contract the same afternoon.",
+     "o": [
+      "a sudden delay",
+      "an empty promise",
+      "a reasonable price"
+     ],
+     "a": "a reasonable price",
+     "vi": "Sau khi xem sáu căn hộ, họ cuối cùng tìm được một căn ở phố yên tĩnh với giá hợp lý, nên ký hợp đồng ngay chiều hôm đó.",
+     "why": "a reasonable price = giá phải chăng, hợp lý so với chất lượng.",
+     "tw": "a reasonable price",
+     "ipa": "/ə ˈriː.zən.ə.bəl praɪs/",
+     "new": [
+      {
+       "w": "contract",
+       "vi": "hợp đồng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Choosing a hotel",
+     "s": "The room was small, but the location was excellent and ___ , so we decided to stay three nights instead of two.",
+     "o": [
+      "the price was asleep",
+      "the price was reasonable",
+      "the price was invisible"
+     ],
+     "a": "the price was reasonable",
+     "vi": "Phòng hơi nhỏ, nhưng vị trí tuyệt vời và giá hợp lý nên chúng tôi quyết định ở ba đêm thay vì hai.",
+     "why": "the price is reasonable = giá cả phải chăng (dùng như nhận xét ngắn).",
+     "tw": "the price is reasonable",
+     "new": [
+      {
+       "w": "location",
+       "vi": "vị trí"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Phone call",
+     "s": "“I'm sorry, but the concert has been cancelled because of the storm.” — “Really? ___ We had been looking forward to it for months.”",
+     "o": [
+      "That's a shame.",
+      "That's a bargain.",
+      "That's my turn."
+     ],
+     "a": "That's a shame.",
+     "vi": "“Xin lỗi, buổi hòa nhạc bị hủy vì bão.” — “Thật sao? Tiếc thật. Chúng tôi đã mong chờ nó suốt nhiều tháng.”",
+     "why": "That's a shame. = Tiếc thật; lời đáp thông cảm khi nghe điều đáng tiếc.",
+     "tw": "That's a shame.",
+     "ipa": "/ðæts ə ʃeɪm/",
+     "new": [
+      {
+       "w": "looking forward to",
+       "vi": "mong chờ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Holiday plans",
+     "s": "“We were going to visit the old castle, but it is closed for repairs until May.” — “Oh, ___ It looked so impressive in the guidebook.”",
+     "o": [
+      "that's a promise",
+      "that's a plan",
+      "that's a pity"
+     ],
+     "a": "that's a pity",
+     "vi": "“Chúng tôi định thăm lâu đài cổ nhưng nó đóng cửa để sửa đến tháng Năm.” — “Ồ, tiếc thật. Nó trông rất ấn tượng trong sách hướng dẫn.”",
+     "why": "that's a pity = tiếc thật; giống that's a shame, hơi trang trọng hơn.",
+     "tw": "that's a pity",
+     "ipa": "/ðæts ə ˈpɪt.i/",
+     "new": [
+      {
+       "w": "castle",
+       "vi": "lâu đài"
+      },
+      {
+       "w": "guidebook",
+       "vi": "sách hướng dẫn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Weather report",
+     "s": "___ it rained all weekend, because the festival organisers had spent months preparing outdoor stages for thousands of visitors.",
+     "o": [
+      "It's a rule for",
+      "It's a shame that",
+      "It's a habit to"
+     ],
+     "a": "It's a shame that",
+     "vi": "Thật tiếc là trời mưa cả cuối tuần, vì ban tổ chức lễ hội đã mất nhiều tháng chuẩn bị sân khấu ngoài trời cho hàng nghìn khách.",
+     "why": "It's a shame that + mệnh đề = thật tiếc là...; dùng để bày tỏ sự tiếc nuối.",
+     "tw": "It's a shame that",
+     "ipa": "/ɪts ə ʃeɪm ðæt/",
+     "new": [
+      {
+       "w": "organisers",
+       "vi": "ban tổ chức"
+      },
+      {
+       "w": "stages",
+       "vi": "sân khấu"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Sports news",
+     "s": "The team trained for two years and then lost the final by one point in the last second. ___ Their fans were heartbroken.",
+     "o": [
+      "What a shame!",
+      "What a surprise!",
+      "What a bargain!"
+     ],
+     "a": "What a shame!",
+     "vi": "Đội luyện tập hai năm rồi thua trận chung kết một điểm ở giây cuối. Tiếc quá! Người hâm mộ rất đau lòng.",
+     "why": "What a shame! = Tiếc quá! (câu cảm thán), dùng khi nghe tin đáng tiếc.",
+     "tw": "What a shame!",
+     "ipa": "/wɒt ə ʃeɪm/",
+     "new": [
+      {
+       "w": "heartbroken",
+       "vi": "đau lòng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Antique market",
+     "s": "The seller lowered the price of the old clock by twenty percent, and the buyer immediately replied, “___” and took out her wallet.",
+     "o": [
+      "I'll leave it.",
+      "I'll wait it.",
+      "I'll take it."
+     ],
+     "a": "I'll take it.",
+     "vi": "Người bán giảm giá chiếc đồng hồ cũ hai mươi phần trăm, và người mua lập tức đáp: “Tôi lấy.” rồi lấy ví ra.",
+     "why": "I'll take it. = Tôi lấy món này; câu quyết định mua hàng.",
+     "tw": "I'll take it.",
+     "new": [
+      {
+       "w": "antique",
+       "vi": "đồ cổ"
+      },
+      {
+       "w": "wallet",
+       "vi": "ví"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Market haggling",
+     "s": "The seller refused to lower the price of the vase, so the tourist shrugged and said, “___” before walking to the next stall.",
+     "o": [
+      "I'll break it.",
+      "I'll leave it.",
+      "I'll take it."
+     ],
+     "a": "I'll leave it.",
+     "vi": "Người bán không chịu giảm giá chiếc bình, nên du khách nhún vai nói: “Thôi, tôi không mua.” rồi đi sang quầy kế tiếp.",
+     "why": "I'll leave it. = Thôi tôi không mua; từ chối lịch sự khi mua sắm.",
+     "tw": "I'll leave it.",
+     "new": [
+      {
+       "w": "haggling",
+       "vi": "mặc cả"
+      },
+      {
+       "w": "shrugged",
+       "vi": "nhún vai"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Exam hall",
+     "s": "The teacher gave the first student in each row a pile of papers and asked him to ___ so that nobody had to leave their seat.",
+     "o": [
+      "pass them down the line",
+      "throw them away",
+      "count them twice"
+     ],
+     "a": "pass them down the line",
+     "vi": "Giáo viên đưa cho học sinh đầu mỗi hàng một chồng giấy và nhờ em chuyền dọc hàng để không ai phải rời chỗ ngồi.",
+     "why": "pass something down the line = chuyền vật gì lần lượt dọc theo hàng người.",
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/",
+     "new": [
+      {
+       "w": "pile",
+       "vi": "chồng"
+      },
+      {
+       "w": "row",
+       "vi": "hàng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "City centre",
+     "s": "Although the new restaurant is famous for its seafood, many customers complain that ___ , so they end up circling the streets for twenty minutes.",
+     "o": [
+      "there is nothing to drink",
+      "there is nobody to ask",
+      "there is nowhere to park"
+     ],
+     "a": "there is nowhere to park",
+     "vi": "Dù nhà hàng mới nổi tiếng về hải sản, nhiều khách phàn nàn rằng không có chỗ đậu xe nên họ lòng vòng các con phố hai mươi phút.",
+     "why": "there is nowhere to park = không có chỗ nào để đậu xe; nowhere + to V.",
+     "tw": "there is nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/",
+     "new": [
+      {
+       "w": "circling",
+       "vi": "đi vòng quanh"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Food prices",
+     "s": "A poor harvest of ___ pushed the cost of bread up sharply last year, since most local bakeries depend on flour made from it.",
+     "o": [
+      "coffee",
+      "wheat",
+      "grapes"
+     ],
+     "a": "wheat",
+     "vi": "Vụ thu hoạch lúa mì kém đã đẩy giá bánh mì tăng mạnh năm ngoái, vì hầu hết tiệm bánh địa phương dựa vào bột làm từ nó.",
+     "why": "wheat = lúa mì, ngũ cốc dùng làm bột mì và bánh mì.",
+     "tw": "wheat",
+     "ipa": "/wiːt/",
+     "new": [
+      {
+       "w": "bakeries",
+       "vi": "tiệm bánh"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Beach holiday",
+     "s": "The beach cafe stays open ___ , so tourists can enjoy a cold drink while watching the sky turn orange over the sea.",
+     "o": [
+      "until sunset",
+      "since sunrise",
+      "before breakfast"
+     ],
+     "a": "until sunset",
+     "vi": "Quán cà phê bãi biển mở cửa đến khi mặt trời lặn nên du khách có thể uống đồ lạnh trong lúc ngắm bầu trời chuyển cam trên biển.",
+     "why": "until sunset = cho đến lúc mặt trời lặn.",
+     "tw": "until sunset",
+     "ipa": "/ənˈtɪl ˈsʌn.set/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Project team",
+     "s": "___ the designer, the whole team has agreed to start the project in January, so a final decision will probably wait until she replies.",
+     "o": [
+      "Instead of",
+      "Because of",
+      "Apart from"
+     ],
+     "a": "Apart from",
+     "vi": "Ngoại trừ nhà thiết kế, cả nhóm đã đồng ý bắt đầu dự án vào tháng Một, nên quyết định cuối có lẽ chờ đến khi cô ấy trả lời.",
+     "why": "apart from + N/V-ing = ngoài ra, ngoại trừ (= besides/except).",
+     "tw": "apart from",
+     "ipa": "/əˈpɑːt frəm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Small shop",
+     "s": "The owner offered a free gift with every purchase, hoping to ___ and attract customers who normally shop at larger supermarkets.",
+     "o": [
+      "lose staff",
+      "boost sales",
+      "cut costs"
+     ],
+     "a": "boost sales",
+     "vi": "Chủ cửa hàng tặng quà miễn phí với mỗi lần mua, hy vọng thúc đẩy doanh số và thu hút khách thường mua ở siêu thị lớn.",
+     "why": "boost sales = thúc đẩy, làm tăng doanh số bán hàng. (Sheet ghi 'boots sales' là lỗi gõ, suy ra 'boost sales'.)",
+     "tw": "boost sales",
+     "new": [
+      {
+       "w": "purchase",
+       "vi": "việc mua"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "City museum",
+     "s": "By opening a gift shop and a small cafe, the museum managed to ___ without raising the price of tickets for ordinary visitors.",
+     "o": [
+      "increase revenue",
+      "reduce its size",
+      "avoid its guests"
+     ],
+     "a": "increase revenue",
+     "vi": "Bằng việc mở cửa hàng quà tặng và quán cà phê nhỏ, bảo tàng đã tăng được doanh thu mà không nâng giá vé cho khách thường.",
+     "why": "increase revenue = tăng doanh thu (tổng tiền thu được từ bán hàng/dịch vụ).",
+     "tw": "increase revenue",
+     "ipa": "/ˈrevənuː/",
+     "new": [
+      {
+       "w": "managed to",
+       "vi": "xoay xở để, đã làm được"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Village council",
+     "s": "The council plans to repair the old ___ beside the river so that walkers can cross the village without using the busy main road.",
+     "o": [
+      "motorway",
+      "runway",
+      "footpath"
+     ],
+     "a": "footpath",
+     "vi": "Hội đồng dự định sửa lối đi bộ cũ bên sông để người đi bộ băng qua làng mà không phải dùng đường chính đông đúc.",
+     "why": "footpath = lối đi bộ, đường mòn dành cho người đi bộ (ở ngoại ô, làng quê).",
+     "tw": "footpath",
+     "ipa": "/ˈfʊt.pɑːθ/",
+     "new": [
+      {
+       "w": "repair",
+       "vi": "sửa chữa"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Weather forecast",
+     "s": "I always keep a small umbrella in my bag ___ it rains suddenly, because the weather in this city changes so quickly.",
+     "o": [
+      "although",
+      "in case",
+      "unless"
+     ],
+     "a": "in case",
+     "vi": "Tôi luôn để một chiếc ô nhỏ trong túi phòng khi trời đột ngột mưa, vì thời tiết ở thành phố này đổi rất nhanh.",
+     "why": "in case + mệnh đề = phòng khi (điều gì xảy ra); khác với if.",
+     "tw": "in case",
+     "new": [
+      {
+       "w": "suddenly",
+       "vi": "đột ngột"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Sports club",
+     "s": "Members may bring guests to the swimming pool ___ they register at reception and pay the small daily fee in advance.",
+     "o": [
+      "provided that",
+      "even though",
+      "as soon as"
+     ],
+     "a": "provided that",
+     "vi": "Hội viên có thể đưa khách đến bể bơi với điều kiện họ đăng ký tại quầy lễ tân và trả trước khoản phí nhỏ hằng ngày.",
+     "why": "provided that + mệnh đề = với điều kiện là (trang trọng hơn as long as).",
+     "tw": "provided that",
+     "new": [
+      {
+       "w": "reception",
+       "vi": "quầy lễ tân"
+      },
+      {
+       "w": "in advance",
+       "vi": "trước"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Family trip",
+     "s": "My parents don't mind where we stay ___ the room is clean and the hotel is close to public transport.",
+     "o": [
+      "in case of",
+      "apart from",
+      "as long as"
+     ],
+     "a": "as long as",
+     "vi": "Bố mẹ tôi không quan tâm chúng tôi ở đâu miễn là phòng sạch và khách sạn gần phương tiện công cộng.",
+     "why": "as long as + mệnh đề = miễn là, với điều kiện là (thân mật hơn provided that).",
+     "tw": "as long as",
+     "new": [
+      {
+       "w": "public transport",
+       "vi": "phương tiện công cộng"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Workplace rules",
+     "s": "The company's new policy states that staff may not engage in any political activity during working hours. Anyone who breaks the rule could receive a written warning. What does \"engage in\" mean?",
+     "o": [
+      "chỉ trích công khai một hoạt động",
+      "bỏ qua một hoạt động",
+      "tham gia vào một hoạt động"
+     ],
+     "a": "tham gia vào một hoạt động",
+     "vi": "Chính sách mới của công ty quy định nhân viên không được tham gia bất kỳ hoạt động chính trị nào trong giờ làm. Ai vi phạm có thể nhận cảnh cáo bằng văn bản.",
+     "why": "engage in + N/V-ing = tham gia vào một hoạt động; theo sau là danh từ hoặc V-ing.",
+     "noblank": true,
+     "say": "The company's new policy states that staff may not engage in any political activity during working hours. Anyone who breaks the rule could receive a written warning.",
+     "tw": "engage in",
+     "new": [
+      {
+       "w": "policy",
+       "vi": "chính sách"
+      },
+      {
+       "w": "warning",
+       "vi": "lời cảnh cáo"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Public health",
+     "s": "Vaccination programmes have greatly reduced cases of hepatitis in many countries. However, the disease, which attacks the liver, still affects millions of people in poorer regions. What does \"hepatitis\" mean?",
+     "o": [
+      "chứng ngộ độc thực phẩm",
+      "bệnh viêm gan",
+      "bệnh viêm phổi"
+     ],
+     "a": "bệnh viêm gan",
+     "vi": "Các chương trình tiêm chủng đã giảm mạnh số ca viêm gan ở nhiều nước. Tuy nhiên, căn bệnh tấn công gan này vẫn ảnh hưởng hàng triệu người ở các vùng nghèo hơn.",
+     "why": "hepatitis = viêm gan, bệnh nhiễm trùng hoặc viêm làm tổn thương gan.",
+     "noblank": true,
+     "say": "Vaccination programmes have greatly reduced cases of hepatitis in many countries. However, the disease, which attacks the liver, still affects millions of people in poorer regions.",
+     "tw": "hepatitis",
+     "ipa": "/ˌhep.əˈtaɪ.t̬əs/",
+     "new": [
+      {
+       "w": "vaccination",
+       "vi": "việc tiêm chủng"
+      },
+      {
+       "w": "region",
+       "vi": "khu vực"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Shoe shop",
+     "s": "These shoes look lovely, but they don't fit me at all, because my toes are pressed against the front. I'll ask the assistant whether there is a larger size. What does \"fit somebody\" mean?",
+     "o": [
+      "vừa với ai (đúng kích cỡ)",
+      "hợp với gu thẩm mỹ của ai",
+      "làm ai thấy thoải mái về tinh thần"
+     ],
+     "a": "vừa với ai (đúng kích cỡ)",
+     "vi": "Đôi giày này trông rất đẹp nhưng không vừa với tôi, vì ngón chân bị ép sát phía trước. Tôi sẽ hỏi nhân viên xem có cỡ lớn hơn không.",
+     "why": "fit somebody = vừa vặn với kích cỡ của ai (fit - fitted/fit - fitted).",
+     "noblank": true,
+     "say": "These shoes look lovely, but they don't fit me at all, because my toes are pressed against the front. I'll ask the assistant whether there is a larger size.",
+     "tw": "fit somebody",
+     "ipa": "/fɪt/",
+     "new": [
+      {
+       "w": "pressed against",
+       "vi": "bị ép sát vào"
+      },
+      {
+       "w": "assistant",
+       "vi": "nhân viên bán hàng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Product review",
+     "s": "I was nervous about buying a coat without trying it on, but it fits really well, especially across the shoulders. Even my mother, who is very critical, said it looked made for me. What does \"fit well\" mean?",
+     "o": [
+      "rất đắt tiền",
+      "hơi lỗi mốt",
+      "khá vừa, vừa vặn"
+     ],
+     "a": "khá vừa, vừa vặn",
+     "vi": "Tôi lo khi mua áo khoác mà không thử, nhưng nó vừa rất đẹp, nhất là phần vai. Ngay cả mẹ tôi, người rất khó tính, cũng nói trông như may riêng cho tôi.",
+     "why": "fit well = vừa vặn, đúng kích cỡ; trái nghĩa là don't fit / fit badly.",
+     "noblank": true,
+     "say": "I was nervous about buying a coat without trying it on, but it fits really well, especially across the shoulders. Even my mother, who is very critical, said it looked made for me.",
+     "tw": "fit well",
+     "ipa": "/fɪt wel/",
+     "new": [
+      {
+       "w": "critical",
+       "vi": "hay chê, khó tính"
+      },
+      {
+       "w": "nervous",
+       "vi": "lo lắng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Fitting room",
+     "s": "Although the trousers look elegant, they don't quite fit; they are fine at the hips but slightly short in the leg. Maybe a different brand would be better. What does \"doesn't quite fit\" mean?",
+     "o": [
+      "quá đắt so với chất lượng",
+      "không được vừa lắm",
+      "hoàn toàn vừa vặn"
+     ],
+     "a": "không được vừa lắm",
+     "vi": "Dù chiếc quần trông thanh lịch, nó không được vừa lắm: ổn ở hông nhưng hơi ngắn ở chân. Có lẽ hãng khác sẽ tốt hơn.",
+     "why": "doesn't quite fit = gần vừa nhưng chưa hoàn toàn; quite làm lời chê nhẹ hơn.",
+     "noblank": true,
+     "say": "Although the trousers look elegant, they don't quite fit; they are fine at the hips but slightly short in the leg. Maybe a different brand would be better.",
+     "tw": "doesn't quite fit",
+     "ipa": "/ˈdʌz.ənt kwaɪt fɪt/",
+     "new": [
+      {
+       "w": "hips",
+       "vi": "hông"
+      },
+      {
+       "w": "slightly",
+       "vi": "hơi, một chút"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Gym clothes",
+     "s": "Sarah bought a pair of sports leggings online, but after one wash they were a bit tight around the thighs. She wondered if the fabric had shrunk. What does \"a bit tight\" mean?",
+     "o": [
+      "hơi chật",
+      "hơi dài",
+      "hơi cũ"
+     ],
+     "a": "hơi chật",
+     "vi": "Sarah mua một chiếc quần legging thể thao trên mạng, nhưng sau một lần giặt nó hơi chật ở đùi. Cô tự hỏi liệu vải có bị co lại không.",
+     "why": "a bit tight = hơi chật (a bit = một chút); trái nghĩa là loose.",
+     "noblank": true,
+     "say": "Sarah bought a pair of sports leggings online, but after one wash they were a bit tight around the thighs. She wondered if the fabric had shrunk.",
+     "tw": "a bit tight",
+     "ipa": "/ə bɪt taɪt/",
+     "new": [
+      {
+       "w": "thighs",
+       "vi": "đùi"
+      },
+      {
+       "w": "shrunk",
+       "vi": "đã co lại"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Fashion advice",
+     "s": "If the weather is humid, wear loose clothes made of natural fabrics. They allow your skin to breathe, which is why they feel much more comfortable than synthetic ones. What does \"loose\" mean?",
+     "o": [
+      "bó sát cơ thể",
+      "rất sặc sỡ",
+      "rộng, không ôm sát người"
+     ],
+     "a": "rộng, không ôm sát người",
+     "vi": "Nếu thời tiết ẩm, hãy mặc quần áo rộng làm từ vải tự nhiên. Chúng để da được thở, nên thoải mái hơn nhiều so với đồ tổng hợp.",
+     "why": "loose = rộng, lỏng, không ôm sát (trái nghĩa: tight).",
+     "noblank": true,
+     "say": "If the weather is humid, wear loose clothes made of natural fabrics. They allow your skin to breathe, which is why they feel much more comfortable than synthetic ones.",
+     "tw": "loose",
+     "ipa": "/luːs/",
+     "new": [
+      {
+       "w": "humid",
+       "vi": "ẩm ướt"
+      },
+      {
+       "w": "synthetic",
+       "vi": "tổng hợp"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Wedding guest",
+     "s": "I borrowed two jackets for the ceremony, and after looking in the mirror I decided the navy one suited me better. The beige one made my skin look pale. What does \"suit somebody better\" mean?",
+     "o": [
+      "rẻ hơn với tôi",
+      "hợp với tôi hơn",
+      "vừa với tôi hơn"
+     ],
+     "a": "hợp với tôi hơn",
+     "vi": "Tôi mượn hai chiếc áo khoác cho buổi lễ, và sau khi soi gương tôi quyết định chiếc xanh navy hợp với tôi hơn. Chiếc màu be làm da tôi trông nhợt nhạt.",
+     "why": "suit somebody = hợp với ai (về màu sắc, kiểu dáng); better = hợp hơn.",
+     "noblank": true,
+     "say": "I borrowed two jackets for the ceremony, and after looking in the mirror I decided the navy one suited me better. The beige one made my skin look pale.",
+     "tw": "suit somebody better",
+     "ipa": "/suːt ˈsʌm.bə.di ˈbet.ə(r)/",
+     "new": [
+      {
+       "w": "ceremony",
+       "vi": "buổi lễ"
+      },
+      {
+       "w": "pale",
+       "vi": "nhợt nhạt"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Shopping online",
+     "s": "When the cushion covers arrived, the colour did not match the pictures on the website. The seller admitted that the lighting in the photos had been misleading. What does \"match something\" mean?",
+     "o": [
+      "hợp, giống với một thứ khác",
+      "đắt hơn một thứ khác",
+      "nặng hơn một thứ khác"
+     ],
+     "a": "hợp, giống với một thứ khác",
+     "vi": "Khi vỏ gối đến nơi, màu không giống ảnh trên trang web. Người bán thừa nhận ánh sáng trong ảnh gây hiểu lầm.",
+     "why": "match something = hợp/đồng bộ về màu sắc hoặc kiểu dáng với thứ khác.",
+     "noblank": true,
+     "say": "When the cushion covers arrived, the colour did not match the pictures on the website. The seller admitted that the lighting in the photos had been misleading.",
+     "tw": "match something",
+     "ipa": "/mætʃ/",
+     "new": [
+      {
+       "w": "cushion covers",
+       "vi": "vỏ gối"
+      },
+      {
+       "w": "misleading",
+       "vi": "gây hiểu lầm"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Fashion blog",
+     "s": "The blogger wore a green scarf that matched perfectly the pattern on her coat, which attracted a lot of compliments on social media that week. What does \"match perfectly\" mean?",
+     "o": [
+      "hơi lệch tông",
+      "không liên quan",
+      "rất hợp, khớp hoàn hảo"
+     ],
+     "a": "rất hợp, khớp hoàn hảo",
+     "vi": "Cô blogger quàng một chiếc khăn xanh lá khớp hoàn hảo với hoa văn trên áo khoác, điều thu hút nhiều lời khen trên mạng xã hội tuần đó.",
+     "why": "match perfectly = hợp hoàn hảo, khớp hoàn toàn.",
+     "noblank": true,
+     "say": "The blogger wore a green scarf that matched perfectly the pattern on her coat, which attracted a lot of compliments on social media that week.",
+     "tw": "match perfectly",
+     "ipa": "/mætʃ ˈpɜː.fɪkt.li/",
+     "new": [
+      {
+       "w": "pattern",
+       "vi": "hoa văn"
+      },
+      {
+       "w": "compliments",
+       "vi": "lời khen"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Colour advice",
+     "s": "Neutral colours like beige and grey are easy to wear because they go with almost everything in your wardrobe. That is why stylists often recommend them for beginners. What does \"go with something\" mean?",
+     "o": [
+      "làm mờ đi",
+      "hợp với, phối được với",
+      "thay thế hoàn toàn"
+     ],
+     "a": "hợp với, phối được với",
+     "vi": "Các màu trung tính như be và xám dễ mặc vì chúng phối được với hầu hết đồ trong tủ. Vì vậy các nhà tạo mẫu hay khuyên người mới chọn chúng.",
+     "why": "go with something = hợp/ăn ý với thứ khác, dùng cho quần áo, màu sắc, món ăn.",
+     "noblank": true,
+     "say": "Neutral colours like beige and grey are easy to wear because they go with almost everything in your wardrobe. That is why stylists often recommend them for beginners.",
+     "tw": "go with something",
+     "ipa": "/ɡoʊ wɪð/",
+     "new": [
+      {
+       "w": "neutral",
+       "vi": "trung tính"
+      },
+      {
+       "w": "wardrobe",
+       "vi": "tủ quần áo"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking class",
+     "s": "The teacher explained that fresh lemon juice goes well with grilled fish because the sharp taste balances the rich oil. The students then tried it themselves. What does \"go well with\" mean?",
+     "o": [
+      "rất hợp với",
+      "hoàn toàn khác với",
+      "làm hỏng vị của"
+     ],
+     "a": "rất hợp với",
+     "vi": "Giáo viên giải thích nước chanh tươi rất hợp với cá nướng vì vị chua gắt cân bằng với độ béo. Sau đó học viên tự thử.",
+     "why": "go well with = rất hợp với; dùng cho đồ ăn, màu sắc, phối đồ.",
+     "noblank": true,
+     "say": "The teacher explained that fresh lemon juice goes well with grilled fish because the sharp taste balances the rich oil. The students then tried it themselves.",
+     "tw": "go well with",
+     "ipa": "/ɡoʊ wel wɪð/",
+     "new": [
+      {
+       "w": "grilled",
+       "vi": "nướng"
+      },
+      {
+       "w": "balances",
+       "vi": "cân bằng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Photo of friends",
+     "s": "Everyone agreed that the bride and her bridesmaids looked good together in the photograph, because their dresses were in similar shades of pink. What does \"look good together\" mean?",
+     "o": [
+      "trông rất mệt",
+      "trông khác hẳn nhau",
+      "trông hợp nhau"
+     ],
+     "a": "trông hợp nhau",
+     "vi": "Mọi người đồng ý rằng cô dâu và các phù dâu trông hợp nhau trong ảnh vì váy của họ có cùng các sắc hồng gần nhau.",
+     "why": "look good together = nhìn hợp nhau, hài hòa khi đặt cạnh nhau.",
+     "noblank": true,
+     "say": "Everyone agreed that the bride and her bridesmaids looked good together in the photograph, because their dresses were in similar shades of pink.",
+     "tw": "look good together",
+     "ipa": "/lʊk ɡʊd təˈɡeð.ə(r)/",
+     "new": [
+      {
+       "w": "bridesmaids",
+       "vi": "phù dâu"
+      },
+      {
+       "w": "shades",
+       "vi": "sắc độ"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Market stall",
+     "s": "The vendor offered us fresh peaches at a reasonable price, so we bought two kilos. Compared with the supermarket, we saved nearly a third. What does \"a reasonable price\" mean?",
+     "o": [
+      "mức giá chưa rõ",
+      "mức giá hợp lý",
+      "mức giá quá cao"
+     ],
+     "a": "mức giá hợp lý",
+     "vi": "Người bán hàng chào chúng tôi đào tươi với giá hợp lý nên chúng tôi mua hai ký. So với siêu thị, chúng tôi tiết kiệm gần một phần ba.",
+     "why": "a reasonable price = giá phải chăng, hợp lý so với chất lượng.",
+     "noblank": true,
+     "say": "The vendor offered us fresh peaches at a reasonable price, so we bought two kilos. Compared with the supermarket, we saved nearly a third.",
+     "tw": "a reasonable price",
+     "ipa": "/ə ˈriː.zən.ə.bəl praɪs/",
+     "new": [
+      {
+       "w": "vendor",
+       "vi": "người bán hàng"
+      },
+      {
+       "w": "peaches",
+       "vi": "quả đào"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Review of a café",
+     "s": "The coffee was strong and the cakes were freshly baked. Best of all, the price was reasonable, so students can visit it several times a week. What does \"the price is reasonable\" mean?",
+     "o": [
+      "giá cả phải chăng",
+      "giá cả đắt đỏ",
+      "giá cả thay đổi liên tục"
+     ],
+     "a": "giá cả phải chăng",
+     "vi": "Cà phê đậm và bánh mới nướng. Tuyệt nhất là giá phải chăng, nên sinh viên có thể ghé vài lần mỗi tuần.",
+     "why": "the price is reasonable = giá cả phải chăng (dùng như nhận xét ngắn).",
+     "noblank": true,
+     "say": "The coffee was strong and the cakes were freshly baked. Best of all, the price was reasonable, so students can visit it several times a week.",
+     "tw": "the price is reasonable",
+     "new": [
+      {
+       "w": "freshly baked",
+       "vi": "mới nướng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Between friends",
+     "s": "“I can't come to your party on Saturday; I have to work.” — “Oh, that's a shame. Everyone will miss you.” The speaker is showing sympathy. What does \"That's a shame.\" mean?",
+     "o": [
+      "Tuyệt quá.",
+      "Tôi không quan tâm.",
+      "Tiếc thật."
+     ],
+     "a": "Tiếc thật.",
+     "vi": "“Mình không đến tiệc của cậu thứ Bảy được; mình phải đi làm.” — “Ôi, tiếc thật. Mọi người sẽ nhớ cậu.” Người nói đang thể hiện sự thông cảm.",
+     "why": "That's a shame. = Tiếc thật; lời đáp thông cảm khi nghe điều đáng tiếc.",
+     "noblank": true,
+     "say": "“I can't come to your party on Saturday; I have to work.” — “Oh, that's a shame. Everyone will miss you.” The speaker is showing sympathy.",
+     "tw": "That's a shame.",
+     "ipa": "/ðæts ə ʃeɪm/",
+     "new": [
+      {
+       "w": "sympathy",
+       "vi": "sự thông cảm"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Office chat",
+     "s": "“Our manager will not attend the team trip after all.” — “That's a pity; she always organises the best games.” The second speaker feels disappointed. What does \"that's a pity\" mean?",
+     "o": [
+      "không thành vấn đề",
+      "tiếc thật; đáng tiếc",
+      "may quá"
+     ],
+     "a": "tiếc thật; đáng tiếc",
+     "vi": "“Rốt cuộc sếp của chúng ta sẽ không dự chuyến đi nhóm.” — “Tiếc thật; cô ấy luôn tổ chức những trò chơi hay nhất.” Người thứ hai thấy thất vọng.",
+     "why": "that's a pity = tiếc thật; giống that's a shame, hơi trang trọng hơn.",
+     "noblank": true,
+     "say": "“Our manager will not attend the team trip after all.” — “That's a pity; she always organises the best games.” The second speaker feels disappointed.",
+     "tw": "that's a pity",
+     "ipa": "/ðæts ə ˈpɪt.i/",
+     "new": [
+      {
+       "w": "disappointed",
+       "vi": "thất vọng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Newspaper letter",
+     "s": "It's a shame that the old library is going to close next year, since it has served the neighbourhood for more than fifty years. What does \"It's a shame that\" mean?",
+     "o": [
+      "thật tiếc rằng...",
+      "thật may mắn rằng...",
+      "điều quan trọng là..."
+     ],
+     "a": "thật tiếc rằng...",
+     "vi": "Thật tiếc là thư viện cũ sẽ đóng cửa năm tới, vì nó đã phục vụ khu phố hơn năm mươi năm.",
+     "why": "It's a shame that + mệnh đề = thật tiếc là...; dùng để bày tỏ sự tiếc nuối.",
+     "noblank": true,
+     "say": "It's a shame that the old library is going to close next year, since it has served the neighbourhood for more than fifty years.",
+     "tw": "It's a shame that",
+     "ipa": "/ɪts ə ʃeɪm ðæt/",
+     "new": [
+      {
+       "w": "neighbourhood",
+       "vi": "khu phố"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Garden story",
+     "s": "My neighbour's apple tree finally produced fruit this autumn, but a strong wind knocked most of it off before she could pick it. What a shame! What does \"What a shame!\" mean?",
+     "o": [
+      "Vui quá!",
+      "Thật bất ngờ!",
+      "Tiếc quá!"
+     ],
+     "a": "Tiếc quá!",
+     "vi": "Cây táo của hàng xóm tôi cuối cùng đã ra quả mùa thu này, nhưng gió mạnh làm rụng gần hết trước khi cô ấy kịp hái. Tiếc quá!",
+     "why": "What a shame! = Tiếc quá! (câu cảm thán), dùng khi nghe tin đáng tiếc.",
+     "noblank": true,
+     "say": "My neighbour's apple tree finally produced fruit this autumn, but a strong wind knocked most of it off before she could pick it. What a shame!",
+     "tw": "What a shame!",
+     "ipa": "/wɒt ə ʃeɪm/",
+     "new": [
+      {
+       "w": "knocked off",
+       "vi": "làm rụng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "In a bookshop",
+     "s": "After reading the first page, Anna smiled at the assistant and said, “I'll take it.” She had been searching for that novel for months. What does \"I'll take it.\" mean?",
+     "o": [
+      "Tôi muốn xem thêm.",
+      "Tôi sẽ mua món này.",
+      "Tôi không mua món này."
+     ],
+     "a": "Tôi sẽ mua món này.",
+     "vi": "Sau khi đọc trang đầu, Anna mỉm cười với nhân viên và nói: “Tôi lấy cuốn này.” Cô đã tìm tiểu thuyết đó suốt nhiều tháng.",
+     "why": "I'll take it. = Tôi lấy món này; câu quyết định mua hàng.",
+     "noblank": true,
+     "say": "After reading the first page, Anna smiled at the assistant and said, “I'll take it.” She had been searching for that novel for months.",
+     "tw": "I'll take it.",
+     "new": [
+      {
+       "w": "novel",
+       "vi": "tiểu thuyết"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Electronics store",
+     "s": "The headphones sounded good, but the battery lasted only three hours. “I'll leave it,” Tom told the salesman, and went to compare other models. What does \"I'll leave it.\" mean?",
+     "o": [
+      "Tôi không mua nữa.",
+      "Tôi mua hai cái.",
+      "Tôi sẽ để lại tiền."
+     ],
+     "a": "Tôi không mua nữa.",
+     "vi": "Tai nghe nghe tốt nhưng pin chỉ được ba tiếng. “Thôi, tôi không mua,” Tom nói với người bán rồi đi so sánh các mẫu khác.",
+     "why": "I'll leave it. = Thôi tôi không mua; từ chối lịch sự khi mua sắm.",
+     "noblank": true,
+     "say": "The headphones sounded good, but the battery lasted only three hours. “I'll leave it,” Tom told the salesman, and went to compare other models.",
+     "tw": "I'll leave it.",
+     "new": [
+      {
+       "w": "battery",
+       "vi": "pin"
+      },
+      {
+       "w": "salesman",
+       "vi": "nhân viên bán hàng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Fire drill",
+     "s": "During the practice, the instructors told the children to pass the water bottles down the line without running or shouting. Everything finished calmly. What does \"pass something down the line\" mean?",
+     "o": [
+      "làm rơi thứ gì xuống đất",
+      "giấu thứ gì đi",
+      "chuyền thứ gì dọc theo hàng người"
+     ],
+     "a": "chuyền thứ gì dọc theo hàng người",
+     "vi": "Trong buổi diễn tập, người hướng dẫn bảo trẻ chuyền chai nước dọc theo hàng mà không chạy hay hét. Mọi thứ kết thúc bình tĩnh.",
+     "why": "pass something down the line = chuyền vật gì lần lượt dọc theo hàng người.",
+     "noblank": true,
+     "say": "During the practice, the instructors told the children to pass the water bottles down the line without running or shouting. Everything finished calmly.",
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/",
+     "new": [
+      {
+       "w": "drill",
+       "vi": "buổi diễn tập"
+      },
+      {
+       "w": "instructors",
+       "vi": "người hướng dẫn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Town planning",
+     "s": "Residents say that on match days there is nowhere to park near the stadium, which means many fans leave their cars on pavements and block the roads. What does \"there is nowhere to park\" mean?",
+     "o": [
+      "không có vé",
+      "không có chỗ đậu xe",
+      "không có đường đi"
+     ],
+     "a": "không có chỗ đậu xe",
+     "vi": "Cư dân nói rằng vào ngày có trận, gần sân vận động không có chỗ đậu xe, nghĩa là nhiều cổ động viên để xe trên vỉa hè và chặn đường.",
+     "why": "there is nowhere to park = không có chỗ nào để đậu xe; nowhere + to V.",
+     "noblank": true,
+     "say": "Residents say that on match days there is nowhere to park near the stadium, which means many fans leave their cars on pavements and block the roads.",
+     "tw": "there is nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/",
+     "new": [
+      {
+       "w": "pavements",
+       "vi": "vỉa hè"
+      },
+      {
+       "w": "block",
+       "vi": "chặn"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Countryside",
+     "s": "Golden fields of wheat stretched to the horizon, and the farmer explained that the grain would be ground into flour at the mill in September. What does \"wheat\" mean?",
+     "o": [
+      "lúa mì",
+      "lúa nước",
+      "ngô"
+     ],
+     "a": "lúa mì",
+     "vi": "Những cánh đồng lúa mì vàng trải đến chân trời, và người nông dân giải thích hạt sẽ được xay thành bột ở nhà máy vào tháng Chín.",
+     "why": "wheat = lúa mì, ngũ cốc dùng làm bột mì và bánh mì.",
+     "noblank": true,
+     "say": "Golden fields of wheat stretched to the horizon, and the farmer explained that the grain would be ground into flour at the mill in September.",
+     "tw": "wheat",
+     "ipa": "/wiːt/",
+     "new": [
+      {
+       "w": "horizon",
+       "vi": "chân trời"
+      },
+      {
+       "w": "mill",
+       "vi": "nhà máy xay"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Hiking blog",
+     "s": "We planned to reach the summit by noon, but the path was steeper than expected, so we kept climbing until sunset and camped on the ridge. What does \"until sunset\" mean?",
+     "o": [
+      "từ lúc mặt trời mọc",
+      "trong suốt buổi trưa",
+      "cho đến khi mặt trời lặn"
+     ],
+     "a": "cho đến khi mặt trời lặn",
+     "vi": "Chúng tôi định lên đỉnh trước trưa, nhưng đường dốc hơn dự kiến nên tiếp tục leo đến khi mặt trời lặn rồi cắm trại trên sườn núi.",
+     "why": "until sunset = cho đến lúc mặt trời lặn.",
+     "noblank": true,
+     "say": "We planned to reach the summit by noon, but the path was steeper than expected, so we kept climbing until sunset and camped on the ridge.",
+     "tw": "until sunset",
+     "ipa": "/ənˈtɪl ˈsʌn.set/",
+     "new": [
+      {
+       "w": "summit",
+       "vi": "đỉnh núi"
+      },
+      {
+       "w": "ridge",
+       "vi": "sống núi"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Job advert",
+     "s": "Apart from a competitive salary, the company offers free training and flexible hours, which makes the position attractive to recent graduates. What does \"apart from\" mean?",
+     "o": [
+      "trước khi",
+      "ngoài ra, bên cạnh",
+      "thay vì"
+     ],
+     "a": "ngoài ra, bên cạnh",
+     "vi": "Ngoài mức lương cạnh tranh, công ty còn đào tạo miễn phí và giờ làm linh hoạt, điều khiến vị trí hấp dẫn với sinh viên mới ra trường.",
+     "why": "apart from + N/V-ing = ngoài ra, ngoại trừ (= besides/except).",
+     "noblank": true,
+     "say": "Apart from a competitive salary, the company offers free training and flexible hours, which makes the position attractive to recent graduates.",
+     "tw": "apart from",
+     "ipa": "/əˈpɑːt frəm/",
+     "new": [
+      {
+       "w": "competitive",
+       "vi": "cạnh tranh"
+      },
+      {
+       "w": "flexible",
+       "vi": "linh hoạt"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Business news",
+     "s": "The online sale, which lasted only three days, helped to boost sales by almost forty percent, according to the retailer's annual report. What does \"boost sales\" mean?",
+     "o": [
+      "thúc đẩy doanh số",
+      "giảm doanh số",
+      "kiểm tra doanh số"
+     ],
+     "a": "thúc đẩy doanh số",
+     "vi": "Đợt giảm giá trực tuyến, chỉ kéo dài ba ngày, đã giúp thúc đẩy doanh số gần bốn mươi phần trăm, theo báo cáo thường niên của nhà bán lẻ.",
+     "why": "boost sales = thúc đẩy, làm tăng doanh số bán hàng. (Sheet ghi 'boots sales' là lỗi gõ, suy ra 'boost sales'.)",
+     "noblank": true,
+     "say": "The online sale, which lasted only three days, helped to boost sales by almost forty percent, according to the retailer's annual report.",
+     "tw": "boost sales",
+     "new": [
+      {
+       "w": "retailer",
+       "vi": "nhà bán lẻ"
+      },
+      {
+       "w": "annual",
+       "vi": "thường niên"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Economics lesson",
+     "s": "Companies can increase revenue either by selling more products or by charging higher prices, although the second approach may drive customers away. What does \"increase revenue\" mean?",
+     "o": [
+      "giảm chi phí",
+      "tăng nhân viên",
+      "tăng doanh thu"
+     ],
+     "a": "tăng doanh thu",
+     "vi": "Các công ty có thể tăng doanh thu bằng cách bán nhiều sản phẩm hơn hoặc tăng giá, dù cách thứ hai có thể làm khách bỏ đi.",
+     "why": "increase revenue = tăng doanh thu (tổng tiền thu được từ bán hàng/dịch vụ).",
+     "noblank": true,
+     "say": "Companies can increase revenue either by selling more products or by charging higher prices, although the second approach may drive customers away.",
+     "tw": "increase revenue",
+     "ipa": "/ˈrevənuː/",
+     "new": [
+      {
+       "w": "approach",
+       "vi": "cách tiếp cận"
+      },
+      {
+       "w": "drive away",
+       "vi": "đuổi đi"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Hiking guide",
+     "s": "A public footpath runs along the edge of the forest. Walkers are asked to keep dogs on leads and to close the gates behind them. What does \"footpath\" mean?",
+     "o": [
+      "đường ray tàu",
+      "lối đi bộ",
+      "đường cao tốc"
+     ],
+     "a": "lối đi bộ",
+     "vi": "Một lối đi bộ công cộng chạy dọc bìa rừng. Người đi bộ được yêu cầu dắt chó có dây và đóng cổng sau lưng.",
+     "why": "footpath = lối đi bộ, đường mòn dành cho người đi bộ (ở ngoại ô, làng quê).",
+     "noblank": true,
+     "say": "A public footpath runs along the edge of the forest. Walkers are asked to keep dogs on leads and to close the gates behind them.",
+     "tw": "footpath",
+     "ipa": "/ˈfʊt.pɑːθ/",
+     "new": [
+      {
+       "w": "leads",
+       "vi": "dây dắt chó"
+      },
+      {
+       "w": "gates",
+       "vi": "cánh cổng"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel tips",
+     "s": "Take a second set of keys with you in case you lose the first one. Otherwise you may be locked out and have to call an expensive locksmith. What does \"in case\" mean?",
+     "o": [
+      "phòng khi",
+      "miễn là",
+      "mặc dù"
+     ],
+     "a": "phòng khi",
+     "vi": "Hãy mang bộ chìa khóa thứ hai phòng khi bạn làm mất bộ đầu tiên. Nếu không bạn có thể bị khóa ngoài và phải gọi thợ khóa đắt tiền.",
+     "why": "in case + mệnh đề = phòng khi (điều gì xảy ra); khác với if.",
+     "noblank": true,
+     "say": "Take a second set of keys with you in case you lose the first one. Otherwise you may be locked out and have to call an expensive locksmith.",
+     "tw": "in case",
+     "new": [
+      {
+       "w": "locksmith",
+       "vi": "thợ khóa"
+      },
+      {
+       "w": "locked out",
+       "vi": "bị khóa ở ngoài"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Rental rules",
+     "s": "You may keep a pet in the flat, provided that it does not disturb the neighbours or damage the furniture. Otherwise, the landlord can cancel the agreement. What does \"provided that\" mean?",
+     "o": [
+      "bởi vì",
+      "mặc dù",
+      "với điều kiện là"
+     ],
+     "a": "với điều kiện là",
+     "vi": "Bạn được nuôi thú cưng trong căn hộ, với điều kiện nó không làm phiền hàng xóm hay làm hỏng đồ nội thất. Nếu không, chủ nhà có thể hủy thỏa thuận.",
+     "why": "provided that + mệnh đề = với điều kiện là (trang trọng hơn as long as).",
+     "noblank": true,
+     "say": "You may keep a pet in the flat, provided that it does not disturb the neighbours or damage the furniture. Otherwise, the landlord can cancel the agreement.",
+     "tw": "provided that",
+     "new": [
+      {
+       "w": "landlord",
+       "vi": "chủ nhà"
+      },
+      {
+       "w": "disturb",
+       "vi": "làm phiền"
+      }
+     ]
+    },
+    {
+     "type": "mc",
+     "ctx": "Teacher's promise",
+     "s": "The teacher told us that we could use dictionaries during the test as long as we did not share them with others. The rule seemed fair to everybody. What does \"as long as\" mean?",
+     "o": [
+      "cho đến khi",
+      "miễn là, với điều kiện",
+      "bất kể"
+     ],
+     "a": "miễn là, với điều kiện",
+     "vi": "Giáo viên nói chúng tôi có thể dùng từ điển trong bài kiểm tra miễn là không cho người khác dùng chung. Quy định có vẻ công bằng với mọi người.",
+     "why": "as long as + mệnh đề = miễn là, với điều kiện là (thân mật hơn provided that).",
+     "noblank": true,
+     "say": "The teacher told us that we could use dictionaries during the test as long as we did not share them with others. The rule seemed fair to everybody.",
+     "tw": "as long as",
+     "new": [
+      {
+       "w": "fair",
+       "vi": "công bằng"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Nói vận dụng",
+   "note": "Bấm ghi âm và trả lời bằng tiếng Anh, cố dùng các từ gợi ý; trang sẽ chấm ước tính 4 tiêu chí.",
+   "qs": [
+    {
+     "type": "sp",
+     "ctx": "Clothes shopping",
+     "s": "Describe a time when you bought clothes that did not fit properly. What was wrong, and what did you do about it?",
+     "vi": "Hãy mô tả một lần bạn mua quần áo không vừa. Có vấn đề gì và bạn đã làm gì?",
+     "words": [
+      "fit somebody",
+      "fit well",
+      "doesn't quite fit",
+      "a bit tight",
+      "loose",
+      "suit somebody better"
+     ],
+     "why": "Kể theo thứ tự: mua gì, vì sao không vừa (chật/rộng), bạn đã thử cỡ nào, kết quả. Dùng thì quá khứ.",
+     "sample": "Last spring I bought a pair of jeans online because they looked fashionable. When they arrived, they did not fit me properly: they were a bit tight around the waist and, at the same time, quite loose at the ends of the legs. The other pair I tried at a shop fitted well, but it did not suit me better, because the colour was too light. In the end I returned the first pair, even though the shop charged a small fee. Honestly, the jacket I bought later doesn't quite fit either, so I now always try things on."
+    },
+    {
+     "type": "sp",
+     "ctx": "Fashion and colours",
+     "s": "Do you enjoy choosing clothes that match each other? Explain how you decide which colours to wear.",
+     "vi": "Bạn có thích chọn quần áo hợp nhau không? Hãy giải thích cách bạn chọn màu để mặc.",
+     "words": [
+      "match something",
+      "match perfectly",
+      "go with something",
+      "go well with",
+      "look good together"
+     ],
+     "why": "Nêu thói quen chọn đồ, ví dụ một bộ phối đồ cụ thể, và lý do bạn thích các màu trung tính.",
+     "sample": "Yes, I do, although I am not an expert. I usually start with one main item, for example a pair of dark trousers, and then I look for a shirt that will go with it. A white shirt goes well with almost everything, so I own several. Sometimes a scarf matches perfectly the colour of my bag, and that makes the whole outfit look smart. My friends say that my black boots and long grey coat look good together, so I tend to repeat that combination whenever I want to match something quickly."
+    },
+    {
+     "type": "sp",
+     "ctx": "Buying decisions",
+     "s": "Talk about the last time you decided whether to buy something expensive. What influenced your decision?",
+     "vi": "Hãy nói về lần gần nhất bạn quyết định có mua món đồ đắt tiền hay không. Điều gì ảnh hưởng quyết định?",
+     "words": [
+      "a reasonable price",
+      "the price is reasonable",
+      "I'll take it.",
+      "I'll leave it."
+     ],
+     "why": "Kể món đồ, so sánh giá với chất lượng, và nói câu bạn đã nói với người bán.",
+     "sample": "Last month I wanted a good pair of headphones for travelling. The first shop wanted far too much, so I said politely, “I'll leave it,” and walked out. In another shop, the sound was excellent and the price was reasonable, so I asked the assistant about the guarantee. Because the device was available at a reasonable price and came with a two-year warranty, I smiled and said, “I'll take it.” Since then I have used them nearly every day, and I think the decision was sensible."
+    },
+    {
+     "type": "sp",
+     "ctx": "Disappointments",
+     "s": "Tell me about a time when you were disappointed because something did not work out. How did you react?",
+     "vi": "Hãy kể về một lần bạn thất vọng vì việc không như ý. Bạn phản ứng thế nào?",
+     "words": [
+      "That's a shame.",
+      "that's a pity",
+      "It's a shame that",
+      "What a shame!"
+     ],
+     "why": "Kể sự việc, cảm xúc, và những câu tiếc nuối bạn hoặc người khác đã nói.",
+     "sample": "Last year my friends and I booked tickets for an open-air concert, but heavy rain forced the organisers to cancel it. When I heard the news, I said, “What a shame!” because we had waited for months. My brother replied, “That's a pity, but there will be other chances.” I agreed that it's a shame that outdoor events depend so much on the weather. Still, we went to a small café instead and had a nice evening, so the day was not completely wasted. Honestly, that's a shame, but life goes on."
+    },
+    {
+     "type": "sp",
+     "ctx": "Work and business",
+     "s": "How can small businesses grow successfully? Talk about strategies companies use to attract more customers.",
+     "vi": "Doanh nghiệp nhỏ có thể phát triển thành công bằng cách nào? Hãy nói về các chiến lược thu hút khách hàng.",
+     "words": [
+      "engage in",
+      "boost sales",
+      "increase revenue"
+     ],
+     "why": "Nêu 2-3 chiến lược (khuyến mãi, mạng xã hội, hoạt động cộng đồng), kèm kết quả.",
+     "sample": "I think small businesses grow when they listen to their customers. Many owners engage in social media to introduce new products cheaply. A local bakery near my house offers free samples on Saturdays to boost sales, and it works because people often buy more once they taste something. Some shops also engage in community events, which builds loyalty. If the plan is successful, the shop can increase revenue without spending a lot on advertising. Of course, quality remains important, because a clever campaign cannot save a poor product for long."
+    },
+    {
+     "type": "sp",
+     "ctx": "Health and food",
+     "s": "What can people do to protect themselves from illness when they travel or eat in unfamiliar places?",
+     "vi": "Mọi người có thể làm gì để phòng bệnh khi đi du lịch hoặc ăn ở nơi lạ?",
+     "words": [
+      "hepatitis",
+      "wheat",
+      "in case"
+     ],
+     "why": "Nêu các biện pháp (tiêm chủng, ăn chín uống sôi), dùng in case để nói việc phòng xa.",
+     "sample": "The most important thing is to prepare before you leave. Doctors usually recommend vaccination against diseases such as hepatitis, especially if you plan to eat at street stalls. I also carry bottled water and a small first-aid kit in case I become unwell. In some countries people who cannot digest wheat should check the ingredients of bread and noodles carefully, so I always ask questions in restaurants. These habits take little time, but they can save you from a very unpleasant holiday and an expensive hospital bill."
+    },
+    {
+     "type": "sp",
+     "ctx": "Countryside walk",
+     "s": "Describe a walk or trip you made in the countryside. Where did you go and what did you see?",
+     "vi": "Hãy mô tả một chuyến đi bộ hoặc đi chơi ở nông thôn. Bạn đã đi đâu và thấy gì?",
+     "words": [
+      "footpath",
+      "until sunset",
+      "apart from",
+      "wheat"
+     ],
+     "why": "Kể địa điểm, đường đi, cảnh vật, thời gian, và cảm nhận.",
+     "sample": "Last autumn I joined a group of friends for a day in the countryside. We followed a narrow footpath that crossed fields of golden wheat and finally reached a quiet river. Apart from a few farmers, we hardly met anyone. We walked slowly and took photographs until sunset, when the sky turned orange and the air became cold. It was one of the most peaceful days of my year, and I came home tired but relaxed, already planning another trip in spring."
+    },
+    {
+     "type": "sp",
+     "ctx": "City problems",
+     "s": "What problems do people face when they drive into the centre of a big city? Suggest some solutions.",
+     "vi": "Người ta gặp những vấn đề gì khi lái xe vào trung tâm thành phố lớn? Hãy đề xuất giải pháp.",
+     "words": [
+      "there is nowhere to park",
+      "pass something down the line",
+      "apart from"
+     ],
+     "why": "Nêu vấn đề (đậu xe, kẹt xe), một ví dụ, rồi giải pháp. Có thể dùng pass down the line như hình ảnh.",
+     "sample": "In my city, the biggest difficulty is that there is nowhere to park near the old centre, so drivers waste a lot of time and fuel. Apart from the traffic, the air is polluted, which affects everybody. I once saw volunteers pass boxes of food down the line for a charity event, and it reminded me that cooperation solves problems. The council could build car parks outside the centre and offer cheap buses, so that people leave their cars and arrive without stress."
+    },
+    {
+     "type": "sp",
+     "ctx": "Rules and conditions",
+     "s": "Talk about a rule or agreement that you accept only on certain conditions.",
+     "vi": "Hãy nói về một quy định hoặc thỏa thuận mà bạn chỉ chấp nhận với những điều kiện nhất định.",
+     "words": [
+      "provided that",
+      "as long as",
+      "in case"
+     ],
+     "why": "Nêu quy định (ví dụ nhà cho thuê, giờ về nhà), điều kiện bạn chấp nhận, và lý do.",
+     "sample": "When I lived in a shared flat, we had a rule about guests. Friends could stay overnight provided that they told everybody in advance. I accepted this as long as nobody made noise after eleven o'clock. We also kept a spare key under the mat in case somebody forgot theirs. The system worked quite well, because everyone understood the conditions, and we rarely argued. I think clear agreements make living together much easier."
+    },
+    {
+     "type": "sp",
+     "ctx": "Online and in-store shopping",
+     "s": "Some people prefer online shopping while others like going to shops. Which do you prefer, and why?",
+     "vi": "Có người thích mua sắm online, người khác thích đến cửa hàng. Bạn thích cách nào và vì sao?",
+     "words": [
+      "fit somebody",
+      "a reasonable price",
+      "increase revenue",
+      "boost sales",
+      "match something",
+      "I'll leave it."
+     ],
+     "why": "Nêu quan điểm, so sánh ưu nhược (thử đồ, giá, tiện lợi), và nói về tác động tới cửa hàng.",
+     "sample": "I prefer going to shops for clothes, because I can check whether something will fit me before paying. Online shopping is convenient, but colours rarely match the photos, and returning goods is annoying. Sometimes online prices are lower, yet in a shop I can find a reasonable price during a sale, and if the item is too expensive I can simply say, “I'll leave it.” Retailers want to boost sales online to increase revenue, but I believe good service in real shops will always keep customers like me."
+    }
+   ]
+  }
+ ]
+}
