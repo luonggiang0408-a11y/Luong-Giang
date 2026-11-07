@@ -1,0 +1,4182 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 2026.11.08",
+  "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 08/11/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 62 từ. Mỗi từ làm 1 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (186 câu), sau đó là 10 câu nói vận dụng có ghi âm và chấm theo 4 tiêu chí IELTS Speaking, mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.11.08-v6",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma202611081"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "Gõ từ hoặc cụm còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "Village life",
+     "s": "After her husband died in a road accident, Mrs. Lan became a ___ and had to run the family farm on her own.",
+     "acc": [
+      "widow"
+     ],
+     "vi": "Sau khi chồng mất trong một vụ tai nạn giao thông, bà Lan trở thành góa phụ và phải một mình điều hành trang trại của gia đình.",
+     "why": "widow (n) = góa phụ, phụ nữ có chồng đã mất.",
+     "hint": "Nghĩa: Góa phụ, người phụ nữ có chồng đã qua đời",
+     "new": [
+      {
+       "w": "run",
+       "vi": "điều hành, quản lý"
+      }
+     ],
+     "tw": "widow",
+     "ipa": "/ˈwɪd.oʊ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Office teamwork",
+     "s": "Our new manager is easy to talk to, so most of the team ___ her and enjoy working on her projects.",
+     "acc": [
+      "get on well with",
+      "gets on well with",
+      "got on well with"
+     ],
+     "vi": "Quản lý mới của chúng tôi dễ trò chuyện nên hầu hết cả nhóm hòa thuận với cô ấy và thích làm các dự án của cô.",
+     "why": "get on well with sb = hòa thuận với ai; theo sau là người.",
+     "hint": "Nghĩa: Hòa thuận, có mối quan hệ tốt với ai",
+     "new": [
+      {
+       "w": "projects",
+       "vi": "dự án"
+      }
+     ],
+     "tw": "get on well with"
+    },
+    {
+     "type": "tx",
+     "ctx": "Life story",
+     "s": "My parents ___ in a small village ceremony in 1998, and the whole neighbourhood helped to prepare the food.",
+     "acc": [
+      "got married",
+      "married"
+     ],
+     "vi": "Bố mẹ tôi kết hôn trong một buổi lễ nhỏ ở làng năm 1998 và cả xóm cùng giúp chuẩn bị đồ ăn.",
+     "why": "got married = đã kết hôn (hành động, quá khứ); get married = kết hôn.",
+     "hint": "Nghĩa: Đã kết hôn, đã lập gia đình",
+     "new": [
+      {
+       "w": "ceremony",
+       "vi": "buổi lễ"
+      }
+     ],
+     "tw": "got married"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family decision",
+     "s": "After five years of dating, Minh finally decided to ___ his girlfriend, who had supported him through every difficult period at work.",
+     "acc": [
+      "get married to"
+     ],
+     "vi": "Sau năm năm hẹn hò, Minh cuối cùng quyết định kết hôn với bạn gái, người đã ủng hộ anh qua mọi giai đoạn khó khăn trong công việc.",
+     "why": "get married to sb = kết hôn với ai (có giới từ to).",
+     "hint": "Nghĩa: Kết hôn với ai",
+     "new": [
+      {
+       "w": "dating",
+       "vi": "hẹn hò"
+      },
+      {
+       "w": "period",
+       "vi": "giai đoạn"
+      }
+     ],
+     "tw": "get married to"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family history",
+     "s": "My grandmother ___ my grandfather when she was only twenty, and they ran a small bakery together for almost fifty years.",
+     "acc": [
+      "married",
+      "marry",
+      "marries"
+     ],
+     "vi": "Bà tôi lấy ông khi mới hai mươi tuổi và hai người cùng điều hành một tiệm bánh nhỏ gần năm mươi năm.",
+     "why": "marry sb = cưới ai (không dùng to/with); married sb là dạng quá khứ.",
+     "hint": "Nghĩa: Đã cưới ai, đã kết hôn với ai (không có giới từ)",
+     "new": [
+      {
+       "w": "bakery",
+       "vi": "tiệm bánh"
+      }
+     ],
+     "tw": "marry"
+    },
+    {
+     "type": "tx",
+     "ctx": "Career advice",
+     "s": "You don't need a famous company to ___, as long as you choose a stable job and keep improving your skills every year.",
+     "acc": [
+      "earn a reasonable amount of money"
+     ],
+     "vi": "Bạn không cần một công ty nổi tiếng để kiếm được khoản tiền khá ổn, miễn là chọn một công việc ổn định và cải thiện kỹ năng mỗi năm.",
+     "why": "earn a reasonable amount of money = kiếm được mức tiền khá, đủ sống.",
+     "hint": "Nghĩa: Kiếm được một khoản tiền khá ổn",
+     "new": [
+      {
+       "w": "stable",
+       "vi": "ổn định"
+      }
+     ],
+     "tw": "earn a reasonable amount of money",
+     "ipa": "/ˈriː.zən.ə.bəl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "At work",
+     "s": "You've been very quiet since lunch and you keep rubbing your forehead. ___ Do you want me to call the nurse?",
+     "acc": [
+      "What's the matter?",
+      "What is the matter?",
+      "What's the matter",
+      "What is the matter"
+     ],
+     "vi": "Bạn im lặng từ bữa trưa và cứ xoa trán. Có chuyện gì vậy? Bạn có muốn tôi gọi y tá không?",
+     "why": "What's the matter? = có chuyện gì vậy? (hỏi khi thấy ai buồn/ốm).",
+     "hint": "Nghĩa: Có chuyện gì vậy? / Bạn bị sao vậy?",
+     "new": [
+      {
+       "w": "forehead",
+       "vi": "trán"
+      },
+      {
+       "w": "rubbing",
+       "vi": "xoa"
+      }
+     ],
+     "tw": "What's the matter?"
+    },
+    {
+     "type": "tx",
+     "ctx": "At the chemist",
+     "s": "The pharmacist recommended some ___ because my throat was sore and I had been coughing all night.",
+     "acc": [
+      "cough medicine"
+     ],
+     "vi": "Dược sĩ gợi ý một ít thuốc ho vì cổ họng tôi đau và tôi đã ho suốt đêm.",
+     "why": "cough medicine = thuốc ho (danh từ ghép, không đếm được).",
+     "hint": "Nghĩa: Thuốc ho",
+     "new": [
+      {
+       "w": "pharmacist",
+       "vi": "dược sĩ"
+      },
+      {
+       "w": "sore",
+       "vi": "đau rát"
+      }
+     ],
+     "tw": "cough medicine",
+     "ipa": "/kɑːf/ /ˈmed.ɪ.sən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Doctor's advice",
+     "s": "The doctor told Mr. Hung to take one ___ after breakfast and another before bed, and not to stop even if he felt better.",
+     "acc": [
+      "pill",
+      "pills"
+     ],
+     "vi": "Bác sĩ dặn ông Hưng uống một viên thuốc sau bữa sáng và một viên trước khi ngủ, và không ngừng dù cảm thấy khỏe hơn.",
+     "why": "pill (n) = viên thuốc; take a pill = uống một viên thuốc.",
+     "hint": "Nghĩa: Viên thuốc",
+     "new": [
+      {
+       "w": "stop",
+       "vi": "dừng"
+      }
+     ],
+     "tw": "pill",
+     "ipa": "/pɪl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Gym session",
+     "s": "After lifting heavy boxes all morning, Tom started to ___ his lower back, so he decided to rest for the afternoon.",
+     "acc": [
+      "have a pain in",
+      "has a pain in",
+      "had a pain in"
+     ],
+     "vi": "Sau khi bê các thùng nặng cả buổi sáng, Tom bắt đầu bị đau ở lưng dưới nên quyết định nghỉ buổi chiều.",
+     "why": "have a pain in + bộ phận cơ thể = bị đau ở đâu.",
+     "hint": "Nghĩa: Bị đau ở… (bộ phận cơ thể)",
+     "new": [
+      {
+       "w": "lower back",
+       "vi": "lưng dưới"
+      }
+     ],
+     "tw": "have a pain in"
+    },
+    {
+     "type": "tx",
+     "ctx": "Health news",
+     "s": "Early screening helps doctors discover a ___ before the patient notices any symptoms, which greatly improves the chance of recovery.",
+     "acc": [
+      "serious illness",
+      "serious illnesses"
+     ],
+     "vi": "Tầm soát sớm giúp bác sĩ phát hiện bệnh nghiêm trọng trước khi bệnh nhân nhận ra triệu chứng, nhờ đó tăng nhiều cơ hội hồi phục.",
+     "why": "serious illness = bệnh nặng, nghiêm trọng.",
+     "hint": "Nghĩa: Bệnh nghiêm trọng",
+     "new": [
+      {
+       "w": "screening",
+       "vi": "tầm soát"
+      },
+      {
+       "w": "symptoms",
+       "vi": "triệu chứng"
+      }
+     ],
+     "tw": "serious illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Hospital waiting room",
+     "s": "Mr. Hung's knee was badly damaged in a skiing accident, so he needed an ___ before he could walk normally again.",
+     "acc": [
+      "operation"
+     ],
+     "vi": "Đầu gối ông Hưng bị tổn thương nặng trong tai nạn trượt tuyết nên ông cần một ca phẫu thuật trước khi đi lại bình thường.",
+     "why": "operation (n) = ca phẫu thuật (đếm được: an operation).",
+     "hint": "Nghĩa: Ca phẫu thuật",
+     "new": [
+      {
+       "w": "damaged",
+       "vi": "bị tổn thương"
+      }
+     ],
+     "tw": "operation",
+     "ipa": "/ˌɑː.pəˈreɪ.ʃən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Hospital",
+     "s": "The ___ spent an hour explaining the risks to the patient before he asked her to sign the consent form.",
+     "acc": [
+      "surgeon"
+     ],
+     "vi": "Bác sĩ phẫu thuật dành một giờ giải thích rủi ro cho bệnh nhân trước khi nhờ cô ký giấy đồng ý.",
+     "why": "surgeon (n) = bác sĩ phẫu thuật.",
+     "hint": "Nghĩa: Bác sĩ phẫu thuật",
+     "new": [
+      {
+       "w": "risks",
+       "vi": "rủi ro"
+      },
+      {
+       "w": "consent form",
+       "vi": "giấy đồng ý"
+      }
+     ],
+     "tw": "surgeon",
+     "ipa": "/ˈsɝː.dʒən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Recovery",
+     "s": "The athlete had to have ___ on his shoulder, which means he will not be able to compete for at least six months.",
+     "acc": [
+      "surgery"
+     ],
+     "vi": "Vận động viên phải phẫu thuật vai, nghĩa là anh sẽ không thể thi đấu ít nhất sáu tháng.",
+     "why": "surgery (n, không đếm được) = phẫu thuật; have surgery = được phẫu thuật.",
+     "hint": "Nghĩa: Phẫu thuật (không đếm được)",
+     "new": [
+      {
+       "w": "compete",
+       "vi": "thi đấu"
+      }
+     ],
+     "tw": "surgery",
+     "ipa": "/ˈsɝː.dʒər.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Public health",
+     "s": "Heart ___ remains one of the main causes of death in many countries, mainly because of unhealthy diets and a lack of exercise.",
+     "acc": [
+      "disease"
+     ],
+     "vi": "Bệnh tim vẫn là một trong những nguyên nhân tử vong chính ở nhiều nước, chủ yếu do chế độ ăn thiếu lành mạnh và ít vận động.",
+     "why": "disease (n) = bệnh (thường là bệnh cụ thể: heart disease).",
+     "hint": "Nghĩa: Bệnh, bệnh lý",
+     "new": [
+      {
+       "w": "diets",
+       "vi": "chế độ ăn"
+      }
+     ],
+     "tw": "disease",
+     "ipa": "/dɪˈziːz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Office email",
+     "s": "Please accept my apologies for missing the meeting. I was away for a week because of a short ___, but I'm now ready to return.",
+     "acc": [
+      "illness"
+     ],
+     "vi": "Xin thứ lỗi vì tôi vắng cuộc họp. Tôi nghỉ một tuần vì một đợt ốm ngắn nhưng bây giờ đã sẵn sàng đi làm lại.",
+     "why": "illness (n) = tình trạng ốm, bệnh tật (không nêu tên bệnh).",
+     "hint": "Nghĩa: Tình trạng ốm đau, bệnh tật",
+     "new": [
+      {
+       "w": "apologies",
+       "vi": "lời xin lỗi"
+      }
+     ],
+     "tw": "illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Medical team",
+     "s": "The nurses ___ patients with burns every day, and they must work quickly because even a small mistake can cause infection.",
+     "acc": [
+      "treat",
+      "treated",
+      "treats"
+     ],
+     "vi": "Các y tá điều trị bệnh nhân bị bỏng mỗi ngày và họ phải làm nhanh vì một sai sót nhỏ cũng có thể gây nhiễm trùng.",
+     "why": "treat sb for sth = điều trị cho ai vì bệnh gì.",
+     "hint": "Nghĩa: Điều trị (động từ)",
+     "new": [
+      {
+       "w": "burns",
+       "vi": "vết bỏng"
+      },
+      {
+       "w": "infection",
+       "vi": "nhiễm trùng"
+      }
+     ],
+     "tw": "treat",
+     "ipa": "/triːt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Cancer ward",
+     "s": "She will begin a new ___ next week, and the doctors are hopeful because the first tests showed that the tumour is getting smaller.",
+     "acc": [
+      "treatment"
+     ],
+     "vi": "Tuần sau cô bắt đầu một đợt điều trị mới và bác sĩ rất hy vọng vì các xét nghiệm đầu cho thấy khối u đang nhỏ lại.",
+     "why": "treatment (n) = sự điều trị, liệu pháp.",
+     "hint": "Nghĩa: Phương pháp điều trị, sự điều trị",
+     "new": [
+      {
+       "w": "tumour",
+       "vi": "khối u"
+      }
+     ],
+     "tw": "treatment",
+     "ipa": "/ˈtriːt.mənt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Health talk",
+     "s": "Drinking too much alcohol over many years can seriously damage the ___, which is the organ that cleans your blood.",
+     "acc": [
+      "liver"
+     ],
+     "vi": "Uống quá nhiều rượu trong nhiều năm có thể gây hại nghiêm trọng cho gan, cơ quan làm sạch máu của bạn.",
+     "why": "liver (n) = gan (cơ quan trong cơ thể).",
+     "hint": "Nghĩa: Gan",
+     "new": [
+      {
+       "w": "alcohol",
+       "vi": "rượu bia"
+      },
+      {
+       "w": "organ",
+       "vi": "cơ quan"
+      }
+     ],
+     "tw": "liver",
+     "ipa": "/ˈlɪv.ɚ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Car showroom",
+     "s": "Tuan spent ___ on his new sports car, which surprised his friends because he used to complain about prices all the time.",
+     "acc": [
+      "a potload of money"
+     ],
+     "vi": "Tuấn đã chi cả đống tiền cho chiếc xe thể thao mới, điều làm bạn bè ngạc nhiên vì trước đây anh hay phàn nàn về giá cả.",
+     "why": "a potload of money = rất nhiều tiền (thân mật, văn nói).",
+     "hint": "Nghĩa: Rất nhiều tiền, cả đống tiền (văn nói)",
+     "new": [
+      {
+       "w": "complain",
+       "vi": "phàn nàn"
+      }
+     ],
+     "tw": "a potload of money",
+     "ipa": "/ə ˈpɒt.ləʊd əv ˈmʌn.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Campus trends",
+     "s": "Wide-leg jeans seem to ___ again this year, so I've noticed more students wearing them around my university.",
+     "acc": [
+      "be in fashion",
+      "are in fashion",
+      "is in fashion"
+     ],
+     "vi": "Quần jean ống rộng dường như lại đang thịnh hành năm nay nên tôi thấy nhiều sinh viên mặc chúng quanh trường đại học.",
+     "why": "be in fashion = đang thịnh hành, đang là mốt.",
+     "hint": "Nghĩa: Đang thịnh hành",
+     "new": [
+      {
+       "w": "wide-leg",
+       "vi": "ống rộng"
+      }
+     ],
+     "tw": "be in fashion",
+     "ipa": "/biː ɪn ˈfæʃ.ən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Style advice",
+     "s": "You don't necessarily have to buy expensive clothes to ___; sometimes you just need to choose colours that go well together.",
+     "acc": [
+      "look fashionable"
+     ],
+     "vi": "Bạn không nhất thiết phải mua quần áo đắt tiền để trông thời trang; đôi khi chỉ cần chọn những màu hợp nhau.",
+     "why": "look fashionable = trông hợp mốt, thời trang.",
+     "hint": "Nghĩa: Trông thời trang",
+     "new": [
+      {
+       "w": "necessarily",
+       "vi": "nhất thiết"
+      }
+     ],
+     "tw": "look fashionable",
+     "ipa": "/ˈfæʃ.ən.ə.bəl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Money talk",
+     "s": "Some of my friends spend a lot of money on ___, but I'd rather buy affordable clothes and save the rest.",
+     "acc": [
+      "designer labels"
+     ],
+     "vi": "Một số bạn tôi chi nhiều tiền cho hàng hiệu nhưng tôi thích mua quần áo giá phải chăng và để dành phần còn lại.",
+     "why": "designer labels = hàng hiệu của nhà thiết kế.",
+     "hint": "Nghĩa: Các thương hiệu thời trang thiết kế",
+     "new": [
+      {
+       "w": "affordable",
+       "vi": "giá phải chăng"
+      }
+     ],
+     "tw": "designer labels",
+     "ipa": "/dɪˈzaɪ.nɚ ˌleɪ.bəlz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Workplace",
+     "s": "Because our company doesn't have a strict dress code, I normally ___ casual clothes unless I have an important meeting.",
+     "acc": [
+      "dress in",
+      "dresses in",
+      "dressed in"
+     ],
+     "vi": "Vì công ty không có quy định trang phục nghiêm ngặt nên tôi thường mặc đồ thoải mái trừ khi có cuộc họp quan trọng.",
+     "why": "dress in + quần áo/màu = mặc loại/màu nào đó.",
+     "hint": "Nghĩa: Mặc loại quần áo / màu nào đó",
+     "new": [
+      {
+       "w": "dress code",
+       "vi": "quy định trang phục"
+      }
+     ],
+     "tw": "dress in",
+     "ipa": "/dres ɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Weekend plans",
+     "s": "I usually ___ when I go out with friends, but I prefer something smarter for family events.",
+     "acc": [
+      "dress casually",
+      "dressed casually"
+     ],
+     "vi": "Tôi thường ăn mặc thoải mái khi đi chơi với bạn nhưng thích đồ lịch sự hơn cho các sự kiện gia đình.",
+     "why": "dress casually = ăn mặc thoải mái, không trang trọng.",
+     "hint": "Nghĩa: Ăn mặc thoải mái",
+     "new": [
+      {
+       "w": "smarter",
+       "vi": "lịch sự, chỉn chu hơn"
+      }
+     ],
+     "tw": "dress casually",
+     "ipa": "/dres ˈkæʒ.u.ə.li/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family chat",
+     "s": "My younger brother likes to ___ because he enjoys keeping up with what his friends are wearing.",
+     "acc": [
+      "wear fashionable clothes",
+      "wears fashionable clothes"
+     ],
+     "vi": "Em trai tôi thích mặc quần áo thời trang vì cậu thích theo kịp những gì bạn bè đang mặc.",
+     "why": "wear fashionable clothes = mặc quần áo hợp mốt.",
+     "hint": "Nghĩa: Mặc quần áo thời trang",
+     "new": [
+      {
+       "w": "keeping up with",
+       "vi": "theo kịp"
+      }
+     ],
+     "tw": "wear fashionable clothes",
+     "ipa": "/wer/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Shopping",
+     "s": "I like both the shirt and the trousers, but I probably wouldn't ___ because the colours are too bright.",
+     "acc": [
+      "wear them at the same time"
+     ],
+     "vi": "Tôi thích cả áo lẫn quần nhưng có lẽ sẽ không mặc chúng cùng lúc vì màu quá chói.",
+     "why": "wear (two things) at the same time = mặc cùng lúc hai món.",
+     "hint": "Nghĩa: Mặc các món cùng lúc",
+     "new": [
+      {
+       "w": "bright",
+       "vi": "chói, sặc sỡ"
+      }
+     ],
+     "tw": "wear them at the same time"
+    },
+    {
+     "type": "tx",
+     "ctx": "Budget rules",
+     "s": "To save money, I ___ they are cheap. I first check whether they fit me and whether I will wear them often.",
+     "acc": [
+      "never buy clothes just because"
+     ],
+     "vi": "Để tiết kiệm tiền, tôi không bao giờ mua quần áo chỉ vì chúng rẻ. Trước tiên tôi kiểm tra xem chúng có vừa không và có hay mặc không.",
+     "why": "never buy clothes just because + mệnh đề = không bao giờ mua đồ chỉ vì lý do đó.",
+     "hint": "Nghĩa: Không bao giờ mua quần áo chỉ vì…",
+     "new": [
+      {
+       "w": "check",
+       "vi": "kiểm tra"
+      }
+     ],
+     "tw": "never buy clothes just because"
+    },
+    {
+     "type": "tx",
+     "ctx": "Wardrobe",
+     "s": "I bought this jacket for a wedding last year, but I ___ it now because it's too formal for everyday situations.",
+     "acc": [
+      "hardly ever wear"
+     ],
+     "vi": "Tôi mua chiếc áo khoác này cho một đám cưới năm ngoái nhưng giờ hầu như không mặc vì nó quá trang trọng cho tình huống hằng ngày.",
+     "why": "hardly ever + V = hầu như không bao giờ.",
+     "hint": "Nghĩa: Hầu như không bao giờ mặc",
+     "new": [
+      {
+       "w": "formal",
+       "vi": "trang trọng"
+      }
+     ],
+     "tw": "hardly ever wear"
+    },
+    {
+     "type": "tx",
+     "ctx": "Phone call",
+     "s": "I'm standing near the entrance, and ___ a blue jacket and a red scarf, so you should be able to recognise me easily.",
+     "acc": [
+      "I’ve got on",
+      "I've got on"
+     ],
+     "vi": "Tôi đang đứng gần lối vào và đang mặc áo khoác xanh cùng khăn đỏ nên bạn sẽ dễ nhận ra tôi.",
+     "why": "I’ve got on + quần áo = tôi đang mặc.",
+     "hint": "Nghĩa: Tôi đang mặc / đang có trên người",
+     "new": [
+      {
+       "w": "recognise",
+       "vi": "nhận ra"
+      }
+     ],
+     "tw": "I’ve got on"
+    },
+    {
+     "type": "tx",
+     "ctx": "Habits",
+     "s": "I usually ___ every few months, rather than buying something new every week, because I prefer to build a small, practical wardrobe.",
+     "acc": [
+      "shop for clothes",
+      "shops for clothes"
+     ],
+     "vi": "Tôi thường đi mua quần áo vài tháng một lần chứ không mua đồ mới mỗi tuần vì tôi thích có tủ đồ nhỏ và thực dụng.",
+     "why": "shop for + vật = đi mua sắm món gì.",
+     "hint": "Nghĩa: Đi mua quần áo",
+     "new": [
+      {
+       "w": "practical",
+       "vi": "thực dụng"
+      },
+      {
+       "w": "wardrobe",
+       "vi": "tủ quần áo"
+      }
+     ],
+     "tw": "shop for clothes",
+     "ipa": "/ʃɑːp fər kloʊðz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Weekend",
+     "s": "Last weekend, I decided to ___ because I needed something formal for a family event, and my old suit no longer fits.",
+     "acc": [
+      "go shopping for clothes",
+      "went shopping for clothes"
+     ],
+     "vi": "Cuối tuần trước tôi đi mua quần áo vì cần đồ trang trọng cho sự kiện gia đình và bộ vest cũ không còn vừa.",
+     "why": "go shopping for clothes = đi mua sắm quần áo (một buổi).",
+     "hint": "Nghĩa: Đi mua quần áo",
+     "new": [
+      {
+       "w": "fits",
+       "vi": "vừa"
+      }
+     ],
+     "tw": "go shopping for clothes"
+    },
+    {
+     "type": "tx",
+     "ctx": "Clothes shop",
+     "s": "I couldn't find my size, so I asked a ___ to check whether they had another one in the storeroom.",
+     "acc": [
+      "shop assistant"
+     ],
+     "vi": "Tôi không tìm thấy cỡ của mình nên nhờ nhân viên bán hàng kiểm tra xem trong kho còn cái khác không.",
+     "why": "shop assistant = nhân viên bán hàng.",
+     "hint": "Nghĩa: Nhân viên bán hàng",
+     "new": [
+      {
+       "w": "storeroom",
+       "vi": "phòng kho"
+      }
+     ],
+     "tw": "shop assistant",
+     "ipa": "/ˈʃɑːp əˌsɪs.tənt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Busy shop",
+     "s": "The assistant couldn't help me immediately because she was busy trying to ___ at the other counter.",
+     "acc": [
+      "serve a customer",
+      "serving a customer"
+     ],
+     "vi": "Cô nhân viên không thể giúp tôi ngay vì đang bận phục vụ một khách ở quầy bên kia.",
+     "why": "serve a customer = phục vụ, tiếp khách mua hàng.",
+     "hint": "Nghĩa: Phục vụ khách hàng",
+     "new": [
+      {
+       "w": "counter",
+       "vi": "quầy"
+      }
+     ],
+     "tw": "serve a customer",
+     "ipa": "/sɝːv/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Counter",
+     "s": "When another assistant offered to help me, I said, “Thanks, but I'm already ___ by your colleague.”",
+     "acc": [
+      "being served",
+      "be served",
+      "been served",
+      "served"
+     ],
+     "vi": "Khi một nhân viên khác ngỏ ý giúp tôi, tôi nói: “Cảm ơn, nhưng đồng nghiệp của bạn đang phục vụ tôi rồi.”",
+     "why": "be served = đang được nhân viên phục vụ, tiếp.",
+     "hint": "Nghĩa: Đang / được phục vụ",
+     "new": [
+      {
+       "w": "colleague",
+       "vi": "đồng nghiệp"
+      }
+     ],
+     "tw": "be served"
+    },
+    {
+     "type": "tx",
+     "ctx": "Clothes shop",
+     "s": "A shop assistant noticed that I had been looking around for a while and asked, “Do you ___?”",
+     "acc": [
+      "need any help"
+     ],
+     "vi": "Một nhân viên bán hàng để ý thấy tôi đã nhìn quanh một lúc và hỏi: “Bạn có cần giúp gì không?”",
+     "why": "Do you need any help? = bạn có cần giúp gì không?",
+     "hint": "Nghĩa: Cần giúp đỡ",
+     "new": [
+      {
+       "w": "noticed",
+       "vi": "để ý thấy"
+      }
+     ],
+     "tw": "need any help",
+     "ipa": "/niːd ˈen.i help/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Shoe shop",
+     "s": "I'm ___ a new pair of shoes because the ones I normally wear to work are getting quite old.",
+     "acc": [
+      "looking for"
+     ],
+     "vi": "Tôi đang tìm một đôi giày mới vì đôi tôi thường đi làm đã khá cũ.",
+     "why": "look for sth = tìm cái gì.",
+     "hint": "Nghĩa: Tìm kiếm",
+     "new": [
+      {
+       "w": "pair",
+       "vi": "đôi"
+      }
+     ],
+     "tw": "look for",
+     "ipa": "/lʊk fɔːr/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Fitting",
+     "s": "This jacket is a little tight, so I'm going to ___ before I decide whether to buy it.",
+     "acc": [
+      "look for a bigger size"
+     ],
+     "vi": "Chiếc áo khoác này hơi chật nên tôi sẽ tìm cỡ lớn hơn trước khi quyết định có mua không.",
+     "why": "look for a bigger size = đi tìm cỡ lớn hơn.",
+     "hint": "Nghĩa: Tìm cỡ lớn hơn",
+     "new": [
+      {
+       "w": "tight",
+       "vi": "chật"
+      }
+     ],
+     "tw": "look for a bigger size"
+    },
+    {
+     "type": "tx",
+     "ctx": "Department store",
+     "s": "I'd picked out three shirts, so I asked the assistant where the ___ was before deciding which one to buy.",
+     "acc": [
+      "changing room",
+      "changing rooms"
+     ],
+     "vi": "Tôi chọn ra ba chiếc áo sơ mi nên hỏi nhân viên phòng thử đồ ở đâu trước khi quyết định mua cái nào.",
+     "why": "changing room = phòng thay/thử đồ trong cửa hàng.",
+     "hint": "Nghĩa: Phòng thử đồ",
+     "new": [
+      {
+       "w": "picked out",
+       "vi": "chọn ra"
+      }
+     ],
+     "tw": "changing room",
+     "ipa": "/ˈtʃeɪn.dʒɪŋ ruːm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Shop dialogue",
+     "s": "“Can I try these trousers on?” — “Of course. ___, next to the shoes.”",
+     "acc": [
+      "The changing rooms are over there",
+      "the changing rooms are over there"
+     ],
+     "vi": "“Tôi thử mấy chiếc quần này được không?” — “Dĩ nhiên. Phòng thử đồ ở đằng kia, cạnh khu giày.”",
+     "why": "The changing rooms are over there = phòng thử đồ ở đằng kia (chỉ đường).",
+     "hint": "Nghĩa: Phòng thử đồ ở đằng kia",
+     "tw": "The changing rooms are over there"
+    },
+    {
+     "type": "tx",
+     "ctx": "Shopping habits",
+     "s": "I don't usually buy clothes in a hurry because I prefer to ___ and see how they look first.",
+     "acc": [
+      "try on clothes",
+      "try them on"
+     ],
+     "vi": "Tôi thường không mua quần áo vội vì thích thử xem chúng trông thế nào trước.",
+     "why": "try on clothes = mặc thử quần áo trước khi mua.",
+     "hint": "Nghĩa: Thử quần áo",
+     "tw": "try on clothes",
+     "ipa": "/traɪ ɑːn kloʊðz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Fitting",
+     "s": "I'm not sure whether this colour will suit me, so I'd like to ___ first and look in the mirror.",
+     "acc": [
+      "try it on"
+     ],
+     "vi": "Tôi không chắc màu này có hợp với tôi không nên muốn mặc thử trước và soi gương.",
+     "why": "try it on = mặc thử món đó.",
+     "hint": "Nghĩa: Thử nó (mặc thử)",
+     "new": [
+      {
+       "w": "suit",
+       "vi": "hợp với"
+      }
+     ],
+     "tw": "try it on"
+    },
+    {
+     "type": "tx",
+     "ctx": "Fitting room",
+     "s": "This shirt is a bit tight around my shoulders. Could I ___, please, or do you only have this one left?",
+     "acc": [
+      "try a bigger size"
+     ],
+     "vi": "Chiếc áo này hơi chật ở vai. Cho tôi thử cỡ lớn hơn được không hay chỉ còn cái này?",
+     "why": "try a bigger size = thử một cỡ lớn hơn.",
+     "hint": "Nghĩa: Thử cỡ lớn hơn",
+     "new": [
+      {
+       "w": "shoulders",
+       "vi": "vai"
+      }
+     ],
+     "tw": "try a bigger size",
+     "ipa": "/traɪ ə ˈbɪɡ.ə(r) saɪz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Dress shop",
+     "s": "This dress is almost perfect, but I think ___ would be more comfortable, especially around the waist.",
+     "acc": [
+      "a size 12",
+      "size 12"
+     ],
+     "vi": "Chiếc váy này gần như hoàn hảo nhưng tôi nghĩ cỡ 12 sẽ thoải mái hơn, đặc biệt ở vòng eo.",
+     "why": "a size 12 = cỡ 12.",
+     "hint": "Nghĩa: Cỡ 12",
+     "tw": "a size 12",
+     "ipa": "/ə saɪz twelv/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Fitting",
+     "s": "These trousers are too tight around my waist. Have you got ___?",
+     "acc": [
+      "a bigger size"
+     ],
+     "vi": "Chiếc quần này quá chật ở eo. Bạn có cỡ lớn hơn không?",
+     "why": "a bigger size = một cỡ lớn hơn.",
+     "hint": "Nghĩa: Cỡ lớn hơn",
+     "tw": "a bigger size",
+     "ipa": "/ə ˈbɪɡ.ə(r) saɪz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Dress shop",
+     "s": "Excuse me, do you ___, or is this the only one left in the shop?",
+     "acc": [
+      "have it in a size 12",
+      "have this in a size 12",
+      "have this skirt in a size 12"
+     ],
+     "vi": "Xin lỗi, bạn có món này cỡ 12 không hay đây là cái duy nhất còn lại trong cửa hàng?",
+     "why": "have sth in a size 12 = có món đồ ở cỡ 12.",
+     "hint": "Nghĩa: Có món đồ cỡ 12",
+     "tw": "have it in a size 12"
+    },
+    {
+     "type": "tx",
+     "ctx": "Jacket shop",
+     "s": "I like the design, but I'm not keen on grey. Do you ___?",
+     "acc": [
+      "have it in black",
+      "have this jacket in black",
+      "have this in black"
+     ],
+     "vi": "Tôi thích kiểu dáng nhưng không thích màu xám. Bạn có màu đen không?",
+     "why": "have sth in + size/colour = có món đồ ở màu/cỡ đó.",
+     "hint": "Nghĩa: Có món đồ với màu/cỡ…",
+     "new": [
+      {
+       "w": "keen on",
+       "vi": "thích"
+      }
+     ],
+     "tw": "have it in black"
+    },
+    {
+     "type": "tx",
+     "ctx": "Supermarket study",
+     "s": "Researchers found that hungry shoppers are more ___ to buy unnecessary food, which explains why many people should eat before going to the shops.",
+     "acc": [
+      "likely"
+     ],
+     "vi": "Các nhà nghiên cứu thấy người mua sắm đang đói có nhiều khả năng mua thức ăn không cần thiết hơn, điều này giải thích vì sao nhiều người nên ăn trước khi đi mua sắm.",
+     "why": "likely (adj) = có khả năng xảy ra.",
+     "hint": "Nghĩa: Có khả năng",
+     "new": [
+      {
+       "w": "unnecessary",
+       "vi": "không cần thiết"
+      }
+     ],
+     "tw": "likely",
+     "ipa": "/ˈlaɪ.kli/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Marketing",
+     "s": "People ___ spend more money when they see a special offer, which is why shops put discounts near the entrance.",
+     "acc": [
+      "are likely to",
+      "be likely to",
+      "is likely to"
+     ],
+     "vi": "Mọi người có khả năng chi nhiều tiền hơn khi thấy chương trình khuyến mãi, vì vậy cửa hàng đặt giảm giá gần lối vào.",
+     "why": "be likely to do sth = có khả năng làm gì.",
+     "hint": "Nghĩa: Có khả năng làm gì",
+     "new": [
+      {
+       "w": "discounts",
+       "vi": "giảm giá"
+      }
+     ],
+     "tw": "be likely to"
+    },
+    {
+     "type": "tx",
+     "ctx": "Supermarket",
+     "s": "I bought two bottles of olive oil because they ___ this week, and I know I will use them before they go off.",
+     "acc": [
+      "were on special offer",
+      "are on special offer",
+      "be on special offer"
+     ],
+     "vi": "Tôi mua hai chai dầu ô liu vì tuần này chúng đang khuyến mãi và tôi biết sẽ dùng hết trước khi hỏng.",
+     "why": "be on special offer = đang được bán giá ưu đãi.",
+     "hint": "Nghĩa: Đang khuyến mãi",
+     "new": [
+      {
+       "w": "go off",
+       "vi": "hỏng, hết hạn"
+      }
+     ],
+     "tw": "be on special offer",
+     "ipa": "/ˌspeʃ.əl ˈɔː.fɚ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Complaint",
+     "s": "The shop offered me a full ___ because the vacuum cleaner was faulty and stopped working after only two days.",
+     "acc": [
+      "refund"
+     ],
+     "vi": "Cửa hàng đề nghị hoàn lại toàn bộ tiền vì máy hút bụi bị lỗi và ngừng hoạt động chỉ sau hai ngày.",
+     "why": "refund (n) = tiền được hoàn lại; get a refund = được hoàn tiền.",
+     "hint": "Nghĩa: Khoản tiền hoàn lại",
+     "new": [
+      {
+       "w": "faulty",
+       "vi": "bị lỗi"
+      }
+     ],
+     "tw": "refund",
+     "ipa": "/ˈriː.fʌnd/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Street market",
+     "s": "At some street markets, you can try to ___ with the seller if you are polite and buy more than one item.",
+     "acc": [
+      "agree a lower price"
+     ],
+     "vi": "Ở một số chợ đường phố, bạn có thể thử thỏa thuận mức giá thấp hơn với người bán nếu lịch sự và mua nhiều hơn một món.",
+     "why": "agree a price = thỏa thuận về giá.",
+     "hint": "Nghĩa: Thỏa thuận mức giá thấp hơn",
+     "new": [
+      {
+       "w": "seller",
+       "vi": "người bán"
+      }
+     ],
+     "tw": "agree a lower price",
+     "ipa": "/əˈɡriː ə ˈloʊ.ɚ praɪs/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family skills",
+     "s": "My mother is very good at ___ at street markets, and she often gets a discount of nearly thirty percent on fruit and clothes.",
+     "acc": [
+      "haggling",
+      "haggle",
+      "haggles"
+     ],
+     "vi": "Mẹ tôi rất giỏi mặc cả ở chợ đường phố và thường được giảm gần ba mươi phần trăm cho trái cây và quần áo.",
+     "why": "haggle (v) = mặc cả, trả giá.",
+     "hint": "Nghĩa: Mặc cả, trả giá",
+     "tw": "haggle",
+     "ipa": "/ˈhæɡ.əl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Tourism",
+     "s": "Tourists sometimes ___ before buying souvenirs, although some shops in big cities now have fixed prices.",
+     "acc": [
+      "haggle over the price",
+      "haggle about the price",
+      "haggle over prices"
+     ],
+     "vi": "Du khách đôi khi mặc cả về giá trước khi mua quà lưu niệm, dù một số cửa hàng ở thành phố lớn nay đã có giá cố định.",
+     "why": "haggle over/about the price = mặc cả về giá.",
+     "hint": "Nghĩa: Mặc cả về giá",
+     "new": [
+      {
+       "w": "souvenirs",
+       "vi": "quà lưu niệm"
+      }
+     ],
+     "tw": "haggle over the price",
+     "ipa": "/ˈhæɡ.əl ˈoʊ.vɚ ðə praɪs/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Returns",
+     "s": "The shirt was too small, so I decided to ___ to the shop the next day and ask for a bigger one.",
+     "acc": [
+      "take it back",
+      "took it back"
+     ],
+     "vi": "Chiếc áo quá nhỏ nên hôm sau tôi quyết định mang nó trả lại cửa hàng và xin cái lớn hơn.",
+     "why": "take sth back = mang món hàng trả lại cửa hàng.",
+     "hint": "Nghĩa: Mang/trả món hàng lại",
+     "tw": "take it back"
+    },
+    {
+     "type": "tx",
+     "ctx": "City centre",
+     "s": "It took me almost twenty minutes to find a ___ near the market, so I arrived late for the meeting.",
+     "acc": [
+      "parking space",
+      "parking spaces"
+     ],
+     "vi": "Tôi mất gần hai mươi phút mới tìm được chỗ đỗ xe gần chợ nên đến họp trễ.",
+     "why": "parking space = chỗ đỗ xe.",
+     "hint": "Nghĩa: Chỗ đỗ xe",
+     "tw": "parking space"
+    },
+    {
+     "type": "tx",
+     "ctx": "Travel blog",
+     "s": "The old quarter is very ___ in the evening, with street food stalls, live music and crowds of people walking slowly along the narrow roads.",
+     "acc": [
+      "lively"
+     ],
+     "vi": "Khu phố cổ rất náo nhiệt vào buổi tối với các gian hàng ăn vặt, nhạc sống và đám đông chậm rãi đi trên những con đường hẹp.",
+     "why": "lively (adj) = sôi động, đầy sức sống.",
+     "hint": "Nghĩa: Sôi động, náo nhiệt",
+     "new": [
+      {
+       "w": "stalls",
+       "vi": "gian hàng"
+      },
+      {
+       "w": "narrow",
+       "vi": "hẹp"
+      }
+     ],
+     "tw": "lively",
+     "ipa": "/ˈlaɪvli/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Rural life",
+     "s": "Some teenagers find life in a small village ___ because there are few shops, no cinema and nothing to do after school.",
+     "acc": [
+      "dull"
+     ],
+     "vi": "Một số thiếu niên thấy cuộc sống ở làng nhỏ buồn tẻ vì có ít cửa hàng, không có rạp phim và chẳng có gì để làm sau giờ học.",
+     "why": "dull (adj) = buồn tẻ, tẻ nhạt.",
+     "hint": "Nghĩa: Buồn tẻ",
+     "tw": "dull",
+     "ipa": "/dʌl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Countryside",
+     "s": "The farmer uses a ___ to plough the fields before planting rice, which saves him many hours of hard physical work.",
+     "acc": [
+      "tractor"
+     ],
+     "vi": "Người nông dân dùng máy kéo để cày ruộng trước khi gieo lúa, giúp ông tiết kiệm nhiều giờ lao động nặng nhọc.",
+     "why": "tractor (n) = máy kéo (xe nông nghiệp).",
+     "hint": "Nghĩa: Máy kéo",
+     "new": [
+      {
+       "w": "plough",
+       "vi": "cày"
+      },
+      {
+       "w": "rice",
+       "vi": "lúa, gạo"
+      }
+     ],
+     "tw": "tractor",
+     "ipa": "/ˈtræk.tər/"
+    },
+    {
+     "type": "tx",
+     "ctx": "School supplies",
+     "s": "There is a ___ in her pencil case, so the little girl can sharpen her pencils at school without asking the teacher.",
+     "acc": [
+      "pencil sharpener"
+     ],
+     "vi": "Trong hộp bút của bé gái có đồ gọt bút chì nên bé có thể tự gọt bút ở trường mà không phải hỏi cô giáo.",
+     "why": "pencil sharpener = đồ gọt bút chì.",
+     "hint": "Nghĩa: Gọt bút chì",
+     "tw": "pencil sharpener",
+     "ipa": "/ˈpensl ˌʃɑːpnə/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Morning routine",
+     "s": "My son's pencil was blunt, so I ___ it before he left for school and checked that he had a rubber too.",
+     "acc": [
+      "sharpened",
+      "sharpen"
+     ],
+     "vi": "Bút chì của con trai tôi bị cùn nên tôi đã gọt trước khi cháu đi học và kiểm tra xem cháu có cục tẩy không.",
+     "why": "sharpen sth = gọt/mài cho nhọn, sắc.",
+     "hint": "Nghĩa: Gọt, mài cho sắc",
+     "new": [
+      {
+       "w": "blunt",
+       "vi": "cùn"
+      }
+     ],
+     "tw": "sharpen",
+     "ipa": "/ˈʃɑːpən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Study habits",
+     "s": "While I was reading a research paper, I had to ___ several unfamiliar terms in an online dictionary before I understood the main idea.",
+     "acc": [
+      "look up",
+      "looked up"
+     ],
+     "vi": "Khi đọc một bài nghiên cứu, tôi phải tra vài thuật ngữ lạ trong từ điển trực tuyến trước khi hiểu ý chính.",
+     "why": "look sth up (in a dictionary) = tra cứu.",
+     "hint": "Nghĩa: Tra (từ, thông tin) trong từ điển",
+     "new": [
+      {
+       "w": "unfamiliar",
+       "vi": "lạ, chưa quen"
+      },
+      {
+       "w": "terms",
+       "vi": "thuật ngữ"
+      }
+     ],
+     "tw": "look up",
+     "ipa": "/lʊk ˈʌp/"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Community centre",
+     "s": "At the community centre, a ___ in her seventies explained how she had rebuilt her life after losing her husband to cancer.",
+     "o": [
+      "widow",
+      "niece",
+      "bride"
+     ],
+     "a": "widow",
+     "vi": "Tại trung tâm cộng đồng, một bà góa phụ ngoài bảy mươi tuổi kể lại việc bà đã xây dựng lại cuộc sống sau khi chồng qua đời vì ung thư.",
+     "why": "widow (n) = góa phụ, phụ nữ có chồng đã mất.",
+     "new": [
+      {
+       "w": "rebuilt",
+       "vi": "xây dựng lại"
+      },
+      {
+       "w": "cancer",
+       "vi": "bệnh ung thư"
+      }
+     ],
+     "tw": "widow",
+     "ipa": "/ˈwɪd.oʊ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Flatsharing",
+     "s": "Although Linh's flatmate comes from a very different background, they seem to ___ each other, so there are few arguments about housework.",
+     "o": [
+      "stay away from",
+      "get on well with",
+      "argue with"
+     ],
+     "a": "get on well with",
+     "vi": "Dù bạn cùng phòng của Linh có xuất thân rất khác, họ có vẻ hòa thuận với nhau nên ít cãi vã về việc nhà.",
+     "why": "get on well with sb = hòa thuận với ai; theo sau là người.",
+     "new": [
+      {
+       "w": "background",
+       "vi": "xuất thân"
+      },
+      {
+       "w": "arguments",
+       "vi": "cuộc cãi vã"
+      }
+     ],
+     "tw": "get on well with"
+    },
+    {
+     "type": "mc",
+     "ctx": "Anniversary",
+     "s": "They have been happily together since they ___ twenty years ago, even though they were both still students and had very little money.",
+     "o": [
+      "got promoted",
+      "got divorced",
+      "got married"
+     ],
+     "a": "got married",
+     "vi": "Họ sống hạnh phúc bên nhau kể từ khi kết hôn hai mươi năm trước, dù khi ấy cả hai vẫn là sinh viên và có rất ít tiền.",
+     "why": "got married = đã kết hôn (hành động, quá khứ); get married = kết hôn.",
+     "new": [
+      {
+       "w": "anniversary",
+       "vi": "ngày kỷ niệm"
+      }
+     ],
+     "tw": "got married"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cultural traditions",
+     "s": "In some countries, it is still common for people to ___ someone chosen by their parents, although this custom is slowly changing in cities.",
+     "o": [
+      "fall out with",
+      "break up with",
+      "get married to"
+     ],
+     "a": "get married to",
+     "vi": "Ở một số nước, việc kết hôn với người do cha mẹ chọn vẫn còn phổ biến, dù phong tục này đang dần thay đổi ở thành thị.",
+     "why": "get married to sb = kết hôn với ai (có giới từ to).",
+     "new": [
+      {
+       "w": "custom",
+       "vi": "phong tục"
+      }
+     ],
+     "tw": "get married to"
+    },
+    {
+     "type": "mc",
+     "ctx": "Local news",
+     "s": "The article says the famous actor plans to ___ a doctor he met on a charity trip, and they will hold the ceremony next summer.",
+     "o": [
+      "interview",
+      "marry",
+      "divorce"
+     ],
+     "a": "marry",
+     "vi": "Bài báo nói nam diễn viên nổi tiếng dự định cưới một bác sĩ mà anh gặp trong chuyến đi từ thiện và họ sẽ làm lễ vào mùa hè tới.",
+     "why": "marry sb = cưới ai (không dùng to/with); married sb là dạng quá khứ.",
+     "new": [
+      {
+       "w": "charity",
+       "vi": "từ thiện"
+      }
+     ],
+     "tw": "marry"
+    },
+    {
+     "type": "mc",
+     "ctx": "Student life",
+     "s": "Many university students work part-time so that they can ___ and pay for their accommodation without asking their parents for help.",
+     "o": [
+      "earn a reasonable amount of money",
+      "lose a great deal of money",
+      "waste a lot of time"
+     ],
+     "a": "earn a reasonable amount of money",
+     "vi": "Nhiều sinh viên đại học làm thêm để có thể kiếm được khoản tiền khá ổn và trả tiền chỗ ở mà không phải xin cha mẹ giúp.",
+     "why": "earn a reasonable amount of money = kiếm được mức tiền khá, đủ sống.",
+     "new": [
+      {
+       "w": "accommodation",
+       "vi": "chỗ ở"
+      }
+     ],
+     "tw": "earn a reasonable amount of money",
+     "ipa": "/ˈriː.zən.ə.bəl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "In the corridor",
+     "s": "When Anna saw her friend crying outside the exam room, she walked over and gently asked, “___ Did something go wrong?”",
+     "o": [
+      "What's the matter?",
+      "What's the price?",
+      "Where's the exit?"
+     ],
+     "a": "What's the matter?",
+     "vi": "Khi Anna thấy bạn mình khóc ngoài phòng thi, cô bước tới và nhẹ nhàng hỏi: “Có chuyện gì vậy? Có gì không ổn à?”",
+     "why": "What's the matter? = có chuyện gì vậy? (hỏi khi thấy ai buồn/ốm).",
+     "new": [
+      {
+       "w": "gently",
+       "vi": "nhẹ nhàng"
+      }
+     ],
+     "tw": "What's the matter?"
+    },
+    {
+     "type": "mc",
+     "ctx": "Winter travel",
+     "s": "If you catch a cold on holiday, it's wise to pack some ___ so that you don't have to search for a pharmacy abroad.",
+     "o": [
+      "cough medicine",
+      "insect spray",
+      "sunscreen"
+     ],
+     "a": "cough medicine",
+     "vi": "Nếu bạn bị cảm khi đi nghỉ, nên mang theo thuốc ho để không phải đi tìm hiệu thuốc ở nước ngoài.",
+     "why": "cough medicine = thuốc ho (danh từ ghép, không đếm được).",
+     "new": [
+      {
+       "w": "pharmacy",
+       "vi": "hiệu thuốc"
+      }
+     ],
+     "tw": "cough medicine",
+     "ipa": "/kɑːf/ /ˈmed.ɪ.sən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travelling",
+     "s": "I always carry one emergency sleeping ___ in my bag, but I only take it when the flight is longer than ten hours.",
+     "o": [
+      "stamp",
+      "jacket",
+      "pill"
+     ],
+     "a": "pill",
+     "vi": "Tôi luôn mang theo một viên thuốc ngủ dự phòng trong túi nhưng chỉ uống khi chuyến bay dài hơn mười giờ.",
+     "why": "pill (n) = viên thuốc; take a pill = uống một viên thuốc.",
+     "new": [
+      {
+       "w": "flight",
+       "vi": "chuyến bay"
+      }
+     ],
+     "tw": "pill",
+     "ipa": "/pɪl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "At the clinic",
+     "s": "Sitting at a computer for ten hours a day can make you ___ your neck, and stretching every hour may reduce the problem.",
+     "o": [
+      "catch a cold in",
+      "have a pain in",
+      "take a photo of"
+     ],
+     "a": "have a pain in",
+     "vi": "Ngồi trước máy tính mười tiếng mỗi ngày có thể khiến bạn bị đau cổ và vận động duỗi người mỗi giờ có thể giảm vấn đề này.",
+     "why": "have a pain in + bộ phận cơ thể = bị đau ở đâu.",
+     "new": [
+      {
+       "w": "stretching",
+       "vi": "duỗi người, kéo giãn"
+      }
+     ],
+     "tw": "have a pain in"
+    },
+    {
+     "type": "mc",
+     "ctx": "Insurance",
+     "s": "Many families buy health insurance because a ___ can be extremely expensive, and they do not want to lose their savings.",
+     "o": [
+      "serious illness",
+      "small cut",
+      "mild headache"
+     ],
+     "a": "serious illness",
+     "vi": "Nhiều gia đình mua bảo hiểm y tế vì một bệnh nghiêm trọng có thể cực kỳ tốn kém và họ không muốn mất hết tiền tiết kiệm.",
+     "why": "serious illness = bệnh nặng, nghiêm trọng.",
+     "new": [
+      {
+       "w": "insurance",
+       "vi": "bảo hiểm"
+      }
+     ],
+     "tw": "serious illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hospital news",
+     "s": "The hospital announced that the heart ___ lasted six hours and that the patient was now resting quietly in the intensive care unit.",
+     "o": [
+      "conference",
+      "operation",
+      "reception"
+     ],
+     "a": "operation",
+     "vi": "Bệnh viện thông báo ca phẫu thuật tim kéo dài sáu tiếng và bệnh nhân đang nghỉ yên tĩnh trong phòng chăm sóc đặc biệt.",
+     "why": "operation (n) = ca phẫu thuật (đếm được: an operation).",
+     "new": [
+      {
+       "w": "intensive care unit",
+       "vi": "phòng chăm sóc đặc biệt"
+      }
+     ],
+     "tw": "operation",
+     "ipa": "/ˌɑː.pəˈreɪ.ʃən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Career talk",
+     "s": "My cousin trained for twelve years to become a heart ___, and he now performs complicated operations that save people's lives.",
+     "o": [
+      "receptionist",
+      "pharmacist",
+      "surgeon"
+     ],
+     "a": "surgeon",
+     "vi": "Anh họ tôi học mười hai năm để trở thành bác sĩ phẫu thuật tim và giờ thực hiện những ca phức tạp cứu mạng người.",
+     "why": "surgeon (n) = bác sĩ phẫu thuật.",
+     "new": [
+      {
+       "w": "complicated",
+       "vi": "phức tạp"
+      }
+     ],
+     "tw": "surgeon",
+     "ipa": "/ˈsɝː.dʒən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health debate",
+     "s": "Some people think plastic ___ should be available only when there is a medical reason, not simply to change one's appearance.",
+     "o": [
+      "exercise",
+      "lessons",
+      "surgery"
+     ],
+     "a": "surgery",
+     "vi": "Một số người cho rằng phẫu thuật thẩm mỹ chỉ nên được thực hiện khi có lý do y tế chứ không đơn thuần để thay đổi ngoại hình.",
+     "why": "surgery (n, không đếm được) = phẫu thuật; have surgery = được phẫu thuật.",
+     "new": [
+      {
+       "w": "appearance",
+       "vi": "ngoại hình"
+      },
+      {
+       "w": "plastic",
+       "vi": "thẩm mỹ (plastic surgery)"
+      }
+     ],
+     "tw": "surgery",
+     "ipa": "/ˈsɝː.dʒər.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Science news",
+     "s": "Researchers are working on a new vaccine that could protect children from a dangerous ___ spread by mosquitoes in tropical regions.",
+     "o": [
+      "invention",
+      "fashion",
+      "disease"
+     ],
+     "a": "disease",
+     "vi": "Các nhà nghiên cứu đang làm một loại vaccine mới có thể bảo vệ trẻ em khỏi căn bệnh nguy hiểm do muỗi truyền ở vùng nhiệt đới.",
+     "why": "disease (n) = bệnh (thường là bệnh cụ thể: heart disease).",
+     "new": [
+      {
+       "w": "vaccine",
+       "vi": "vắc-xin"
+      },
+      {
+       "w": "mosquitoes",
+       "vi": "muỗi"
+      }
+     ],
+     "tw": "disease",
+     "ipa": "/dɪˈziːz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "School rules",
+     "s": "Students who are absent because of ___ must bring a note from a doctor, so that the school can record the reason correctly.",
+     "o": [
+      "holiday",
+      "homework",
+      "illness"
+     ],
+     "a": "illness",
+     "vi": "Học sinh vắng mặt vì ốm phải mang giấy của bác sĩ để nhà trường ghi nhận lý do chính xác.",
+     "why": "illness (n) = tình trạng ốm, bệnh tật (không nêu tên bệnh).",
+     "new": [
+      {
+       "w": "absent",
+       "vi": "vắng mặt"
+      }
+     ],
+     "tw": "illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel clinic",
+     "s": "If you get a stomach infection abroad, a local doctor can usually ___ it with antibiotics within a few days.",
+     "o": [
+      "cancel",
+      "describe",
+      "treat"
+     ],
+     "a": "treat",
+     "vi": "Nếu bạn bị nhiễm trùng dạ dày ở nước ngoài, bác sĩ địa phương thường có thể điều trị bằng kháng sinh trong vài ngày.",
+     "why": "treat sb for sth = điều trị cho ai vì bệnh gì.",
+     "new": [
+      {
+       "w": "antibiotics",
+       "vi": "thuốc kháng sinh"
+      }
+     ],
+     "tw": "treat",
+     "ipa": "/triːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health policy",
+     "s": "Many people in rural areas cannot afford proper medical ___, so the government plans to build more clinics and train more nurses.",
+     "o": [
+      "transport",
+      "treatment",
+      "decoration"
+     ],
+     "a": "treatment",
+     "vi": "Nhiều người ở nông thôn không đủ khả năng chi trả điều trị y tế thích hợp nên chính phủ dự định xây thêm phòng khám và đào tạo thêm y tá.",
+     "why": "treatment (n) = sự điều trị, liệu pháp.",
+     "new": [
+      {
+       "w": "afford",
+       "vi": "đủ khả năng chi trả"
+      },
+      {
+       "w": "rural",
+       "vi": "nông thôn"
+      }
+     ],
+     "tw": "treatment",
+     "ipa": "/ˈtriːt.mənt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Biology",
+     "s": "The doctor pointed to the scan and said that the ___ looked healthy, but the patient still needed to change his diet to protect it.",
+     "o": [
+      "shoulder",
+      "liver",
+      "tooth"
+     ],
+     "a": "liver",
+     "vi": "Bác sĩ chỉ vào phim chụp và nói gan trông khỏe mạnh nhưng bệnh nhân vẫn cần đổi chế độ ăn để bảo vệ nó.",
+     "why": "liver (n) = gan (cơ quan trong cơ thể).",
+     "new": [
+      {
+       "w": "scan",
+       "vi": "phim chụp"
+      }
+     ],
+     "tw": "liver",
+     "ipa": "/ˈlɪv.ɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Gossip",
+     "s": "They say the new restaurant cost ___ to open, because the owners hired a famous chef and decorated everything in gold.",
+     "o": [
+      "a little change",
+      "a pinch of salt",
+      "a potload of money"
+     ],
+     "a": "a potload of money",
+     "vi": "Người ta nói nhà hàng mới tốn cả đống tiền để mở vì chủ thuê đầu bếp nổi tiếng và trang trí mọi thứ bằng vàng.",
+     "why": "a potload of money = rất nhiều tiền (thân mật, văn nói).",
+     "new": [
+      {
+       "w": "chef",
+       "vi": "đầu bếp"
+      },
+      {
+       "w": "decorated",
+       "vi": "trang trí"
+      }
+     ],
+     "tw": "a potload of money",
+     "ipa": "/ə ˈpɒt.ləʊd əv ˈmʌn.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Style magazine",
+     "s": "According to the editor, bright yellow raincoats will ___ next spring, although last year almost nobody wanted to wear them.",
+     "o": [
+      "be in debt",
+      "be in danger",
+      "be in fashion"
+     ],
+     "a": "be in fashion",
+     "vi": "Theo biên tập viên, áo mưa vàng tươi sẽ thịnh hành vào mùa xuân tới dù năm ngoái hầu như không ai muốn mặc.",
+     "why": "be in fashion = đang thịnh hành, đang là mốt.",
+     "new": [
+      {
+       "w": "editor",
+       "vi": "biên tập viên"
+      }
+     ],
+     "tw": "be in fashion",
+     "ipa": "/biː ɪn ˈfæʃ.ən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Teenage life",
+     "s": "Many teenagers spend hours choosing their outfits because they want to ___ in photos that they will post online for their friends.",
+     "o": [
+      "look outside",
+      "look fashionable",
+      "look nervous"
+     ],
+     "a": "look fashionable",
+     "vi": "Nhiều thiếu niên dành hàng giờ chọn trang phục vì muốn trông thời trang trong những bức ảnh họ sẽ đăng lên mạng cho bạn bè.",
+     "why": "look fashionable = trông hợp mốt, thời trang.",
+     "new": [
+      {
+       "w": "outfits",
+       "vi": "bộ trang phục"
+      }
+     ],
+     "tw": "look fashionable",
+     "ipa": "/ˈfæʃ.ən.ə.bəl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Shopping mall",
+     "s": "The mall's top floor is full of luxury ___, and the prices are so high that most visitors only look at the windows.",
+     "o": [
+      "kitchen tools",
+      "school uniforms",
+      "designer labels"
+     ],
+     "a": "designer labels",
+     "vi": "Tầng trên cùng của trung tâm thương mại đầy những thương hiệu thời trang cao cấp và giá cao đến mức hầu hết khách chỉ ngắm tủ kính.",
+     "why": "designer labels = hàng hiệu của nhà thiết kế.",
+     "new": [
+      {
+       "w": "luxury",
+       "vi": "sang trọng, cao cấp"
+      }
+     ],
+     "tw": "designer labels",
+     "ipa": "/dɪˈzaɪ.nɚ ˌleɪ.bəlz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Carnival",
+     "s": "At the festival, hundreds of children ___ bright red costumes and marched through the old town while their parents took photographs.",
+     "o": [
+      "dress in",
+      "cover with",
+      "fill up"
+     ],
+     "a": "dress in",
+     "vi": "Tại lễ hội, hàng trăm trẻ em mặc trang phục đỏ rực diễu hành qua khu phố cổ trong khi cha mẹ chụp ảnh.",
+     "why": "dress in + quần áo/màu = mặc loại/màu nào đó.",
+     "new": [
+      {
+       "w": "costumes",
+       "vi": "trang phục hóa trang"
+      },
+      {
+       "w": "marched",
+       "vi": "diễu hành"
+      }
+     ],
+     "tw": "dress in",
+     "ipa": "/dres ɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Tech company",
+     "s": "Employees in this start-up are allowed to ___ on Fridays, so you will see people in jeans and trainers at the meetings.",
+     "o": [
+      "dress formally",
+      "dress warmly",
+      "dress casually"
+     ],
+     "a": "dress casually",
+     "vi": "Nhân viên ở công ty khởi nghiệp này được phép ăn mặc thoải mái vào thứ Sáu nên bạn sẽ thấy người mặc jean và giày thể thao ở các cuộc họp.",
+     "why": "dress casually = ăn mặc thoải mái, không trang trọng.",
+     "new": [
+      {
+       "w": "trainers",
+       "vi": "giày thể thao"
+      }
+     ],
+     "tw": "dress casually",
+     "ipa": "/dres ˈkæʒ.u.ə.li/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Interview",
+     "s": "The model said that she doesn't need to ___ every day; at home she prefers old sweaters and comfortable leggings.",
+     "o": [
+      "wear a uniform",
+      "wear fashionable clothes",
+      "wear a helmet"
+     ],
+     "a": "wear fashionable clothes",
+     "vi": "Người mẫu nói cô không cần mặc quần áo thời trang mỗi ngày; ở nhà cô thích áo len cũ và quần legging thoải mái.",
+     "why": "wear fashionable clothes = mặc quần áo hợp mốt.",
+     "new": [
+      {
+       "w": "sweaters",
+       "vi": "áo len"
+      },
+      {
+       "w": "leggings",
+       "vi": "quần legging"
+      }
+     ],
+     "tw": "wear fashionable clothes",
+     "ipa": "/wer/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Winter outfit",
+     "s": "On very cold days in the mountains, you may need to ___ three jumpers, otherwise the wind will make you freeze.",
+     "o": [
+      "sell them online",
+      "wash them by hand",
+      "wear them at the same time"
+     ],
+     "a": "wear them at the same time",
+     "vi": "Vào những ngày rất lạnh trên núi, bạn có thể phải mặc cùng lúc ba chiếc áo len, nếu không gió sẽ làm bạn cóng.",
+     "why": "wear (two things) at the same time = mặc cùng lúc hai món.",
+     "new": [
+      {
+       "w": "jumpers",
+       "vi": "áo len chui đầu"
+      }
+     ],
+     "tw": "wear them at the same time"
+    },
+    {
+     "type": "mc",
+     "ctx": "Shopping habits",
+     "s": "My mother taught me to ___ a famous singer is wearing them, because trends change quickly and the money is hard to earn.",
+     "o": [
+      "sometimes borrow clothes from",
+      "always buy clothes after",
+      "never buy clothes just because"
+     ],
+     "a": "never buy clothes just because",
+     "vi": "Mẹ dạy tôi không bao giờ mua quần áo chỉ vì một ca sĩ nổi tiếng đang mặc, bởi xu hướng thay đổi nhanh còn tiền thì khó kiếm.",
+     "why": "never buy clothes just because + mệnh đề = không bao giờ mua đồ chỉ vì lý do đó.",
+     "new": [
+      {
+       "w": "trends",
+       "vi": "xu hướng"
+      }
+     ],
+     "tw": "never buy clothes just because"
+    },
+    {
+     "type": "mc",
+     "ctx": "Climate",
+     "s": "Because it is so warm in Da Nang, local people ___ heavy coats, and shops sell them mainly to tourists from colder countries.",
+     "o": [
+      "always wear",
+      "often wear",
+      "hardly ever wear"
+     ],
+     "a": "hardly ever wear",
+     "vi": "Vì Đà Nẵng rất ấm, người địa phương hầu như không mặc áo khoác dày và các cửa hàng bán chúng chủ yếu cho khách từ nước lạnh hơn.",
+     "why": "hardly ever + V = hầu như không bao giờ.",
+     "new": [
+      {
+       "w": "heavy",
+       "vi": "dày, nặng"
+      }
+     ],
+     "tw": "hardly ever wear"
+    },
+    {
+     "type": "mc",
+     "ctx": "Morning rush",
+     "s": "I didn't have time to choose properly this morning, so ___ a pair of jeans and an old T-shirt, and I hope nobody minds.",
+     "o": [
+      "I’ve got on",
+      "I’ve got over",
+      "I’ve got off"
+     ],
+     "a": "I’ve got on",
+     "vi": "Sáng nay tôi không có thời gian chọn đồ nên chỉ mặc quần jean và áo phông cũ, hy vọng không ai phiền.",
+     "why": "I’ve got on + quần áo = tôi đang mặc.",
+     "new": [
+      {
+       "w": "minds",
+       "vi": "phiền lòng"
+      }
+     ],
+     "tw": "I’ve got on"
+    },
+    {
+     "type": "mc",
+     "ctx": "Online habits",
+     "s": "More and more people ___ on their phones during lunch breaks, which is one reason why traditional shops are losing customers.",
+     "o": [
+      "shop for houses",
+      "shop for clothes",
+      "shop for vegetables"
+     ],
+     "a": "shop for clothes",
+     "vi": "Ngày càng nhiều người mua quần áo bằng điện thoại trong giờ nghỉ trưa, đó là một lý do khiến các cửa hàng truyền thống mất khách.",
+     "why": "shop for + vật = đi mua sắm món gì.",
+     "new": [
+      {
+       "w": "traditional",
+       "vi": "truyền thống"
+      }
+     ],
+     "tw": "shop for clothes",
+     "ipa": "/ʃɑːp fər kloʊðz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Sale season",
+     "s": "Thousands of people queue outside the department store before dawn because they want to ___ at half price on the first day of the sale.",
+     "o": [
+      "go shopping for clothes",
+      "go shopping for furniture",
+      "go swimming in the lake"
+     ],
+     "a": "go shopping for clothes",
+     "vi": "Hàng nghìn người xếp hàng trước cửa hàng bách hóa từ rạng sáng vì muốn đi mua quần áo nửa giá vào ngày đầu giảm giá.",
+     "why": "go shopping for clothes = đi mua sắm quần áo (một buổi).",
+     "new": [
+      {
+       "w": "queue",
+       "vi": "xếp hàng"
+      },
+      {
+       "w": "dawn",
+       "vi": "rạng sáng"
+      }
+     ],
+     "tw": "go shopping for clothes"
+    },
+    {
+     "type": "mc",
+     "ctx": "Job advert",
+     "s": "We are looking for a friendly ___ who can help customers choose gifts, because our busiest period is just before the holidays.",
+     "o": [
+      "bus driver",
+      "shop assistant",
+      "school teacher"
+     ],
+     "a": "shop assistant",
+     "vi": "Chúng tôi đang tìm một nhân viên bán hàng thân thiện để giúp khách chọn quà vì thời điểm đông nhất là ngay trước kỳ nghỉ lễ.",
+     "why": "shop assistant = nhân viên bán hàng.",
+     "new": [
+      {
+       "w": "period",
+       "vi": "giai đoạn"
+      }
+     ],
+     "tw": "shop assistant",
+     "ipa": "/ˈʃɑːp əˌsɪs.tənt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Training day",
+     "s": "New staff learn how to ___ politely, even when someone is angry, because good service is the main reason people return to the shop.",
+     "o": [
+      "cancel a flight",
+      "serve a customer",
+      "repair a car"
+     ],
+     "a": "serve a customer",
+     "vi": "Nhân viên mới học cách phục vụ khách lịch sự, kể cả khi ai đó đang giận, vì dịch vụ tốt là lý do chính khiến mọi người quay lại cửa hàng.",
+     "why": "serve a customer = phục vụ, tiếp khách mua hàng.",
+     "new": [
+      {
+       "w": "service",
+       "vi": "dịch vụ"
+      }
+     ],
+     "tw": "serve a customer",
+     "ipa": "/sɝːv/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Bakery",
+     "s": "I've been standing at the counter for ten minutes, and I'd really like to ___ soon because my bus leaves in a quarter of an hour.",
+     "o": [
+      "be served",
+      "be repaired",
+      "be closed"
+     ],
+     "a": "be served",
+     "vi": "Tôi đã đứng ở quầy mười phút và rất muốn được phục vụ sớm vì xe buýt của tôi chạy sau mười lăm phút nữa.",
+     "why": "be served = đang được nhân viên phục vụ, tiếp.",
+     "new": [
+      {
+       "w": "quarter",
+       "vi": "một phần tư"
+      }
+     ],
+     "tw": "be served"
+    },
+    {
+     "type": "mc",
+     "ctx": "Airport",
+     "s": "The woman at the information desk smiled and asked, “Do you ___?” because the traveller was staring at a map with a confused face.",
+     "o": [
+      "wear any shoes",
+      "sell any tickets",
+      "need any help"
+     ],
+     "a": "need any help",
+     "vi": "Người phụ nữ ở quầy thông tin mỉm cười hỏi: “Bạn có cần giúp gì không?” vì du khách đang nhìn bản đồ với vẻ bối rối.",
+     "why": "Do you need any help? = bạn có cần giúp gì không?",
+     "new": [
+      {
+       "w": "confused",
+       "vi": "bối rối"
+      },
+      {
+       "w": "staring",
+       "vi": "nhìn chằm chằm"
+      }
+     ],
+     "tw": "need any help",
+     "ipa": "/niːd ˈen.i help/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Housing",
+     "s": "My cousin has been trying to ___ a cheap flat near the university, but every apartment he visits is either too small or too noisy.",
+     "o": [
+      "look after",
+      "look for",
+      "look up to"
+     ],
+     "a": "look for",
+     "vi": "Anh họ tôi đang cố tìm một căn hộ rẻ gần trường đại học nhưng căn nào anh đến xem cũng hoặc quá nhỏ hoặc quá ồn.",
+     "why": "look for sth = tìm cái gì.",
+     "new": [
+      {
+       "w": "noisy",
+       "vi": "ồn ào"
+      }
+     ],
+     "tw": "look for",
+     "ipa": "/lʊk fɔːr/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Online shopping",
+     "s": "If the sleeves feel too short when you try the dress on, you can ___ on the website and ask for a free exchange.",
+     "o": [
+      "look for a cheaper price",
+      "look for a bigger size",
+      "look for a new job"
+     ],
+     "a": "look for a bigger size",
+     "vi": "Nếu tay áo thấy quá ngắn khi bạn thử váy, bạn có thể tìm cỡ lớn hơn trên trang web và yêu cầu đổi miễn phí.",
+     "why": "look for a bigger size = đi tìm cỡ lớn hơn.",
+     "new": [
+      {
+       "w": "exchange",
+       "vi": "đổi hàng"
+      }
+     ],
+     "tw": "look for a bigger size"
+    },
+    {
+     "type": "mc",
+     "ctx": "Sports centre",
+     "s": "After the swimming lesson, the children lined up outside the ___ and waited for their turn to get dressed.",
+     "o": [
+      "changing room",
+      "classroom",
+      "reception"
+     ],
+     "a": "changing room",
+     "vi": "Sau giờ học bơi, bọn trẻ xếp hàng ngoài phòng thay đồ và chờ đến lượt mặc quần áo.",
+     "why": "changing room = phòng thay/thử đồ trong cửa hàng.",
+     "new": [
+      {
+       "w": "lined up",
+       "vi": "xếp hàng"
+      }
+     ],
+     "tw": "changing room",
+     "ipa": "/ˈtʃeɪn.dʒɪŋ ruːm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Helpful staff",
+     "s": "When the customer asked where she could try on the coat, the assistant pointed and said, “___, next to the mirrors.”",
+     "o": [
+      "The changing rooms are over there",
+      "The cash desk is closed",
+      "The coats are on sale"
+     ],
+     "a": "The changing rooms are over there",
+     "vi": "Khi khách hỏi chỗ thử áo khoác, nhân viên chỉ tay và nói: “Phòng thử đồ ở đằng kia, cạnh các tấm gương.”",
+     "why": "The changing rooms are over there = phòng thử đồ ở đằng kia (chỉ đường).",
+     "new": [
+      {
+       "w": "mirrors",
+       "vi": "gương"
+      }
+     ],
+     "tw": "The changing rooms are over there"
+    },
+    {
+     "type": "mc",
+     "ctx": "Online shopping",
+     "s": "One drawback of buying clothes on the internet is that you cannot ___ before paying, so many people return items that don't fit.",
+     "o": [
+      "wash clothes",
+      "fold clothes",
+      "try on clothes"
+     ],
+     "a": "try on clothes",
+     "vi": "Một nhược điểm của mua quần áo trên mạng là bạn không thể thử đồ trước khi trả tiền nên nhiều người trả lại món không vừa.",
+     "why": "try on clothes = mặc thử quần áo trước khi mua.",
+     "new": [
+      {
+       "w": "drawback",
+       "vi": "nhược điểm"
+      }
+     ],
+     "tw": "try on clothes",
+     "ipa": "/traɪ ɑːn kloʊðz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Gift shopping",
+     "s": "Don't buy the coat for him without checking the size. It's better to ask him to ___ in the shop, so he can make sure it feels comfortable.",
+     "o": [
+      "try it on",
+      "try it out",
+      "try it again"
+     ],
+     "a": "try it on",
+     "vi": "Đừng mua áo khoác cho anh ấy mà không kiểm tra cỡ. Tốt hơn nên nhờ anh mặc thử ở cửa hàng để chắc rằng nó thoải mái.",
+     "why": "try it on = mặc thử món đó.",
+     "tw": "try it on"
+    },
+    {
+     "type": "mc",
+     "ctx": "Gym clothes",
+     "s": "If your running shorts feel uncomfortable after a few minutes, you should ___ next time, because tight clothes can limit your movement.",
+     "o": [
+      "try a smaller size",
+      "try a different sport",
+      "try a bigger size"
+     ],
+     "a": "try a bigger size",
+     "vi": "Nếu quần chạy bộ khó chịu sau vài phút, lần sau bạn nên thử cỡ lớn hơn vì đồ chật có thể hạn chế cử động.",
+     "why": "try a bigger size = thử một cỡ lớn hơn.",
+     "new": [
+      {
+       "w": "limit",
+       "vi": "hạn chế"
+      }
+     ],
+     "tw": "try a bigger size",
+     "ipa": "/traɪ ə ˈbɪɡ.ə(r) saɪz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Shop counter",
+     "s": "Her usual size is twelve, so she asked the assistant for ___ in the blue dress, but the shop only had it in grey.",
+     "o": [
+      "a size 12",
+      "a size 4",
+      "a size 20"
+     ],
+     "a": "a size 12",
+     "vi": "Cỡ thường mặc của cô là mười hai nên cô xin nhân viên cỡ 12 của chiếc váy xanh nhưng cửa hàng chỉ còn màu xám.",
+     "why": "a size 12 = cỡ 12.",
+     "tw": "a size 12",
+     "ipa": "/ə saɪz twelv/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Baby clothes",
+     "s": "Babies grow so quickly that parents often need ___ every two or three months, which is why many of them buy second-hand clothes.",
+     "o": [
+      "a bigger size",
+      "a cheaper brand",
+      "a shorter lesson"
+     ],
+     "a": "a bigger size",
+     "vi": "Em bé lớn nhanh đến mức cha mẹ thường cần cỡ lớn hơn sau mỗi hai hoặc ba tháng, vì vậy nhiều người mua đồ cũ.",
+     "why": "a bigger size = một cỡ lớn hơn.",
+     "tw": "a bigger size",
+     "ipa": "/ə ˈbɪɡ.ə(r) saɪz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Storeroom",
+     "s": "I love this blouse, but it's too small for me. Could you check whether you ___ in the storeroom?",
+     "o": [
+      "sell it for twelve dollars",
+      "have it in a size 12",
+      "keep it for twelve days"
+     ],
+     "a": "have it in a size 12",
+     "vi": "Tôi thích chiếc áo này nhưng nó nhỏ với tôi. Bạn có thể kiểm tra xem trong kho có cỡ 12 không?",
+     "why": "have sth in a size 12 = có món đồ ở cỡ 12.",
+     "tw": "have it in a size 12"
+    },
+    {
+     "type": "mc",
+     "ctx": "Phone shop",
+     "s": "The assistant said the newest phone was sold out, but she promised to check whether the warehouse could ___ for next week.",
+     "o": [
+      "send it by post",
+      "pay it in cash",
+      "have it in black"
+     ],
+     "a": "have it in black",
+     "vi": "Nhân viên nói chiếc điện thoại mới nhất đã hết nhưng sẽ kiểm tra xem kho có thể có màu đen cho tuần sau không.",
+     "why": "have sth in + size/colour = có món đồ ở màu/cỡ đó.",
+     "new": [
+      {
+       "w": "warehouse",
+       "vi": "kho hàng"
+      }
+     ],
+     "tw": "have it in black"
+    },
+    {
+     "type": "mc",
+     "ctx": "Weather report",
+     "s": "Dark clouds are gathering over the mountains, so rain is ___ this evening and the outdoor concert may be cancelled.",
+     "o": [
+      "likely",
+      "unclear",
+      "impossible"
+     ],
+     "a": "likely",
+     "vi": "Mây đen đang tụ trên núi nên tối nay nhiều khả năng có mưa và buổi hòa nhạc ngoài trời có thể bị hủy.",
+     "why": "likely (adj) = có khả năng xảy ra.",
+     "new": [
+      {
+       "w": "gathering",
+       "vi": "tụ lại"
+      }
+     ],
+     "tw": "likely",
+     "ipa": "/ˈlaɪ.kli/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Traffic report",
+     "s": "Experts warn that drivers will ___ face long delays on the motorway this afternoon because the road is being repaired after yesterday's accident.",
+     "o": [
+      "be used to",
+      "be afraid of",
+      "be likely to"
+     ],
+     "a": "be likely to",
+     "vi": "Tài xế có khả năng gặp tắc nghẽn dài trên đường cao tốc chiều nay vì đường đang được sửa sau tai nạn hôm qua.",
+     "why": "be likely to do sth = có khả năng làm gì.",
+     "new": [
+      {
+       "w": "motorway",
+       "vi": "đường cao tốc"
+      },
+      {
+       "w": "face",
+       "vi": "đối mặt"
+      }
+     ],
+     "tw": "be likely to"
+    },
+    {
+     "type": "mc",
+     "ctx": "Online store",
+     "s": "Customers should hurry because the headphones will ___ until Sunday, and after that the price will return to normal.",
+     "o": [
+      "be out of date",
+      "be on special offer",
+      "be in danger"
+     ],
+     "a": "be on special offer",
+     "vi": "Khách nên nhanh chân vì tai nghe đang khuyến mãi đến Chủ nhật và sau đó giá sẽ trở lại bình thường.",
+     "why": "be on special offer = đang được bán giá ưu đãi.",
+     "tw": "be on special offer",
+     "ipa": "/ˌspeʃ.əl ˈɔː.fɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel problem",
+     "s": "When the airline cancelled our flight, we asked for a ___, but the company offered us a voucher for a future trip instead.",
+     "o": [
+      "receipt",
+      "discount",
+      "refund"
+     ],
+     "a": "refund",
+     "vi": "Khi hãng bay hủy chuyến, chúng tôi xin hoàn tiền nhưng công ty đưa phiếu cho chuyến đi sau.",
+     "why": "refund (n) = tiền được hoàn lại; get a refund = được hoàn tiền.",
+     "new": [
+      {
+       "w": "voucher",
+       "vi": "phiếu quà tặng"
+      }
+     ],
+     "tw": "refund",
+     "ipa": "/ˈriː.fʌnd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Car dealer",
+     "s": "After a long conversation, the buyer managed to ___ for the old van, because the engine needed repairs that the owner hadn't mentioned.",
+     "o": [
+      "agree a new password",
+      "agree a lower price",
+      "agree a longer holiday"
+     ],
+     "a": "agree a lower price",
+     "vi": "Sau cuộc trò chuyện dài, người mua đã thỏa thuận được giá thấp hơn cho chiếc xe van cũ vì động cơ cần sửa mà chủ xe chưa nhắc tới.",
+     "why": "agree a price = thỏa thuận về giá.",
+     "new": [
+      {
+       "w": "engine",
+       "vi": "động cơ"
+      }
+     ],
+     "tw": "agree a lower price",
+     "ipa": "/əˈɡriː ə ˈloʊ.ɚ praɪs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel guide",
+     "s": "In many Asian markets, you are expected to ___ politely, because the first price the seller mentions is usually higher than the real one.",
+     "o": [
+      "haggle",
+      "complain",
+      "apologise"
+     ],
+     "a": "haggle",
+     "vi": "Ở nhiều chợ châu Á, bạn được kỳ vọng mặc cả lịch sự vì mức giá đầu tiên người bán nói thường cao hơn giá thật.",
+     "why": "haggle (v) = mặc cả, trả giá.",
+     "new": [
+      {
+       "w": "expected",
+       "vi": "được kỳ vọng"
+      }
+     ],
+     "tw": "haggle",
+     "ipa": "/ˈhæɡ.əl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Antique market",
+     "s": "It is quite normal to ___ at the flea market, so don't accept the first offer even when the seller says it is a rare antique.",
+     "o": [
+      "argue over the homework",
+      "haggle over the price",
+      "fight over the winner"
+     ],
+     "a": "haggle over the price",
+     "vi": "Việc mặc cả về giá ở chợ trời khá bình thường nên đừng chấp nhận mức đầu tiên dù người bán nói đó là đồ cổ hiếm.",
+     "why": "haggle over/about the price = mặc cả về giá.",
+     "new": [
+      {
+       "w": "flea market",
+       "vi": "chợ trời"
+      },
+      {
+       "w": "antique",
+       "vi": "đồ cổ"
+      }
+     ],
+     "tw": "haggle over the price",
+     "ipa": "/ˈhæɡ.əl ˈoʊ.vɚ ðə praɪs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Faulty goods",
+     "s": "If the kettle stops working within a month, you can ___ to the shop with your receipt and ask for a replacement.",
+     "o": [
+      "take it off",
+      "take it away",
+      "take it back"
+     ],
+     "a": "take it back",
+     "vi": "Nếu ấm đun ngừng hoạt động trong vòng một tháng, bạn có thể mang nó trả lại cửa hàng cùng hóa đơn và xin đổi cái mới.",
+     "why": "take sth back = mang món hàng trả lại cửa hàng.",
+     "new": [
+      {
+       "w": "replacement",
+       "vi": "hàng thay thế"
+      },
+      {
+       "w": "kettle",
+       "vi": "ấm đun nước"
+      }
+     ],
+     "tw": "take it back"
+    },
+    {
+     "type": "mc",
+     "ctx": "Apartment ad",
+     "s": "This modern flat has two bedrooms, a balcony with a river view and a private ___, which is rare in the busy city centre.",
+     "o": [
+      "bus stop",
+      "parking space",
+      "swimming pool"
+     ],
+     "a": "parking space",
+     "vi": "Căn hộ hiện đại này có hai phòng ngủ, ban công nhìn ra sông và chỗ đỗ xe riêng, điều hiếm thấy ở trung tâm thành phố đông đúc.",
+     "why": "parking space = chỗ đỗ xe.",
+     "new": [
+      {
+       "w": "rare",
+       "vi": "hiếm"
+      }
+     ],
+     "tw": "parking space"
+    },
+    {
+     "type": "mc",
+     "ctx": "Student housing",
+     "s": "Although the neighbourhood is ___ at night, I like it because there are cafés and bookshops open until midnight, so I never feel lonely.",
+     "o": [
+      "lively",
+      "gloomy",
+      "silent"
+     ],
+     "a": "lively",
+     "vi": "Dù khu này sôi động vào ban đêm, tôi vẫn thích vì có quán cà phê và hiệu sách mở đến nửa đêm nên không bao giờ thấy cô đơn.",
+     "why": "lively (adj) = sôi động, đầy sức sống.",
+     "new": [
+      {
+       "w": "gloomy",
+       "vi": "u ám"
+      }
+     ],
+     "tw": "lively",
+     "ipa": "/ˈlaɪvli/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Lecture",
+     "s": "The professor's lecture was so ___ that half of the students started checking their phones, even though the topic was important for the exam.",
+     "o": [
+      "thrilling",
+      "hilarious",
+      "dull"
+     ],
+     "a": "dull",
+     "vi": "Bài giảng của giáo sư buồn tẻ đến mức một nửa sinh viên bắt đầu xem điện thoại dù chủ đề quan trọng cho kỳ thi.",
+     "why": "dull (adj) = buồn tẻ, tẻ nhạt.",
+     "new": [
+      {
+       "w": "hilarious",
+       "vi": "cực kỳ hài hước"
+      }
+     ],
+     "tw": "dull",
+     "ipa": "/dʌl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Rural road",
+     "s": "We got stuck behind a slow ___ on the narrow country road, so the journey took twice as long as we had expected.",
+     "o": [
+      "bicycle lane",
+      "tractor",
+      "traffic light"
+     ],
+     "a": "tractor",
+     "vi": "Chúng tôi bị kẹt sau một chiếc máy kéo chậm trên con đường quê hẹp nên chuyến đi mất gấp đôi thời gian dự kiến.",
+     "why": "tractor (n) = máy kéo (xe nông nghiệp).",
+     "new": [
+      {
+       "w": "stuck",
+       "vi": "bị kẹt"
+      }
+     ],
+     "tw": "tractor",
+     "ipa": "/ˈtræk.tər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Art class",
+     "s": "The teacher asked everyone to bring a ruler, a rubber and a ___ because the drawing lesson would need several sharp pencils.",
+     "o": [
+      "calculator",
+      "dictionary",
+      "pencil sharpener"
+     ],
+     "a": "pencil sharpener",
+     "vi": "Cô giáo yêu cầu mọi người mang thước, cục tẩy và đồ gọt bút chì vì giờ vẽ cần vài cây bút chì nhọn.",
+     "why": "pencil sharpener = đồ gọt bút chì.",
+     "new": [
+      {
+       "w": "sharp",
+       "vi": "nhọn"
+      }
+     ],
+     "tw": "pencil sharpener",
+     "ipa": "/ˈpensl ˌʃɑːpnə/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Kitchen",
+     "s": "A good chef will ___ his knives regularly, because a blunt knife is not only slow but also more dangerous to use.",
+     "o": [
+      "sharpen",
+      "borrow",
+      "wash"
+     ],
+     "a": "sharpen",
+     "vi": "Một đầu bếp giỏi mài dao thường xuyên vì dao cùn không chỉ chậm mà còn nguy hiểm hơn khi dùng.",
+     "why": "sharpen sth = gọt/mài cho nhọn, sắc.",
+     "new": [
+      {
+       "w": "regularly",
+       "vi": "thường xuyên"
+      }
+     ],
+     "tw": "sharpen",
+     "ipa": "/ˈʃɑːpən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel preparation",
+     "s": "Before our trip to Japan, I decided to ___ the opening hours of the museum, because many places close earlier than in Europe.",
+     "o": [
+      "look up",
+      "put up",
+      "run out"
+     ],
+     "a": "look up",
+     "vi": "Trước chuyến đi Nhật, tôi quyết định tra giờ mở cửa của bảo tàng vì nhiều nơi đóng cửa sớm hơn ở châu Âu.",
+     "why": "look sth up (in a dictionary) = tra cứu.",
+     "tw": "look up",
+     "ipa": "/lʊk ˈʌp/"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Neighbours",
+     "s": "My neighbour has been a widow for ten years. Although she misses her husband every day, she volunteers at a local school and often invites friends for dinner. What does “widow” mean?",
+     "o": [
+      "phụ nữ chưa từng kết hôn",
+      "phụ nữ đã ly hôn",
+      "góa phụ (phụ nữ có chồng đã mất)"
+     ],
+     "a": "góa phụ (phụ nữ có chồng đã mất)",
+     "noblank": true,
+     "say": "My neighbour has been a widow for ten years. Although she misses her husband every day, she volunteers at a local school and often invites friends for dinner.",
+     "vi": "Hàng xóm của tôi đã là góa phụ được mười năm. Dù ngày nào cũng nhớ chồng, bà vẫn làm tình nguyện ở một trường học địa phương và thường mời bạn bè đến ăn tối.",
+     "why": "widow (n) = góa phụ, phụ nữ có chồng đã mất.",
+     "new": [
+      {
+       "w": "volunteers",
+       "vi": "làm tình nguyện"
+      },
+      {
+       "w": "misses",
+       "vi": "nhớ (ai đó)"
+      }
+     ],
+     "tw": "widow",
+     "ipa": "/ˈwɪd.oʊ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family",
+     "s": "I always enjoy visiting my uncle because we get on well with each other. We share the same sense of humour, and dinner at his house is never boring. What does “get on well with” mean?",
+     "o": [
+      "hòa thuận, hợp nhau",
+      "luôn cãi nhau",
+      "lâu rồi không gặp"
+     ],
+     "a": "hòa thuận, hợp nhau",
+     "noblank": true,
+     "say": "I always enjoy visiting my uncle because we get on well with each other. We share the same sense of humour, and dinner at his house is never boring.",
+     "vi": "Tôi luôn thích đến thăm chú vì chúng tôi hòa thuận với nhau. Chúng tôi có cùng khiếu hài hước và bữa tối ở nhà chú không bao giờ chán.",
+     "why": "get on well with sb = hòa thuận với ai; theo sau là người.",
+     "new": [
+      {
+       "w": "sense of humour",
+       "vi": "khiếu hài hước"
+      }
+     ],
+     "tw": "get on well with"
+    },
+    {
+     "type": "mc",
+     "ctx": "Wedding photos",
+     "s": "In the old photo, my aunt is wearing a long white dress because she had just got married. Everyone around her looks delighted, and her new husband is holding flowers. What does “got married” mean?",
+     "o": [
+      "vừa tốt nghiệp",
+      "vừa kết hôn",
+      "vừa ly hôn"
+     ],
+     "a": "vừa kết hôn",
+     "noblank": true,
+     "say": "In the old photo, my aunt is wearing a long white dress because she had just got married. Everyone around her looks delighted, and her new husband is holding flowers.",
+     "vi": "Trong tấm ảnh cũ, dì tôi mặc váy trắng dài vì dì vừa kết hôn. Mọi người quanh dì trông rất vui và chồng mới của dì đang cầm hoa.",
+     "why": "got married = đã kết hôn (hành động, quá khứ); get married = kết hôn.",
+     "new": [
+      {
+       "w": "delighted",
+       "vi": "rất vui mừng"
+      }
+     ],
+     "tw": "got married"
+    },
+    {
+     "type": "mc",
+     "ctx": "Interview",
+     "s": "The singer said she would like to get married to someone ordinary rather than a celebrity, because she wants a quiet family life away from the cameras. What does “get married to” mean?",
+     "o": [
+      "kết hôn với (ai đó)",
+      "làm việc cùng (ai đó)",
+      "chia tay với (ai đó)"
+     ],
+     "a": "kết hôn với (ai đó)",
+     "noblank": true,
+     "say": "The singer said she would like to get married to someone ordinary rather than a celebrity, because she wants a quiet family life away from the cameras.",
+     "vi": "Nữ ca sĩ nói cô muốn kết hôn với một người bình thường hơn là người nổi tiếng vì cô muốn một cuộc sống gia đình yên tĩnh, tránh xa ống kính.",
+     "why": "get married to sb = kết hôn với ai (có giới từ to).",
+     "new": [
+      {
+       "w": "celebrity",
+       "vi": "người nổi tiếng"
+      }
+     ],
+     "tw": "get married to"
+    },
+    {
+     "type": "mc",
+     "ctx": "Short story",
+     "s": "In the story, a poor farmer married a princess after he saved her village from a flood. Everyone in the kingdom thought it was a perfect ending. What does “marry” mean?",
+     "o": [
+      "cưới, kết hôn với",
+      "từ chối",
+      "cứu giúp"
+     ],
+     "a": "cưới, kết hôn với",
+     "noblank": true,
+     "say": "In the story, a poor farmer married a princess after he saved her village from a flood. Everyone in the kingdom thought it was a perfect ending.",
+     "vi": "Trong truyện, một nông dân nghèo cưới công chúa sau khi cứu ngôi làng của nàng khỏi trận lụt. Mọi người trong vương quốc cho rằng đó là một cái kết hoàn hảo.",
+     "why": "marry sb = cưới ai (không dùng to/with); married sb là dạng quá khứ.",
+     "new": [
+      {
+       "w": "flood",
+       "vi": "lũ lụt"
+      },
+      {
+       "w": "kingdom",
+       "vi": "vương quốc"
+      }
+     ],
+     "tw": "marry"
+    },
+    {
+     "type": "mc",
+     "ctx": "Job interview",
+     "s": "My cousin is a delivery driver. The salary is not impressive, but he earns a reasonable amount of money, and the flexible hours let him study at night. What does “earn a reasonable amount of money” mean?",
+     "o": [
+      "kiếm được khoản tiền rất lớn",
+      "không kiếm được đồng nào",
+      "kiếm được khoản tiền khá, đủ sống"
+     ],
+     "a": "kiếm được khoản tiền khá, đủ sống",
+     "noblank": true,
+     "say": "My cousin is a delivery driver. The salary is not impressive, but he earns a reasonable amount of money, and the flexible hours let him study at night.",
+     "vi": "Anh họ tôi là tài xế giao hàng. Lương không ấn tượng nhưng anh kiếm được khoản tiền khá ổn và giờ làm linh hoạt cho phép anh học buổi tối.",
+     "why": "earn a reasonable amount of money = kiếm được mức tiền khá, đủ sống.",
+     "new": [
+      {
+       "w": "impressive",
+       "vi": "ấn tượng"
+      },
+      {
+       "w": "flexible",
+       "vi": "linh hoạt"
+      }
+     ],
+     "tw": "earn a reasonable amount of money",
+     "ipa": "/ˈriː.zən.ə.bəl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dialogue",
+     "s": "“What's the matter?” the teacher asked when she noticed a pupil sitting alone with his head down. “I've lost my homework,” he whispered, looking worried. What does “What's the matter?” mean?",
+     "o": [
+      "Bài này khó không?",
+      "Bạn tên là gì?",
+      "Có chuyện gì vậy?"
+     ],
+     "a": "Có chuyện gì vậy?",
+     "noblank": true,
+     "say": "“What's the matter?” the teacher asked when she noticed a pupil sitting alone with his head down. “I've lost my homework,” he whispered, looking worried.",
+     "vi": "“Có chuyện gì vậy?” cô giáo hỏi khi thấy một học sinh ngồi một mình cúi đầu. “Em làm mất bài tập,” cậu thì thầm, trông lo lắng.",
+     "why": "What's the matter? = có chuyện gì vậy? (hỏi khi thấy ai buồn/ốm).",
+     "new": [
+      {
+       "w": "whispered",
+       "vi": "thì thầm"
+      }
+     ],
+     "tw": "What's the matter?"
+    },
+    {
+     "type": "mc",
+     "ctx": "Home remedies",
+     "s": "My grandmother prefers honey and ginger tea to cough medicine. She says natural remedies work well for a mild cough, though she still sees a doctor if it lasts. What does “cough medicine” mean?",
+     "o": [
+      "thuốc ngủ",
+      "thuốc ho",
+      "thuốc đau đầu"
+     ],
+     "a": "thuốc ho",
+     "noblank": true,
+     "say": "My grandmother prefers honey and ginger tea to cough medicine. She says natural remedies work well for a mild cough, though she still sees a doctor if it lasts.",
+     "vi": "Bà tôi thích trà mật ong gừng hơn thuốc ho. Bà nói các bài thuốc tự nhiên hiệu quả với cơn ho nhẹ, dù bà vẫn đi khám nếu ho kéo dài.",
+     "why": "cough medicine = thuốc ho (danh từ ghép, không đếm được).",
+     "new": [
+      {
+       "w": "remedies",
+       "vi": "bài thuốc"
+      },
+      {
+       "w": "mild",
+       "vi": "nhẹ"
+      }
+     ],
+     "tw": "cough medicine",
+     "ipa": "/kɑːf/ /ˈmed.ɪ.sən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Pharmacy",
+     "s": "The label says you should swallow the pill with a full glass of water. Chewing it could damage your stomach, so please follow the instructions carefully. What does “pill” mean?",
+     "o": [
+      "viên thuốc",
+      "ống tiêm",
+      "chai siro"
+     ],
+     "a": "viên thuốc",
+     "noblank": true,
+     "say": "The label says you should swallow the pill with a full glass of water. Chewing it could damage your stomach, so please follow the instructions carefully.",
+     "vi": "Nhãn ghi bạn nên nuốt viên thuốc cùng một cốc nước đầy. Nhai nó có thể làm hại dạ dày nên hãy làm theo hướng dẫn cẩn thận.",
+     "why": "pill (n) = viên thuốc; take a pill = uống một viên thuốc.",
+     "new": [
+      {
+       "w": "swallow",
+       "vi": "nuốt"
+      },
+      {
+       "w": "label",
+       "vi": "nhãn"
+      }
+     ],
+     "tw": "pill",
+     "ipa": "/pɪl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Phone call",
+     "s": "I'm sorry, I can't play football today. I have a pain in my left knee, and the physiotherapist says I shouldn't run until it heals. What does “have a pain in” mean?",
+     "o": [
+      "bị đau ở",
+      "bị ngứa ở",
+      "bị gãy"
+     ],
+     "a": "bị đau ở",
+     "noblank": true,
+     "say": "I'm sorry, I can't play football today. I have a pain in my left knee, and the physiotherapist says I shouldn't run until it heals.",
+     "vi": "Xin lỗi, hôm nay tôi không đá bóng được. Tôi bị đau ở đầu gối trái và nhà vật lý trị liệu bảo tôi không nên chạy cho đến khi nó lành.",
+     "why": "have a pain in + bộ phận cơ thể = bị đau ở đâu.",
+     "new": [
+      {
+       "w": "physiotherapist",
+       "vi": "nhà vật lý trị liệu"
+      },
+      {
+       "w": "heals",
+       "vi": "lành lại"
+      }
+     ],
+     "tw": "have a pain in"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hospital visit",
+     "s": "He was diagnosed with a serious illness last spring, and although the treatment was long and tiring, his family stayed beside him throughout. What does “serious illness” mean?",
+     "o": [
+      "vết thương nhỏ",
+      "cảm cúm nhẹ",
+      "bệnh nghiêm trọng"
+     ],
+     "a": "bệnh nghiêm trọng",
+     "noblank": true,
+     "say": "He was diagnosed with a serious illness last spring, and although the treatment was long and tiring, his family stayed beside him throughout.",
+     "vi": "Mùa xuân năm ngoái, anh được chẩn đoán mắc bệnh nghiêm trọng và dù điều trị dài và mệt mỏi, gia đình vẫn ở bên anh suốt thời gian đó.",
+     "why": "serious illness = bệnh nặng, nghiêm trọng.",
+     "new": [
+      {
+       "w": "diagnosed",
+       "vi": "được chẩn đoán"
+      },
+      {
+       "w": "tiring",
+       "vi": "mệt mỏi"
+      }
+     ],
+     "tw": "serious illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family worries",
+     "s": "My aunt is nervous because she has an operation next Monday. The doctors say it is routine, but she still can't sleep properly. What does “operation” mean?",
+     "o": [
+      "đơn thuốc",
+      "buổi khám sức khỏe",
+      "ca phẫu thuật"
+     ],
+     "a": "ca phẫu thuật",
+     "noblank": true,
+     "say": "My aunt is nervous because she has an operation next Monday. The doctors say it is routine, but she still can't sleep properly.",
+     "vi": "Dì tôi lo lắng vì thứ Hai tới dì có một ca phẫu thuật. Bác sĩ nói đó là ca thường quy nhưng dì vẫn không ngủ được.",
+     "why": "operation (n) = ca phẫu thuật (đếm được: an operation).",
+     "new": [
+      {
+       "w": "routine",
+       "vi": "thường quy"
+      }
+     ],
+     "tw": "operation",
+     "ipa": "/ˌɑː.pəˈreɪ.ʃən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Documentary",
+     "s": "The surgeon washed her hands carefully, put on gloves and checked the tools. Then she began the operation, while two nurses watched the screen. What does “surgeon” mean?",
+     "o": [
+      "nha sĩ",
+      "bác sĩ phẫu thuật",
+      "dược sĩ"
+     ],
+     "a": "bác sĩ phẫu thuật",
+     "noblank": true,
+     "say": "The surgeon washed her hands carefully, put on gloves and checked the tools. Then she began the operation, while two nurses watched the screen.",
+     "vi": "Bác sĩ phẫu thuật rửa tay cẩn thận, đeo găng và kiểm tra dụng cụ. Sau đó cô bắt đầu ca mổ trong khi hai y tá theo dõi màn hình.",
+     "why": "surgeon (n) = bác sĩ phẫu thuật.",
+     "new": [
+      {
+       "w": "gloves",
+       "vi": "găng tay"
+      }
+     ],
+     "tw": "surgeon",
+     "ipa": "/ˈsɝː.dʒən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family news",
+     "s": "My father had surgery last month to remove a stone from his kidney. He is recovering well, but the doctor told him to avoid lifting anything heavy. What does “surgery” mean?",
+     "o": [
+      "phẫu thuật",
+      "xét nghiệm máu",
+      "vật lý trị liệu"
+     ],
+     "a": "phẫu thuật",
+     "noblank": true,
+     "say": "My father had surgery last month to remove a stone from his kidney. He is recovering well, but the doctor told him to avoid lifting anything heavy.",
+     "vi": "Tháng trước bố tôi được phẫu thuật để lấy sỏi khỏi thận. Ông đang hồi phục tốt nhưng bác sĩ dặn tránh mang vật nặng.",
+     "why": "surgery (n, không đếm được) = phẫu thuật; have surgery = được phẫu thuật.",
+     "new": [
+      {
+       "w": "kidney",
+       "vi": "thận"
+      },
+      {
+       "w": "recovering",
+       "vi": "hồi phục"
+      }
+     ],
+     "tw": "surgery",
+     "ipa": "/ˈsɝː.dʒər.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Biology class",
+     "s": "Doctors say that regular hand washing helps prevent the spread of disease. This is especially important in crowded places such as schools and hospitals. What does “disease” mean?",
+     "o": [
+      "tai nạn",
+      "bệnh, bệnh lý",
+      "chế độ ăn kiêng"
+     ],
+     "a": "bệnh, bệnh lý",
+     "noblank": true,
+     "say": "Doctors say that regular hand washing helps prevent the spread of disease. This is especially important in crowded places such as schools and hospitals.",
+     "vi": "Bác sĩ nói rửa tay thường xuyên giúp ngăn bệnh lây lan. Điều này đặc biệt quan trọng ở những nơi đông người như trường học và bệnh viện.",
+     "why": "disease (n) = bệnh (thường là bệnh cụ thể: heart disease).",
+     "new": [
+      {
+       "w": "prevent",
+       "vi": "ngăn ngừa"
+      },
+      {
+       "w": "crowded",
+       "vi": "đông đúc"
+      }
+     ],
+     "tw": "disease",
+     "ipa": "/dɪˈziːz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Radio interview",
+     "s": "After a long illness, the writer returned to his desk and finished his novel. He said that writing helped him feel strong again during the difficult months. What does “illness” mean?",
+     "o": [
+      "bệnh tật, thời gian ốm",
+      "chuyến du lịch dài",
+      "kỳ nghỉ hè"
+     ],
+     "a": "bệnh tật, thời gian ốm",
+     "noblank": true,
+     "say": "After a long illness, the writer returned to his desk and finished his novel. He said that writing helped him feel strong again during the difficult months.",
+     "vi": "Sau một thời gian dài bị bệnh, nhà văn trở lại bàn làm việc và hoàn thành cuốn tiểu thuyết. Ông nói viết lách giúp ông thấy mạnh mẽ trở lại trong những tháng khó khăn.",
+     "why": "illness (n) = tình trạng ốm, bệnh tật (không nêu tên bệnh).",
+     "new": [
+      {
+       "w": "novel",
+       "vi": "tiểu thuyết"
+      }
+     ],
+     "tw": "illness",
+     "ipa": "/ˈɪl.nəs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hospital report",
+     "s": "The doctor treated the boy for a broken arm and gave his parents clear advice. He also explained how long the bone would take to heal. What does “treat” mean?",
+     "o": [
+      "điều trị",
+      "đưa đón",
+      "khen ngợi"
+     ],
+     "a": "điều trị",
+     "noblank": true,
+     "say": "The doctor treated the boy for a broken arm and gave his parents clear advice. He also explained how long the bone would take to heal.",
+     "vi": "Bác sĩ điều trị cho cậu bé bị gãy tay và đưa ra lời khuyên rõ ràng cho cha mẹ. Ông cũng giải thích xương sẽ mất bao lâu để lành.",
+     "why": "treat sb for sth = điều trị cho ai vì bệnh gì.",
+     "new": [
+      {
+       "w": "bone",
+       "vi": "xương"
+      },
+      {
+       "w": "heal",
+       "vi": "lành lại"
+      }
+     ],
+     "tw": "treat",
+     "ipa": "/triːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hospital",
+     "s": "The patient went into hospital for treatment of a lung infection. After two weeks of rest and medicine, he was strong enough to go home. What does “treatment” mean?",
+     "o": [
+      "sự điều trị",
+      "sự thăm hỏi",
+      "sự xuất viện"
+     ],
+     "a": "sự điều trị",
+     "noblank": true,
+     "say": "The patient went into hospital for treatment of a lung infection. After two weeks of rest and medicine, he was strong enough to go home.",
+     "vi": "Bệnh nhân nhập viện để điều trị nhiễm trùng phổi. Sau hai tuần nghỉ ngơi và dùng thuốc, ông đủ khỏe để về nhà.",
+     "why": "treatment (n) = sự điều trị, liệu pháp.",
+     "new": [
+      {
+       "w": "lung",
+       "vi": "phổi"
+      }
+     ],
+     "tw": "treatment",
+     "ipa": "/ˈtriːt.mənt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Medical article",
+     "s": "Hepatitis is a disease that affects the liver. Without treatment, it can cause permanent damage, so regular check-ups are strongly recommended. What does “liver” mean?",
+     "o": [
+      "gan",
+      "dạ dày",
+      "phổi"
+     ],
+     "a": "gan",
+     "noblank": true,
+     "say": "Hepatitis is a disease that affects the liver. Without treatment, it can cause permanent damage, so regular check-ups are strongly recommended.",
+     "vi": "Viêm gan là bệnh ảnh hưởng đến gan. Nếu không điều trị, nó có thể gây tổn thương vĩnh viễn nên nên khám định kỳ.",
+     "why": "liver (n) = gan (cơ quan trong cơ thể).",
+     "new": [
+      {
+       "w": "permanent",
+       "vi": "vĩnh viễn"
+      },
+      {
+       "w": "check-ups",
+       "vi": "khám định kỳ"
+      }
+     ],
+     "tw": "liver",
+     "ipa": "/ˈlɪv.ɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Chatting",
+     "s": "My brother must have a potload of money, because he just bought a flat in the city centre and a new motorbike in the same month. What does “a potload of money” mean?",
+     "o": [
+      "rất ít tiền",
+      "rất nhiều tiền",
+      "một khoản nợ nhỏ"
+     ],
+     "a": "rất nhiều tiền",
+     "noblank": true,
+     "say": "My brother must have a potload of money, because he just bought a flat in the city centre and a new motorbike in the same month.",
+     "vi": "Anh trai tôi chắc có cả đống tiền vì anh vừa mua căn hộ ở trung tâm và một chiếc xe máy mới trong cùng một tháng.",
+     "why": "a potload of money = rất nhiều tiền (thân mật, văn nói).",
+     "new": [
+      {
+       "w": "flat",
+       "vi": "căn hộ"
+      }
+     ],
+     "tw": "a potload of money",
+     "ipa": "/ə ˈpɒt.ləʊd əv ˈmʌn.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Shopping chat",
+     "s": "My sister says short skirts are no longer in fashion in her office. Most of her colleagues now prefer simple trousers and plain shirts. What does “be in fashion” mean?",
+     "o": [
+      "đang thịnh hành",
+      "đang giảm giá",
+      "đã hết hạn sử dụng"
+     ],
+     "a": "đang thịnh hành",
+     "noblank": true,
+     "say": "My sister says short skirts are no longer in fashion in her office. Most of her colleagues now prefer simple trousers and plain shirts.",
+     "vi": "Chị tôi nói váy ngắn không còn thịnh hành ở văn phòng chị. Hầu hết đồng nghiệp bây giờ thích quần dài đơn giản và áo sơ mi trơn.",
+     "why": "be in fashion = đang thịnh hành, đang là mốt.",
+     "new": [
+      {
+       "w": "plain",
+       "vi": "trơn, đơn giản"
+      }
+     ],
+     "tw": "be in fashion",
+     "ipa": "/biː ɪn ˈfæʃ.ən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Fashion blog",
+     "s": "Even in a plain white shirt and dark jeans, she manages to look fashionable. The secret is that her clothes always fit perfectly. What does “look fashionable” mean?",
+     "o": [
+      "trông mệt mỏi",
+      "trông thời trang",
+      "trông già hơn"
+     ],
+     "a": "trông thời trang",
+     "noblank": true,
+     "say": "Even in a plain white shirt and dark jeans, she manages to look fashionable. The secret is that her clothes always fit perfectly.",
+     "vi": "Dù chỉ mặc áo sơ mi trắng trơn và quần jean tối màu, cô vẫn trông thời trang. Bí quyết là quần áo của cô luôn vừa vặn hoàn hảo.",
+     "why": "look fashionable = trông hợp mốt, thời trang.",
+     "new": [
+      {
+       "w": "fit",
+       "vi": "vừa vặn"
+      }
+     ],
+     "tw": "look fashionable",
+     "ipa": "/ˈfæʃ.ən.ə.bəl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Opinion essay",
+     "s": "Many young people believe that designer labels show success, but psychologists argue that buying expensive brands rarely makes anyone happier in the long term. What does “designer labels” mean?",
+     "o": [
+      "các thương hiệu thời trang cao cấp",
+      "đồng phục học sinh",
+      "quần áo cũ tặng lại"
+     ],
+     "a": "các thương hiệu thời trang cao cấp",
+     "noblank": true,
+     "say": "Many young people believe that designer labels show success, but psychologists argue that buying expensive brands rarely makes anyone happier in the long term.",
+     "vi": "Nhiều người trẻ tin rằng hàng hiệu thể hiện thành công nhưng các nhà tâm lý cho rằng mua thương hiệu đắt tiền hiếm khi khiến ai hạnh phúc hơn về lâu dài.",
+     "why": "designer labels = hàng hiệu của nhà thiết kế.",
+     "new": [
+      {
+       "w": "psychologists",
+       "vi": "nhà tâm lý học"
+      }
+     ],
+     "tw": "designer labels",
+     "ipa": "/dɪˈzaɪ.nɚ ˌleɪ.bəlz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Wedding",
+     "s": "Guests were asked to dress in light colours because the ceremony was on a beach. Most of them chose white or pale blue. What does “dress in” mean?",
+     "o": [
+      "mặc (loại/màu nào đó)",
+      "trang trí bằng",
+      "mua ở cửa hàng"
+     ],
+     "a": "mặc (loại/màu nào đó)",
+     "noblank": true,
+     "say": "Guests were asked to dress in light colours because the ceremony was on a beach. Most of them chose white or pale blue.",
+     "vi": "Khách được đề nghị mặc màu sáng vì buổi lễ diễn ra trên bãi biển. Hầu hết chọn màu trắng hoặc xanh nhạt.",
+     "why": "dress in + quần áo/màu = mặc loại/màu nào đó.",
+     "new": [
+      {
+       "w": "pale",
+       "vi": "nhạt"
+      }
+     ],
+     "tw": "dress in",
+     "ipa": "/dres ɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel tips",
+     "s": "If you travel in a hot country, it's sensible to dress casually in light cotton clothes. Formal suits will only make you uncomfortable. What does “dress casually” mean?",
+     "o": [
+      "ăn mặc trang trọng",
+      "ăn mặc thoải mái",
+      "ăn mặc theo lễ hội"
+     ],
+     "a": "ăn mặc thoải mái",
+     "noblank": true,
+     "say": "If you travel in a hot country, it's sensible to dress casually in light cotton clothes. Formal suits will only make you uncomfortable.",
+     "vi": "Nếu đi du lịch ở nước nóng, nên ăn mặc thoải mái với quần áo cotton nhẹ. Bộ vest trang trọng chỉ khiến bạn khó chịu.",
+     "why": "dress casually = ăn mặc thoải mái, không trang trọng.",
+     "new": [
+      {
+       "w": "uncomfortable",
+       "vi": "khó chịu"
+      }
+     ],
+     "tw": "dress casually",
+     "ipa": "/dres ˈkæʒ.u.ə.li/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Magazine",
+     "s": "Teenagers often feel pressure to wear fashionable clothes at school, because they worry that classmates will laugh at them if they look different. What does “wear fashionable clothes” mean?",
+     "o": [
+      "mặc đồng phục",
+      "mặc quần áo thời trang",
+      "mặc đồ ngủ"
+     ],
+     "a": "mặc quần áo thời trang",
+     "noblank": true,
+     "say": "Teenagers often feel pressure to wear fashionable clothes at school, because they worry that classmates will laugh at them if they look different.",
+     "vi": "Thiếu niên thường cảm thấy áp lực phải mặc quần áo thời trang ở trường vì lo bạn học sẽ cười nếu họ trông khác biệt.",
+     "why": "wear fashionable clothes = mặc quần áo hợp mốt.",
+     "new": [
+      {
+       "w": "pressure",
+       "vi": "áp lực"
+      }
+     ],
+     "tw": "wear fashionable clothes",
+     "ipa": "/wer/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Fashion advice",
+     "s": "Both patterns look nice, but if you wear them at the same time, the outfit will look messy. Choose one pattern and keep the rest plain. What does “wear them at the same time” mean?",
+     "o": [
+      "mua chúng cùng lúc",
+      "giặt chúng cùng lúc",
+      "mặc chúng cùng lúc"
+     ],
+     "a": "mặc chúng cùng lúc",
+     "noblank": true,
+     "say": "Both patterns look nice, but if you wear them at the same time, the outfit will look messy. Choose one pattern and keep the rest plain.",
+     "vi": "Cả hai họa tiết đều đẹp nhưng nếu mặc cùng lúc, bộ đồ sẽ trông lộn xộn. Hãy chọn một họa tiết và giữ phần còn lại trơn.",
+     "why": "wear (two things) at the same time = mặc cùng lúc hai món.",
+     "new": [
+      {
+       "w": "messy",
+       "vi": "lộn xộn"
+      },
+      {
+       "w": "pattern",
+       "vi": "họa tiết"
+      }
+     ],
+     "tw": "wear them at the same time"
+    },
+    {
+     "type": "mc",
+     "ctx": "Interview",
+     "s": "I never buy clothes just because they are on sale. Last year I bought a cheap coat that I never wore, and it was a complete waste of money. What does “never buy clothes just because” mean?",
+     "o": [
+      "luôn mua quần áo khi chúng giảm giá",
+      "thỉnh thoảng cho quần áo cũ đi",
+      "không bao giờ mua quần áo chỉ vì (chúng giảm giá)"
+     ],
+     "a": "không bao giờ mua quần áo chỉ vì (chúng giảm giá)",
+     "noblank": true,
+     "say": "I never buy clothes just because they are on sale. Last year I bought a cheap coat that I never wore, and it was a complete waste of money.",
+     "vi": "Tôi không bao giờ mua quần áo chỉ vì chúng giảm giá. Năm ngoái tôi mua một chiếc áo khoác rẻ mà chẳng mặc lần nào, đúng là phí tiền.",
+     "why": "never buy clothes just because + mệnh đề = không bao giờ mua đồ chỉ vì lý do đó.",
+     "new": [
+      {
+       "w": "waste",
+       "vi": "sự lãng phí"
+      }
+     ],
+     "tw": "never buy clothes just because"
+    },
+    {
+     "type": "mc",
+     "ctx": "Home tidy-up",
+     "s": "Look at these ties in my drawer. I hardly ever wear them because my job doesn't require a suit, so I might as well give them away. What does “hardly ever wear” mean?",
+     "o": [
+      "mặc khi đi ngủ",
+      "hầu như không bao giờ mặc",
+      "mặc mỗi ngày"
+     ],
+     "a": "hầu như không bao giờ mặc",
+     "noblank": true,
+     "say": "Look at these ties in my drawer. I hardly ever wear them because my job doesn't require a suit, so I might as well give them away.",
+     "vi": "Nhìn mấy chiếc cà vạt trong ngăn kéo của tôi này. Tôi hầu như không đeo vì công việc không cần vest nên có thể cho đi luôn.",
+     "why": "hardly ever + V = hầu như không bao giờ.",
+     "new": [
+      {
+       "w": "might as well",
+       "vi": "cũng nên"
+      }
+     ],
+     "tw": "hardly ever wear"
+    },
+    {
+     "type": "mc",
+     "ctx": "Fitting room chat",
+     "s": "“I’ve got on my favourite dress today,” she said proudly. “My grandmother made it for me, and nobody else in the world owns one like it.” What does “I’ve got on” mean?",
+     "o": [
+      "tôi đã cất đi",
+      "tôi đã bán",
+      "tôi đang mặc"
+     ],
+     "a": "tôi đang mặc",
+     "noblank": true,
+     "say": "“I’ve got on my favourite dress today,” she said proudly. “My grandmother made it for me, and nobody else in the world owns one like it.”",
+     "vi": "“Hôm nay tôi đang mặc chiếc váy yêu thích,” cô tự hào nói. “Bà tôi may cho tôi và không ai khác trên đời có chiếc giống vậy.”",
+     "why": "I’ve got on + quần áo = tôi đang mặc.",
+     "new": [
+      {
+       "w": "proudly",
+       "vi": "tự hào"
+      }
+     ],
+     "tw": "I’ve got on"
+    },
+    {
+     "type": "mc",
+     "ctx": "Blog post",
+     "s": "When I shop for clothes, I try to visit second-hand markets first. They are cheaper, and I often find unusual pieces that no one else has. What does “shop for clothes” mean?",
+     "o": [
+      "đi giặt quần áo",
+      "đi bán quần áo",
+      "đi mua quần áo"
+     ],
+     "a": "đi mua quần áo",
+     "noblank": true,
+     "say": "When I shop for clothes, I try to visit second-hand markets first. They are cheaper, and I often find unusual pieces that no one else has.",
+     "vi": "Khi đi mua quần áo, tôi thường ghé chợ đồ cũ trước. Giá rẻ hơn và tôi hay tìm được món lạ mà không ai có.",
+     "why": "shop for + vật = đi mua sắm món gì.",
+     "new": [
+      {
+       "w": "second-hand",
+       "vi": "đồ đã qua sử dụng"
+      }
+     ],
+     "tw": "shop for clothes",
+     "ipa": "/ʃɑːp fər kloʊðz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Diary",
+     "s": "My friend invited me to go shopping for clothes, but I said no. I'm saving money for a trip, and I don't need anything new right now. What does “go shopping for clothes” mean?",
+     "o": [
+      "đi bơi",
+      "đi ăn tối",
+      "đi mua quần áo"
+     ],
+     "a": "đi mua quần áo",
+     "noblank": true,
+     "say": "My friend invited me to go shopping for clothes, but I said no. I'm saving money for a trip, and I don't need anything new right now.",
+     "vi": "Bạn tôi rủ tôi đi mua quần áo nhưng tôi từ chối. Tôi đang để dành tiền cho một chuyến đi và hiện không cần gì mới.",
+     "why": "go shopping for clothes = đi mua sắm quần áo (một buổi).",
+     "new": [
+      {
+       "w": "saving",
+       "vi": "để dành, tiết kiệm"
+      }
+     ],
+     "tw": "go shopping for clothes"
+    },
+    {
+     "type": "mc",
+     "ctx": "Complaint",
+     "s": "The shop assistant was polite and patient, even though the customer changed her mind five times. In the end she bought the first dress. What does “shop assistant” mean?",
+     "o": [
+      "nhân viên bán hàng",
+      "nhân viên giao hàng",
+      "quản lý ngân hàng"
+     ],
+     "a": "nhân viên bán hàng",
+     "noblank": true,
+     "say": "The shop assistant was polite and patient, even though the customer changed her mind five times. In the end she bought the first dress.",
+     "vi": "Nhân viên bán hàng lịch sự và kiên nhẫn dù khách đổi ý năm lần. Cuối cùng cô mua chiếc váy đầu tiên.",
+     "why": "shop assistant = nhân viên bán hàng.",
+     "new": [
+      {
+       "w": "patient",
+       "vi": "kiên nhẫn"
+      }
+     ],
+     "tw": "shop assistant",
+     "ipa": "/ˈʃɑːp əˌsɪs.tənt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Queue",
+     "s": "I waited for several minutes because the cashier was busy. When she finished serving a customer, she smiled and apologised for the delay. What does “serve a customer” mean?",
+     "o": [
+      "gọi điện cho khách",
+      "phục vụ một khách hàng",
+      "từ chối bán hàng"
+     ],
+     "a": "phục vụ một khách hàng",
+     "noblank": true,
+     "say": "I waited for several minutes because the cashier was busy. When she finished serving a customer, she smiled and apologised for the delay.",
+     "vi": "Tôi chờ vài phút vì thu ngân đang bận. Khi phục vụ xong một khách, cô mỉm cười và xin lỗi vì sự chậm trễ.",
+     "why": "serve a customer = phục vụ, tiếp khách mua hàng.",
+     "new": [
+      {
+       "w": "cashier",
+       "vi": "thu ngân"
+      },
+      {
+       "w": "delay",
+       "vi": "sự chậm trễ"
+      }
+     ],
+     "tw": "serve a customer",
+     "ipa": "/sɝːv/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Café",
+     "s": "“Are you being served?” the waiter asked politely. “Yes, thank you,” the woman replied. “Another waitress has already taken my order.” What does “be served” mean?",
+     "o": [
+      "được phục vụ (đã có người tiếp)",
+      "bị từ chối vào",
+      "được đưa về nhà"
+     ],
+     "a": "được phục vụ (đã có người tiếp)",
+     "noblank": true,
+     "say": "“Are you being served?” the waiter asked politely. “Yes, thank you,” the woman replied. “Another waitress has already taken my order.”",
+     "vi": "“Bạn đã được phục vụ chưa ạ?” người phục vụ hỏi lịch sự. “Rồi, cảm ơn,” người phụ nữ đáp. “Một cô phục vụ khác đã nhận món của tôi.”",
+     "why": "be served = đang được nhân viên phục vụ, tiếp.",
+     "new": [
+      {
+       "w": "order",
+       "vi": "gọi món"
+      }
+     ],
+     "tw": "be served"
+    },
+    {
+     "type": "mc",
+     "ctx": "Library",
+     "s": "“Do you need any help?” the librarian whispered. The student nodded gratefully and said that she couldn't find the books for her project. What does “need any help” mean?",
+     "o": [
+      "bạn muốn mượn bao lâu",
+      "bạn đã trả sách chưa",
+      "bạn có cần giúp gì không"
+     ],
+     "a": "bạn có cần giúp gì không",
+     "noblank": true,
+     "say": "“Do you need any help?” the librarian whispered. The student nodded gratefully and said that she couldn't find the books for her project.",
+     "vi": "“Bạn có cần giúp gì không?” thủ thư thì thầm. Cô sinh viên gật đầu biết ơn và nói không tìm được sách cho dự án.",
+     "why": "Do you need any help? = bạn có cần giúp gì không?",
+     "new": [
+      {
+       "w": "librarian",
+       "vi": "thủ thư"
+      },
+      {
+       "w": "gratefully",
+       "vi": "biết ơn"
+      }
+     ],
+     "tw": "need any help",
+     "ipa": "/niːd ˈen.i help/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Lost property",
+     "s": "The old man was looking for his glasses everywhere. Finally, his granddaughter found them on top of his head and laughed kindly. What does “look for” mean?",
+     "o": [
+      "lau chùi",
+      "cho mượn",
+      "tìm kiếm"
+     ],
+     "a": "tìm kiếm",
+     "noblank": true,
+     "say": "The old man was looking for his glasses everywhere. Finally, his granddaughter found them on top of his head and laughed kindly.",
+     "vi": "Ông cụ tìm kính khắp nơi. Cuối cùng cháu gái tìm thấy chúng trên đỉnh đầu ông và cười hiền.",
+     "why": "look for sth = tìm cái gì.",
+     "new": [
+      {
+       "w": "granddaughter",
+       "vi": "cháu gái (của ông bà)"
+      }
+     ],
+     "tw": "look for",
+     "ipa": "/lʊk fɔːr/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Shopping dialogue",
+     "s": "“These trousers hurt around my waist,” he said. “I think I'll look for a bigger size, or maybe try another brand with a looser fit.” What does “look for a bigger size” mean?",
+     "o": [
+      "tìm cỡ lớn hơn",
+      "tìm giá rẻ hơn",
+      "tìm màu đậm hơn"
+     ],
+     "a": "tìm cỡ lớn hơn",
+     "noblank": true,
+     "say": "“These trousers hurt around my waist,” he said. “I think I'll look for a bigger size, or maybe try another brand with a looser fit.”",
+     "vi": "“Chiếc quần này làm tôi khó chịu ở eo,” anh nói. “Chắc tôi sẽ tìm cỡ lớn hơn, hoặc thử hãng khác có dáng rộng hơn.”",
+     "why": "look for a bigger size = đi tìm cỡ lớn hơn.",
+     "new": [
+      {
+       "w": "waist",
+       "vi": "vòng eo"
+      },
+      {
+       "w": "looser",
+       "vi": "rộng hơn"
+      }
+     ],
+     "tw": "look for a bigger size"
+    },
+    {
+     "type": "mc",
+     "ctx": "Fashion store",
+     "s": "There was a long queue for the changing room on Saturday, so many customers gave up and bought their clothes without trying them on. What does “changing room” mean?",
+     "o": [
+      "quầy thu ngân",
+      "phòng thử đồ",
+      "kho hàng"
+     ],
+     "a": "phòng thử đồ",
+     "noblank": true,
+     "say": "There was a long queue for the changing room on Saturday, so many customers gave up and bought their clothes without trying them on.",
+     "vi": "Thứ Bảy có hàng dài chờ phòng thử đồ nên nhiều khách bỏ cuộc và mua quần áo mà không thử.",
+     "why": "changing room = phòng thay/thử đồ trong cửa hàng.",
+     "new": [
+      {
+       "w": "gave up",
+       "vi": "bỏ cuộc"
+      }
+     ],
+     "tw": "changing room",
+     "ipa": "/ˈtʃeɪn.dʒɪŋ ruːm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Customer service",
+     "s": "“The changing rooms are over there,” the assistant said, pointing to the back of the shop. “Please leave any unwanted items on the rail outside.” What does “The changing rooms are over there” mean?",
+     "o": [
+      "cửa hàng đóng cửa lúc năm giờ",
+      "quầy thanh toán ở tầng trên",
+      "phòng thử đồ ở đằng kia"
+     ],
+     "a": "phòng thử đồ ở đằng kia",
+     "noblank": true,
+     "say": "“The changing rooms are over there,” the assistant said, pointing to the back of the shop. “Please leave any unwanted items on the rail outside.”",
+     "vi": "“Phòng thử đồ ở đằng kia,” nhân viên nói và chỉ về phía cuối cửa hàng. “Món nào không lấy xin để lên giá treo bên ngoài.”",
+     "why": "The changing rooms are over there = phòng thử đồ ở đằng kia (chỉ đường).",
+     "new": [
+      {
+       "w": "rail",
+       "vi": "giá treo đồ"
+      }
+     ],
+     "tw": "The changing rooms are over there"
+    },
+    {
+     "type": "mc",
+     "ctx": "Shop rules",
+     "s": "Customers are allowed to try on clothes, but only three items at a time. This rule helps staff keep the changing room tidy. What does “try on clothes” mean?",
+     "o": [
+      "thử quần áo",
+      "gấp quần áo",
+      "giặt quần áo"
+     ],
+     "a": "thử quần áo",
+     "noblank": true,
+     "say": "Customers are allowed to try on clothes, but only three items at a time. This rule helps staff keep the changing room tidy.",
+     "vi": "Khách được phép thử quần áo nhưng chỉ ba món một lần. Quy định này giúp nhân viên giữ phòng thử đồ gọn gàng.",
+     "why": "try on clothes = mặc thử quần áo trước khi mua.",
+     "new": [
+      {
+       "w": "tidy",
+       "vi": "gọn gàng"
+      }
+     ],
+     "tw": "try on clothes",
+     "ipa": "/traɪ ɑːn kloʊðz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dialogue",
+     "s": "“It looks lovely on the hanger,” she said. “But I never decide until I try it on, because clothes often look different when you wear them.” What does “try it on” mean?",
+     "o": [
+      "mặc thử",
+      "giặt nó",
+      "trả nó lại"
+     ],
+     "a": "mặc thử",
+     "noblank": true,
+     "say": "“It looks lovely on the hanger,” she said. “But I never decide until I try it on, because clothes often look different when you wear them.”",
+     "vi": "“Trông nó đẹp trên móc,” cô nói. “Nhưng tôi không bao giờ quyết định cho đến khi mặc thử vì quần áo thường trông khác khi mặc lên người.”",
+     "why": "try it on = mặc thử món đó.",
+     "new": [
+      {
+       "w": "hanger",
+       "vi": "móc áo"
+      }
+     ],
+     "tw": "try it on"
+    },
+    {
+     "type": "mc",
+     "ctx": "Shop dialogue",
+     "s": "“It's slightly tight,” she said. “Shall I try a bigger size?” The assistant nodded and brought the same jacket in a larger fit. What does “try a bigger size” mean?",
+     "o": [
+      "thử màu khác",
+      "thử cỡ lớn hơn",
+      "thử cỡ nhỏ hơn"
+     ],
+     "a": "thử cỡ lớn hơn",
+     "noblank": true,
+     "say": "“It's slightly tight,” she said. “Shall I try a bigger size?” The assistant nodded and brought the same jacket in a larger fit.",
+     "vi": "“Hơi chật,” cô nói. “Tôi thử cỡ lớn hơn nhé?” Nhân viên gật đầu và mang cùng chiếc áo khoác với dáng rộng hơn.",
+     "why": "try a bigger size = thử một cỡ lớn hơn.",
+     "new": [
+      {
+       "w": "slightly",
+       "vi": "hơi, một chút"
+      }
+     ],
+     "tw": "try a bigger size",
+     "ipa": "/traɪ ə ˈbɪɡ.ə(r) saɪz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Clothing label",
+     "s": "The tag on the jeans says they are a size 12, which in this brand is the same as a medium. That's why they feel loose on me. What does “a size 12” mean?",
+     "o": [
+      "cỡ 12",
+      "cỡ nhỏ nhất",
+      "giá 12 đô"
+     ],
+     "a": "cỡ 12",
+     "noblank": true,
+     "say": "The tag on the jeans says they are a size 12, which in this brand is the same as a medium. That's why they feel loose on me.",
+     "vi": "Nhãn trên quần jean ghi cỡ 12, tương đương cỡ vừa ở hãng này. Vì vậy tôi mặc thấy rộng.",
+     "why": "a size 12 = cỡ 12.",
+     "new": [
+      {
+       "w": "tag",
+       "vi": "nhãn mác"
+      }
+     ],
+     "tw": "a size 12",
+     "ipa": "/ə saɪz twelv/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Shop dialogue",
+     "s": "The jumper was lovely, but it was too small for him. “Do you have a bigger size?” he asked, and the assistant went to the storeroom to check. What does “a bigger size” mean?",
+     "o": [
+      "một giá rẻ hơn",
+      "một màu đậm hơn",
+      "một cỡ lớn hơn"
+     ],
+     "a": "một cỡ lớn hơn",
+     "noblank": true,
+     "say": "The jumper was lovely, but it was too small for him. “Do you have a bigger size?” he asked, and the assistant went to the storeroom to check.",
+     "vi": "Chiếc áo len rất đẹp nhưng quá nhỏ với anh. “Bạn có cỡ lớn hơn không?” anh hỏi và nhân viên vào kho kiểm tra.",
+     "why": "a bigger size = một cỡ lớn hơn.",
+     "new": [
+      {
+       "w": "jumper",
+       "vi": "áo len chui đầu"
+      }
+     ],
+     "tw": "a bigger size",
+     "ipa": "/ə ˈbɪɡ.ə(r) saɪz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Phone call",
+     "s": "I called the shop to ask whether they could have it in a size 12. The manager promised to check and phone me back before closing time. What does “have it in a size 12” mean?",
+     "o": [
+      "có món đó ở cỡ 12",
+      "giao món đó trong 12 ngày",
+      "giảm giá món đó 12%"
+     ],
+     "a": "có món đó ở cỡ 12",
+     "noblank": true,
+     "say": "I called the shop to ask whether they could have it in a size 12. The manager promised to check and phone me back before closing time.",
+     "vi": "Tôi gọi cửa hàng hỏi xem có món đó cỡ 12 không. Quản lý hứa sẽ kiểm tra và gọi lại cho tôi trước giờ đóng cửa.",
+     "why": "have sth in a size 12 = có món đồ ở cỡ 12.",
+     "new": [
+      {
+       "w": "promised",
+       "vi": "hứa"
+      }
+     ],
+     "tw": "have it in a size 12"
+    },
+    {
+     "type": "mc",
+     "ctx": "Online chat",
+     "s": "“I love these trainers,” she wrote. “Do you have them in white? My school only allows white shoes, so I can't buy any other colour.” What does “have it in black” mean?",
+     "o": [
+      "có đôi đó màu trắng không",
+      "đôi này giá bao nhiêu",
+      "đôi này có bảo hành không"
+     ],
+     "a": "có đôi đó màu trắng không",
+     "noblank": true,
+     "say": "“I love these trainers,” she wrote. “Do you have them in white? My school only allows white shoes, so I can't buy any other colour.”",
+     "vi": "“Tôi thích đôi giày thể thao này,” cô viết. “Bạn có màu trắng không? Trường tôi chỉ cho phép giày trắng nên tôi không mua màu khác được.”",
+     "why": "have sth in + size/colour = có món đồ ở màu/cỡ đó.",
+     "new": [
+      {
+       "w": "allows",
+       "vi": "cho phép"
+      }
+     ],
+     "tw": "have it in black"
+    },
+    {
+     "type": "mc",
+     "ctx": "Business news",
+     "s": "It is likely that prices will rise again next year, because the cost of fuel has increased and many companies are struggling to cover it. What does “likely” mean?",
+     "o": [
+      "có khả năng",
+      "không thể",
+      "hoàn toàn chắc chắn"
+     ],
+     "a": "có khả năng",
+     "noblank": true,
+     "say": "It is likely that prices will rise again next year, because the cost of fuel has increased and many companies are struggling to cover it.",
+     "vi": "Nhiều khả năng giá cả sẽ lại tăng vào năm tới vì chi phí nhiên liệu tăng và nhiều công ty đang vật lộn để chi trả.",
+     "why": "likely (adj) = có khả năng xảy ra.",
+     "new": [
+      {
+       "w": "struggling",
+       "vi": "vật lộn"
+      },
+      {
+       "w": "fuel",
+       "vi": "nhiên liệu"
+      }
+     ],
+     "tw": "likely",
+     "ipa": "/ˈlaɪ.kli/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Study tips",
+     "s": "Students who revise a little every day are likely to remember information longer than those who try to learn everything the night before an exam. What does “be likely to” mean?",
+     "o": [
+      "từ chối (làm gì)",
+      "có khả năng (làm gì)",
+      "buộc phải (làm gì)"
+     ],
+     "a": "có khả năng (làm gì)",
+     "noblank": true,
+     "say": "Students who revise a little every day are likely to remember information longer than those who try to learn everything the night before an exam.",
+     "vi": "Học sinh ôn một chút mỗi ngày có khả năng nhớ thông tin lâu hơn những người cố học mọi thứ vào đêm trước kỳ thi.",
+     "why": "be likely to do sth = có khả năng làm gì.",
+     "new": [
+      {
+       "w": "revise",
+       "vi": "ôn tập"
+      }
+     ],
+     "tw": "be likely to"
+    },
+    {
+     "type": "mc",
+     "ctx": "Leaflet",
+     "s": "The leaflet says that all winter coats are on special offer this weekend. Customers can save up to forty percent, but only while stocks last. What does “be on special offer” mean?",
+     "o": [
+      "đã hết hàng",
+      "đang được sửa chữa",
+      "đang khuyến mãi"
+     ],
+     "a": "đang khuyến mãi",
+     "noblank": true,
+     "say": "The leaflet says that all winter coats are on special offer this weekend. Customers can save up to forty percent, but only while stocks last.",
+     "vi": "Tờ rơi nói tất cả áo khoác mùa đông đang khuyến mãi cuối tuần này. Khách có thể tiết kiệm đến bốn mươi phần trăm nhưng chỉ khi còn hàng.",
+     "why": "be on special offer = đang được bán giá ưu đãi.",
+     "new": [
+      {
+       "w": "leaflet",
+       "vi": "tờ rơi"
+      },
+      {
+       "w": "stocks last",
+       "vi": "còn hàng"
+      }
+     ],
+     "tw": "be on special offer",
+     "ipa": "/ˌspeʃ.əl ˈɔː.fɚ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Customer service",
+     "s": "If you are not satisfied with the product, you can return it within thirty days and get a refund. You only need to show the receipt. What does “refund” mean?",
+     "o": [
+      "phiếu giảm giá",
+      "phí giao hàng",
+      "khoản tiền hoàn lại"
+     ],
+     "a": "khoản tiền hoàn lại",
+     "noblank": true,
+     "say": "If you are not satisfied with the product, you can return it within thirty days and get a refund. You only need to show the receipt.",
+     "vi": "Nếu không hài lòng với sản phẩm, bạn có thể trả trong ba mươi ngày và được hoàn tiền. Bạn chỉ cần xuất trình hóa đơn.",
+     "why": "refund (n) = tiền được hoàn lại; get a refund = được hoàn tiền.",
+     "new": [
+      {
+       "w": "satisfied",
+       "vi": "hài lòng"
+      },
+      {
+       "w": "receipt",
+       "vi": "hóa đơn"
+      }
+     ],
+     "tw": "refund",
+     "ipa": "/ˈriː.fʌnd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Souvenir shop",
+     "s": "The tourists agreed a lower price with the shopkeeper after pointing out a small scratch on the vase. Everyone left the shop feeling satisfied. What does “agree a lower price” mean?",
+     "o": [
+      "trả giá cao hơn",
+      "hủy đơn hàng",
+      "thỏa thuận được giá thấp hơn"
+     ],
+     "a": "thỏa thuận được giá thấp hơn",
+     "noblank": true,
+     "say": "The tourists agreed a lower price with the shopkeeper after pointing out a small scratch on the vase. Everyone left the shop feeling satisfied.",
+     "vi": "Du khách thỏa thuận được giá thấp hơn với chủ tiệm sau khi chỉ ra một vết xước nhỏ trên chiếc bình. Ai cũng rời tiệm với tâm trạng hài lòng.",
+     "why": "agree a price = thỏa thuận về giá.",
+     "new": [
+      {
+       "w": "scratch",
+       "vi": "vết xước"
+      },
+      {
+       "w": "vase",
+       "vi": "bình hoa"
+      }
+     ],
+     "tw": "agree a lower price",
+     "ipa": "/əˈɡriː ə ˈloʊ.ɚ praɪs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Market",
+     "s": "The tourist began to haggle, but the stallholder only laughed. “Fixed price,” he said, pointing to a sign above his head. What does “haggle” mean?",
+     "o": [
+      "xếp hàng",
+      "mặc cả",
+      "chụp ảnh"
+     ],
+     "a": "mặc cả",
+     "noblank": true,
+     "say": "The tourist began to haggle, but the stallholder only laughed. “Fixed price,” he said, pointing to a sign above his head.",
+     "vi": "Du khách bắt đầu mặc cả nhưng người bán chỉ cười. “Giá cố định,” ông nói và chỉ tấm biển trên đầu.",
+     "why": "haggle (v) = mặc cả, trả giá.",
+     "new": [
+      {
+       "w": "stallholder",
+       "vi": "chủ sạp"
+      },
+      {
+       "w": "fixed",
+       "vi": "cố định"
+      }
+     ],
+     "tw": "haggle",
+     "ipa": "/ˈhæɡ.əl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Taxi story",
+     "s": "The driver refused to turn on the meter, so we had to haggle over the price. In the end we agreed on a fare that suited both sides. What does “haggle over the price” mean?",
+     "o": [
+      "trả tiền bằng thẻ",
+      "cãi nhau về đường đi",
+      "mặc cả về giá"
+     ],
+     "a": "mặc cả về giá",
+     "noblank": true,
+     "say": "The driver refused to turn on the meter, so we had to haggle over the price. In the end we agreed on a fare that suited both sides.",
+     "vi": "Tài xế từ chối bật đồng hồ nên chúng tôi phải mặc cả về giá. Cuối cùng cả hai thống nhất mức cước phù hợp.",
+     "why": "haggle over/about the price = mặc cả về giá.",
+     "new": [
+      {
+       "w": "fare",
+       "vi": "tiền cước"
+      }
+     ],
+     "tw": "haggle over the price",
+     "ipa": "/ˈhæɡ.əl ˈoʊ.vɚ ðə praɪs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dialogue",
+     "s": "“I'm sorry, but this isn't what I ordered,” the customer said. “I'll take it back tomorrow, and I hope you can give me a refund.” What does “take it back” mean?",
+     "o": [
+      "tặng cho bạn bè",
+      "mang trả lại cửa hàng",
+      "mang về nhà sử dụng"
+     ],
+     "a": "mang trả lại cửa hàng",
+     "noblank": true,
+     "say": "“I'm sorry, but this isn't what I ordered,” the customer said. “I'll take it back tomorrow, and I hope you can give me a refund.”",
+     "vi": "“Xin lỗi, đây không phải món tôi đã đặt,” khách nói. “Mai tôi sẽ mang nó trả lại và mong các bạn hoàn tiền cho tôi.”",
+     "why": "take sth back = mang món hàng trả lại cửa hàng.",
+     "new": [
+      {
+       "w": "ordered",
+       "vi": "đã đặt hàng"
+      }
+     ],
+     "tw": "take it back"
+    },
+    {
+     "type": "mc",
+     "ctx": "Daily problem",
+     "s": "In my neighbourhood, there are not enough parking spaces for all the residents. As a result, people often argue about who can leave a car outside the building. What does “parking space” mean?",
+     "o": [
+      "chỗ đỗ xe",
+      "lối thoát hiểm",
+      "bãi rác"
+     ],
+     "a": "chỗ đỗ xe",
+     "noblank": true,
+     "say": "In my neighbourhood, there are not enough parking spaces for all the residents. As a result, people often argue about who can leave a car outside the building.",
+     "vi": "Ở khu tôi sống không đủ chỗ đỗ xe cho mọi cư dân. Kết quả là mọi người thường cãi nhau về việc ai được để xe trước tòa nhà.",
+     "why": "parking space = chỗ đỗ xe.",
+     "new": [
+      {
+       "w": "residents",
+       "vi": "cư dân"
+      }
+     ],
+     "tw": "parking space"
+    },
+    {
+     "type": "mc",
+     "ctx": "City review",
+     "s": "The city is famous for its lively atmosphere. Every weekend, thousands of people gather in the main square to dance, eat and listen to street musicians. What does “lively” mean?",
+     "o": [
+      "đắt đỏ, xa hoa",
+      "sôi động, náo nhiệt",
+      "yên tĩnh, vắng vẻ"
+     ],
+     "a": "sôi động, náo nhiệt",
+     "noblank": true,
+     "say": "The city is famous for its lively atmosphere. Every weekend, thousands of people gather in the main square to dance, eat and listen to street musicians.",
+     "vi": "Thành phố nổi tiếng với bầu không khí sôi động. Cuối tuần nào hàng nghìn người cũng tụ tập ở quảng trường chính để nhảy múa, ăn uống và nghe nhạc sĩ đường phố.",
+     "why": "lively (adj) = sôi động, đầy sức sống.",
+     "new": [
+      {
+       "w": "atmosphere",
+       "vi": "bầu không khí"
+      },
+      {
+       "w": "gather",
+       "vi": "tụ tập"
+      }
+     ],
+     "tw": "lively",
+     "ipa": "/ˈlaɪvli/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Weather",
+     "s": "It was a dull, grey afternoon, and the streets were almost empty. Nothing interesting happened, so I spent the day reading at home. What does “dull” mean?",
+     "o": [
+      "náo nhiệt",
+      "buồn tẻ, ảm đạm",
+      "nóng bức"
+     ],
+     "a": "buồn tẻ, ảm đạm",
+     "noblank": true,
+     "say": "It was a dull, grey afternoon, and the streets were almost empty. Nothing interesting happened, so I spent the day reading at home.",
+     "vi": "Đó là một buổi chiều xám xịt buồn tẻ và đường phố gần như vắng. Chẳng có gì thú vị xảy ra nên tôi đọc sách ở nhà cả ngày.",
+     "why": "dull (adj) = buồn tẻ, tẻ nhạt.",
+     "tw": "dull",
+     "ipa": "/dʌl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Farm visit",
+     "s": "On the school trip, the children were allowed to sit on a tractor. The farmer explained how the machine pulls heavy equipment across muddy land. What does “tractor” mean?",
+     "o": [
+      "xe tải nhỏ",
+      "máy kéo",
+      "máy gặt lúa"
+     ],
+     "a": "máy kéo",
+     "noblank": true,
+     "say": "On the school trip, the children were allowed to sit on a tractor. The farmer explained how the machine pulls heavy equipment across muddy land.",
+     "vi": "Trong chuyến đi của trường, bọn trẻ được ngồi lên máy kéo. Người nông dân giải thích máy kéo kéo thiết bị nặng qua đất bùn thế nào.",
+     "why": "tractor (n) = máy kéo (xe nông nghiệp).",
+     "new": [
+      {
+       "w": "equipment",
+       "vi": "thiết bị"
+      },
+      {
+       "w": "muddy",
+       "vi": "lầy bùn"
+      }
+     ],
+     "tw": "tractor",
+     "ipa": "/ˈtræk.tər/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Desk tour",
+     "s": "On his desk, the architect keeps an old pencil sharpener made of metal. He says that it still works perfectly after more than twenty years. What does “pencil sharpener” mean?",
+     "o": [
+      "cục tẩy",
+      "đồ gọt bút chì",
+      "hộp đựng bút"
+     ],
+     "a": "đồ gọt bút chì",
+     "noblank": true,
+     "say": "On his desk, the architect keeps an old pencil sharpener made of metal. He says that it still works perfectly after more than twenty years.",
+     "vi": "Trên bàn, kiến trúc sư giữ một chiếc gọt bút chì cũ bằng kim loại. Ông nói nó vẫn hoạt động hoàn hảo sau hơn hai mươi năm.",
+     "why": "pencil sharpener = đồ gọt bút chì.",
+     "new": [
+      {
+       "w": "architect",
+       "vi": "kiến trúc sư"
+      }
+     ],
+     "tw": "pencil sharpener",
+     "ipa": "/ˈpensl ˌʃɑːpnə/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Workshop",
+     "s": "The carpenter spent ten minutes sharpening his chisel before starting. He said that careful preparation is the secret of clean, accurate cuts. What does “sharpen” mean?",
+     "o": [
+      "gấp lại",
+      "mài cho sắc",
+      "sơn lại"
+     ],
+     "a": "mài cho sắc",
+     "noblank": true,
+     "say": "The carpenter spent ten minutes sharpening his chisel before starting. He said that careful preparation is the secret of clean, accurate cuts.",
+     "vi": "Người thợ mộc dành mười phút mài chiếc đục trước khi bắt đầu. Ông nói chuẩn bị cẩn thận là bí quyết của những nhát cắt gọn và chính xác.",
+     "why": "sharpen sth = gọt/mài cho nhọn, sắc.",
+     "new": [
+      {
+       "w": "carpenter",
+       "vi": "thợ mộc"
+      },
+      {
+       "w": "chisel",
+       "vi": "cái đục"
+      }
+     ],
+     "tw": "sharpen",
+     "ipa": "/ˈʃɑːpən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Classroom",
+     "s": "If you don't know a word, you can look it up in a dictionary. However, try to guess the meaning from the context first. What does “look up” mean?",
+     "o": [
+      "viết ra",
+      "tra cứu",
+      "đọc to"
+     ],
+     "a": "tra cứu",
+     "noblank": true,
+     "say": "If you don't know a word, you can look it up in a dictionary. However, try to guess the meaning from the context first.",
+     "vi": "Nếu không biết một từ, bạn có thể tra từ điển. Tuy nhiên, hãy thử đoán nghĩa từ ngữ cảnh trước.",
+     "why": "look sth up (in a dictionary) = tra cứu.",
+     "new": [
+      {
+       "w": "context",
+       "vi": "ngữ cảnh"
+      }
+     ],
+     "tw": "look up",
+     "ipa": "/lʊk ˈʌp/"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Nói vận dụng",
+   "note": "Bấm ghi âm và trả lời bằng tiếng Anh, cố dùng các từ gợi ý; trang sẽ chấm ước tính 4 tiêu chí.",
+   "qs": [
+    {
+     "type": "sp",
+     "ctx": "Family and relationships",
+     "s": "Talk about a couple you know well. How did they meet, and what makes their relationship work? Mention how family members get along with each other.",
+     "vi": "Hãy nói về một cặp đôi bạn biết rõ. Họ gặp nhau thế nào và điều gì giúp mối quan hệ bền vững? Nhắc đến việc các thành viên trong gia đình hòa thuận ra sao.",
+     "words": [
+      "widow",
+      "get on well with",
+      "got married",
+      "get married to",
+      "marry"
+     ],
+     "why": "Mở đầu bằng cặp đôi, kể họ gặp và cưới nhau khi nào, rồi nêu lý do họ hợp nhau và nói thêm về một người thân.",
+     "sample": "I will talk about my grandparents. My grandfather decided to marry my grandmother after only six months, and they got married in a small village ceremony. Sadly, she is a widow now, but she still keeps their photos everywhere. What made their relationship work was respect. They always listened to each other, and my grandmother used to say that you should only get married to someone you can talk to for hours. Today she gets on well with all her grandchildren, partly because she is patient and never judges us."
+    },
+    {
+     "type": "sp",
+     "ctx": "Money and shopping",
+     "s": "Do you think people should be good at bargaining? Describe a time when you tried to get a better price or asked for your money back.",
+     "vi": "Bạn có nghĩ mọi người nên giỏi mặc cả không? Hãy kể một lần bạn cố có giá tốt hơn hoặc xin hoàn tiền.",
+     "words": [
+      "earn a reasonable amount of money",
+      "a potload of money",
+      "designer labels",
+      "agree a lower price",
+      "haggle",
+      "haggle over the price",
+      "refund"
+     ],
+     "why": "Nêu quan điểm, kể một tình huống cụ thể (ở đâu, mua gì), kết quả và bài học.",
+     "sample": "I think it is useful to haggle, especially in markets. Last year I wanted a leather bag, but the seller asked for a potload of money. I did not want to haggle over the price in a rude way, so I smiled and explained that I only earn a reasonable amount of money. After ten minutes, we managed to agree a lower price. Some of my friends prefer designer labels, but I like finding a good deal. I also know my rights: when a product is faulty, I always ask for a refund."
+    },
+    {
+     "type": "sp",
+     "ctx": "Health and medicine",
+     "s": "Tell me about the last time you or someone in your family felt unwell. What was wrong and what did you do?",
+     "vi": "Hãy kể lần gần nhất bạn hoặc người nhà thấy không khỏe. Bị sao và bạn đã làm gì?",
+     "words": [
+      "What's the matter?",
+      "cough medicine",
+      "pill",
+      "have a pain in",
+      "serious illness",
+      "illness",
+      "disease"
+     ],
+     "why": "Kể ai bị gì, triệu chứng, đi khám hay mua thuốc, và kết quả; nhớ nói cảm xúc.",
+     "sample": "Last winter my brother looked very tired, so I asked him, “What's the matter?” He said he had a pain in his chest and a bad cough. I was worried because heart disease runs in our family. We went to the pharmacy first, and he bought some cough medicine and a pill for the pain. Luckily, the doctor said it was only a short illness, not a serious illness. After a week of rest, he felt much better, and now he tries to sleep more and eat healthier food."
+    },
+    {
+     "type": "sp",
+     "ctx": "Hospitals and treatment",
+     "s": "Some people are afraid of hospitals. How do you feel about them? Describe what happens when someone needs an operation.",
+     "vi": "Một số người sợ bệnh viện. Bạn nghĩ sao? Hãy mô tả điều xảy ra khi ai đó cần phẫu thuật.",
+     "words": [
+      "operation",
+      "surgeon",
+      "surgery",
+      "treat",
+      "treatment",
+      "liver"
+     ],
+     "why": "Nêu cảm nhận, rồi mô tả theo trình tự: khám, chẩn đoán, phẫu thuật, hồi phục.",
+     "sample": "Honestly, I feel a little nervous in hospitals, but I respect the people who work there. When someone needs an operation, the doctors first explain the risks. Then the surgeon performs the surgery while nurses watch the patient carefully. My uncle had a problem with his liver last year, and the hospital treated him for several weeks. The treatment was long, but he recovered well. Although hospitals can be stressful, I believe they save lives, and I would trust them if I ever needed help."
+    },
+    {
+     "type": "sp",
+     "ctx": "Fashion and style",
+     "s": "How important is fashion to you? Describe how people in your country usually dress, and say what is popular at the moment.",
+     "vi": "Thời trang quan trọng với bạn thế nào? Mô tả người ở nước bạn thường ăn mặc ra sao và hiện đang thịnh hành gì.",
+     "words": [
+      "be in fashion",
+      "look fashionable",
+      "wear fashionable clothes",
+      "dress in",
+      "dress casually",
+      "wear them at the same time",
+      "hardly ever wear",
+      "I’ve got on"
+     ],
+     "why": "Nêu mức độ quan tâm, cách ăn mặc phổ biến, món đang thịnh hành, và ví dụ chính bạn đang mặc.",
+     "sample": "Fashion is not very important to me, but I like to look fashionable when I meet clients. At the moment, wide jeans are in fashion, and many young people wear fashionable clothes from second-hand shops. At work, most of us dress casually, and on Fridays people dress in bright colours. I hardly ever wear a tie. Today I've got on a grey shirt and dark trousers. I like a leather belt and a watch, but I would not wear them at the same time with sports shoes."
+    },
+    {
+     "type": "sp",
+     "ctx": "Shopping habits",
+     "s": "Do you enjoy shopping for clothes? Describe how often you go, and what makes you decide to buy something.",
+     "vi": "Bạn có thích mua quần áo không? Mô tả tần suất và điều gì khiến bạn quyết định mua.",
+     "words": [
+      "shop for clothes",
+      "go shopping for clothes",
+      "never buy clothes just because",
+      "be on special offer",
+      "be likely to",
+      "likely"
+     ],
+     "why": "Nói tần suất, thói quen so sánh giá, nguyên tắc cá nhân và một ví dụ thực tế.",
+     "sample": "I usually shop for clothes about three times a year. Last month I went shopping for clothes because my winter coat was too old. I never buy clothes just because they are cheap, but I check whether they are on special offer, because it saves money. When I see a big discount, I am likely to buy more than I need, so I make a list first. It is also likely that online shops will become more popular, but I still prefer to see the fabric myself."
+    },
+    {
+     "type": "sp",
+     "ctx": "In a shop",
+     "s": "Imagine you are in a clothes shop and the assistant offers to help. Explain what you are looking for and what the assistant does.",
+     "vi": "Hãy tưởng tượng bạn ở cửa hàng quần áo và nhân viên hỏi giúp. Giải thích bạn tìm gì và nhân viên làm gì.",
+     "words": [
+      "shop assistant",
+      "serve a customer",
+      "be served",
+      "need any help",
+      "look for",
+      "look for a bigger size"
+     ],
+     "why": "Dùng hội thoại ngắn: nhân viên hỏi, bạn trả lời, bạn nêu món cần và nhu cầu đổi cỡ.",
+     "sample": "When I walk into a shop, a shop assistant usually asks, “Do you need any help?” If she is busy trying to serve a customer, I wait quietly. If I am already being served, I say thank you politely. Yesterday I was looking for a jacket for a job interview. It was too tight, so I decided to look for a bigger size. The assistant was very kind and brought three different styles, which made my decision much easier."
+    },
+    {
+     "type": "sp",
+     "ctx": "Trying clothes on",
+     "s": "Describe what you do after you choose clothes in a shop, and what you do if they do not fit or you change your mind.",
+     "vi": "Mô tả việc bạn làm sau khi chọn quần áo trong cửa hàng, và nếu không vừa hoặc đổi ý thì bạn làm gì.",
+     "words": [
+      "changing room",
+      "The changing rooms are over there",
+      "try on clothes",
+      "try it on",
+      "try a bigger size",
+      "a size 12",
+      "a bigger size",
+      "have it in a size 12",
+      "have it in black",
+      "take it back"
+     ],
+     "why": "Kể từng bước: hỏi phòng thử, thử đồ, nhận xét độ vừa, hỏi cỡ/màu, và trả lại nếu cần.",
+     "sample": "First, I always try on clothes before buying them. I ask the assistant where to go, and she says, “The changing rooms are over there.” In the changing room, I try it on and check the mirror. Last week a dress was too tight, so I asked, “Can I try a bigger size?” I usually wear a size 12, but I sometimes need a bigger size. I also ask whether they have it in black, or even have it in a size 12. If I change my mind at home, I take it back."
+    },
+    {
+     "type": "sp",
+     "ctx": "Where you live",
+     "s": "Compare life in the city with life in the countryside. Which do you prefer, and why?",
+     "vi": "So sánh cuộc sống ở thành phố với nông thôn. Bạn thích nơi nào hơn, vì sao?",
+     "words": [
+      "parking space",
+      "lively",
+      "dull",
+      "tractor"
+     ],
+     "why": "Nêu ưu và nhược điểm của hai nơi, dùng từ nối so sánh, rồi kết luận lựa chọn.",
+     "sample": "I prefer the city because it feels lively, especially in the evening when cafés and markets are full of people. However, the city has problems too. It is often difficult to find a parking space, and the air can be dirty. Life in the countryside is quieter, but some of my friends find it dull because there is little entertainment. When I visited a farm last summer, I loved watching a farmer drive a tractor across the field. Still, I would miss the energy of the city."
+    },
+    {
+     "type": "sp",
+     "ctx": "Learning English",
+     "s": "How do you deal with new words when you study English? Describe your tools and routines.",
+     "vi": "Bạn xử lý từ mới thế nào khi học tiếng Anh? Mô tả công cụ và thói quen của bạn.",
+     "words": [
+      "pencil sharpener",
+      "sharpen",
+      "look up"
+     ],
+     "why": "Nêu cách học, đồ dùng trên bàn, cách tra từ và ôn lại; kết thúc bằng một lời khuyên.",
+     "sample": "When I meet a new word, I first try to guess the meaning, and then I look up the word in an online dictionary. I write it in a notebook with a short sentence. Before every study session, I sharpen my pencils with an old pencil sharpener that my father gave me. It sounds funny, but this small routine helps me focus. At the weekend, I review all the new words and use them in a short paragraph, which makes them easier to remember."
+    }
+   ]
+  }
+ ]
+}
