@@ -1,0 +1,3601 @@
+{
+ "meta": {
+  "title": "Ôn từ vựng 2026.11.09",
+  "eyebrow": "Ôn tập hằng ngày · B1+ – B2 · 09/11/2026",
+  "h1": "Ôn từ vựng hôm nay",
+  "lead": "Hôm nay có 54 từ. Mỗi từ làm 1 câu viết, 1 câu chọn từ, 1 câu chọn nghĩa (162 câu), sau đó là 10 câu nói vận dụng có ghi âm và chấm theo 4 tiêu chí IELTS Speaking, mức B1+–B2. Câu nào cũng có nút nghe.",
+  "storageKey": "vocab-2026.11.09-v6",
+  "voice": "en-US-EmmaMultilingualNeural",
+  "audioVersion": "emma202611091"
+ },
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Viết từ",
+   "note": "Gõ từ hoặc cụm còn thiếu vào chỗ trống; gợi ý tiếng Việt là nghĩa của từ.",
+   "qs": [
+    {
+     "type": "tx",
+     "ctx": "Online shopping",
+     "s": "I ordered these jeans online, but unfortunately they don't ___ me, so I'll have to send them back and ask for a bigger size.",
+     "acc": [
+      "fit"
+     ],
+     "vi": "Tôi đặt những chiếc quần jeans này trên mạng, nhưng tiếc là chúng không vừa với tôi nên tôi phải gửi trả lại và xin cỡ lớn hơn.",
+     "why": "fit sb = vừa kích cỡ với ai (khác suit = hợp, đẹp với ai).",
+     "hint": "Nghĩa: vừa với ai",
+     "new": [
+      {
+       "w": "send back",
+       "vi": "gửi trả lại"
+      }
+     ],
+     "tw": "fit somebody",
+     "ipa": "/fɪt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Online shopping",
+     "s": "I wasn't sure about ordering the jacket online, but luckily it ___ around the shoulders, so I'm going to keep it.",
+     "acc": [
+      "fits well",
+      "fits really well",
+      "fit well",
+      "fitted well"
+     ],
+     "vi": "Tôi không chắc về việc đặt áo khoác trên mạng, nhưng may là nó rất vừa ở phần vai nên tôi sẽ giữ lại.",
+     "why": "fit well = vừa vặn, đúng cỡ (nói về quần áo, giày dép).",
+     "hint": "Nghĩa: khá vừa/vừa đẹp",
+     "new": [
+      {
+       "w": "shoulders",
+       "vi": "vai"
+      }
+     ],
+     "tw": "fit well",
+     "ipa": "/fɪt wel/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Fitting room",
+     "s": "I love the colour of this dress, but it ___ around the waist, so could I try the next size up?",
+     "acc": [
+      "doesn't quite fit",
+      "does not quite fit",
+      "doesn’t quite fit",
+      "doesnt quite fit"
+     ],
+     "vi": "Tôi thích màu của chiếc váy này, nhưng nó không vừa lắm ở eo, nên tôi thử cỡ lớn hơn được không?",
+     "why": "doesn't quite fit = không hoàn toàn vừa (hơi chật/rộng/ngắn).",
+     "hint": "Nghĩa: không được vừa lắm",
+     "new": [
+      {
+       "w": "size up",
+       "vi": "cỡ lớn hơn"
+      }
+     ],
+     "tw": "doesn't quite fit",
+     "ipa": "/ˈdʌz.ənt kwaɪt fɪt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Shopping",
+     "s": "I think I need a bigger size because this shirt is ___ around the chest, and I can hardly lift my arms.",
+     "acc": [
+      "a bit tight",
+      "a little tight",
+      "slightly tight"
+     ],
+     "vi": "Tôi nghĩ mình cần cỡ lớn hơn vì chiếc áo sơ mi này hơi chật ở ngực và tôi gần như không giơ tay lên được.",
+     "why": "a bit tight = hơi chật, hơi bó (quần áo, giày).",
+     "hint": "Nghĩa: hơi chật",
+     "new": [
+      {
+       "w": "hardly",
+       "vi": "hầu như không"
+      },
+      {
+       "w": "chest",
+       "vi": "ngực"
+      }
+     ],
+     "tw": "a bit tight",
+     "ipa": "/ə bɪt taɪt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Changing room",
+     "s": "I tried the trousers on in the changing room, but they were far too ___ around the waist, so I asked the assistant for a smaller size.",
+     "acc": [
+      "loose"
+     ],
+     "vi": "Tôi mặc thử chiếc quần trong phòng thay đồ nhưng chúng quá rộng ở eo nên tôi xin nhân viên cỡ nhỏ hơn.",
+     "why": "loose (adj) = rộng, lỏng, không ôm sát người.",
+     "hint": "Nghĩa: rộng, lỏng, không ôm sát cơ thể",
+     "new": [
+      {
+       "w": "assistant",
+       "vi": "nhân viên bán hàng"
+      }
+     ],
+     "tw": "loose",
+     "ipa": "/luːs/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Clothes shop",
+     "s": "I tried both colours, but I chose the dark blue shirt because it seemed to ___ me better than the grey one.",
+     "acc": [
+      "suit"
+     ],
+     "vi": "Tôi thử cả hai màu nhưng chọn chiếc áo sơ mi xanh đậm vì nó có vẻ hợp với tôi hơn chiếc màu xám.",
+     "why": "suit sb = hợp, làm ai trông đẹp hơn (khác fit = vừa kích cỡ).",
+     "hint": "Nghĩa: hợp với ai hơn",
+     "new": [],
+     "tw": "suit somebody better",
+     "ipa": "/suːt ˈsʌm.bə.di ˈbet.ə(r)/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Wedding",
+     "s": "Before going to the wedding, I changed my shoes because the brown pair didn't ___ my dark blue suit.",
+     "acc": [
+      "match"
+     ],
+     "vi": "Trước khi đi dự đám cưới, tôi đã đổi giày vì đôi màu nâu không hợp với bộ vest xanh đậm của tôi.",
+     "why": "match sth = hợp, đồng bộ (màu sắc, kiểu dáng) với thứ khác.",
+     "hint": "Nghĩa: hợp/đồng bộ với thứ khác",
+     "new": [],
+     "tw": "match something",
+     "ipa": "/mætʃ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Handbag shop",
+     "s": "I wasn't planning to buy a handbag, but I found one that ___ my new dress, so I changed my mind.",
+     "acc": [
+      "matched perfectly",
+      "matches perfectly",
+      "match perfectly"
+     ],
+     "vi": "Tôi không định mua túi xách nhưng tôi tìm thấy chiếc hợp hoàn hảo với váy mới nên tôi đổi ý.",
+     "why": "match perfectly = hợp hoàn hảo, rất ăn khớp.",
+     "hint": "Nghĩa: cực kỳ hợp",
+     "new": [
+      {
+       "w": "handbag",
+       "vi": "túi xách"
+      }
+     ],
+     "tw": "match perfectly",
+     "ipa": "/mætʃ ˈpɜː.fɪkt.li/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Shopping",
+     "s": "I'm looking for a simple jacket that will ___ both my work trousers and my jeans, because I can't afford two.",
+     "acc": [
+      "go with"
+     ],
+     "vi": "Tôi đang tìm một chiếc áo khoác đơn giản hợp với cả quần đi làm lẫn quần jeans vì tôi không đủ tiền mua hai chiếc.",
+     "why": "go with sth = hợp, kết hợp tốt với thứ khác.",
+     "hint": "Nghĩa: phối hợp với",
+     "new": [
+      {
+       "w": "afford",
+       "vi": "đủ khả năng chi trả"
+      }
+     ],
+     "tw": "go with something",
+     "ipa": "/ɡoʊ wɪð/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Shoe shop",
+     "s": "The shop assistant suggested the black shoes because she thought they would ___ the trousers I'd chosen.",
+     "acc": [
+      "go well with"
+     ],
+     "vi": "Nhân viên bán hàng gợi ý đôi giày đen vì cô ấy nghĩ chúng rất hợp với chiếc quần tôi đã chọn.",
+     "why": "go well with = rất hợp với (màu sắc, món ăn, đồ vật).",
+     "hint": "Nghĩa: rất hợp với",
+     "new": [],
+     "tw": "go well with",
+     "ipa": "/ɡoʊ wel wɪð/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Fitting room",
+     "s": "I wasn't sure about the colours at first, but after trying everything on, I thought the shirt and trousers ___ .",
+     "acc": [
+      "look good together",
+      "looked good together"
+     ],
+     "vi": "Lúc đầu tôi không chắc về màu sắc, nhưng sau khi thử hết, tôi thấy áo sơ mi và quần trông khá hợp nhau.",
+     "why": "look good together = trông hợp nhau, phối với nhau đẹp.",
+     "hint": "Nghĩa: trông hợp nhau",
+     "new": [],
+     "tw": "look good together",
+     "ipa": "/lʊk ɡʊd təˈɡeð.ə(r)/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Winter coat",
+     "s": "I don't mind paying more for a winter coat as long as it's good quality and sold at ___ .",
+     "acc": [
+      "a reasonable price"
+     ],
+     "vi": "Tôi không ngại trả nhiều hơn cho áo khoác mùa đông miễn là nó chất lượng tốt và bán với giá hợp lý.",
+     "why": "a reasonable price = mức giá hợp lý, không quá đắt.",
+     "hint": "Nghĩa: mức giá hợp lý",
+     "new": [],
+     "tw": "a reasonable price",
+     "ipa": "/ə ˈriː.zən.ə.bəl praɪs/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Impulse buy",
+     "s": "I wasn't planning to buy anything, but ___ and the shirt fitted me well, so I bought it.",
+     "acc": [
+      "the price was reasonable",
+      "the price is reasonable"
+     ],
+     "vi": "Tôi không định mua gì cả nhưng giá hợp lý và chiếc áo lại vừa nên tôi đã mua.",
+     "why": "the price is reasonable = giá cả hợp lý, chấp nhận được.",
+     "hint": "Nghĩa: giá cả hợp lý",
+     "new": [],
+     "tw": "the price is reasonable"
+    },
+    {
+     "type": "tx",
+     "ctx": "Clothes shop",
+     "s": "“We have the jacket in your size, but I'm afraid we don't have it in black.” — “Oh, ___ . Black was the colour I wanted.”",
+     "acc": [
+      "that's a shame",
+      "that’s a shame",
+      "that is a shame"
+     ],
+     "vi": "“Chúng tôi có áo khoác đúng cỡ của bạn nhưng tiếc là không có màu đen.” — “Ồ, tiếc thật. Màu đen là màu tôi muốn.”",
+     "why": "That's a shame. = Tiếc thật (đáp lại tin không tốt).",
+     "hint": "Nghĩa: Tiếc thật.",
+     "new": [],
+     "tw": "That's a shame.",
+     "ipa": "/ðæts ə ʃeɪm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Shoe shop",
+     "s": "“I'm afraid we've sold the last pair of these shoes in your size.” — “Oh, ___ . I really liked them.”",
+     "acc": [
+      "that's a pity",
+      "that’s a pity",
+      "that is a pity"
+     ],
+     "vi": "“Tiếc là chúng tôi đã bán đôi cuối cùng cỡ của bạn.” — “Ồ, tiếc thật. Tôi rất thích chúng.”",
+     "why": "that's a pity = tiếc thật, thật đáng tiếc.",
+     "hint": "Nghĩa: tiếc thật; thật đáng tiếc",
+     "new": [],
+     "tw": "that's a pity",
+     "ipa": "/ðæts ə ˈpɪt.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Dress shop",
+     "s": "___ they don't have this dress in a bigger size, because it would be perfect for my sister's wedding.",
+     "acc": [
+      "It's a shame that",
+      "It’s a shame that",
+      "It is a shame that"
+     ],
+     "vi": "Thật tiếc là họ không có chiếc váy này ở cỡ lớn hơn, vì nó sẽ rất hợp cho đám cưới của chị tôi.",
+     "why": "It's a shame that + mệnh đề = thật tiếc rằng...",
+     "hint": "Nghĩa: thật tiếc rằng...",
+     "new": [],
+     "tw": "It's a shame that",
+     "ipa": "/ɪts ə ʃeɪm ðæt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Coat shop",
+     "s": "I went back to buy the coat yesterday, but someone had already bought the last one. ___ !",
+     "acc": [
+      "What a shame"
+     ],
+     "vi": "Hôm qua tôi quay lại mua áo khoác nhưng đã có người mua chiếc cuối cùng. Tiếc quá!",
+     "why": "What a shame! = Tiếc quá! (cảm thán).",
+     "hint": "Nghĩa: Tiếc quá!",
+     "new": [],
+     "tw": "What a shame!",
+     "ipa": "/wɒt ə ʃeɪm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Jacket shop",
+     "s": "The jacket was a little more expensive than I'd planned, but it fitted me perfectly, so I said, “___ .”",
+     "acc": [
+      "I'll take it",
+      "I’ll take it",
+      "I will take it"
+     ],
+     "vi": "Chiếc áo khoác đắt hơn tôi dự tính một chút nhưng rất vừa nên tôi nói: “Tôi lấy cái này.”",
+     "why": "I'll take it. = Tôi lấy món này (quyết định mua).",
+     "hint": "Nghĩa: Tôi lấy/mua món này.",
+     "new": [],
+     "tw": "I'll take it."
+    },
+    {
+     "type": "tx",
+     "ctx": "Dress shop",
+     "s": "I liked the dress, but even after the discount it was still too expensive, so I said, “Thanks, ___ .”",
+     "acc": [
+      "I'll leave it",
+      "I’ll leave it",
+      "I will leave it"
+     ],
+     "vi": "Tôi thích chiếc váy nhưng ngay cả sau khi giảm giá nó vẫn quá đắt nên tôi nói: “Cảm ơn, tôi thôi.”",
+     "why": "I'll leave it. = Thôi, tôi không mua nữa.",
+     "hint": "Nghĩa: Tôi thôi, không mua nữa.",
+     "new": [],
+     "tw": "I'll leave it."
+    },
+    {
+     "type": "tx",
+     "ctx": "Helpline",
+     "s": "I called the helpline because there was ___ the phone I bought yesterday; the screen kept turning black.",
+     "acc": [
+      "something wrong with"
+     ],
+     "vi": "Tôi gọi đường dây hỗ trợ vì chiếc điện thoại mua hôm qua có vấn đề; màn hình cứ tối đen.",
+     "why": "something wrong with sth = có trục trặc/vấn đề gì đó với cái gì.",
+     "hint": "Nghĩa: có vấn đề gì đó với cái gì",
+     "new": [
+      {
+       "w": "helpline",
+       "vi": "đường dây hỗ trợ"
+      }
+     ],
+     "tw": "something wrong with something",
+     "ipa": "/ˌsʌm.θɪŋ rɑːŋ wɪð ˌsʌm.θɪŋ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Returns desk",
+     "s": "The shop agreed to ___ when I returned the damaged item together with the receipt.",
+     "acc": [
+      "give me a refund"
+     ],
+     "vi": "Cửa hàng đồng ý hoàn tiền cho tôi khi tôi trả lại món hàng hỏng cùng hóa đơn.",
+     "why": "give sb a refund = hoàn tiền cho ai.",
+     "hint": "Nghĩa: hoàn tiền cho ai",
+     "new": [
+      {
+       "w": "receipt",
+       "vi": "hóa đơn"
+      },
+      {
+       "w": "damaged",
+       "vi": "bị hỏng"
+      }
+     ],
+     "tw": "give somebody a refund",
+     "ipa": "/ɡɪv ˌsʌm.bə.di ə ˈriː.fʌnd/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Supermarket",
+     "s": "I bought ___ at the supermarket because they were on special offer, and I ate half of them on the way home.",
+     "acc": [
+      "a bunch of grapes"
+     ],
+     "vi": "Tôi mua một chùm nho ở siêu thị vì đang khuyến mãi và đã ăn hết nửa trên đường về nhà.",
+     "why": "a bunch of grapes = một chùm nho.",
+     "hint": "Nghĩa: một chùm nho",
+     "new": [
+      {
+       "w": "special offer",
+       "vi": "khuyến mãi"
+      }
+     ],
+     "tw": "a bunch of grapes",
+     "ipa": "/ə bʌntʃ əv ɡreɪps/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Family dinner",
+     "s": "My grandmother often buys a ___ for the whole family to share after dinner; its thick skin takes a while to peel.",
+     "acc": [
+      "pomelo"
+     ],
+     "vi": "Bà tôi thường mua một quả bưởi để cả nhà cùng ăn sau bữa tối; vỏ dày của nó khá mất công bóc.",
+     "why": "pomelo = quả bưởi (to, vỏ dày, múi ngọt hơi chua).",
+     "hint": "Nghĩa: quả bưởi",
+     "new": [
+      {
+       "w": "thick",
+       "vi": "dày"
+      }
+     ],
+     "tw": "pomelo",
+     "ipa": "/ˈpɑː.mə.loʊ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Breakfast",
+     "s": "___ can taste quite bitter, so some people sprinkle sugar over it before eating.",
+     "acc": [
+      "Grapefruit",
+      "Grapefruits"
+     ],
+     "vi": "Bưởi chùm có thể có vị khá đắng nên một số người rắc đường lên trước khi ăn.",
+     "why": "grapefruit = bưởi chùm (vị chua đắng).",
+     "hint": "Nghĩa: bưởi chùm",
+     "new": [
+      {
+       "w": "sprinkle",
+       "vi": "rắc"
+      },
+      {
+       "w": "bitter",
+       "vi": "đắng"
+      }
+     ],
+     "tw": "grapefruit",
+     "ipa": "/ˈɡreɪp.fruːt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Market",
+     "s": "These ___ aren't ripe yet, so we should wait a few days before eating them.",
+     "acc": [
+      "persimmons",
+      "persimmon"
+     ],
+     "vi": "Những quả hồng này chưa chín nên chúng ta nên đợi vài ngày trước khi ăn.",
+     "why": "persimmon = quả hồng.",
+     "hint": "Nghĩa: quả hồng",
+     "new": [],
+     "tw": "persimmon",
+     "ipa": "/pɚˈsɪm.ən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Salad",
+     "s": "I added some ___ seeds to my salad to make it more colourful and a little sweeter.",
+     "acc": [
+      "pomegranate"
+     ],
+     "vi": "Tôi thêm ít hạt lựu vào món salad để trông nhiều màu hơn và ngọt hơn một chút.",
+     "why": "pomegranate = quả lựu (nhiều hạt đỏ mọng).",
+     "hint": "Nghĩa: quả lựu",
+     "new": [],
+     "tw": "pomegranate",
+     "ipa": "/ˈpɑː.məˌɡræn.ɪt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Home",
+     "s": "I usually keep ___ in the fridge because I prefer eating it cold on hot afternoons.",
+     "acc": [
+      "cantaloupe"
+     ],
+     "vi": "Tôi thường để dưa lưới trong tủ lạnh vì thích ăn lạnh vào những buổi chiều nóng.",
+     "why": "cantaloupe = dưa lưới ruột cam.",
+     "hint": "Nghĩa: dưa lưới vàng",
+     "new": [],
+     "tw": "cantaloupe",
+     "ipa": "/ˈkæn.t̬ə.loʊp/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Street market",
+     "s": "I bought some ___ from a fruit stall at the street market and ate them dipped in salt and chilli.",
+     "acc": [
+      "guavas",
+      "guava"
+     ],
+     "vi": "Tôi mua ít ổi ở một sạp trái cây ngoài chợ và chấm muối ớt để ăn.",
+     "why": "guava = quả ổi.",
+     "hint": "Nghĩa: quả ổi",
+     "new": [
+      {
+       "w": "stall",
+       "vi": "sạp"
+      }
+     ],
+     "tw": "guava",
+     "ipa": "/ˈɡwɑː.və/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Summer",
+     "s": "___ are sweet and juicy, especially when they are fresh, but the rough red skin must be peeled first.",
+     "acc": [
+      "Lychees",
+      "Lychee"
+     ],
+     "vi": "Quả vải ngọt và mọng nước, đặc biệt khi còn tươi, nhưng phải bóc lớp vỏ sần đỏ trước.",
+     "why": "lychee = quả vải.",
+     "hint": "Nghĩa: quả vải",
+     "new": [],
+     "tw": "lychee",
+     "ipa": "/ˈliː.tʃiː/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Kitchen",
+     "s": "I bought ___ , but I couldn't eat all of them before they became too ripe.",
+     "acc": [
+      "a bunch of bananas"
+     ],
+     "vi": "Tôi mua một nải chuối nhưng không ăn hết kịp trước khi chúng chín quá.",
+     "why": "a bunch of bananas = một nải chuối.",
+     "hint": "Nghĩa: một nải/chùm chuối",
+     "new": [],
+     "tw": "a bunch of bananas",
+     "ipa": "/ə bʌntʃ əv bəˈnæn.əz/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Office",
+     "s": "I often take a ___ to work because it's easy to peel and eat at my desk.",
+     "acc": [
+      "mandarin"
+     ],
+     "vi": "Tôi thường mang một quả quýt đi làm vì nó dễ bóc và ăn ngay tại bàn.",
+     "why": "mandarin = quả quýt (vỏ dễ bóc).",
+     "hint": "Nghĩa: quả quýt",
+     "new": [],
+     "tw": "mandarin",
+     "ipa": "/ˈmæn.dɚ.ɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Fruit stall",
+     "s": "___ can be quite expensive when they are not in season, so we only buy them in summer.",
+     "acc": [
+      "Mangosteens",
+      "Mangosteen"
+     ],
+     "vi": "Măng cụt có thể khá đắt khi trái mùa nên chúng tôi chỉ mua vào mùa hè.",
+     "why": "mangosteen = quả măng cụt.",
+     "hint": "Nghĩa: quả măng cụt",
+     "new": [],
+     "tw": "mangosteen",
+     "ipa": "/ˈmæŋ.ɡə.stiːn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Kitchen",
+     "s": "This ___ is soft enough to eat now, so we can open it and scoop out the white flesh.",
+     "acc": [
+      "custard apple"
+     ],
+     "vi": "Quả na này đã đủ mềm để ăn rồi nên chúng ta có thể bẻ ra và múc phần thịt trắng.",
+     "why": "custard apple = quả na (mãng cầu ta).",
+     "hint": "Nghĩa: quả na/mãng cầu ta",
+     "new": [
+      {
+       "w": "scoop out",
+       "vi": "múc ra"
+      }
+     ],
+     "tw": "custard apple",
+     "ipa": "/ˈkʌs.tɚd ˌæp.əl/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Summer drinks",
+     "s": "My mother uses ___ to make a refreshing drink in hot weather, adding ice and a spoonful of honey.",
+     "acc": [
+      "passion fruit"
+     ],
+     "vi": "Mẹ tôi dùng chanh dây để pha thức uống giải khát khi trời nóng, thêm đá và một thìa mật ong.",
+     "why": "passion fruit = chanh dây (chanh leo).",
+     "hint": "Nghĩa: chanh dây/chanh leo",
+     "new": [
+      {
+       "w": "spoonful",
+       "vi": "một thìa"
+      }
+     ],
+     "tw": "passion fruit",
+     "ipa": "/ˈpæʃ.ən ˌfruːt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Neighbourhood",
+     "s": "We bought some fresh ___ from a small stall near our house; the red shells are covered with soft hairs.",
+     "acc": [
+      "rambutans",
+      "rambutan"
+     ],
+     "vi": "Chúng tôi mua ít chôm chôm tươi ở một sạp nhỏ gần nhà; vỏ đỏ phủ đầy lông mềm.",
+     "why": "rambutan = quả chôm chôm.",
+     "hint": "Nghĩa: quả chôm chôm",
+     "new": [
+      {
+       "w": "stall",
+       "vi": "sạp"
+      }
+     ],
+     "tw": "rambutan",
+     "ipa": "/ræmˈbuː.tən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Home",
+     "s": "I added some ___ juice to my tea because I had a sore throat and wanted something warm.",
+     "acc": [
+      "lemon"
+     ],
+     "vi": "Tôi thêm ít nước chanh vàng vào trà vì bị đau họng và muốn uống gì đó ấm.",
+     "why": "lemon = quả chanh vàng (vỏ vàng, rất chua).",
+     "hint": "Nghĩa: quả chanh vàng",
+     "new": [
+      {
+       "w": "sore throat",
+       "vi": "đau họng"
+      }
+     ],
+     "tw": "lemon",
+     "ipa": "/ˈlem.ən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Salad",
+     "s": "She squeezed some ___ juice over the salad before serving it, giving it a sharp green flavour.",
+     "acc": [
+      "lime"
+     ],
+     "vi": "Cô vắt ít nước chanh xanh lên món salad trước khi dọn, tạo vị chua tươi.",
+     "why": "lime = quả chanh xanh (chanh ta, vỏ xanh).",
+     "hint": "Nghĩa: quả chanh xanh",
+     "new": [],
+     "tw": "lime",
+     "ipa": "/laɪm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Breakfast",
+     "s": "I sometimes have ___ for breakfast because it's light and easy to eat.",
+     "acc": [
+      "papaya"
+     ],
+     "vi": "Đôi khi tôi ăn đu đủ vào bữa sáng vì nó nhẹ bụng và dễ ăn.",
+     "why": "papaya = quả đu đủ.",
+     "hint": "Nghĩa: quả đu đủ",
+     "new": [],
+     "tw": "papaya",
+     "ipa": "/pəˈpaɪ.ə/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Office",
+     "s": "I ate two ___ as a snack instead of buying sweets from the vending machine.",
+     "acc": [
+      "plums",
+      "plum"
+     ],
+     "vi": "Tôi ăn hai quả mận làm đồ ăn nhẹ thay vì mua kẹo ở máy bán hàng tự động.",
+     "why": "plum = quả mận.",
+     "hint": "Nghĩa: quả mận",
+     "new": [
+      {
+       "w": "vending machine",
+       "vi": "máy bán hàng tự động"
+      }
+     ],
+     "tw": "plum",
+     "ipa": "/plʌm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Breakfast",
+     "s": "I added some ___ to my cereal this morning, and they turned the milk slightly pink.",
+     "acc": [
+      "raspberries",
+      "raspberry"
+     ],
+     "vi": "Sáng nay tôi thêm ít quả mâm xôi vào ngũ cốc và chúng làm sữa hơi hồng.",
+     "why": "raspberry = quả mâm xôi đỏ.",
+     "hint": "Nghĩa: quả mâm xôi đỏ",
+     "new": [
+      {
+       "w": "cereal",
+       "vi": "ngũ cốc"
+      }
+     ],
+     "tw": "raspberry",
+     "ipa": "/ˈræz.ber.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Supermarket",
+     "s": "I usually buy ___ when they are on special offer because they can be expensive.",
+     "acc": [
+      "blueberries",
+      "blueberry"
+     ],
+     "vi": "Tôi thường mua việt quất khi chúng đang khuyến mãi vì có thể khá đắt.",
+     "why": "blueberry = quả việt quất.",
+     "hint": "Nghĩa: quả việt quất",
+     "new": [],
+     "tw": "blueberry",
+     "ipa": "/ˈbluːˌber.i/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Market",
+     "s": "___ is usually softer and sweeter, so I always press the skin gently before I buy it.",
+     "acc": [
+      "Ripe fruit"
+     ],
+     "vi": "Trái cây chín thường mềm và ngọt hơn nên tôi luôn ấn nhẹ lên vỏ trước khi mua.",
+     "why": "ripe fruit = trái cây chín (mềm, ngọt).",
+     "hint": "Nghĩa: trái cây chín",
+     "new": [
+      {
+       "w": "press",
+       "vi": "ấn"
+      }
+     ],
+     "tw": "ripe fruit",
+     "ipa": "/raɪp fruːt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Kitchen",
+     "s": "Don't eat this ___ yet; it is hard and sour and might upset your stomach.",
+     "acc": [
+      "unripe fruit"
+     ],
+     "vi": "Đừng ăn quả chưa chín này vội; nó cứng, chua và có thể làm bạn đau bụng.",
+     "why": "unripe fruit = trái cây chưa chín.",
+     "hint": "Nghĩa: trái cây chưa chín",
+     "new": [
+      {
+       "w": "upset your stomach",
+       "vi": "làm đau bụng"
+      }
+     ],
+     "tw": "unripe fruit",
+     "ipa": "/ˌʌnˈraɪp fruːt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Fruit stall",
+     "s": "Mangoes are usually cheaper and tastier when they ___ , so I buy them in summer.",
+     "acc": [
+      "are in season",
+      "'re in season",
+      "’re in season"
+     ],
+     "vi": "Xoài thường rẻ hơn và ngon hơn khi đúng mùa nên tôi mua vào mùa hè.",
+     "why": "be in season = đang vào mùa (rau quả).",
+     "hint": "Nghĩa: đúng mùa",
+     "new": [],
+     "tw": "be in season",
+     "ipa": "/ɪn ˈsiː.zən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Supermarket",
+     "s": "Some fruit becomes expensive when it ___ , because supermarkets have to import it from other countries.",
+     "acc": [
+      "is out of season",
+      "’s out of season",
+      "'s out of season"
+     ],
+     "vi": "Một số loại trái cây trở nên đắt khi trái mùa vì siêu thị phải nhập từ nước khác.",
+     "why": "be out of season = trái mùa, hết mùa.",
+     "hint": "Nghĩa: trái mùa",
+     "new": [],
+     "tw": "be out of season",
+     "ipa": "/aʊt əv ˈsiː.zən/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Party",
+     "s": "I ___ and put it on a plate so that my guests could help themselves.",
+     "acc": [
+      "sliced the fruit"
+     ],
+     "vi": "Tôi thái trái cây thành lát và đặt lên đĩa để khách tự lấy ăn.",
+     "why": "slice the fruit = thái trái cây thành lát.",
+     "hint": "Nghĩa: thái trái cây thành lát",
+     "new": [
+      {
+       "w": "help themselves",
+       "vi": "tự lấy"
+      }
+     ],
+     "tw": "slice the fruit",
+     "ipa": "/slaɪs ðə fruːt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Office",
+     "s": "You need to ___ a mandarin before eating it, because the skin is bitter.",
+     "acc": [
+      "peel"
+     ],
+     "vi": "Bạn cần bóc vỏ quả quýt trước khi ăn vì vỏ đắng.",
+     "why": "peel a fruit = gọt/bóc vỏ trái cây.",
+     "hint": "Nghĩa: gọt/bóc vỏ trái cây",
+     "new": [],
+     "tw": "peel a fruit",
+     "ipa": "/piːl ə fruːt/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Salad",
+     "s": "Please ___ a lime over the salad just before you eat it, so the vegetables stay fresh and crunchy.",
+     "acc": [
+      "squeeze"
+     ],
+     "vi": "Hãy vắt một quả chanh xanh lên salad ngay trước khi ăn để rau luôn tươi và giòn.",
+     "why": "squeeze a lemon/lime = vắt chanh.",
+     "hint": "Nghĩa: vắt chanh",
+     "new": [],
+     "tw": "squeeze a lemon",
+     "ipa": "/skwiːz ə ˈlem.ən/, /skwiːz ə laɪm/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Exam hall",
+     "s": "The teacher put the exam papers on the first desk and asked the students to ___ until every row had one.",
+     "acc": [
+      "pass them down the line",
+      "pass the papers down the line",
+      "pass it down the line"
+     ],
+     "vi": "Giáo viên đặt bài thi trên bàn đầu và yêu cầu học sinh chuyền dọc theo hàng cho đến khi mỗi dãy có một bản.",
+     "why": "pass sth down the line = chuyền thứ gì dọc theo hàng người.",
+     "hint": "Nghĩa: chuyền thứ gì dọc theo hàng người",
+     "new": [],
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Traffic",
+     "s": "I was late for the meeting because ___ near the office, so I had to leave my car in a car park ten minutes away.",
+     "acc": [
+      "there was nowhere to park",
+      "there is nowhere to park"
+     ],
+     "vi": "Tôi trễ cuộc họp vì gần văn phòng không có chỗ đậu xe nên phải gửi xe ở bãi cách đó mười phút.",
+     "why": "there's nowhere to park = không có chỗ đậu xe.",
+     "hint": "Nghĩa: không có chỗ đậu xe",
+     "new": [],
+     "tw": "nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Countryside walk",
+     "s": "We followed a ___ through the fields because the main road was closed for repairs.",
+     "acc": [
+      "footpath"
+     ],
+     "vi": "Chúng tôi đi theo lối đi bộ băng qua cánh đồng vì đường chính bị đóng để sửa chữa.",
+     "why": "footpath = lối đi bộ, đường mòn cho người đi bộ.",
+     "hint": "Nghĩa: lối đi bộ, đường mòn dành cho người đi bộ",
+     "new": [
+      {
+       "w": "repairs",
+       "vi": "sửa chữa"
+      }
+     ],
+     "tw": "footpath",
+     "ipa": "/ˈfʊt.pɑːθ/"
+    },
+    {
+     "type": "tx",
+     "ctx": "Market trip",
+     "s": "You should bring some cash ___ your credit card doesn't work at the market.",
+     "acc": [
+      "in case"
+     ],
+     "vi": "Bạn nên mang theo ít tiền mặt phòng khi thẻ tín dụng không dùng được ở chợ.",
+     "why": "in case = phòng khi (chuẩn bị trước cho điều có thể xảy ra).",
+     "hint": "Nghĩa: Phòng khi, trong trường hợp",
+     "new": [],
+     "tw": "in case"
+    },
+    {
+     "type": "tx",
+     "ctx": "Bank",
+     "s": "The bank will approve your loan ___ you can show proof of a regular income.",
+     "acc": [
+      "provided that",
+      "provided"
+     ],
+     "vi": "Ngân hàng sẽ duyệt khoản vay của bạn với điều kiện bạn chứng minh được thu nhập đều đặn.",
+     "why": "provided that = với điều kiện là.",
+     "hint": "Nghĩa: với điều kiện/ miễn là",
+     "new": [
+      {
+       "w": "loan",
+       "vi": "khoản vay"
+      },
+      {
+       "w": "proof",
+       "vi": "bằng chứng"
+      }
+     ],
+     "tw": "provided that"
+    },
+    {
+     "type": "tx",
+     "ctx": "Renting",
+     "s": "You can keep the apartment ___ you pay the rent on time and look after the furniture.",
+     "acc": [
+      "as long as"
+     ],
+     "vi": "Bạn có thể giữ căn hộ miễn là trả tiền thuê đúng hạn và giữ gìn đồ đạc.",
+     "why": "as long as = miễn là, với điều kiện.",
+     "hint": "Nghĩa: với điều kiện/ miễn là",
+     "new": [
+      {
+       "w": "furniture",
+       "vi": "đồ nội thất"
+      }
+     ],
+     "tw": "as long as"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Chọn từ",
+   "note": "Chọn từ hoặc cụm đúng nhất cho chỗ trống; bấm lựa chọn để nghe phát âm.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Fitting room",
+     "s": "The trousers looked perfect in the catalogue, but when I tried them on, the waist was so small that they simply didn't ___ me.",
+     "o": [
+      "fit",
+      "wear",
+      "carry"
+     ],
+     "a": "fit",
+     "vi": "Chiếc quần trông hoàn hảo trong danh mục, nhưng khi mặc thử thì vòng eo nhỏ đến mức đơn giản là chúng không vừa với tôi.",
+     "why": "fit sb = vừa kích cỡ với ai (khác suit = hợp, đẹp với ai).",
+     "new": [
+      {
+       "w": "catalogue",
+       "vi": "danh mục hàng"
+      },
+      {
+       "w": "waist",
+       "vi": "vòng eo"
+      }
+     ],
+     "tw": "fit",
+     "ipa": "/fɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hiking trip",
+     "s": "These walking boots are light and comfortable, and because they ___ , I can hike all day without getting any blisters.",
+     "o": [
+      "fit well",
+      "match well",
+      "sell well"
+     ],
+     "a": "fit well",
+     "vi": "Đôi giày đi bộ này nhẹ và thoải mái, và vì chúng vừa chân nên tôi có thể đi bộ đường dài cả ngày mà không bị phồng rộp.",
+     "why": "fit well = vừa vặn, đúng cỡ (nói về quần áo, giày dép).",
+     "new": [
+      {
+       "w": "hike",
+       "vi": "đi bộ đường dài"
+      },
+      {
+       "w": "blisters",
+       "vi": "vết phồng rộp"
+      }
+     ],
+     "tw": "fit well",
+     "ipa": "/fɪt wel/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Winter shopping",
+     "s": "The sleeves of this coat are so short that it ___ , and I can see my wrists whenever I lift my arms.",
+     "o": [
+      "doesn't quite fit",
+      "doesn't quite pay",
+      "doesn't quite help"
+     ],
+     "a": "doesn't quite fit",
+     "vi": "Tay áo của chiếc áo khoác này ngắn đến mức nó không vừa lắm, và tôi thấy cổ tay mỗi khi giơ tay lên.",
+     "why": "doesn't quite fit = không hoàn toàn vừa (hơi chật/rộng/ngắn).",
+     "new": [
+      {
+       "w": "sleeves",
+       "vi": "tay áo"
+      },
+      {
+       "w": "wrists",
+       "vi": "cổ tay"
+      }
+     ],
+     "tw": "doesn't quite fit",
+     "ipa": "/ˈdʌz.ənt kwaɪt fɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "After the holidays",
+     "s": "After the holidays, my favourite jeans feel ___ at the waist, so I've decided to start walking to work every day.",
+     "o": [
+      "a bit tight",
+      "a bit loose",
+      "a bit cheap"
+     ],
+     "a": "a bit tight",
+     "vi": "Sau kỳ nghỉ, chiếc quần jeans yêu thích của tôi hơi chật ở eo nên tôi quyết định bắt đầu đi bộ đến chỗ làm mỗi ngày.",
+     "why": "a bit tight = hơi chật, hơi bó (quần áo, giày).",
+     "new": [
+      {
+       "w": "waist",
+       "vi": "vòng eo"
+      }
+     ],
+     "tw": "a bit tight",
+     "ipa": "/ə bɪt taɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "After training",
+     "s": "Since he lost weight during his marathon training, all of his old shirts now feel too ___ , and he needs to buy new ones.",
+     "o": [
+      "loose",
+      "narrow",
+      "rough"
+     ],
+     "a": "loose",
+     "vi": "Vì giảm cân trong quá trình tập luyện marathon nên tất cả áo sơ mi cũ của anh giờ quá rộng và anh cần mua áo mới.",
+     "why": "loose (adj) = rộng, lỏng, không ôm sát người.",
+     "new": [
+      {
+       "w": "marathon",
+       "vi": "cuộc chạy marathon"
+      }
+     ],
+     "tw": "loose",
+     "ipa": "/luːs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hairdresser's",
+     "s": "My friends all agreed that short hair would ___ me better than long hair, so I finally made an appointment at the hairdresser.",
+     "o": [
+      "suit",
+      "fit",
+      "hold"
+     ],
+     "a": "suit",
+     "vi": "Bạn bè tôi đều đồng ý rằng tóc ngắn sẽ hợp với tôi hơn tóc dài nên cuối cùng tôi đã đặt lịch ở tiệm làm tóc.",
+     "why": "suit sb = hợp, làm ai trông đẹp hơn (khác fit = vừa kích cỡ).",
+     "new": [
+      {
+       "w": "appointment",
+       "vi": "cuộc hẹn"
+      }
+     ],
+     "tw": "suit",
+     "ipa": "/suːt ˈsʌm.bə.di ˈbet.ə(r)/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Fashion store",
+     "s": "She spent an hour choosing a scarf that would ___ the colour of her coat, but nothing in the shop looked quite right.",
+     "o": [
+      "match",
+      "catch",
+      "copy"
+     ],
+     "a": "match",
+     "vi": "Cô ấy mất một tiếng chọn khăn quàng hợp với màu áo khoác, nhưng không món nào trong cửa hàng trông thật sự đúng ý.",
+     "why": "match sth = hợp, đồng bộ (màu sắc, kiểu dáng) với thứ khác.",
+     "new": [
+      {
+       "w": "scarf",
+       "vi": "khăn quàng"
+      }
+     ],
+     "tw": "match",
+     "ipa": "/mætʃ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Jewellery",
+     "s": "The designer chose silver earrings that ___ the buttons on her coat, which made the whole outfit look elegant.",
+     "o": [
+      "match perfectly",
+      "contrast sharply",
+      "disappear slowly"
+     ],
+     "a": "match perfectly",
+     "vi": "Nhà thiết kế chọn đôi khuyên tai bạc hợp hoàn hảo với cúc áo khoác, khiến cả bộ trang phục trông thanh lịch.",
+     "why": "match perfectly = hợp hoàn hảo, rất ăn khớp.",
+     "new": [
+      {
+       "w": "earrings",
+       "vi": "khuyên tai"
+      },
+      {
+       "w": "elegant",
+       "vi": "thanh lịch"
+      }
+     ],
+     "tw": "match perfectly",
+     "ipa": "/mætʃ ˈpɜː.fɪkt.li/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Restaurant",
+     "s": "Red wine does not always ___ fish, so the waiter recommended a light white wine instead.",
+     "o": [
+      "go with",
+      "care for",
+      "wait for"
+     ],
+     "a": "go with",
+     "vi": "Rượu vang đỏ không phải lúc nào cũng hợp với cá nên người phục vụ gợi ý rượu vang trắng nhẹ.",
+     "why": "go with sth = hợp, kết hợp tốt với thứ khác.",
+     "new": [
+      {
+       "w": "recommended",
+       "vi": "gợi ý"
+      }
+     ],
+     "tw": "go with",
+     "ipa": "/ɡoʊ wɪð/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking class",
+     "s": "Fresh herbs ___ grilled fish, so the chef adds them to almost every sauce he makes in the restaurant.",
+     "o": [
+      "go well with",
+      "get rid of",
+      "keep away from"
+     ],
+     "a": "go well with",
+     "vi": "Rau thơm tươi rất hợp với cá nướng nên đầu bếp thêm chúng vào hầu hết nước sốt ông làm trong nhà hàng.",
+     "why": "go well with = rất hợp với (màu sắc, món ăn, đồ vật).",
+     "new": [
+      {
+       "w": "herbs",
+       "vi": "rau thơm"
+      },
+      {
+       "w": "sauce",
+       "vi": "nước sốt"
+      }
+     ],
+     "tw": "go well with",
+     "ipa": "/ɡoʊ wel wɪð/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Flower shop",
+     "s": "Orange and purple flowers ___ in a vase, so the florist often puts them in the same bouquet for weddings.",
+     "o": [
+      "look good together",
+      "taste good together",
+      "sound good together"
+     ],
+     "a": "look good together",
+     "vi": "Hoa cam và hoa tím trông rất hợp nhau trong bình nên người bán hoa thường cắm chúng chung một bó cho đám cưới.",
+     "why": "look good together = trông hợp nhau, phối với nhau đẹp.",
+     "new": [
+      {
+       "w": "florist",
+       "vi": "người bán hoa"
+      },
+      {
+       "w": "bouquet",
+       "vi": "bó hoa"
+      }
+     ],
+     "tw": "look good together",
+     "ipa": "/lʊk ɡʊd təˈɡeð.ə(r)/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Housing",
+     "s": "Many students look for a flat in the city centre at ___ , but rents have risen sharply in recent years.",
+     "o": [
+      "a reasonable price",
+      "a reasonable speed",
+      "a reasonable noise"
+     ],
+     "a": "a reasonable price",
+     "vi": "Nhiều sinh viên tìm căn hộ ở trung tâm với giá hợp lý nhưng tiền thuê nhà đã tăng mạnh những năm gần đây.",
+     "why": "a reasonable price = mức giá hợp lý, không quá đắt.",
+     "new": [
+      {
+       "w": "rents",
+       "vi": "tiền thuê nhà"
+      },
+      {
+       "w": "sharply",
+       "vi": "mạnh"
+      }
+     ],
+     "tw": "a reasonable price",
+     "ipa": "/ə ˈriː.zən.ə.bəl praɪs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Local café",
+     "s": "Customers keep returning to the little café near the station, because the coffee is excellent and ___ .",
+     "o": [
+      "the price is reasonable",
+      "the price is unfair",
+      "the price is missing"
+     ],
+     "a": "the price is reasonable",
+     "vi": "Khách cứ quay lại quán cà phê nhỏ gần ga vì cà phê rất ngon và giá cả hợp lý.",
+     "why": "the price is reasonable = giá cả hợp lý, chấp nhận được.",
+     "new": [
+      {
+       "w": "excellent",
+       "vi": "xuất sắc"
+      }
+     ],
+     "tw": "the price is reasonable"
+    },
+    {
+     "type": "mc",
+     "ctx": "Concert",
+     "s": "“The concert has been cancelled because of the storm.” — “Oh no, ___ ! I was really looking forward to it.”",
+     "o": [
+      "That's a shame",
+      "That's a bargain",
+      "That's a relief"
+     ],
+     "a": "That's a shame",
+     "vi": "“Buổi hòa nhạc bị hủy vì bão.” — “Ôi không, tiếc thật! Tôi đã rất mong chờ nó.”",
+     "why": "That's a shame. = Tiếc thật (đáp lại tin không tốt).",
+     "new": [
+      {
+       "w": "cancelled",
+       "vi": "bị hủy"
+      },
+      {
+       "w": "looking forward to",
+       "vi": "mong chờ"
+      }
+     ],
+     "tw": "That's a shame",
+     "ipa": "/ðæts ə ʃeɪm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Airport",
+     "s": "“Our flight to Da Nang has been delayed until tomorrow morning.” — “Oh, ___ . We'll miss the first day of the festival.”",
+     "o": [
+      "that's a pity",
+      "that's a joke",
+      "that's a surprise"
+     ],
+     "a": "that's a pity",
+     "vi": "“Chuyến bay đến Đà Nẵng bị hoãn đến sáng mai.” — “Ồ, tiếc thật. Chúng ta sẽ lỡ ngày đầu của lễ hội.”",
+     "why": "that's a pity = tiếc thật, thật đáng tiếc.",
+     "new": [
+      {
+       "w": "delayed",
+       "vi": "bị hoãn"
+      }
+     ],
+     "tw": "that's a pity",
+     "ipa": "/ðæts ə ˈpɪt.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Museum",
+     "s": "___ the museum closes so early on Sundays, because many tourists only arrive in the afternoon.",
+     "o": [
+      "It's a shame that",
+      "It's a promise that",
+      "It's a secret that"
+     ],
+     "a": "It's a shame that",
+     "vi": "Thật tiếc là bảo tàng đóng cửa quá sớm vào Chủ nhật, vì nhiều du khách chỉ đến vào buổi chiều.",
+     "why": "It's a shame that + mệnh đề = thật tiếc rằng...",
+     "new": [
+      {
+       "w": "tourists",
+       "vi": "du khách"
+      }
+     ],
+     "tw": "It's a shame that",
+     "ipa": "/ɪts ə ʃeɪm ðæt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Sports match",
+     "s": "The match had to be cancelled because the pitch was flooded, and the players had trained for months. ___ !",
+     "o": [
+      "What a shame",
+      "What a relief",
+      "What a bargain"
+     ],
+     "a": "What a shame",
+     "vi": "Trận đấu phải hủy vì sân bị ngập, trong khi các cầu thủ đã tập luyện nhiều tháng. Tiếc quá!",
+     "why": "What a shame! = Tiếc quá! (cảm thán).",
+     "new": [
+      {
+       "w": "pitch",
+       "vi": "sân bóng"
+      },
+      {
+       "w": "flooded",
+       "vi": "bị ngập"
+      }
+     ],
+     "tw": "What a shame",
+     "ipa": "/wɒt ə ʃeɪm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Sale",
+     "s": "After the assistant offered me a ten percent discount, I stopped hesitating and said, “___ .”",
+     "o": [
+      "I'll take it",
+      "I'll leave it",
+      "I'll fix it"
+     ],
+     "a": "I'll take it",
+     "vi": "Sau khi nhân viên giảm giá mười phần trăm, tôi hết do dự và nói: “Tôi lấy cái này.”",
+     "why": "I'll take it. = Tôi lấy món này (quyết định mua).",
+     "new": [
+      {
+       "w": "hesitating",
+       "vi": "do dự"
+      },
+      {
+       "w": "discount",
+       "vi": "giảm giá"
+      }
+     ],
+     "tw": "I'll take it"
+    },
+    {
+     "type": "mc",
+     "ctx": "Phone shop",
+     "s": "The phone had a scratch on the screen and the shop refused to lower the price, so I told the assistant, “___ .”",
+     "o": [
+      "I'll leave it",
+      "I'll take it",
+      "I'll wear it"
+     ],
+     "a": "I'll leave it",
+     "vi": "Chiếc điện thoại có vết xước trên màn hình và cửa hàng không chịu giảm giá nên tôi nói với nhân viên: “Tôi thôi.”",
+     "why": "I'll leave it. = Thôi, tôi không mua nữa.",
+     "new": [
+      {
+       "w": "scratch",
+       "vi": "vết xước"
+      },
+      {
+       "w": "refused",
+       "vi": "từ chối"
+      }
+     ],
+     "tw": "I'll leave it"
+    },
+    {
+     "type": "mc",
+     "ctx": "Garage",
+     "s": "The mechanic listened to the engine for a minute and said there was ___ the brakes, so he advised me not to drive.",
+     "o": [
+      "something wrong with",
+      "something good about",
+      "nothing wrong with"
+     ],
+     "a": "something wrong with",
+     "vi": "Thợ máy nghe động cơ một phút rồi nói phanh có vấn đề nên khuyên tôi đừng lái xe.",
+     "why": "something wrong with sth = có trục trặc/vấn đề gì đó với cái gì.",
+     "new": [
+      {
+       "w": "mechanic",
+       "vi": "thợ máy"
+      },
+      {
+       "w": "brakes",
+       "vi": "phanh"
+      }
+     ],
+     "tw": "something wrong with",
+     "ipa": "/ˌsʌm.θɪŋ rɑːŋ wɪð ˌsʌm.θɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Airline",
+     "s": "Because the flight was cancelled, the airline promised to ___ within seven working days.",
+     "o": [
+      "give me a refund",
+      "give me a review",
+      "give me a reward"
+     ],
+     "a": "give me a refund",
+     "vi": "Vì chuyến bay bị hủy, hãng hàng không hứa sẽ hoàn tiền cho tôi trong vòng bảy ngày làm việc.",
+     "why": "give sb a refund = hoàn tiền cho ai.",
+     "new": [
+      {
+       "w": "working days",
+       "vi": "ngày làm việc"
+      }
+     ],
+     "tw": "give me a refund",
+     "ipa": "/ɡɪv ˌsʌm.bə.di ə ˈriː.fʌnd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cheese board",
+     "s": "The waiter put ___ on the cheese board, and we picked them off one by one while we chatted for hours.",
+     "o": [
+      "a bunch of grapes",
+      "a pair of grapes",
+      "a bar of grapes"
+     ],
+     "a": "a bunch of grapes",
+     "vi": "Người phục vụ đặt một chùm nho lên khay phô mai và chúng tôi hái từng quả trong lúc trò chuyện hàng giờ.",
+     "why": "a bunch of grapes = một chùm nho.",
+     "new": [
+      {
+       "w": "cheese board",
+       "vi": "khay phô mai"
+      }
+     ],
+     "tw": "a bunch of grapes",
+     "ipa": "/ə bʌntʃ əv ɡreɪps/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Fruit market",
+     "s": "A ___ is much bigger than an orange, with thick skin and sweet, slightly sour segments that many Vietnamese families eat during Tet.",
+     "o": [
+      "pomelo",
+      "plum",
+      "papaya"
+     ],
+     "a": "pomelo",
+     "vi": "Quả bưởi to hơn cam nhiều, vỏ dày, múi ngọt hơi chua mà nhiều gia đình Việt ăn dịp Tết.",
+     "why": "pomelo = quả bưởi (to, vỏ dày, múi ngọt hơi chua).",
+     "new": [
+      {
+       "w": "segments",
+       "vi": "múi, tép"
+      }
+     ],
+     "tw": "pomelo",
+     "ipa": "/ˈpɑː.mə.loʊ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health clinic",
+     "s": "My doctor warned me that ___ juice can interfere with some medicines, so I switched to apple juice.",
+     "o": [
+      "grapefruit",
+      "grapes",
+      "mandarin"
+     ],
+     "a": "grapefruit",
+     "vi": "Bác sĩ cảnh báo nước ép bưởi chùm có thể ảnh hưởng đến một số loại thuốc nên tôi chuyển sang nước ép táo.",
+     "why": "grapefruit = bưởi chùm (vị chua đắng).",
+     "new": [
+      {
+       "w": "interfere with",
+       "vi": "gây ảnh hưởng đến"
+      }
+     ],
+     "tw": "grapefruit",
+     "ipa": "/ˈɡreɪp.fruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Mountain village",
+     "s": "In late autumn, orange ___ hang on bare branches in the northern mountains; they taste unpleasantly dry until they are fully ripe, so farmers also dry them.",
+     "o": [
+      "persimmons",
+      "pineapples",
+      "peanuts"
+     ],
+     "a": "persimmons",
+     "vi": "Cuối thu, những quả hồng cam treo trên cành trụi lá ở vùng núi phía Bắc; chúng chát khó chịu cho đến khi chín hẳn nên nông dân cũng đem sấy khô.",
+     "why": "persimmon = quả hồng.",
+     "new": [
+      {
+       "w": "bare",
+       "vi": "trụi"
+      },
+      {
+       "w": "branches",
+       "vi": "cành cây"
+      }
+     ],
+     "tw": "persimmons",
+     "ipa": "/pɚˈsɪm.ən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Biology lesson",
+     "s": "Inside the hard red skin of a ___ , there are hundreds of tiny seeds covered in sweet juice.",
+     "o": [
+      "pomegranate",
+      "pineapple",
+      "pumpkin"
+     ],
+     "a": "pomegranate",
+     "vi": "Bên trong lớp vỏ đỏ cứng của quả lựu có hàng trăm hạt nhỏ phủ đầy nước ngọt.",
+     "why": "pomegranate = quả lựu (nhiều hạt đỏ mọng).",
+     "new": [
+      {
+       "w": "tiny",
+       "vi": "nhỏ xíu"
+      }
+     ],
+     "tw": "pomegranate",
+     "ipa": "/ˈpɑː.məˌɡræn.ɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dessert menu",
+     "s": "The ___ has a rough, pale skin and sweet orange flesh, and it is often served as a refreshing dessert in summer.",
+     "o": [
+      "cantaloupe",
+      "coconut",
+      "cucumber"
+     ],
+     "a": "cantaloupe",
+     "vi": "Dưa lưới có vỏ sần màu nhạt và ruột cam ngọt, thường được dùng làm món tráng miệng giải khát mùa hè.",
+     "why": "cantaloupe = dưa lưới ruột cam.",
+     "new": [
+      {
+       "w": "refreshing",
+       "vi": "sảng khoái"
+      }
+     ],
+     "tw": "cantaloupe",
+     "ipa": "/ˈkæn.t̬ə.loʊp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Nutrition class",
+     "s": "One ___ contains more vitamin C than an orange, and its crunchy green flesh is popular as a healthy snack in Vietnam.",
+     "o": [
+      "guava",
+      "grape",
+      "ginger"
+     ],
+     "a": "guava",
+     "vi": "Một quả ổi chứa nhiều vitamin C hơn một quả cam, và phần thịt xanh giòn của nó là món ăn nhẹ tốt cho sức khỏe ở Việt Nam.",
+     "why": "guava = quả ổi.",
+     "new": [
+      {
+       "w": "crunchy",
+       "vi": "giòn"
+      }
+     ],
+     "tw": "guava",
+     "ipa": "/ˈɡwɑː.və/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Northern market",
+     "s": "Vendors in the north sell bags of ___ in early summer; you peel off the bumpy red shell to reach the white, sweet flesh.",
+     "o": [
+      "lychees",
+      "lemons",
+      "limes"
+     ],
+     "a": "lychees",
+     "vi": "Người bán ở miền Bắc bán từng túi vải đầu mùa hè; bạn bóc lớp vỏ sần đỏ để ăn phần thịt trắng ngọt.",
+     "why": "lychee = quả vải.",
+     "new": [
+      {
+       "w": "vendors",
+       "vi": "người bán hàng rong"
+      }
+     ],
+     "tw": "lychees",
+     "ipa": "/ˈliː.tʃiː/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Street vendor",
+     "s": "The street vendor tied ___ to the back of his bicycle and rode slowly towards the market.",
+     "o": [
+      "a bunch of bananas",
+      "a loaf of bananas",
+      "a bottle of bananas"
+     ],
+     "a": "a bunch of bananas",
+     "vi": "Người bán hàng rong buộc một nải chuối vào sau xe đạp và đạp chậm về phía chợ.",
+     "why": "a bunch of bananas = một nải chuối.",
+     "new": [
+      {
+       "w": "tied",
+       "vi": "buộc"
+      }
+     ],
+     "tw": "a bunch of bananas",
+     "ipa": "/ə bʌntʃ əv bəˈnæn.əz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Lunar New Year",
+     "s": "During Tet, many families display a small ___ tree decorated with red envelopes; the loose-skinned, sweet fruit is also easy to peel.",
+     "o": [
+      "mandarin",
+      "mango",
+      "melon"
+     ],
+     "a": "mandarin",
+     "vi": "Dịp Tết, nhiều gia đình trưng cây quýt nhỏ trang trí lì xì; quả vỏ lỏng, ngọt cũng rất dễ bóc.",
+     "why": "mandarin = quả quýt (vỏ dễ bóc).",
+     "new": [
+      {
+       "w": "decorated",
+       "vi": "được trang trí"
+      }
+     ],
+     "tw": "mandarin",
+     "ipa": "/ˈmæn.dɚ.ɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking show",
+     "s": "When you open the thick purple shell of a ___ , you find sweet white segments, which is why people call it the queen of fruits.",
+     "o": [
+      "mangosteen",
+      "mango",
+      "melon"
+     ],
+     "a": "mangosteen",
+     "vi": "Khi mở lớp vỏ tím dày của măng cụt, bạn thấy các múi trắng ngọt, vì thế người ta gọi nó là nữ hoàng của trái cây.",
+     "why": "mangosteen = quả măng cụt.",
+     "new": [
+      {
+       "w": "shell",
+       "vi": "vỏ cứng"
+      }
+     ],
+     "tw": "mangosteen",
+     "ipa": "/ˈmæŋ.ɡə.stiːn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Fruit shop",
+     "s": "The bumpy green skin of a ___ splits open when it is ripe, revealing creamy white flesh with many black seeds.",
+     "o": [
+      "custard apple",
+      "pineapple",
+      "crab apple"
+     ],
+     "a": "custard apple",
+     "vi": "Vỏ xanh sần của quả na nứt ra khi chín, để lộ phần thịt trắng mịn với nhiều hạt đen.",
+     "why": "custard apple = quả na (mãng cầu ta).",
+     "new": [
+      {
+       "w": "splits open",
+       "vi": "nứt ra"
+      }
+     ],
+     "tw": "custard apple",
+     "ipa": "/ˈkʌs.tɚd ˌæp.əl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Breakfast",
+     "s": "The small purple fruit has a wrinkled skin, and inside there is sour yellow pulp full of black seeds, so I often add ___ to my yoghurt.",
+     "o": [
+      "passion fruit",
+      "star fruit",
+      "jackfruit"
+     ],
+     "a": "passion fruit",
+     "vi": "Quả nhỏ màu tím có vỏ nhăn, bên trong là phần cùi vàng chua đầy hạt đen nên tôi hay thêm chanh dây vào sữa chua.",
+     "why": "passion fruit = chanh dây (chanh leo).",
+     "new": [
+      {
+       "w": "wrinkled",
+       "vi": "nhăn"
+      },
+      {
+       "w": "pulp",
+       "vi": "cùi, phần thịt nhão"
+      }
+     ],
+     "tw": "passion fruit",
+     "ipa": "/ˈpæʃ.ən ˌfruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Tropical fruit",
+     "s": "The red, hairy shell of a ___ is easy to twist open, and inside there is a white, juicy fruit around a seed.",
+     "o": [
+      "rambutan",
+      "raspberry",
+      "radish"
+     ],
+     "a": "rambutan",
+     "vi": "Vỏ đỏ có lông của quả chôm chôm dễ bẻ ra, bên trong là phần thịt trắng mọng nước quanh hạt.",
+     "why": "rambutan = quả chôm chôm.",
+     "new": [
+      {
+       "w": "twist",
+       "vi": "vặn"
+      }
+     ],
+     "tw": "rambutan",
+     "ipa": "/ræmˈbuː.tən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Seafood restaurant",
+     "s": "Cut a bright yellow ___ in half and squeeze it over fried fish to add a sharp, sour taste.",
+     "o": [
+      "lemon",
+      "pear",
+      "coconut"
+     ],
+     "a": "lemon",
+     "vi": "Cắt đôi một quả chanh vàng rồi vắt lên cá chiên để thêm vị chua gắt.",
+     "why": "lemon = quả chanh vàng (vỏ vàng, rất chua).",
+     "new": [
+      {
+       "w": "sharp",
+       "vi": "gắt"
+      }
+     ],
+     "tw": "lemon",
+     "ipa": "/ˈlem.ən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cocktail bar",
+     "s": "The bartender dropped a slice of small, round green ___ into my mojito, and its fresh sour smell filled the glass.",
+     "o": [
+      "lime",
+      "plum",
+      "pear"
+     ],
+     "a": "lime",
+     "vi": "Người pha chế thả một lát chanh xanh nhỏ tròn vào ly mojito của tôi và mùi chua tươi lan khắp ly.",
+     "why": "lime = quả chanh xanh (chanh ta, vỏ xanh).",
+     "new": [
+      {
+       "w": "bartender",
+       "vi": "người pha chế"
+      }
+     ],
+     "tw": "lime",
+     "ipa": "/laɪm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Thai restaurant",
+     "s": "The orange flesh of a ___ is soft and sweet, and unripe green ones are shredded to make spicy salads.",
+     "o": [
+      "papaya",
+      "peach",
+      "parsley"
+     ],
+     "a": "papaya",
+     "vi": "Thịt cam của quả đu đủ mềm và ngọt, còn quả xanh chưa chín được bào sợi để làm gỏi cay.",
+     "why": "papaya = quả đu đủ.",
+     "new": [
+      {
+       "w": "shredded",
+       "vi": "bào sợi"
+      }
+     ],
+     "tw": "papaya",
+     "ipa": "/pəˈpaɪ.ə/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Highlands",
+     "s": "Mai Chau is famous for its purple ___ , which farmers pick in early summer and sell by the roadside.",
+     "o": [
+      "plums",
+      "pineapples",
+      "peanuts"
+     ],
+     "a": "plums",
+     "vi": "Mai Châu nổi tiếng với mận tím mà nông dân hái đầu mùa hè và bán ven đường.",
+     "why": "plum = quả mận.",
+     "new": [
+      {
+       "w": "roadside",
+       "vi": "ven đường"
+      }
+     ],
+     "tw": "plums",
+     "ipa": "/plʌm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Supermarket",
+     "s": "Made of many tiny round sections, soft ___ fall apart easily, so the cashier packed them gently in a small box.",
+     "o": [
+      "raspberries",
+      "rambutans",
+      "radishes"
+     ],
+     "a": "raspberries",
+     "vi": "Được tạo từ nhiều phần tròn nhỏ, quả mâm xôi mềm dễ vỡ nên thu ngân xếp nhẹ vào một hộp nhỏ.",
+     "why": "raspberry = quả mâm xôi đỏ.",
+     "new": [
+      {
+       "w": "fall apart",
+       "vi": "vỡ ra"
+      }
+     ],
+     "tw": "raspberries",
+     "ipa": "/ˈræz.ber.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Health talk",
+     "s": "These small dark-blue berries are rich in antioxidants, so many nutritionists recommend eating ___ regularly.",
+     "o": [
+      "blueberries",
+      "cranberries",
+      "gooseberries"
+     ],
+     "a": "blueberries",
+     "vi": "Những quả mọng xanh đậm nhỏ này giàu chất chống oxy hóa nên nhiều chuyên gia dinh dưỡng khuyên ăn việt quất thường xuyên.",
+     "why": "blueberry = quả việt quất.",
+     "new": [
+      {
+       "w": "antioxidants",
+       "vi": "chất chống oxy hóa"
+      },
+      {
+       "w": "nutritionists",
+       "vi": "chuyên gia dinh dưỡng"
+      }
+     ],
+     "tw": "blueberries",
+     "ipa": "/ˈbluːˌber.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Supermarket",
+     "s": "At the end of the day, supermarkets often put ___ on discount, because it is soft and sweet but will not stay fresh for long.",
+     "o": [
+      "ripe fruit",
+      "rotten fruit",
+      "frozen fruit"
+     ],
+     "a": "ripe fruit",
+     "vi": "Cuối ngày, siêu thị thường giảm giá trái cây chín vì nó mềm và ngọt nhưng không giữ tươi được lâu.",
+     "why": "ripe fruit = trái cây chín (mềm, ngọt).",
+     "new": [
+      {
+       "w": "rotten",
+       "vi": "thối"
+      }
+     ],
+     "tw": "ripe fruit",
+     "ipa": "/raɪp fruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Home",
+     "s": "Green and hard, ___ often tastes sour, so my father leaves it on the kitchen table for a few days until it softens.",
+     "o": [
+      "unripe fruit",
+      "dried fruit",
+      "imported fruit"
+     ],
+     "a": "unripe fruit",
+     "vi": "Xanh và cứng, trái cây chưa chín thường chua nên bố tôi để nó trên bàn bếp vài ngày cho đến khi mềm.",
+     "why": "unripe fruit = trái cây chưa chín.",
+     "new": [
+      {
+       "w": "softens",
+       "vi": "trở nên mềm"
+      }
+     ],
+     "tw": "unripe fruit",
+     "ipa": "/ˌʌnˈraɪp fruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Farm shop",
+     "s": "Strawberries taste best and cost less when they ___ , which in my country is from March to May.",
+     "o": [
+      "are in season",
+      "are in fashion",
+      "are in danger"
+     ],
+     "a": "are in season",
+     "vi": "Dâu tây ngon nhất và rẻ hơn khi đúng mùa, ở nước tôi là từ tháng Ba đến tháng Năm.",
+     "why": "be in season = đang vào mùa (rau quả).",
+     "new": [],
+     "tw": "are in season",
+     "ipa": "/ɪn ˈsiː.zən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Market",
+     "s": "Cherries are always costly here because they ___ for most of the year, and shops have to get them from abroad.",
+     "o": [
+      "are out of season",
+      "are out of order",
+      "are out of date"
+     ],
+     "a": "are out of season",
+     "vi": "Anh đào ở đây luôn đắt vì chúng trái mùa gần như cả năm và cửa hàng phải lấy từ nước ngoài.",
+     "why": "be out of season = trái mùa, hết mùa.",
+     "new": [
+      {
+       "w": "costly",
+       "vi": "đắt đỏ"
+      }
+     ],
+     "tw": "are out of season",
+     "ipa": "/aʊt əv ˈsiː.zən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dessert",
+     "s": "Before serving dessert, Hana carefully ___ with a sharp knife and arranged the thin pieces on a plate like a flower.",
+     "o": [
+      "sliced the fruit",
+      "dried the fruit",
+      "poured the fruit"
+     ],
+     "a": "sliced the fruit",
+     "vi": "Trước khi dọn tráng miệng, Hana cẩn thận thái trái cây bằng dao sắc và xếp các lát mỏng lên đĩa như một bông hoa.",
+     "why": "slice the fruit = thái trái cây thành lát.",
+     "new": [
+      {
+       "w": "arranged",
+       "vi": "sắp xếp"
+      }
+     ],
+     "tw": "sliced the fruit",
+     "ipa": "/slaɪs ðə fruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking class",
+     "s": "Hold the knife carefully and ___ the mango, starting at the top and cutting off the skin in long strips.",
+     "o": [
+      "peel",
+      "pour",
+      "pack"
+     ],
+     "a": "peel",
+     "vi": "Cầm dao cẩn thận và gọt xoài, bắt đầu từ trên và cắt bỏ vỏ thành những dải dài.",
+     "why": "peel a fruit = gọt/bóc vỏ trái cây.",
+     "new": [
+      {
+       "w": "strips",
+       "vi": "dải"
+      }
+     ],
+     "tw": "peel",
+     "ipa": "/piːl ə fruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Soup",
+     "s": "Before you serve the seafood soup, ___ half a lime into the bowl to give it a fresh, sour taste.",
+     "o": [
+      "squeeze",
+      "stretch",
+      "scrub"
+     ],
+     "a": "squeeze",
+     "vi": "Trước khi dọn món canh hải sản, hãy vắt nửa quả chanh vào tô để tạo vị chua tươi.",
+     "why": "squeeze a lemon/lime = vắt chanh.",
+     "new": [
+      {
+       "w": "seafood",
+       "vi": "hải sản"
+      }
+     ],
+     "tw": "squeeze",
+     "ipa": "/skwiːz ə ˈlem.ən/, /skwiːz ə laɪm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Food bank",
+     "s": "At the food bank, volunteers stand in a long row, so heavy boxes can ___ until they reach the van without anyone carrying them far.",
+     "o": [
+      "be passed down the line",
+      "be thrown into the river",
+      "be lifted up the mountain"
+     ],
+     "a": "be passed down the line",
+     "vi": "Ở ngân hàng thực phẩm, tình nguyện viên đứng thành hàng dài nên các thùng nặng có thể được chuyền dọc hàng cho đến xe tải mà không ai phải mang đi xa.",
+     "why": "pass sth down the line = chuyền thứ gì dọc theo hàng người.",
+     "new": [
+      {
+       "w": "volunteers",
+       "vi": "tình nguyện viên"
+      }
+     ],
+     "tw": "be passed down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Old town",
+     "s": "Most tourists avoid the old town at weekends because ___ , and the narrow streets are usually blocked by traffic.",
+     "o": [
+      "there is nowhere to park",
+      "there is nothing to eat",
+      "there is nobody to ask"
+     ],
+     "a": "there is nowhere to park",
+     "vi": "Hầu hết du khách tránh khu phố cổ vào cuối tuần vì không có chỗ đậu xe và đường hẹp thường bị tắc.",
+     "why": "there's nowhere to park = không có chỗ đậu xe.",
+     "new": [
+      {
+       "w": "blocked",
+       "vi": "bị chặn"
+      }
+     ],
+     "tw": "there is nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "City council",
+     "s": "The council built a new ___ along the river so walkers and joggers no longer have to share the road with cars.",
+     "o": [
+      "footpath",
+      "motorway",
+      "platform"
+     ],
+     "a": "footpath",
+     "vi": "Hội đồng thành phố xây một lối đi bộ mới dọc sông để người đi bộ và người chạy bộ không phải chung đường với ô tô.",
+     "why": "footpath = lối đi bộ, đường mòn cho người đi bộ.",
+     "new": [
+      {
+       "w": "council",
+       "vi": "hội đồng địa phương"
+      },
+      {
+       "w": "joggers",
+       "vi": "người chạy bộ"
+      }
+     ],
+     "tw": "footpath",
+     "ipa": "/ˈfʊt.pɑːθ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Mountain trip",
+     "s": "I always pack a raincoat ___ the weather changes suddenly during our trip to the mountains.",
+     "o": [
+      "in case",
+      "as soon as",
+      "even though"
+     ],
+     "a": "in case",
+     "vi": "Tôi luôn mang áo mưa phòng khi thời tiết đột ngột thay đổi trong chuyến đi lên núi.",
+     "why": "in case = phòng khi (chuẩn bị trước cho điều có thể xảy ra).",
+     "new": [
+      {
+       "w": "pack",
+       "vi": "đóng gói, mang theo"
+      }
+     ],
+     "tw": "in case"
+    },
+    {
+     "type": "mc",
+     "ctx": "National park",
+     "s": "Tourists may enter the national park ___ they follow the rules and do not leave any rubbish behind.",
+     "o": [
+      "provided that",
+      "in spite of",
+      "as well as"
+     ],
+     "a": "provided that",
+     "vi": "Du khách có thể vào vườn quốc gia với điều kiện tuân thủ quy định và không để lại rác.",
+     "why": "provided that = với điều kiện là.",
+     "new": [
+      {
+       "w": "rubbish",
+       "vi": "rác"
+      }
+     ],
+     "tw": "provided that"
+    },
+    {
+     "type": "mc",
+     "ctx": "Exam",
+     "s": "Our teacher said we could use dictionaries in the exam ___ we did not share them with other students.",
+     "o": [
+      "as long as",
+      "as well as",
+      "as soon as"
+     ],
+     "a": "as long as",
+     "vi": "Giáo viên nói chúng tôi có thể dùng từ điển trong kỳ thi miễn là không cho học sinh khác mượn.",
+     "why": "as long as = miễn là, với điều kiện.",
+     "new": [
+      {
+       "w": "share",
+       "vi": "chia sẻ"
+      }
+     ],
+     "tw": "as long as"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Chọn nghĩa",
+   "note": "Đọc đoạn ngắn rồi chọn nghĩa tiếng Việt đúng của từ được hỏi.",
+   "qs": [
+    {
+     "type": "mc",
+     "ctx": "Growing up",
+     "s": "My brother grew a lot over the summer, so his old school uniform no longer fits him. His mother has to buy a new set before the term begins. What does “fit somebody” mean?",
+     "o": [
+      "vừa kích cỡ với ai",
+      "hợp với phong cách của ai",
+      "rẻ hơn đối với ai"
+     ],
+     "a": "vừa kích cỡ với ai",
+     "noblank": true,
+     "say": "My brother grew a lot over the summer, so his old school uniform no longer fits him. His mother has to buy a new set before the term begins.",
+     "vi": "Em trai tôi lớn nhanh trong mùa hè nên bộ đồng phục cũ không còn vừa với em nữa. Mẹ em phải mua một bộ mới trước khi học kỳ bắt đầu.",
+     "why": "fit sb = vừa kích cỡ với ai (khác suit = hợp, đẹp với ai).",
+     "new": [
+      {
+       "w": "uniform",
+       "vi": "đồng phục"
+      },
+      {
+       "w": "term",
+       "vi": "học kỳ"
+      }
+     ],
+     "tw": "fit somebody",
+     "ipa": "/fɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Sports shop",
+     "s": "When you buy running shoes, choose a pair that fit well, because shoes that are too small can cause blisters. Many shops even let you test them on a treadmill. What does “fit well” mean?",
+     "o": [
+      "vừa vặn, đúng cỡ",
+      "rẻ và bền",
+      "đẹp và hợp thời trang"
+     ],
+     "a": "vừa vặn, đúng cỡ",
+     "noblank": true,
+     "say": "When you buy running shoes, choose a pair that fit well, because shoes that are too small can cause blisters. Many shops even let you test them on a treadmill.",
+     "vi": "Khi mua giày chạy bộ, hãy chọn đôi vừa vặn, vì giày quá nhỏ có thể gây phồng rộp. Nhiều cửa hàng còn cho bạn thử trên máy chạy bộ.",
+     "why": "fit well = vừa vặn, đúng cỡ (nói về quần áo, giày dép).",
+     "new": [
+      {
+       "w": "treadmill",
+       "vi": "máy chạy bộ"
+      },
+      {
+       "w": "cause",
+       "vi": "gây ra"
+      }
+     ],
+     "tw": "fit well",
+     "ipa": "/fɪt wel/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Tailor's shop",
+     "s": "The tailor measured my father twice and said that the suit he bought online still doesn't quite fit across the chest. He recommended small adjustments instead of buying a new one. What does “doesn't quite fit” mean?",
+     "o": [
+      "không hoàn toàn vừa",
+      "không hề đắt tiền",
+      "không còn hợp thời trang"
+     ],
+     "a": "không hoàn toàn vừa",
+     "noblank": true,
+     "say": "The tailor measured my father twice and said that the suit he bought online still doesn't quite fit across the chest. He recommended small adjustments instead of buying a new one.",
+     "vi": "Thợ may đo bố tôi hai lần và nói rằng bộ vest ông mua trên mạng vẫn chưa vừa lắm ở phần ngực. Ông ấy khuyên chỉnh sửa nhỏ thay vì mua bộ mới.",
+     "why": "doesn't quite fit = không hoàn toàn vừa (hơi chật/rộng/ngắn).",
+     "new": [
+      {
+       "w": "tailor",
+       "vi": "thợ may"
+      },
+      {
+       "w": "adjustments",
+       "vi": "sự chỉnh sửa"
+      }
+     ],
+     "tw": "doesn't quite fit",
+     "ipa": "/ˈdʌz.ənt kwaɪt fɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "New boots",
+     "s": "These boots are a bit tight at first, but the salesperson said that the leather will stretch after a week of wear. I decided to wait and see. What does “a bit tight” mean?",
+     "o": [
+      "hơi chật",
+      "hơi nặng",
+      "hơi bẩn"
+     ],
+     "a": "hơi chật",
+     "noblank": true,
+     "say": "These boots are a bit tight at first, but the salesperson said that the leather will stretch after a week of wear. I decided to wait and see.",
+     "vi": "Đôi bốt này lúc đầu hơi chật, nhưng nhân viên bán hàng nói da sẽ giãn ra sau một tuần mang. Tôi quyết định chờ xem sao.",
+     "why": "a bit tight = hơi chật, hơi bó (quần áo, giày).",
+     "new": [
+      {
+       "w": "leather",
+       "vi": "da thuộc"
+      },
+      {
+       "w": "stretch",
+       "vi": "giãn ra"
+      }
+     ],
+     "tw": "a bit tight",
+     "ipa": "/ə bɪt taɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hot weather",
+     "s": "In hot countries, many people wear loose cotton clothes because they let air move around the body. As a result, they feel much cooler during the day. What does “loose” mean?",
+     "o": [
+      "rộng, không ôm sát",
+      "dày và nặng",
+      "bó sát người"
+     ],
+     "a": "rộng, không ôm sát",
+     "noblank": true,
+     "say": "In hot countries, many people wear loose cotton clothes because they let air move around the body. As a result, they feel much cooler during the day.",
+     "vi": "Ở các nước nóng, nhiều người mặc quần áo cotton rộng vì chúng để không khí lưu thông quanh cơ thể. Nhờ vậy, họ thấy mát hơn nhiều vào ban ngày.",
+     "why": "loose (adj) = rộng, lỏng, không ôm sát người.",
+     "new": [
+      {
+       "w": "cotton",
+       "vi": "vải cotton"
+      }
+     ],
+     "tw": "loose",
+     "ipa": "/luːs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family party",
+     "s": "Everyone says that bright yellow suits my sister better than grey, because it makes her skin look warmer and her eyes look brighter. She wears it to every party. What does “suit somebody better” mean?",
+     "o": [
+      "hợp với ai hơn (trông đẹp hơn)",
+      "vừa kích cỡ hơn",
+      "rẻ hơn đối với ai"
+     ],
+     "a": "hợp với ai hơn (trông đẹp hơn)",
+     "noblank": true,
+     "say": "Everyone says that bright yellow suits my sister better than grey, because it makes her skin look warmer and her eyes look brighter. She wears it to every party.",
+     "vi": "Ai cũng nói màu vàng tươi hợp với chị tôi hơn màu xám vì nó làm da chị ấm hơn và mắt sáng hơn. Chị mặc nó đến mọi bữa tiệc.",
+     "why": "suit sb = hợp, làm ai trông đẹp hơn (khác fit = vừa kích cỡ).",
+     "new": [
+      {
+       "w": "skin",
+       "vi": "làn da"
+      }
+     ],
+     "tw": "suit somebody better",
+     "ipa": "/suːt ˈsʌm.bə.di ˈbet.ə(r)/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Home decoration",
+     "s": "The curtains in the living room don't match the sofa, which is why the room feels a little strange. We are going to repaint the walls to improve it. What does “match something” mean?",
+     "o": [
+      "hợp, đồng bộ với thứ khác",
+      "che khuất",
+      "làm sạch"
+     ],
+     "a": "hợp, đồng bộ với thứ khác",
+     "noblank": true,
+     "say": "The curtains in the living room don't match the sofa, which is why the room feels a little strange. We are going to repaint the walls to improve it.",
+     "vi": "Rèm cửa phòng khách không hợp với ghế sofa nên căn phòng hơi lạ mắt. Chúng tôi sẽ sơn lại tường để cải thiện.",
+     "why": "match sth = hợp, đồng bộ (màu sắc, kiểu dáng) với thứ khác.",
+     "new": [
+      {
+       "w": "curtains",
+       "vi": "rèm cửa"
+      },
+      {
+       "w": "repaint",
+       "vi": "sơn lại"
+      }
+     ],
+     "tw": "match something",
+     "ipa": "/mætʃ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Interior design",
+     "s": "The colour of the sofa matches perfectly with the walls, so the whole room looks calm and tidy. Visitors always assume it was designed by a professional. What does “match perfectly” mean?",
+     "o": [
+      "cực kỳ hợp",
+      "hơi lệch tông",
+      "hoàn toàn trái ngược"
+     ],
+     "a": "cực kỳ hợp",
+     "noblank": true,
+     "say": "The colour of the sofa matches perfectly with the walls, so the whole room looks calm and tidy. Visitors always assume it was designed by a professional.",
+     "vi": "Màu ghế sofa cực kỳ hợp với tường nên cả căn phòng trông yên bình và gọn gàng. Khách luôn nghĩ nó do chuyên gia thiết kế.",
+     "why": "match perfectly = hợp hoàn hảo, rất ăn khớp.",
+     "new": [
+      {
+       "w": "calm",
+       "vi": "yên bình"
+      },
+      {
+       "w": "assume",
+       "vi": "cho rằng"
+      }
+     ],
+     "tw": "match perfectly",
+     "ipa": "/mætʃ ˈpɜː.fɪkt.li/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Wardrobe",
+     "s": "This grey scarf goes with almost everything in my wardrobe, from formal shirts to casual hoodies. That's why I wear it nearly every winter day. What does “go with something” mean?",
+     "o": [
+      "hợp, kết hợp tốt với",
+      "đi cùng ai ra ngoài",
+      "thay thế cho"
+     ],
+     "a": "hợp, kết hợp tốt với",
+     "noblank": true,
+     "say": "This grey scarf goes with almost everything in my wardrobe, from formal shirts to casual hoodies. That's why I wear it nearly every winter day.",
+     "vi": "Chiếc khăn xám này hợp với hầu hết đồ trong tủ của tôi, từ sơ mi công sở đến áo hoodie thường ngày. Vì thế tôi quàng nó gần như mỗi ngày mùa đông.",
+     "why": "go with sth = hợp, kết hợp tốt với thứ khác.",
+     "new": [
+      {
+       "w": "wardrobe",
+       "vi": "tủ quần áo"
+      },
+      {
+       "w": "casual",
+       "vi": "thường ngày"
+      }
+     ],
+     "tw": "go with something",
+     "ipa": "/ɡoʊ wɪð/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dinner",
+     "s": "Cheese and fresh bread go well with a glass of red wine, so we ordered them as a starter. The waiter agreed that it was a classic choice. What does “go well with” mean?",
+     "o": [
+      "rất hợp với",
+      "thay thế hoàn toàn",
+      "gây hại cho"
+     ],
+     "a": "rất hợp với",
+     "noblank": true,
+     "say": "Cheese and fresh bread go well with a glass of red wine, so we ordered them as a starter. The waiter agreed that it was a classic choice.",
+     "vi": "Phô mai và bánh mì tươi rất hợp với một ly vang đỏ nên chúng tôi gọi làm món khai vị. Người phục vụ đồng ý đó là lựa chọn kinh điển.",
+     "why": "go well with = rất hợp với (màu sắc, món ăn, đồ vật).",
+     "new": [
+      {
+       "w": "starter",
+       "vi": "món khai vị"
+      },
+      {
+       "w": "classic",
+       "vi": "kinh điển"
+      }
+     ],
+     "tw": "go well with",
+     "ipa": "/ɡoʊ wel wɪð/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Old couple",
+     "s": "My grandparents always chose clothes that looked good together, such as a navy jacket with a pale blue shirt. Neighbours often complimented their style. What does “look good together” mean?",
+     "o": [
+      "trông hợp nhau",
+      "nhìn giống hệt nhau",
+      "trông cũ kỹ"
+     ],
+     "a": "trông hợp nhau",
+     "noblank": true,
+     "say": "My grandparents always chose clothes that looked good together, such as a navy jacket with a pale blue shirt. Neighbours often complimented their style.",
+     "vi": "Ông bà tôi luôn chọn quần áo trông hợp nhau, như áo khoác xanh navy với sơ mi xanh nhạt. Hàng xóm thường khen phong cách của họ.",
+     "why": "look good together = trông hợp nhau, phối với nhau đẹp.",
+     "new": [
+      {
+       "w": "pale",
+       "vi": "nhạt"
+      },
+      {
+       "w": "complimented",
+       "vi": "khen ngợi"
+      }
+     ],
+     "tw": "look good together",
+     "ipa": "/lʊk ɡʊd təˈɡeð.ə(r)/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel",
+     "s": "The hotel offers clean rooms and free breakfast at a reasonable price, so it is popular with backpackers on a tight budget. Bookings fill up quickly in summer. What does “a reasonable price” mean?",
+     "o": [
+      "mức giá hợp lý",
+      "mức giá quá đắt",
+      "mức giá cố định"
+     ],
+     "a": "mức giá hợp lý",
+     "noblank": true,
+     "say": "The hotel offers clean rooms and free breakfast at a reasonable price, so it is popular with backpackers on a tight budget. Bookings fill up quickly in summer.",
+     "vi": "Khách sạn có phòng sạch và bữa sáng miễn phí với giá hợp lý nên được khách du lịch bụi eo hẹp ngân sách ưa chuộng. Phòng kín rất nhanh vào mùa hè.",
+     "why": "a reasonable price = mức giá hợp lý, không quá đắt.",
+     "new": [
+      {
+       "w": "backpackers",
+       "vi": "khách du lịch bụi"
+      },
+      {
+       "w": "budget",
+       "vi": "ngân sách"
+      }
+     ],
+     "tw": "a reasonable price",
+     "ipa": "/ə ˈriː.zən.ə.bəl praɪs/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Student life",
+     "s": "Although the restaurant is in the city centre, the price is reasonable, so students often eat there after lectures. A main dish costs less than five dollars. What does “the price is reasonable” mean?",
+     "o": [
+      "giá cả hợp lý",
+      "giá rất cao",
+      "giá thay đổi mỗi ngày"
+     ],
+     "a": "giá cả hợp lý",
+     "noblank": true,
+     "say": "Although the restaurant is in the city centre, the price is reasonable, so students often eat there after lectures. A main dish costs less than five dollars.",
+     "vi": "Dù nhà hàng ở trung tâm thành phố nhưng giá hợp lý nên sinh viên thường ăn ở đó sau giờ học. Một món chính có giá dưới năm đô la.",
+     "why": "the price is reasonable = giá cả hợp lý, chấp nhận được.",
+     "new": [
+      {
+       "w": "lectures",
+       "vi": "bài giảng"
+      }
+     ],
+     "tw": "the price is reasonable"
+    },
+    {
+     "type": "mc",
+     "ctx": "Ticket office",
+     "s": "“I'm sorry, but the tickets for tonight's show are sold out.” “Oh, that's a shame. We drove two hours to get here.” What does “That's a shame.” mean?",
+     "o": [
+      "Tiếc thật.",
+      "Thật xấu hổ.",
+      "Tuyệt vời quá."
+     ],
+     "a": "Tiếc thật.",
+     "noblank": true,
+     "say": "“I'm sorry, but the tickets for tonight's show are sold out.” “Oh, that's a shame. We drove two hours to get here.”",
+     "vi": "“Xin lỗi, vé buổi diễn tối nay đã hết.” “Ồ, tiếc thật. Chúng tôi đã lái xe hai tiếng để đến đây.”",
+     "why": "That's a shame. = Tiếc thật (đáp lại tin không tốt).",
+     "new": [
+      {
+       "w": "sold out",
+       "vi": "bán hết"
+      }
+     ],
+     "tw": "That's a shame.",
+     "ipa": "/ðæts ə ʃeɪm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Neighbourhood",
+     "s": "My neighbour told me that the old cinema on our street will close next month. “It's a pity,” I replied, “because we've watched so many films there.” What does “that's a pity” mean?",
+     "o": [
+      "tiếc thật",
+      "đáng thương hại ai",
+      "thật đáng giá"
+     ],
+     "a": "tiếc thật",
+     "noblank": true,
+     "say": "My neighbour told me that the old cinema on our street will close next month. “It's a pity,” I replied, “because we've watched so many films there.”",
+     "vi": "Hàng xóm cho tôi biết rạp chiếu phim cũ trên phố sẽ đóng cửa tháng sau. “Tiếc thật,” tôi đáp, “vì chúng tôi đã xem rất nhiều phim ở đó.”",
+     "why": "that's a pity = tiếc thật, thật đáng tiếc.",
+     "new": [
+      {
+       "w": "cinema",
+       "vi": "rạp chiếu phim"
+      }
+     ],
+     "tw": "that's a pity",
+     "ipa": "/ðæts ə ˈpɪt.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Countryside",
+     "s": "It's a shame that so many young people leave the countryside, because the villages are becoming quieter every year. Local shops have started to close as a result. What does “It's a shame that” mean?",
+     "o": [
+      "thật tiếc rằng",
+      "thật ngạc nhiên rằng",
+      "điều may là"
+     ],
+     "a": "thật tiếc rằng",
+     "noblank": true,
+     "say": "It's a shame that so many young people leave the countryside, because the villages are becoming quieter every year. Local shops have started to close as a result.",
+     "vi": "Thật tiếc là rất nhiều người trẻ rời bỏ nông thôn, vì các ngôi làng ngày càng vắng lặng. Do đó, các cửa hàng địa phương bắt đầu đóng cửa.",
+     "why": "It's a shame that + mệnh đề = thật tiếc rằng...",
+     "new": [
+      {
+       "w": "countryside",
+       "vi": "nông thôn"
+      }
+     ],
+     "tw": "It's a shame that",
+     "ipa": "/ɪts ə ʃeɪm ðæt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Airport",
+     "s": "After saving for two years, Mai arrived at the airport and discovered her passport had expired. Her friends shook their heads and said, “What a shame!” What does “What a shame!” mean?",
+     "o": [
+      "Tiếc quá!",
+      "Thật may mắn!",
+      "Cẩn thận nhé!"
+     ],
+     "a": "Tiếc quá!",
+     "noblank": true,
+     "say": "After saving for two years, Mai arrived at the airport and discovered her passport had expired. Her friends shook their heads and said, “What a shame!”",
+     "vi": "Sau hai năm tiết kiệm, Mai đến sân bay và phát hiện hộ chiếu đã hết hạn. Bạn bè lắc đầu và nói: “Tiếc quá!”",
+     "why": "What a shame! = Tiếc quá! (cảm thán).",
+     "new": [
+      {
+       "w": "expired",
+       "vi": "hết hạn"
+      }
+     ],
+     "tw": "What a shame!",
+     "ipa": "/wɒt ə ʃeɪm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Watch shop",
+     "s": "The shop assistant showed me three watches, and I immediately liked the silver one. “I'll take it,” I said, and walked to the cashier. What does “I'll take it.” mean?",
+     "o": [
+      "Tôi lấy/mua món này.",
+      "Tôi sẽ mang nó đi sửa.",
+      "Tôi sẽ thử nó lại."
+     ],
+     "a": "Tôi lấy/mua món này.",
+     "noblank": true,
+     "say": "The shop assistant showed me three watches, and I immediately liked the silver one. “I'll take it,” I said, and walked to the cashier.",
+     "vi": "Nhân viên cho tôi xem ba chiếc đồng hồ và tôi thích ngay chiếc màu bạc. “Tôi lấy cái này,” tôi nói rồi đi đến quầy thu ngân.",
+     "why": "I'll take it. = Tôi lấy món này (quyết định mua).",
+     "new": [
+      {
+       "w": "cashier",
+       "vi": "thu ngân"
+      }
+     ],
+     "tw": "I'll take it."
+    },
+    {
+     "type": "mc",
+     "ctx": "Boutique",
+     "s": "The assistant held up the jacket and asked if I wanted to buy it. I checked the price tag, shook my head and said, “I'll leave it.” What does “I'll leave it.” mean?",
+     "o": [
+      "Tôi thôi, không mua nữa.",
+      "Tôi sẽ để nó ở nhà.",
+      "Tôi sẽ mặc luôn."
+     ],
+     "a": "Tôi thôi, không mua nữa.",
+     "noblank": true,
+     "say": "The assistant held up the jacket and asked if I wanted to buy it. I checked the price tag, shook my head and said, “I'll leave it.”",
+     "vi": "Nhân viên giơ chiếc áo khoác lên và hỏi tôi có muốn mua không. Tôi xem thẻ giá, lắc đầu và nói: “Tôi thôi.”",
+     "why": "I'll leave it. = Thôi, tôi không mua nữa.",
+     "new": [
+      {
+       "w": "price tag",
+       "vi": "thẻ giá"
+      }
+     ],
+     "tw": "I'll leave it."
+    },
+    {
+     "type": "mc",
+     "ctx": "Home",
+     "s": "When the washing machine began to make a loud noise, my mother realised there was something wrong with it. She called a repair service the same afternoon. What does “something wrong with something” mean?",
+     "o": [
+      "có vấn đề gì đó với",
+      "có một món quà cho",
+      "có điều thú vị về"
+     ],
+     "a": "có vấn đề gì đó với",
+     "noblank": true,
+     "say": "When the washing machine began to make a loud noise, my mother realised there was something wrong with it. She called a repair service the same afternoon.",
+     "vi": "Khi máy giặt bắt đầu phát ra tiếng ồn lớn, mẹ tôi nhận ra nó có trục trặc. Bà gọi dịch vụ sửa chữa ngay chiều hôm đó.",
+     "why": "something wrong with sth = có trục trặc/vấn đề gì đó với cái gì.",
+     "new": [
+      {
+       "w": "repair",
+       "vi": "sửa chữa"
+      }
+     ],
+     "tw": "something wrong with something",
+     "ipa": "/ˌsʌm.θɪŋ rɑːŋ wɪð ˌsʌm.θɪŋ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Electronics store",
+     "s": "My laptop stopped working after only two weeks, so I took it back to the store. The manager apologised and gave me a refund without asking any questions. What does “give somebody a refund” mean?",
+     "o": [
+      "hoàn tiền cho tôi",
+      "tặng quà cho tôi",
+      "bảo hành cho tôi"
+     ],
+     "a": "hoàn tiền cho tôi",
+     "noblank": true,
+     "say": "My laptop stopped working after only two weeks, so I took it back to the store. The manager apologised and gave me a refund without asking any questions.",
+     "vi": "Laptop của tôi hỏng chỉ sau hai tuần nên tôi mang trả cửa hàng. Quản lý xin lỗi và hoàn tiền cho tôi mà không hỏi gì.",
+     "why": "give sb a refund = hoàn tiền cho ai.",
+     "new": [
+      {
+       "w": "apologised",
+       "vi": "xin lỗi"
+      }
+     ],
+     "tw": "give somebody a refund",
+     "ipa": "/ɡɪv ˌsʌm.bə.di ə ˈriː.fʌnd/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Market",
+     "s": "At the market, a woman was selling red grapes. I asked for a bunch of grapes, and she weighed it carefully before putting it into my bag. What does “a bunch of grapes” mean?",
+     "o": [
+      "một chùm nho",
+      "một hộp nho",
+      "một ly nước nho"
+     ],
+     "a": "một chùm nho",
+     "noblank": true,
+     "say": "At the market, a woman was selling red grapes. I asked for a bunch of grapes, and she weighed it carefully before putting it into my bag.",
+     "vi": "Ở chợ có một người phụ nữ bán nho đỏ. Tôi xin một chùm nho và bà cân cẩn thận trước khi bỏ vào túi tôi.",
+     "why": "a bunch of grapes = một chùm nho.",
+     "new": [
+      {
+       "w": "weighed",
+       "vi": "cân"
+      }
+     ],
+     "tw": "a bunch of grapes",
+     "ipa": "/ə bʌntʃ əv ɡreɪps/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Mid-Autumn Festival",
+     "s": "On Mid-Autumn Festival, my family places a pomelo on the table next to the mooncakes. It is a large citrus fruit with thick skin and juicy segments. What does “pomelo” mean?",
+     "o": [
+      "quả bưởi",
+      "quả cam",
+      "quả dưa hấu"
+     ],
+     "a": "quả bưởi",
+     "noblank": true,
+     "say": "On Mid-Autumn Festival, my family places a pomelo on the table next to the mooncakes. It is a large citrus fruit with thick skin and juicy segments.",
+     "vi": "Vào Tết Trung thu, gia đình tôi đặt một quả bưởi trên bàn cạnh bánh trung thu. Đó là loại quả họ cam quýt lớn với vỏ dày và múi mọng nước.",
+     "why": "pomelo = quả bưởi (to, vỏ dày, múi ngọt hơi chua).",
+     "new": [
+      {
+       "w": "mooncakes",
+       "vi": "bánh trung thu"
+      },
+      {
+       "w": "citrus",
+       "vi": "họ cam quýt"
+      }
+     ],
+     "tw": "pomelo",
+     "ipa": "/ˈpɑː.mə.loʊ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hotel breakfast",
+     "s": "Half a grapefruit is a popular breakfast in many Western countries. Its flavour is sour and slightly bitter, and the flesh is often pink. What does “grapefruit” mean?",
+     "o": [
+      "bưởi chùm",
+      "quả chanh",
+      "quả mận"
+     ],
+     "a": "bưởi chùm",
+     "noblank": true,
+     "say": "Half a grapefruit is a popular breakfast in many Western countries. Its flavour is sour and slightly bitter, and the flesh is often pink.",
+     "vi": "Nửa quả bưởi chùm là bữa sáng phổ biến ở nhiều nước phương Tây. Vị chua và hơi đắng, phần thịt quả thường màu hồng.",
+     "why": "grapefruit = bưởi chùm (vị chua đắng).",
+     "new": [
+      {
+       "w": "flesh",
+       "vi": "phần thịt quả"
+      }
+     ],
+     "tw": "grapefruit",
+     "ipa": "/ˈɡreɪp.fruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dalat trip",
+     "s": "In Dalat, dried persimmons are sold as a popular gift. The fruit is orange, round and very sweet when it is fully ripe. What does “persimmon” mean?",
+     "o": [
+      "quả hồng",
+      "quả cà chua",
+      "quả đào"
+     ],
+     "a": "quả hồng",
+     "noblank": true,
+     "say": "In Dalat, dried persimmons are sold as a popular gift. The fruit is orange, round and very sweet when it is fully ripe.",
+     "vi": "Ở Đà Lạt, hồng sấy khô được bán làm quà phổ biến. Quả có màu cam, tròn và rất ngọt khi chín hẳn.",
+     "why": "persimmon = quả hồng.",
+     "new": [
+      {
+       "w": "gift",
+       "vi": "quà"
+      }
+     ],
+     "tw": "persimmon",
+     "ipa": "/pɚˈsɪm.ən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Kitchen",
+     "s": "The juice of a pomegranate stains clothes easily, so my aunt always wears an apron when she cuts one. The ruby-red seeds inside taste sweet and slightly sour. What does “pomegranate” mean?",
+     "o": [
+      "quả lựu",
+      "quả táo",
+      "quả dâu tây"
+     ],
+     "a": "quả lựu",
+     "noblank": true,
+     "say": "The juice of a pomegranate stains clothes easily, so my aunt always wears an apron when she cuts one. The ruby-red seeds inside taste sweet and slightly sour.",
+     "vi": "Nước quả lựu dễ làm bẩn quần áo nên dì tôi luôn đeo tạp dề khi cắt. Hạt đỏ ngọc bên trong có vị ngọt hơi chua.",
+     "why": "pomegranate = quả lựu (nhiều hạt đỏ mọng).",
+     "new": [
+      {
+       "w": "stains",
+       "vi": "làm ố"
+      },
+      {
+       "w": "apron",
+       "vi": "tạp dề"
+      }
+     ],
+     "tw": "pomegranate",
+     "ipa": "/ˈpɑː.məˌɡræn.ɪt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hiking",
+     "s": "After a long hike, we shared a cantaloupe. Its orange flesh was so sweet and juicy that nobody wanted to stop eating. What does “cantaloupe” mean?",
+     "o": [
+      "dưa lưới vàng",
+      "dưa chuột",
+      "quả bí đỏ"
+     ],
+     "a": "dưa lưới vàng",
+     "noblank": true,
+     "say": "After a long hike, we shared a cantaloupe. Its orange flesh was so sweet and juicy that nobody wanted to stop eating.",
+     "vi": "Sau chuyến đi bộ dài, chúng tôi chia nhau một quả dưa lưới. Ruột cam ngọt và mọng đến mức không ai muốn ngừng ăn.",
+     "why": "cantaloupe = dưa lưới ruột cam.",
+     "new": [
+      {
+       "w": "hike",
+       "vi": "chuyến đi bộ đường dài"
+      }
+     ],
+     "tw": "cantaloupe",
+     "ipa": "/ˈkæn.t̬ə.loʊp/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Countryside",
+     "s": "Children in the countryside often pick guavas straight from the tree after school. The fruit is crunchy, fragrant and sometimes eaten with salt. What does “guava” mean?",
+     "o": [
+      "quả ổi",
+      "quả mơ",
+      "quả vải"
+     ],
+     "a": "quả ổi",
+     "noblank": true,
+     "say": "Children in the countryside often pick guavas straight from the tree after school. The fruit is crunchy, fragrant and sometimes eaten with salt.",
+     "vi": "Trẻ em ở nông thôn thường hái ổi trực tiếp từ cây sau giờ học. Quả giòn, thơm và đôi khi ăn kèm muối.",
+     "why": "guava = quả ổi.",
+     "new": [
+      {
+       "w": "fragrant",
+       "vi": "thơm"
+      }
+     ],
+     "tw": "guava",
+     "ipa": "/ˈɡwɑː.və/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Fruit festival",
+     "s": "A lychee has a bumpy pink-red shell, not a hairy one, and soft, translucent flesh with a large dark seed inside. It is a favourite summer fruit in northern Vietnam. What does “lychee” mean?",
+     "o": [
+      "quả vải",
+      "quả chôm chôm",
+      "quả bơ"
+     ],
+     "a": "quả vải",
+     "noblank": true,
+     "say": "A lychee has a bumpy pink-red shell, not a hairy one, and soft, translucent flesh with a large dark seed inside. It is a favourite summer fruit in northern Vietnam.",
+     "vi": "Quả vải có vỏ sần màu hồng đỏ, không có lông, và phần thịt mềm trong mờ với hạt đen lớn bên trong. Đó là loại trái cây mùa hè yêu thích ở miền Bắc.",
+     "why": "lychee = quả vải.",
+     "new": [
+      {
+       "w": "translucent",
+       "vi": "trong mờ"
+      },
+      {
+       "w": "seed",
+       "vi": "hạt"
+      }
+     ],
+     "tw": "lychee",
+     "ipa": "/ˈliː.tʃiː/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Weekend market",
+     "s": "At the market, my mother carefully selected a bunch of bananas that were still slightly green. She said they would be ripe by the weekend. What does “a bunch of bananas” mean?",
+     "o": [
+      "một nải chuối",
+      "một quả chuối",
+      "một ly sinh tố chuối"
+     ],
+     "a": "một nải chuối",
+     "noblank": true,
+     "say": "At the market, my mother carefully selected a bunch of bananas that were still slightly green. She said they would be ripe by the weekend.",
+     "vi": "Ở chợ, mẹ tôi cẩn thận chọn một nải chuối còn hơi xanh. Bà nói cuối tuần chúng sẽ chín.",
+     "why": "a bunch of bananas = một nải chuối.",
+     "new": [
+      {
+       "w": "selected",
+       "vi": "chọn"
+      }
+     ],
+     "tw": "a bunch of bananas",
+     "ipa": "/ə bʌntʃ əv bəˈnæn.əz/"
+    },
+    {
+     "type": "mc",
+     "ctx": "School",
+     "s": "A mandarin is smaller and sweeter than a regular orange, and its loose skin comes off easily. Many children take one to school as a snack. What does “mandarin” mean?",
+     "o": [
+      "quả quýt",
+      "quả bưởi",
+      "quả chanh"
+     ],
+     "a": "quả quýt",
+     "noblank": true,
+     "say": "A mandarin is smaller and sweeter than a regular orange, and its loose skin comes off easily. Many children take one to school as a snack.",
+     "vi": "Quýt nhỏ và ngọt hơn cam thường, vỏ lỏng dễ bóc. Nhiều trẻ mang một quả đến trường làm đồ ăn nhẹ.",
+     "why": "mandarin = quả quýt (vỏ dễ bóc).",
+     "new": [
+      {
+       "w": "snack",
+       "vi": "đồ ăn nhẹ"
+      }
+     ],
+     "tw": "mandarin",
+     "ipa": "/ˈmæn.dɚ.ɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Travel guide",
+     "s": "Mangosteen is often called the queen of fruits in Southeast Asia. Its hard purple shell hides soft white segments that taste sweet and slightly sour. What does “mangosteen” mean?",
+     "o": [
+      "quả măng cụt",
+      "quả na",
+      "quả nho"
+     ],
+     "a": "quả măng cụt",
+     "noblank": true,
+     "say": "Mangosteen is often called the queen of fruits in Southeast Asia. Its hard purple shell hides soft white segments that taste sweet and slightly sour.",
+     "vi": "Măng cụt thường được gọi là nữ hoàng của trái cây ở Đông Nam Á. Vỏ tím cứng che giấu các múi trắng mềm vị ngọt hơi chua.",
+     "why": "mangosteen = quả măng cụt.",
+     "new": [
+      {
+       "w": "hides",
+       "vi": "che giấu"
+      }
+     ],
+     "tw": "mangosteen",
+     "ipa": "/ˈmæŋ.ɡə.stiːn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dessert",
+     "s": "A custard apple has bumpy green skin and creamy white flesh with shiny black seeds. When it is soft, it tastes like sweet pudding. What does “custard apple” mean?",
+     "o": [
+      "quả na/mãng cầu ta",
+      "quả táo",
+      "quả sầu riêng"
+     ],
+     "a": "quả na/mãng cầu ta",
+     "noblank": true,
+     "say": "A custard apple has bumpy green skin and creamy white flesh with shiny black seeds. When it is soft, it tastes like sweet pudding.",
+     "vi": "Quả na có vỏ xanh sần và thịt trắng mịn với hạt đen bóng. Khi mềm, nó có vị như pudding ngọt.",
+     "why": "custard apple = quả na (mãng cầu ta).",
+     "new": [
+      {
+       "w": "pudding",
+       "vi": "bánh pudding"
+      }
+     ],
+     "tw": "custard apple",
+     "ipa": "/ˈkʌs.tɚd ˌæp.əl/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Dessert shop",
+     "s": "To make a cold dessert, she scooped out the sour yellow pulp of a passion fruit and mixed it with yoghurt. The little black seeds can be eaten too. What does “passion fruit” mean?",
+     "o": [
+      "chanh dây",
+      "quả sung",
+      "quả lê"
+     ],
+     "a": "chanh dây",
+     "noblank": true,
+     "say": "To make a cold dessert, she scooped out the sour yellow pulp of a passion fruit and mixed it with yoghurt. The little black seeds can be eaten too.",
+     "vi": "Để làm món tráng miệng lạnh, cô múc phần cùi vàng chua của quả chanh dây và trộn với sữa chua. Hạt đen nhỏ cũng ăn được.",
+     "why": "passion fruit = chanh dây (chanh leo).",
+     "new": [
+      {
+       "w": "pulp",
+       "vi": "cùi quả"
+      }
+     ],
+     "tw": "passion fruit",
+     "ipa": "/ˈpæʃ.ən ˌfruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Mekong trip",
+     "s": "Rambutans are covered in soft red spikes that look like hair. Under the shell, the flesh is white, sweet and slightly sour, much like a lychee. What does “rambutan” mean?",
+     "o": [
+      "quả chôm chôm",
+      "quả nhãn",
+      "quả dâu"
+     ],
+     "a": "quả chôm chôm",
+     "noblank": true,
+     "say": "Rambutans are covered in soft red spikes that look like hair. Under the shell, the flesh is white, sweet and slightly sour, much like a lychee.",
+     "vi": "Chôm chôm phủ đầy gai mềm màu đỏ trông như tóc. Dưới vỏ là phần thịt trắng, ngọt hơi chua, khá giống quả vải.",
+     "why": "rambutan = quả chôm chôm.",
+     "new": [
+      {
+       "w": "spikes",
+       "vi": "gai"
+      }
+     ],
+     "tw": "rambutan",
+     "ipa": "/ræmˈbuː.tən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Kitchen tips",
+     "s": "A lemon is a bright yellow citrus fruit with very sour juice. People often add a slice to water or tea, or squeeze it over fish. What does “lemon” mean?",
+     "o": [
+      "quả chanh vàng",
+      "quả cam",
+      "quả bưởi"
+     ],
+     "a": "quả chanh vàng",
+     "noblank": true,
+     "say": "A lemon is a bright yellow citrus fruit with very sour juice. People often add a slice to water or tea, or squeeze it over fish.",
+     "vi": "Chanh vàng là loại quả họ cam quýt màu vàng tươi với nước rất chua. Người ta thường thêm một lát vào nước hoặc trà, hoặc vắt lên cá.",
+     "why": "lemon = quả chanh vàng (vỏ vàng, rất chua).",
+     "new": [
+      {
+       "w": "slice",
+       "vi": "lát"
+      }
+     ],
+     "tw": "lemon",
+     "ipa": "/ˈlem.ən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Vietnamese cooking",
+     "s": "In Vietnamese cooking, a lime is used more often than a lemon. Its green skin is thin, and its juice is added to dipping sauces and soups. What does “lime” mean?",
+     "o": [
+      "quả chanh xanh",
+      "quả chanh vàng",
+      "quả ổi"
+     ],
+     "a": "quả chanh xanh",
+     "noblank": true,
+     "say": "In Vietnamese cooking, a lime is used more often than a lemon. Its green skin is thin, and its juice is added to dipping sauces and soups.",
+     "vi": "Trong nấu ăn Việt, chanh xanh được dùng nhiều hơn chanh vàng. Vỏ xanh mỏng, nước chanh được thêm vào nước chấm và canh.",
+     "why": "lime = quả chanh xanh (chanh ta, vỏ xanh).",
+     "new": [
+      {
+       "w": "dipping sauces",
+       "vi": "nước chấm"
+      }
+     ],
+     "tw": "lime",
+     "ipa": "/laɪm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking class",
+     "s": "Green papaya is often shredded and mixed with chilli, lime and peanuts to make a crunchy salad. When ripe, the fruit turns orange and sweet. What does “papaya” mean?",
+     "o": [
+      "quả đu đủ",
+      "quả xoài",
+      "quả dưa hấu"
+     ],
+     "a": "quả đu đủ",
+     "noblank": true,
+     "say": "Green papaya is often shredded and mixed with chilli, lime and peanuts to make a crunchy salad. When ripe, the fruit turns orange and sweet.",
+     "vi": "Đu đủ xanh thường được bào sợi và trộn với ớt, chanh và đậu phộng để làm gỏi giòn. Khi chín, quả chuyển màu cam và ngọt.",
+     "why": "papaya = quả đu đủ.",
+     "new": [
+      {
+       "w": "crunchy",
+       "vi": "giòn"
+      }
+     ],
+     "tw": "papaya",
+     "ipa": "/pəˈpaɪ.ə/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Science class",
+     "s": "A plum is a small, round fruit with smooth purple skin and a single hard stone inside. It tastes sweet when ripe, but the skin can be sour. What does “plum” mean?",
+     "o": [
+      "quả mận",
+      "quả nho",
+      "quả anh đào"
+     ],
+     "a": "quả mận",
+     "noblank": true,
+     "say": "A plum is a small, round fruit with smooth purple skin and a single hard stone inside. It tastes sweet when ripe, but the skin can be sour.",
+     "vi": "Mận là loại quả nhỏ tròn có vỏ tím mịn và một hạt cứng bên trong. Khi chín vị ngọt nhưng vỏ có thể chua.",
+     "why": "plum = quả mận.",
+     "new": [
+      {
+       "w": "stone",
+       "vi": "hạt cứng"
+      }
+     ],
+     "tw": "plum",
+     "ipa": "/plʌm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Bakery",
+     "s": "Raspberries are soft red berries made of many tiny juicy sections, and they are delicate. They are used in jam, cakes and fruit yoghurt. What does “raspberry” mean?",
+     "o": [
+      "quả mâm xôi đỏ",
+      "quả việt quất",
+      "quả cà chua"
+     ],
+     "a": "quả mâm xôi đỏ",
+     "noblank": true,
+     "say": "Raspberries are soft red berries made of many tiny juicy sections, and they are delicate. They are used in jam, cakes and fruit yoghurt.",
+     "vi": "Mâm xôi là quả mọng đỏ mềm gồm nhiều phần nhỏ mọng nước và rất mỏng manh. Chúng được dùng làm mứt, bánh và sữa chua trái cây.",
+     "why": "raspberry = quả mâm xôi đỏ.",
+     "new": [
+      {
+       "w": "delicate",
+       "vi": "mỏng manh"
+      }
+     ],
+     "tw": "raspberry",
+     "ipa": "/ˈræz.ber.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Breakfast",
+     "s": "Many nutritionists recommend eating blueberries because they contain antioxidants. These small dark blue berries are often added to pancakes and muffins. What does “blueberry” mean?",
+     "o": [
+      "quả việt quất",
+      "quả mâm xôi",
+      "quả nho đen"
+     ],
+     "a": "quả việt quất",
+     "noblank": true,
+     "say": "Many nutritionists recommend eating blueberries because they contain antioxidants. These small dark blue berries are often added to pancakes and muffins.",
+     "vi": "Nhiều chuyên gia dinh dưỡng khuyên ăn việt quất vì chứa chất chống oxy hóa. Những quả mọng xanh đậm nhỏ này thường được thêm vào bánh kếp và bánh muffin.",
+     "why": "blueberry = quả việt quất.",
+     "new": [
+      {
+       "w": "pancakes",
+       "vi": "bánh kếp"
+      }
+     ],
+     "tw": "blueberry",
+     "ipa": "/ˈbluːˌber.i/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Orchard",
+     "s": "Farmers wait until the fruit is ripe before they pick it, because it tastes much better. A ripe peach, for example, is soft and smells sweet. What does “ripe fruit” mean?",
+     "o": [
+      "trái cây chín",
+      "trái cây đóng hộp",
+      "trái cây nhập khẩu"
+     ],
+     "a": "trái cây chín",
+     "noblank": true,
+     "say": "Farmers wait until the fruit is ripe before they pick it, because it tastes much better. A ripe peach, for example, is soft and smells sweet.",
+     "vi": "Nông dân đợi quả chín mới hái vì vị ngon hơn nhiều. Ví dụ, một quả đào chín thì mềm và có mùi ngọt.",
+     "why": "ripe fruit = trái cây chín (mềm, ngọt).",
+     "new": [
+      {
+       "w": "orchard",
+       "vi": "vườn cây ăn quả"
+      }
+     ],
+     "tw": "ripe fruit",
+     "ipa": "/raɪp fruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Cooking tips",
+     "s": "Unripe fruit is usually hard and sour, and it may cause a stomach ache if you eat too much. Putting it in a paper bag helps it ripen faster. What does “unripe fruit” mean?",
+     "o": [
+      "trái cây chưa chín",
+      "trái cây đã hỏng",
+      "trái cây ngâm đường"
+     ],
+     "a": "trái cây chưa chín",
+     "noblank": true,
+     "say": "Unripe fruit is usually hard and sour, and it may cause a stomach ache if you eat too much. Putting it in a paper bag helps it ripen faster.",
+     "vi": "Trái cây chưa chín thường cứng và chua, ăn nhiều có thể gây đau bụng. Cho vào túi giấy giúp nó chín nhanh hơn.",
+     "why": "unripe fruit = trái cây chưa chín.",
+     "new": [
+      {
+       "w": "ripen",
+       "vi": "chín"
+      }
+     ],
+     "tw": "unripe fruit",
+     "ipa": "/ˌʌnˈraɪp fruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Local market",
+     "s": "Because strawberries are in season in spring, local markets are full of them and the price drops. In winter, however, they have to be imported. What does “be in season” mean?",
+     "o": [
+      "đang đúng mùa",
+      "đang trái mùa",
+      "đang bị hư"
+     ],
+     "a": "đang đúng mùa",
+     "noblank": true,
+     "say": "Because strawberries are in season in spring, local markets are full of them and the price drops. In winter, however, they have to be imported.",
+     "vi": "Vì dâu tây vào mùa vào mùa xuân nên chợ địa phương đầy dâu và giá giảm. Tuy nhiên vào mùa đông, chúng phải nhập khẩu.",
+     "why": "be in season = đang vào mùa (rau quả).",
+     "new": [
+      {
+       "w": "imported",
+       "vi": "được nhập khẩu"
+      }
+     ],
+     "tw": "be in season",
+     "ipa": "/ɪn ˈsiː.zən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Food blog",
+     "s": "Cherries are out of season in Vietnam for most of the year, so the ones you see in shops are flown in from abroad. That's why they cost so much. What does “be out of season” mean?",
+     "o": [
+      "trái mùa",
+      "vào mùa",
+      "bị thối"
+     ],
+     "a": "trái mùa",
+     "noblank": true,
+     "say": "Cherries are out of season in Vietnam for most of the year, so the ones you see in shops are flown in from abroad. That's why they cost so much.",
+     "vi": "Anh đào trái mùa ở Việt Nam hầu hết thời gian trong năm nên loại bạn thấy trong cửa hàng được chở bằng máy bay từ nước ngoài. Vì thế chúng rất đắt.",
+     "why": "be out of season = trái mùa, hết mùa.",
+     "new": [
+      {
+       "w": "flown in",
+       "vi": "chở bằng máy bay đến"
+      }
+     ],
+     "tw": "be out of season",
+     "ipa": "/aʊt əv ˈsiː.zən/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Party preparation",
+     "s": "To make a fruit platter for the party, Tom washed the apples and then sliced the fruit into thin pieces. He arranged them around a bowl of honey. What does “slice the fruit” mean?",
+     "o": [
+      "thái trái cây thành lát",
+      "gọt vỏ trái cây",
+      "vắt nước trái cây"
+     ],
+     "a": "thái trái cây thành lát",
+     "noblank": true,
+     "say": "To make a fruit platter for the party, Tom washed the apples and then sliced the fruit into thin pieces. He arranged them around a bowl of honey.",
+     "vi": "Để làm đĩa trái cây cho bữa tiệc, Tom rửa táo rồi thái trái cây thành lát mỏng. Anh xếp chúng quanh một bát mật ong.",
+     "why": "slice the fruit = thái trái cây thành lát.",
+     "new": [
+      {
+       "w": "platter",
+       "vi": "đĩa lớn"
+      }
+     ],
+     "tw": "slice the fruit",
+     "ipa": "/slaɪs ðə fruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family kitchen",
+     "s": "Some people eat apples with the skin on, but my aunt always peels them first. She says the skin is hard to chew. What does “peel a fruit” mean?",
+     "o": [
+      "gọt/bóc vỏ",
+      "cắt hạt",
+      "rửa sạch"
+     ],
+     "a": "gọt/bóc vỏ",
+     "noblank": true,
+     "say": "Some people eat apples with the skin on, but my aunt always peels them first. She says the skin is hard to chew.",
+     "vi": "Một số người ăn táo cả vỏ nhưng dì tôi luôn gọt vỏ trước. Dì nói vỏ khó nhai.",
+     "why": "peel a fruit = gọt/bóc vỏ trái cây.",
+     "new": [
+      {
+       "w": "chew",
+       "vi": "nhai"
+      }
+     ],
+     "tw": "peel a fruit",
+     "ipa": "/piːl ə fruːt/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Restaurant",
+     "s": "The waiter brought the fried fish with a small piece of lemon on the side. He suggested that we squeeze it over the fish to bring out the flavour. What does “squeeze a lemon” mean?",
+     "o": [
+      "vắt chanh",
+      "thái chanh",
+      "gọt chanh"
+     ],
+     "a": "vắt chanh",
+     "noblank": true,
+     "say": "The waiter brought the fried fish with a small piece of lemon on the side. He suggested that we squeeze it over the fish to bring out the flavour.",
+     "vi": "Người phục vụ mang cá chiên kèm một miếng chanh nhỏ. Anh gợi ý chúng tôi vắt chanh lên cá để dậy vị.",
+     "why": "squeeze a lemon/lime = vắt chanh.",
+     "new": [
+      {
+       "w": "bring out",
+       "vi": "làm nổi bật"
+      }
+     ],
+     "tw": "squeeze a lemon",
+     "ipa": "/skwiːz ə ˈlem.ən/, /skwiːz ə laɪm/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Flood",
+     "s": "After the storm, villagers formed a long row and passed sandbags down the line to protect the houses near the river. Within an hour, the wall was complete. What does “pass something down the line” mean?",
+     "o": [
+      "chuyền thứ gì dọc theo hàng người",
+      "ném thứ gì xuống sông",
+      "bán thứ gì cho đại lý"
+     ],
+     "a": "chuyền thứ gì dọc theo hàng người",
+     "noblank": true,
+     "say": "After the storm, villagers formed a long row and passed sandbags down the line to protect the houses near the river. Within an hour, the wall was complete.",
+     "vi": "Sau cơn bão, dân làng xếp thành hàng dài và chuyền bao cát dọc theo hàng để bảo vệ những ngôi nhà gần sông. Trong một giờ, bức tường đã hoàn thành.",
+     "why": "pass sth down the line = chuyền thứ gì dọc theo hàng người.",
+     "new": [
+      {
+       "w": "sandbags",
+       "vi": "bao cát"
+      }
+     ],
+     "tw": "pass something down the line",
+     "ipa": "/pɑːs daʊn ðə laɪn/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Stadium",
+     "s": "The stadium was so crowded on Saturday that there was nowhere to park within two kilometres. We finally left our car near the train station and walked. What does “nowhere to park” mean?",
+     "o": [
+      "không có chỗ đậu xe",
+      "không có đường đi",
+      "không có ai trông xe"
+     ],
+     "a": "không có chỗ đậu xe",
+     "noblank": true,
+     "say": "The stadium was so crowded on Saturday that there was nowhere to park within two kilometres. We finally left our car near the train station and walked.",
+     "vi": "Sân vận động đông đến mức thứ Bảy không có chỗ đậu xe trong bán kính hai ki-lô-mét. Cuối cùng chúng tôi để xe gần ga và đi bộ.",
+     "why": "there's nowhere to park = không có chỗ đậu xe.",
+     "new": [
+      {
+       "w": "crowded",
+       "vi": "đông đúc"
+      }
+     ],
+     "tw": "nowhere to park",
+     "ipa": "/ˈnəʊweə tə pɑːk/"
+    },
+    {
+     "type": "mc",
+     "ctx": "Hiking",
+     "s": "A narrow footpath runs between the village and the lake, and it is too small for cars. Hikers use it to reach the waterfall. What does “footpath” mean?",
+     "o": [
+      "lối đi bộ",
+      "đường cao tốc",
+      "đường ray tàu"
+     ],
+     "a": "lối đi bộ",
+     "noblank": true,
+     "say": "A narrow footpath runs between the village and the lake, and it is too small for cars. Hikers use it to reach the waterfall.",
+     "vi": "Một lối đi bộ hẹp nối làng với hồ và quá nhỏ cho ô tô. Người đi bộ đường dài dùng nó để đến thác nước.",
+     "why": "footpath = lối đi bộ, đường mòn cho người đi bộ.",
+     "new": [
+      {
+       "w": "waterfall",
+       "vi": "thác nước"
+      }
+     ],
+     "tw": "footpath",
+     "ipa": "/ˈfʊt.pɑːθ/"
+    },
+    {
+     "type": "mc",
+     "ctx": "University",
+     "s": "I saved my essay on two different USB sticks in case one of them stopped working. Last week, that decision saved me hours of extra work. What does “in case” mean?",
+     "o": [
+      "phòng khi, trong trường hợp",
+      "miễn là",
+      "mặc dù"
+     ],
+     "a": "phòng khi, trong trường hợp",
+     "noblank": true,
+     "say": "I saved my essay on two different USB sticks in case one of them stopped working. Last week, that decision saved me hours of extra work.",
+     "vi": "Tôi lưu bài luận trên hai chiếc USB khác nhau phòng khi một chiếc hỏng. Tuần trước, quyết định đó đã giúp tôi tiết kiệm hàng giờ làm thêm.",
+     "why": "in case = phòng khi (chuẩn bị trước cho điều có thể xảy ra).",
+     "new": [
+      {
+       "w": "essay",
+       "vi": "bài luận"
+      }
+     ],
+     "tw": "in case"
+    },
+    {
+     "type": "mc",
+     "ctx": "Workplace",
+     "s": "The company will let employees work from home, provided that they attend a meeting at the office once a week. Managers believe this keeps the team connected. What does “provided that” mean?",
+     "o": [
+      "với điều kiện là",
+      "bất chấp việc",
+      "thay vì"
+     ],
+     "a": "với điều kiện là",
+     "noblank": true,
+     "say": "The company will let employees work from home, provided that they attend a meeting at the office once a week. Managers believe this keeps the team connected.",
+     "vi": "Công ty sẽ cho nhân viên làm việc tại nhà, với điều kiện họ dự một cuộc họp tại văn phòng mỗi tuần. Quản lý tin rằng điều này giúp đội ngũ gắn kết.",
+     "why": "provided that = với điều kiện là.",
+     "new": [
+      {
+       "w": "employees",
+       "vi": "nhân viên"
+      }
+     ],
+     "tw": "provided that"
+    },
+    {
+     "type": "mc",
+     "ctx": "Family rules",
+     "s": "My parents allow me to stay out late as long as I send them a message and come home safely. This rule has worked well since I started university. What does “as long as” mean?",
+     "o": [
+      "miễn là, với điều kiện",
+      "lâu hơn mức cần",
+      "ngay sau khi"
+     ],
+     "a": "miễn là, với điều kiện",
+     "noblank": true,
+     "say": "My parents allow me to stay out late as long as I send them a message and come home safely. This rule has worked well since I started university.",
+     "vi": "Bố mẹ cho phép tôi về muộn miễn là tôi nhắn tin và về nhà an toàn. Quy tắc này hiệu quả từ khi tôi vào đại học.",
+     "why": "as long as = miễn là, với điều kiện.",
+     "new": [
+      {
+       "w": "safely",
+       "vi": "an toàn"
+      }
+     ],
+     "tw": "as long as"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Nói vận dụng",
+   "note": "Bấm ghi âm và trả lời bằng tiếng Anh, cố dùng các từ gợi ý; trang sẽ chấm ước tính 4 tiêu chí.",
+   "qs": [
+    {
+     "type": "sp",
+     "ctx": "Shopping for clothes",
+     "s": "Describe a time you bought clothes in a shop or online. Did everything fit properly, and how did you feel about the size?",
+     "vi": "Hãy mô tả một lần bạn mua quần áo ở cửa hàng hoặc trên mạng. Quần áo có vừa không và bạn cảm thấy thế nào về cỡ?",
+     "words": [
+      "fit",
+      "fit well",
+      "doesn't quite fit",
+      "a bit tight",
+      "loose"
+     ],
+     "why": "Kể bạn mua gì, ở đâu, rồi nói món đồ vừa hay chưa vừa và bạn xử lý ra sao (đổi cỡ, giữ lại).",
+     "sample": "Last month I bought a jacket online because it was on sale. Luckily, it fits well around the shoulders, but the sleeves were a bit tight, and the waist felt a little loose. The second pair of trousers I tried doesn't quite fit either, so I asked for another size. In the end, I decided to exchange them. The shop assistant was friendly, which means I would happily buy there again, and I now always check the size chart first."
+    },
+    {
+     "type": "sp",
+     "ctx": "Fashion and style",
+     "s": "Do you care about matching colours and clothes? Describe an outfit that you think works well and explain why it looks good.",
+     "vi": "Bạn có quan tâm đến việc phối màu và quần áo không? Hãy mô tả một bộ trang phục bạn thấy đẹp và giải thích vì sao.",
+     "words": [
+      "suit somebody better",
+      "match something",
+      "match perfectly",
+      "go with something",
+      "go well with",
+      "look good together"
+     ],
+     "why": "Mô tả bộ đồ, nói các món phối với nhau thế nào và vì sao hợp với người mặc.",
+     "sample": "I enjoy choosing outfits, and my favourite one is a navy jacket with a white shirt. The jacket goes well with almost everything in my wardrobe, and the colour of the shirt can match perfectly with my shoes. Although my sister prefers bright colours, I think dark colours suit me better. The two items look good together because they are simple, and as a result I can wear them to work or to a family dinner without feeling uncomfortable."
+    },
+    {
+     "type": "sp",
+     "ctx": "Prices and decisions",
+     "s": "Tell me about something you bought because it was a good deal, and something you decided not to buy because of the price.",
+     "vi": "Hãy kể về món đồ bạn mua vì giá tốt và món đồ bạn quyết định không mua vì giá.",
+     "words": [
+      "a reasonable price",
+      "the price is reasonable",
+      "I'll take it",
+      "I'll leave it"
+     ],
+     "why": "Kể hai tình huống: một món mua vì giá hợp lý, một món bỏ qua vì đắt, nêu lý do.",
+     "sample": "Last year I saw a pair of headphones at a reasonable price, so I said, I'll take it. Honestly, the price is reasonable for such good quality, and I still use them every day. On the other hand, I once found a leather bag that cost three times my monthly food budget. Although it looked beautiful, I thought, I'll leave it, because I could not justify spending that much. I believe it is better to wait for a sale than to regret a purchase later."
+    },
+    {
+     "type": "sp",
+     "ctx": "Disappointment",
+     "s": "Talk about a time when you were disappointed because plans changed or something was no longer available. What did people say to you?",
+     "vi": "Hãy kể về một lần bạn thất vọng vì kế hoạch thay đổi hoặc thứ gì đó không còn. Mọi người đã nói gì với bạn?",
+     "words": [
+      "That's a shame",
+      "that's a pity",
+      "It's a shame that",
+      "What a shame"
+     ],
+     "why": "Kể chuyện, dùng các cách bày tỏ tiếc nuối, rồi nói bạn xử lý cảm xúc thế nào.",
+     "sample": "Last summer, my friends and I planned a trip to the beach, but the weather forecast showed heavy rain. When I told my mother, she said, that's a pity, because I had been looking forward to it for weeks. My colleague also said, what a shame, and added, it's a shame that the holiday only comes once a year. At first I felt upset, but we decided to have a picnic at home, and honestly it turned out to be fun. That's a shame, but life goes on."
+    },
+    {
+     "type": "sp",
+     "ctx": "Faulty products",
+     "s": "Describe a time when you bought something that did not work properly. What happened when you went back to the shop?",
+     "vi": "Hãy mô tả một lần bạn mua món đồ không hoạt động tốt. Chuyện gì xảy ra khi bạn quay lại cửa hàng?",
+     "words": [
+      "something wrong with something",
+      "give somebody a refund",
+      "in case"
+     ],
+     "why": "Kể món đồ, lỗi là gì, nhân viên phản ứng ra sao và bạn có nhận hoàn tiền không.",
+     "sample": "A few months ago, I bought a hairdryer, but I soon noticed there was something wrong with it, because it stopped after two minutes. I took it back with the receipt in case the shop asked for proof. The manager apologised and agreed to give me a refund immediately. I was relieved, since I had expected a long argument. Since then, I keep every receipt for at least a month, and I always test electrical products in the shop before I leave."
+    },
+    {
+     "type": "sp",
+     "ctx": "Fruit markets",
+     "s": "What kinds of fruit are popular in your country? Describe a fruit market you know and what you usually buy there.",
+     "vi": "Ở nước bạn loại trái cây nào phổ biến? Hãy mô tả một khu chợ trái cây bạn biết và thứ bạn thường mua.",
+     "words": [
+      "a bunch of grapes",
+      "pomelo",
+      "grapefruit",
+      "persimmon",
+      "pomegranate",
+      "cantaloupe",
+      "guava",
+      "lychee"
+     ],
+     "why": "Mô tả chợ, kể vài loại trái cây theo mùa và hương vị, rồi nói bạn hay mua gì.",
+     "sample": "There is a lively market near my house where I often buy fruit. In summer, I take a bunch of grapes and some lychee, which is sweet and juicy. My grandmother prefers pomelo, while I find grapefruit too bitter. In autumn, persimmon and pomegranate appear, and a friend sells guava and cantaloupe from his small truck. Because the fruit is fresh, I usually spend more than I planned, but I feel it is worth it for my health."
+    },
+    {
+     "type": "sp",
+     "ctx": "Fruit and snacks",
+     "s": "Which fruit do you eat most often, and which would you like to try? Describe the taste and how you usually eat it.",
+     "vi": "Bạn ăn loại trái cây nào thường xuyên nhất và muốn thử loại nào? Hãy mô tả vị và cách bạn thường ăn.",
+     "words": [
+      "a bunch of bananas",
+      "mandarin",
+      "mangosteen",
+      "custard apple",
+      "passion fruit",
+      "rambutan",
+      "papaya",
+      "plum",
+      "raspberry",
+      "blueberry"
+     ],
+     "why": "Chọn vài loại, mô tả vị, so sánh và nói cách ăn (ăn sống, làm sinh tố, trộn sữa chua).",
+     "sample": "I usually buy a bunch of bananas and a mandarin for work. At weekends I enjoy mangosteen and rambutan, although they cost more. My mother mixes passion fruit with yoghurt, while I like papaya for breakfast because it is soft. Custard apple tastes like pudding, whereas a plum is sharper. I put raspberry and blueberry on pancakes, which makes a healthy dessert. I would like to try more exotic fruit while travelling in Southeast Asia next year."
+    },
+    {
+     "type": "sp",
+     "ctx": "Seasonal food",
+     "s": "Do you prefer eating food that is in season? Explain how you tell whether fruit is ready to eat and what you do with fruit that is not.",
+     "vi": "Bạn có thích ăn thực phẩm đúng mùa không? Giải thích cách bạn biết trái cây đã sẵn sàng để ăn chưa và bạn làm gì với quả chưa chín.",
+     "words": [
+      "ripe fruit",
+      "unripe fruit",
+      "be in season",
+      "be out of season"
+     ],
+     "why": "Nêu quan điểm về thực phẩm theo mùa, cách chọn quả chín và mẹo làm quả chín nhanh.",
+     "sample": "I try to buy fruit when it is in season, because it is cheaper and tastier. When fruit is out of season, it often has to be imported, which means higher prices. I always press the skin gently, since ripe fruit is soft and smells sweet. If I accidentally buy unripe fruit, I put it in a paper bag for a few days. Eating seasonally also reduces pollution from transport, so it is good for both my wallet and the environment."
+    },
+    {
+     "type": "sp",
+     "ctx": "Preparing fruit",
+     "s": "How do you prepare fruit at home for your family or guests? Describe each step and any helpful tips.",
+     "vi": "Bạn chuẩn bị trái cây ở nhà cho gia đình hoặc khách như thế nào? Hãy mô tả từng bước và mẹo hữu ích.",
+     "words": [
+      "slice the fruit",
+      "peel a fruit",
+      "squeeze a lemon",
+      "lemon",
+      "lime",
+      "pass something down the line"
+     ],
+     "why": "Kể theo thứ tự: rửa, gọt, thái, thêm chanh, rồi cách dọn ra cho mọi người.",
+     "sample": "When guests visit, I like to prepare a big fruit plate. First, I peel a fruit such as an apple, and then I slice the fruit into thin pieces. To stop it turning brown, I squeeze a lemon over it, and sometimes I add lime juice for a fresher taste. My children carry the plates to the table, and the guests pass them down the line so everyone can reach them. It is simple, healthy and always popular."
+    },
+    {
+     "type": "sp",
+     "ctx": "Rules and conditions",
+     "s": "Talk about a rule or condition you have agreed to, for example in a job, a rented flat or a town trip. Why does it exist, and how do you cope?",
+     "vi": "Hãy nói về một quy tắc hay điều kiện bạn đã đồng ý, ví dụ ở chỗ làm, nhà thuê hoặc khi đi chơi. Vì sao có nó và bạn thích nghi thế nào?",
+     "words": [
+      "provided that",
+      "as long as",
+      "in case",
+      "nowhere to park",
+      "footpath"
+     ],
+     "why": "Nêu quy tắc, lý do tồn tại, dùng 'provided that / as long as' và một ví dụ cụ thể về đi lại hoặc đỗ xe.",
+     "sample": "My landlord lets me keep a small dog, provided that I clean the garden regularly. He also says I can stay as long as I pay the rent on time. Because there is nowhere to park near the building, I leave my bike in a shared yard, and I take the footpath along the river to work. I carry a spare key in case I lose mine. These rules seem strict, but they keep the neighbourhood quiet and tidy."
+    }
+   ]
+  }
+ ]
+}
