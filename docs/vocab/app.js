@@ -1,0 +1,821 @@
+/* Giao diện chính: Từ vựng, Ôn hôm nay, Bài đọc, Bài nói, Bài viết, Cài đặt */
+const App = {
+  tab: 'review',
+  hideMeaning: false,
+  editing: null,
+
+  init() {
+    Store.load();
+    this.autoStart();
+    TTS.init();
+    UI.$$('#tabs button').forEach((b) => b.addEventListener('click', () => this.go(b.dataset.tab)));
+    document.addEventListener('click', (e) => this.onClick(e));
+    this.go(location.hash.slice(1) || 'review');
+    Sync.pull().then((changed) => { if (changed) { this.autoStart(); this.render(); } });
+  },
+
+  // Từ thêm từ hôm trước mà chưa đánh dấu mức nhớ → mặc định "Chưa nhớ", tính lịch từ ngày thêm.
+  autoStart() {
+    const t = SRS.today();
+    let n = 0;
+    Store.data.words.forEach((w) => {
+      if (SRS.isNew(w) && w.added && w.added < t) { SRS.rate(w, 0, w.added); w.lapses = 0; n++; }
+    });
+    if (n) Store.save();
+  },
+
+  go(tab) {
+    TTS.stop();
+    if (this.rec.on) this.stopRec();
+    clearInterval(this.rec.timer); this.rec.timer = null; this.rec.seconds = 0;
+    if (!this.views[tab]) tab = 'review';
+    this.tab = tab;
+    location.hash = tab;
+    UI.$$('#tabs button').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
+    this.render();
+  },
+
+  render() {
+    const v = this.views[this.tab].call(this);
+    UI.$('#view').innerHTML = v.html;
+    if (v.after) v.after.call(this);
+    this.updateBadge();
+  },
+
+  updateBadge() {
+    const due = this.dueWords().length;
+    const b = UI.$('#tabs [data-tab="review"] .badge');
+    if (b) { b.textContent = due; b.style.display = due ? '' : 'none'; }
+    UI.$('#todayLabel').textContent = 'Hôm nay ' + SRS.fmtFull(SRS.today());
+  },
+
+  words() { return Store.data.words; },
+  byId(id) { return this.words().find((w) => w.id === id); },
+  newWords() { return this.words().filter(SRS.isNew); },
+  dueWords() {
+    const t = SRS.today();
+    return this.words().filter((w) => SRS.isDue(w, t)).sort((a, b) => a.schedule[0].localeCompare(b.schedule[0]) || a.level - b.level);
+  },
+
+  /* ---------- Thành phần dùng chung ---------- */
+  wordCard(w, { rating = true, due = false } = {}) {
+    const t = SRS.today();
+    const over = due && w.schedule.length ? SRS.diffDays(t, w.schedule[0]) : 0;
+    const lv = SRS.isNew(w) ? null : SRS.LEVELS[w.level];
+    return `<div class="wcard" data-id="${w.id}">
+      <div class="whead">
+        <button class="spk" data-act="speak" title="Nghe phát âm" aria-label="Nghe phát âm">🔊</button>
+        <span class="wterm">${UI.esc(w.word)}</span>
+        ${w.ipa ? `<span class="ipa">${UI.esc(w.ipa)}</span>` : ''}
+        ${w.pos ? `<span class="pos">${UI.esc(UI.posAbbr(w.pos))}</span>` : ''}
+        ${lv ? `<span class="tag ${lv.cls}">${lv.short}</span>` : '<span class="tag new">Mới</span>'}
+        ${over > 0 ? `<span class="tag late">quá hạn ${over} ngày</span>` : ''}
+        ${w.lapses ? `<span class="tag lap" title="Số lần quên">quên ${w.lapses}×</span>` : ''}
+      </div>
+      <div class="mean ${this.hideMeaning && due ? 'blur' : ''}" data-act="reveal">${UI.esc(w.meaning)}</div>
+      ${w.example ? `<div class="ex">“${UI.esc(w.example)}”</div>` : ''}
+      ${rating ? `<div class="rate">${this.rateButtons(w)}</div>` : ''}
+    </div>`;
+  },
+
+  rateButtons(w) {
+    const t = SRS.today();
+    return SRS.LEVELS.map((l, i) => {
+      const [a, b] = l.iv;
+      return `<button class="lv ${l.cls}" data-act="rate" data-lv="${i}" title="Nhắc lại sau ${a} và ${b} ngày (${SRS.fmt(SRS.addDays(t, a))}, ${SRS.fmt(SRS.addDays(t, b))})">
+        <b>${l.short}</b><small>${a} · ${b} ngày</small></button>`;
+    }).join('');
+  },
+
+  onClick(e) {
+    const el = e.target.closest('[data-act]');
+    if (!el) return;
+    const act = el.dataset.act;
+    const card = el.closest('.wcard');
+    const w = card ? this.byId(card.dataset.id) : null;
+    if (act === 'speak' && w) TTS.speakWord(w);
+    else if (act === 'reveal') el.classList.remove('blur');
+    else if (act === 'rate' && w) this.doRate(w, +el.dataset.lv, card);
+    else if (this.actions[act]) this.actions[act].call(this, el, e);
+  },
+
+  doRate(w, lv, card) {
+    const sched = SRS.rate(w, lv, SRS.today());
+    Store.save();
+    const l = SRS.LEVELS[lv];
+    const next = w.mastered ? 'Đã hoàn thành chu kỳ ôn' : 'Nhắc lại: ' + sched.map(SRS.fmtFull).join(' và ');
+    card.classList.add('done');
+    UI.$('.rate', card).outerHTML = `<div class="rated"><span class="tag ${l.cls}">${l.name}</span> ✓ ${next}</div>`;
+    UI.$('.mean', card).classList.remove('blur');
+    this.updateBadge();
+    const left = UI.$$('.wcard:not(.done)', UI.$('#dueList') || document.createElement('div')).length;
+    const c = UI.$('#dueCount'); if (c) c.textContent = left;
+  },
+
+  /* ---------- Các màn hình ---------- */
+  views: {},
+  actions: {},
+};
+
+/* ======================= TỪ VỰNG ======================= */
+App.views.words = function () {
+  const nw = this.newWords();
+  const all = this.words();
+  const q = (this.wordQuery || '').toLowerCase();
+  const filtered = all.filter((w) => !q || (w.word + ' ' + w.meaning).toLowerCase().includes(q));
+  const e = this.editing ? this.byId(this.editing) : null;
+  const html = `
+  <section class="panel">
+    <h2>📚 Từ vựng cần học hôm nay <span class="count">${nw.length}</span></h2>
+    <p class="muted">Học từ → tự nhớ nghĩa → bấm mức nhớ. Lịch ôn bắt đầu tính từ hôm nay.</p>
+    ${nw.length ? nw.map((w) => this.wordCard(w)).join('') : `<div class="empty">Chưa có từ mới. Thêm từ ở bên dưới${all.length ? '' : ' hoặc <button class="btn" data-act="sample">nạp 10 từ mẫu</button>'}.</div>`}
+  </section>
+
+  <section class="panel">
+    <h2>${e ? '✏️ Sửa từ' : '➕ Thêm từ mới'}</h2>
+    <form id="wordForm" class="grid2">
+      <label>Từ vựng<input name="word" required value="${UI.esc(e ? e.word : '')}"></label>
+      <label>Phiên âm<input name="ipa" placeholder="/ˈsæmpl/" value="${UI.esc(e ? e.ipa : '')}"></label>
+      <label>Từ loại<input name="pos" placeholder="n / v / adj / adv / phr" value="${UI.esc(e ? e.pos : '')}"></label>
+      <label>Nghĩa tiếng Việt<input name="meaning" required value="${UI.esc(e ? e.meaning : '')}"></label>
+      <label class="span2">Ví dụ (không bắt buộc)<input name="example" value="${UI.esc(e ? e.example : '')}"></label>
+      <input type="hidden" name="audio" value="${UI.esc(e ? e.audio : '')}">
+      <div class="row span2">
+        <button type="button" class="btn" data-act="lookup">🔎 Tự điền phiên âm + phát âm</button>
+        <button class="btn primary">${e ? 'Lưu' : 'Thêm từ'}</button>
+        ${e ? '<button type="button" class="btn ghost" data-act="cancelEdit">Huỷ</button>' : ''}
+      </div>
+    </form>
+    <details class="import">
+      <summary>Nhập nhiều từ cùng lúc (dán từ Google Sheet / Excel)</summary>
+      <p class="muted">Mỗi dòng một từ, cột cách nhau bằng Tab hoặc dấu <code>|</code>: <b>từ | phiên âm | từ loại | nghĩa</b>.
+      Có thể dán thẳng các cột A–H của tab “Vocabulary” (Mức nhớ, Ngày bắt đầu, Từ, Phiên âm, Từ loại, Định nghĩa, Ví dụ, Ngày đánh dấu) — mức nhớ và lịch ôn sẽ được giữ lại.</p>
+      <textarea id="importBox" rows="6" class="mono"></textarea>
+      <button class="btn" data-act="import">Nhập</button>
+    </details>
+  </section>
+
+  <section class="panel">
+    <h2>🗂 Tất cả từ <span class="count">${all.length}</span></h2>
+    <input id="wordSearch" class="search" placeholder="Tìm từ hoặc nghĩa..." value="${UI.esc(this.wordQuery || '')}">
+    <div class="table-wrap"><table class="tbl">
+      <thead><tr><th>Từ</th><th>Phiên âm</th><th>Loại</th><th>Nghĩa</th><th>Mức</th><th>Ôn tiếp</th><th></th></tr></thead>
+      <tbody>${filtered.map((w) => {
+        const lv = SRS.isNew(w) ? null : SRS.LEVELS[w.level];
+        return `<tr class="wcard-row" data-id="${w.id}"><td><button class="spk sm" data-act="speakRow">🔊</button> <b>${UI.esc(w.word)}</b></td><td>${UI.esc(w.ipa)}</td><td>${UI.esc(UI.posAbbr(w.pos))}</td><td>${UI.esc(w.meaning)}</td>
+        <td>${lv ? `<span class="tag ${lv.cls}">${lv.short}</span>` : '<span class="tag new">Mới</span>'}</td>
+        <td>${w.mastered ? '✔ xong' : w.schedule.length ? SRS.fmtFull(w.schedule[0]) : '—'}</td>
+        <td class="nowrap"><button class="icon" data-act="editRow" title="Sửa">✏️</button><button class="icon" data-act="delRow" title="Xoá">🗑</button></td></tr>`;
+      }).join('') || '<tr><td colspan="7" class="muted">Không có từ nào.</td></tr>'}</tbody>
+    </table></div>
+  </section>`;
+  return {
+    html,
+    after() {
+      const s = UI.$('#wordSearch');
+      s.addEventListener('input', () => { this.wordQuery = s.value; const pos = s.selectionStart; this.render(); const n = UI.$('#wordSearch'); n.focus(); n.setSelectionRange(pos, pos); });
+      UI.$('#wordForm').addEventListener('submit', (ev) => {
+        ev.preventDefault();
+        const f = Object.fromEntries(new FormData(ev.target).entries());
+        if (this.editing) { Object.assign(this.byId(this.editing), f); this.editing = null; UI.toast('Đã lưu'); }
+        else if (!Store.addWord(f)) { UI.toast('Từ này đã có trong danh sách'); return; }
+        else UI.toast('Đã thêm “' + f.word + '”');
+        Store.save(); this.render();
+      });
+    },
+  };
+};
+
+const SAMPLE = [
+  ['mitigate', '/ˈmɪtɪɡeɪt/', 'v', 'làm giảm nhẹ, giảm thiểu', 'Trees help mitigate the effects of air pollution.'],
+  ['reluctant', '/rɪˈlʌktənt/', 'adj', 'miễn cưỡng, ngần ngại', 'She was reluctant to speak in front of the class.'],
+  ['sustainable', '/səˈsteɪnəbl/', 'adj', 'bền vững', ''],
+  ['inevitable', '/ɪnˈevɪtəbl/', 'adj', 'không thể tránh khỏi', ''],
+  ['contribute to', '/kənˈtrɪbjuːt tuː/', 'phr v', 'góp phần vào, dẫn đến', ''],
+  ['overwhelming', '/ˌəʊvəˈwelmɪŋ/', 'adj', 'áp đảo, quá sức', ''],
+  ['constantly', '/ˈkɒnstəntli/', 'adv', 'liên tục', ''],
+  ['face up to', '/feɪs ʌp tuː/', 'phr v', 'đối mặt, chấp nhận (sự thật khó chịu)', ''],
+  ['tackle', '/ˈtækl/', 'v', 'giải quyết (vấn đề), xử lý', ''],
+  ['crucial', '/ˈkruːʃl/', 'adj', 'then chốt, cực kỳ quan trọng', ''],
+];
+
+App.actions.sample = function () {
+  SAMPLE.forEach(([word, ipa, pos, meaning, example]) => Store.addWord({ word, ipa, pos, meaning, example }));
+  Store.save(); this.render();
+};
+App.actions.speakRow = function (el) { const w = this.byId(el.closest('tr').dataset.id); if (w) TTS.speakWord(w); };
+App.actions.editRow = function (el) { this.editing = el.closest('tr').dataset.id; this.render(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+App.actions.cancelEdit = function () { this.editing = null; this.render(); };
+App.actions.delRow = function (el) {
+  const w = this.byId(el.closest('tr').dataset.id);
+  if (w && confirm('Xoá từ “' + w.word + '” và toàn bộ lịch ôn của nó?')) { Store.data.words = this.words().filter((x) => x !== w); Store.save(); this.render(); }
+};
+
+App.actions.lookup = async function () {
+  const f = UI.$('#wordForm');
+  const word = f.word.value.trim();
+  if (!word) { UI.toast('Nhập từ trước đã'); return; }
+  try {
+    const r = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + encodeURIComponent(word));
+    if (!r.ok) throw new Error('not found');
+    const en = (await r.json())[0];
+    const ph = en.phonetics || [];
+    const ipa = en.phonetic || (ph.find((p) => p.text) || {}).text || '';
+    const au = (ph.find((p) => p.audio && /-us/.test(p.audio)) || ph.find((p) => p.audio) || {}).audio || '';
+    if (ipa && !f.ipa.value) f.ipa.value = ipa;
+    if (au) f.audio.value = au;
+    if (en.meanings && en.meanings[0] && !f.pos.value) f.pos.value = UI.posAbbr(en.meanings[0].partOfSpeech);
+    UI.toast(au ? 'Đã điền phiên âm và phát âm' : 'Đã điền phiên âm (dùng giọng đọc của trình duyệt)');
+  } catch (e) { UI.toast('Không tra được (cụm từ hoặc không có mạng). Tự nhập phiên âm nhé.'); }
+};
+
+App.actions.import = function () {
+  const lines = UI.$('#importBox').value.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  const levelNames = SRS.LEVELS.map((l) => l.name.toLowerCase());
+  const dmy = (s) => { const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec((s || '').trim()); return m ? `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}` : ''; };
+  let added = 0, skipped = 0;
+  lines.forEach((line) => {
+    const p = line.split(/\t|\s\|\s|\|/).map((x) => x.trim());
+    if (/^(từ|word|từ mới)/i.test(p[0]) && !levelNames.includes(p[0].toLowerCase())) return; // dòng tiêu đề
+    const li = levelNames.indexOf((p[0] || '').toLowerCase());
+    let w;
+    if (li >= 0 && p.length >= 6) {
+      const marked = dmy(p[7]) || SRS.today();
+      const nextDue = dmy(p[9]);
+      w = Store.addWord({ word: p[2], ipa: p[3], pos: p[4], meaning: p[5], example: p[6] || '', added: dmy(p[1]) || marked, level: li, lastReviewed: marked,
+        history: [{ date: marked, level: li }], schedule: nextDue ? [nextDue] : SRS.plan(li, marked) });
+    } else if (p[0] && p.length >= 2) {
+      const [word, ipa, pos, meaning] = p.length >= 4 ? p : [p[0], '', '', p[1]];
+      w = Store.addWord({ word, ipa, pos, meaning });
+    }
+    if (w) added++; else skipped++;
+  });
+  Store.save(); UI.toast(`Đã nhập ${added} từ, bỏ qua ${skipped} dòng (trùng hoặc sai định dạng)`); this.render();
+};
+
+/* ======================= ÔN HÔM NAY ======================= */
+App.views.review = function () {
+  const t = SRS.today();
+  const due = this.dueWords();
+  const words = this.words();
+  const learned = words.filter((w) => !SRS.isNew(w));
+  const counts = SRS.LEVELS.map((l, i) => learned.filter((w) => w.level === i && !w.mastered).length);
+  const done = words.filter((w) => w.mastered).length;
+  // Lịch 7 ngày tới
+  const upcoming = [];
+  for (let i = 1; i <= 7; i++) {
+    const d = SRS.addDays(t, i);
+    const n = learned.filter((w) => !w.mastered && w.schedule[0] === d).length;
+    upcoming.push({ d, n });
+  }
+  const html = `
+  <section class="stats">
+    <div class="stat"><b>${due.length}</b><span>cần ôn hôm nay</span></div>
+    <div class="stat"><b>${this.newWords().length}</b><span>từ mới chưa học</span></div>
+    <div class="stat"><b>${learned.length}</b><span>đang theo dõi</span></div>
+    <div class="stat"><b>${done}</b><span>đã xong chu kỳ</span></div>
+  </section>
+  <section class="panel">
+    <h2>🔁 Danh sách ôn tập hôm nay (<span id="dueCount">${due.length}</span>)</h2>
+    <div class="row">
+      <label class="check"><input type="checkbox" id="hideMean" ${this.hideMeaning ? 'checked' : ''}> Ẩn nghĩa để tự kiểm tra (bấm vào để hiện)</label>
+    </div>
+    ${due.length ? '<div class="row"><button class="btn primary" data-act="fcStart">🃏 Học bằng flashcard</button></div>' : ''}
+    <p class="muted">Với mỗi từ: nhớ lại nghĩa, rồi chọn mức nhớ. Hệ thống tự đặt lịch ôn tiếp theo.</p>
+    <div id="dueList">${due.length ? due.map((w) => this.wordCard(w, { due: true })).join('')
+      : `<div class="empty">🎉 Hôm nay không có từ nào đến hạn ôn. ${this.newWords().length ? 'Hãy sang tab “Từ vựng” học các từ mới.' : ''}</div>`}</div>
+  </section>
+  <section class="panel">
+    <h2>📊 Tiến độ</h2>
+    <div class="bars">${SRS.LEVELS.map((l, i) => `<div class="bar"><span class="tag ${l.cls}">${l.short}</span><div class="track"><i class="${l.cls}" style="width:${learned.length ? Math.round(counts[i] / learned.length * 100) : 0}%"></i></div><b>${counts[i]}</b></div>`).join('')}</div>
+    <h3>Lịch ôn 7 ngày tới</h3>
+    <div class="cal">${upcoming.map((u) => `<div class="day ${u.n ? 'has' : ''}"><small>${SRS.fmt(u.d)}</small><b>${u.n}</b></div>`).join('')}</div>
+  </section>`;
+  return {
+    html,
+    after() { UI.$('#hideMean').addEventListener('change', (e) => { this.hideMeaning = e.target.checked; this.render(); }); },
+  };
+};
+
+/* ======================= BÀI ĐỌC ======================= */
+App.targetWords = function () {
+  const due = this.dueWords();
+  if (due.length) return { words: due, fallback: false };
+  const learned = this.words().filter((w) => !SRS.isNew(w)).slice(-10);
+  return { words: learned.length ? learned : this.words().slice(-10), fallback: true };
+};
+
+App.views.reading = function () {
+  const t = SRS.today();
+  const saved = Store.data.gen.reading[t];
+  const tw = this.targetWords();
+  const words = saved ? saved.words : tw.words;
+  const html = `
+  <section class="panel">
+    <h2>📖 Bài đọc hôm nay</h2>
+    <p class="muted">${saved ? 'Bài đọc đã tạo cho các từ cần ôn hôm nay.' : tw.fallback ? 'Hôm nay chưa có từ đến hạn — dùng các từ học gần nhất để luyện.' : 'Bài đọc sẽ dùng đúng các từ trong danh sách ôn hôm nay.'}</p>
+    <div class="chips">${words.map((w) => `<span class="chip">${UI.esc(w.word)}</span>`).join('') || '<span class="muted">Chưa có từ nào. Hãy thêm từ trước.</span>'}</div>
+    <div class="row">
+      <button class="btn primary" data-act="genReading" ${words.length ? '' : 'disabled'}>${saved ? '🔄 Tạo lại bài đọc' : '✨ Tạo bài đọc'}</button>
+      <span class="muted" id="genStatus"></span>
+    </div>
+    ${AI.hasKey() ? '' : '<p class="note">Chưa có API key: ứng dụng sẽ hướng dẫn bạn sao chép prompt sang Claude và dán kết quả về (xem tab Cài đặt để tự động hoá).</p>'}
+  </section>
+  <div id="passages">${saved ? saved.passages.map((p, i) => this.passageHTML(p, i)).join('') : ''}</div>`;
+  return {
+    html,
+    after() {
+      if (saved || this.readingChecked === t) return;
+      this.readingChecked = t;
+      UI.$('#genStatus').textContent = 'Đang kiểm tra bài đọc tạo sẵn...';
+      Sync.fetchReading(t).then((j) => {
+        if (j) { Store.data.gen.reading[t] = { words: j.words || [], passages: j.passages }; Store.prune(); Store.save(); if (this.tab === 'reading') this.render(); }
+        else { const s = UI.$('#genStatus'); if (s) s.textContent = 'Chưa có bài đọc tạo sẵn cho hôm nay.'; }
+      });
+    },
+  };
+};
+
+App.actions.genReading = async function (btn) {
+  const t = SRS.today();
+  const saved = Store.data.gen.reading[t];
+  const words = saved ? saved.words : this.targetWords().words;
+  if (!words.length) return;
+  const snap = words.map((w) => ({ id: w.id, word: w.word, ipa: w.ipa, pos: w.pos, meaning: w.meaning }));
+  const n = Math.min(snap.length, snap.length <= 12 ? 3 : snap.length <= 20 ? 4 : 5);
+  const subsets = Array.from({ length: n }, () => []);
+  snap.forEach((w, i) => subsets[i % n].push(w));
+  btn.disabled = true;
+  const status = UI.$('#genStatus');
+  const box = UI.$('#passages');
+  box.innerHTML = '';
+  const passages = [];
+  try {
+    if (AI.hasKey()) {
+      status.textContent = `Đang viết ${n} bài đọc...`;
+      let done = 0;
+      const results = await Promise.all(subsets.map(async (s) => {
+        const pr = AI.readingPrompt([s]);
+        const r = await AI.askJSON({ system: pr.system, user: pr.user, maxTokens: 5000 });
+        done++; status.textContent = `Đã xong ${done}/${n} bài...`;
+        return r.passages[0];
+      }));
+      passages.push(...results);
+    } else {
+      const pr = AI.readingPrompt(subsets);
+      const r = await AI.askJSON({ system: pr.system, user: pr.user });
+      passages.push(...r.passages);
+    }
+    Store.data.gen.reading[t] = { words: snap, passages };
+    Store.prune(); Store.save();
+    status.textContent = '';
+    this.render();
+  } catch (e) {
+    status.textContent = '';
+    btn.disabled = false;
+    UI.toast(e.message || 'Tạo bài đọc thất bại');
+  }
+};
+
+App.splitSentences = function (para) {
+  return para.match(/[^.!?]+[.!?]+["')\]]*\s*|[^.!?]+$/g) || [para];
+};
+
+App.passageHTML = function (p, pi) {
+  const paras = p.text.split(/\n\s*\n/).map((x) => x.trim()).filter(Boolean);
+  let si = 0;
+  const body = paras.map((para) => '<p>' + this.splitSentences(para).map((s) => {
+    const html = UI.esc(s.trim()).replace(/\*\*(.+?)\*\*/g, '<mark>$1</mark>');
+    return `<span class="sent" data-i="${si++}">${html}</span> `;
+  }).join('') + '</p>').join('');
+  return `<article class="panel passage" data-p="${pi}">
+    <h2>${pi + 1}. ${UI.esc(p.title)}</h2>
+    <div class="player">
+      <button class="btn primary" data-act="play">▶ Nghe</button>
+      <button class="btn" data-act="pause">⏸ Tạm dừng</button>
+      <button class="btn ghost" data-act="stopRead">⏹ Dừng</button>
+      <label>Tốc độ <select data-act="rateSel"><option value="0.75">Chậm</option><option value="0.95" selected>Tự nhiên</option><option value="1.15">Nhanh</option></select></label>
+    </div>
+    <div class="text">${body}</div>
+    ${p.summary_vi ? `<details><summary>Tóm tắt tiếng Việt</summary><p>${UI.esc(p.summary_vi)}</p></details>` : ''}
+    ${(p.exercises || []).map((ex, ei) => this.exerciseHTML(ex, pi, ei)).join('')}
+  </article>`;
+};
+
+App.exerciseHTML = function (ex, pi, ei) {
+  const titles = { match: 'Nối từ với nghĩa', gapfill: 'Điền từ vào câu', mcq: 'Câu hỏi trắc nghiệm', tfng: 'True / False / Not Given' };
+  const L = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+  let inner = '';
+  if (ex.type === 'match') {
+    const defs = UI.shuffle(ex.items.map((it) => it.definition));
+    inner = ex.items.map((it, i) => `<div class="q" data-i="${i}"><b>${UI.esc(it.word)}</b>
+      <select><option value="">— chọn định nghĩa —</option>${defs.map((d) => `<option>${UI.esc(d)}</option>`).join('')}</select><div class="fb"></div></div>`).join('');
+  } else if (ex.type === 'gapfill') {
+    inner = `<div class="bank">${UI.shuffle(ex.wordBank || []).map((w) => `<span class="chip">${UI.esc(w)}</span>`).join('')}</div>` +
+      ex.items.map((it, i) => `<div class="q" data-i="${i}"><span>${i + 1}. ${UI.esc(it.q).replace('____', '<input class="gap" autocomplete="off" spellcheck="false">')}</span><div class="fb"></div></div>`).join('');
+  } else if (ex.type === 'mcq') {
+    inner = ex.items.map((it, i) => `<div class="q" data-i="${i}"><div>${i + 1}. ${UI.esc(it.q)}</div>${it.options.map((o, k) =>
+      `<label class="opt"><input type="radio" name="e${pi}_${ei}_${i}" value="${k}"> ${L[k]}. ${UI.esc(o)}</label>`).join('')}<div class="fb"></div></div>`).join('');
+  } else if (ex.type === 'tfng') {
+    inner = ex.items.map((it, i) => `<div class="q" data-i="${i}"><div>${i + 1}. ${UI.esc(it.q)}</div>${['True', 'False', 'Not Given'].map((o) =>
+      `<label class="opt inline"><input type="radio" name="e${pi}_${ei}_${i}" value="${o}"> ${o}</label>`).join('')}<div class="fb"></div></div>`).join('');
+  } else return '';
+  return `<div class="ex-block" data-p="${pi}" data-e="${ei}">
+    <h3>${String.fromCharCode(65 + ei)}. ${titles[ex.type]}</h3>
+    ${ex.instruction ? `<p class="muted">${UI.esc(ex.instruction)}</p>` : ''}
+    ${inner}
+    <div class="row"><button class="btn primary" data-act="check">Kiểm tra</button><button class="btn ghost" data-act="resetEx">Làm lại</button><span class="score"></span></div>
+  </div>`;
+};
+
+App.actions.check = function (btn) {
+  const blk = btn.closest('.ex-block');
+  const ex = Store.data.gen.reading[SRS.today()].passages[+blk.dataset.p].exercises[+blk.dataset.e];
+  const norm = (s) => (s || '').toLowerCase().replace(/[^a-z0-9' ]/g, ' ').replace(/\s+/g, ' ').trim();
+  let ok = 0;
+  UI.$$('.q', blk).forEach((q) => {
+    const it = ex.items[+q.dataset.i];
+    let good = false, shown = '';
+    if (ex.type === 'match') { const v = UI.$('select', q).value; good = v === it.definition; shown = it.definition; }
+    else if (ex.type === 'gapfill') {
+      const v = norm(UI.$('input', q).value);
+      good = String(it.answer).split('/').some((a) => norm(a) === v) && v !== ''; shown = it.answer;
+    } else if (ex.type === 'mcq') { const r = UI.$('input:checked', q); good = !!r && +r.value === it.answer; shown = it.options[it.answer]; }
+    else if (ex.type === 'tfng') { const r = UI.$('input:checked', q); good = !!r && r.value.toLowerCase() === String(it.answer).toLowerCase(); shown = it.answer; }
+    if (good) ok++;
+    q.classList.toggle('good', good); q.classList.toggle('bad', !good);
+    UI.$('.fb', q).innerHTML = (good ? '✅ Đúng. ' : `❌ Đáp án: <b>${UI.esc(shown)}</b>. `) + UI.esc(it.explain || '');
+  });
+  UI.$('.score', blk).textContent = `Đúng ${ok}/${ex.items.length}`;
+};
+
+App.actions.resetEx = function (btn) {
+  const blk = btn.closest('.ex-block');
+  UI.$$('.q', blk).forEach((q) => { q.classList.remove('good', 'bad'); UI.$('.fb', q).textContent = ''; });
+  UI.$$('input.gap', blk).forEach((i) => { i.value = ''; });
+  UI.$$('input[type=radio]', blk).forEach((i) => { i.checked = false; });
+  UI.$$('select', blk).forEach((s) => { s.value = ''; });
+  UI.$('.score', blk).textContent = '';
+};
+
+App.reader = { paused: false, sents: [], p: null };
+App.actions.play = function (btn) {
+  const art = btn.closest('.passage');
+  const spans = UI.$$('.sent', art);
+  const rate = +UI.$('[data-act=rateSel]', art).value;
+  UI.$$('.passage .sent.now').forEach((s) => s.classList.remove('now'));
+  TTS.readList(spans.map((s) => s.textContent.trim()), {
+    rate,
+    onSentence: (i) => { UI.$$('.sent.now', art).forEach((s) => s.classList.remove('now')); spans[i].classList.add('now'); spans[i].scrollIntoView({ block: 'center', behavior: 'smooth' }); },
+    onDone: () => UI.$$('.sent.now', art).forEach((s) => s.classList.remove('now')),
+  });
+};
+App.actions.pause = function (btn) {
+  if (!('speechSynthesis' in window)) return;
+  if (speechSynthesis.paused) { speechSynthesis.resume(); btn.textContent = '⏸ Tạm dừng'; }
+  else { speechSynthesis.pause(); btn.textContent = '▶ Tiếp tục'; }
+};
+App.actions.stopRead = function (btn) { TTS.stop(); UI.$$('.sent.now').forEach((s) => s.classList.remove('now')); };
+App.actions.rateSel = function () { /* đổi tốc độ áp dụng ở lần bấm Nghe tiếp theo */ };
+
+/* ======================= BÀI NÓI ======================= */
+const SPEAK_BANK = [
+  { topic: 'Describe a time when you had to solve a difficult problem.', points: ['You should say:', 'what the problem was', 'how you dealt with it', 'who helped you', 'and explain how you felt afterwards.'], part3: ['Why do some people avoid facing problems?', 'How can schools teach problem-solving?'] },
+  { topic: 'Describe a place in your city that you think is important for the community.', points: ['You should say:', 'where it is', 'what people do there', 'how often you go there', 'and explain why it matters.'], part3: ['How do public places change a city?', 'Should governments spend more on public spaces?'] },
+  { topic: 'Describe a habit you would like to change.', points: ['You should say:', 'what the habit is', 'when it started', 'why you want to change it', 'and explain how you plan to do it.'], part3: ['Why is it hard for people to change habits?', 'Do habits differ between generations?'] },
+  { topic: 'Describe a person who has influenced you.', points: ['You should say:', 'who the person is', 'how you know them', 'what they did', 'and explain why they influenced you.'], part3: ['What makes someone a good role model?', 'Do celebrities have a responsibility to set an example?'] },
+];
+const WRITE_BANK = [
+  { topic: 'Some people think that governments should spend more money on public transport rather than building new roads. To what extent do you agree or disagree?', type: 'opinion' },
+  { topic: 'Many young people today find it difficult to manage stress. What are the causes of this, and what can be done to help?', type: 'problem-solution' },
+  { topic: 'Some people believe that working from home is better for employees, while others think working in an office is more effective. Discuss both views and give your opinion.', type: 'discussion' },
+];
+
+App.weakSource = function () {
+  const due = this.dueWords();
+  const pool = due.length ? due : this.words().filter((w) => !SRS.isNew(w));
+  return SRS.weakWords(pool);
+};
+
+App.productionView = function (kind) {
+  const weak = this.weakSource();
+  const key = kind === 'speaking' ? 'speakTopic' : 'writeTopic';
+  const topic = this[key];
+  const hist = Store.data.gen[kind].slice(-5).reverse();
+  const isS = kind === 'speaking';
+  const html = `
+  <section class="panel">
+    <h2>${isS ? '🎤 Bài nói' : '✍️ Bài viết'} — vận dụng các từ hay quên</h2>
+    <p class="muted">Các từ bạn hay quên (lấy từ danh sách ôn hôm nay):</p>
+    <div class="chips">${weak.map((w) => `<span class="chip warn" title="${UI.esc(w.meaning)}">${UI.esc(w.word)}</span>`).join('') || '<span class="muted">Chưa có từ nào để luyện. Hãy học và đánh dấu mức nhớ trước.</span>'}</div>
+    <div class="row">
+      <button class="btn primary" data-act="genTopic" data-kind="${kind}" ${weak.length ? '' : 'disabled'}>✨ Tạo chủ đề từ các từ này</button>
+      <button class="btn" data-act="bankTopic" data-kind="${kind}">🎲 Chủ đề có sẵn</button>
+    </div>
+  </section>
+  ${topic ? `<section class="panel topic" id="topicBox">
+    <h3>${isS ? 'Cue card' : 'Task 2'}</h3>
+    <p class="big">${UI.esc(topic.topic)}</p>
+    ${isS ? `<ul>${(topic.points || []).map((x) => `<li>${UI.esc(x)}</li>`).join('')}</ul>${(topic.part3 || []).length ? `<p class="muted"><b>Part 3:</b> ${topic.part3.map(UI.esc).join(' • ')}</p>` : ''}`
+      : topic.outline_vi ? `<p class="muted">💡 ${UI.esc(topic.outline_vi)}</p>` : ''}
+    ${(topic.suggested || []).length ? `<p>Thử dùng: ${topic.suggested.map((w) => `<span class="chip">${UI.esc(w)}</span>`).join('')}</p>` : ''}
+  </section>
+  <section class="panel">
+    ${isS ? `
+      <div class="recbar"><button class="btn rec" id="recBtn" data-act="toggleRec">⏺ Bắt đầu nói</button><span id="timer" class="timer">00:00</span><span class="muted" id="recHint">Nói 1–2 phút. Dùng Chrome/Edge để nhận dạng giọng nói.</span></div>
+      <audio id="playback" controls hidden></audio>
+      <label>Bản ghi (có thể sửa lại trước khi chấm)<textarea id="answerBox" rows="7" placeholder="Văn bản nhận dạng sẽ hiện ở đây. Nếu trình duyệt không hỗ trợ, hãy gõ lại những gì bạn nói."></textarea></label>`
+    : `
+      <div class="recbar"><button class="btn" data-act="toggleTimer" id="wTimerBtn">⏱ Bắt đầu tính giờ (40 phút)</button><span id="timer" class="timer">00:00</span><span class="counter" id="wc">0 từ</span></div>
+      <label>Bài viết của bạn (tối thiểu 250 từ)<textarea id="answerBox" rows="16" placeholder="Viết bài của bạn ở đây..."></textarea></label>`}
+    <div class="row"><button class="btn primary" data-act="grade" data-kind="${kind}">📝 Chấm điểm theo IELTS</button><span class="muted" id="gradeStatus"></span></div>
+  </section>
+  <div id="result"></div>` : ''}
+  ${hist.length ? `<section class="panel"><h3>Lịch sử gần đây</h3><div class="hist">${hist.map((h) => `<div><span class="muted">${SRS.fmtFull(h.date)}</span> <b>Band ${UI.band(h.overall)}</b> — ${UI.esc(h.topic.slice(0, 90))}…</div>`).join('')}</div></section>` : ''}`;
+  return {
+    html,
+    after() {
+      const box = UI.$('#answerBox');
+      if (box && !isS) box.addEventListener('input', () => { UI.$('#wc').textContent = this.countWords(box.value) + ' từ'; });
+    },
+  };
+};
+App.views.speaking = function () { return this.productionView('speaking'); };
+App.views.writing = function () { return this.productionView('writing'); };
+App.countWords = (s) => (s.trim().match(/[A-Za-z0-9'’-]+/g) || []).length;
+
+App.actions.bankTopic = function (el) {
+  const kind = el.dataset.kind;
+  const bank = kind === 'speaking' ? SPEAK_BANK : WRITE_BANK;
+  const weak = this.weakSource();
+  const t = Object.assign({}, bank[Math.floor(Math.random() * bank.length)], { suggested: weak.slice(0, 5).map((w) => w.word) });
+  this[kind === 'speaking' ? 'speakTopic' : 'writeTopic'] = t;
+  this.render();
+};
+
+App.actions.genTopic = async function (el) {
+  const kind = el.dataset.kind;
+  el.disabled = true; el.textContent = 'Đang tạo...';
+  try {
+    const pr = AI.topicPrompt(kind, this.weakSource());
+    const t = await AI.askJSON(pr);
+    this[kind === 'speaking' ? 'speakTopic' : 'writeTopic'] = t;
+    this.render();
+  } catch (e) { UI.toast(e.message || 'Không tạo được chủ đề'); this.render(); }
+};
+
+/* --- ghi âm + nhận dạng giọng nói --- */
+App.rec = { on: false, final: '', confs: [], t0: 0, timer: null, recognizer: null, media: null, chunks: [] };
+
+App.actions.toggleRec = async function (btn) {
+  const R = this.rec;
+  const box = UI.$('#answerBox');
+  if (R.on) { this.stopRec(); return; }
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) UI.toast('Trình duyệt này không nhận dạng giọng nói — hãy dùng Chrome/Edge hoặc gõ văn bản.');
+  R.on = true; R.final = box.value ? box.value + ' ' : ''; R.confs = []; R.t0 = Date.now(); R.chunks = [];
+  btn.textContent = '⏹ Dừng'; btn.classList.add('on'); box.readOnly = true;
+  UI.$('#playback').hidden = true;
+  R.timer = setInterval(() => { const s = Math.floor((Date.now() - R.t0) / 1000); UI.$('#timer').textContent = String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); }, 500);
+  try {
+    R.media = await navigator.mediaDevices.getUserMedia({ audio: true });
+    const mr = new MediaRecorder(R.media);
+    mr.ondataavailable = (e) => R.chunks.push(e.data);
+    mr.onstop = () => { const a = UI.$('#playback'); if (a) { a.src = URL.createObjectURL(new Blob(R.chunks, { type: 'audio/webm' })); a.hidden = false; } };
+    mr.start(); R.mr = mr;
+  } catch (e) { UI.toast('Không truy cập được micro. Hãy cho phép micro cho trang này.'); }
+  if (SR) {
+    const rc = new SR();
+    rc.lang = 'en-US'; rc.continuous = true; rc.interimResults = true;
+    rc.onresult = (ev) => {
+      let interim = '';
+      for (let i = ev.resultIndex; i < ev.results.length; i++) {
+        const r = ev.results[i];
+        if (r.isFinal) { R.final += r[0].transcript.trim() + ' '; if (r[0].confidence) R.confs.push(r[0].confidence); }
+        else interim += r[0].transcript;
+      }
+      const b = UI.$('#answerBox'); if (b) b.value = R.final + interim;
+    };
+    rc.onend = () => { if (R.on) { try { rc.start(); } catch (e) { /* đang chạy */ } } };
+    rc.onerror = (ev) => { if (ev.error === 'not-allowed') { UI.toast('Micro bị chặn'); } };
+    rc.start(); R.recognizer = rc;
+  }
+};
+
+App.stopRec = function () {
+  const R = this.rec;
+  R.on = false; clearInterval(R.timer);
+  R.seconds = Math.round((Date.now() - R.t0) / 1000);
+  try { R.recognizer && R.recognizer.stop(); } catch (e) { /* bỏ qua */ }
+  try { R.mr && R.mr.state !== 'inactive' && R.mr.stop(); } catch (e) { /* bỏ qua */ }
+  if (R.media) R.media.getTracks().forEach((t) => t.stop());
+  const btn = UI.$('#recBtn'), box = UI.$('#answerBox');
+  if (btn) { btn.textContent = '⏺ Nói lại / nói tiếp'; btn.classList.remove('on'); }
+  if (box) { box.readOnly = false; box.value = R.final.trim() || box.value; }
+};
+
+App.actions.toggleTimer = function (btn) {
+  const R = this.rec;
+  if (R.timer) { clearInterval(R.timer); R.timer = null; R.seconds = Math.round((Date.now() - R.t0) / 1000); btn.textContent = '⏱ Tiếp tục tính giờ'; return; }
+  R.t0 = Date.now() - (R.seconds || 0) * 1000;
+  btn.textContent = '⏸ Dừng giờ';
+  R.timer = setInterval(() => { const s = Math.floor((Date.now() - R.t0) / 1000); const el = UI.$('#timer'); if (!el) return; el.textContent = String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); el.classList.toggle('over', s > 2400); }, 500);
+};
+
+App.actions.grade = async function (btn) {
+  const kind = btn.dataset.kind;
+  const isS = kind === 'speaking';
+  const R = this.rec;
+  if (isS && R.on) this.stopRec();
+  const text = UI.$('#answerBox').value.trim();
+  const count = this.countWords(text);
+  if (count < (isS ? 25 : 60)) { UI.toast(isS ? 'Bài nói quá ngắn để chấm (cần ít nhất ~25 từ).' : 'Bài viết quá ngắn để chấm.'); return; }
+  const topic = isS ? this.speakTopic : this.writeTopic;
+  const words = this.weakSource();
+  const status = UI.$('#gradeStatus');
+  btn.disabled = true; status.textContent = 'Đang chấm bài...';
+  try {
+    let pr;
+    if (isS) {
+      const secs = R.seconds || Math.max(30, Math.round(count / 2.2));
+      const conf = R.confs.length ? (R.confs.reduce((a, b) => a + b, 0) / R.confs.length).toFixed(2) : 'n/a (typed or unavailable)';
+      const fillers = (text.match(/\b(um+|uh+|er+|erm|you know)\b/gi) || []).length;
+      pr = AI.speakingPrompt(topic, words, { seconds: secs, words: count, wpm: Math.round(count / secs * 60), conf, fillers }, text);
+    } else {
+      const mins = R.seconds ? Math.round(R.seconds / 60) : 0;
+      pr = AI.writingPrompt(topic, words, text, count, mins);
+    }
+    const r = await AI.askJSON(pr);
+    const keys = Object.keys(r.bands);
+    r.overall = Math.round(keys.reduce((a, k) => a + Number(r.bands[k]), 0) / keys.length * 2) / 2;
+    Store.data.gen[kind].push({ date: SRS.today(), topic: topic.topic, overall: r.overall, bands: r.bands, text });
+    Store.prune(); Store.save();
+    UI.$('#result').innerHTML = this.resultHTML(kind, r);
+    UI.$('#result').scrollIntoView({ behavior: 'smooth' });
+  } catch (e) { UI.toast(e.message || 'Chấm bài thất bại'); }
+  btn.disabled = false; status.textContent = '';
+};
+
+App.resultHTML = function (kind, r) {
+  const labels = kind === 'speaking'
+    ? { pronunciation: 'Phát âm', vocabulary: 'Từ vựng', grammar: 'Ngữ pháp', fluency: 'Độ trôi chảy', clarity: 'Mức độ rõ ý' }
+    : { task: 'Task Response', coherence: 'Coherence & Cohesion', lexical: 'Lexical Resource', grammar: 'Grammar' };
+  const c = r.comments || {};
+  return `<section class="panel result">
+    <div class="overall"><span>Band tổng</span><b>${UI.band(r.overall)}</b></div>
+    <div class="bands">${Object.keys(labels).map((k) => `<div class="bandcard"><small>${labels[k]}</small><b>${UI.band(r.bands[k] || 0)}</b><div class="track"><i style="width:${(r.bands[k] || 0) / 9 * 100}%"></i></div><p>${UI.esc(c[k] || '')}</p></div>`).join('')}</div>
+    ${kind === 'speaking' ? '<p class="note">Điểm phát âm chỉ là ước lượng từ văn bản nhận dạng giọng nói và độ tin cậy của trình nhận dạng — không nghe được âm thanh thật. Hãy coi đó là gợi ý.</p>' : ''}
+    <h3>Từ mục tiêu</h3>
+    <p>✅ Đã dùng: ${(r.used_words || []).map((w) => `<span class="chip good">${UI.esc(w)}</span>`).join('') || '—'}</p>
+    <p>➕ Chưa dùng: ${(r.missed_words || []).map((w) => `<span class="chip warn">${UI.esc(w)}</span>`).join('') || '—'}</p>
+    ${r.word_use_feedback ? `<p class="muted">${UI.esc(r.word_use_feedback)}</p>` : ''}
+    <h3>Lỗi cần sửa</h3>
+    <div class="errs">${(r.errors || []).map((x) => `<div class="err"><div class="o">✗ ${UI.esc(x.original)}</div><div class="b">✓ ${UI.esc(x.better)}</div><div class="w">${UI.esc(x.why)}</div></div>`).join('') || '<p class="muted">Không có lỗi đáng kể.</p>'}</div>
+    <h3>Phiên bản tốt hơn (gợi ý)</h3>
+    <blockquote>${UI.esc(r.better_version || '').replace(/\n/g, '<br>')}</blockquote>
+    <button class="btn" data-act="sayText" data-text="${UI.esc(r.better_version || '')}">🔊 Nghe bản mẫu</button>
+    <h3>Việc cần luyện tiếp</h3>
+    <ul>${(r.next_steps || []).map((x) => `<li>${UI.esc(x)}</li>`).join('')}</ul>
+  </section>`;
+};
+App.actions.sayText = function (el) { TTS.stop(); TTS.say(el.dataset.text); };
+
+
+/* ======================= FLASHCARD ======================= */
+App.fc = { ids: [], i: 0, flipped: false, front: 'word', ok: 0 };
+App.actions.fcStart = function () {
+  this.fc = { ids: UI.shuffle(this.dueWords().map((w) => w.id)), i: 0, flipped: false, front: this.fc.front || 'word', stats: [0, 0, 0, 0, 0] };
+  if (!this.fc.ids.length) return;
+  const el = document.createElement('div');
+  el.id = 'fcModal'; el.className = 'modal';
+  document.body.appendChild(el);
+  this.fcRender();
+};
+App.fcRender = function () {
+  const el = UI.$('#fcModal'); if (!el) return;
+  const F = this.fc;
+  const total = F.ids.length;
+  if (F.i >= total) {
+    el.innerHTML = `<div class="modal-box fc"><h3>🎉 Xong ${total} từ!</h3>
+      ${SRS.LEVELS.map((l, k) => `<div class="bar" style="grid-template-columns:200px 1fr 30px"><span class="tag ${l.cls}">${l.name}</span><div class="track"><i class="${l.cls}" style="width:${F.stats[k] / total * 100}%"></i></div><b>${F.stats[k]}</b></div>`).join('')}
+      <div class="row end"><button class="btn primary" data-act="fcClose">Đóng</button></div></div>`;
+    return;
+  }
+  const w = this.byId(F.ids[F.i]);
+  const frontWord = F.front === 'word';
+  const front = frontWord
+    ? `<div class="fc-word">${UI.esc(w.word)}</div>${w.ipa ? `<div class="ipa">${UI.esc(w.ipa)}</div>` : ''}`
+    : `<div class="fc-mean">${UI.esc(w.meaning)}</div>${w.pos ? `<span class="pos">${UI.esc(UI.posAbbr(w.pos))}</span>` : ''}`;
+  const back = frontWord
+    ? `<div class="fc-mean">${UI.esc(w.meaning)}</div>${w.pos ? `<span class="pos">${UI.esc(UI.posAbbr(w.pos))}</span>` : ''}${w.example ? `<div class="ex">“${UI.esc(w.example)}”</div>` : ''}`
+    : `<div class="fc-word">${UI.esc(w.word)}</div>${w.ipa ? `<div class="ipa">${UI.esc(w.ipa)}</div>` : ''}${w.example ? `<div class="ex">“${UI.esc(w.example)}”</div>` : ''}`;
+  el.innerHTML = `<div class="modal-box fc">
+    <div class="fc-top"><span class="muted">${F.i + 1} / ${total}</span>
+      <label class="check"><input type="checkbox" data-act="fcSide" ${frontWord ? '' : 'checked'}> Mặt trước là nghĩa</label>
+      <button class="icon" data-act="fcClose" title="Đóng (Esc)">✖</button></div>
+    <div class="track"><i style="width:${F.i / total * 100}%"></i></div>
+    <div class="fc-card" data-act="fcFlip" data-id="${w.id}">
+      <div class="fc-face">${front}<button class="spk" data-act="fcSpeak" title="Nghe (S)">🔊</button></div>
+      ${F.flipped ? `<hr><div class="fc-face">${back}</div>` : '<div class="muted fc-hint">Bấm vào thẻ hoặc phím Space để lật</div>'}
+    </div>
+    ${F.flipped ? `<div class="rate">${SRS.LEVELS.map((l, k) => `<button class="lv ${l.cls}" data-act="fcRate" data-lv="${k}"><b>${k + 1}. ${l.short}</b><small>${l.iv[0]} · ${l.iv[1]} ngày</small></button>`).join('')}</div>`
+      : '<div class="row end"><button class="btn primary" data-act="fcFlip">Lật thẻ</button></div>'}
+  </div>`;
+  if (frontWord && !F.flipped) TTS.speakWord(w);
+};
+App.actions.fcFlip = function (el, e) { if (e && e.target.closest('.spk')) return; this.fc.flipped = true; this.fcRender(); };
+App.actions.fcSpeak = function () { TTS.speakWord(this.byId(this.fc.ids[this.fc.i])); };
+App.actions.fcSide = function (el) { this.fc.front = el.checked ? 'meaning' : 'word'; this.fc.flipped = false; this.fcRender(); };
+App.actions.fcRate = function (el) {
+  const lv = +el.dataset.lv, w = this.byId(this.fc.ids[this.fc.i]);
+  SRS.rate(w, lv, SRS.today()); Store.save();
+  this.fc.stats[lv]++; this.fc.i++; this.fc.flipped = false; this.fcRender();
+};
+App.actions.fcClose = function () { TTS.stop(); const m = UI.$('#fcModal'); if (m) m.remove(); this.render(); };
+document.addEventListener('keydown', (e) => {
+  if (!UI.$('#fcModal')) return;
+  const F = App.fc;
+  if (e.key === 'Escape') App.actions.fcClose.call(App);
+  else if (e.key === ' ' && F.i < F.ids.length && !F.flipped) { e.preventDefault(); App.actions.fcFlip.call(App); }
+  else if (/^[1-5]$/.test(e.key) && F.flipped) App.actions.fcRate.call(App, { dataset: { lv: +e.key - 1 } });
+  else if (e.key.toLowerCase() === 's' && F.i < F.ids.length) App.actions.fcSpeak.call(App);
+});
+
+/* ======================= CÀI ĐẶT ======================= */
+App.views.settings = function () {
+  const s = Store.data.settings;
+  const html = `
+  <section class="panel">
+    <h2>🔑 Kết nối Claude (tạo bài đọc & chấm bài tự động)</h2>
+    <p class="muted">Khoá API được lưu <b>chỉ trong trình duyệt này</b> và gửi thẳng tới api.anthropic.com. Không nhập khoá trên máy dùng chung. Có thể bỏ trống để dùng chế độ thủ công (sao chép prompt sang claude.ai).</p>
+    <label>API key<input id="apiKey" type="password" autocomplete="off" placeholder="sk-ant-..." value="${UI.esc(s.apiKey)}"></label>
+    <label>Model<input id="model" value="${UI.esc(s.model)}"></label>
+    <div class="row"><button class="btn primary" data-act="saveSettings">Lưu</button><button class="btn" data-act="testAI">Thử kết nối</button><span class="muted" id="testOut"></span></div>
+  </section>
+  <section class="panel">
+    <h2>☁️ Đồng bộ GitHub & bài đọc tự động</h2>
+    <p class="muted">Dán GitHub token để web tự lưu danh sách từ lên GitHub; routine lúc 4:30 sáng sẽ đọc danh sách đó và tạo sẵn bài đọc cho bạn. Token chỉ lưu trong trình duyệt này.
+    Tạo token: GitHub → Settings → Developer settings → Fine-grained tokens → chọn <b>chỉ repo Luong-Giang</b> → Repository permissions → <b>Contents: Read and write</b>.</p>
+    <label>Repo<input id="ghRepo" value="${UI.esc(s.ghRepo || Sync.DEFAULT_REPO)}"></label>
+    <label>GitHub token<input id="ghToken" type="password" autocomplete="off" placeholder="github_pat_..." value="${UI.esc(s.ghToken || '')}"></label>
+    <div class="row"><button class="btn primary" data-act="saveSettings">Lưu</button><button class="btn" data-act="syncNow">Đồng bộ ngay</button><span class="muted" id="syncOut">${UI.esc(Sync.status)}</span></div>
+  </section>
+  <section class="panel">
+    <h2>🔊 Giọng đọc</h2>
+    <p class="muted">Giọng chất lượng cao nhất có sẵn trên máy: trên Edge chọn các giọng có chữ “Natural” (vd. Microsoft Aria/Jenny Online (Natural)).</p>
+    <label>Giọng<select id="voiceSel"><option value="">Tự chọn giọng tự nhiên nhất</option>${TTS.voices.map((v) => `<option value="${UI.esc(v.voiceURI)}" ${v.voiceURI === s.voice ? 'selected' : ''}>${UI.esc(v.name)} (${v.lang})</option>`).join('')}</select></label>
+    <label>Tốc độ <span id="rateVal">${s.rate}</span><input id="rateRange" type="range" min="0.6" max="1.3" step="0.05" value="${s.rate}"></label>
+    <button class="btn" data-act="testVoice">▶ Nghe thử</button>
+  </section>
+  <section class="panel">
+    <h2>💾 Dữ liệu</h2>
+    <p class="muted">Dữ liệu nằm trong trình duyệt. Hãy xuất bản sao lưu định kỳ, nhất là trước khi xoá lịch sử trình duyệt.</p>
+    <div class="row"><button class="btn" data-act="export">⬇ Xuất sao lưu (.json)</button>
+    <label class="btn">⬆ Nhập sao lưu<input type="file" id="importFile" accept=".json" hidden></label>
+    <button class="btn danger" data-act="wipe">Xoá toàn bộ dữ liệu</button></div>
+  </section>`;
+  return {
+    html,
+    after() {
+      UI.$('#rateRange').addEventListener('input', (e) => { UI.$('#rateVal').textContent = e.target.value; });
+      UI.$('#importFile').addEventListener('change', (e) => {
+        const f = e.target.files[0]; if (!f) return;
+        f.text().then((t) => {
+          try { const d = JSON.parse(t); if (!Array.isArray(d.words)) throw new Error(); localStorage.setItem(Store.KEY, JSON.stringify(d)); Store.load(); UI.toast('Đã nhập sao lưu'); this.render(); }
+          catch (err) { UI.toast('File sao lưu không hợp lệ'); }
+        });
+      });
+    },
+  };
+};
+
+App.actions.saveSettings = function () {
+  const s = Store.data.settings;
+  s.apiKey = UI.$('#apiKey').value.trim();
+  s.model = UI.$('#model').value.trim() || 'claude-sonnet-5-5';
+  s.voice = UI.$('#voiceSel').value;
+  s.ghToken = UI.$('#ghToken').value.trim();
+  s.ghRepo = UI.$('#ghRepo').value.trim() || Sync.DEFAULT_REPO;
+  s.rate = +UI.$('#rateRange').value;
+  Store.save(); UI.toast('Đã lưu cài đặt');
+};
+App.actions.syncNow = async function () { this.actions.saveSettings.call(this); if (!Sync.enabled()) { Sync.setStatus('Chưa nhập token.'); return; } Sync.setStatus('Đang đồng bộ...'); await Sync.push(); };
+App.actions.testVoice = function () { this.actions.saveSettings.call(this); TTS.stop(); TTS.say('Spaced repetition helps you remember new vocabulary for a long time.'); };
+App.actions.testAI = async function () {
+  this.actions.saveSettings.call(this);
+  const out = UI.$('#testOut');
+  if (!AI.hasKey()) { out.textContent = 'Chưa nhập API key.'; return; }
+  out.textContent = 'Đang thử...';
+  try { await AI.ask({ system: 'Reply with the single word OK.', user: 'ping', maxTokens: 10 }); out.textContent = '✅ Kết nối thành công'; }
+  catch (e) { out.textContent = '❌ ' + e.message; }
+};
+App.actions.export = function () {
+  const blob = new Blob([JSON.stringify(Store.data, null, 1)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = 'vocab-backup-' + SRS.today() + '.json'; a.click();
+};
+App.actions.wipe = function () {
+  if (confirm('Xoá toàn bộ từ vựng, lịch ôn và lịch sử? Không thể hoàn tác.')) { localStorage.removeItem(Store.KEY); Store.data = null; Store.load(); this.render(); }
+};
+
+document.addEventListener('DOMContentLoaded', () => App.init());
