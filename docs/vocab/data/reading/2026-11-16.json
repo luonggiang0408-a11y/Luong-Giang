@@ -1,0 +1,377 @@
+{
+ "words": [
+  {
+   "word": "mitigate",
+   "ipa": "/ˈmɪtɪɡeɪt/",
+   "pos": "v",
+   "meaning": "làm giảm nhẹ"
+  },
+  {
+   "word": "reluctant",
+   "ipa": "/rɪˈlʌktənt/",
+   "pos": "adj",
+   "meaning": "miễn cưỡng"
+  },
+  {
+   "word": "crucial",
+   "ipa": "/ˈkruːʃl/",
+   "pos": "adj",
+   "meaning": "then chốt"
+  },
+  {
+   "word": "tackle",
+   "ipa": "/ˈtækl/",
+   "pos": "v",
+   "meaning": "giải quyết (vấn đề)"
+  }
+ ],
+ "passages": [
+  {
+   "title": "Taming the Floods of Marlow",
+   "text": "Every autumn, the coastal town of Marlow faces the same problem: heavy rain turns its streets into rivers. For years, residents were told that flooding was simply part of life by the sea. Now the council has decided to **tackle** the issue directly rather than wait for the next disaster.\n\nThe plan has several parts. First, engineers will widen the old drains so that water can escape more quickly. Second, new parks with soft, absorbent ground will be built in low areas. These green spaces cannot stop a storm, but they can **mitigate** its effects by holding water that would otherwise run into people's homes.\n\nLocal shopkeeper Anna Reyes says she welcomes the change. \"Last year I lost half my stock,\" she explains. \"If the council had acted earlier, I would have saved thousands.\" The project will cost twelve million pounds and take three years. Officials admit that no scheme can remove the danger completely, yet they believe that careful planning will **mitigate** the worst damage and give families greater peace of mind.",
+   "summary_vi": "Một thị trấn ven biển lên kế hoạch giải quyết và giảm nhẹ tác hại của lũ lụt hằng năm.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word with its English definition.",
+     "items": [
+      {
+       "word": "tackle",
+       "definition": "to make a serious effort to deal with a problem",
+       "explain": "Trong bài, hội đồng thị trấn quyết định 'tackle' vấn đề lũ lụt trực tiếp, nghĩa là bắt tay giải quyết vấn đề."
+      },
+      {
+       "word": "mitigate",
+       "definition": "to make something bad less serious or less harmful",
+       "explain": "Công viên xốp 'mitigate' tác động của bão, tức là làm giảm nhẹ thiệt hại chứ không ngăn hoàn toàn."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Type the correct target word to complete each sentence.",
+     "wordBank": [
+      "mitigate",
+      "tackle"
+     ],
+     "items": [
+      {
+       "q": "The new manager promised to ____ the problem of late deliveries within a month.",
+       "answer": "tackle",
+       "explain": "'Tackle' đi với 'problem' nghĩa là giải quyết vấn đề."
+      },
+      {
+       "q": "Planting trees along the road can help ____ the noise from traffic.",
+       "answer": "mitigate",
+       "explain": "Cây xanh làm giảm tiếng ồn, nên dùng 'mitigate' (làm giảm nhẹ)."
+      },
+      {
+       "q": "Schools must ____ bullying before it harms students' confidence.",
+       "answer": "tackle",
+       "explain": "Cần giải quyết nạn bắt nạt một cách chủ động, nên dùng 'tackle'."
+      },
+      {
+       "q": "Wearing a helmet will ____ the risk of serious head injury.",
+       "answer": "mitigate",
+       "explain": "Mũ bảo hiểm làm giảm nguy cơ chấn thương, không loại bỏ hoàn toàn nên dùng 'mitigate'."
+      },
+      {
+       "q": "Governments around the world are trying to ____ climate change.",
+       "answer": "tackle",
+       "explain": "'Tackle climate change' là cụm thường gặp, nghĩa là giải quyết biến đổi khí hậu."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "What problem does Marlow have every autumn?",
+       "options": [
+        "Strong winds destroy buildings",
+        "Heavy rain floods the streets",
+        "The sea becomes too cold",
+        "Drains are being stolen"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 1 nói mưa lớn biến đường phố thành sông."
+      },
+      {
+       "q": "Why will new parks be built in low areas?",
+       "options": [
+        "To attract tourists",
+        "To replace old shops",
+        "To hold rainwater",
+        "To block the wind"
+       ],
+       "answer": 2,
+       "explain": "Bài nói các không gian xanh giữ nước mà nếu không sẽ chảy vào nhà dân."
+      },
+      {
+       "q": "What do officials admit about the scheme?",
+       "options": [
+        "It will stop all flooding",
+        "It cannot remove the danger completely",
+        "It will cost less than expected",
+        "It will finish in one year"
+       ],
+       "answer": 1,
+       "explain": "Câu cuối: không kế hoạch nào loại bỏ hoàn toàn nguy hiểm."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "The council waited for another disaster before acting.",
+       "answer": "False",
+       "explain": "Hội đồng quyết định xử lý trực tiếp 'rather than wait for the next disaster'."
+      },
+      {
+       "q": "Anna Reyes lost some of her stock last year.",
+       "answer": "True",
+       "explain": "Anna nói đã mất một nửa hàng hóa."
+      },
+      {
+       "q": "The project will take five years to finish.",
+       "answer": "False",
+       "explain": "Bài nói dự án mất ba năm."
+      },
+      {
+       "q": "Marlow residents will pay a new tax for the project.",
+       "answer": "Not Given",
+       "explain": "Bài không đề cập đến việc đánh thuế cư dân."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Fear of Speaking Up",
+   "text": "When my manager asked me to give a presentation to the whole company, I was **reluctant** to say yes. I had worked in the same small team for four years, and I always preferred to stay quietly in the background. Speaking in front of two hundred colleagues sounded like a nightmare.\n\nMy friend Linh noticed how nervous I looked at lunch. \"You are more capable than you think,\" she told me. \"Why not practise with me this weekend?\" I was still **reluctant**, but I agreed, mainly because I did not want to disappoint her.\n\nOn Saturday we met in a café, and I read my slides aloud while she listened and gave advice. She suggested speaking more slowly and smiling at the start. After three practice sessions, my hands stopped shaking.\n\nOn the day itself, my heart was beating fast, but the first few sentences went smoothly. By the end, people were clapping. I realised that my fear had been much bigger than the real risk. When offered a challenge, I am far less **reluctant** to accept it.",
+   "summary_vi": "Người viết kể về việc miễn cưỡng nhận thuyết trình nhưng nhờ bạn luyện tập mà vượt qua nỗi sợ.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match the word with its English definition.",
+     "items": [
+      {
+       "word": "reluctant",
+       "definition": "not willing to do something and therefore slow to do it",
+       "explain": "Người kể 'reluctant' nhận lời thuyết trình vì sợ nói trước đám đông, tức là miễn cưỡng."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Type the target word to complete each sentence.",
+     "wordBank": [
+      "reluctant"
+     ],
+     "items": [
+      {
+       "q": "Tom was ____ to lend his car because the last borrower had damaged it.",
+       "answer": "reluctant",
+       "explain": "Tom không muốn cho mượn xe vì lý do trước đó nên dùng 'reluctant' (miễn cưỡng)."
+      },
+      {
+       "q": "Many people feel ____ to complain in restaurants, even when the food is cold.",
+       "answer": "reluctant",
+       "explain": "Nhiều người ngại phàn nàn nên dùng 'reluctant to + V'."
+      },
+      {
+       "q": "The witness was ____ to speak to the police because he feared for his family.",
+       "answer": "reluctant",
+       "explain": "Nhân chứng sợ hãi nên miễn cưỡng nói chuyện."
+      },
+      {
+       "q": "She gave a ____ smile when she heard she had to work on Sunday.",
+       "answer": "reluctant",
+       "explain": "Nụ cười gượng gạo, không thật lòng, hợp với 'reluctant'."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "Why was the writer unhappy about the presentation at first?",
+       "options": [
+        "The slides were not ready",
+        "They disliked their manager",
+        "They preferred staying in the background",
+        "They had no time"
+       ],
+       "answer": 2,
+       "explain": "Người viết luôn thích ở phía sau và sợ nói trước 200 người."
+      },
+      {
+       "q": "Why did the writer finally agree to practise with Linh?",
+       "options": [
+        "They did not want to disappoint her",
+        "Linh paid for the café",
+        "The manager ordered it",
+        "They needed new slides"
+       ],
+       "answer": 0,
+       "explain": "Bài nói mình đồng ý chủ yếu vì không muốn làm Linh thất vọng."
+      },
+      {
+       "q": "What did the writer learn from the experience?",
+       "options": [
+        "Slides are not important",
+        "Fear was bigger than the real risk",
+        "Cafés are good for practice",
+        "Colleagues dislike speeches"
+       ],
+       "answer": 1,
+       "explain": "Đoạn cuối: nỗi sợ lớn hơn nhiều so với rủi ro thật."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "The writer had worked in the same team for four years.",
+       "answer": "True",
+       "explain": "Bài nói đã làm cùng một đội nhỏ bốn năm."
+      },
+      {
+       "q": "Linh and the writer practised only once.",
+       "answer": "False",
+       "explain": "Bài nói họ luyện ba buổi."
+      },
+      {
+       "q": "The audience clapped at the end of the presentation.",
+       "answer": "True",
+       "explain": "'By the end, people were clapping.'"
+      },
+      {
+       "q": "The manager gave the writer a pay rise afterwards.",
+       "answer": "Not Given",
+       "explain": "Bài không nhắc đến việc tăng lương."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Why Sleep Matters for Students",
+   "text": "Many students believe that studying late into the night is the best way to prepare for exams. However, sleep researchers disagree. They argue that a good night's rest is **crucial** for learning, because the brain stores new information while we sleep.\n\nIn one well-known experiment, two groups of university students memorised a list of two hundred words. The first group went to bed at a normal time, while the second stayed awake all night. The following morning, the rested students remembered almost thirty percent more words. The scientists concluded that sleep is not a luxury but a **crucial** part of the learning process.\n\nExperts also say that timing matters. Reviewing material shortly before bed can help the brain fix it in memory. Eating well and taking short breaks during the day are also important.\n\nTeachers are now starting to share these findings with their classes. Some schools have even moved the start of lessons later in the morning. Their aim is simple: to help teenagers gain the rest that is **crucial** for their health and their results.",
+   "summary_vi": "Các nghiên cứu cho thấy giấc ngủ rất quan trọng đối với việc học của học sinh.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match the word with its English definition.",
+     "items": [
+      {
+       "word": "crucial",
+       "definition": "extremely important because everything else depends on it",
+       "explain": "Giấc ngủ 'crucial' cho việc học vì não lưu thông tin khi ngủ, nghĩa là then chốt, cực kỳ quan trọng."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Type the target word to complete each sentence.",
+     "wordBank": [
+      "crucial"
+     ],
+     "items": [
+      {
+       "q": "Clear communication is ____ in any successful team.",
+       "answer": "crucial",
+       "explain": "Giao tiếp rõ ràng là yếu tố then chốt của đội nhóm."
+      },
+      {
+       "q": "It is ____ that you arrive before eight, or you will miss the interview.",
+       "answer": "crucial",
+       "explain": "Đến đúng giờ là điều cực kỳ quan trọng, nên dùng 'crucial'."
+      },
+      {
+       "q": "The goalkeeper made a ____ save in the final minute of the match.",
+       "answer": "crucial",
+       "explain": "Pha cứu thua ở phút cuối mang tính quyết định nên dùng 'crucial'."
+      },
+      {
+       "q": "Water is ____ for all living things.",
+       "answer": "crucial",
+       "explain": "Nước là thiết yếu với mọi sinh vật."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "What do sleep researchers say about studying all night?",
+       "options": [
+        "It is the best method",
+        "It does not help learning",
+        "It is only useful for teenagers",
+        "It improves memory by thirty percent"
+       ],
+       "answer": 1,
+       "explain": "Các nhà nghiên cứu cho rằng ngủ đủ mới quan trọng, thức cả đêm không giúp học tốt."
+      },
+      {
+       "q": "What happened in the experiment?",
+       "options": [
+        "Rested students remembered more words",
+        "Both groups scored the same",
+        "Tired students remembered more",
+        "Nobody finished the list"
+       ],
+       "answer": 0,
+       "explain": "Nhóm ngủ đủ nhớ nhiều hơn gần 30%."
+      },
+      {
+       "q": "What have some schools done?",
+       "options": [
+        "Banned homework",
+        "Shortened the school year",
+        "Started lessons later",
+        "Added night classes"
+       ],
+       "answer": 2,
+       "explain": "Một số trường dời giờ vào học muộn hơn."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "The brain stores new information while we sleep.",
+       "answer": "True",
+       "explain": "Đoạn 1 nêu rõ điều này."
+      },
+      {
+       "q": "The experiment used two hundred students.",
+       "answer": "False",
+       "explain": "Bài nói hai trăm từ, không phải hai trăm sinh viên."
+      },
+      {
+       "q": "Reviewing material before bed can help memory.",
+       "answer": "True",
+       "explain": "Chuyên gia nói ôn bài trước khi ngủ giúp não ghi nhớ."
+      },
+      {
+       "q": "Most teachers in the country support later start times.",
+       "answer": "Not Given",
+       "explain": "Bài chỉ nói một số trường, không nói đa số giáo viên."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
