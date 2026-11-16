@@ -208,7 +208,7 @@ App.ratedRow = function (w) {
     <button class="spk" data-act="speak" aria-label="Nghe phát âm">${I('volume', 16)}</button>
     <span class="wterm">${UI.esc(w.word)}</span><span class="tag ${l.cls}">${l.short}</span>
     <span class="muted">${w.mastered ? 'xong chu kỳ' : 'nhắc lại ' + SRS.fmtFull(w.schedule[0] || SRS.today())}</span>
-    <button class="btn ghost sm" data-act="unrate">Chấm lại</button></div></div>`;
+    ${w.undo && w.undo.on === SRS.today() ? '<button class="btn ghost sm" data-act="unrate">Chấm lại</button>' : ''}</div></div>`;
 };
 App.actions.unrate = function (el) {
   const card = el.closest('[data-id]'); const w = card && this.byId(card.dataset.id);
@@ -221,13 +221,14 @@ App.actions.unrate = function (el) {
   UI.toast('Đã hoàn tác. Hãy chọn lại mức nhớ cho “' + w.word + '”.');
 };
 
-App.listModal = function (title, hint, head, rows) {
+App.listModal = function (title, hint, head, rows, extra) {
   const old = UI.$('#listModal'); if (old) old.remove();
   const el = document.createElement('div');
   el.id = 'listModal'; el.className = 'modal'; el.dataset.act = 'closeModal';
   el.innerHTML = `<div class="modal-box wide">
     <div class="fc-top"><h3 style="margin:0">${title}</h3><button class="icon" data-act="closeModal" title="Đóng (Esc)">${I('x', 16)}</button></div>
     <p class="muted">${hint}</p>
+    ${extra || ''}
     <input class="search" placeholder="Lọc theo từ hoặc nghĩa..." data-filter>
     <div class="table-wrap"><table class="tbl"><thead><tr>${head.map((h) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${rows || `<tr><td colspan="${head.length}" class="muted">Không có từ nào.</td></tr>`}</tbody></table></div>
   </div>`;
@@ -243,6 +244,26 @@ App.actions.showDue = function () {
     return `<tr><td><b>${UI.esc(w.word)}</b>${w.ipa ? ` <span class="ipa">${UI.esc(w.ipa)}</span>` : ''}</td><td>${UI.esc(w.meaning)}</td><td><span class="tag ${l.cls}">${l.short}</span></td><td>${SRS.fmtFull(w.schedule[0])}</td><td>${d > 0 ? `<span class="tag late">quá hạn ${d} ngày</span>` : 'hôm nay'}</td></tr>`;
   }).join('');
   this.listModal('Từ cần ôn hôm nay (' + this.dueWords().length + ')', 'Sắp xếp theo ngày hẹn. Ôn xong ở danh sách bên dưới hoặc bằng flashcard.', ['Từ', 'Nghĩa', 'Mức hiện tại', 'Ngày hẹn', 'Trạng thái'], rows);
+};
+App.actions.histDay = function (el) { this.actions.showHistory.call(this, el.dataset.d); };
+App.actions.showHistory = function (arg) {
+  const d = typeof arg === 'string' ? arg : SRS.today();
+  const perDay = {};
+  this.words().forEach((w) => (w.history || []).forEach((h) => { perDay[h.date] = (perDay[h.date] || 0) + 1; }));
+  const days = Object.keys(perDay).sort().reverse().slice(0, 21);
+  if (!days.includes(d)) days.unshift(d);
+  const chips = `<div class="chips">${days.map((x) => `<button class="chip dayc ${x === d ? 'on' : ''}" data-act="histDay" data-d="${x}">${SRS.fmt(x)} · ${perDay[x] || 0}</button>`).join('')}</div>`;
+  const items = [];
+  this.words().forEach((w) => {
+    const hs = (w.history || []).filter((h) => h.date === d);
+    if (hs.length) items.push({ w, lv: hs[hs.length - 1].level });
+  });
+  const rows = items.map(({ w, lv }) => {
+    const l = SRS.LEVELS[Math.max(0, Math.min(SRS.LEVELS.length - 1, lv))];
+    const next = w.lastReviewed === d && w.schedule[0] ? SRS.fmtFull(w.schedule[0]) : (w.mastered && w.lastReviewed === d ? 'xong chu kỳ' : '—');
+    return `<tr><td><b>${UI.esc(w.word)}</b>${w.ipa ? ` <span class="ipa">${UI.esc(w.ipa)}</span>` : ''}</td><td>${UI.esc(w.meaning)}</td><td><span class="tag ${l.cls}">${l.short}</span></td><td>${next}</td></tr>`;
+  }).join('');
+  this.listModal('Từ đã ôn ngày ' + SRS.fmtFull(d) + ' (' + items.length + ')', 'Chọn ngày bên dưới để xem lại. Số bên cạnh ngày là số từ được chấm trong ngày đó.', ['Từ', 'Nghĩa', 'Mức đã chọn', 'Ôn tiếp'], rows, chips);
 };
 App.actions.showNew = function () {
   const ws = this.newWords();
@@ -349,7 +370,7 @@ App.views.review = function () {
   }).join('') + (learned.some((w) => w.mastered) ? `<details class="trk"><summary><span class="tag l4">Đã xong chu kỳ</span> <b>${learned.filter((w) => w.mastered).length}</b> từ</summary>${table(learned.filter((w) => w.mastered))}</details>` : '');
   const done = words.filter((w) => w.mastered).length;
   const doneToday = words.filter((w) => w.lastReviewed === t).length;
-  const ratedToday = words.filter((w) => w.undo && w.undo.on === t && w.lastReviewed === t);
+  const ratedToday = words.filter((w) => w.lastReviewed === t && !SRS.isNew(w));
   const totalToday = doneToday + due.length;
   const pct = totalToday ? Math.round(doneToday / totalToday * 100) : 100;
   // Lịch 7 ngày tới
@@ -364,7 +385,8 @@ App.views.review = function () {
     <div class="ring" style="--p:${pct}"><span>${pct}%</span></div>
     <div class="hero-text"><h2>Hôm nay</h2>
       <p>Đã ôn <b>${doneToday}</b>/${totalToday} từ · còn <b>${due.length}</b> từ đến hạn</p>
-      ${due.length ? `<button class="btn primary" data-act="fcStart">${I('cards')} Học bằng flashcard</button>` : '<span class="muted">Không còn từ nào đến hạn.</span>'}</div>
+      ${due.length ? `<button class="btn primary" data-act="fcStart">${I('cards')} Học bằng flashcard</button>` : '<span class="muted">Không còn từ nào đến hạn.</span>'}
+      ${doneToday ? `<button class="btn hero-ghost" data-act="showHistory">${I('list')} Xem từ đã ôn</button>` : ''}</div>
   </section>
   <section class="stats">
     <div class="stat clickable" data-act="showDue"><b>${due.length}</b><span>cần ôn hôm nay<br><small>Xem chi tiết ›</small></span></div>
@@ -383,9 +405,9 @@ App.views.review = function () {
       : `<div class="empty">Hôm nay không có từ nào đến hạn ôn. ${this.newWords().length ? 'Hãy sang tab “Từ vựng” học các từ mới.' : ''}</div>`}</div>
   </section>
   ${ratedToday.length ? `<section class="panel" id="ratedPanel">
-    <h2>${I('check')} Đã chấm hôm nay (${ratedToday.length})</h2>
-    <p class="muted">Chấm nhầm? Bấm “Chấm lại” để trả từ về trạng thái trước đó và chọn mức khác.</p>
-    ${ratedToday.map((w) => this.ratedRow(w)).join('')}
+    <details ${ratedToday.length <= 12 ? 'open' : ''}><summary class="h2like">${I('check')} Đã ôn hôm nay (${ratedToday.length}) <button class="btn ghost sm" data-act="showHistory">Xem lịch sử các ngày</button></summary>
+    <p class="muted">Chấm nhầm? Với từ có nút “Chấm lại” (chấm trong hôm nay), bấm để trả về trạng thái trước đó và chọn mức khác.</p>
+    ${ratedToday.map((w) => this.ratedRow(w)).join('')}</details>
   </section>` : ''}
   <section class="panel">
     <h2>${I('chart')} Tiến độ</h2>
