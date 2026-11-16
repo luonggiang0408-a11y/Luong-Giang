@@ -202,6 +202,11 @@ const SAMPLE = [
   ['crucial', '/ˈkruːʃl/', 'adj', 'then chốt, cực kỳ quan trọng', ''],
 ];
 
+App.syncBanner = function () {
+  if (Sync.enabled()) return '';
+  return `<div class="banner warn">${I('cloud')}<div><b>Chưa kết nối GitHub.</b> Danh sách từ chưa được lưu lên GitHub nên bài đọc tự động lúc 5:00 sáng sẽ không có dữ liệu, và bạn sẽ không thấy từ khi mở trên máy khác.</div><button class="btn primary sm" data-act="gotoSettings">Kết nối ngay</button></div>`;
+};
+App.actions.gotoSettings = function () { this.go('settings'); setTimeout(() => { const el = UI.$('#ghToken'); if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.focus(); } }, 50); };
 App.levelSelect = function (w) {
   return `<select class="lvsel ${SRS.LEVELS[w.level].cls}" data-change="rerate" aria-label="Đổi mức đã chấm">${SRS.LEVELS.map((l, i) => `<option value="${i}" ${i === w.level ? 'selected' : ''}>${l.short}</option>`).join('')}</select>`;
 };
@@ -401,6 +406,7 @@ App.views.review = function () {
     upcoming.push({ d, n });
   }
   const html = `
+  ${this.syncBanner()}
   <section class="hero">
     <div class="ring" style="--p:${pct}"><span>${pct}%</span></div>
     <div class="hero-text"><h2>Hôm nay</h2>
@@ -465,6 +471,7 @@ App.views.reading = function () {
   const tw = this.targetWords();
   const words = saved ? saved.words : tw.words;
   const html = `
+  ${this.syncBanner()}
   <section class="panel">
     <h2>${I('reading')} Bài đọc hôm nay</h2>
     <p class="muted">${saved ? 'Bài đọc đã tạo cho các từ cần ôn hôm nay.' : tw.fallback ? 'Hôm nay chưa có từ đến hạn — dùng các từ học gần nhất để luyện.' : 'Bài đọc sẽ dùng đúng các từ trong danh sách ôn hôm nay.'}</p>

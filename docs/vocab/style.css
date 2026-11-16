@@ -227,3 +227,7 @@ select.lvsel { width: auto; min-width: 150px; padding: 4px 8px; font-size: 13px;
 select.lvsel.l0 { background: var(--l0bg); color: var(--l0); border-color: var(--l0); } select.lvsel.l1 { background: var(--l1bg); color: var(--l1); border-color: var(--l1); }
 select.lvsel.l2 { background: var(--l2bg); color: var(--l2); border-color: var(--l2); } select.lvsel.l3 { background: var(--l3bg); color: var(--l3); border-color: var(--l3); }
 select.lvsel.l4 { background: var(--l4bg); color: var(--l4); border-color: var(--l4); }
+
+.banner { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 12px; margin-bottom: 14px; font-size: 14px; }
+.banner.warn { background: var(--l1bg); border: 1px solid var(--l1); color: var(--ink); } .banner .ic { color: var(--l1); width: 22px; height: 22px; } .banner > div { flex: 1; }
+@media (max-width: 720px) { .banner { flex-wrap: wrap; } }
