@@ -4,14 +4,14 @@
   const DAYS = [1, 3, 7, 14, 21, 30, 45, 60, 90, 120];
   const GROUPS = [
     { name: 'Chưa nhớ', short: 'Chưa nhớ', cls: 'l0' },
-    { name: 'Nhớ chưa chắc', short: 'Nhớ chưa chắc', cls: 'l1' },
-    { name: 'Nhớ nhưng chưa vận dụng', short: 'Nhớ, chưa vận dụng', cls: 'l2' },
-    { name: 'Vận dụng có hỗ trợ', short: 'Vận dụng có hỗ trợ', cls: 'l3' },
-    { name: 'Vận dụng thành thạo', short: 'Vận dụng thành thạo', cls: 'l4' },
+    { name: 'Nhớ chưa chắc', short: 'Chưa chắc', cls: 'l1' },
+    { name: 'Nhớ nhưng chưa vận dụng', short: 'Chưa vận dụng', cls: 'l2' },
+    { name: 'Vận dụng có hỗ trợ', short: 'Có hỗ trợ', cls: 'l3' },
+    { name: 'Vận dụng thành thạo', short: 'Thành thạo', cls: 'l4' },
   ];
   const LEVELS = DAYS.map((d, i) => {
     const g = GROUPS[Math.floor(i / 2)];
-    return { name: g.name, short: g.short + ' (' + d + ')', cls: g.cls, days: d, group: Math.floor(i / 2) };
+    return { name: g.name, short: g.short + ' · ' + d + 'd', cls: g.cls, days: d, group: Math.floor(i / 2) };
   });
   const LAST = LEVELS.length - 1;
 

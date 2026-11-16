@@ -8,7 +8,8 @@ const App = {
     Store.load();
     this.autoStart();
     TTS.init();
-    UI.$$('#tabs button').forEach((b) => b.addEventListener('click', () => this.go(b.dataset.tab)));
+    UI.$('#logo').innerHTML = I('book', 22);
+    UI.$$('#tabs button').forEach((b) => { b.insertAdjacentHTML('afterbegin', I(b.dataset.icon, 20)); b.addEventListener('click', () => this.go(b.dataset.tab)); });
     document.addEventListener('click', (e) => this.onClick(e));
     this.go(location.hash.slice(1) || 'review');
     Sync.pull().then((changed) => { if (changed) { this.autoStart(); this.render(); } });
@@ -64,7 +65,7 @@ const App = {
     const lv = SRS.isNew(w) ? null : SRS.LEVELS[w.level];
     return `<div class="wcard" data-id="${w.id}">
       <div class="whead">
-        <button class="spk" data-act="speak" title="Nghe phát âm" aria-label="Nghe phát âm">🔊</button>
+        <button class="spk" data-act="speak" title="Nghe phát âm" aria-label="Nghe phát âm">${I('volume', 16)}</button>
         <span class="wterm">${UI.esc(w.word)}</span>
         ${w.ipa ? `<span class="ipa">${UI.esc(w.ipa)}</span>` : ''}
         ${w.pos ? `<span class="pos">${UI.esc(UI.posAbbr(w.pos))}</span>` : ''}
@@ -74,14 +75,13 @@ const App = {
       </div>
       <div class="mean ${this.hideMeaning && due ? 'blur' : ''}" data-act="reveal">${UI.esc(w.meaning)}</div>
       ${w.example ? `<div class="ex">“${UI.esc(w.example)}”</div>` : ''}
-      ${rating ? `<div class="rate">${this.rateButtons(w)}</div>` : ''}
+      ${rating ? `<div class="rate">${this.rateButtons(w)}</div><div class="rate2" hidden></div>` : ''}
     </div>`;
   },
 
   rateButtons(w) {
-    const t = SRS.today();
-    return SRS.LEVELS.map((l, i) => `<button class="lv ${l.cls}" data-act="rate" data-lv="${i}" title="Nhắc lại sau ${l.days} ngày (${SRS.fmtFull(SRS.addDays(t, l.days))})">
-        <b>${l.short}</b><small>sau ${l.days} ngày</small></button>`).join('');
+    return SRS.GROUPS.map((g, i) => `<button class="lv ${g.cls}" data-act="rateGroup" data-g="${i}" title="${g.name}: nhắc lại sau ${SRS.DAYS[i * 2]} hoặc ${SRS.DAYS[i * 2 + 1]} ngày">
+        <b>${g.short}</b><small>${SRS.DAYS[i * 2]}d · ${SRS.DAYS[i * 2 + 1]}d</small></button>`).join('');
   },
 
   onClick(e) {
@@ -102,6 +102,7 @@ const App = {
     const l = SRS.LEVELS[lv];
     const next = w.mastered ? 'Đã hoàn thành chu kỳ ôn' : 'Nhắc lại: ' + sched.map(SRS.fmtFull).join(' và ');
     card.classList.add('done');
+    { const r2 = UI.$('.rate2', card); if (r2) r2.remove(); }
     UI.$('.rate', card).outerHTML = `<div class="rated"><span class="tag ${l.cls}">${l.short}</span> ✓ ${next}</div>`;
     UI.$('.mean', card).classList.remove('blur');
     this.updateBadge();
@@ -123,13 +124,13 @@ App.views.words = function () {
   const e = this.editing ? this.byId(this.editing) : null;
   const html = `
   <section class="panel">
-    <h2>📚 Từ vựng cần học hôm nay <span class="count">${nw.length}</span></h2>
+    <h2>${I('book')} Từ vựng cần học hôm nay <span class="count">${nw.length}</span></h2>
     <p class="muted">Học từ → tự nhớ nghĩa → bấm mức nhớ. Lịch ôn bắt đầu tính từ hôm nay.</p>
     ${nw.length ? nw.map((w) => this.wordCard(w)).join('') : `<div class="empty">Chưa có từ mới. Thêm từ ở bên dưới${all.length ? '' : ' hoặc <button class="btn" data-act="sample">nạp 10 từ mẫu</button>'}.</div>`}
   </section>
 
   <section class="panel">
-    <h2>${e ? '✏️ Sửa từ' : '➕ Thêm từ mới'}</h2>
+    <h2>${e ? `${I('pen')} Sửa từ` : `${I('plus')} Thêm từ mới`}</h2>
     <form id="wordForm" class="grid2">
       <label>Từ vựng<input name="word" required value="${UI.esc(e ? e.word : '')}"></label>
       <label>Phiên âm<input name="ipa" placeholder="/ˈsæmpl/" value="${UI.esc(e ? e.ipa : '')}"></label>
@@ -138,7 +139,7 @@ App.views.words = function () {
       <label class="span2">Ví dụ (không bắt buộc)<input name="example" value="${UI.esc(e ? e.example : '')}"></label>
       <input type="hidden" name="audio" value="${UI.esc(e ? e.audio : '')}">
       <div class="row span2">
-        <button type="button" class="btn" data-act="lookup">🔎 Tự điền phiên âm + phát âm</button>
+        <button type="button" class="btn" data-act="lookup">Tự điền phiên âm + phát âm</button>
         <button class="btn primary">${e ? 'Lưu' : 'Thêm từ'}</button>
         ${e ? '<button type="button" class="btn ghost" data-act="cancelEdit">Huỷ</button>' : ''}
       </div>
@@ -153,16 +154,16 @@ App.views.words = function () {
   </section>
 
   <section class="panel">
-    <h2>🗂 Tất cả từ <span class="count">${all.length}</span></h2>
+    <h2>${I('folder')} Tất cả từ <span class="count">${all.length}</span></h2>
     <input id="wordSearch" class="search" placeholder="Tìm từ hoặc nghĩa..." value="${UI.esc(this.wordQuery || '')}">
     <div class="table-wrap"><table class="tbl">
       <thead><tr><th>Từ</th><th>Phiên âm</th><th>Loại</th><th>Nghĩa</th><th>Mức</th><th>Ôn tiếp</th><th></th></tr></thead>
       <tbody>${filtered.map((w) => {
         const lv = SRS.isNew(w) ? null : SRS.LEVELS[w.level];
-        return `<tr class="wcard-row" data-id="${w.id}"><td><button class="spk sm" data-act="speakRow">🔊</button> <b>${UI.esc(w.word)}</b></td><td>${UI.esc(w.ipa)}</td><td>${UI.esc(UI.posAbbr(w.pos))}</td><td>${UI.esc(w.meaning)}</td>
+        return `<tr class="wcard-row" data-id="${w.id}"><td><button class="spk sm" data-act="speakRow">${I('volume', 16)}</button> <b>${UI.esc(w.word)}</b></td><td>${UI.esc(w.ipa)}</td><td>${UI.esc(UI.posAbbr(w.pos))}</td><td>${UI.esc(w.meaning)}</td>
         <td>${lv ? `<span class="tag ${lv.cls}">${lv.short}</span>` : '<span class="tag new">Mới</span>'}</td>
         <td>${w.mastered ? '✔ xong' : w.schedule.length ? SRS.fmtFull(w.schedule[0]) : '—'}</td>
-        <td class="nowrap"><button class="icon" data-act="editRow" title="Sửa">✏️</button><button class="icon" data-act="delRow" title="Xoá">🗑</button></td></tr>`;
+        <td class="nowrap"><button class="icon" data-act="editRow" title="Sửa">${I('pen', 16)}</button><button class="icon" data-act="delRow" title="Xoá">${I('trash', 16)}</button></td></tr>`;
       }).join('') || '<tr><td colspan="7" class="muted">Không có từ nào.</td></tr>'}</tbody>
     </table></div>
   </section>`;
@@ -197,6 +198,16 @@ const SAMPLE = [
 ];
 
 App.actions.gotoTrack = function () { const p = UI.$('#trackPanel'); if (p) { p.scrollIntoView({ behavior: 'smooth' }); UI.$$('details.trk', p).forEach((d) => { d.open = true; }); } };
+App.actions.rateGroup = function (el) {
+  const card = el.closest('.wcard'), g = +el.dataset.g, t = SRS.today();
+  UI.$$('.rate .lv', card).forEach((b) => b.classList.toggle('sel', b === el));
+  const box = UI.$('.rate2', card);
+  box.hidden = false;
+  box.innerHTML = [g * 2, g * 2 + 1].map((i) => {
+    const l = SRS.LEVELS[i];
+    return `<button class="lv2 ${l.cls}" data-act="rate" data-lv="${i}"><b>Sau ${l.days} ngày</b><small>${SRS.fmtFull(SRS.addDays(t, l.days))}</small></button>`;
+  }).join('');
+};
 App.actions.sample = function () {
   SAMPLE.forEach(([word, ipa, pos, meaning, example]) => Store.addWord({ word, ipa, pos, meaning, example }));
   Store.save(); this.render();
@@ -270,6 +281,9 @@ App.views.review = function () {
     return ws.length ? `<details class="trk"><summary><span class="tag ${l.cls}">${l.short}</span> <b>${ws.length}</b> từ — nhắc lại sau ${l.days} ngày</summary>${table(ws)}</details>` : '';
   }).join('') + (learned.some((w) => w.mastered) ? `<details class="trk"><summary><span class="tag l4">Đã xong chu kỳ</span> <b>${learned.filter((w) => w.mastered).length}</b> từ</summary>${table(learned.filter((w) => w.mastered))}</details>` : '');
   const done = words.filter((w) => w.mastered).length;
+  const doneToday = words.filter((w) => w.lastReviewed === t).length;
+  const totalToday = doneToday + due.length;
+  const pct = totalToday ? Math.round(doneToday / totalToday * 100) : 100;
   // Lịch 7 ngày tới
   const upcoming = [];
   for (let i = 1; i <= 7; i++) {
@@ -278,6 +292,12 @@ App.views.review = function () {
     upcoming.push({ d, n });
   }
   const html = `
+  <section class="hero">
+    <div class="ring" style="--p:${pct}"><span>${pct}%</span></div>
+    <div class="hero-text"><h2>Hôm nay</h2>
+      <p>Đã ôn <b>${doneToday}</b>/${totalToday} từ · còn <b>${due.length}</b> từ đến hạn</p>
+      ${due.length ? `<button class="btn primary" data-act="fcStart">${I('cards')} Học bằng flashcard</button>` : '<span class="muted">Không còn từ nào đến hạn.</span>'}</div>
+  </section>
   <section class="stats">
     <div class="stat"><b>${due.length}</b><span>cần ôn hôm nay</span></div>
     <div class="stat"><b>${this.newWords().length}</b><span>từ mới chưa học</span></div>
@@ -285,23 +305,28 @@ App.views.review = function () {
     <div class="stat"><b>${done}</b><span>đã xong chu kỳ</span></div>
   </section>
   <section class="panel">
-    <h2>🔁 Danh sách ôn tập hôm nay (<span id="dueCount">${due.length}</span>)</h2>
+    <h2>${I('repeat')} Danh sách ôn tập hôm nay (<span id="dueCount">${due.length}</span>)</h2>
     <div class="row">
       <label class="check"><input type="checkbox" id="hideMean" ${this.hideMeaning ? 'checked' : ''}> Ẩn nghĩa để tự kiểm tra (bấm vào để hiện)</label>
     </div>
-    ${due.length ? '<div class="row"><button class="btn primary" data-act="fcStart">🃏 Học bằng flashcard</button></div>' : ''}
+    
     <p class="muted">Với mỗi từ: nhớ lại nghĩa, rồi chọn mức nhớ. Hệ thống tự đặt lịch ôn tiếp theo.</p>
     <div id="dueList">${due.length ? due.map((w) => this.wordCard(w, { due: true })).join('')
-      : `<div class="empty">🎉 Hôm nay không có từ nào đến hạn ôn. ${this.newWords().length ? 'Hãy sang tab “Từ vựng” học các từ mới.' : ''}</div>`}</div>
+      : `<div class="empty">Hôm nay không có từ nào đến hạn ôn. ${this.newWords().length ? 'Hãy sang tab “Từ vựng” học các từ mới.' : ''}</div>`}</div>
   </section>
   <section class="panel">
-    <h2>📊 Tiến độ</h2>
-    <div class="bars">${SRS.LEVELS.map((l, i) => `<div class="bar"><span class="tag ${l.cls}">${l.short}</span><div class="track"><i class="${l.cls}" style="width:${active.length ? Math.round(counts[i] / active.length * 100) : 0}%"></i></div><b>${counts[i]}</b></div>`).join('')}</div>
+    <h2>${I('chart')} Tiến độ</h2>
+    ${(() => {
+      const gc = SRS.GROUPS.map((g, gi) => counts[gi * 2] + counts[gi * 2 + 1]);
+      const tot = gc.reduce((x, y) => x + y, 0);
+      return `<div class="stack">${tot ? SRS.GROUPS.map((g, gi) => gc[gi] ? `<i class="${g.cls}" style="flex:${gc[gi]}" title="${g.name}: ${gc[gi]} từ"></i>` : '').join('') : ''}</div>
+      <div class="legend">${SRS.GROUPS.map((g, gi) => `<div class="lg"><span class="dot ${g.cls}"></span><span class="lgname" title="${g.name}">${g.short}</span><b>${gc[gi]}</b><small>${SRS.DAYS[gi * 2]}d: ${counts[gi * 2]} · ${SRS.DAYS[gi * 2 + 1]}d: ${counts[gi * 2 + 1]}</small></div>`).join('')}</div>`;
+    })()}
     <h3>Lịch ôn 7 ngày tới</h3>
     <div class="cal">${upcoming.map((u) => `<div class="day ${u.n ? 'has' : ''}"><small>${SRS.fmt(u.d)}</small><b>${u.n}</b></div>`).join('')}</div>
   </section>
   <section class="panel" id="trackPanel">
-    <h2>📋 Từ đang theo dõi (${active.length})</h2>
+    <h2>${I('list')} Từ đang theo dõi (${active.length})</h2>
     <p class="muted">Chia theo 10 mốc ôn. Bấm vào từng mốc để xem danh sách từ, ngày ôn tiếp theo, số lần ôn và số lần quên.</p>
     ${trackHTML || '<div class="empty">Chưa có từ nào đang theo dõi.</div>'}
   </section>`;
@@ -326,11 +351,11 @@ App.views.reading = function () {
   const words = saved ? saved.words : tw.words;
   const html = `
   <section class="panel">
-    <h2>📖 Bài đọc hôm nay</h2>
+    <h2>${I('reading')} Bài đọc hôm nay</h2>
     <p class="muted">${saved ? 'Bài đọc đã tạo cho các từ cần ôn hôm nay.' : tw.fallback ? 'Hôm nay chưa có từ đến hạn — dùng các từ học gần nhất để luyện.' : 'Bài đọc sẽ dùng đúng các từ trong danh sách ôn hôm nay.'}</p>
     <div class="chips">${words.map((w) => `<span class="chip">${UI.esc(w.word)}</span>`).join('') || '<span class="muted">Chưa có từ nào. Hãy thêm từ trước.</span>'}</div>
     <div class="row">
-      <button class="btn primary" data-act="genReading" ${words.length ? '' : 'disabled'}>${saved ? '🔄 Tạo lại bài đọc' : '✨ Tạo bài đọc'}</button>
+      <button class="btn primary" data-act="genReading" ${words.length ? '' : 'disabled'}>${saved ? 'Tạo lại bài đọc' : 'Tạo bài đọc'}</button>
       <span class="muted" id="genStatus"></span>
     </div>
     ${AI.hasKey() ? '' : '<p class="note">Chưa có API key: ứng dụng sẽ hướng dẫn bạn sao chép prompt sang Claude và dán kết quả về (xem tab Cài đặt để tự động hoá).</p>'}
@@ -405,9 +430,9 @@ App.passageHTML = function (p, pi) {
   return `<article class="panel passage" data-p="${pi}">
     <h2>${pi + 1}. ${UI.esc(p.title)}</h2>
     <div class="player">
-      <button class="btn primary" data-act="play">▶ Nghe</button>
-      <button class="btn" data-act="pause">⏸ Tạm dừng</button>
-      <button class="btn ghost" data-act="stopRead">⏹ Dừng</button>
+      <button class="btn primary" data-act="play">Nghe</button>
+      <button class="btn" data-act="pause">Tạm dừng</button>
+      <button class="btn ghost" data-act="stopRead">Dừng</button>
       <label>Tốc độ <select data-act="rateSel"><option value="0.75">Chậm</option><option value="0.95" selected>Tự nhiên</option><option value="1.15">Nhanh</option></select></label>
     </div>
     <div class="text">${body}</div>
@@ -486,8 +511,8 @@ App.actions.play = function (btn) {
 };
 App.actions.pause = function (btn) {
   if (!('speechSynthesis' in window)) return;
-  if (speechSynthesis.paused) { speechSynthesis.resume(); btn.textContent = '⏸ Tạm dừng'; }
-  else { speechSynthesis.pause(); btn.textContent = '▶ Tiếp tục'; }
+  if (speechSynthesis.paused) { speechSynthesis.resume(); btn.textContent = 'Tạm dừng'; }
+  else { speechSynthesis.pause(); btn.textContent = 'Tiếp tục'; }
 };
 App.actions.stopRead = function (btn) { TTS.stop(); UI.$$('.sent.now').forEach((s) => s.classList.remove('now')); };
 App.actions.rateSel = function () { /* đổi tốc độ áp dụng ở lần bấm Nghe tiếp theo */ };
@@ -543,30 +568,30 @@ App.productionView = function (kind) {
   const isS = kind === 'speaking';
   const html = `
   <section class="panel">
-    <h2>${isS ? '🎤 Bài nói' : '✍️ Bài viết'} — vận dụng các từ hay quên</h2>
+    <h2>${isS ? `${I('mic')} Bài nói` : `${I('pen')} Bài viết`} — vận dụng các từ hay quên</h2>
     <p class="muted">Các từ bạn hay quên (lấy từ danh sách ôn hôm nay):</p>
     <div class="chips">${weak.map((w) => `<span class="chip warn" title="${UI.esc(w.meaning)}">${UI.esc(w.word)}</span>`).join('') || '<span class="muted">Chưa có từ nào để luyện. Hãy học và đánh dấu mức nhớ trước.</span>'}</div>
     <div class="row">
-      <button class="btn primary" data-act="genTopic" data-kind="${kind}" ${weak.length ? '' : 'disabled'}>✨ Tạo chủ đề từ các từ này</button>
-      <button class="btn" data-act="bankTopic" data-kind="${kind}">🎲 Chủ đề có sẵn</button>
+      <button class="btn primary" data-act="genTopic" data-kind="${kind}" ${weak.length ? '' : 'disabled'}>Tạo chủ đề từ các từ này</button>
+      <button class="btn" data-act="bankTopic" data-kind="${kind}">Chủ đề có sẵn</button>
     </div>
   </section>
   ${topic ? `<section class="panel topic" id="topicBox">
     <h3>${isS ? 'Cue card' : 'Task 2'}</h3>
     <p class="big">${UI.esc(topic.topic)}</p>
     ${isS ? `<ul>${(topic.points || []).map((x) => `<li>${UI.esc(x)}</li>`).join('')}</ul>${(topic.part3 || []).length ? `<p class="muted"><b>Part 3:</b> ${topic.part3.map(UI.esc).join(' • ')}</p>` : ''}`
-      : topic.outline_vi ? `<p class="muted">💡 ${UI.esc(topic.outline_vi)}</p>` : ''}
+      : topic.outline_vi ? `<p class="muted">${UI.esc(topic.outline_vi)}</p>` : ''}
     ${(topic.suggested || []).length ? `<p>Thử dùng: ${topic.suggested.map((w) => `<span class="chip">${UI.esc(w)}</span>`).join('')}</p>` : ''}
   </section>
   <section class="panel">
     ${isS ? `
-      <div class="recbar"><button class="btn rec" id="recBtn" data-act="toggleRec">⏺ Bắt đầu nói</button><span id="timer" class="timer">00:00</span><span class="muted" id="recHint">Nói 1–2 phút. Dùng Chrome/Edge để nhận dạng giọng nói.</span></div>
+      <div class="recbar"><button class="btn rec" id="recBtn" data-act="toggleRec">Bắt đầu nói</button><span id="timer" class="timer">00:00</span><span class="muted" id="recHint">Nói 1–2 phút. Dùng Chrome/Edge để nhận dạng giọng nói.</span></div>
       <audio id="playback" controls hidden></audio>
       <label>Bản ghi (có thể sửa lại trước khi chấm)<textarea id="answerBox" rows="7" placeholder="Văn bản nhận dạng sẽ hiện ở đây. Nếu trình duyệt không hỗ trợ, hãy gõ lại những gì bạn nói."></textarea></label>`
     : `
-      <div class="recbar"><button class="btn" data-act="toggleTimer" id="wTimerBtn">⏱ Bắt đầu tính giờ (40 phút)</button><span id="timer" class="timer">00:00</span><span class="counter" id="wc">0 từ</span></div>
+      <div class="recbar"><button class="btn" data-act="toggleTimer" id="wTimerBtn">Bắt đầu tính giờ (40 phút)</button><span id="timer" class="timer">00:00</span><span class="counter" id="wc">0 từ</span></div>
       <label>Bài viết của bạn (tối thiểu 250 từ)<textarea id="answerBox" rows="16" placeholder="Viết bài của bạn ở đây..."></textarea></label>`}
-    <div class="row"><button class="btn primary" data-act="gradeQuick" data-kind="${kind}">⚡ Chấm nhanh (tự động, miễn phí)</button><button class="btn" data-act="grade" data-kind="${kind}">🧠 Chấm sâu bằng Claude</button><span class="muted" id="gradeStatus"></span></div>
+    <div class="row"><button class="btn primary" data-act="gradeQuick" data-kind="${kind}">Chấm nhanh (tự động, miễn phí)</button><button class="btn" data-act="grade" data-kind="${kind}">Chấm sâu bằng Claude</button><span class="muted" id="gradeStatus"></span></div>
     <p class="muted">Chấm nhanh dùng thuật toán trong trình duyệt (đếm từ, từ nối, từ vựng đã dùng, lỗi phổ biến${isS ? ', tốc độ nói, độ rõ của giọng' : ''}) nên chỉ là điểm ước tính. Chấm sâu bằng Claude cho góp ý chi tiết hơn (cần API key hoặc sao chép-dán).</p>
   </section>
   <div id="result"></div>` : ''}
@@ -611,7 +636,7 @@ App.actions.toggleRec = async function (btn) {
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (!SR) UI.toast('Trình duyệt này không nhận dạng giọng nói — hãy dùng Chrome/Edge hoặc gõ văn bản.');
   R.on = true; R.final = box.value ? box.value + ' ' : ''; R.confs = []; R.t0 = Date.now(); R.chunks = [];
-  btn.textContent = '⏹ Dừng'; btn.classList.add('on'); box.readOnly = true;
+  btn.textContent = 'Dừng'; btn.classList.add('on'); box.readOnly = true;
   UI.$('#playback').hidden = true;
   R.timer = setInterval(() => { const s = Math.floor((Date.now() - R.t0) / 1000); UI.$('#timer').textContent = String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); }, 500);
   try {
@@ -647,15 +672,15 @@ App.stopRec = function () {
   try { R.mr && R.mr.state !== 'inactive' && R.mr.stop(); } catch (e) { /* bỏ qua */ }
   if (R.media) R.media.getTracks().forEach((t) => t.stop());
   const btn = UI.$('#recBtn'), box = UI.$('#answerBox');
-  if (btn) { btn.textContent = '⏺ Nói lại / nói tiếp'; btn.classList.remove('on'); }
+  if (btn) { btn.textContent = 'Nói lại / nói tiếp'; btn.classList.remove('on'); }
   if (box) { box.readOnly = false; box.value = R.final.trim() || box.value; }
 };
 
 App.actions.toggleTimer = function (btn) {
   const R = this.rec;
-  if (R.timer) { clearInterval(R.timer); R.timer = null; R.seconds = Math.round((Date.now() - R.t0) / 1000); btn.textContent = '⏱ Tiếp tục tính giờ'; return; }
+  if (R.timer) { clearInterval(R.timer); R.timer = null; R.seconds = Math.round((Date.now() - R.t0) / 1000); btn.textContent = 'Tiếp tục tính giờ'; return; }
   R.t0 = Date.now() - (R.seconds || 0) * 1000;
-  btn.textContent = '⏸ Dừng giờ';
+  btn.textContent = 'Dừng giờ';
   R.timer = setInterval(() => { const s = Math.floor((Date.now() - R.t0) / 1000); const el = UI.$('#timer'); if (!el) return; el.textContent = String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); el.classList.toggle('over', s > 2400); }, 500);
 };
 
@@ -718,17 +743,17 @@ App.resultHTML = function (kind, r) {
   return `<section class="panel result">
     <div class="overall"><span>Band tổng</span><b>${UI.band(r.overall)}</b></div>
     <div class="bands">${Object.keys(labels).map((k) => `<div class="bandcard"><small>${labels[k]}</small><b>${r.bands[k] == null ? '—' : UI.band(r.bands[k])}</b><div class="track"><i style="width:${(r.bands[k] || 0) / 9 * 100}%"></i></div><p>${UI.esc(c[k] || '')}</p></div>`).join('')}</div>
-    ${r.quick ? '<p class="note">⚡ Điểm ước tính bằng thuật toán, không phải giám khảo thật. Muốn góp ý chi tiết về lỗi và cách diễn đạt hay hơn, bấm “Chấm sâu bằng Claude”.</p>' : ''}
+    ${r.quick ? '<p class="note">Điểm ước tính bằng thuật toán, không phải giám khảo thật. Muốn góp ý chi tiết về lỗi và cách diễn đạt hay hơn, bấm “Chấm sâu bằng Claude”.</p>' : ''}
     ${kind === 'speaking' && !r.quick ? '<p class="note">Điểm phát âm chỉ là ước lượng từ văn bản nhận dạng giọng nói và độ tin cậy của trình nhận dạng — không nghe được âm thanh thật. Hãy coi đó là gợi ý.</p>' : ''}
     <h3>Từ mục tiêu</h3>
     <p>✅ Đã dùng: ${(r.used_words || []).map((w) => `<span class="chip good">${UI.esc(w)}</span>`).join('') || '—'}</p>
-    <p>➕ Chưa dùng: ${(r.missed_words || []).map((w) => `<span class="chip warn">${UI.esc(w)}</span>`).join('') || '—'}</p>
+    <p>Chưa dùng: ${(r.missed_words || []).map((w) => `<span class="chip warn">${UI.esc(w)}</span>`).join('') || '—'}</p>
     ${r.word_use_feedback ? `<p class="muted">${UI.esc(r.word_use_feedback)}</p>` : ''}
     <h3>Lỗi cần sửa</h3>
     <div class="errs">${(r.errors || []).map((x) => `<div class="err"><div class="o">✗ ${UI.esc(x.original)}</div>${x.better ? `<div class="b">✓ ${UI.esc(x.better)}</div>` : ''}<div class="w">${UI.esc(x.why)}</div></div>`).join('') || '<p class="muted">Không có lỗi đáng kể.</p>'}</div>
     ${r.better_version ? `<h3>Phiên bản tốt hơn (gợi ý)</h3>
     <blockquote>${UI.esc(r.better_version).replace(/\n/g, '<br>')}</blockquote>
-    <button class="btn" data-act="sayText" data-text="${UI.esc(r.better_version)}">🔊 Nghe bản mẫu</button>` : ''}
+    <button class="btn" data-act="sayText" data-text="${UI.esc(r.better_version)}">Nghe bản mẫu</button>` : ''}
     <h3>Việc cần luyện tiếp</h3>
     <ul>${(r.next_steps || []).map((x) => `<li>${UI.esc(x)}</li>`).join('')}</ul>
   </section>`;
@@ -749,6 +774,7 @@ App.actions.fcStart = function () {
 App.fcGo = function (i) {
   const F = this.fc;
   F.i = Math.max(0, Math.min(F.ids.length, i));
+  F.pickG = null;
   F.flipped = F.i < F.ids.length && F.done[F.ids[F.i]] !== undefined;   // thẻ đã chấm: hiện luôn đáp án
   this.fcRender();
 };
@@ -760,7 +786,7 @@ App.fcRender = function () {
   if (F.i >= total) {
     const cnt = SRS.LEVELS.map(() => 0);
     Object.values(F.done).forEach((lv) => cnt[lv]++);
-    el.innerHTML = `<div class="modal-box fc"><h3>🎉 Đã xem hết ${total} thẻ — đánh dấu ${rated}/${total} từ</h3>
+    el.innerHTML = `<div class="modal-box fc"><h3>Đã xem hết ${total} thẻ — đánh dấu ${rated}/${total} từ</h3>
       ${rated < total ? `<p class="note">Còn ${total - rated} từ chưa đánh dấu mức nhớ. Dùng nút “Trước” để quay lại.</p>` : ''}
       ${SRS.LEVELS.map((l, k) => cnt[k] ? `<div class="bar" style="grid-template-columns:200px 1fr 30px"><span class="tag ${l.cls}">${l.short}</span><div class="track"><i class="${l.cls}" style="width:${cnt[k] / total * 100}%"></i></div><b>${cnt[k]}</b></div>` : '').join('')}
       <div class="row end"><button class="btn" data-act="fcPrev">◀ Trước</button><button class="btn primary" data-act="fcClose">Đóng</button></div></div>`;
@@ -778,19 +804,30 @@ App.fcRender = function () {
   el.innerHTML = `<div class="modal-box fc">
     <div class="fc-top"><span class="muted">${F.i + 1} / ${total} · đã đánh dấu ${rated}</span>
       <label class="check"><input type="checkbox" data-act="fcSide" ${frontWord ? '' : 'checked'}> Mặt trước là nghĩa</label>
-      <button class="icon" data-act="fcClose" title="Đóng (Esc)">✖</button></div>
+      <button class="icon" data-act="fcClose" title="Đóng (Esc)">${I('x', 16)}</button></div>
     <div class="track"><i style="width:${F.i / total * 100}%"></i></div>
     <div class="fc-card" data-act="fcFlip" data-id="${w.id}">
-      <div class="fc-face">${front}<button class="spk" data-act="fcSpeak" title="Nghe (S)">🔊</button></div>
+      <div class="fc-face">${front}<button class="spk" data-act="fcSpeak" title="Nghe (S)">${I('volume', 16)}</button></div>
       ${F.flipped ? `<hr><div class="fc-face">${back}</div>` : '<div class="muted fc-hint">Bấm vào thẻ hoặc phím Space để lật</div>'}
     </div>
     ${mine !== undefined ? `<p class="rated">Đã đánh dấu: <span class="tag ${SRS.LEVELS[mine].cls}">${SRS.LEVELS[mine].short}</span> → nhắc lại ${SRS.fmtFull(w.schedule[0] || SRS.today())}. Bấm mức khác để đổi.</p>` : ''}
-    ${F.flipped ? `<div class="rate">${SRS.LEVELS.map((l, k) => `<button class="lv ${l.cls} ${mine === k ? 'sel' : ''}" data-act="fcRate" data-lv="${k}"><b>${(k + 1) % 10}. ${l.short}</b><small>${l.days} ngày</small></button>`).join('')}</div>`
+    ${F.flipped ? this.fcRateHTML(F, mine)
       : '<div class="row end"><button class="btn primary" data-act="fcFlip">Lật thẻ</button></div>'}
     <div class="fc-nav"><button class="btn" data-act="fcPrev" ${F.i === 0 ? 'disabled' : ''}>◀ Trước</button><span class="muted">← → để chuyển thẻ</span><button class="btn" data-act="fcNext">${F.i === total - 1 ? 'Kết thúc' : 'Sau'} ▶</button></div>
   </div>`;
   if (frontWord && !F.flipped) TTS.speakWord(w);
 };
+App.fcRateHTML = function (F, mine) {
+  const t = SRS.today();
+  if (F.pickG == null) {
+    return `<div class="rate">${SRS.GROUPS.map((g, i) => `<button class="lv ${g.cls} ${mine !== undefined && SRS.LEVELS[mine].group === i ? 'sel' : ''}" data-act="fcGroup" data-g="${i}"><b>${i + 1}. ${g.short}</b><small>${SRS.DAYS[i * 2]}d · ${SRS.DAYS[i * 2 + 1]}d</small></button>`).join('')}</div>`;
+  }
+  const g = F.pickG;
+  return `<div class="rate2 open">${[g * 2, g * 2 + 1].map((i, k) => `<button class="lv2 ${SRS.LEVELS[i].cls} ${mine === i ? 'sel' : ''}" data-act="fcRate" data-lv="${i}"><b>${k + 1}. Sau ${SRS.LEVELS[i].days} ngày</b><small>${SRS.fmtFull(SRS.addDays(t, SRS.LEVELS[i].days))}</small></button>`).join('')}</div>
+    <div class="row end"><button class="btn ghost" data-act="fcBack">← Đổi nhóm (Backspace)</button></div>`;
+};
+App.actions.fcGroup = function (el) { this.fc.pickG = +el.dataset.g; this.fcRender(); };
+App.actions.fcBack = function () { this.fc.pickG = null; this.fcRender(); };
 App.actions.fcFlip = function (el, e) { if (e && e.target.closest('.spk')) return; this.fc.flipped = true; this.fcRender(); };
 App.actions.fcSpeak = function () { TTS.speakWord(this.byId(this.fc.ids[this.fc.i])); };
 App.actions.fcSide = function (el) { this.fc.front = el.checked ? 'meaning' : 'word'; this.fc.flipped = false; this.fcRender(); };
@@ -813,7 +850,9 @@ document.addEventListener('keydown', (e) => {
   else if (e.key === 'ArrowRight' && inCard) App.fcGo(F.i + 1);
   else if (e.key === 'ArrowLeft') App.fcGo(F.i - 1);
   else if (e.key === ' ' && inCard && !F.flipped) { e.preventDefault(); App.actions.fcFlip.call(App); }
-  else if (/^[0-9]$/.test(e.key) && inCard && F.flipped) App.actions.fcRate.call(App, { dataset: { lv: (+e.key + 9) % 10 } });
+  else if (e.key === 'Backspace' && inCard && F.flipped && F.pickG != null) { e.preventDefault(); App.actions.fcBack.call(App); }
+  else if (/^[1-5]$/.test(e.key) && inCard && F.flipped && F.pickG == null) App.actions.fcGroup.call(App, { dataset: { g: +e.key - 1 } });
+  else if (/^[12]$/.test(e.key) && inCard && F.flipped && F.pickG != null) App.actions.fcRate.call(App, { dataset: { lv: F.pickG * 2 + (+e.key - 1) } });
   else if (e.key.toLowerCase() === 's' && inCard) App.actions.fcSpeak.call(App);
 });
 
@@ -822,14 +861,14 @@ App.views.settings = function () {
   const s = Store.data.settings;
   const html = `
   <section class="panel">
-    <h2>🔑 Kết nối Claude (tạo bài đọc & chấm bài tự động)</h2>
+    <h2>${I('key')} Kết nối Claude (tạo bài đọc & chấm bài tự động)</h2>
     <p class="muted">Khoá API được lưu <b>chỉ trong trình duyệt này</b> và gửi thẳng tới api.anthropic.com. Không nhập khoá trên máy dùng chung. Có thể bỏ trống để dùng chế độ thủ công (sao chép prompt sang claude.ai).</p>
     <label>API key<input id="apiKey" type="password" autocomplete="off" placeholder="sk-ant-..." value="${UI.esc(s.apiKey)}"></label>
     <label>Model<input id="model" value="${UI.esc(s.model)}"></label>
     <div class="row"><button class="btn primary" data-act="saveSettings">Lưu</button><button class="btn" data-act="testAI">Thử kết nối</button><span class="muted" id="testOut"></span></div>
   </section>
   <section class="panel">
-    <h2>☁️ Đồng bộ GitHub & bài đọc tự động</h2>
+    <h2>${I('cloud')} Đồng bộ GitHub & bài đọc tự động</h2>
     <p class="muted">Dán GitHub token để web tự lưu danh sách từ lên GitHub; routine lúc 4:30 sáng sẽ đọc danh sách đó và tạo sẵn bài đọc cho bạn. Token chỉ lưu trong trình duyệt này.
     Tạo token: GitHub → Settings → Developer settings → Fine-grained tokens → chọn <b>chỉ repo Luong-Giang</b> → Repository permissions → <b>Contents: Read and write</b>.</p>
     <label>Repo<input id="ghRepo" value="${UI.esc(s.ghRepo || Sync.DEFAULT_REPO)}"></label>
@@ -837,17 +876,17 @@ App.views.settings = function () {
     <div class="row"><button class="btn primary" data-act="saveSettings">Lưu</button><button class="btn" data-act="syncNow">Đồng bộ ngay</button><span class="muted" id="syncOut">${UI.esc(Sync.status)}</span></div>
   </section>
   <section class="panel">
-    <h2>🔊 Giọng đọc</h2>
+    <h2>${I('volume')} Giọng đọc</h2>
     <p class="muted">Giọng chất lượng cao nhất có sẵn trên máy: trên Edge chọn các giọng có chữ “Natural” (vd. Microsoft Aria/Jenny Online (Natural)).</p>
     <label>Giọng<select id="voiceSel"><option value="">Tự chọn giọng tự nhiên nhất</option>${TTS.voices.map((v) => `<option value="${UI.esc(v.voiceURI)}" ${v.voiceURI === s.voice ? 'selected' : ''}>${UI.esc(v.name)} (${v.lang})</option>`).join('')}</select></label>
     <label>Tốc độ <span id="rateVal">${s.rate}</span><input id="rateRange" type="range" min="0.6" max="1.3" step="0.05" value="${s.rate}"></label>
-    <button class="btn" data-act="testVoice">▶ Nghe thử</button>
+    <button class="btn" data-act="testVoice">Nghe thử</button>
   </section>
   <section class="panel">
-    <h2>💾 Dữ liệu</h2>
+    <h2>${I('save')} Dữ liệu</h2>
     <p class="muted">Dữ liệu nằm trong trình duyệt. Hãy xuất bản sao lưu định kỳ, nhất là trước khi xoá lịch sử trình duyệt.</p>
-    <div class="row"><button class="btn" data-act="export">⬇ Xuất sao lưu (.json)</button>
-    <label class="btn">⬆ Nhập sao lưu<input type="file" id="importFile" accept=".json" hidden></label>
+    <div class="row"><button class="btn" data-act="export">Xuất sao lưu (.json)</button>
+    <label class="btn">Nhập sao lưu<input type="file" id="importFile" accept=".json" hidden></label>
     <button class="btn danger" data-act="wipe">Xoá toàn bộ dữ liệu</button></div>
   </section>`;
   return {
