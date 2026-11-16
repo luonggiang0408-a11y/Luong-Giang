@@ -202,12 +202,15 @@ const SAMPLE = [
   ['crucial', '/ˈkruːʃl/', 'adj', 'then chốt, cực kỳ quan trọng', ''],
 ];
 
+App.levelSelect = function (w) {
+  return `<select class="lvsel ${SRS.LEVELS[w.level].cls}" data-change="rerate" aria-label="Đổi mức đã chấm">${SRS.LEVELS.map((l, i) => `<option value="${i}" ${i === w.level ? 'selected' : ''}>${l.short}</option>`).join('')}</select>`;
+};
 App.ratedRow = function (w) {
   const l = SRS.LEVELS[w.level];
   return `<div class="wcard done rrow" data-id="${w.id}"><div class="whead">
     <button class="spk" data-act="speak" aria-label="Nghe phát âm">${I('volume', 16)}</button>
-    <span class="wterm">${UI.esc(w.word)}</span><span class="tag ${l.cls}">${l.short}</span>
-    <span class="muted">${w.mastered ? 'xong chu kỳ' : 'nhắc lại ' + SRS.fmtFull(w.schedule[0] || SRS.today())}</span>
+    <span class="wterm">${UI.esc(w.word)}</span>${this.levelSelect(w)}
+    <span class="muted nxt" data-prefix="nhắc lại ">${w.mastered ? 'xong chu kỳ' : 'nhắc lại ' + SRS.fmtFull(w.schedule[0] || SRS.today())}</span>
     ${w.undo && w.undo.on === SRS.today() ? '<button class="btn ghost sm" data-act="unrate">Chấm lại</button>' : ''}</div></div>`;
 };
 App.actions.unrate = function (el) {
@@ -236,7 +239,7 @@ App.listModal = function (title, hint, head, rows, extra) {
   const inp = UI.$('[data-filter]', el);
   inp.addEventListener('input', () => { const q = inp.value.toLowerCase(); UI.$$('tbody tr', el).forEach((tr) => { tr.hidden = !!q && !tr.textContent.toLowerCase().includes(q); }); });
 };
-App.actions.closeModal = function (el, e) { if (el.id === 'listModal' && e && e.target !== el) return; const m = UI.$('#listModal'); if (m) m.remove(); };
+App.actions.closeModal = function (el, e) { if (el.id === 'listModal' && e && e.target !== el) return; const m = UI.$('#listModal'); if (m) m.remove(); if (this.dirty) this.refresh(); };
 App.actions.showDue = function () {
   const t = SRS.today();
   const rows = this.dueWords().map((w) => {
@@ -245,6 +248,22 @@ App.actions.showDue = function () {
   }).join('');
   this.listModal('Từ cần ôn hôm nay (' + this.dueWords().length + ')', 'Sắp xếp theo ngày hẹn. Ôn xong ở danh sách bên dưới hoặc bằng flashcard.', ['Từ', 'Nghĩa', 'Mức hiện tại', 'Ngày hẹn', 'Trạng thái'], rows);
 };
+document.addEventListener('change', (e) => {
+  const el = e.target.closest && e.target.closest('[data-change="rerate"]');
+  if (!el) return;
+  const holder = el.closest('[data-id]'); const w = holder && App.byId(holder.dataset.id);
+  if (!w) return;
+  SRS.rerate(w, +el.value);
+  Store.save();
+  el.className = 'lvsel ' + SRS.LEVELS[w.level].cls;
+  const nx = UI.$('.nxt', holder);
+  if (nx) nx.textContent = (nx.dataset.prefix || '') + (w.schedule[0] ? SRS.fmtFull(w.schedule[0]) : '—');
+  UI.toast('Đã đổi “' + w.word + '” sang ' + SRS.LEVELS[w.level].short + ' — nhắc lại ' + SRS.fmtFull(w.schedule[0]));
+  App.dirty = true;
+  App.updateBadge();
+  if (!UI.$('#listModal')) App.refresh();
+});
+App.refresh = function () { const y = window.scrollY; this.dirty = false; this.render(); window.scrollTo(0, y); };
 App.actions.histDay = function (el) { this.actions.showHistory.call(this, el.dataset.d); };
 App.actions.showHistory = function (arg) {
   const d = typeof arg === 'string' ? arg : SRS.today();
@@ -261,16 +280,17 @@ App.actions.showHistory = function (arg) {
   const rows = items.map(({ w, lv }) => {
     const l = SRS.LEVELS[Math.max(0, Math.min(SRS.LEVELS.length - 1, lv))];
     const next = w.lastReviewed === d && w.schedule[0] ? SRS.fmtFull(w.schedule[0]) : (w.mastered && w.lastReviewed === d ? 'xong chu kỳ' : '—');
-    return `<tr><td><b>${UI.esc(w.word)}</b>${w.ipa ? ` <span class="ipa">${UI.esc(w.ipa)}</span>` : ''}</td><td>${UI.esc(w.meaning)}</td><td><span class="tag ${l.cls}">${l.short}</span></td><td>${next}</td></tr>`;
+    const editable = w.lastReviewed === d && !SRS.isNew(w);
+    return `<tr data-id="${w.id}"><td><b>${UI.esc(w.word)}</b>${w.ipa ? ` <span class="ipa">${UI.esc(w.ipa)}</span>` : ''}</td><td>${UI.esc(w.meaning)}</td><td>${editable ? this.levelSelect(w) : `<span class="tag ${l.cls}">${l.short}</span>`}</td><td class="nxt">${next}</td></tr>`;
   }).join('');
-  this.listModal('Từ đã ôn ngày ' + SRS.fmtFull(d) + ' (' + items.length + ')', 'Chọn ngày bên dưới để xem lại. Số bên cạnh ngày là số từ được chấm trong ngày đó.', ['Từ', 'Nghĩa', 'Mức đã chọn', 'Ôn tiếp'], rows, chips);
+  this.listModal('Từ đã ôn ngày ' + SRS.fmtFull(d) + ' (' + items.length + ')', 'Chọn ngày để xem lại. Muốn đổi mức đã chấm, chọn mức khác ở cột “Mức đã chọn” — lịch ôn tiếp theo được tính lại từ ngày chấm đó. (Chỉ sửa được lần chấm gần nhất của từ.)', ['Từ', 'Nghĩa', 'Mức đã chọn', 'Ôn tiếp'], rows, chips);
 };
 App.actions.showNew = function () {
   const ws = this.newWords();
   const rows = ws.map((w) => `<tr><td><b>${UI.esc(w.word)}</b>${w.ipa ? ` <span class="ipa">${UI.esc(w.ipa)}</span>` : ''}</td><td>${UI.esc(UI.posAbbr(w.pos))}</td><td>${UI.esc(w.meaning)}</td><td>${w.added ? SRS.fmtFull(w.added) : '—'}</td></tr>`).join('');
   this.listModal('Từ mới chưa học (' + ws.length + ')', 'Các từ đã thêm nhưng chưa đánh dấu mức nhớ. Vào tab “Từ vựng” để học và đánh dấu; từ thêm từ hôm trước mà chưa đánh dấu sẽ tự vào danh sách ôn.', ['Từ', 'Loại', 'Nghĩa', 'Ngày thêm'], rows);
 };
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { const m = UI.$('#listModal'); if (m) m.remove(); } });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { const m = UI.$('#listModal'); if (m) { m.remove(); if (App.dirty) App.refresh(); } } });
 App.actions.gotoTrack = function () { const p = UI.$('#trackPanel'); if (p) { p.scrollIntoView({ behavior: 'smooth' }); UI.$$('details.trk', p).forEach((d) => { d.open = true; }); } };
 App.actions.rateGroup = function (el) {
   const card = el.closest('.wcard'), g = +el.dataset.g, t = SRS.today();

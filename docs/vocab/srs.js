@@ -60,6 +60,18 @@
     return true;
   }
 
+  // Sửa mức đã chấm của lần ôn gần nhất: lịch ôn tính lại từ chính ngày đó, không thay đổi số lần ôn/quên.
+  function rerate(w, li) {
+    const base = w.lastReviewed || today();
+    w.level = li;
+    w.schedule = plan(li, base);
+    w.mastered = false;
+    const h = w.history || [];
+    if (h.length && h[h.length - 1].date === base) h[h.length - 1].level = li;
+    w.v = 2;
+    return w.schedule;
+  }
+
   // Dữ liệu cũ (5 mức × 2 mốc) → 10 mốc: lấy mốc đầu của mức cũ, giữ lịch ôn kế tiếp đã có.
   function migrate(w) {
     if (w.v === 2) return w;
@@ -77,7 +89,7 @@
     return (weak.length >= 3 ? weak : sorted).slice(0, 8);
   }
 
-  const api = { DAYS, GROUPS, LEVELS, iso, parse, addDays, diffDays, today, fmt, fmtFull, isNew, isDue, plan, rate, unrate, migrate, weakWords };
+  const api = { DAYS, GROUPS, LEVELS, iso, parse, addDays, diffDays, today, fmt, fmtFull, isNew, isDue, plan, rate, unrate, rerate, migrate, weakWords };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.SRS = api;
 })(typeof window !== 'undefined' ? window : globalThis);
