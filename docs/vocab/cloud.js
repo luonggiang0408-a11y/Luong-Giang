@@ -1,4 +1,4 @@
-/* Đăng nhập bằng email + mật khẩu (Firebase Auth) và đồng bộ dữ liệu học riêng của từng tài khoản (Firestore).
+/* Đăng nhập bằng tài khoản Google (Firebase Auth) và đồng bộ dữ liệu học riêng của từng tài khoản (Firestore).
    Chỉ hoạt động khi đã điền firebase-config.js; nếu chưa, web chạy như cũ (không cần đăng nhập). */
 const Cloud = {
   CHUNK: 200,
@@ -25,6 +25,7 @@ const Cloud = {
     if (!firebase.apps.length) firebase.initializeApp(window.FIREBASE_CONFIG);
     this.auth = firebase.auth();
     this.db = firebase.firestore();
+    try { await this.auth.getRedirectResult(); } catch (e) { this.redirectError = e; }
     this.user = await new Promise((res) => { const off = this.auth.onAuthStateChanged((u) => { off(); res(u); }); });
     return this.user;
   },
@@ -42,15 +43,30 @@ const Cloud = {
       'auth/weak-password': 'Mật khẩu quá yếu (tối thiểu 6 ký tự).',
       'auth/too-many-requests': 'Thử quá nhiều lần. Hãy đợi vài phút rồi thử lại.',
       'auth/network-request-failed': 'Mất kết nối mạng. Hãy thử lại.',
-      'auth/operation-not-allowed': 'Tính năng này đang tắt trong Firebase (kiểm tra Authentication → Sign-in method).',
+      'auth/popup-closed-by-user': 'Bạn đã đóng cửa sổ đăng nhập. Hãy thử lại.',
+      'auth/cancelled-popup-request': 'Đang có một cửa sổ đăng nhập khác. Hãy thử lại.',
+      'auth/unauthorized-domain': 'Tên miền này chưa được cho phép: thêm luonggiang0408-a11y.github.io vào Firebase → Authentication → Settings → Authorized domains.',
+      'auth/operation-not-allowed': 'Tính năng này đang tắt trong Firebase (bật Google trong Authentication → Sign-in method).',
       'permission-denied': 'Không có quyền ghi dữ liệu: kiểm tra Firestore Rules.',
     };
     return m[e && e.code] || (e && e.message) || 'Có lỗi xảy ra.';
   },
 
-  async signIn(email, pw) { this.user = (await this.auth.signInWithEmailAndPassword(email, pw)).user; },
-  async signUp(email, pw) { this.user = (await this.auth.createUserWithEmailAndPassword(email, pw)).user; },
-  async reset(email) { await this.auth.sendPasswordResetEmail(email); },
+  // Đăng nhập bằng tài khoản Google. Thử cửa sổ popup; nếu trình duyệt chặn thì chuyển hướng cả trang.
+  async signInGoogle() {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    provider.setCustomParameters({ prompt: 'select_account' });
+    try {
+      this.user = (await this.auth.signInWithPopup(provider)).user;
+      return true;
+    } catch (e) {
+      if (e && (e.code === 'auth/popup-blocked' || e.code === 'auth/operation-not-supported-in-this-environment')) {
+        await this.auth.signInWithRedirect(provider);   // trang sẽ tải lại sau khi đăng nhập
+        return false;
+      }
+      throw e;
+    }
+  },
   async signOut() { await this.auth.signOut(); this.user = null; },
 
   // Dữ liệu lưu cục bộ theo từng tài khoản; lần đầu đăng nhập nhận luôn dữ liệu đang có trên máy này.
@@ -117,55 +133,35 @@ const Cloud = {
 
 /* Màn hình đăng nhập */
 const Login = {
-  mode: 'in',
   show(onDone) {
     this.onDone = onDone;
-    this.mode = 'in';
     let el = document.getElementById('loginView');
     if (!el) { el = document.createElement('div'); el.id = 'loginView'; el.className = 'login'; document.body.appendChild(el); }
     el.hidden = false;
     this.render();
+    if (Cloud.redirectError) { this.message(Cloud.errMsg(Cloud.redirectError), 'bad'); Cloud.redirectError = null; }
   },
   hide() { const el = document.getElementById('loginView'); if (el) el.remove(); },
   message(text, kind) { const m = document.getElementById('loginMsg'); if (m) { m.textContent = text || ''; m.className = 'login-msg ' + (kind || ''); } },
   render() {
-    const up = this.mode === 'up';
     const el = document.getElementById('loginView');
-    el.innerHTML = `<form class="login-card" id="loginForm" novalidate>
+    el.innerHTML = `<div class="login-card">
       <div class="logo big">${I('book', 28)}</div>
       <h1>Vocab<b>IELTS</b></h1>
-      <p class="muted">${up ? 'Tạo tài khoản để lưu tiến độ học riêng của bạn.' : 'Đăng nhập để tiếp tục việc học của bạn.'}</p>
-      <label>Email<input type="email" id="lgEmail" autocomplete="username" required placeholder="ban@email.com"></label>
-      <label>Mật khẩu<input type="password" id="lgPass" autocomplete="${up ? 'new-password' : 'current-password'}" required placeholder="${up ? 'Tối thiểu 6 ký tự' : 'Mật khẩu'}"></label>
+      <p class="muted">Đăng nhập để lưu tiến độ học riêng của bạn và dùng trên mọi thiết bị.</p>
+      <button class="btn google wide" id="lgGoogle" type="button">
+        <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.9 6.1C12.4 13.6 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17.5z"/><path fill="#FBBC05" d="M10.5 28.7c-.5-1.4-.8-3-.8-4.7s.3-3.2.8-4.7l-7.9-6.1C.9 16.4 0 20.1 0 24s.9 7.6 2.6 10.8l7.9-6.1z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.5-5.8c-2.1 1.4-4.8 2.3-8.4 2.3-6.3 0-11.6-4.1-13.5-9.8l-7.9 6.1C6.5 42.6 14.6 48 24 48z"/></svg>
+        Đăng nhập với Google</button>
       <div id="loginMsg" class="login-msg"></div>
-      <button class="btn primary wide" type="submit">${up ? 'Tạo tài khoản' : 'Đăng nhập'}</button>
-      <div class="login-links">
-        ${up ? '<a href="#" data-m="in">Đã có tài khoản? Đăng nhập</a>' : '<a href="#" data-m="reset">Quên mật khẩu?</a><a href="#" data-m="up">Tạo tài khoản</a>'}
-      </div></form>`;
-    const form = document.getElementById('loginForm');
-    form.addEventListener('submit', (e) => { e.preventDefault(); this.submit(); });
-    form.addEventListener('click', (e) => {
-      const a = e.target.closest('a[data-m]'); if (!a) return;
-      e.preventDefault();
-      if (a.dataset.m === 'reset') this.forgot(); else { this.mode = a.dataset.m; this.render(); }
-    });
-    document.getElementById('lgEmail').focus();
+    </div>`;
+    document.getElementById('lgGoogle').onclick = () => this.go();
   },
-  async submit() {
-    const email = document.getElementById('lgEmail').value.trim(), pw = document.getElementById('lgPass').value;
-    if (!email || !pw) { this.message('Hãy nhập email và mật khẩu.', 'bad'); return; }
-    const btn = document.querySelector('#loginForm button[type=submit]'); btn.disabled = true; this.message('Đang xử lý...');
+  async go() {
+    const btn = document.getElementById('lgGoogle'); btn.disabled = true; this.message('Đang mở cửa sổ đăng nhập Google...');
     try {
-      if (this.mode === 'up') await Cloud.signUp(email, pw); else await Cloud.signIn(email, pw);
-      this.hide();
-      this.onDone();
+      const done = await Cloud.signInGoogle();
+      if (done) { this.hide(); this.onDone(); }
     } catch (e) { this.message(Cloud.errMsg(e), 'bad'); btn.disabled = false; }
-  },
-  async forgot() {
-    const email = document.getElementById('lgEmail').value.trim();
-    if (!email) { this.message('Nhập email của bạn ở ô trên, rồi bấm “Quên mật khẩu?” lần nữa.', 'bad'); return; }
-    try { await Cloud.reset(email); this.message('Đã gửi email đặt lại mật khẩu (kiểm tra cả thư rác).', 'ok'); }
-    catch (e) { this.message(Cloud.errMsg(e), 'bad'); }
   },
   // Không kết nối được máy chủ đăng nhập
   failed(msg, retry, offline) {

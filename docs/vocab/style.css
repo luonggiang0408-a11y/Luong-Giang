@@ -241,3 +241,7 @@ select.lvsel.l4 { background: var(--l4bg); color: var(--l4); border-color: var(-
 .logo.big { width: 54px; height: 54px; border-radius: 16px; margin: 0 auto; }
 .login-msg { min-height: 20px; font-size: 14px; text-align: left; } .login-msg.bad { color: var(--bad); } .login-msg.ok { color: var(--good); }
 .login-links { display: flex; justify-content: space-between; font-size: 14px; } .login-links a { color: var(--brand); text-decoration: none; }
+
+.btn.google { background: #fff; color: #3c4043; border: 1px solid #dadce0; font-weight: 600; padding: 11px 16px; gap: 10px; }
+.btn.google:hover { box-shadow: 0 1px 6px rgba(60,64,67,.3); }
+@media (prefers-color-scheme: dark) { .login-card .btn.google { background: #fff; color: #3c4043; } }

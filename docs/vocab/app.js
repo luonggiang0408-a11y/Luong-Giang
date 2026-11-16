@@ -1050,7 +1050,7 @@ App.views.settings = function () {
 
 App.accountPanel = function () {
   if (!Cloud.enabled()) {
-    return `<section class="panel"><h2>${I('key')} Tài khoản</h2><p class="muted">Đăng nhập bằng email chưa được bật. Điền cấu hình Firebase vào <code>firebase-config.js</code> để mỗi lần mở web phải đăng nhập và dữ liệu đồng bộ giữa các thiết bị.</p></section>`;
+    return `<section class="panel"><h2>${I('key')} Tài khoản</h2><p class="muted">Đăng nhập bằng Google chưa được bật. Điền cấu hình Firebase vào <code>firebase-config.js</code> để mỗi lần mở web phải đăng nhập và dữ liệu đồng bộ giữa các thiết bị.</p></section>`;
   }
   return `<section class="panel"><h2>${I('key')} Tài khoản</h2>
     <p>Đang đăng nhập: <b>${UI.esc(Cloud.user ? Cloud.user.email : '(ngoại tuyến)')}</b></p>
