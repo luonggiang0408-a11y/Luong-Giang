@@ -4,15 +4,36 @@ const App = {
   hideMeaning: false,
   editing: null,
 
-  init() {
-    Store.load();
+  // Khởi động: nếu đã bật đăng nhập (firebase-config.js) thì yêu cầu đăng nhập trước.
+  async init() {
+    if (!Cloud.enabled()) { this.boot(); return; }
+    UI.$('#view').innerHTML = '<div class="empty">Đang kiểm tra đăng nhập...</div>';
+    try {
+      const u = await Cloud.init();
+      if (u) this.boot(); else Login.show(() => this.boot());
+    } catch (e) {
+      const uid = (() => { try { return localStorage.getItem('vocabApp.lastUid'); } catch (x) { return null; } })();
+      Login.failed(e.message || 'Lỗi kết nối.', () => this.init(), uid ? () => { Cloud.bindStore(uid); this.boot(true); } : null);
+    }
+  },
+
+  booted: false,
+  boot(offline) {
+    if (Cloud.user && !offline) Cloud.bindStore(Cloud.user.uid); else if (!offline) Store.load();
+    if (this.booted) { this.autoStart(); this.go(this.tab); return; }
+    this.booted = true;
     this.autoStart();
     TTS.init();
     UI.$('#logo').innerHTML = I('book', 22);
     UI.$$('#tabs button').forEach((b) => { b.insertAdjacentHTML('afterbegin', I(b.dataset.icon, 20)); b.addEventListener('click', () => this.go(b.dataset.tab)); });
     document.addEventListener('click', (e) => this.onClick(e));
     this.go(location.hash.slice(1) || 'review');
-    Sync.pull().then((changed) => { if (changed) { this.autoStart(); this.render(); } });
+    if (Cloud.user && !offline) {
+      Cloud.pull().then((changed) => { if (changed) { this.autoStart(); this.render(); } });
+      document.addEventListener('visibilitychange', () => { if (!document.hidden && Cloud.user) Cloud.pull().then((c) => { if (c) { this.autoStart(); this.render(); } }); });
+    } else {
+      Sync.pull().then((changed) => { if (changed) { this.autoStart(); this.render(); } });
+    }
   },
 
   // Từ thêm từ hôm trước mà chưa đánh dấu mức nhớ → mặc định "Chưa nhớ", tính lịch từ ngày thêm.
@@ -982,6 +1003,7 @@ document.addEventListener('keydown', (e) => {
 App.views.settings = function () {
   const s = Store.data.settings;
   const html = `
+  ${this.accountPanel()}
   <section class="panel">
     <h2>${I('key')} Kết nối Claude (tạo bài đọc & chấm bài tự động)</h2>
     <p class="muted">Khoá API được lưu <b>chỉ trong trình duyệt này</b> và gửi thẳng tới api.anthropic.com. Không nhập khoá trên máy dùng chung. Có thể bỏ trống để dùng chế độ thủ công (sao chép prompt sang claude.ai).</p>
@@ -1026,6 +1048,22 @@ App.views.settings = function () {
   };
 };
 
+App.accountPanel = function () {
+  if (!Cloud.enabled()) {
+    return `<section class="panel"><h2>${I('key')} Tài khoản</h2><p class="muted">Đăng nhập bằng email chưa được bật. Điền cấu hình Firebase vào <code>firebase-config.js</code> để mỗi lần mở web phải đăng nhập và dữ liệu đồng bộ giữa các thiết bị.</p></section>`;
+  }
+  return `<section class="panel"><h2>${I('key')} Tài khoản</h2>
+    <p>Đang đăng nhập: <b>${UI.esc(Cloud.user ? Cloud.user.email : '(ngoại tuyến)')}</b></p>
+    <p class="muted">Dữ liệu học của bạn được lưu riêng cho tài khoản này và đồng bộ giữa các thiết bị.</p>
+    <div class="row"><button class="btn" data-act="cloudSync">Đồng bộ ngay</button><button class="btn danger" data-act="signOut">Đăng xuất</button><span class="muted" id="cloudOut">${UI.esc(Cloud.status)}</span></div></section>`;
+};
+App.actions.cloudSync = async function () { if (!Cloud.user) { UI.toast('Đang ở chế độ ngoại tuyến.'); return; } Cloud.setStatus('Đang đồng bộ...'); await Cloud.push(); };
+App.actions.signOut = async function () {
+  if (!confirm('Đăng xuất khỏi tài khoản này?')) return;
+  try { await Cloud.push(); } catch (e) { /* vẫn đăng xuất */ }
+  await Cloud.signOut();
+  location.reload();
+};
 App.actions.saveSettings = function () {
   const s = Store.data.settings;
   s.apiKey = UI.$('#apiKey').value.trim();

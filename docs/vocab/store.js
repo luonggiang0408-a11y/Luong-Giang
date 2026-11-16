@@ -14,7 +14,7 @@ const Store = {
 
   save() {
     this.data.updatedAt = Date.now();
-    try { localStorage.setItem(this.KEY, JSON.stringify(this.data)); if (typeof Sync !== 'undefined') Sync.schedule(); return true; }
+    try { localStorage.setItem(this.KEY, JSON.stringify(this.data)); if (typeof Sync !== 'undefined') Sync.schedule(); if (typeof Cloud !== 'undefined') Cloud.schedule(); return true; }
     catch (e) { UI.toast('Không lưu được dữ liệu (bộ nhớ trình duyệt đầy hoặc bị chặn).'); return false; }
   },
 
