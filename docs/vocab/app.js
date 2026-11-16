@@ -528,7 +528,8 @@ App.productionView = function (kind) {
     : `
       <div class="recbar"><button class="btn" data-act="toggleTimer" id="wTimerBtn">⏱ Bắt đầu tính giờ (40 phút)</button><span id="timer" class="timer">00:00</span><span class="counter" id="wc">0 từ</span></div>
       <label>Bài viết của bạn (tối thiểu 250 từ)<textarea id="answerBox" rows="16" placeholder="Viết bài của bạn ở đây..."></textarea></label>`}
-    <div class="row"><button class="btn primary" data-act="grade" data-kind="${kind}">📝 Chấm điểm theo IELTS</button><span class="muted" id="gradeStatus"></span></div>
+    <div class="row"><button class="btn primary" data-act="gradeQuick" data-kind="${kind}">⚡ Chấm nhanh (tự động, miễn phí)</button><button class="btn" data-act="grade" data-kind="${kind}">🧠 Chấm sâu bằng Claude</button><span class="muted" id="gradeStatus"></span></div>
+    <p class="muted">Chấm nhanh dùng thuật toán trong trình duyệt (đếm từ, từ nối, từ vựng đã dùng, lỗi phổ biến${isS ? ', tốc độ nói, độ rõ của giọng' : ''}) nên chỉ là điểm ước tính. Chấm sâu bằng Claude cho góp ý chi tiết hơn (cần API key hoặc sao chép-dán).</p>
   </section>
   <div id="result"></div>` : ''}
   ${hist.length ? `<section class="panel"><h3>Lịch sử gần đây</h3><div class="hist">${hist.map((h) => `<div><span class="muted">${SRS.fmtFull(h.date)}</span> <b>Band ${UI.band(h.overall)}</b> — ${UI.esc(h.topic.slice(0, 90))}…</div>`).join('')}</div></section>` : ''}`;
@@ -656,6 +657,23 @@ App.actions.grade = async function (btn) {
   btn.disabled = false; status.textContent = '';
 };
 
+App.actions.gradeQuick = function (btn) {
+  const kind = btn.dataset.kind, isS = kind === 'speaking', R = this.rec;
+  if (isS && R.on) this.stopRec();
+  const text = UI.$('#answerBox').value.trim();
+  const count = this.countWords(text);
+  if (count < (isS ? 10 : 40)) { UI.toast(isS ? 'Hãy nói hoặc gõ thêm một chút để chấm.' : 'Bài viết quá ngắn để chấm.'); return; }
+  const words = this.weakSource();
+  let r;
+  if (isS) r = Quick.speaking(words, text, R.seconds || 0, R.confs);
+  else r = Quick.writing(words, text, R.seconds ? Math.round(R.seconds / 60) : 0);
+  const topic = isS ? this.speakTopic : this.writeTopic;
+  Store.data.gen[kind].push({ date: SRS.today(), topic: topic.topic, overall: r.overall, bands: r.bands, text, quick: true });
+  Store.prune(); Store.save();
+  UI.$('#result').innerHTML = this.resultHTML(kind, r);
+  UI.$('#result').scrollIntoView({ behavior: 'smooth' });
+};
+
 App.resultHTML = function (kind, r) {
   const labels = kind === 'speaking'
     ? { pronunciation: 'Phát âm', vocabulary: 'Từ vựng', grammar: 'Ngữ pháp', fluency: 'Độ trôi chảy', clarity: 'Mức độ rõ ý' }
@@ -663,17 +681,18 @@ App.resultHTML = function (kind, r) {
   const c = r.comments || {};
   return `<section class="panel result">
     <div class="overall"><span>Band tổng</span><b>${UI.band(r.overall)}</b></div>
-    <div class="bands">${Object.keys(labels).map((k) => `<div class="bandcard"><small>${labels[k]}</small><b>${UI.band(r.bands[k] || 0)}</b><div class="track"><i style="width:${(r.bands[k] || 0) / 9 * 100}%"></i></div><p>${UI.esc(c[k] || '')}</p></div>`).join('')}</div>
-    ${kind === 'speaking' ? '<p class="note">Điểm phát âm chỉ là ước lượng từ văn bản nhận dạng giọng nói và độ tin cậy của trình nhận dạng — không nghe được âm thanh thật. Hãy coi đó là gợi ý.</p>' : ''}
+    <div class="bands">${Object.keys(labels).map((k) => `<div class="bandcard"><small>${labels[k]}</small><b>${r.bands[k] == null ? '—' : UI.band(r.bands[k])}</b><div class="track"><i style="width:${(r.bands[k] || 0) / 9 * 100}%"></i></div><p>${UI.esc(c[k] || '')}</p></div>`).join('')}</div>
+    ${r.quick ? '<p class="note">⚡ Điểm ước tính bằng thuật toán, không phải giám khảo thật. Muốn góp ý chi tiết về lỗi và cách diễn đạt hay hơn, bấm “Chấm sâu bằng Claude”.</p>' : ''}
+    ${kind === 'speaking' && !r.quick ? '<p class="note">Điểm phát âm chỉ là ước lượng từ văn bản nhận dạng giọng nói và độ tin cậy của trình nhận dạng — không nghe được âm thanh thật. Hãy coi đó là gợi ý.</p>' : ''}
     <h3>Từ mục tiêu</h3>
     <p>✅ Đã dùng: ${(r.used_words || []).map((w) => `<span class="chip good">${UI.esc(w)}</span>`).join('') || '—'}</p>
     <p>➕ Chưa dùng: ${(r.missed_words || []).map((w) => `<span class="chip warn">${UI.esc(w)}</span>`).join('') || '—'}</p>
     ${r.word_use_feedback ? `<p class="muted">${UI.esc(r.word_use_feedback)}</p>` : ''}
     <h3>Lỗi cần sửa</h3>
-    <div class="errs">${(r.errors || []).map((x) => `<div class="err"><div class="o">✗ ${UI.esc(x.original)}</div><div class="b">✓ ${UI.esc(x.better)}</div><div class="w">${UI.esc(x.why)}</div></div>`).join('') || '<p class="muted">Không có lỗi đáng kể.</p>'}</div>
-    <h3>Phiên bản tốt hơn (gợi ý)</h3>
-    <blockquote>${UI.esc(r.better_version || '').replace(/\n/g, '<br>')}</blockquote>
-    <button class="btn" data-act="sayText" data-text="${UI.esc(r.better_version || '')}">🔊 Nghe bản mẫu</button>
+    <div class="errs">${(r.errors || []).map((x) => `<div class="err"><div class="o">✗ ${UI.esc(x.original)}</div>${x.better ? `<div class="b">✓ ${UI.esc(x.better)}</div>` : ''}<div class="w">${UI.esc(x.why)}</div></div>`).join('') || '<p class="muted">Không có lỗi đáng kể.</p>'}</div>
+    ${r.better_version ? `<h3>Phiên bản tốt hơn (gợi ý)</h3>
+    <blockquote>${UI.esc(r.better_version).replace(/\n/g, '<br>')}</blockquote>
+    <button class="btn" data-act="sayText" data-text="${UI.esc(r.better_version)}">🔊 Nghe bản mẫu</button>` : ''}
     <h3>Việc cần luyện tiếp</h3>
     <ul>${(r.next_steps || []).map((x) => `<li>${UI.esc(x)}</li>`).join('')}</ul>
   </section>`;
