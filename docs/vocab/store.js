@@ -6,7 +6,7 @@ const Store = {
   load() {
     try { this.data = JSON.parse(localStorage.getItem(this.KEY)); } catch (e) { this.data = null; }
     if (!this.data) this.data = {};
-    this.data.words = this.data.words || [];
+    this.data.words = (this.data.words || []).map((w) => SRS.migrate(w));
     this.data.settings = Object.assign({ apiKey: '', model: 'claude-sonnet-5-5', voice: '', rate: 0.95 }, this.data.settings);
     this.data.gen = this.data.gen || { reading: {}, speaking: [], writing: [] };
     return this.data;
@@ -23,7 +23,7 @@ const Store = {
   newWord(o) {
     return Object.assign({
       id: this.uid(), word: '', ipa: '', pos: '', meaning: '', example: '', audio: '',
-      added: SRS.today(), level: null, schedule: [], history: [], lapses: 0, reviews: 0, mastered: false, lastReviewed: '',
+      added: SRS.today(), v: 2, level: null, schedule: [], history: [], lapses: 0, reviews: 0, mastered: false, lastReviewed: '',
     }, o);
   },
 

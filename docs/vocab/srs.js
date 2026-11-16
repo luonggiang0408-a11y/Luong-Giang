@@ -1,13 +1,19 @@
 /* Spaced repetition logic (pure functions, no DOM) */
 (function (root) {
-  // Mỗi mức có 2 mốc ôn, tính từ ngày đánh dấu mức đó.
-  const LEVELS = [
-    { name: 'Chưa nhớ', short: 'Chưa nhớ', iv: [1, 3], cls: 'l0' },
-    { name: 'Nhớ chưa chắc', short: 'Nhớ chưa chắc', iv: [7, 14], cls: 'l1' },
-    { name: 'Nhớ nhưng chưa vận dụng', short: 'Nhớ, chưa vận dụng', iv: [21, 30], cls: 'l2' },
-    { name: 'Vận dụng có hỗ trợ', short: 'Vận dụng có hỗ trợ', iv: [45, 60], cls: 'l3' },
-    { name: 'Vận dụng thành thạo', short: 'Vận dụng thành thạo', iv: [90, 120], cls: 'l4' },
+  // 10 mốc ôn: mỗi nút là một mốc, lịch ôn kế tiếp = ngày đánh dấu + số ngày của mốc.
+  const DAYS = [1, 3, 7, 14, 21, 30, 45, 60, 90, 120];
+  const GROUPS = [
+    { name: 'Chưa nhớ', short: 'Chưa nhớ', cls: 'l0' },
+    { name: 'Nhớ chưa chắc', short: 'Nhớ chưa chắc', cls: 'l1' },
+    { name: 'Nhớ nhưng chưa vận dụng', short: 'Nhớ, chưa vận dụng', cls: 'l2' },
+    { name: 'Vận dụng có hỗ trợ', short: 'Vận dụng có hỗ trợ', cls: 'l3' },
+    { name: 'Vận dụng thành thạo', short: 'Vận dụng thành thạo', cls: 'l4' },
   ];
+  const LEVELS = DAYS.map((d, i) => {
+    const g = GROUPS[Math.floor(i / 2)];
+    return { name: g.name, short: g.short + ' (' + d + ')', cls: g.cls, days: d, group: Math.floor(i / 2) };
+  });
+  const LAST = LEVELS.length - 1;
 
   const pad = (n) => String(n).padStart(2, '0');
   const iso = (d) => d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
@@ -21,44 +27,43 @@
   const isNew = (w) => w.level === null || w.level === undefined;
   const isDue = (w, t) => !isNew(w) && !w.mastered && w.schedule.length > 0 && w.schedule[0] <= t;
 
-  function plan(levelIdx, from) { return LEVELS[levelIdx].iv.map((n) => addDays(from, n)); }
+  function plan(levelIdx, from) { return [addDays(from, LEVELS[levelIdx].days)]; }
 
-  // Đánh dấu mức nhớ cho từ vào ngày t. Trả về lịch ôn mới.
+  // Đánh dấu mốc li (0-9) cho từ vào ngày t → nhắc lại sau LEVELS[li].days ngày kể từ t.
   function rate(w, li, t) {
     const prev = isNew(w) ? null : w.level;
-    const remaining = (w.schedule || []).filter((d) => d > t);
     w.history = w.history || [];
     w.history.push({ date: t, level: li });
     if (prev !== null) {
       w.reviews = (w.reviews || 0) + 1;
-      if (li <= 1 || li < prev) w.lapses = (w.lapses || 0) + 1;
+      if (LEVELS[li].group === 0 || li < prev) w.lapses = (w.lapses || 0) + 1;
     }
-    if (prev === li && remaining.length > 0) {
-      // Ôn mốc đầu của cùng mức: giữ nguyên mốc còn lại (vd 1/11 → 2/11, 4/11).
-      w.schedule = remaining;
-      w.mastered = false;
-    } else if (prev === li && li === LEVELS.length - 1) {
-      // Hoàn thành mốc cuối của mức cao nhất.
-      w.schedule = [];
-      w.mastered = true;
-    } else {
-      w.schedule = plan(li, t);
-      w.mastered = false;
-    }
+    if (prev === LAST && li === LAST) { w.schedule = []; w.mastered = true; }   // hoàn thành chu kỳ
+    else { w.schedule = plan(li, t); w.mastered = false; }
     w.level = li;
     w.lastReviewed = t;
+    w.v = 2;
     return w.schedule;
   }
 
-  // Từ "hay quên": đang ở mức thấp hoặc từng quên nhiều lần. Ưu tiên từ quên nhiều nhất.
+  // Dữ liệu cũ (5 mức × 2 mốc) → 10 mốc: lấy mốc đầu của mức cũ, giữ lịch ôn kế tiếp đã có.
+  function migrate(w) {
+    if (w.v === 2) return w;
+    if (!isNew(w)) { w.level = Math.min(LAST, w.level * 2); w.schedule = (w.schedule || []).slice(0, 1); }
+    w.v = 2;
+    return w;
+  }
+
+  // Từ "hay quên": đang ở nhóm thấp hoặc từng quên nhiều lần. Ưu tiên từ quên nhiều nhất.
   function weakWords(due) {
-    const score = (w) => (w.lapses || 0) * 2 + (w.level <= 1 ? 2 : 0) + (w.level === 2 ? 1 : 0);
+    const grp = (w) => LEVELS[w.level].group;
+    const score = (w) => (w.lapses || 0) * 2 + (grp(w) <= 1 ? 2 : 0) + (grp(w) === 2 ? 1 : 0);
     const sorted = due.slice().sort((a, b) => score(b) - score(a));
     const weak = sorted.filter((w) => score(w) >= 2);
     return (weak.length >= 3 ? weak : sorted).slice(0, 8);
   }
 
-  const api = { LEVELS, iso, parse, addDays, diffDays, today, fmt, fmtFull, isNew, isDue, plan, rate, weakWords };
+  const api = { DAYS, GROUPS, LEVELS, iso, parse, addDays, diffDays, today, fmt, fmtFull, isNew, isDue, plan, rate, migrate, weakWords };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.SRS = api;
 })(typeof window !== 'undefined' ? window : globalThis);

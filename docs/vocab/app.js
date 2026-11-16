@@ -80,11 +80,8 @@ const App = {
 
   rateButtons(w) {
     const t = SRS.today();
-    return SRS.LEVELS.map((l, i) => {
-      const [a, b] = l.iv;
-      return `<button class="lv ${l.cls}" data-act="rate" data-lv="${i}" title="Nhắc lại sau ${a} và ${b} ngày (${SRS.fmt(SRS.addDays(t, a))}, ${SRS.fmt(SRS.addDays(t, b))})">
-        <b>${l.short}</b><small>${a} · ${b} ngày</small></button>`;
-    }).join('');
+    return SRS.LEVELS.map((l, i) => `<button class="lv ${l.cls}" data-act="rate" data-lv="${i}" title="Nhắc lại sau ${l.days} ngày (${SRS.fmtFull(SRS.addDays(t, l.days))})">
+        <b>${l.short}</b><small>sau ${l.days} ngày</small></button>`).join('');
   },
 
   onClick(e) {
@@ -105,7 +102,7 @@ const App = {
     const l = SRS.LEVELS[lv];
     const next = w.mastered ? 'Đã hoàn thành chu kỳ ôn' : 'Nhắc lại: ' + sched.map(SRS.fmtFull).join(' và ');
     card.classList.add('done');
-    UI.$('.rate', card).outerHTML = `<div class="rated"><span class="tag ${l.cls}">${l.name}</span> ✓ ${next}</div>`;
+    UI.$('.rate', card).outerHTML = `<div class="rated"><span class="tag ${l.cls}">${l.short}</span> ✓ ${next}</div>`;
     UI.$('.mean', card).classList.remove('blur');
     this.updateBadge();
     const left = UI.$$('.wcard:not(.done)', UI.$('#dueList') || document.createElement('div')).length;
@@ -231,7 +228,7 @@ App.actions.lookup = async function () {
 
 App.actions.import = function () {
   const lines = UI.$('#importBox').value.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
-  const levelNames = SRS.LEVELS.map((l) => l.name.toLowerCase());
+  const levelNames = SRS.LEVELS.map((l) => l.name.toLowerCase()); // lần đầu gặp tên mức = mốc đầu của nhóm
   const dmy = (s) => { const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec((s || '').trim()); return m ? `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}` : ''; };
   let added = 0, skipped = 0;
   lines.forEach((line) => {
@@ -259,7 +256,7 @@ App.views.review = function () {
   const due = this.dueWords();
   const words = this.words();
   const learned = words.filter((w) => !SRS.isNew(w));
-  const counts = SRS.LEVELS.map((l, i) => learned.filter((w) => w.level === i && !w.mastered).length);
+  const counts = SRS.GROUPS.map((g, i) => learned.filter((w) => SRS.LEVELS[w.level].group === i && !w.mastered).length);
   const done = words.filter((w) => w.mastered).length;
   // Lịch 7 ngày tới
   const upcoming = [];
@@ -287,7 +284,7 @@ App.views.review = function () {
   </section>
   <section class="panel">
     <h2>📊 Tiến độ</h2>
-    <div class="bars">${SRS.LEVELS.map((l, i) => `<div class="bar"><span class="tag ${l.cls}">${l.short}</span><div class="track"><i class="${l.cls}" style="width:${learned.length ? Math.round(counts[i] / learned.length * 100) : 0}%"></i></div><b>${counts[i]}</b></div>`).join('')}</div>
+    <div class="bars">${SRS.GROUPS.map((l, i) => `<div class="bar"><span class="tag ${l.cls}">${l.short}</span><div class="track"><i class="${l.cls}" style="width:${learned.length ? Math.round(counts[i] / learned.length * 100) : 0}%"></i></div><b>${counts[i]}</b></div>`).join('')}</div>
     <h3>Lịch ôn 7 ngày tới</h3>
     <div class="cal">${upcoming.map((u) => `<div class="day ${u.n ? 'has' : ''}"><small>${SRS.fmt(u.d)}</small><b>${u.n}</b></div>`).join('')}</div>
   </section>`;
@@ -725,7 +722,7 @@ App.actions.sayText = function (el) { TTS.stop(); TTS.say(el.dataset.text); };
 /* ======================= FLASHCARD ======================= */
 App.fc = { ids: [], i: 0, flipped: false, front: 'word', ok: 0 };
 App.actions.fcStart = function () {
-  this.fc = { ids: UI.shuffle(this.dueWords().map((w) => w.id)), i: 0, flipped: false, front: this.fc.front || 'word', stats: [0, 0, 0, 0, 0] };
+  this.fc = { ids: UI.shuffle(this.dueWords().map((w) => w.id)), i: 0, flipped: false, front: this.fc.front || 'word', stats: SRS.LEVELS.map(() => 0) };
   if (!this.fc.ids.length) return;
   const el = document.createElement('div');
   el.id = 'fcModal'; el.className = 'modal';
@@ -738,7 +735,7 @@ App.fcRender = function () {
   const total = F.ids.length;
   if (F.i >= total) {
     el.innerHTML = `<div class="modal-box fc"><h3>🎉 Xong ${total} từ!</h3>
-      ${SRS.LEVELS.map((l, k) => `<div class="bar" style="grid-template-columns:200px 1fr 30px"><span class="tag ${l.cls}">${l.name}</span><div class="track"><i class="${l.cls}" style="width:${F.stats[k] / total * 100}%"></i></div><b>${F.stats[k]}</b></div>`).join('')}
+      ${SRS.LEVELS.map((l, k) => `<div class="bar" style="grid-template-columns:200px 1fr 30px"><span class="tag ${l.cls}">${l.short}</span><div class="track"><i class="${l.cls}" style="width:${F.stats[k] / total * 100}%"></i></div><b>${F.stats[k]}</b></div>`).join('')}
       <div class="row end"><button class="btn primary" data-act="fcClose">Đóng</button></div></div>`;
     return;
   }
@@ -759,7 +756,7 @@ App.fcRender = function () {
       <div class="fc-face">${front}<button class="spk" data-act="fcSpeak" title="Nghe (S)">🔊</button></div>
       ${F.flipped ? `<hr><div class="fc-face">${back}</div>` : '<div class="muted fc-hint">Bấm vào thẻ hoặc phím Space để lật</div>'}
     </div>
-    ${F.flipped ? `<div class="rate">${SRS.LEVELS.map((l, k) => `<button class="lv ${l.cls}" data-act="fcRate" data-lv="${k}"><b>${k + 1}. ${l.short}</b><small>${l.iv[0]} · ${l.iv[1]} ngày</small></button>`).join('')}</div>`
+    ${F.flipped ? `<div class="rate">${SRS.LEVELS.map((l, k) => `<button class="lv ${l.cls}" data-act="fcRate" data-lv="${k}"><b>${(k + 1) % 10}. ${l.short}</b><small>${l.days} ngày</small></button>`).join('')}</div>`
       : '<div class="row end"><button class="btn primary" data-act="fcFlip">Lật thẻ</button></div>'}
   </div>`;
   if (frontWord && !F.flipped) TTS.speakWord(w);
@@ -778,7 +775,7 @@ document.addEventListener('keydown', (e) => {
   const F = App.fc;
   if (e.key === 'Escape') App.actions.fcClose.call(App);
   else if (e.key === ' ' && F.i < F.ids.length && !F.flipped) { e.preventDefault(); App.actions.fcFlip.call(App); }
-  else if (/^[1-5]$/.test(e.key) && F.flipped) App.actions.fcRate.call(App, { dataset: { lv: +e.key - 1 } });
+  else if (/^[0-9]$/.test(e.key) && F.flipped) App.actions.fcRate.call(App, { dataset: { lv: (+e.key + 9) % 10 } });
   else if (e.key.toLowerCase() === 's' && F.i < F.ids.length) App.actions.fcSpeak.call(App);
 });
 

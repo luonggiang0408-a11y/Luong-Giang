@@ -57,7 +57,7 @@ const Sync = {
       if (!remote || !Array.isArray(remote.words)) return false;
       const local = Store.data.updatedAt || 0;
       if ((remote.updatedAt || 0) > local || (!Store.data.words.length && remote.words.length)) {
-        Store.data.words = remote.words;
+        Store.data.words = remote.words.map((w) => SRS.migrate(w));
         Store.data.updatedAt = remote.updatedAt || Date.now();
         localStorage.setItem(Store.KEY, JSON.stringify(Store.data));
         return true;
