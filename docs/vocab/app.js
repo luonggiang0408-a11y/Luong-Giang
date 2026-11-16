@@ -480,16 +480,39 @@ App.actions.rateSel = function () { /* đổi tốc độ áp dụng ở lần b
 
 /* ======================= BÀI NÓI ======================= */
 const SPEAK_BANK = [
-  { topic: 'Describe a time when you had to solve a difficult problem.', points: ['You should say:', 'what the problem was', 'how you dealt with it', 'who helped you', 'and explain how you felt afterwards.'], part3: ['Why do some people avoid facing problems?', 'How can schools teach problem-solving?'] },
-  { topic: 'Describe a place in your city that you think is important for the community.', points: ['You should say:', 'where it is', 'what people do there', 'how often you go there', 'and explain why it matters.'], part3: ['How do public places change a city?', 'Should governments spend more on public spaces?'] },
-  { topic: 'Describe a habit you would like to change.', points: ['You should say:', 'what the habit is', 'when it started', 'why you want to change it', 'and explain how you plan to do it.'], part3: ['Why is it hard for people to change habits?', 'Do habits differ between generations?'] },
-  { topic: 'Describe a person who has influenced you.', points: ['You should say:', 'who the person is', 'how you know them', 'what they did', 'and explain why they influenced you.'], part3: ['What makes someone a good role model?', 'Do celebrities have a responsibility to set an example?'] },
+  { kw: 'memory remember forget brain learn study recall revise review', topic: 'Describe something you learned that you still remember very well.', points: ['You should say:', 'what you learned', 'when and how you learned it', 'why you still remember it', 'and explain how it has helped you.'], part3: ['What helps people remember information?', 'Is it better to learn by heart or by understanding?'] },
+  { kw: 'study school exam teacher student education course class', topic: 'Describe a teacher who helped you a lot in your studies.', points: ['You should say:', 'who the teacher was', 'what subject they taught', 'how they helped you', 'and explain why you remember them.'], part3: ['What makes a good teacher?', 'How is learning different today from the past?'] },
+  { kw: 'habit routine decision resolution goal plan change effort', topic: 'Describe a goal or resolution you made and tried to keep.', points: ['You should say:', 'what the goal was', 'why you set it', 'how you tried to achieve it', 'and explain whether you kept it.'], part3: ['Why do people find it hard to keep their resolutions?', 'Do goals motivate people?'] },
+  { kw: 'problem solve difficult challenge tackle deal', topic: 'Describe a time when you had to solve a difficult problem.', points: ['You should say:', 'what the problem was', 'how you dealt with it', 'who helped you', 'and explain how you felt afterwards.'], part3: ['Why do some people avoid facing problems?', 'How can schools teach problem-solving?'] },
+  { kw: 'city place community public park building town', topic: 'Describe a place in your city that is important for the community.', points: ['You should say:', 'where it is', 'what people do there', 'how often you go there', 'and explain why it matters.'], part3: ['How do public places change a city?', 'Should governments spend more on public spaces?'] },
+  { kw: 'person influence friend family role model', topic: 'Describe a person who has influenced you.', points: ['You should say:', 'who the person is', 'how you know them', 'what they did', 'and explain why they influenced you.'], part3: ['What makes someone a good role model?', 'Do celebrities have a responsibility to set an example?'] },
+  { kw: 'technology phone internet computer online device app', topic: 'Describe a piece of technology you use every day.', points: ['You should say:', 'what it is', 'how you use it', 'how long you have had it', 'and explain why it is important to you.'], part3: ['Does technology make life easier or more stressful?', 'How will technology change education?'] },
+  { kw: 'health sleep exercise food stress body mind tired', topic: 'Describe something you do to stay healthy.', points: ['You should say:', 'what you do', 'how often you do it', 'when you started', 'and explain how it affects you.'], part3: ['Why do people find it hard to lead a healthy lifestyle?', 'Who is responsible for public health?'] },
+  { kw: 'environment pollution nature climate sustainable energy waste', topic: 'Describe something you do to help protect the environment.', points: ['You should say:', 'what you do', 'when you started', 'why you do it', 'and explain whether it makes a difference.'], part3: ['Who should do more for the environment, individuals or governments?', 'Will people care more about nature in the future?'] },
+  { kw: 'travel trip holiday journey visit tourist', topic: 'Describe a memorable trip you took.', points: ['You should say:', 'where you went', 'who you went with', 'what you did', 'and explain why it was memorable.'], part3: ['Why do people like travelling?', 'How does tourism affect local places?'] },
+  { kw: 'work job career office company business', topic: 'Describe a job or kind of work you would like to do in the future.', points: ['You should say:', 'what the job is', 'what skills it needs', 'why it interests you', 'and explain how you could prepare for it.'], part3: ['What do people look for in a job today?', 'Is working from home a good idea?'] },
 ];
 const WRITE_BANK = [
-  { topic: 'Some people think that governments should spend more money on public transport rather than building new roads. To what extent do you agree or disagree?', type: 'opinion' },
-  { topic: 'Many young people today find it difficult to manage stress. What are the causes of this, and what can be done to help?', type: 'problem-solution' },
-  { topic: 'Some people believe that working from home is better for employees, while others think working in an office is more effective. Discuss both views and give your opinion.', type: 'discussion' },
+  { kw: 'memory remember forget brain learn study recall revise review', topic: 'Some people believe that the best way to improve memory is to use learning techniques, while others think memory depends mainly on natural ability. Discuss both views and give your own opinion.', type: 'discussion' },
+  { kw: 'study school exam teacher student education course class learn', topic: 'Some people think that students should memorise facts, while others believe it is more important to understand ideas. Discuss both views and give your opinion.', type: 'discussion' },
+  { kw: 'habit routine decision resolution goal plan change effort', topic: 'Many people make resolutions but fail to keep them. What are the reasons for this, and what can be done to help people achieve their goals?', type: 'problem-solution' },
+  { kw: 'transport city public road traffic building', topic: 'Some people believe that governments should spend more money on public transport rather than building new roads. To what extent do you agree or disagree?', type: 'opinion' },
+  { kw: 'health sleep exercise food stress body mind tired', topic: 'Many young people today find it difficult to manage stress. What are the causes of this, and what can be done to help?', type: 'problem-solution' },
+  { kw: 'work job career office company business technology', topic: 'Some people believe that working from home is better for employees, while others think working in an office is more effective. Discuss both views and give your opinion.', type: 'discussion' },
+  { kw: 'technology phone internet computer online device app', topic: 'The use of technology in classrooms has increased greatly. Do the advantages of this development outweigh the disadvantages?', type: 'adv-disadv' },
+  { kw: 'environment pollution nature climate sustainable energy waste', topic: 'Some people think that individuals can do little to protect the environment and that only governments and large companies can make a difference. To what extent do you agree or disagree?', type: 'opinion' },
 ];
+
+// Chọn chủ đề khớp nhất với các từ hay quên (đếm từ khoá trùng); không có thì chọn ngẫu nhiên.
+App.pickTopic = function (kind) {
+  const bank = kind === 'speaking' ? SPEAK_BANK : WRITE_BANK;
+  const weak = this.weakSource();
+  const text = weak.map((w) => w.word + ' ' + w.meaning).join(' ').toLowerCase();
+  const toks = new Set(text.match(/[a-z]+/g) || []);
+  const scored = bank.map((t) => ({ t, s: t.kw.split(' ').filter((k) => toks.has(k) || text.includes(k)).length + Math.random() * 0.5 }));
+  scored.sort((a, b) => b.s - a.s);
+  return Object.assign({}, scored[0].t, { suggested: weak.slice(0, 6).map((w) => w.word) });
+};
 
 App.weakSource = function () {
   const due = this.dueWords();
@@ -500,6 +523,7 @@ App.weakSource = function () {
 App.productionView = function (kind) {
   const weak = this.weakSource();
   const key = kind === 'speaking' ? 'speakTopic' : 'writeTopic';
+  if (!this[key] && weak.length) this[key] = this.pickTopic(kind);
   const topic = this[key];
   const hist = Store.data.gen[kind].slice(-5).reverse();
   const isS = kind === 'speaking';
@@ -547,15 +571,13 @@ App.countWords = (s) => (s.trim().match(/[A-Za-z0-9'’-]+/g) || []).length;
 
 App.actions.bankTopic = function (el) {
   const kind = el.dataset.kind;
-  const bank = kind === 'speaking' ? SPEAK_BANK : WRITE_BANK;
-  const weak = this.weakSource();
-  const t = Object.assign({}, bank[Math.floor(Math.random() * bank.length)], { suggested: weak.slice(0, 5).map((w) => w.word) });
-  this[kind === 'speaking' ? 'speakTopic' : 'writeTopic'] = t;
+  this[kind === 'speaking' ? 'speakTopic' : 'writeTopic'] = this.pickTopic(kind);
   this.render();
 };
 
 App.actions.genTopic = async function (el) {
   const kind = el.dataset.kind;
+  if (!AI.hasKey()) { this.actions.bankTopic.call(this, el); UI.toast('Đã chọn chủ đề phù hợp nhất từ kho có sẵn (cần API key để Claude tự viết chủ đề riêng).'); return; }
   el.disabled = true; el.textContent = 'Đang tạo...';
   try {
     const pr = AI.topicPrompt(kind, this.weakSource());
