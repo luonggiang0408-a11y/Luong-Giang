@@ -103,7 +103,7 @@ const App = {
     const next = w.mastered ? 'Đã hoàn thành chu kỳ ôn' : 'Nhắc lại: ' + sched.map(SRS.fmtFull).join(' và ');
     card.classList.add('done');
     { const r2 = UI.$('.rate2', card); if (r2) r2.remove(); }
-    UI.$('.rate', card).outerHTML = `<div class="rated"><span class="tag ${l.cls}">${l.short}</span> ✓ ${next}</div>`;
+    UI.$('.rate', card).outerHTML = `<div class="rated"><span class="tag ${l.cls}">${l.short}</span> ✓ ${next} <button class="btn ghost sm" data-act="unrate">Chấm lại</button></div>`;
     UI.$('.mean', card).classList.remove('blur');
     this.updateBadge();
     const left = UI.$$('.wcard:not(.done)', UI.$('#dueList') || document.createElement('div')).length;
@@ -202,6 +202,54 @@ const SAMPLE = [
   ['crucial', '/ˈkruːʃl/', 'adj', 'then chốt, cực kỳ quan trọng', ''],
 ];
 
+App.ratedRow = function (w) {
+  const l = SRS.LEVELS[w.level];
+  return `<div class="wcard done rrow" data-id="${w.id}"><div class="whead">
+    <button class="spk" data-act="speak" aria-label="Nghe phát âm">${I('volume', 16)}</button>
+    <span class="wterm">${UI.esc(w.word)}</span><span class="tag ${l.cls}">${l.short}</span>
+    <span class="muted">${w.mastered ? 'xong chu kỳ' : 'nhắc lại ' + SRS.fmtFull(w.schedule[0] || SRS.today())}</span>
+    <button class="btn ghost sm" data-act="unrate">Chấm lại</button></div></div>`;
+};
+App.actions.unrate = function (el) {
+  const card = el.closest('[data-id]'); const w = card && this.byId(card.dataset.id);
+  if (!w) return;
+  if (!SRS.unrate(w, SRS.today())) { UI.toast('Không hoàn tác được lần chấm này.'); return; }
+  Store.save();
+  const y = window.scrollY;
+  this.render();
+  window.scrollTo(0, y);
+  UI.toast('Đã hoàn tác. Hãy chọn lại mức nhớ cho “' + w.word + '”.');
+};
+
+App.listModal = function (title, hint, head, rows) {
+  const old = UI.$('#listModal'); if (old) old.remove();
+  const el = document.createElement('div');
+  el.id = 'listModal'; el.className = 'modal'; el.dataset.act = 'closeModal';
+  el.innerHTML = `<div class="modal-box wide">
+    <div class="fc-top"><h3 style="margin:0">${title}</h3><button class="icon" data-act="closeModal" title="Đóng (Esc)">${I('x', 16)}</button></div>
+    <p class="muted">${hint}</p>
+    <input class="search" placeholder="Lọc theo từ hoặc nghĩa..." data-filter>
+    <div class="table-wrap"><table class="tbl"><thead><tr>${head.map((h) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${rows || `<tr><td colspan="${head.length}" class="muted">Không có từ nào.</td></tr>`}</tbody></table></div>
+  </div>`;
+  document.body.appendChild(el);
+  const inp = UI.$('[data-filter]', el);
+  inp.addEventListener('input', () => { const q = inp.value.toLowerCase(); UI.$$('tbody tr', el).forEach((tr) => { tr.hidden = !!q && !tr.textContent.toLowerCase().includes(q); }); });
+};
+App.actions.closeModal = function (el, e) { if (el.id === 'listModal' && e && e.target !== el) return; const m = UI.$('#listModal'); if (m) m.remove(); };
+App.actions.showDue = function () {
+  const t = SRS.today();
+  const rows = this.dueWords().map((w) => {
+    const l = SRS.LEVELS[w.level], d = SRS.diffDays(t, w.schedule[0]);
+    return `<tr><td><b>${UI.esc(w.word)}</b>${w.ipa ? ` <span class="ipa">${UI.esc(w.ipa)}</span>` : ''}</td><td>${UI.esc(w.meaning)}</td><td><span class="tag ${l.cls}">${l.short}</span></td><td>${SRS.fmtFull(w.schedule[0])}</td><td>${d > 0 ? `<span class="tag late">quá hạn ${d} ngày</span>` : 'hôm nay'}</td></tr>`;
+  }).join('');
+  this.listModal('Từ cần ôn hôm nay (' + this.dueWords().length + ')', 'Sắp xếp theo ngày hẹn. Ôn xong ở danh sách bên dưới hoặc bằng flashcard.', ['Từ', 'Nghĩa', 'Mức hiện tại', 'Ngày hẹn', 'Trạng thái'], rows);
+};
+App.actions.showNew = function () {
+  const ws = this.newWords();
+  const rows = ws.map((w) => `<tr><td><b>${UI.esc(w.word)}</b>${w.ipa ? ` <span class="ipa">${UI.esc(w.ipa)}</span>` : ''}</td><td>${UI.esc(UI.posAbbr(w.pos))}</td><td>${UI.esc(w.meaning)}</td><td>${w.added ? SRS.fmtFull(w.added) : '—'}</td></tr>`).join('');
+  this.listModal('Từ mới chưa học (' + ws.length + ')', 'Các từ đã thêm nhưng chưa đánh dấu mức nhớ. Vào tab “Từ vựng” để học và đánh dấu; từ thêm từ hôm trước mà chưa đánh dấu sẽ tự vào danh sách ôn.', ['Từ', 'Loại', 'Nghĩa', 'Ngày thêm'], rows);
+};
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { const m = UI.$('#listModal'); if (m) m.remove(); } });
 App.actions.gotoTrack = function () { const p = UI.$('#trackPanel'); if (p) { p.scrollIntoView({ behavior: 'smooth' }); UI.$$('details.trk', p).forEach((d) => { d.open = true; }); } };
 App.actions.rateGroup = function (el) {
   const card = el.closest('.wcard'), g = +el.dataset.g, t = SRS.today();
@@ -301,6 +349,7 @@ App.views.review = function () {
   }).join('') + (learned.some((w) => w.mastered) ? `<details class="trk"><summary><span class="tag l4">Đã xong chu kỳ</span> <b>${learned.filter((w) => w.mastered).length}</b> từ</summary>${table(learned.filter((w) => w.mastered))}</details>` : '');
   const done = words.filter((w) => w.mastered).length;
   const doneToday = words.filter((w) => w.lastReviewed === t).length;
+  const ratedToday = words.filter((w) => w.undo && w.undo.on === t && w.lastReviewed === t);
   const totalToday = doneToday + due.length;
   const pct = totalToday ? Math.round(doneToday / totalToday * 100) : 100;
   // Lịch 7 ngày tới
@@ -318,9 +367,9 @@ App.views.review = function () {
       ${due.length ? `<button class="btn primary" data-act="fcStart">${I('cards')} Học bằng flashcard</button>` : '<span class="muted">Không còn từ nào đến hạn.</span>'}</div>
   </section>
   <section class="stats">
-    <div class="stat"><b>${due.length}</b><span>cần ôn hôm nay</span></div>
-    <div class="stat"><b>${this.newWords().length}</b><span>từ mới chưa học</span></div>
-    <div class="stat clickable" data-act="gotoTrack"><b>${active.length}</b><span>đang theo dõi${overdue ? ` · ${overdue} quá hạn` : ''}<br><small>bấm để xem chi tiết</small></span></div>
+    <div class="stat clickable" data-act="showDue"><b>${due.length}</b><span>cần ôn hôm nay<br><small>Xem chi tiết ›</small></span></div>
+    <div class="stat clickable" data-act="showNew"><b>${this.newWords().length}</b><span>từ mới chưa học<br><small>Xem chi tiết ›</small></span></div>
+    <div class="stat clickable" data-act="gotoTrack"><b>${active.length}</b><span>đang theo dõi${overdue ? ` · ${overdue} quá hạn` : ''}<br><small>Xem chi tiết ›</small></span></div>
     <div class="stat"><b>${done}</b><span>đã xong chu kỳ</span></div>
   </section>
   <section class="panel">
@@ -333,6 +382,11 @@ App.views.review = function () {
     <div id="dueList">${due.length ? due.map((w) => this.wordCard(w, { due: true })).join('')
       : `<div class="empty">Hôm nay không có từ nào đến hạn ôn. ${this.newWords().length ? 'Hãy sang tab “Từ vựng” học các từ mới.' : ''}</div>`}</div>
   </section>
+  ${ratedToday.length ? `<section class="panel" id="ratedPanel">
+    <h2>${I('check')} Đã chấm hôm nay (${ratedToday.length})</h2>
+    <p class="muted">Chấm nhầm? Bấm “Chấm lại” để trả từ về trạng thái trước đó và chọn mức khác.</p>
+    ${ratedToday.map((w) => this.ratedRow(w)).join('')}
+  </section>` : ''}
   <section class="panel">
     <h2>${I('chart')} Tiến độ</h2>
     ${(() => {

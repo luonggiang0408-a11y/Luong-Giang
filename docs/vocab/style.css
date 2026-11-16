@@ -214,3 +214,7 @@ input:focus, select:focus, textarea:focus { outline: 2px solid color-mix(in srgb
 }
 @media (max-width: 1040px) { .brand small { display: none; } nav button { padding: 8px 9px; gap: 6px; } }
 nav { overflow-x: auto; scrollbar-width: none; } nav::-webkit-scrollbar { display: none; }
+
+.btn.sm { padding: 4px 10px; font-size: 13px; margin-left: 6px; }
+.modal-box.wide { width: min(860px, 100%); } .rrow { padding: 8px 12px; margin: 6px 0; } .rrow .whead { gap: 10px; }
+.tbl tr[hidden] { display: none; }

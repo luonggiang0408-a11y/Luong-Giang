@@ -33,6 +33,10 @@
   function rate(w, li, t) {
     const prev = isNew(w) ? null : w.level;
     w.history = w.history || [];
+    // Lưu trạng thái trước lần chấm đầu tiên trong ngày để có thể "Chấm lại" (hoàn tác).
+    if (!(w.undo && w.undo.on === t)) {
+      w.undo = { on: t, level: prev, schedule: (w.schedule || []).slice(), mastered: !!w.mastered, lapses: w.lapses || 0, reviews: w.reviews || 0, lastReviewed: w.lastReviewed || '', hist: w.history.length };
+    }
     w.history.push({ date: t, level: li });
     if (prev !== null) {
       w.reviews = (w.reviews || 0) + 1;
@@ -44,6 +48,16 @@
     w.lastReviewed = t;
     w.v = 2;
     return w.schedule;
+  }
+
+  // Hoàn tác lần chấm trong ngày t: trả từ về trạng thái trước khi chấm.
+  function unrate(w, t) {
+    const u = w.undo;
+    if (!u || u.on !== t) return false;
+    w.level = u.level; w.schedule = u.schedule; w.mastered = u.mastered; w.lapses = u.lapses; w.reviews = u.reviews; w.lastReviewed = u.lastReviewed;
+    w.history = (w.history || []).slice(0, u.hist);
+    delete w.undo;
+    return true;
   }
 
   // Dữ liệu cũ (5 mức × 2 mốc) → 10 mốc: lấy mốc đầu của mức cũ, giữ lịch ôn kế tiếp đã có.
@@ -63,7 +77,7 @@
     return (weak.length >= 3 ? weak : sorted).slice(0, 8);
   }
 
-  const api = { DAYS, GROUPS, LEVELS, iso, parse, addDays, diffDays, today, fmt, fmtFull, isNew, isDue, plan, rate, migrate, weakWords };
+  const api = { DAYS, GROUPS, LEVELS, iso, parse, addDays, diffDays, today, fmt, fmtFull, isNew, isDue, plan, rate, unrate, migrate, weakWords };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.SRS = api;
 })(typeof window !== 'undefined' ? window : globalThis);
