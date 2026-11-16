@@ -149,6 +149,7 @@ App.views.words = function () {
       <p class="muted">Mỗi dòng một từ, cột cách nhau bằng Tab hoặc dấu <code>|</code>: <b>từ | phiên âm | từ loại | nghĩa</b>.
       Có thể dán thẳng các cột A–H của tab “Vocabulary” (Mức nhớ, Ngày bắt đầu, Từ, Phiên âm, Từ loại, Định nghĩa, Ví dụ, Ngày đánh dấu) — mức nhớ và lịch ôn sẽ được giữ lại.</p>
       <textarea id="importBox" rows="6" class="mono"></textarea>
+      <div class="row"><label class="btn">Chọn file .txt / .csv<input type="file" id="importFile2" accept=".txt,.tsv,.csv" hidden></label><span class="muted" id="importInfo"></span></div>
       <button class="btn" data-act="import">Nhập</button>
     </details>
   </section>
@@ -172,6 +173,10 @@ App.views.words = function () {
     after() {
       const s = UI.$('#wordSearch');
       s.addEventListener('input', () => { this.wordQuery = s.value; const pos = s.selectionStart; this.render(); const n = UI.$('#wordSearch'); n.focus(); n.setSelectionRange(pos, pos); });
+      UI.$('#importFile2').addEventListener('change', (ev) => {
+        const f = ev.target.files[0]; if (!f) return;
+        f.text().then((txt) => { UI.$('#importBox').value = txt; UI.$('#importInfo').textContent = f.name + ': ' + txt.split(/\r?\n/).filter((l) => l.trim()).length + ' dòng. Bấm “Nhập” để hoàn tất.'; });
+      });
       UI.$('#wordForm').addEventListener('submit', (ev) => {
         ev.preventDefault();
         const f = Object.fromEntries(new FormData(ev.target).entries());
@@ -239,27 +244,41 @@ App.actions.lookup = async function () {
 };
 
 App.actions.import = function () {
-  const lines = UI.$('#importBox').value.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
-  const levelNames = SRS.LEVELS.map((l) => l.name.toLowerCase()); // lần đầu gặp tên mức = mốc đầu của nhóm
-  const dmy = (s) => { const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec((s || '').trim()); return m ? `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}` : ''; };
-  let added = 0, skipped = 0;
+  // Không trim dòng: ô "mức nhớ" để trống ở đầu dòng là hợp lệ (từ chưa đánh dấu).
+  const lines = UI.$('#importBox').value.split(/\r?\n/).filter((l) => l.trim());
+  const levelNames = SRS.GROUPS.map((g) => g.name.toLowerCase());
+  const dmy = (x) => { const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec((x || '').trim()); return m ? `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}` : ''; };
+  const t = SRS.today();
+  let added = 0, skipped = 0, fresh = 0;
   lines.forEach((line) => {
-    const p = line.split(/\t|\s\|\s|\|/).map((x) => x.trim());
-    if (/^(từ|word|từ mới)/i.test(p[0]) && !levelNames.includes(p[0].toLowerCase())) return; // dòng tiêu đề
-    const li = levelNames.indexOf((p[0] || '').toLowerCase());
-    let w;
-    if (li >= 0 && p.length >= 6) {
-      const marked = dmy(p[7]) || SRS.today();
-      const nextDue = dmy(p[9]);
-      w = Store.addWord({ word: p[2], ipa: p[3], pos: p[4], meaning: p[5], example: p[6] || '', added: dmy(p[1]) || marked, level: li, lastReviewed: marked,
-        history: [{ date: marked, level: li }], schedule: nextDue ? [nextDue] : SRS.plan(li, marked) });
+    const p = line.split(/\t/).length >= 4 ? line.split(/\t/).map((x) => x.trim()) : line.split(/\s\|\s|\|/).map((x) => x.trim());
+    if (p[2] === 'Từ mới' || p[1] === 'Ngày bắt đầu' || /^(từ|word|từ mới)$/i.test(p[0])) return; // dòng tiêu đề
+    const g = levelNames.indexOf((p[0] || '').toLowerCase());
+    const sheetRow = p.length >= 6 && (g >= 0 || /^\d{1,2}\/\d{1,2}\/\d{4}/.test(p[1] || ''));
+    let w = null;
+    if (sheetRow) {
+      if (!p[2]) { skipped++; return; }
+      const start = dmy(p[1]), marked = dmy(p[7]), next = dmy(p[9]);
+      const base = { word: p[2], ipa: p[3], pos: p[4], meaning: p[5], example: p[6] || '', added: start || marked || t };
+      if (g < 0) { w = Store.addWord(base); if (w) fresh++; }               // chưa đánh dấu: từ mới
+      else {
+        // Mốc = bước gần nhất với khoảng cách (ngày đánh dấu → ngày ôn kế tiếp) trong 2 mốc của nhóm.
+        const gap = marked && next ? SRS.diffDays(next, marked) : null;
+        const cand = [g * 2, g * 2 + 1];
+        const li = gap === null ? cand[0] : cand.reduce((x, y) => (Math.abs(SRS.DAYS[y] - gap) < Math.abs(SRS.DAYS[x] - gap) ? y : x));
+        const last = marked || t;
+        w = Store.addWord(Object.assign(base, { level: li, lastReviewed: last, history: [{ date: last, level: li }], schedule: next ? [next] : SRS.plan(li, last) }));
+      }
     } else if (p[0] && p.length >= 2) {
       const [word, ipa, pos, meaning] = p.length >= 4 ? p : [p[0], '', '', p[1]];
       w = Store.addWord({ word, ipa, pos, meaning });
+      if (w) fresh++;
     }
     if (w) added++; else skipped++;
   });
-  Store.save(); UI.toast(`Đã nhập ${added} từ, bỏ qua ${skipped} dòng (trùng hoặc sai định dạng)`); this.render();
+  Store.save();
+  UI.toast(`Đã nhập ${added} từ (${added - fresh} có lịch ôn, ${fresh} từ mới). Bỏ qua ${skipped} dòng (trùng hoặc sai định dạng).`);
+  this.render();
 };
 
 /* ======================= ÔN HÔM NAY ======================= */
