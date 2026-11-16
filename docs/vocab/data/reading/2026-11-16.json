@@ -1,0 +1,622 @@
+{
+ "words": [
+  {
+   "word": "bean sprouts",
+   "ipa": "/biːn spraʊts/",
+   "pos": "n",
+   "meaning": "giá đỗ"
+  },
+  {
+   "word": "shallot",
+   "ipa": "/ʃəˈlɒt/",
+   "pos": "n",
+   "meaning": "hành tím, hành khô"
+  },
+  {
+   "word": "soy sauce",
+   "ipa": "/sɔɪ sɔːs/",
+   "pos": "n",
+   "meaning": "nước tương, xì dầu"
+  },
+  {
+   "word": "just before serving",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "ngay trước khi dọn món / dùng"
+  },
+  {
+   "word": "leave school",
+   "ipa": "",
+   "pos": "phr v",
+   "meaning": "nghỉ học, rời trường"
+  },
+  {
+   "word": "get into trouble",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "gặp rắc rối, bị khiển trách"
+  },
+  {
+   "word": "go on to",
+   "ipa": "",
+   "pos": "phr v",
+   "meaning": "học tiếp lên (đại học, cao đẳng…)"
+  },
+  {
+   "word": "further education",
+   "ipa": "",
+   "pos": "n",
+   "meaning": "giáo dục tiếp tục (học nghề, cao đẳng sau phổ thông)"
+  },
+  {
+   "word": "motorway",
+   "ipa": "/ˈməʊtəweɪ/",
+   "pos": "n",
+   "meaning": "đường cao tốc"
+  },
+  {
+   "word": "side road",
+   "ipa": "",
+   "pos": "n",
+   "meaning": "đường nhánh, đường nhỏ"
+  },
+  {
+   "word": "be badly damaged",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "bị hư hại nặng"
+  },
+  {
+   "word": "a minor injury",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "thương tích nhẹ"
+  },
+  {
+   "word": "in your teens",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "ở độ tuổi thiếu niên"
+  },
+  {
+   "word": "tragedy",
+   "ipa": "/ˈtrædʒədi/",
+   "pos": "n",
+   "meaning": "bi kịch, thảm kịch"
+  },
+  {
+   "word": "be diagnosed with",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "được chẩn đoán mắc bệnh gì"
+  },
+  {
+   "word": "be rich in vitamins",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "giàu vitamin"
+  }
+ ],
+ "passages": [
+  {
+   "title": "A Saturday Cooking Class at the Market",
+   "text": "Every Saturday morning, Linh leads a small cooking class at a busy market in Hanoi. Her students walk between the stalls and learn how to choose fresh ingredients before they go home to cook. At the first stall they buy a handful of crisp **bean sprouts**, which Linh says must be bought on the same day because they spoil quickly. Next they look at **shallot**s, small purple onions with a sweeter taste than the large white ones. \"Chop them finely,\" she tells the group, \"because the smaller the pieces, the faster they cook.\"\n\nBack in the kitchen, the class prepares a simple noodle dish. Linh explains that the secret is a few spoonfuls of **soy sauce**, but only enough to add colour and a salty flavour. The most important rule, she says, is timing. The sprouts should go into the pan **just before serving**, so they stay crunchy and white. One student, Tom, added them too early last week, and his dish became soft and watery. Everyone laughed, and Tom promised to do better next Saturday.",
+   "summary_vi": "Linh dạy một lớp nấu ăn tại chợ ở Hà Nội, hướng dẫn chọn giá đỗ, hành tím và nêm nước tương, và nhắc rằng giá đỗ phải cho vào sau cùng để giữ độ giòn.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "bean sprouts",
+       "definition": "young white shoots of a bean plant that are eaten raw or lightly cooked",
+       "explain": "Bean sprouts là giá đỗ: phần mầm trắng, giòn của hạt đậu, thường dùng trong món xào hoặc salad."
+      },
+      {
+       "word": "shallot",
+       "definition": "a small onion with a mild, slightly sweet taste",
+       "explain": "Shallot là hành tím/hành khô, nhỏ và có vị ngọt nhẹ hơn hành tây lớn."
+      },
+      {
+       "word": "soy sauce",
+       "definition": "a dark salty liquid made from soya beans, used in Asian cooking",
+       "explain": "Soy sauce là nước tương/xì dầu, dùng để thêm vị mặn và màu cho món ăn."
+      },
+      {
+       "word": "just before serving",
+       "definition": "a short time before food is put on the table to eat",
+       "explain": "Just before serving nghĩa là ngay trước khi dọn món, dùng khi một nguyên liệu cần được thêm vào sau cùng."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "bean sprouts",
+      "shallot",
+      "soy sauce",
+      "just before serving"
+     ],
+     "items": [
+      {
+       "q": "Add a little ____ to the rice if you want it to taste saltier.",
+       "answer": "soy sauce",
+       "explain": "Gia vị mặn, màu nâu đậm dùng để nêm cơm là soy sauce (nước tương)."
+      },
+      {
+       "q": "Mix the green herbs into the soup ____ so they keep their fresh flavour.",
+       "answer": "just before serving",
+       "explain": "Rau thơm nên cho vào ngay trước khi dọn món để giữ hương vị tươi."
+      },
+      {
+       "q": "My mother chopped one ____ and fried it in oil as the first step of the sauce.",
+       "answer": "shallot",
+       "explain": "Một củ hành nhỏ dùng phi thơm để làm nước sốt là shallot (hành tím). Chỗ trống có 'one' nên dùng danh từ số ít."
+      },
+      {
+       "q": "The salad was light and crunchy because it had fresh ____ in it.",
+       "answer": "bean sprouts",
+       "explain": "Thứ làm món salad giòn và nhẹ là bean sprouts (giá đỗ)."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "Why does Linh say the bean sprouts must be bought on the same day?",
+       "options": [
+        "They are very expensive.",
+        "They go bad quickly.",
+        "They are hard to find in the market.",
+        "They need to be cooked for a long time."
+       ],
+       "answer": 1,
+       "explain": "Bài viết nói giá đỗ 'spoil quickly' (nhanh hỏng), nên phải mua trong ngày."
+      },
+      {
+       "q": "When should the sprouts go into the pan?",
+       "options": [
+        "At the very beginning of cooking",
+        "Just before serving",
+        "After the noodles have gone cold",
+        "The day before the class"
+       ],
+       "answer": 1,
+       "explain": "Bài viết nói giá đỗ nên cho vào chảo 'just before serving' để còn giòn và trắng."
+      },
+      {
+       "q": "What happened to Tom's dish last week?",
+       "options": [
+        "It was too salty.",
+        "It was burnt.",
+        "It became soft and watery.",
+        "It was ready too late."
+       ],
+       "answer": 2,
+       "explain": "Tom cho giá đỗ vào quá sớm nên món ăn trở nên 'soft and watery' (nhão và nhiều nước)."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Linh's cooking class takes place every Saturday.",
+       "answer": "True",
+       "explain": "Câu đầu bài: 'Every Saturday morning, Linh leads a small cooking class'."
+      },
+      {
+       "q": "Shallots are larger and sweeter than white onions.",
+       "answer": "False",
+       "explain": "Bài nói hành tím nhỏ hơn và ngọt hơn hành trắng lớn; vậy 'larger' là sai."
+      },
+      {
+       "q": "The students make a noodle dish.",
+       "answer": "True",
+       "explain": "Bài viết: 'the class prepares a simple noodle dish'."
+      },
+      {
+       "q": "Linh teaches the class how to make desserts.",
+       "answer": "Not Given",
+       "explain": "Bài không nhắc gì đến món tráng miệng."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "From School Rules to Further Education",
+   "text": "When Minh was fifteen, he wanted to **leave school** and start earning money. His parents, however, wanted him to continue, and they reminded him that few good jobs are open to people without qualifications. Minh was not a bad student, but he often **got into trouble** because he ignored small rules, such as arriving late or using his phone in class.\n\nHis form teacher, Mrs Hoa, noticed that he was bored rather than lazy. She suggested a practical course in electronics, and for the first time Minh enjoyed his lessons. He worked hard, passed his exams and **went on to** a technical college in the city. Today he studies at a centre of **further education**, where adults of all ages train for new careers. Minh often says that the best decision of his life was not leaving at fifteen. \"One bad year at school does not decide your future,\" he tells younger students.",
+   "summary_vi": "Minh muốn nghỉ học năm 15 tuổi và hay gặp rắc rối vì phớt lờ nội quy, nhưng nhờ khóa học điện tử do cô Hoa gợi ý, em học tiếp lên cao đẳng kỹ thuật và hiện học giáo dục tiếp tục.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "leave school",
+       "definition": "to stop going to school, usually before finishing your studies",
+       "explain": "Leave school nghĩa là thôi học, rời trường."
+      },
+      {
+       "word": "get into trouble",
+       "definition": "to be blamed or punished because you did something wrong",
+       "explain": "Get into trouble là gặp rắc rối, bị khiển trách vì làm điều sai."
+      },
+      {
+       "word": "go on to",
+       "definition": "to continue to the next stage, for example a higher level of study",
+       "explain": "Go on to + nơi/việc: tiếp tục lên giai đoạn kế tiếp, ví dụ học lên cao đẳng, đại học."
+      },
+      {
+       "word": "further education",
+       "definition": "courses and training for people who have left school, usually not at a university",
+       "explain": "Further education là hệ giáo dục tiếp tục: học nghề, cao đẳng sau khi rời phổ thông."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "leave school",
+      "get into trouble",
+      "go on to",
+      "further education"
+     ],
+     "items": [
+      {
+       "q": "She decided to ____ at sixteen and work in her uncle's shop.",
+       "answer": "leave school",
+       "explain": "Quyết định thôi học để đi làm: leave school."
+      },
+      {
+       "q": "After finishing high school, Anna hopes to ____ study medicine.",
+       "answer": "go on to",
+       "explain": "Sau cấp ba, học tiếp lên ngành y: go on to study. Cấu trúc go on to + động từ nguyên mẫu/danh từ."
+      },
+      {
+       "q": "If you copy your friend's homework, you could ____ with the teacher.",
+       "answer": "get into trouble",
+       "explain": "Chép bài bạn dễ bị thầy cô khiển trách: get into trouble."
+      },
+      {
+       "q": "Evening classes in cooking and computing are part of ____ for adults.",
+       "answer": "further education",
+       "explain": "Lớp học buổi tối cho người lớn thuộc hệ further education."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "Why did Minh often get into trouble at school?",
+       "options": [
+        "He did not study at all.",
+        "He ignored small rules.",
+        "He argued with his parents.",
+        "He missed his exams."
+       ],
+       "answer": 1,
+       "explain": "Bài viết: 'he ignored small rules, such as arriving late or using his phone in class'."
+      },
+      {
+       "q": "What did Mrs Hoa think about Minh?",
+       "options": [
+        "He was lazy.",
+        "He was too young.",
+        "He was bored rather than lazy.",
+        "He should leave school."
+       ],
+       "answer": 2,
+       "explain": "Cô Hoa nhận thấy Minh 'bored rather than lazy' (chán chứ không phải lười)."
+      },
+      {
+       "q": "What does Minh think was the best decision of his life?",
+       "options": [
+        "Choosing an electronics course",
+        "Staying at school after fifteen",
+        "Moving to the city",
+        "Starting work early"
+       ],
+       "answer": 1,
+       "explain": "Minh nói quyết định tốt nhất là 'not leaving at fifteen', tức là không nghỉ học năm 15 tuổi."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Minh's parents wanted him to leave school at fifteen.",
+       "answer": "False",
+       "explain": "Bố mẹ Minh muốn em tiếp tục học, không phải nghỉ học."
+      },
+      {
+       "q": "Minh took a practical course in electronics.",
+       "answer": "True",
+       "explain": "Cô Hoa gợi ý và Minh học một khóa thực hành về điện tử."
+      },
+      {
+       "q": "Minh now studies at a university in another country.",
+       "answer": "False",
+       "explain": "Hiện giờ Minh học ở trung tâm giáo dục tiếp tục, không phải đại học nước ngoài."
+      },
+      {
+       "q": "Minh's father worked in the electronics industry.",
+       "answer": "Not Given",
+       "explain": "Bài viết không nói gì về nghề nghiệp của bố Minh."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Slow Journey Home",
+   "text": "Last Friday, Sara was driving home on the **motorway** when the traffic suddenly stopped. A lorry had broken down in the middle lane, and cars waited for almost an hour. When the police finally let drivers move again, Sara turned onto a quiet **side road** to avoid more delays.\n\nThe road was narrow and dark, and after a few minutes she saw a small car at the edge of a field. It had slid off the road in the rain, and the front **was badly damaged**. The driver, a young man, was standing next to it. He had only **a minor injury**, a small cut on his hand, but he looked frightened. Sara called an ambulance and stayed with him until it arrived. The paramedics cleaned his hand and told him he was lucky. Later that evening, Sara posted a message online reminding drivers to slow down on wet roads and never to ignore a stranger who needs help.",
+   "summary_vi": "Sara rẽ vào đường nhánh để tránh kẹt xe trên đường cao tốc, gặp một tài xế trẻ có chiếc xe hư hại nặng nhưng chỉ bị thương nhẹ, và ở lại giúp anh cho đến khi xe cấp cứu đến.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "motorway",
+       "definition": "a wide road with several lanes where vehicles travel fast over long distances",
+       "explain": "Motorway là đường cao tốc, nhiều làn, xe chạy nhanh đường dài."
+      },
+      {
+       "word": "side road",
+       "definition": "a small, quiet road that joins or leaves a bigger one",
+       "explain": "Side road là đường nhánh, đường nhỏ nối với đường lớn."
+      },
+      {
+       "word": "be badly damaged",
+       "definition": "to be harmed so much that it can no longer work or look as before",
+       "explain": "Be badly damaged là bị hư hại nặng, khó dùng lại như cũ."
+      },
+      {
+       "word": "a minor injury",
+       "definition": "a small injury that is not serious",
+       "explain": "Minor injury là thương tích nhẹ, không nghiêm trọng."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "motorway",
+      "side road",
+      "be badly damaged",
+      "a minor injury"
+     ],
+     "items": [
+      {
+       "q": "We took the ____ from Hanoi to Hai Phong because it was the fastest route.",
+       "answer": "motorway",
+       "explain": "Tuyến nhanh nhất giữa hai thành phố thường là đường cao tốc: motorway."
+      },
+      {
+       "q": "Turn left at the shop and follow the ____ until you reach the river.",
+       "answer": "side road",
+       "explain": "Rẽ khỏi đường chính vào con đường nhỏ: side road."
+      },
+      {
+       "q": "If you drive the car into that wall, it will ____.",
+       "answer": "be badly damaged",
+       "explain": "Sau 'will' dùng động từ nguyên mẫu: will be badly damaged (sẽ bị hư hại nặng)."
+      },
+      {
+       "q": "Luckily, the cyclist suffered only ____ and went home the same day.",
+       "answer": "a minor injury",
+       "explain": "Chỉ bị thương nhẹ và về nhà trong ngày: suffer a minor injury."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "Why did Sara leave the motorway?",
+       "options": [
+        "She wanted to avoid more delays.",
+        "She was feeling tired.",
+        "The police told her to go home.",
+        "She had run out of fuel."
+       ],
+       "answer": 0,
+       "explain": "Bài viết: Sara rẽ vào đường nhánh 'to avoid more delays' (để tránh tiếp tục bị chậm)."
+      },
+      {
+       "q": "What had happened to the small car?",
+       "options": [
+        "It had broken down in the middle lane.",
+        "It had hit a lorry.",
+        "It had slid off the road in the rain.",
+        "It had run out of petrol."
+       ],
+       "answer": 2,
+       "explain": "Bài viết: chiếc xe 'had slid off the road in the rain' (trượt khỏi đường vì mưa)."
+      },
+      {
+       "q": "What did Sara do after she found the driver?",
+       "options": [
+        "She drove him home.",
+        "She called an ambulance and stayed with him.",
+        "She took photographs of the car.",
+        "She called his family."
+       ],
+       "answer": 1,
+       "explain": "Bài viết: 'Sara called an ambulance and stayed with him until it arrived'."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "A lorry broke down in the middle lane of the motorway.",
+       "answer": "True",
+       "explain": "Bài viết: 'A lorry had broken down in the middle lane'."
+      },
+      {
+       "q": "The young man had a serious head injury.",
+       "answer": "False",
+       "explain": "Anh ta chỉ bị một vết cắt nhỏ ở tay, tức là thương nhẹ."
+      },
+      {
+       "q": "Sara stayed with the driver until the ambulance arrived.",
+       "answer": "True",
+       "explain": "Bài viết: Sara ở lại với anh ta cho đến khi xe cấp cứu tới."
+      },
+      {
+       "q": "Sara had met the young man before the accident.",
+       "answer": "Not Given",
+       "explain": "Bài viết không cho biết Sara có quen chàng trai từ trước hay không."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Growing Up Healthy",
+   "text": "For many people, the years **in your teens** are a time of big changes, and the habits you form then can stay with you for life. Dr Nam, a family doctor, sees this every week. Recently, a sixteen-year-old patient of his, Hai, **was diagnosed with** diabetes. For Hai's family, it felt like a **tragedy**, because Hai loved sport and sweet drinks.\n\nBut Dr Nam explained that the illness is manageable if you change your lifestyle early. He gave Hai a simple plan: replace fizzy drinks with water, eat more vegetables, and choose foods that **are rich in vitamins**, such as oranges, spinach and carrots. He also encouraged Hai to keep playing football. \"A medical problem is not the end of normal life,\" he said. Six months later, Hai's test results had improved, and he had even started to cook healthy meals for his younger sister.",
+   "summary_vi": "Một cậu bé 16 tuổi được chẩn đoán tiểu đường; bác sĩ Nam khuyên em đổi lối sống, uống nước thay nước ngọt, ăn thực phẩm giàu vitamin và vẫn chơi bóng đá, và sau sáu tháng kết quả xét nghiệm tốt hơn.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "in your teens",
+       "definition": "between the ages of thirteen and nineteen",
+       "explain": "In your teens nghĩa là ở tuổi thiếu niên (13–19 tuổi)."
+      },
+      {
+       "word": "tragedy",
+       "definition": "a very sad event that causes great suffering",
+       "explain": "Tragedy là bi kịch, biến cố rất đau buồn."
+      },
+      {
+       "word": "be diagnosed with",
+       "definition": "to be told by a doctor that you have a particular illness",
+       "explain": "Be diagnosed with + bệnh: được bác sĩ chẩn đoán mắc bệnh đó."
+      },
+      {
+       "word": "be rich in vitamins",
+       "definition": "to contain a large amount of vitamins",
+       "explain": "Be rich in + chất: chứa rất nhiều chất đó, ví dụ rich in vitamins là giàu vitamin."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "in your teens",
+      "tragedy",
+      "was diagnosed with",
+      "are rich in vitamins"
+     ],
+     "items": [
+      {
+       "q": "Doctors often say that habits you learn ____ are the hardest to change.",
+       "answer": "in your teens",
+       "explain": "Thói quen hình thành ở tuổi thiếu niên: in your teens (cụm có 'you' vì câu nói chung về 'habits you learn')."
+      },
+      {
+       "q": "The sudden loss of the village's only school was a ____ for the whole community.",
+       "answer": "tragedy",
+       "explain": "Một mất mát lớn, đau buồn với cả cộng đồng là a tragedy."
+      },
+      {
+       "q": "Last year my grandmother ____ high blood pressure, so now she takes tablets daily.",
+       "answer": "was diagnosed with",
+       "explain": "Câu ở quá khứ, chủ ngữ là người được chẩn đoán nên dùng bị động: was diagnosed with."
+      },
+      {
+       "q": "Oranges and peppers ____, so they help your body fight colds.",
+       "answer": "are rich in vitamins",
+       "explain": "Chủ ngữ số nhiều (oranges and peppers) nên dùng are rich in vitamins (giàu vitamin)."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "What illness was Hai diagnosed with?",
+       "options": [
+        "High blood pressure",
+        "Diabetes",
+        "A heart problem",
+        "A broken leg"
+       ],
+       "answer": 1,
+       "explain": "Bài viết: 'Hai was diagnosed with diabetes' (tiểu đường)."
+      },
+      {
+       "q": "What did Dr Nam advise Hai to do?",
+       "options": [
+        "Stop all sports",
+        "Eat only fruit",
+        "Drink water instead of fizzy drinks and eat more vegetables",
+        "Stay at home for six months"
+       ],
+       "answer": 2,
+       "explain": "Kế hoạch của bác sĩ: thay nước ngọt có ga bằng nước lọc, ăn nhiều rau và thực phẩm giàu vitamin."
+      },
+      {
+       "q": "What does Dr Nam mean by 'A medical problem is not the end of normal life'?",
+       "options": [
+        "Hai will never be ill again.",
+        "Hai should not see another doctor.",
+        "Hai must stop doing everything he enjoys.",
+        "Hai can still live an active life if he makes some changes."
+       ],
+       "answer": 3,
+       "explain": "Bác sĩ khuyến khích Hai tiếp tục chơi bóng đá và sống lành mạnh; vậy ý ông là vẫn có thể sống bình thường nếu thay đổi lối sống."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Hai was diagnosed with diabetes at the age of sixteen.",
+       "answer": "True",
+       "explain": "Bài viết: Hai là bệnh nhân mười sáu tuổi được chẩn đoán tiểu đường."
+      },
+      {
+       "q": "Dr Nam told Hai to stop playing football.",
+       "answer": "False",
+       "explain": "Bác sĩ khuyến khích Hai tiếp tục chơi bóng đá."
+      },
+      {
+       "q": "Hai's test results got worse after six months.",
+       "answer": "False",
+       "explain": "Bài viết: kết quả xét nghiệm của Hai 'had improved' (đã tốt lên)."
+      },
+      {
+       "q": "Hai's sister is older than he is.",
+       "answer": "False",
+       "explain": "Bài viết: Hai nấu ăn cho 'his younger sister' (em gái), nên em gái nhỏ tuổi hơn."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
