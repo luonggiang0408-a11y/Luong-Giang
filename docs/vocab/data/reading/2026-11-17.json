@@ -1,0 +1,724 @@
+{
+ "words": [
+  {
+   "word": "speed limit",
+   "ipa": "/ˈspiːd ˌlɪmɪt/",
+   "pos": "phr n",
+   "meaning": "giới hạn tốc độ"
+  },
+  {
+   "word": "no overtaking",
+   "ipa": "/ˌnəʊ ˌəʊvəˈteɪkɪŋ/",
+   "pos": "phr n",
+   "meaning": "cấm vượt"
+  },
+  {
+   "word": "overtake",
+   "ipa": "/ˌəʊvəˈteɪk/",
+   "pos": "v",
+   "meaning": "vượt (xe khác)"
+  },
+  {
+   "word": "end up",
+   "ipa": "/ˌend ˈʌp/",
+   "pos": "phr v",
+   "meaning": "rốt cuộc lại ở (nơi không định đến)"
+  },
+  {
+   "word": "a good cook",
+   "ipa": "/ə ɡʊd kʊk/",
+   "pos": "n",
+   "meaning": "người nấu ăn giỏi"
+  },
+  {
+   "word": "follow a recipe",
+   "ipa": "/ˈfɒləʊ ə ˈresəpi/",
+   "pos": "phr",
+   "meaning": "làm theo công thức"
+  },
+  {
+   "word": "have all the ingredients",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "có đủ nguyên liệu"
+  },
+  {
+   "word": "boil",
+   "ipa": "/bɔɪl/",
+   "pos": "v",
+   "meaning": "luộc, đun sôi (trong nồi)"
+  },
+  {
+   "word": "roast",
+   "ipa": "/rəʊst/",
+   "pos": "v",
+   "meaning": "quay trong lò (có dầu/mỡ)"
+  },
+  {
+   "word": "bake",
+   "ipa": "/beɪk/",
+   "pos": "v",
+   "meaning": "nướng trong lò (bánh, không dầu)"
+  },
+  {
+   "word": "grow up in the countryside",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "lớn lên ở vùng nông thôn"
+  },
+  {
+   "word": "on the banks of the river",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "bên bờ sông"
+  },
+  {
+   "word": "woods",
+   "ipa": "/wʊdz/",
+   "pos": "n",
+   "meaning": "khu rừng nhỏ, khu cây cối"
+  },
+  {
+   "word": "the seasons",
+   "ipa": "/ðə ˈsiː.zənz/",
+   "pos": "phr n",
+   "meaning": "các mùa trong năm"
+  },
+  {
+   "word": "scenery",
+   "ipa": "/ˈsiː.nər.i/",
+   "pos": "n",
+   "meaning": "phong cảnh"
+  },
+  {
+   "word": "open spaces",
+   "ipa": "/ˌəʊ.pən ˈspeɪ.sɪz/",
+   "pos": "phr n",
+   "meaning": "không gian rộng, thoáng đãng"
+  },
+  {
+   "word": "develop an effective strategy",
+   "ipa": "/ˈstræt̬.ə.dʒi/",
+   "pos": "phr",
+   "meaning": "xây dựng một chiến lược hiệu quả"
+  },
+  {
+   "word": "hepatitis",
+   "ipa": "/ˌhep.əˈtaɪ.t̬əs/",
+   "pos": "n",
+   "meaning": "viêm gan"
+  },
+  {
+   "word": "consumer",
+   "ipa": "/kənˈsuː.mɚ/",
+   "pos": "n",
+   "meaning": "người tiêu dùng"
+  },
+  {
+   "word": "argument",
+   "ipa": "/ˈɑːrɡ.jə.mənt/",
+   "pos": "n",
+   "meaning": "sự tranh luận, cuộc tranh cãi"
+  },
+  {
+   "word": "get through",
+   "ipa": "",
+   "pos": "phr v",
+   "meaning": "vượt qua, hoàn thành (kỳ thi, giai đoạn khó)"
+  },
+  {
+   "word": "take the stairs",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "đi thang bộ"
+  }
+ ],
+ "passages": [
+  {
+   "title": "A Wrong Turn on the Mountain Road",
+   "text": "Last summer, Hung borrowed his uncle's car for a weekend trip. On the main road out of the city, a large sign showed the **speed limit**: sixty kilometres an hour. Hung stayed below it, even when a line of impatient drivers formed behind him. Later, the road began to climb into the hills, and a new sign appeared: **no overtaking**. This was important, because the bends were sharp and he could not see far ahead.\n\nA young driver in a small red car ignored the sign. He tried to **overtake** Hung on a bend, just as a bus came round the corner from the opposite direction. Luckily, both cars stopped in time, but everyone was shaken. Hung, whose phone battery had died, then followed the wrong road and **ended up** in a tiny village he had never heard of. An old man at a café drew him a map on a paper napkin. \"Better to arrive late than not to arrive at all,\" he said. Hung agreed and drove home slowly.",
+   "summary_vi": "Hùng lái xe của chú đi chơi cuối tuần, gặp biển giới hạn tốc độ và cấm vượt, suýt tai nạn vì một tài xế trẻ vượt xe, rồi lạc vào một ngôi làng lạ và được một cụ già vẽ đường về.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "speed limit",
+       "definition": "the highest speed at which vehicles are legally allowed to travel on a road",
+       "explain": "Speed limit là giới hạn tốc độ tối đa cho phép trên một đoạn đường."
+      },
+      {
+       "word": "no overtaking",
+       "definition": "a road sign or rule meaning drivers must not pass the vehicle in front",
+       "explain": "No overtaking là biển/quy định cấm vượt xe phía trước."
+      },
+      {
+       "word": "overtake",
+       "definition": "to pass a slower vehicle or person that is moving in the same direction",
+       "explain": "Overtake là vượt qua xe hoặc người đi chậm hơn ở cùng chiều."
+      },
+      {
+       "word": "end up",
+       "definition": "to finally be in a place or situation that you did not plan to be in",
+       "explain": "End up + nơi chốn: rốt cuộc lại ở một nơi mình không định đến."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "speed limit",
+      "no overtaking",
+      "overtake",
+      "end up"
+     ],
+     "items": [
+      {
+       "q": "The ____ in the town centre is 30 kilometres an hour, so drivers must go slowly.",
+       "answer": "speed limit",
+       "explain": "Mức tốc độ tối đa cho phép ở khu vực là speed limit."
+      },
+      {
+       "q": "There was a ____ sign on the narrow bridge, so everyone stayed in line.",
+       "answer": "no overtaking",
+       "explain": "Biển báo trên cầu hẹp để cấm vượt là no overtaking."
+      },
+      {
+       "q": "It is dangerous to ____ a lorry when you cannot see the road ahead.",
+       "answer": "overtake",
+       "explain": "Sau 'to' dùng động từ nguyên mẫu: to overtake a lorry (vượt xe tải)."
+      },
+      {
+       "q": "If you do not check the map, you might ____ in the wrong town.",
+       "answer": "end up",
+       "explain": "Sau 'might' dùng nguyên mẫu: might end up in (rốt cuộc lại ở)."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "What did Hung do on the main road out of the city?",
+       "options": [
+        "He drove faster than the speed limit.",
+        "He stayed below the speed limit.",
+        "He stopped at every sign.",
+        "He overtook a line of cars."
+       ],
+       "answer": 1,
+       "explain": "Bài viết: 'Hung stayed below it' (anh chạy dưới giới hạn tốc độ)."
+      },
+      {
+       "q": "Why was the 'no overtaking' sign important?",
+       "options": [
+        "The road was very wet.",
+        "The bends were sharp and he could not see far ahead.",
+        "There were no other cars on the road.",
+        "The police were waiting nearby."
+       ],
+       "answer": 1,
+       "explain": "Bài viết giải thích: các khúc cua gắt và anh không nhìn được xa."
+      },
+      {
+       "q": "How did Hung find his way home?",
+       "options": [
+        "He used his phone.",
+        "He asked a police officer.",
+        "An old man drew him a map.",
+        "He followed the red car."
+       ],
+       "answer": 2,
+       "explain": "Điện thoại hết pin; một cụ già vẽ cho anh bản đồ trên khăn giấy."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Hung borrowed his uncle's car for the trip.",
+       "answer": "True",
+       "explain": "Câu đầu: 'Hung borrowed his uncle's car'."
+      },
+      {
+       "q": "The driver of the red car obeyed the no overtaking sign.",
+       "answer": "False",
+       "explain": "Anh ta 'ignored the sign' (phớt lờ biển báo)."
+      },
+      {
+       "q": "Hung's phone battery had died.",
+       "answer": "True",
+       "explain": "Bài viết: 'whose phone battery had died'."
+      },
+      {
+       "q": "Hung drove home during the night.",
+       "answer": "Not Given",
+       "explain": "Bài chỉ nói anh lái xe về chậm; không nói thời gian trong ngày."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Learning to Cook",
+   "text": "Mai had never been **a good cook**, and her friends often joked about it. When she moved into her own flat, she decided to change that. Her first rule was simple: **follow a recipe** carefully and never guess the measurements. Her second rule was to check that she **had all the ingredients** before she started, because last month she discovered halfway through making soup that there was no salt in the house.\n\nOn Sunday she made a three-part meal from a cookbook her grandmother gave her. First she had to **boil** the potatoes in a saucepan for fifteen minutes. Then she **roasted** a chicken in the oven until the skin turned golden. For dessert she **baked** an apple cake, which smelled wonderful when it came out. Roasting and baking both use the oven, but roasting is for meat or vegetables with oil, while baking is for cakes and bread. Her friends tasted everything and admitted that it was delicious. Mai smiled: she was finally getting better.",
+   "summary_vi": "Mai vốn không nấu ăn giỏi nên tự đặt quy tắc: làm đúng công thức và kiểm tra đủ nguyên liệu. Chủ nhật, cô luộc khoai, quay gà và nướng bánh táo, và bạn bè khen ngon.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "a good cook",
+       "definition": "a person who prepares food well",
+       "explain": "A good cook là người nấu ăn giỏi."
+      },
+      {
+       "word": "follow a recipe",
+       "definition": "to prepare a dish by doing exactly what the instructions say",
+       "explain": "Follow a recipe là làm theo công thức từng bước."
+      },
+      {
+       "word": "have all the ingredients",
+       "definition": "to have every item of food needed to make a dish",
+       "explain": "Have all the ingredients là có đủ mọi nguyên liệu để nấu món."
+      },
+      {
+       "word": "boil",
+       "definition": "to cook food in water that is bubbling hot",
+       "explain": "Boil là luộc/đun sôi trong nước."
+      },
+      {
+       "word": "roast",
+       "definition": "to cook meat or vegetables in an oven, usually with oil or fat",
+       "explain": "Roast là quay/nướng thịt hoặc rau trong lò, thường có dầu mỡ."
+      },
+      {
+       "word": "bake",
+       "definition": "to cook cakes or bread in an oven using dry heat",
+       "explain": "Bake là nướng bánh/bánh mì trong lò bằng nhiệt khô."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "a good cook",
+      "follow a recipe",
+      "have all the ingredients",
+      "boil",
+      "roast",
+      "bake"
+     ],
+     "items": [
+      {
+       "q": "My brother is ____ — everyone asks him to make dinner at parties.",
+       "answer": "a good cook",
+       "explain": "Người ai cũng nhờ nấu ăn là a good cook."
+      },
+      {
+       "q": "If you do not ____, the cake might not rise properly.",
+       "answer": "follow a recipe",
+       "explain": "Sau 'do not' dùng nguyên mẫu: follow a recipe (làm theo công thức)."
+      },
+      {
+       "q": "Before you start, check that you ____, or you will have to run to the shop.",
+       "answer": "have all the ingredients",
+       "explain": "Kiểm tra có đủ nguyên liệu: have all the ingredients."
+      },
+      {
+       "q": "To make the pasta, ____ it in a saucepan for ten minutes.",
+       "answer": "boil",
+       "explain": "Nấu mì trong nồi nước sôi là boil."
+      },
+      {
+       "q": "On Sundays my father likes to ____ a chicken with potatoes and a little oil.",
+       "answer": "roast",
+       "explain": "Thịt gà nướng với dầu trong lò là roast."
+      },
+      {
+       "q": "I am going to ____ some bread this afternoon; the oven is already hot.",
+       "answer": "bake",
+       "explain": "Bánh mì làm trong lò là bake."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "Why did Mai check that she had all the ingredients before cooking?",
+       "options": [
+        "She wanted to save money.",
+        "Her grandmother told her to.",
+        "Last month she found something missing halfway through a soup.",
+        "The shop near her flat was closed."
+       ],
+       "answer": 2,
+       "explain": "Bài viết: tháng trước cô phát hiện nhà hết muối khi đang nấu dở món súp."
+      },
+      {
+       "q": "What is the difference between roasting and baking in the text?",
+       "options": [
+        "Roasting is faster than baking.",
+        "Roasting is for meat or vegetables with oil, baking is for cakes and bread.",
+        "Baking needs a frying pan.",
+        "There is no difference."
+       ],
+       "answer": 1,
+       "explain": "Bài viết giải thích rõ: roast dùng cho thịt/rau có dầu, bake dùng cho bánh và bánh mì."
+      },
+      {
+       "q": "How did Mai's friends react to the meal?",
+       "options": [
+        "They felt it was too salty.",
+        "They left early.",
+        "They did not finish the dessert.",
+        "They admitted it was delicious."
+       ],
+       "answer": 3,
+       "explain": "Bài viết: bạn bè nếm mọi món và 'admitted that it was delicious'."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Mai moved into her own flat.",
+       "answer": "True",
+       "explain": "Bài viết: 'When she moved into her own flat'."
+      },
+      {
+       "q": "Mai's grandmother gave her a cookbook.",
+       "answer": "True",
+       "explain": "Bài viết: 'a cookbook her grandmother gave her'."
+      },
+      {
+       "q": "Mai cooked the potatoes in the oven.",
+       "answer": "False",
+       "explain": "Cô luộc khoai trong nồi (boil in a saucepan), không phải trong lò."
+      },
+      {
+       "q": "Mai plans to open a restaurant.",
+       "answer": "Not Given",
+       "explain": "Bài viết không nói về kế hoạch mở nhà hàng."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Childhood in the Countryside",
+   "text": "My cousin Lan **grew up in the countryside**, in a small village far from any big city. She often tells me that her childhood was the happiest time of her life. Her house stood **on the banks of the river**, and every morning she woke to the sound of running water. Behind the house there were **woods** where she and her friends played hide-and-seek and picked wild berries in summer.\n\nWhat she remembers most is how clearly she could see **the seasons** change. In spring the fields turned bright green, in autumn the leaves became red and gold, and in winter mist covered the water. The **scenery** was so beautiful that tourists sometimes stopped to take photographs. Lan says that the **open spaces** taught her to feel free and calm. Now she lives in a crowded city, and she misses the quiet. \"I did not know how lucky I was,\" she says, \"until I had to live without it.\" Every holiday she returns to her old village to walk beside the river again.",
+   "summary_vi": "Lan lớn lên ở nông thôn, nhà bên bờ sông, gần khu rừng nhỏ, nhớ rõ bốn mùa và phong cảnh đẹp; giờ sống ở thành phố đông đúc, cô nhớ sự yên tĩnh và về thăm làng mỗi dịp nghỉ.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "grow up in the countryside",
+       "definition": "to spend your childhood in a rural area, away from towns and cities",
+       "explain": "Grow up in the countryside là lớn lên ở vùng nông thôn."
+      },
+      {
+       "word": "on the banks of the river",
+       "definition": "along the land at the edge of a river",
+       "explain": "On the banks of the river là ở bên bờ sông."
+      },
+      {
+       "word": "woods",
+       "definition": "an area of land covered with trees, smaller than a forest",
+       "explain": "Woods là khu rừng nhỏ, khu cây cối."
+      },
+      {
+       "word": "the seasons",
+       "definition": "the four periods of the year: spring, summer, autumn and winter",
+       "explain": "The seasons là các mùa trong năm."
+      },
+      {
+       "word": "scenery",
+       "definition": "the natural features of a place, such as hills, rivers and fields, that you can see",
+       "explain": "Scenery là phong cảnh thiên nhiên."
+      },
+      {
+       "word": "open spaces",
+       "definition": "large areas of land with no buildings, where people can walk or play",
+       "explain": "Open spaces là không gian rộng, thoáng, không có nhà cửa."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "grew up in the countryside",
+      "on the banks of the river",
+      "woods",
+      "the seasons",
+      "scenery",
+      "open spaces"
+     ],
+     "items": [
+      {
+       "q": "She ____ and now finds the noise of the city very tiring.",
+       "answer": "grew up in the countryside",
+       "explain": "Chủ ngữ she, quá khứ: grew up in the countryside (lớn lên ở nông thôn)."
+      },
+      {
+       "q": "Their small hotel stands ____, so guests can watch the boats from their windows.",
+       "answer": "on the banks of the river",
+       "explain": "Khách sạn nằm bên bờ sông: on the banks of the river."
+      },
+      {
+       "q": "We went for a walk in the ____ behind the school and collected some leaves.",
+       "answer": "woods",
+       "explain": "Khu cây cối phía sau trường để nhặt lá là the woods (dùng số nhiều)."
+      },
+      {
+       "q": "In some countries, ____ change so much that people need different clothes every few months.",
+       "answer": "the seasons",
+       "explain": "Các mùa thay đổi rõ rệt: the seasons change."
+      },
+      {
+       "q": "Tourists come to the mountains for the beautiful ____.",
+       "answer": "scenery",
+       "explain": "Du khách đến vì phong cảnh: scenery (danh từ không đếm được)."
+      },
+      {
+       "q": "Children in big cities need more ____ where they can run and play.",
+       "answer": "open spaces",
+       "explain": "Nơi trẻ em chạy chơi rộng rãi là open spaces."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "Where did Lan's house stand?",
+       "options": [
+        "In a busy town",
+        "Next to a large factory",
+        "On the banks of a river",
+        "On top of a hill"
+       ],
+       "answer": 2,
+       "explain": "Bài viết: 'Her house stood on the banks of the river'."
+      },
+      {
+       "q": "What does Lan remember most about the countryside?",
+       "options": [
+        "The food in the village",
+        "Her school friends",
+        "How clearly she could see the seasons change",
+        "The sound of traffic"
+       ],
+       "answer": 2,
+       "explain": "Bài viết: 'What she remembers most is how clearly she could see the seasons change'."
+      },
+      {
+       "q": "How does Lan feel about living in the city now?",
+       "options": [
+        "She misses the quiet.",
+        "She loves the crowds.",
+        "She wants to live abroad.",
+        "She is too busy to think about it."
+       ],
+       "answer": 0,
+       "explain": "Bài viết: 'she misses the quiet' (cô nhớ sự yên tĩnh)."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Lan says her childhood was the happiest time of her life.",
+       "answer": "True",
+       "explain": "Bài viết: 'her childhood was the happiest time of her life'."
+      },
+      {
+       "q": "Lan now lives in a small village by the river.",
+       "answer": "False",
+       "explain": "Hiện giờ Lan sống ở một thành phố đông đúc, không phải ở làng."
+      },
+      {
+       "q": "Lan visits her old village every holiday.",
+       "answer": "True",
+       "explain": "Bài viết: 'Every holiday she returns to her old village'."
+      },
+      {
+       "q": "Lan's parents were farmers.",
+       "answer": "Not Given",
+       "explain": "Bài viết không nhắc đến nghề nghiệp của bố mẹ Lan."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Health Campaign at Work",
+   "text": "The health department of a large city wanted to **develop an effective strategy** to inform people about **hepatitis**, a serious liver disease that many people do not recognise. The team knew that ordinary posters would not be enough, so they decided to study how **consumers** get their health information. The research showed that most people trust short videos from doctors more than long leaflets.\n\nNot everyone agreed on the best plan. During one meeting, a heated **argument** broke out between the designers, who wanted bright colours, and the doctors, who wanted detailed facts. The manager reminded everyone that they shared the same goal. After a difficult week, the team managed to **get through** the disagreement and agreed on a compromise: simple pictures with one clear message.\n\nOn the day of the launch the office lift broke down, so everyone had to **take the stairs** to the tenth floor, laughing and out of breath. The campaign was a success, and thousands of people booked a free health check.",
+   "summary_vi": "Một cơ quan y tế xây dựng chiến lược truyền thông về bệnh viêm gan, nghiên cứu cách người tiêu dùng tiếp nhận thông tin, vượt qua tranh cãi giữa nhà thiết kế và bác sĩ, và chiến dịch thành công.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "develop an effective strategy",
+       "definition": "to create a plan that works well to achieve a goal",
+       "explain": "Develop an effective strategy là xây dựng một chiến lược hiệu quả."
+      },
+      {
+       "word": "hepatitis",
+       "definition": "a serious disease of the liver",
+       "explain": "Hepatitis là bệnh viêm gan."
+      },
+      {
+       "word": "consumer",
+       "definition": "a person who buys goods or services",
+       "explain": "Consumer là người tiêu dùng, người mua hàng hóa hoặc dịch vụ."
+      },
+      {
+       "word": "argument",
+       "definition": "a disagreement in which people speak angrily about different opinions",
+       "explain": "Argument là cuộc tranh cãi khi mọi người bất đồng ý kiến."
+      },
+      {
+       "word": "get through",
+       "definition": "to manage to deal with a difficult period or to finish something hard",
+       "explain": "Get through là vượt qua một giai đoạn khó khăn hoặc hoàn thành việc khó."
+      },
+      {
+       "word": "take the stairs",
+       "definition": "to go up or down a building using the steps instead of a lift",
+       "explain": "Take the stairs là đi thang bộ thay vì thang máy."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "develop an effective strategy",
+      "hepatitis",
+      "consumers",
+      "argument",
+      "get through",
+      "take the stairs"
+     ],
+     "items": [
+      {
+       "q": "Doctors warned that ____ can damage the liver if it is not treated.",
+       "answer": "hepatitis",
+       "explain": "Bệnh gây hại cho gan là hepatitis (viêm gan)."
+      },
+      {
+       "q": "The company asked its students to ____ to attract more young customers.",
+       "answer": "develop an effective strategy",
+       "explain": "Xây dựng một chiến lược hiệu quả: develop an effective strategy. Sau 'to' dùng nguyên mẫu."
+      },
+      {
+       "q": "Online shops collect information about what ____ buy and when.",
+       "answer": "consumers",
+       "explain": "Người mua hàng là consumers (số nhiều vì động từ 'buy' không có -s)."
+      },
+      {
+       "q": "My sister and I had a loud ____ about whose turn it was to wash the dishes.",
+       "answer": "argument",
+       "explain": "Tranh cãi to tiếng là an argument; 'a loud ____' cần danh từ."
+      },
+      {
+       "q": "It was hard, but she managed to ____ her final exams with good marks.",
+       "answer": "get through",
+       "explain": "Sau 'managed to' dùng nguyên mẫu: get through (vượt qua kỳ thi)."
+      },
+      {
+       "q": "The lift was out of order, so we had to ____ up to the fifth floor.",
+       "answer": "take the stairs",
+       "explain": "Thang máy hỏng nên phải đi thang bộ: take the stairs."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "What did the research show about health information?",
+       "options": [
+        "People prefer long leaflets.",
+        "Most people trust short videos from doctors.",
+        "People do not read health information at all.",
+        "Posters are always the best choice."
+       ],
+       "answer": 1,
+       "explain": "Bài viết: 'most people trust short videos from doctors more than long leaflets'."
+      },
+      {
+       "q": "What caused the argument in the meeting?",
+       "options": [
+        "The manager was late.",
+        "There was not enough money.",
+        "Designers wanted bright colours while doctors wanted detailed facts.",
+        "Nobody understood hepatitis."
+       ],
+       "answer": 2,
+       "explain": "Nhà thiết kế muốn màu sắc nổi bật, còn bác sĩ muốn nhiều thông tin chi tiết."
+      },
+      {
+       "q": "Why did everyone take the stairs on the day of the launch?",
+       "options": [
+        "The lift broke down.",
+        "It was good exercise.",
+        "The manager told them to.",
+        "The lift was full."
+       ],
+       "answer": 0,
+       "explain": "Bài viết: 'the office lift broke down'."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "The campaign was about hepatitis.",
+       "answer": "True",
+       "explain": "Chiến dịch nhằm thông tin về viêm gan (hepatitis)."
+      },
+      {
+       "q": "The doctors wanted bright colours.",
+       "answer": "False",
+       "explain": "Nhà thiết kế muốn màu sắc nổi bật; bác sĩ muốn thông tin chi tiết."
+      },
+      {
+       "q": "The team agreed on a compromise.",
+       "answer": "True",
+       "explain": "Bài viết: 'agreed on a compromise: simple pictures with one clear message'."
+      },
+      {
+       "q": "The campaign was shown on television.",
+       "answer": "Not Given",
+       "explain": "Bài viết không nói chiến dịch được chiếu trên truyền hình."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
