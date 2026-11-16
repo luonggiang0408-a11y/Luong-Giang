@@ -131,6 +131,54 @@
    "ipa": "",
    "pos": "phr",
    "meaning": "đi thang bộ"
+  },
+  {
+   "word": "fry",
+   "ipa": "/fraɪ/",
+   "pos": "v",
+   "meaning": "chiên, rán (trong chảo)"
+  },
+  {
+   "word": "grill",
+   "ipa": "/ɡrɪl/",
+   "pos": "v",
+   "meaning": "nướng vỉ (nhiệt từ phía trên)"
+  },
+  {
+   "word": "be surrounded by nature",
+   "ipa": "/bi səˈraʊn.dɪd baɪ ˈneɪ.tʃər/",
+   "pos": "phr",
+   "meaning": "được bao quanh bởi thiên nhiên"
+  },
+  {
+   "word": "blackberries",
+   "ipa": "/ˈblæk.bər.iz/",
+   "pos": "n",
+   "meaning": "quả mâm xôi đen"
+  },
+  {
+   "word": "natural beauty",
+   "ipa": "/ˌnætʃ.ər.əl ˈbjuː.ti/",
+   "pos": "phr n",
+   "meaning": "vẻ đẹp tự nhiên"
+  },
+  {
+   "word": "take the elevator",
+   "ipa": "/ˈeləveɪtər/",
+   "pos": "phr",
+   "meaning": "đi thang máy"
+  },
+  {
+   "word": "take the escalator",
+   "ipa": "/ˈeskəleɪtər/",
+   "pos": "phr",
+   "meaning": "đi thang cuốn"
+  },
+  {
+   "word": "have got st on st",
+   "ipa": "",
+   "pos": "phr",
+   "meaning": "dính cái gì trên cái gì"
   }
  ],
  "passages": [
@@ -266,8 +314,8 @@
   },
   {
    "title": "Learning to Cook",
-   "text": "Mai had never been **a good cook**, and her friends often joked about it. When she moved into her own flat, she decided to change that. Her first rule was simple: **follow a recipe** carefully and never guess the measurements. Her second rule was to check that she **had all the ingredients** before she started, because last month she discovered halfway through making soup that there was no salt in the house.\n\nOn Sunday she made a three-part meal from a cookbook her grandmother gave her. First she had to **boil** the potatoes in a saucepan for fifteen minutes. Then she **roasted** a chicken in the oven until the skin turned golden. For dessert she **baked** an apple cake, which smelled wonderful when it came out. Roasting and baking both use the oven, but roasting is for meat or vegetables with oil, while baking is for cakes and bread. Her friends tasted everything and admitted that it was delicious. Mai smiled: she was finally getting better.",
-   "summary_vi": "Mai vốn không nấu ăn giỏi nên tự đặt quy tắc: làm đúng công thức và kiểm tra đủ nguyên liệu. Chủ nhật, cô luộc khoai, quay gà và nướng bánh táo, và bạn bè khen ngon.",
+   "text": "Mai had never been **a good cook**, and her friends often joked about it. When she moved into her own flat, she decided to change that. Her first rule was simple: **follow a recipe** carefully and never guess the measurements. Her second rule was to check that she **had all the ingredients** before she started, because last month she discovered halfway through making soup that there was no salt in the house.\n\nOn Sunday she made a big meal from a cookbook her grandmother gave her. First she had to **boil** the potatoes in a saucepan for fifteen minutes. While they cooked, she **fried** some onions in a frying pan and **grilled** two pieces of fish under the grill until the skin was crisp. Then she **roasted** a chicken in the oven until it turned golden. For dessert she **baked** an apple cake, which smelled wonderful when it came out. Roasting and baking both use the oven, but roasting is for meat or vegetables with oil, while baking is for cakes and bread. Her friends tasted everything and admitted that it was delicious. Mai smiled: she was finally getting better.",
+   "summary_vi": "Mai vốn không nấu ăn giỏi nên tự đặt quy tắc: làm đúng công thức và kiểm tra đủ nguyên liệu. Chủ nhật, cô luộc khoai, chiên hành, nướng vỉ cá, quay gà và nướng bánh táo, và bạn bè khen ngon.",
    "exercises": [
     {
      "type": "match",
@@ -302,6 +350,16 @@
        "word": "bake",
        "definition": "to cook cakes or bread in an oven using dry heat",
        "explain": "Bake là nướng bánh/bánh mì trong lò bằng nhiệt khô."
+      },
+      {
+       "word": "fry",
+       "definition": "to cook food in hot oil or fat in a pan",
+       "explain": "Fry là chiên, rán thức ăn trong chảo với dầu hoặc mỡ."
+      },
+      {
+       "word": "grill",
+       "definition": "to cook food using strong heat from above, for example under a cooker's grill",
+       "explain": "Grill là nướng vỉ, nhiệt toả từ phía trên."
       }
      ]
     },
@@ -314,7 +372,9 @@
       "have all the ingredients",
       "boil",
       "roast",
-      "bake"
+      "bake",
+      "fry",
+      "grill"
      ],
      "items": [
       {
@@ -346,6 +406,16 @@
        "q": "I am going to ____ some bread this afternoon; the oven is already hot.",
        "answer": "bake",
        "explain": "Bánh mì làm trong lò là bake."
+      },
+      {
+       "q": "First ____ the onions in a little oil until they turn soft and brown.",
+       "answer": "fry",
+       "explain": "Nấu hành trong chảo với dầu: fry (chiên, rán)."
+      },
+      {
+       "q": "We usually ____ the fish for a few minutes on each side so it has a crisp skin.",
+       "answer": "grill",
+       "explain": "Nướng cá bằng nhiệt trực tiếp trên vỉ: grill."
       }
      ]
     },
@@ -418,8 +488,8 @@
   },
   {
    "title": "A Childhood in the Countryside",
-   "text": "My cousin Lan **grew up in the countryside**, in a small village far from any big city. She often tells me that her childhood was the happiest time of her life. Her house stood **on the banks of the river**, and every morning she woke to the sound of running water. Behind the house there were **woods** where she and her friends played hide-and-seek and picked wild berries in summer.\n\nWhat she remembers most is how clearly she could see **the seasons** change. In spring the fields turned bright green, in autumn the leaves became red and gold, and in winter mist covered the water. The **scenery** was so beautiful that tourists sometimes stopped to take photographs. Lan says that the **open spaces** taught her to feel free and calm. Now she lives in a crowded city, and she misses the quiet. \"I did not know how lucky I was,\" she says, \"until I had to live without it.\" Every holiday she returns to her old village to walk beside the river again.",
-   "summary_vi": "Lan lớn lên ở nông thôn, nhà bên bờ sông, gần khu rừng nhỏ, nhớ rõ bốn mùa và phong cảnh đẹp; giờ sống ở thành phố đông đúc, cô nhớ sự yên tĩnh và về thăm làng mỗi dịp nghỉ.",
+   "text": "My cousin Lan **grew up in the countryside**, in a small village far from any big city. She often tells me that her childhood was the happiest time of her life. Her house stood **on the banks of the river**, and every morning she woke to the sound of running water. Behind the house there were **woods** where she and her friends played hide-and-seek and picked wild **blackberries** in summer.\n\nWhat she remembers most is how clearly she could see **the seasons** change. In spring the fields turned bright green, in autumn the leaves became red and gold, and in winter mist covered the water. The **scenery** was so beautiful that tourists sometimes stopped to take photographs, and the **natural beauty** of the valley is still famous today. Lan says that the **open spaces** and being **surrounded by nature** taught her to feel free and calm. Now she lives in a crowded city, and she misses the quiet. \"I did not know how lucky I was,\" she says, \"until I had to live without it.\" Every holiday she returns to her old village to walk beside the river again.",
+   "summary_vi": "Lan lớn lên ở nông thôn, nhà bên bờ sông, gần khu rừng nhỏ nơi cô hái quả mâm xôi, nhớ rõ bốn mùa, phong cảnh và vẻ đẹp tự nhiên; giờ sống ở thành phố đông đúc, cô nhớ sự yên tĩnh và về thăm làng mỗi dịp nghỉ.",
    "exercises": [
     {
      "type": "match",
@@ -454,6 +524,21 @@
        "word": "open spaces",
        "definition": "large areas of land with no buildings, where people can walk or play",
        "explain": "Open spaces là không gian rộng, thoáng, không có nhà cửa."
+      },
+      {
+       "word": "be surrounded by nature",
+       "definition": "to have trees, fields, rivers and wild places all around you",
+       "explain": "Be surrounded by nature là được bao quanh bởi thiên nhiên."
+      },
+      {
+       "word": "blackberries",
+       "definition": "small, soft, dark purple fruits that grow wild on bushes",
+       "explain": "Blackberries là quả mâm xôi đen, mọc dại trên bụi cây."
+      },
+      {
+       "word": "natural beauty",
+       "definition": "the beauty of mountains, rivers, forests and other things that nature creates",
+       "explain": "Natural beauty là vẻ đẹp tự nhiên của núi, sông, rừng..."
       }
      ]
     },
@@ -466,7 +551,10 @@
       "woods",
       "the seasons",
       "scenery",
-      "open spaces"
+      "open spaces",
+      "are surrounded by nature",
+      "blackberries",
+      "natural beauty"
      ],
      "items": [
       {
@@ -498,6 +586,21 @@
        "q": "Children in big cities need more ____ where they can run and play.",
        "answer": "open spaces",
        "explain": "Nơi trẻ em chạy chơi rộng rãi là open spaces."
+      },
+      {
+       "q": "Guests at the mountain lodge ____, so there is no noise from cars or factories.",
+       "answer": "are surrounded by nature",
+       "explain": "Chủ ngữ số nhiều (guests): are surrounded by nature (được bao quanh bởi thiên nhiên)."
+      },
+      {
+       "q": "In late summer we picked ____ along the path and made jam.",
+       "answer": "blackberries",
+       "explain": "Quả mọc dại ven đường để làm mứt là blackberries (mâm xôi đen)."
+      },
+      {
+       "q": "Visitors come from all over the world to admire the ____ of the bay.",
+       "answer": "natural beauty",
+       "explain": "Vẻ đẹp do thiên nhiên tạo ra: natural beauty."
       }
      ]
     },
@@ -560,9 +663,9 @@
        "explain": "Bài viết: 'Every holiday she returns to her old village'."
       },
       {
-       "q": "Lan's parents were farmers.",
-       "answer": "Not Given",
-       "explain": "Bài viết không nhắc đến nghề nghiệp của bố mẹ Lan."
+       "q": "Lan picked wild berries as a child.",
+       "answer": "True",
+       "explain": "Bài viết: cô và bạn bè 'picked wild blackberries in summer' (hái quả mâm xôi dại vào mùa hè)."
       }
      ]
     }
@@ -570,7 +673,7 @@
   },
   {
    "title": "A Health Campaign at Work",
-   "text": "The health department of a large city wanted to **develop an effective strategy** to inform people about **hepatitis**, a serious liver disease that many people do not recognise. The team knew that ordinary posters would not be enough, so they decided to study how **consumers** get their health information. The research showed that most people trust short videos from doctors more than long leaflets.\n\nNot everyone agreed on the best plan. During one meeting, a heated **argument** broke out between the designers, who wanted bright colours, and the doctors, who wanted detailed facts. The manager reminded everyone that they shared the same goal. After a difficult week, the team managed to **get through** the disagreement and agreed on a compromise: simple pictures with one clear message.\n\nOn the day of the launch the office lift broke down, so everyone had to **take the stairs** to the tenth floor, laughing and out of breath. The campaign was a success, and thousands of people booked a free health check.",
+   "text": "The health department of a large city wanted to **develop an effective strategy** to inform people about **hepatitis**, a serious liver disease that many people do not recognise. The team knew that ordinary posters would not be enough, so they decided to study how **consumers** get their health information. The research showed that most people trust short videos from doctors more than long leaflets.\n\nNot everyone agreed on the best plan. During one meeting, a heated **argument** broke out between the designers, who wanted bright colours, and the doctors, who wanted detailed facts. The manager reminded everyone that they shared the same goal. After a difficult week, the team managed to **get through** the disagreement and agreed on a compromise: simple pictures with one clear message.\n\nOn the day of the launch, the team waited nervously for the first results. The campaign was a success, and thousands of people booked a free health check.",
    "summary_vi": "Một cơ quan y tế xây dựng chiến lược truyền thông về bệnh viêm gan, nghiên cứu cách người tiêu dùng tiếp nhận thông tin, vượt qua tranh cãi giữa nhà thiết kế và bác sĩ, và chiến dịch thành công.",
    "exercises": [
     {
@@ -601,11 +704,6 @@
        "word": "get through",
        "definition": "to manage to deal with a difficult period or to finish something hard",
        "explain": "Get through là vượt qua một giai đoạn khó khăn hoặc hoàn thành việc khó."
-      },
-      {
-       "word": "take the stairs",
-       "definition": "to go up or down a building using the steps instead of a lift",
-       "explain": "Take the stairs là đi thang bộ thay vì thang máy."
       }
      ]
     },
@@ -617,8 +715,7 @@
       "hepatitis",
       "consumers",
       "argument",
-      "get through",
-      "take the stairs"
+      "get through"
      ],
      "items": [
       {
@@ -645,11 +742,6 @@
        "q": "It was hard, but she managed to ____ her final exams with good marks.",
        "answer": "get through",
        "explain": "Sau 'managed to' dùng nguyên mẫu: get through (vượt qua kỳ thi)."
-      },
-      {
-       "q": "The lift was out of order, so we had to ____ up to the fifth floor.",
-       "answer": "take the stairs",
-       "explain": "Thang máy hỏng nên phải đi thang bộ: take the stairs."
       }
      ]
     },
@@ -680,15 +772,15 @@
        "explain": "Nhà thiết kế muốn màu sắc nổi bật, còn bác sĩ muốn nhiều thông tin chi tiết."
       },
       {
-       "q": "Why did everyone take the stairs on the day of the launch?",
+       "q": "What did the team finally agree on?",
        "options": [
-        "The lift broke down.",
-        "It was good exercise.",
-        "The manager told them to.",
-        "The lift was full."
+        "Detailed leaflets for every home",
+        "Simple pictures with one clear message",
+        "A television advertisement",
+        "More meetings next week"
        ],
-       "answer": 0,
-       "explain": "Bài viết: 'the office lift broke down'."
+       "answer": 1,
+       "explain": "Bài viết: nhóm thống nhất 'simple pictures with one clear message' (hình ảnh đơn giản với một thông điệp rõ ràng)."
       }
      ]
     },
@@ -715,6 +807,136 @@
        "q": "The campaign was shown on television.",
        "answer": "Not Given",
        "explain": "Bài viết không nói chiến dịch được chiếu trên truyền hình."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Busy Day at the Shopping Centre",
+   "text": "The new shopping centre in Da Nang has five floors, and on weekends it is full of families. Mr Tuan, a security guard, watches how people move between the floors. Many shoppers **take the escalator** because it is fast and easy, especially when they are carrying shopping bags. Parents with small children, and people in wheelchairs, usually **take the elevator**, which is larger and safer. A few fitness lovers **take the stairs**, and Mr Tuan often sees them walking up all five floors without stopping.\n\nLast Saturday, a young woman rushed past him with a worried look. \"I think I **have got** coffee **on** my new white dress,\" she said. Mr Tuan pointed to the nearest toilet and gave her a handful of paper towels. Ten minutes later she came back smiling, with only a small mark that was almost invisible. \"Thank you,\" she said. \"Now I can enjoy my afternoon.\"",
+   "summary_vi": "Một bảo vệ trung tâm thương mại quan sát mọi người đi thang cuốn, thang máy hay thang bộ, và giúp một cô gái xử lý vết cà phê dính trên chiếc váy trắng.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "take the escalator",
+       "definition": "to use the moving staircase to go up or down in a building",
+       "explain": "Take the escalator là đi thang cuốn."
+      },
+      {
+       "word": "take the elevator",
+       "definition": "to use the lift (American English) to go up or down in a building",
+       "explain": "Take the elevator là đi thang máy (cách nói của người Mỹ; người Anh nói lift)."
+      },
+      {
+       "word": "take the stairs",
+       "definition": "to walk up or down a building using the steps",
+       "explain": "Take the stairs là đi thang bộ."
+      },
+      {
+       "word": "have got st on st",
+       "definition": "to have a mark or substance, such as coffee or paint, on something like your clothes",
+       "explain": "Have got something on something: có thứ gì dính/đổ lên thứ khác, ví dụ vết cà phê trên váy."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "take the escalator",
+      "take the elevator",
+      "take the stairs",
+      "have got"
+     ],
+     "items": [
+      {
+       "q": "The suitcases were so heavy that we decided to ____ instead of walking up.",
+       "answer": "take the elevator",
+       "explain": "Vali nặng nên đi thang máy: take the elevator."
+      },
+      {
+       "q": "My flat is only on the second floor, so I usually ____ to stay fit.",
+       "answer": "take the stairs",
+       "explain": "Đi thang bộ để giữ dáng: take the stairs."
+      },
+      {
+       "q": "At the department store, children love to ____ because they can watch the steps move.",
+       "answer": "take the escalator",
+       "explain": "Bậc thang tự chuyển động là thang cuốn: take the escalator."
+      },
+      {
+       "q": "Oh no, I think I ____ red wine on my shirt!",
+       "answer": "have got",
+       "explain": "Cấu trúc have got + vật + on + chỗ: have got red wine on my shirt (bị dính rượu vang lên áo)."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer.",
+     "items": [
+      {
+       "q": "Why do many shoppers take the escalator?",
+       "options": [
+        "It is the only way to reach the top floor.",
+        "It is fast and easy when they carry shopping bags.",
+        "It is free for families.",
+        "The elevator is always broken."
+       ],
+       "answer": 1,
+       "explain": "Bài viết: nhiều người đi thang cuốn vì nhanh và dễ, nhất là khi xách túi mua sắm."
+      },
+      {
+       "q": "Who usually takes the elevator?",
+       "options": [
+        "Security guards",
+        "Fitness lovers",
+        "Parents with small children and people in wheelchairs",
+        "Only the shop staff"
+       ],
+       "answer": 2,
+       "explain": "Bài viết: 'Parents with small children, and people in wheelchairs, usually take the elevator'."
+      },
+      {
+       "q": "What did Mr Tuan give the young woman?",
+       "options": [
+        "Some paper towels",
+        "A new dress",
+        "A cup of coffee",
+        "A map of the centre"
+       ],
+       "answer": 0,
+       "explain": "Bài viết: ông chỉ nhà vệ sinh và đưa cô 'a handful of paper towels' (một nắm khăn giấy)."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "The shopping centre has five floors.",
+       "answer": "True",
+       "explain": "Câu đầu: 'has five floors'."
+      },
+      {
+       "q": "Mr Tuan works as a security guard.",
+       "answer": "True",
+       "explain": "Bài viết: 'Mr Tuan, a security guard'."
+      },
+      {
+       "q": "The woman's dress was completely ruined.",
+       "answer": "False",
+       "explain": "Cuối cùng chỉ còn vết nhỏ gần như không nhìn thấy."
+      },
+      {
+       "q": "The shopping centre opened last year.",
+       "answer": "Not Given",
+       "explain": "Bài viết chỉ nói trung tâm 'new' (mới), không nói mở khi nào."
       }
      ]
     }
