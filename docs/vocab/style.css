@@ -125,3 +125,8 @@ blockquote { margin: 8px 0; padding: 10px 14px; border-left: 4px solid var(--bra
 .fc-word { font-size: 34px; font-weight: 700; } .fc-mean { font-size: 24px; margin-bottom: 6px; }
 .fc-face { display: flex; flex-direction: column; align-items: center; gap: 8px; } .fc-card hr { border: 0; border-top: 1px dashed var(--line); margin: 16px 0; }
 .fc-hint { margin-top: 14px; }
+
+.stat.clickable { cursor: pointer; } .stat.clickable:hover { border-color: var(--brand); } .stat small { color: var(--brand); }
+details.trk { border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; margin: 8px 0; } details.trk summary { cursor: pointer; }
+.fc-nav { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 12px; }
+.lv.sel { outline: 2px solid var(--brand); }

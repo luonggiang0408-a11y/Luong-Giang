@@ -196,6 +196,7 @@ const SAMPLE = [
   ['crucial', '/ˈkruːʃl/', 'adj', 'then chốt, cực kỳ quan trọng', ''],
 ];
 
+App.actions.gotoTrack = function () { const p = UI.$('#trackPanel'); if (p) { p.scrollIntoView({ behavior: 'smooth' }); UI.$$('details.trk', p).forEach((d) => { d.open = true; }); } };
 App.actions.sample = function () {
   SAMPLE.forEach(([word, ipa, pos, meaning, example]) => Store.addWord({ word, ipa, pos, meaning, example }));
   Store.save(); this.render();
@@ -256,7 +257,18 @@ App.views.review = function () {
   const due = this.dueWords();
   const words = this.words();
   const learned = words.filter((w) => !SRS.isNew(w));
-  const counts = SRS.GROUPS.map((g, i) => learned.filter((w) => SRS.LEVELS[w.level].group === i && !w.mastered).length);
+  const counts = SRS.LEVELS.map((g, i) => learned.filter((w) => w.level === i && !w.mastered).length);
+  const active = learned.filter((w) => !w.mastered);
+  const overdue = active.filter((w) => w.schedule[0] && w.schedule[0] < t).length;
+  const waitDays = (w) => { const d = SRS.diffDays(w.schedule[0], t); return d < 0 ? `quá hạn ${-d} ngày` : d === 0 ? 'hôm nay' : `còn ${d} ngày`; };
+  const rows = (ws) => ws.map((w) => `<tr><td><b>${UI.esc(w.word)}</b>${w.ipa ? ` <span class="ipa">${UI.esc(w.ipa)}</span>` : ''}</td><td>${UI.esc(w.meaning)}</td>
+    <td>${w.mastered ? '✔ xong' : w.schedule[0] ? SRS.fmtFull(w.schedule[0]) + ` <small class="muted">(${waitDays(w)})</small>` : '—'}</td>
+    <td>${w.added ? SRS.fmtFull(w.added) : '—'}</td><td>${w.lastReviewed ? SRS.fmtFull(w.lastReviewed) : '—'}</td><td>${w.reviews || 0}</td><td>${w.lapses || 0}</td></tr>`).join('');
+  const table = (ws) => `<div class="table-wrap"><table class="tbl"><thead><tr><th>Từ</th><th>Nghĩa</th><th>Ôn tiếp</th><th>Ngày học</th><th>Ôn gần nhất</th><th>Lần ôn</th><th>Lần quên</th></tr></thead><tbody>${rows(ws)}</tbody></table></div>`;
+  const trackHTML = SRS.LEVELS.map((l, i) => {
+    const ws = active.filter((w) => w.level === i).sort((a, b) => (a.schedule[0] || '').localeCompare(b.schedule[0] || ''));
+    return ws.length ? `<details class="trk"><summary><span class="tag ${l.cls}">${l.short}</span> <b>${ws.length}</b> từ — nhắc lại sau ${l.days} ngày</summary>${table(ws)}</details>` : '';
+  }).join('') + (learned.some((w) => w.mastered) ? `<details class="trk"><summary><span class="tag l4">Đã xong chu kỳ</span> <b>${learned.filter((w) => w.mastered).length}</b> từ</summary>${table(learned.filter((w) => w.mastered))}</details>` : '');
   const done = words.filter((w) => w.mastered).length;
   // Lịch 7 ngày tới
   const upcoming = [];
@@ -269,7 +281,7 @@ App.views.review = function () {
   <section class="stats">
     <div class="stat"><b>${due.length}</b><span>cần ôn hôm nay</span></div>
     <div class="stat"><b>${this.newWords().length}</b><span>từ mới chưa học</span></div>
-    <div class="stat"><b>${learned.length}</b><span>đang theo dõi</span></div>
+    <div class="stat clickable" data-act="gotoTrack"><b>${active.length}</b><span>đang theo dõi${overdue ? ` · ${overdue} quá hạn` : ''}<br><small>bấm để xem chi tiết</small></span></div>
     <div class="stat"><b>${done}</b><span>đã xong chu kỳ</span></div>
   </section>
   <section class="panel">
@@ -284,9 +296,14 @@ App.views.review = function () {
   </section>
   <section class="panel">
     <h2>📊 Tiến độ</h2>
-    <div class="bars">${SRS.GROUPS.map((l, i) => `<div class="bar"><span class="tag ${l.cls}">${l.short}</span><div class="track"><i class="${l.cls}" style="width:${learned.length ? Math.round(counts[i] / learned.length * 100) : 0}%"></i></div><b>${counts[i]}</b></div>`).join('')}</div>
+    <div class="bars">${SRS.LEVELS.map((l, i) => `<div class="bar"><span class="tag ${l.cls}">${l.short}</span><div class="track"><i class="${l.cls}" style="width:${active.length ? Math.round(counts[i] / active.length * 100) : 0}%"></i></div><b>${counts[i]}</b></div>`).join('')}</div>
     <h3>Lịch ôn 7 ngày tới</h3>
     <div class="cal">${upcoming.map((u) => `<div class="day ${u.n ? 'has' : ''}"><small>${SRS.fmt(u.d)}</small><b>${u.n}</b></div>`).join('')}</div>
+  </section>
+  <section class="panel" id="trackPanel">
+    <h2>📋 Từ đang theo dõi (${active.length})</h2>
+    <p class="muted">Chia theo 10 mốc ôn. Bấm vào từng mốc để xem danh sách từ, ngày ôn tiếp theo, số lần ôn và số lần quên.</p>
+    ${trackHTML || '<div class="empty">Chưa có từ nào đang theo dõi.</div>'}
   </section>`;
   return {
     html,
@@ -720,26 +737,37 @@ App.actions.sayText = function (el) { TTS.stop(); TTS.say(el.dataset.text); };
 
 
 /* ======================= FLASHCARD ======================= */
-App.fc = { ids: [], i: 0, flipped: false, front: 'word', ok: 0 };
+App.fc = { ids: [], i: 0, flipped: false, front: 'word', done: {}, snap: {} };
 App.actions.fcStart = function () {
-  this.fc = { ids: UI.shuffle(this.dueWords().map((w) => w.id)), i: 0, flipped: false, front: this.fc.front || 'word', stats: SRS.LEVELS.map(() => 0) };
+  this.fc = { ids: UI.shuffle(this.dueWords().map((w) => w.id)), i: 0, flipped: false, front: this.fc.front || 'word', done: {}, snap: {} };
   if (!this.fc.ids.length) return;
   const el = document.createElement('div');
   el.id = 'fcModal'; el.className = 'modal';
   document.body.appendChild(el);
   this.fcRender();
 };
+App.fcGo = function (i) {
+  const F = this.fc;
+  F.i = Math.max(0, Math.min(F.ids.length, i));
+  F.flipped = F.i < F.ids.length && F.done[F.ids[F.i]] !== undefined;   // thẻ đã chấm: hiện luôn đáp án
+  this.fcRender();
+};
 App.fcRender = function () {
   const el = UI.$('#fcModal'); if (!el) return;
   const F = this.fc;
   const total = F.ids.length;
+  const rated = Object.keys(F.done).length;
   if (F.i >= total) {
-    el.innerHTML = `<div class="modal-box fc"><h3>🎉 Xong ${total} từ!</h3>
-      ${SRS.LEVELS.map((l, k) => `<div class="bar" style="grid-template-columns:200px 1fr 30px"><span class="tag ${l.cls}">${l.short}</span><div class="track"><i class="${l.cls}" style="width:${F.stats[k] / total * 100}%"></i></div><b>${F.stats[k]}</b></div>`).join('')}
-      <div class="row end"><button class="btn primary" data-act="fcClose">Đóng</button></div></div>`;
+    const cnt = SRS.LEVELS.map(() => 0);
+    Object.values(F.done).forEach((lv) => cnt[lv]++);
+    el.innerHTML = `<div class="modal-box fc"><h3>🎉 Đã xem hết ${total} thẻ — đánh dấu ${rated}/${total} từ</h3>
+      ${rated < total ? `<p class="note">Còn ${total - rated} từ chưa đánh dấu mức nhớ. Dùng nút “Trước” để quay lại.</p>` : ''}
+      ${SRS.LEVELS.map((l, k) => cnt[k] ? `<div class="bar" style="grid-template-columns:200px 1fr 30px"><span class="tag ${l.cls}">${l.short}</span><div class="track"><i class="${l.cls}" style="width:${cnt[k] / total * 100}%"></i></div><b>${cnt[k]}</b></div>` : '').join('')}
+      <div class="row end"><button class="btn" data-act="fcPrev">◀ Trước</button><button class="btn primary" data-act="fcClose">Đóng</button></div></div>`;
     return;
   }
   const w = this.byId(F.ids[F.i]);
+  const mine = F.done[w.id];
   const frontWord = F.front === 'word';
   const front = frontWord
     ? `<div class="fc-word">${UI.esc(w.word)}</div>${w.ipa ? `<div class="ipa">${UI.esc(w.ipa)}</div>` : ''}`
@@ -748,7 +776,7 @@ App.fcRender = function () {
     ? `<div class="fc-mean">${UI.esc(w.meaning)}</div>${w.pos ? `<span class="pos">${UI.esc(UI.posAbbr(w.pos))}</span>` : ''}${w.example ? `<div class="ex">“${UI.esc(w.example)}”</div>` : ''}`
     : `<div class="fc-word">${UI.esc(w.word)}</div>${w.ipa ? `<div class="ipa">${UI.esc(w.ipa)}</div>` : ''}${w.example ? `<div class="ex">“${UI.esc(w.example)}”</div>` : ''}`;
   el.innerHTML = `<div class="modal-box fc">
-    <div class="fc-top"><span class="muted">${F.i + 1} / ${total}</span>
+    <div class="fc-top"><span class="muted">${F.i + 1} / ${total} · đã đánh dấu ${rated}</span>
       <label class="check"><input type="checkbox" data-act="fcSide" ${frontWord ? '' : 'checked'}> Mặt trước là nghĩa</label>
       <button class="icon" data-act="fcClose" title="Đóng (Esc)">✖</button></div>
     <div class="track"><i style="width:${F.i / total * 100}%"></i></div>
@@ -756,27 +784,37 @@ App.fcRender = function () {
       <div class="fc-face">${front}<button class="spk" data-act="fcSpeak" title="Nghe (S)">🔊</button></div>
       ${F.flipped ? `<hr><div class="fc-face">${back}</div>` : '<div class="muted fc-hint">Bấm vào thẻ hoặc phím Space để lật</div>'}
     </div>
-    ${F.flipped ? `<div class="rate">${SRS.LEVELS.map((l, k) => `<button class="lv ${l.cls}" data-act="fcRate" data-lv="${k}"><b>${(k + 1) % 10}. ${l.short}</b><small>${l.days} ngày</small></button>`).join('')}</div>`
+    ${mine !== undefined ? `<p class="rated">Đã đánh dấu: <span class="tag ${SRS.LEVELS[mine].cls}">${SRS.LEVELS[mine].short}</span> → nhắc lại ${SRS.fmtFull(w.schedule[0] || SRS.today())}. Bấm mức khác để đổi.</p>` : ''}
+    ${F.flipped ? `<div class="rate">${SRS.LEVELS.map((l, k) => `<button class="lv ${l.cls} ${mine === k ? 'sel' : ''}" data-act="fcRate" data-lv="${k}"><b>${(k + 1) % 10}. ${l.short}</b><small>${l.days} ngày</small></button>`).join('')}</div>`
       : '<div class="row end"><button class="btn primary" data-act="fcFlip">Lật thẻ</button></div>'}
+    <div class="fc-nav"><button class="btn" data-act="fcPrev" ${F.i === 0 ? 'disabled' : ''}>◀ Trước</button><span class="muted">← → để chuyển thẻ</span><button class="btn" data-act="fcNext">${F.i === total - 1 ? 'Kết thúc' : 'Sau'} ▶</button></div>
   </div>`;
   if (frontWord && !F.flipped) TTS.speakWord(w);
 };
 App.actions.fcFlip = function (el, e) { if (e && e.target.closest('.spk')) return; this.fc.flipped = true; this.fcRender(); };
 App.actions.fcSpeak = function () { TTS.speakWord(this.byId(this.fc.ids[this.fc.i])); };
 App.actions.fcSide = function (el) { this.fc.front = el.checked ? 'meaning' : 'word'; this.fc.flipped = false; this.fcRender(); };
+App.actions.fcPrev = function () { this.fcGo(this.fc.i - 1); };
+App.actions.fcNext = function () { this.fcGo(this.fc.i + 1); };
 App.actions.fcRate = function (el) {
-  const lv = +el.dataset.lv, w = this.byId(this.fc.ids[this.fc.i]);
+  const F = this.fc, lv = +el.dataset.lv, w = this.byId(F.ids[F.i]);
+  // Chấm lại cùng một thẻ: khôi phục trạng thái ban đầu rồi chấm lại, để không đếm trùng lần ôn / lần quên.
+  if (F.snap[w.id] === undefined) F.snap[w.id] = JSON.stringify(w);
+  Object.assign(w, JSON.parse(F.snap[w.id]));
   SRS.rate(w, lv, SRS.today()); Store.save();
-  this.fc.stats[lv]++; this.fc.i++; this.fc.flipped = false; this.fcRender();
+  F.done[w.id] = lv;
+  this.fcGo(F.i + 1);
 };
 App.actions.fcClose = function () { TTS.stop(); const m = UI.$('#fcModal'); if (m) m.remove(); this.render(); };
 document.addEventListener('keydown', (e) => {
   if (!UI.$('#fcModal')) return;
-  const F = App.fc;
+  const F = App.fc, inCard = F.i < F.ids.length;
   if (e.key === 'Escape') App.actions.fcClose.call(App);
-  else if (e.key === ' ' && F.i < F.ids.length && !F.flipped) { e.preventDefault(); App.actions.fcFlip.call(App); }
-  else if (/^[0-9]$/.test(e.key) && F.flipped) App.actions.fcRate.call(App, { dataset: { lv: (+e.key + 9) % 10 } });
-  else if (e.key.toLowerCase() === 's' && F.i < F.ids.length) App.actions.fcSpeak.call(App);
+  else if (e.key === 'ArrowRight' && inCard) App.fcGo(F.i + 1);
+  else if (e.key === 'ArrowLeft') App.fcGo(F.i - 1);
+  else if (e.key === ' ' && inCard && !F.flipped) { e.preventDefault(); App.actions.fcFlip.call(App); }
+  else if (/^[0-9]$/.test(e.key) && inCard && F.flipped) App.actions.fcRate.call(App, { dataset: { lv: (+e.key + 9) % 10 } });
+  else if (e.key.toLowerCase() === 's' && inCard) App.actions.fcSpeak.call(App);
 });
 
 /* ======================= CÀI ĐẶT ======================= */
