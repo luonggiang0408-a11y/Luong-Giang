@@ -969,7 +969,7 @@ App.views.settings = function () {
       UI.$('#importFile').addEventListener('change', (e) => {
         const f = e.target.files[0]; if (!f) return;
         f.text().then((t) => {
-          try { const d = JSON.parse(t); if (!Array.isArray(d.words)) throw new Error(); localStorage.setItem(Store.KEY, JSON.stringify(d)); Store.load(); UI.toast('Đã nhập sao lưu'); this.render(); }
+          try { const d = JSON.parse(t); if (!Array.isArray(d.words)) throw new Error(); d.settings = Object.assign({}, d.settings || {}, Store.data.settings); /* giữ token/API key hiện tại */ localStorage.setItem(Store.KEY, JSON.stringify(d)); Store.load(); UI.toast('Đã nhập sao lưu'); this.render(); }
           catch (err) { UI.toast('File sao lưu không hợp lệ'); }
         });
       });
@@ -998,7 +998,7 @@ App.actions.testAI = async function () {
   catch (e) { out.textContent = '❌ ' + e.message; }
 };
 App.actions.export = function () {
-  const blob = new Blob([JSON.stringify(Store.data, null, 1)], { type: 'application/json' });
+  const blob = new Blob([JSON.stringify(Object.assign({}, Store.data, { settings: Object.assign({}, Store.data.settings, { apiKey: '', ghToken: '' }) }), null, 1)], { type: 'application/json' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob); a.download = 'vocab-backup-' + SRS.today() + '.json'; a.click();
 };
