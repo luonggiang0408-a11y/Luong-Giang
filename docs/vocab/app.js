@@ -141,7 +141,7 @@ App.views.words = function () {
   const nw = this.newWords();
   const all = this.words();
   const q = (this.wordQuery || '').toLowerCase();
-  const filtered = all.filter((w) => !q || (w.word + ' ' + w.meaning).toLowerCase().includes(q));
+  const filtered = all.filter((w) => !q || (w.word + ' ' + w.meaning + ' ' + (w.example || '')).toLowerCase().includes(q));
   const e = this.editing ? this.byId(this.editing) : null;
   const html = `
   <section class="panel">
@@ -167,7 +167,7 @@ App.views.words = function () {
     </form>
     <details class="import">
       <summary>Nhập nhiều từ cùng lúc (dán từ Google Sheet / Excel)</summary>
-      <p class="muted">Mỗi dòng một từ, cột cách nhau bằng Tab hoặc dấu <code>|</code>: <b>từ | phiên âm | từ loại | nghĩa</b>.
+      <p class="muted">Mỗi dòng một từ, cột cách nhau bằng Tab hoặc dấu <code>|</code>: <b>từ | phiên âm | từ loại | nghĩa | ví dụ</b> (cột ví dụ không bắt buộc; nếu từ đã có mà chưa có ví dụ thì chỉ bổ sung ví dụ).
       Có thể dán thẳng các cột A–H của tab “Vocabulary” (Mức nhớ, Ngày bắt đầu, Từ, Phiên âm, Từ loại, Định nghĩa, Ví dụ, Ngày đánh dấu) — mức nhớ và lịch ôn sẽ được giữ lại.</p>
       <textarea id="importBox" rows="6" class="mono"></textarea>
       <div class="row"><label class="btn">Chọn file .txt / .csv<input type="file" id="importFile2" accept=".txt,.tsv,.csv" hidden></label><span class="muted" id="importInfo"></span></div>
@@ -179,14 +179,15 @@ App.views.words = function () {
     <h2>${I('folder')} Tất cả từ <span class="count">${all.length}</span></h2>
     <input id="wordSearch" class="search" placeholder="Tìm từ hoặc nghĩa..." value="${UI.esc(this.wordQuery || '')}">
     <div class="table-wrap"><table class="tbl">
-      <thead><tr><th>Từ</th><th>Phiên âm</th><th>Loại</th><th>Nghĩa</th><th>Mức</th><th>Ôn tiếp</th><th></th></tr></thead>
+      <thead><tr><th>Từ</th><th>Phiên âm</th><th>Loại</th><th>Nghĩa</th><th>Ví dụ</th><th>Mức</th><th>Ôn tiếp</th><th></th></tr></thead>
       <tbody>${filtered.map((w) => {
         const lv = SRS.isNew(w) ? null : SRS.LEVELS[w.level];
         return `<tr class="wcard-row" data-id="${w.id}"><td><button class="spk sm" data-act="speakRow">${I('volume', 16)}</button> <b>${UI.esc(w.word)}</b></td><td>${UI.esc(w.ipa)}</td><td>${UI.esc(UI.posAbbr(w.pos))}</td><td>${UI.esc(w.meaning)}</td>
+        <td class="excell">${w.example ? `<button class="spk sm" data-act="speakEx" aria-label="Nghe câu ví dụ">${I('volume', 16)}</button> <span class="exs">${UI.esc(w.example)}</span>` : '<a href="#" class="muted" data-act="editRow">+ thêm ví dụ</a>'}</td>
         <td>${lv ? `<span class="tag ${lv.cls}">${lv.short}</span>` : '<span class="tag new">Mới</span>'}</td>
         <td>${w.mastered ? '✔ xong' : w.schedule.length ? SRS.fmtFull(w.schedule[0]) : '—'}</td>
         <td class="nowrap"><button class="icon" data-act="editRow" title="Sửa">${I('pen', 16)}</button><button class="icon" data-act="delRow" title="Xoá">${I('trash', 16)}</button></td></tr>`;
-      }).join('') || '<tr><td colspan="7" class="muted">Không có từ nào.</td></tr>'}</tbody>
+      }).join('') || '<tr><td colspan="8" class="muted">Không có từ nào.</td></tr>'}</tbody>
     </table></div>
   </section>`;
   return {
@@ -333,7 +334,8 @@ App.actions.sample = function () {
   Store.save(); this.render();
 };
 App.actions.speakRow = function (el) { const w = this.byId(el.closest('tr').dataset.id); if (w) TTS.speakWord(w); };
-App.actions.editRow = function (el) { this.editing = el.closest('tr').dataset.id; this.render(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+App.actions.speakEx = function (el) { const w = this.byId(el.closest('tr').dataset.id); if (w && w.example) { TTS.stop(); TTS.say(w.example); } };
+App.actions.editRow = function (el, e) { if (e) e.preventDefault(); this.editing = el.closest('tr').dataset.id; this.render(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
 App.actions.cancelEdit = function () { this.editing = null; this.render(); };
 App.actions.delRow = function (el) {
   const w = this.byId(el.closest('tr').dataset.id);
@@ -364,12 +366,16 @@ App.actions.import = function () {
   const levelNames = SRS.GROUPS.map((g) => g.name.toLowerCase());
   const dmy = (x) => { const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec((x || '').trim()); return m ? `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}` : ''; };
   const t = SRS.today();
-  let added = 0, skipped = 0, fresh = 0;
+  let added = 0, skipped = 0, fresh = 0, filled = 0;
   lines.forEach((line) => {
     const p = line.split(/\t/).length >= 4 ? line.split(/\t/).map((x) => x.trim()) : line.split(/\s\|\s|\|/).map((x) => x.trim());
     if (p[2] === 'Từ mới' || p[1] === 'Ngày bắt đầu' || /^(từ|word|từ mới)$/i.test(p[0])) return; // dòng tiêu đề
     const g = levelNames.indexOf((p[0] || '').toLowerCase());
     const sheetRow = p.length >= 6 && (g >= 0 || /^\d{1,2}\/\d{1,2}\/\d{4}/.test(p[1] || ''));
+    // Từ đã có mà chưa có ví dụ: chỉ bổ sung ví dụ (không đụng vào lịch ôn).
+    const wordKey = ((sheetRow ? p[2] : p[0]) || '').toLowerCase(), exNew = (sheetRow ? p[6] : p[4]) || '';
+    const existing = wordKey && this.words().find((x) => x.word.toLowerCase() === wordKey);
+    if (existing) { if (exNew && !existing.example) { existing.example = exNew; filled++; } else skipped++; return; }
     let w = null;
     if (sheetRow) {
       if (!p[2]) { skipped++; return; }
@@ -386,13 +392,13 @@ App.actions.import = function () {
       }
     } else if (p[0] && p.length >= 2) {
       const [word, ipa, pos, meaning] = p.length >= 4 ? p : [p[0], '', '', p[1]];
-      w = Store.addWord({ word, ipa, pos, meaning });
+      w = Store.addWord({ word, ipa, pos, meaning, example: p[4] || '' });
       if (w) fresh++;
     }
     if (w) added++; else skipped++;
   });
   Store.save();
-  UI.toast(`Đã nhập ${added} từ (${added - fresh} có lịch ôn, ${fresh} từ mới). Bỏ qua ${skipped} dòng (trùng hoặc sai định dạng).`);
+  UI.toast(`Đã nhập ${added} từ (${added - fresh} có lịch ôn, ${fresh} từ mới)` + (filled ? `, bổ sung ví dụ cho ${filled} từ` : '') + `. Bỏ qua ${skipped} dòng (trùng hoặc sai định dạng).`);
   this.render();
 };
 
