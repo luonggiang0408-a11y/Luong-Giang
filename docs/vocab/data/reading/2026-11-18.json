@@ -1,0 +1,1680 @@
+{
+ "words": [
+  {
+   "word": "have got st on st",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "dính cái gì trên cái gì"
+  },
+  {
+   "word": "run out = expire",
+   "ipa": "",
+   "pos": "Verb",
+   "meaning": "Hết hạn"
+  },
+  {
+   "word": "engage in N",
+   "ipa": "",
+   "pos": "Verb",
+   "meaning": "Tham gia vào cái gì đó"
+  },
+  {
+   "word": "we’ve been mates ever since.",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Chúng tôi đã là bạn bè kể từ đó đến nay"
+  },
+  {
+   "word": "current",
+   "ipa": "/ˈkɝː.ənt/",
+   "pos": "Adj",
+   "meaning": "Hiện tại, đang diễn ra, hiện hành"
+  },
+  {
+   "word": "develop an effective strategy",
+   "ipa": "/ˈstræt̬.ə.dʒi/",
+   "pos": "Noun",
+   "meaning": "Xây dựng 1 chiến lược hiệu quả"
+  },
+  {
+   "word": "tile",
+   "ipa": "/taɪl/",
+   "pos": "",
+   "meaning": "gạch lát/ốp"
+  },
+  {
+   "word": "cushion",
+   "ipa": "/ˈkʊʃ.ən/",
+   "pos": "",
+   "meaning": "đệm/gối tựa"
+  },
+  {
+   "word": "carpet",
+   "ipa": "/ˈkɑːr.pət/",
+   "pos": "",
+   "meaning": "thảm trải sàn"
+  },
+  {
+   "word": "wooden floor",
+   "ipa": "",
+   "pos": "",
+   "meaning": "sàn gỗ"
+  },
+  {
+   "word": "blinds",
+   "ipa": "",
+   "pos": "",
+   "meaning": "rèm sáo/rèm cuốn"
+  },
+  {
+   "word": "duvet",
+   "ipa": "/duːˈveɪ/",
+   "pos": "",
+   "meaning": "chăn bông/chăn dày"
+  },
+  {
+   "word": "share a bedroom",
+   "ipa": "",
+   "pos": "",
+   "meaning": "ở chung / dùng chung phòng ngủ"
+  },
+  {
+   "word": "have dinner in the dining room",
+   "ipa": "",
+   "pos": "",
+   "meaning": "ăn tối trong phòng ăn"
+  },
+  {
+   "word": "work in the study",
+   "ipa": "",
+   "pos": "",
+   "meaning": "làm việc trong phòng làm việc"
+  },
+  {
+   "word": "kitchen sink",
+   "ipa": "",
+   "pos": "",
+   "meaning": "bồn rửa trong bếp"
+  },
+  {
+   "word": "a fridge-freezer",
+   "ipa": "/ˌfrɪdʒˈfriː.zɚ/",
+   "pos": "",
+   "meaning": "tủ lạnh kết hợp ngăn/tủ đông"
+  },
+  {
+   "word": "use the washing machine",
+   "ipa": "",
+   "pos": "",
+   "meaning": "sử dụng máy giặt"
+  },
+  {
+   "word": "floor tiles",
+   "ipa": "/taɪl/",
+   "pos": "",
+   "meaning": "gạch lát sàn"
+  },
+  {
+   "word": "a big soft sofa",
+   "ipa": "",
+   "pos": "",
+   "meaning": "một chiếc sofa lớn, mềm"
+  },
+  {
+   "word": "sofa cushions",
+   "ipa": "",
+   "pos": "",
+   "meaning": "gối/đệm tựa trên sofa"
+  },
+  {
+   "word": "get through + N",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "vượt qua/hoàn thành (Kể về kỳ thi hoặc giai đoạn khó khăn)"
+  },
+  {
+   "word": "rucksack",
+   "ipa": "/ˈrʌk.sæk/",
+   "pos": "Noun",
+   "meaning": "ba lô (thường gợi đến ba lô dùng khi đi bộ, đi chơI)"
+  },
+  {
+   "word": "be short on time",
+   "ipa": "/biː ʃɔːrt ɒn taɪm/",
+   "pos": "Collocation",
+   "meaning": "thiếu thời gian, không có nhiều thời gian"
+  },
+  {
+   "word": "veal",
+   "ipa": "/viːl/",
+   "pos": "Noun",
+   "meaning": "thịt bê"
+  },
+  {
+   "word": "lamb",
+   "ipa": "/læm/",
+   "pos": "Noun",
+   "meaning": "thịt cừu non"
+  },
+  {
+   "word": "mackerel",
+   "ipa": "/ˈmækrəl/",
+   "pos": "Noun",
+   "meaning": "cá thu"
+  },
+  {
+   "word": "agree not to withdraw sth",
+   "ipa": "/əˈɡriː nɒt tə wɪðˈdrɔː/",
+   "pos": "Collocation",
+   "meaning": "đồng ý/cam kết không rút thứ gì"
+  },
+  {
+   "word": "boil something (in a saucepan)",
+   "ipa": "/bɔɪl ˈsʌmθɪŋ/",
+   "pos": "Collocation",
+   "meaning": "luộc, đun sôi cái gì (trong nồi)"
+  },
+  {
+   "word": "fry something (in a frying pan)",
+   "ipa": "/fraɪ ˈsʌmθɪŋ/",
+   "pos": "Collocation",
+   "meaning": "chiên, rán cái gì (trong chảo)"
+  },
+  {
+   "word": "grill something (under a grill)",
+   "ipa": "/ɡrɪl ˈsʌmθɪŋ/",
+   "pos": "Collocation",
+   "meaning": "nướng vỉ cái gì (nhiệt từ phía trên)"
+  },
+  {
+   "word": "roast something (in the oven)",
+   "ipa": "/rəʊst ˈsʌmθɪŋ/",
+   "pos": "Collocation",
+   "meaning": "quay cái gì trong lò (có dầu/mỡ)"
+  },
+  {
+   "word": "bake something (in the oven)",
+   "ipa": "/beɪk ˈsʌmθɪŋ/",
+   "pos": "Collocation",
+   "meaning": "nướng cái gì trong lò (bánh, không dầu)"
+  },
+  {
+   "word": "a good cook",
+   "ipa": "/ə ɡʊd kʊk/",
+   "pos": "Noun",
+   "meaning": "người nấu ăn giỏi"
+  },
+  {
+   "word": "on the banks of the river",
+   "ipa": "/ɒn ðə bæŋks əv ðə ˈrɪv.ər/",
+   "pos": "Collocation",
+   "meaning": "bên bờ sông"
+  },
+  {
+   "word": "woods",
+   "ipa": "/wʊdz/",
+   "pos": "Noun",
+   "meaning": "khu rừng nhỏ, khu cây cối"
+  },
+  {
+   "word": "scenery",
+   "ipa": "/ˈsiː.nər.i/",
+   "pos": "Noun",
+   "meaning": "phong cảnh"
+  },
+  {
+   "word": "have a wide vocabulary",
+   "ipa": "/hæv ə waɪd vəˈkæbjələri/",
+   "pos": "Phrase V",
+   "meaning": "có vốn từ vựng phong phú"
+  },
+  {
+   "word": "accurately",
+   "ipa": "/ˈækjərətli/",
+   "pos": "Adv",
+   "meaning": "một cách chính xác"
+  },
+  {
+   "word": "become more fluent",
+   "ipa": "/ˈfluːənt/",
+   "pos": "Collocation",
+   "meaning": "lưu loát"
+  },
+  {
+   "word": "fluently",
+   "ipa": "/ˈfluːəntli/",
+   "pos": "Adv",
+   "meaning": "một cách lưu loát"
+  },
+  {
+   "word": "have a good/bad accent",
+   "ipa": "/ˈæksent/",
+   "pos": "Collocation",
+   "meaning": "phát âm (giọng) tốt/chưa tốt"
+  },
+  {
+   "word": "consonant",
+   "ipa": "/ˈkɒnsənənt/",
+   "pos": "Noun",
+   "meaning": "phụ âm"
+  },
+  {
+   "word": "vowel",
+   "ipa": "/ˈvaʊəl/",
+   "pos": "Noun",
+   "meaning": "nguyên âm"
+  },
+  {
+   "word": "alphabet",
+   "ipa": "/ˈælfəbet/",
+   "pos": "Noun",
+   "meaning": "bảng chữ cái"
+  },
+  {
+   "word": "make yourself understood",
+   "ipa": "/meɪk jɔːˈself ˌʌndəˈstʊd/",
+   "pos": "Collocation",
+   "meaning": "diễn đạt để người khác hiểu mình"
+  },
+  {
+   "word": "increase your vocabulary",
+   "ipa": "/ɪnˈkriːs jɔː vəˈkæbjələri/",
+   "pos": "Collocation",
+   "meaning": "mở rộng vốn từ"
+  },
+  {
+   "word": "be willing to do sth",
+   "ipa": "/bi ˈwɪlɪŋ tə/",
+   "pos": "Collocation",
+   "meaning": "sẵn sàng làm gì"
+  },
+  {
+   "word": "experiment with sth",
+   "ipa": "/ɪkˈsperɪment wɪð/",
+   "pos": "Collocation",
+   "meaning": "thử nghiệm, thử cách mới với điều gì"
+  },
+  {
+   "word": "get things wrong",
+   "ipa": "/ɡet θɪŋz rɒŋ/",
+   "pos": "Phrase V",
+   "meaning": "làm sai, hiểu sai cái gì"
+  },
+  {
+   "word": "learn from your mistakes",
+   "ipa": "/lɜːn frəm jɔː mɪˈsteɪks/",
+   "pos": "Phrase V",
+   "meaning": "học từ những lỗi sai của mình"
+  },
+  {
+   "word": "make progress",
+   "ipa": "/meɪk ˈprəʊɡres/",
+   "pos": "Phrase V",
+   "meaning": "tiến bộ"
+  },
+  {
+   "word": "pick things up",
+   "ipa": "/pɪk θɪŋz ʌp/",
+   "pos": "Phrase V",
+   "meaning": "học được (một cách tự nhiên, không cố gắng)"
+  },
+  {
+   "word": "have a good ear for language",
+   "ipa": "/hæv ə ɡʊd ɪə fə ˈlæŋɡwɪdʒ/",
+   "pos": "Collocation",
+   "meaning": "có khả năng nghe, bắt chước và nhận biết âm thanh ngôn ngữ tốt"
+  },
+  {
+   "word": "language learner",
+   "ipa": "/ˈlæŋɡwɪdʒ ˈlɜːnə/",
+   "pos": "Phrase N",
+   "meaning": "người học ngôn ngữ"
+  },
+  {
+   "word": "get on",
+   "ipa": "/ɡet ɒn/",
+   "pos": "Phrase V",
+   "meaning": "tiến triển, học hành/làm việc thế nào"
+  },
+  {
+   "word": "in particular",
+   "ipa": "/ɪn pəˈtɪkjələ/",
+   "pos": "Collocation",
+   "meaning": "đặc biệt là, cụ thể là"
+  },
+  {
+   "word": "have problems with something",
+   "ipa": "/hæv ˈprɒbləmz wɪð/",
+   "pos": "Collocation",
+   "meaning": "gặp khó khăn với cái gì"
+  }
+ ],
+ "passages": [
+  {
+   "title": "Redesigning a Small Flat",
+   "text": "When Mai moved into her first flat, the rooms felt cold and empty. The bathroom had a cracked **tile** beside the bath, and the living room was covered with an ugly grey **carpet**. Her first job was to pull it up. Underneath she found a beautiful **wooden floor**, which only needed some polish to shine again.\n\nNext, she turned to comfort. Daylight was too strong in the afternoon, so she hung white **blinds** that she could roll up or down. In the living room she bought **a big soft sofa**, perfect for watching films on rainy weekends, and she covered it with four colourful **sofa cushions**. One small **cushion** with a floral pattern became her favourite, and she often put it behind her back when she read a novel.\n\nIn the bedroom she chose a warm **duvet** for the winter months, because the flat gets chilly at night. \"It doesn't look like a magazine photo,\" she says, \"but it finally feels like home.\"",
+   "summary_vi": "Mai cải tạo căn hộ đầu tiên của mình bằng cách bỏ thảm, lộ ra sàn gỗ và thêm rèm, ghế sofa và chăn ấm.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "tile",
+       "definition": "a flat square piece of ceramic used to cover floors, walls or roofs",
+       "explain": "Gạch (tile) là miếng gốm phẳng dùng để ốp tường hoặc lát sàn; bài nói có viên gạch bị nứt cạnh bồn tắm."
+      },
+      {
+       "word": "cushion",
+       "definition": "a soft bag filled with material, used to make a seat more comfortable",
+       "explain": "Cushion là cái gối/đệm tựa; Mai đặt nó sau lưng khi đọc sách."
+      },
+      {
+       "word": "carpet",
+       "definition": "thick soft material used to cover a whole floor",
+       "explain": "Carpet là thảm trải sàn; Mai phải gỡ tấm thảm xám xấu xí ra."
+      },
+      {
+       "word": "wooden floor",
+       "definition": "a floor made of boards of wood",
+       "explain": "Dưới tấm thảm là sàn gỗ (wooden floor) chỉ cần đánh bóng lại."
+      },
+      {
+       "word": "blinds",
+       "definition": "coverings for a window that can be rolled or pulled up and down",
+       "explain": "Blinds là rèm sáo/rèm cuốn có thể kéo lên xuống để chắn nắng."
+      },
+      {
+       "word": "duvet",
+       "definition": "a thick soft cover filled with feathers or similar material, used on a bed",
+       "explain": "Duvet là chăn bông dày dùng cho mùa đông, phù hợp với căn hộ lạnh vào ban đêm."
+      },
+      {
+       "word": "a big soft sofa",
+       "definition": "a large comfortable seat for two or three people",
+       "explain": "Đây là chiếc ghế sofa lớn và mềm để xem phim thoải mái."
+      },
+      {
+       "word": "sofa cushions",
+       "definition": "soft pillows placed on a sofa for comfort or decoration",
+       "explain": "Sofa cushions là các gối tựa trên ghế sofa; Mai đặt bốn chiếc nhiều màu."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the word bank.",
+     "wordBank": [
+      "a big soft sofa",
+      "blinds",
+      "carpet",
+      "cushion",
+      "duvet",
+      "sofa cushions",
+      "tile",
+      "wooden floor"
+     ],
+     "items": [
+      {
+       "q": "One ____ fell off the kitchen wall and broke on the counter.",
+       "answer": "tile",
+       "explain": "Cần danh từ số ít chỉ viên gạch ốp tường bị rơi vỡ."
+      },
+      {
+       "q": "She put a ____ behind her back to sit more comfortably at her desk.",
+       "answer": "cushion",
+       "explain": "Cái gối tựa đặt sau lưng giúp ngồi thoải mái hơn."
+      },
+      {
+       "q": "We took off our shoes at the door so we would not dirty the new ____.",
+       "answer": "carpet",
+       "explain": "Tháo giày để khỏi làm bẩn tấm thảm trải sàn mới."
+      },
+      {
+       "q": "The old house has a lovely ____ that creaks when you walk across it.",
+       "answer": "wooden floor",
+       "explain": "Sàn gỗ cũ thường phát ra tiếng kẽo kẹt khi bước đi."
+      },
+      {
+       "q": "Please close the ____ because the sun is shining straight onto the screen.",
+       "answer": "blinds",
+       "explain": "Rèm sáo được kéo xuống để chắn nắng chiếu vào màn hình."
+      },
+      {
+       "q": "It was so cold that I pulled the ____ right up to my chin.",
+       "answer": "duvet",
+       "explain": "Khi lạnh người ta kéo chăn bông lên tận cằm."
+      },
+      {
+       "q": "After a long shift, nothing is better than lying on ____.",
+       "answer": "a big soft sofa",
+       "explain": "Sau ca làm dài, nằm trên ghế sofa lớn và mềm là thoải mái nhất."
+      },
+      {
+       "q": "The children built a fort using the ____ and some blankets.",
+       "answer": "sofa cushions",
+       "explain": "Trẻ con thường dùng các gối tựa sofa để dựng pháo đài."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "What did Mai find under the old carpet?",
+       "options": [
+        "A concrete floor",
+        "A wooden floor",
+        "Some broken tiles",
+        "A layer of paper"
+       ],
+       "answer": 1,
+       "explain": "Bài viết nói bên dưới tấm thảm cô tìm thấy một sàn gỗ đẹp."
+      },
+      {
+       "q": "Why did Mai hang white blinds?",
+       "options": [
+        "The room was too dark",
+        "Her neighbours could see inside",
+        "The afternoon daylight was too strong",
+        "She wanted to hide the wooden floor"
+       ],
+       "answer": 2,
+       "explain": "Bài nói ánh sáng ban ngày quá chói vào buổi chiều nên cô treo rèm."
+      },
+      {
+       "q": "Where does Mai put her favourite small cushion?",
+       "options": [
+        "On the bed",
+        "Behind her back when she reads",
+        "Under her feet",
+        "On the bathroom floor"
+       ],
+       "answer": 1,
+       "explain": "Chiếc gối nhỏ hoa văn được cô đặt sau lưng khi đọc tiểu thuyết."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "There was a cracked tile in the bathroom.",
+       "answer": "True",
+       "explain": "Bài viết nói phòng tắm có một viên gạch nứt cạnh bồn tắm."
+      },
+      {
+       "q": "Mai bought the sofa online.",
+       "answer": "Not Given",
+       "explain": "Bài không nói cô mua sofa ở đâu hay bằng cách nào."
+      },
+      {
+       "q": "Mai chose a duvet because it is warm in winter.",
+       "answer": "True",
+       "explain": "Bài nói cô chọn chăn bông ấm cho những tháng mùa đông."
+      },
+      {
+       "q": "Mai thinks her flat looks like a magazine photo.",
+       "answer": "False",
+       "explain": "Cô nói căn hộ không giống ảnh trong tạp chí nhưng cuối cùng cảm thấy như nhà."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Busy Family Home",
+   "text": "The Nguyen family lives in a three-storey house in Da Nang, and every room has a clear purpose. The two younger brothers **share a bedroom**, which they decorate with football posters. On weekdays the whole family is rarely together, but on Sundays they always **have dinner in the dining room** around a large wooden table.\n\nTheir father is a translator, so he likes to **work in the study** on the first floor, where it is quiet. Downstairs, the kitchen is the busiest place in the house. Beside the **kitchen sink** stands a shiny steel cabinet, and next to it there is **a fridge-freezer** that is big enough to store a week of food. The grey **floor tiles** are easy to clean, which is important with two active boys.\n\nTheir mother handles the laundry at the back of the house. \"I **use the washing machine** every evening,\" she says, \"otherwise the pile of sports clothes becomes impossible.\" Despite all the work, the family agrees that this house is exactly what they need.",
+   "summary_vi": "Một gia đình ba tầng ở Đà Nẵng, nơi mỗi phòng đều có công dụng riêng, từ phòng ngủ chung đến phòng làm việc và bếp.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "share a bedroom",
+       "definition": "to sleep in the same room as another person",
+       "explain": "Share nghĩa là dùng chung; hai cậu em trai ngủ chung một phòng."
+      },
+      {
+       "word": "have dinner in the dining room",
+       "definition": "to eat the evening meal in the room used for meals",
+       "explain": "Cả nhà ăn tối ở phòng ăn quanh bàn gỗ lớn vào Chủ nhật."
+      },
+      {
+       "word": "work in the study",
+       "definition": "to do work in a quiet room in a house used for reading and writing",
+       "explain": "Người cha là dịch giả nên làm việc trong phòng làm việc yên tĩnh."
+      },
+      {
+       "word": "kitchen sink",
+       "definition": "a fixed basin in a kitchen where you wash dishes and food",
+       "explain": "Kitchen sink là bồn rửa trong bếp, nằm cạnh tủ thép sáng bóng."
+      },
+      {
+       "word": "a fridge-freezer",
+       "definition": "a tall appliance with a refrigerator and a freezer together",
+       "explain": "A fridge-freezer là tủ lạnh có cả ngăn đông, đủ chứa thực phẩm cả tuần."
+      },
+      {
+       "word": "use the washing machine",
+       "definition": "to clean clothes with an electric machine",
+       "explain": "Người mẹ giặt đồ thể thao mỗi tối bằng máy giặt."
+      },
+      {
+       "word": "floor tiles",
+       "definition": "flat pieces of ceramic or stone used to cover a floor",
+       "explain": "Gạch lát sàn màu xám dễ lau chùi, hợp với hai cậu bé hiếu động."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the word bank.",
+     "wordBank": [
+      "a fridge-freezer",
+      "floor tiles",
+      "have dinner in the dining room",
+      "kitchen sink",
+      "share a bedroom",
+      "use the washing machine",
+      "work in the study"
+     ],
+     "items": [
+      {
+       "q": "When my cousins visit, we ____ because the house has only three rooms.",
+       "answer": "share a bedroom",
+       "explain": "Nhà chỉ có ba phòng nên các anh em họ phải ngủ chung phòng."
+      },
+      {
+       "q": "At weekends we usually ____ with our grandparents, not in front of the TV.",
+       "answer": "have dinner in the dining room",
+       "explain": "Ăn tối ở phòng ăn thay vì trước TV."
+      },
+      {
+       "q": "My mother prefers to ____ because she needs silence for her reports.",
+       "answer": "work in the study",
+       "explain": "Cần yên tĩnh cho báo cáo nên bà làm việc trong phòng làm việc."
+      },
+      {
+       "q": "Please don't leave dirty plates in the ____ overnight.",
+       "answer": "kitchen sink",
+       "explain": "Đĩa bẩn thường để trong bồn rửa bếp."
+      },
+      {
+       "q": "We bought ____ so that we could keep ice cream and milk in the same appliance.",
+       "answer": "a fridge-freezer",
+       "explain": "Một thiết bị chứa cả kem (đông) và sữa (lạnh) là tủ lạnh kết hợp ngăn đông."
+      },
+      {
+       "q": "I only ____ when I have a full load of clothes.",
+       "answer": "use the washing machine",
+       "explain": "Chỉ giặt máy khi đủ một mẻ quần áo."
+      },
+      {
+       "q": "Mop the ____ regularly; they get slippery when they are wet.",
+       "answer": "floor tiles",
+       "explain": "Gạch lát sàn trơn khi ướt nên cần lau thường xuyên."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "What do the two younger brothers do together?",
+       "options": [
+        "They study in the same room",
+        "They share a bedroom",
+        "They cook dinner",
+        "They work with their father"
+       ],
+       "answer": 1,
+       "explain": "Bài viết nói hai cậu em share a bedroom (ngủ chung phòng)."
+      },
+      {
+       "q": "Why does the father like working in the study?",
+       "options": [
+        "It has a big window",
+        "It is near the kitchen",
+        "It is quiet",
+        "It has a television"
+       ],
+       "answer": 2,
+       "explain": "Ông thích phòng làm việc ở tầng một vì nơi đó yên tĩnh."
+      },
+      {
+       "q": "Why are the floor tiles useful for this family?",
+       "options": [
+        "They are very cheap",
+        "They are easy to clean",
+        "They keep the house warm",
+        "They match the table"
+       ],
+       "answer": 1,
+       "explain": "Gạch lát sàn dễ lau chùi, quan trọng khi có hai cậu bé hiếu động."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "The family lives in a three-storey house.",
+       "answer": "True",
+       "explain": "Câu đầu: gia đình sống trong ngôi nhà ba tầng ở Đà Nẵng."
+      },
+      {
+       "q": "The whole family has dinner together every evening.",
+       "answer": "False",
+       "explain": "Chỉ vào Chủ nhật họ mới luôn ăn cùng nhau; ngày thường hiếm khi đủ người."
+      },
+      {
+       "q": "The father works as a teacher.",
+       "answer": "False",
+       "explain": "Người cha là dịch giả (translator), không phải giáo viên."
+      },
+      {
+       "q": "The mother has a part-time job.",
+       "answer": "Not Given",
+       "explain": "Bài không nói gì về công việc của người mẹ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Learning to Cook at Fifty",
+   "text": "At fifty, Hung decided to join a cooking class because he was tired of ready meals. \"I want to become **a good cook**,\" he told the teacher. The first lesson was about meat and fish. The teacher explained that **veal** comes from young cows and is very tender, while **lamb** is the meat of young sheep and has a stronger flavour. For fish, she recommended **mackerel**, which is cheap, rich in oil and healthy.\n\nThen came the methods. For beginners, the easiest way is to **boil** potatoes or eggs in a saucepan with plenty of water. Next, the students learned to **fry** onions in a frying pan until they turned golden. A piece of fish tastes wonderful if you **grill** it under a hot grill for just a few minutes. For Sunday lunch, you can **roast** a leg of lamb in the oven with oil and herbs, but if you prefer something sweet, **bake** a cake with flour, eggs and sugar instead.\n\nBy the end of the course, Hung was proud of his progress. His family, he says, has stopped ordering takeaway completely.",
+   "summary_vi": "Ở tuổi năm mươi, ông Hùng tham gia lớp nấu ăn để học về thịt, cá và các cách chế biến cơ bản.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "veal",
+       "definition": "the meat of a young cow (calf)",
+       "explain": "Veal là thịt bê, mềm vì lấy từ bò con."
+      },
+      {
+       "word": "lamb",
+       "definition": "the meat of a young sheep",
+       "explain": "Lamb là thịt cừu non, có vị đậm hơn thịt bê."
+      },
+      {
+       "word": "mackerel",
+       "definition": "an oily sea fish with a strong flavour",
+       "explain": "Mackerel là cá thu, rẻ, nhiều dầu và tốt cho sức khỏe."
+      },
+      {
+       "word": "boil something (in a saucepan)",
+       "definition": "to cook food in water that is bubbling",
+       "explain": "Boil là luộc/đun sôi, cách dễ nhất cho người mới như luộc khoai, trứng."
+      },
+      {
+       "word": "fry something (in a frying pan)",
+       "definition": "to cook food in hot oil or fat in a pan",
+       "explain": "Fry là chiên/rán trong chảo, như rán hành cho vàng."
+      },
+      {
+       "word": "grill something (under a grill)",
+       "definition": "to cook food using strong heat from above",
+       "explain": "Grill là nướng vỉ với nhiệt từ phía trên, hợp với cá trong vài phút."
+      },
+      {
+       "word": "roast something (in the oven)",
+       "definition": "to cook meat in an oven using oil or fat",
+       "explain": "Roast là quay trong lò với dầu/mỡ, như quay đùi cừu."
+      },
+      {
+       "word": "bake something (in the oven)",
+       "definition": "to cook cakes or bread in an oven with dry heat",
+       "explain": "Bake là nướng bánh trong lò, không dùng nhiều dầu."
+      },
+      {
+       "word": "a good cook",
+       "definition": "a person who prepares food very well",
+       "explain": "A good cook là người nấu ăn giỏi, mục tiêu của ông Hùng."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the word bank.",
+     "wordBank": [
+      "a good cook",
+      "bake",
+      "boil",
+      "fry",
+      "grill",
+      "lamb",
+      "mackerel",
+      "roast",
+      "veal"
+     ],
+     "items": [
+      {
+       "q": "The restaurant's special is thin slices of ____ served with lemon.",
+       "answer": "veal",
+       "explain": "Thịt bê cắt lát mỏng là món đặc biệt kinh điển."
+      },
+      {
+       "q": "On Easter Sunday, many families eat ____ with mint sauce.",
+       "answer": "lamb",
+       "explain": "Thịt cừu non ăn kèm sốt bạc hà là món truyền thống."
+      },
+      {
+       "q": "This oily fish, ____, is rich in omega-3 and is often sold smoked.",
+       "answer": "mackerel",
+       "explain": "Cá thu nhiều dầu, giàu omega-3 và thường được hun khói."
+      },
+      {
+       "q": "To make pasta, first ____ some salted water in a large pot.",
+       "answer": "boil",
+       "explain": "Đun sôi nước trước khi cho mì vào."
+      },
+      {
+       "q": "Please ____ the eggs gently so that the yolk stays soft.",
+       "answer": "fry",
+       "explain": "Rán trứng trong chảo cho lòng đỏ còn mềm."
+      },
+      {
+       "q": "You can ____ the sausages under the top heat of the cooker if you want them crispy.",
+       "answer": "grill",
+       "explain": "Nướng vỉ bằng nhiệt phía trên làm xúc xích giòn."
+      },
+      {
+       "q": "My grandfather likes to ____ a whole chicken in the oven every Sunday.",
+       "answer": "roast",
+       "explain": "Quay cả con gà trong lò là cách nấu truyền thống."
+      },
+      {
+       "q": "I will ____ some bread this evening and the whole house will smell wonderful.",
+       "answer": "bake",
+       "explain": "Bread (bánh mì) được nướng trong lò nên dùng bake."
+      },
+      {
+       "q": "Everyone says my aunt is ____, so we always eat at her house at festivals.",
+       "answer": "a good cook",
+       "explain": "Dì nấu ăn giỏi nên cả nhà ăn ở nhà dì dịp lễ."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "Why did Hung join the cooking class?",
+       "options": [
+        "He lost his job",
+        "He was tired of ready meals",
+        "His wife asked him to",
+        "He wanted to open a restaurant"
+       ],
+       "answer": 1,
+       "explain": "Bài viết nói ông chán các bữa ăn làm sẵn."
+      },
+      {
+       "q": "What does the teacher say about mackerel?",
+       "options": [
+        "It is expensive but tasty",
+        "It is hard to cook",
+        "It is cheap and healthy",
+        "It is the same as veal"
+       ],
+       "answer": 2,
+       "explain": "Cô giáo nói cá thu rẻ, giàu dầu và tốt cho sức khỏe."
+      },
+      {
+       "q": "What is the easiest cooking method for beginners?",
+       "options": [
+        "To roast lamb",
+        "To bake a cake",
+        "To grill fish",
+        "To boil potatoes or eggs"
+       ],
+       "answer": 3,
+       "explain": "Bài nói cách dễ nhất cho người mới là luộc khoai hoặc trứng."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Veal comes from older cows.",
+       "answer": "False",
+       "explain": "Veal là thịt từ bò con (young cows), không phải bò già."
+      },
+      {
+       "q": "Lamb has a stronger flavour than veal.",
+       "answer": "True",
+       "explain": "Bài nói thịt cừu có vị đậm hơn, còn thịt bê rất mềm."
+      },
+      {
+       "q": "Hung is fifty years old.",
+       "answer": "True",
+       "explain": "Câu đầu: At fifty, Hung decided to join a cooking class."
+      },
+      {
+       "q": "The cooking course lasted three months.",
+       "answer": "Not Given",
+       "explain": "Bài không nêu thời lượng khóa học."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Weekend Walk",
+   "text": "Last Saturday, Lan and her cousin took a trip to a small village near Hue. They knew they would **be short on time**, so they planned only a half-day walk and packed everything into one **rucksack**. They left at dawn, and the path led through some cool **woods**, where birds were singing in every tree.\n\nAfter an hour they reached a wide open space **on the banks of the river**, and they sat down to rest and eat their sandwiches. The **scenery** was stunning: green hills, white clouds and little fishing boats floating slowly past. Lan took many photos, but her cousin slipped on the wet grass while trying to get a better view. When he stood up, he laughed loudly. \"Look at me! I **have got** mud **on** my trousers!\"\n\nThey walked back to the bus stop tired but happy, and they promised to return in the rainy season.",
+   "summary_vi": "Lan và anh họ đi bộ nửa ngày gần Huế, nghỉ bên bờ sông, ngắm cảnh và bị lấm bùn.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "have got st on st",
+       "definition": "to have something stuck on or covering something",
+       "explain": "Have got mud on my trousers = quần dính bùn."
+      },
+      {
+       "word": "rucksack",
+       "definition": "a bag carried on the back, used for walking trips",
+       "explain": "Rucksack là ba lô đi đường; họ nhét mọi thứ vào một chiếc."
+      },
+      {
+       "word": "be short on time",
+       "definition": "to not have much time available",
+       "explain": "Vì không có nhiều thời gian nên họ chỉ lên kế hoạch đi nửa ngày."
+      },
+      {
+       "word": "on the banks of the river",
+       "definition": "on the land along the side of a river",
+       "explain": "Banks là bờ sông; họ nghỉ chân bên bờ sông."
+      },
+      {
+       "word": "woods",
+       "definition": "a small forest; an area with many trees",
+       "explain": "Woods là khu rừng nhỏ, nơi chim hót trên từng cây."
+      },
+      {
+       "word": "scenery",
+       "definition": "the natural features of a place such as hills and rivers",
+       "explain": "Scenery là phong cảnh, gồm đồi xanh, mây trắng và thuyền đánh cá."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the word bank.",
+     "wordBank": [
+      "be short on time",
+      "have got",
+      "on the banks of the river",
+      "rucksack",
+      "scenery",
+      "woods"
+     ],
+     "items": [
+      {
+       "q": "Be careful! You ____ paint on your sleeve.",
+       "answer": "have got",
+       "explain": "Have got ... on = dính (sơn) lên tay áo."
+      },
+      {
+       "q": "Pack a raincoat and a bottle of water in your ____ before we leave.",
+       "answer": "rucksack",
+       "explain": "Đồ mang theo khi đi bộ được đựng trong ba lô."
+      },
+      {
+       "q": "If you ____, take the express train instead of the local one.",
+       "answer": "be short on time",
+       "explain": "Không có nhiều thời gian thì nên đi tàu nhanh."
+      },
+      {
+       "q": "We set up our picnic ____, where the grass was soft and green.",
+       "answer": "on the banks of the river",
+       "explain": "Chỗ có cỏ mềm để dã ngoại là bên bờ sông."
+      },
+      {
+       "q": "A fox ran out of the ____ and disappeared into the field.",
+       "answer": "woods",
+       "explain": "Con cáo chạy ra từ khu rừng nhỏ."
+      },
+      {
+       "q": "Tourists come to the mountains mainly for the beautiful ____.",
+       "answer": "scenery",
+       "explain": "Du khách đến vùng núi chủ yếu vì phong cảnh đẹp."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "What kind of trip did Lan and her cousin plan?",
+       "options": [
+        "A week-long hike",
+        "A half-day walk",
+        "A boat tour",
+        "A bike ride"
+       ],
+       "answer": 1,
+       "explain": "Vì ít thời gian họ chỉ lên kế hoạch một chuyến đi bộ nửa ngày."
+      },
+      {
+       "q": "Where did they stop to rest?",
+       "options": [
+        "In a village café",
+        "Inside the woods",
+        "On the banks of the river",
+        "At the bus stop"
+       ],
+       "answer": 2,
+       "explain": "Sau một giờ họ dừng nghỉ bên bờ sông."
+      },
+      {
+       "q": "What happened to Lan's cousin?",
+       "options": [
+        "He lost his rucksack",
+        "He slipped and got mud on his trousers",
+        "He fell into the river",
+        "He missed the bus"
+       ],
+       "answer": 1,
+       "explain": "Anh họ trượt trên cỏ ướt và quần bị dính bùn."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "They left the village at dawn.",
+       "answer": "True",
+       "explain": "Bài viết nói họ rời đi vào lúc bình minh."
+      },
+      {
+       "q": "Lan's cousin took the photos.",
+       "answer": "False",
+       "explain": "Chính Lan chụp nhiều ảnh, không phải anh họ."
+      },
+      {
+       "q": "They saw fishing boats on the river.",
+       "answer": "True",
+       "explain": "Cảnh có những chiếc thuyền đánh cá nhỏ trôi chậm."
+      },
+      {
+       "q": "They plan to return in the dry season.",
+       "answer": "False",
+       "explain": "Họ hứa sẽ quay lại vào mùa mưa (rainy season)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Speaking Clearly in English",
+   "text": "Many learners worry about how they sound when they speak English. In fact, you can **have a good accent** without sounding like a native speaker; what matters is clarity. The first step is to learn the **alphabet** properly, because each letter name contains a sound that you must produce correctly. English has about twenty **consonant** sounds, such as /p/, /t/ and /s/, and twelve pure **vowel** sounds, such as /i:/ and /æ/. Vietnamese speakers often leave out final consonants, so it is useful to record your voice and listen to it carefully.\n\nPronouncing each word **accurately** takes time, but speed can come later. Teachers say that learners who speak **fluently** are not always the most accurate, and that is perfectly normal. To **become more fluent**, read aloud for ten minutes every day and repeat short phrases until they feel natural.\n\nFinally, remember that the real goal is to **make yourself understood**, not to be perfect. If the listener understands your message, you are already communicating successfully.",
+   "summary_vi": "Bài viết giải thích cách luyện phát âm, nguyên âm, phụ âm và sự lưu loát để người khác hiểu được mình.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "accurately",
+       "definition": "without mistakes; exactly",
+       "explain": "Accurately là một cách chính xác, không sai âm."
+      },
+      {
+       "word": "become more fluent",
+       "definition": "to start speaking more smoothly and easily",
+       "explain": "Để nói lưu loát hơn, bài khuyên đọc to mỗi ngày."
+      },
+      {
+       "word": "fluently",
+       "definition": "smoothly and easily, without stopping often",
+       "explain": "Fluently là lưu loát, nói trôi chảy mà không ngập ngừng."
+      },
+      {
+       "word": "have a good/bad accent",
+       "definition": "to pronounce a language in a clear and natural way",
+       "explain": "Have a good accent là phát âm (giọng) tốt, rõ ràng và tự nhiên."
+      },
+      {
+       "word": "consonant",
+       "definition": "a speech sound made by blocking air, such as /p/ or /s/",
+       "explain": "Consonant là phụ âm, ví dụ /p/, /t/, /s/."
+      },
+      {
+       "word": "vowel",
+       "definition": "a speech sound made without blocking air, such as /i:/",
+       "explain": "Vowel là nguyên âm, ví dụ /i:/ và /æ/."
+      },
+      {
+       "word": "alphabet",
+       "definition": "the set of letters used in a language",
+       "explain": "Alphabet là bảng chữ cái; tên mỗi chữ chứa một âm."
+      },
+      {
+       "word": "make yourself understood",
+       "definition": "to communicate so that other people know what you mean",
+       "explain": "Mục tiêu thực sự là diễn đạt để người khác hiểu mình."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the word bank.",
+     "wordBank": [
+      "accurately",
+      "alphabet",
+      "become more fluent",
+      "consonant",
+      "fluently",
+      "have a good accent",
+      "make yourself understood",
+      "vowel"
+     ],
+     "items": [
+      {
+       "q": "The scale can measure weight very ____.",
+       "answer": "accurately",
+       "explain": "Cần trạng từ nghĩa là rất chính xác."
+      },
+      {
+       "q": "Watching films without subtitles can help you ____.",
+       "answer": "become more fluent",
+       "explain": "Xem phim không phụ đề giúp bạn nói lưu loát hơn."
+      },
+      {
+       "q": "After living in Paris for ten years, she speaks French ____.",
+       "answer": "fluently",
+       "explain": "Sống mười năm ở Paris nên cô nói tiếng Pháp lưu loát."
+      },
+      {
+       "q": "Her teacher says she can ____ because her intonation is natural and clear.",
+       "answer": "have a good accent",
+       "explain": "Ngữ điệu tự nhiên và rõ ràng nghĩa là phát âm/giọng tốt."
+      },
+      {
+       "q": "The word 'strong' begins with three ____ sounds.",
+       "answer": "consonant",
+       "explain": "Chữ s-t-r là ba phụ âm đứng liền nhau."
+      },
+      {
+       "q": "The letter 'a' can represent a different ____ sound in 'cat' and 'cake'.",
+       "answer": "vowel",
+       "explain": "Chữ a thể hiện các nguyên âm khác nhau trong hai từ."
+      },
+      {
+       "q": "Children in Britain learn the ____ by singing a song from A to Z.",
+       "answer": "alphabet",
+       "explain": "Hát từ A đến Z là cách học bảng chữ cái."
+      },
+      {
+       "q": "When you travel, a few key phrases will help you ____ even if your grammar is weak.",
+       "answer": "make yourself understood",
+       "explain": "Vài cụm từ then chốt giúp người khác hiểu bạn."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "According to the writer, what is the real goal when speaking?",
+       "options": [
+        "Sounding like a native speaker",
+        "Speaking as fast as possible",
+        "Making yourself understood",
+        "Learning every grammar rule"
+       ],
+       "answer": 2,
+       "explain": "Đoạn cuối nói mục tiêu thực sự là được người nghe hiểu."
+      },
+      {
+       "q": "What do Vietnamese speakers often do, according to the passage?",
+       "options": [
+        "Add extra vowels",
+        "Leave out final consonants",
+        "Speak too slowly",
+        "Mix up the alphabet"
+       ],
+       "answer": 1,
+       "explain": "Bài nói người Việt thường bỏ phụ âm cuối."
+      },
+      {
+       "q": "How can learners become more fluent?",
+       "options": [
+        "By reading aloud every day",
+        "By writing long essays",
+        "By avoiding difficult sounds",
+        "By recording only grammar"
+       ],
+       "answer": 0,
+       "explain": "Bài khuyên đọc to mười phút mỗi ngày và lặp lại cụm ngắn."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "The writer says you need a native-like accent to be clear.",
+       "answer": "False",
+       "explain": "Bài nói có thể có giọng tốt mà không giống người bản xứ; quan trọng là rõ ràng."
+      },
+      {
+       "q": "Recording your own voice is a useful practice.",
+       "answer": "True",
+       "explain": "Bài khuyên nên ghi âm giọng nói rồi nghe lại."
+      },
+      {
+       "q": "Fluent speakers are always the most accurate.",
+       "answer": "False",
+       "explain": "Bài nói người nói lưu loát chưa chắc chính xác nhất."
+      },
+      {
+       "q": "The writer has taught English for twenty years.",
+       "answer": "Not Given",
+       "explain": "Bài không đề cập kinh nghiệm giảng dạy của tác giả."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Habits of Successful Learners",
+   "text": "Teachers often notice that successful students share several habits. First, they **have a wide vocabulary**, so they can express ideas in many different ways. To **increase your vocabulary**, you can read news articles and keep a notebook of new words, reviewing it every week.\n\nSecond, you should **be willing to** speak even when you feel nervous, because silence never improves your English. Good learners also **experiment with** different study methods, such as flashcards, podcasts and word games, until they find the one that suits them.\n\nIt is normal to **get things wrong** at first, and clever students are not afraid of it. Remember to **learn from your mistakes** instead of feeling ashamed, and keep a list of the errors you often repeat. Over time, you will **make progress**, even if it feels slow today. Some children **pick things up** from cartoons without any effort, but adults usually need regular practice and patience.",
+   "summary_vi": "Người học thành công có vốn từ rộng, dám thử cách mới, chấp nhận sai và học từ lỗi sai để tiến bộ.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "have a wide vocabulary",
+       "definition": "to know a large number of words",
+       "explain": "Have a wide vocabulary là có vốn từ phong phú nên diễn đạt được nhiều cách."
+      },
+      {
+       "word": "increase your vocabulary",
+       "definition": "to learn more words",
+       "explain": "Increase your vocabulary là mở rộng vốn từ bằng cách đọc báo và ghi sổ từ."
+      },
+      {
+       "word": "be willing to do sth",
+       "definition": "to be ready and happy to do something",
+       "explain": "Be willing to là sẵn sàng làm điều gì, ở đây là dám nói dù lo lắng."
+      },
+      {
+       "word": "experiment with sth",
+       "definition": "to try new methods to see what works",
+       "explain": "Experiment with là thử nghiệm nhiều phương pháp học khác nhau."
+      },
+      {
+       "word": "get things wrong",
+       "definition": "to make mistakes",
+       "explain": "Get things wrong là làm sai; bài nói điều này bình thường lúc đầu."
+      },
+      {
+       "word": "learn from your mistakes",
+       "definition": "to understand your errors and improve because of them",
+       "explain": "Thay vì xấu hổ, hãy rút kinh nghiệm từ lỗi sai."
+      },
+      {
+       "word": "make progress",
+       "definition": "to improve or move forward",
+       "explain": "Make progress là tiến bộ, dù có thể chậm."
+      },
+      {
+       "word": "pick things up",
+       "definition": "to learn something gradually without formal effort",
+       "explain": "Pick things up là học một cách tự nhiên, như trẻ học từ phim hoạt hình."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the word bank.",
+     "wordBank": [
+      "be willing to",
+      "experiment with",
+      "get things wrong",
+      "have a wide vocabulary",
+      "increase your vocabulary",
+      "learn from your mistakes",
+      "make progress",
+      "pick things up"
+     ],
+     "items": [
+      {
+       "q": "A writer must ____ to avoid repeating the same words.",
+       "answer": "have a wide vocabulary",
+       "explain": "Nhà văn cần vốn từ phong phú để không lặp từ."
+      },
+      {
+       "q": "Reading a novel every month is a pleasant way to ____.",
+       "answer": "increase your vocabulary",
+       "explain": "Đọc tiểu thuyết giúp mở rộng vốn từ."
+      },
+      {
+       "q": "To succeed abroad, you should ____ adapt to a new culture.",
+       "answer": "be willing to",
+       "explain": "Cần sẵn sàng thích nghi với văn hóa mới."
+      },
+      {
+       "q": "Don't be afraid to ____ different recipes until you find one you like.",
+       "answer": "experiment with",
+       "explain": "Thử nghiệm các công thức khác nhau để chọn món ưa thích."
+      },
+      {
+       "q": "Everyone will ____ sometimes, and that is part of learning.",
+       "answer": "get things wrong",
+       "explain": "Ai cũng thỉnh thoảng làm sai, đó là một phần của việc học."
+      },
+      {
+       "q": "The coach told the players to ____ instead of blaming the referee.",
+       "answer": "learn from your mistakes",
+       "explain": "Huấn luyện viên khuyên rút kinh nghiệm thay vì đổ lỗi."
+      },
+      {
+       "q": "If you practise every day, you will ____ faster than you expect.",
+       "answer": "make progress",
+       "explain": "Luyện tập mỗi ngày sẽ tiến bộ nhanh hơn dự kiến."
+      },
+      {
+       "q": "Young children can ____ very quickly when they live in a foreign country.",
+       "answer": "pick things up",
+       "explain": "Trẻ em học ngoại ngữ một cách tự nhiên khi sống ở nước ngoài."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "How can you increase your vocabulary, according to the passage?",
+       "options": [
+        "By avoiding news articles",
+        "By reading and keeping a word notebook",
+        "By memorising a dictionary",
+        "By speaking only your own language"
+       ],
+       "answer": 1,
+       "explain": "Bài khuyên đọc báo và ghi sổ từ mới, xem lại hằng tuần."
+      },
+      {
+       "q": "What should learners do with their mistakes?",
+       "options": [
+        "Hide them",
+        "Feel ashamed",
+        "Learn from them",
+        "Ignore them"
+       ],
+       "answer": 2,
+       "explain": "Bài khuyên hãy rút kinh nghiệm thay vì xấu hổ."
+      },
+      {
+       "q": "Who sometimes pick things up from cartoons?",
+       "options": [
+        "Teachers",
+        "Adults",
+        "Some children",
+        "Language experts"
+       ],
+       "answer": 2,
+       "explain": "Bài nói một số trẻ em học được từ phim hoạt hình mà không cần cố gắng."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Successful students use only one study method.",
+       "answer": "False",
+       "explain": "Họ thử nhiều phương pháp như thẻ ghi nhớ, podcast, trò chơi từ."
+      },
+      {
+       "q": "It is normal to get things wrong at first.",
+       "answer": "True",
+       "explain": "Bài viết nói sai lúc đầu là bình thường."
+      },
+      {
+       "q": "Adults pick things up without any practice.",
+       "answer": "False",
+       "explain": "Bài nói người lớn thường cần luyện tập đều đặn và kiên nhẫn."
+      },
+      {
+       "q": "Flashcards are better than podcasts.",
+       "answer": "Not Given",
+       "explain": "Bài không so sánh thẻ ghi nhớ với podcast."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Why Some People Learn Faster",
+   "text": "My friend Khoa seems to **have a good ear for language**; he can repeat a new sentence perfectly after hearing it only once. As a **language learner**, I used to feel jealous of him. But a recent talk by an experienced teacher helped me understand that talent is only a small part of the story.\n\n\"How well a student will **get on** depends mostly on daily habits,\" she said. Many students **have problems with** grammar or listening, and the solution is not to give up but to **develop an effective strategy**. For example, you can choose one skill, listening **in particular**, and work on it for a month. She suggested watching short videos with subtitles first, then without them, and writing down any phrases that sound useful.\n\nI tried her plan for four weeks. It was not magic, but I understood more every week, and I stopped comparing myself with Khoa.",
+   "summary_vi": "Người kể ghen tị với bạn có năng khiếu ngôn ngữ, nhưng cô giáo giải thích rằng chiến lược và luyện tập hằng ngày quan trọng hơn.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "develop an effective strategy",
+       "definition": "to create a plan that works well",
+       "explain": "Giải pháp là xây dựng chiến lược hiệu quả thay vì bỏ cuộc."
+      },
+      {
+       "word": "have a good ear for language",
+       "definition": "to be naturally good at hearing and copying the sounds of languages",
+       "explain": "Khoa nghe một lần là nhắc lại chính xác, nghĩa là có khả năng nghe ngôn ngữ tốt."
+      },
+      {
+       "word": "language learner",
+       "definition": "a person who is studying a foreign language",
+       "explain": "Language learner là người học ngôn ngữ, chính là người kể."
+      },
+      {
+       "word": "get on",
+       "definition": "to make progress or manage in a task or situation",
+       "explain": "Get on ở đây là tiến triển/học tốt đến đâu, tùy thói quen hằng ngày."
+      },
+      {
+       "word": "in particular",
+       "definition": "especially; more than others",
+       "explain": "In particular là đặc biệt là, dùng để nhấn mạnh một kỹ năng như nghe."
+      },
+      {
+       "word": "have problems with something",
+       "definition": "to find something difficult",
+       "explain": "Have problems with là gặp khó khăn với (ngữ pháp, nghe)."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the word bank.",
+     "wordBank": [
+      "develop an effective strategy",
+      "get on",
+      "have a good ear for language",
+      "have problems with",
+      "in particular",
+      "language learner"
+     ],
+     "items": [
+      {
+       "q": "Before the exam, you should ____ for managing your time.",
+       "answer": "develop an effective strategy",
+       "explain": "Trước kỳ thi nên xây dựng chiến lược hiệu quả để quản lý thời gian."
+      },
+      {
+       "q": "My sister can ____, so she copies any accent after a few minutes.",
+       "answer": "have a good ear for language",
+       "explain": "Bắt chước giọng sau vài phút là dấu hiệu tai nghe ngôn ngữ tốt."
+      },
+      {
+       "q": "As a ____, I keep a small notebook with new expressions.",
+       "answer": "language learner",
+       "explain": "Ghi sổ biểu thức mới là thói quen của người học ngoại ngữ."
+      },
+      {
+       "q": "I'd like to know how well the new students ____ in the first month.",
+       "answer": "get on",
+       "explain": "Câu hỏi về việc học viên mới tiến triển ra sao."
+      },
+      {
+       "q": "I love Italian food, pasta ____.",
+       "answer": "in particular",
+       "explain": "In particular dùng để nhấn mạnh món cụ thể trong nhóm."
+      },
+      {
+       "q": "Many beginners ____ pronunciation because their mother tongue has different sounds.",
+       "answer": "have problems with",
+       "explain": "Tiếng mẹ đẻ khác âm nên người mới gặp khó khăn với phát âm."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "Why does Khoa seem special?",
+       "options": [
+        "He lives abroad",
+        "He can repeat new sentences after one hearing",
+        "He writes very fast",
+        "He is a teacher"
+       ],
+       "answer": 1,
+       "explain": "Khoa nhắc lại câu mới hoàn hảo sau khi nghe một lần."
+      },
+      {
+       "q": "According to the teacher, what mainly decides how well a student will get on?",
+       "options": [
+        "Natural talent",
+        "Money",
+        "Daily habits",
+        "Luck"
+       ],
+       "answer": 2,
+       "explain": "Cô nói tiến bộ chủ yếu phụ thuộc vào thói quen hằng ngày."
+      },
+      {
+       "q": "What did the teacher suggest for improving listening?",
+       "options": [
+        "Watching videos with subtitles, then without",
+        "Reading only textbooks",
+        "Speaking to a mirror",
+        "Listening to music without words"
+       ],
+       "answer": 0,
+       "explain": "Cô gợi ý xem video có phụ đề trước rồi xem không phụ đề."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "The writer used to feel jealous of Khoa.",
+       "answer": "True",
+       "explain": "Câu 'I used to feel jealous of him' xác nhận điều này."
+      },
+      {
+       "q": "The teacher thinks talent is the most important factor.",
+       "answer": "False",
+       "explain": "Cô cho rằng tài năng chỉ là một phần nhỏ của câu chuyện."
+      },
+      {
+       "q": "The teacher recommended focusing on one skill for a month.",
+       "answer": "True",
+       "explain": "Cô gợi ý chọn một kỹ năng, như nghe, và luyện trong một tháng."
+      },
+      {
+       "q": "The talk was given at a university.",
+       "answer": "Not Given",
+       "explain": "Bài không nói địa điểm của buổi nói chuyện."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Gym Membership Story",
+   "text": "My best friend Binh and I met on the first day of university, and **we've been mates ever since**. Last year, during exam season, we decided to **engage in** regular exercise to help us **get through** the stressful weeks. We joined a gym near campus, where the manager explained that our **current** membership rate was very cheap. However, we had to **agree not to withdraw** our deposit for twelve months.\n\nWe signed immediately because the price was so low. Every morning before lectures we ran on the machines or lifted light weights, and at night we slept much better than before. When the exams finally ended, we both felt stronger and calmer.\n\nNow the end of the deal is close: the discount card will **run out** next month, so we must decide whether to renew it at the normal price. Honestly, we are leaning towards staying, because our daily workouts have become one of our favourite routines.",
+   "summary_vi": "Hai người bạn thân tham gia phòng tập để vượt qua mùa thi, và giờ thẻ giảm giá sắp hết hạn.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "run out = expire",
+       "definition": "to come to an end; to stop being valid",
+       "explain": "Run out = expire: thẻ giảm giá sẽ hết hạn vào tháng sau."
+      },
+      {
+       "word": "engage in N",
+       "definition": "to take part in an activity",
+       "explain": "Engage in là tham gia vào một hoạt động, ở đây là tập thể dục đều đặn."
+      },
+      {
+       "word": "we’ve been mates ever since.",
+       "definition": "we have been close friends from that time until now",
+       "explain": "Cụm này diễn tả tình bạn kéo dài từ lần gặp đầu tiên cho đến hiện tại."
+      },
+      {
+       "word": "current",
+       "definition": "happening or existing now",
+       "explain": "Current là hiện tại; mức phí hiện hành rất rẻ."
+      },
+      {
+       "word": "get through + N",
+       "definition": "to manage to finish or survive a difficult period",
+       "explain": "Get through + N là vượt qua giai đoạn khó như mùa thi căng thẳng."
+      },
+      {
+       "word": "agree not to withdraw sth",
+       "definition": "to promise not to take something back or out",
+       "explain": "Họ phải cam kết không rút tiền đặt cọc trong mười hai tháng."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the word bank.",
+     "wordBank": [
+      "agree not to withdraw",
+      "current",
+      "engage in",
+      "get through",
+      "run out",
+      "we've been mates ever since"
+     ],
+     "items": [
+      {
+       "q": "Your passport is going to ____ in March, so renew it soon.",
+       "answer": "run out",
+       "explain": "Hộ chiếu sắp hết hạn nên cần gia hạn."
+      },
+      {
+       "q": "Teenagers should ____ some form of sport to stay healthy.",
+       "answer": "engage in",
+       "explain": "Nên tham gia một môn thể thao để giữ sức khỏe."
+      },
+      {
+       "q": "Tom and I sat together in Year 7, and ____.",
+       "answer": "we've been mates ever since",
+       "explain": "Gặp nhau từ năm lớp 7 và vẫn là bạn đến nay."
+      },
+      {
+       "q": "What is your ____ address? I need to update our records.",
+       "answer": "current",
+       "explain": "Cần địa chỉ hiện tại để cập nhật hồ sơ."
+      },
+      {
+       "q": "It was hard, but she managed to ____ the first difficult year of her business.",
+       "answer": "get through",
+       "explain": "Cô ấy vượt qua năm đầu khó khăn của việc kinh doanh."
+      },
+      {
+       "q": "By signing, you ____ any money from the account for a year.",
+       "answer": "agree not to withdraw",
+       "explain": "Ký tên nghĩa là cam kết không rút tiền trong một năm."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "When did the writer meet Binh?",
+       "options": [
+        "At primary school",
+        "On the first day of university",
+        "At the gym",
+        "During exam season"
+       ],
+       "answer": 1,
+       "explain": "Câu đầu: gặp nhau vào ngày đầu tiên ở đại học."
+      },
+      {
+       "q": "Why did the friends decide to exercise regularly?",
+       "options": [
+        "To lose weight for a wedding",
+        "To win a competition",
+        "To help them get through the stressful exam weeks",
+        "Because the manager asked them"
+       ],
+       "answer": 2,
+       "explain": "Họ tập để vượt qua những tuần thi căng thẳng."
+      },
+      {
+       "q": "What did they have to agree to?",
+       "options": [
+        "Not to withdraw their deposit for twelve months",
+        "Not to run on the machines",
+        "To visit the gym every night",
+        "To pay in cash"
+       ],
+       "answer": 0,
+       "explain": "Họ phải cam kết không rút tiền đặt cọc trong mười hai tháng."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "The friends joined a gym near campus.",
+       "answer": "True",
+       "explain": "Bài nói họ tham gia một phòng gym gần khuôn viên trường."
+      },
+      {
+       "q": "The membership rate was expensive.",
+       "answer": "False",
+       "explain": "Quản lý nói mức phí hiện tại rất rẻ."
+      },
+      {
+       "q": "The discount card will expire next month.",
+       "answer": "True",
+       "explain": "Thẻ giảm giá sẽ run out (hết hạn) vào tháng sau."
+      },
+      {
+       "q": "Binh wants to cancel his membership.",
+       "answer": "Not Given",
+       "explain": "Bài không nói Binh muốn hủy hay không; chỉ nói cả hai nghiêng về việc ở lại."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
