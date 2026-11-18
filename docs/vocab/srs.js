@@ -47,6 +47,7 @@
     w.level = li;
     w.lastReviewed = t;
     w.v = 2;
+    w.mod = Date.now();
     return w.schedule;
   }
 
@@ -57,6 +58,7 @@
     w.level = u.level; w.schedule = u.schedule; w.mastered = u.mastered; w.lapses = u.lapses; w.reviews = u.reviews; w.lastReviewed = u.lastReviewed;
     w.history = (w.history || []).slice(0, u.hist);
     delete w.undo;
+    w.mod = Date.now();
     return true;
   }
 
@@ -69,6 +71,7 @@
     const h = w.history || [];
     if (h.length && h[h.length - 1].date === base) h[h.length - 1].level = li;
     w.v = 2;
+    w.mod = Date.now();
     return w.schedule;
   }
 

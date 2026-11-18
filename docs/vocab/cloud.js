@@ -80,24 +80,89 @@ const Cloud = {
     Store.load();
   },
 
-  // Nhận dữ liệu từ đám mây nếu mới hơn bản trên máy này. Trả về true nếu có thay đổi.
+  /* ---------- Gộp dữ liệu giữa các thiết bị (theo từng từ, không ghi đè cả danh sách) ---------- */
+  key(w) { return (w.word || '').trim().toLowerCase(); },
+  canon(words) {
+    const sorted = words.slice().sort((x, y) => (this.key(x) < this.key(y) ? -1 : this.key(x) > this.key(y) ? 1 : 0));
+    return JSON.stringify(sorted, (k, v) => (v && typeof v === 'object' && !Array.isArray(v) ? Object.keys(v).sort().reduce((o, kk) => { o[kk] = v[kk]; return o; }, {}) : v));
+  },
+  // Bản a có "mới hơn" bản b không: ngày ôn gần nhất, rồi thời điểm sửa, rồi số lần chấm.
+  better(a, b) {
+    const la = a.lastReviewed || '', lb = b.lastReviewed || '';
+    if (la !== lb) return la > lb;
+    const ma = a.mod || 0, mb = b.mod || 0;
+    if (ma !== mb) return ma > mb;
+    return (a.history || []).length >= (b.history || []).length;
+  },
+  mergeWord(a, b) {
+    const pickA = this.better(a, b), p = pickA ? a : b, o = pickA ? b : a;
+    const r = Object.assign({}, p);
+    const seen = new Set(), hist = [];
+    [].concat(a.history || [], b.history || []).forEach((h) => { const k = h.date + '|' + h.level; if (!seen.has(k)) { seen.add(k); hist.push(h); } });
+    hist.sort((x, y) => (x.date < y.date ? -1 : x.date > y.date ? 1 : 0));
+    r.history = hist;
+    if (a.reviews !== undefined || b.reviews !== undefined) r.reviews = Math.max(a.reviews || 0, b.reviews || 0);
+    if (a.lapses !== undefined || b.lapses !== undefined) r.lapses = Math.max(a.lapses || 0, b.lapses || 0);
+    ['example', 'ipa', 'pos', 'audio', 'meaning'].forEach((f) => { if (!r[f] && o[f]) r[f] = o[f]; });
+    if (hist.length !== (p.history || []).length) delete r.undo;
+    const mod = Math.max(a.mod || 0, b.mod || 0);
+    if (mod) r.mod = mod;
+    return r;
+  },
+  merge(localWords, remoteWords, deleted) {
+    const map = new Map();
+    localWords.forEach((w) => map.set(this.key(w), w));
+    remoteWords.forEach((rw) => { const k = this.key(rw); const lw = map.get(k); map.set(k, lw ? this.mergeWord(lw, rw) : rw); });
+    Object.keys(deleted || {}).forEach((k) => { const w = map.get(k); if (w && deleted[k] > (w.mod || 0)) map.delete(k); });
+    return Array.from(map.values());
+  },
+  mergeArr(a, b) {
+    const seen = new Set();
+    return [].concat(a || [], b || []).filter((x) => { const k = JSON.stringify(x); if (seen.has(k)) return false; seen.add(k); return true; })
+      .sort((x, y) => ((x.date || '') < (y.date || '') ? -1 : 1)).slice(-30);
+  },
+
+  async fetchRemote() {
+    const meta = await this.uref().get();
+    if (!meta.exists) return null;
+    const snap = await this.uref().collection('chunks').orderBy('i').get();
+    let words = [];
+    snap.forEach((d) => { words = words.concat(JSON.parse(d.data().json)); });
+    const m = meta.data();
+    let deleted = {}, gen = {};
+    try { deleted = JSON.parse(m.deleted || '{}'); } catch (e) { /* bỏ qua */ }
+    try { gen = JSON.parse(m.gen || '{}'); } catch (e) { /* bỏ qua */ }
+    return { words: words.map((w) => SRS.migrate(w)), meta: m, deleted, gen };
+  },
+
+  // Gộp bản trên đám mây vào bản trên máy này. Trả về { changed: máy này có thay đổi, needPush: đám mây cần cập nhật }.
+  async sync() {
+    const r = await this.fetchRemote();
+    if (!r) return { changed: false, needPush: Store.data.words.length > 0, empty: true };
+    const del = Object.assign({}, r.deleted, Store.data.deleted || {});
+    const merged = this.merge(Store.data.words, r.words, del);
+    const changed = this.canon(merged) !== this.canon(Store.data.words);
+    const needPush = this.canon(merged) !== this.canon(r.words) || JSON.stringify(del) !== JSON.stringify(r.deleted);
+    Store.data.deleted = del;
+    Store.data.gen.speaking = this.mergeArr(Store.data.gen.speaking, r.gen.speaking);
+    Store.data.gen.writing = this.mergeArr(Store.data.gen.writing, r.gen.writing);
+    if (changed) {
+      Store.data.words = merged;
+      Store.data.updatedAt = Math.max(Store.data.updatedAt || 0, r.meta.updatedAt || 0);
+    }
+    try { localStorage.setItem(Store.KEY, JSON.stringify(Store.data)); } catch (e) { /* bỏ qua */ }
+    return { changed, needPush, count: merged.length };
+  },
+
+  // Nhận và gộp dữ liệu từ đám mây. Trả về true nếu máy này có thay đổi.
   async pull() {
     if (!this.user) return false;
     try {
-      const meta = await this.uref().get();
-      if (!meta.exists) { this.setStatus('Chưa có dữ liệu trên đám mây — sẽ tải lên từ máy này.'); if (Store.data.words.length) this.schedule(); return false; }
-      const m = meta.data();
-      const local = Store.data.updatedAt || 0;
-      if ((m.updatedAt || 0) <= local && Store.data.words.length) { this.setStatus('Dữ liệu trên máy này là bản mới nhất.'); return false; }
-      const snap = await this.uref().collection('chunks').orderBy('i').get();
-      let words = [];
-      snap.forEach((d) => { words = words.concat(JSON.parse(d.data().json)); });
-      Store.data.words = words.map((w) => SRS.migrate(w));
-      try { const g = JSON.parse(m.gen || '{}'); if (g.speaking) Store.data.gen.speaking = g.speaking; if (g.writing) Store.data.gen.writing = g.writing; } catch (e) { /* bỏ qua */ }
-      Store.data.updatedAt = m.updatedAt || Date.now();
-      localStorage.setItem(Store.KEY, JSON.stringify(Store.data));
-      this.setStatus('Đã tải dữ liệu từ đám mây (' + words.length + ' từ).');
-      return true;
+      const r = await this.sync();
+      if (r.empty) this.setStatus('Chưa có dữ liệu trên đám mây — sẽ tải lên từ máy này.');
+      else this.setStatus(r.changed ? 'Đã gộp dữ liệu từ thiết bị khác (' + r.count + ' từ).' : 'Dữ liệu đã khớp với đám mây.');
+      if (r.needPush) this.schedule();
+      return r.changed;
     } catch (e) { this.setStatus('Không tải được dữ liệu: ' + this.errMsg(e)); return false; }
   },
 
@@ -112,6 +177,9 @@ const Cloud = {
     if (this.busy) { this.again = true; return; }
     this.busy = true;
     try {
+      // Gộp bản mới nhất trên đám mây trước khi ghi, để không đè lên việc ôn của thiết bị khác.
+      const r = await this.sync();
+      if (r.changed && typeof App !== 'undefined' && App.booted) { App.autoStart(); App.refresh(); }
       const words = Store.data.words;
       const chunks = [];
       for (let i = 0; i < words.length; i += this.CHUNK) chunks.push(words.slice(i, i + this.CHUNK));
@@ -120,7 +188,7 @@ const Cloud = {
       chunks.forEach((c, i) => batch.set(col.doc('c' + String(i).padStart(3, '0')), { i, json: JSON.stringify(c) }));
       for (let i = chunks.length; i < chunks.length + 10; i++) batch.delete(col.doc('c' + String(i).padStart(3, '0')));   // dọn phần thừa khi danh sách ngắn lại
       const gen = JSON.stringify({ speaking: Store.data.gen.speaking, writing: Store.data.gen.writing });
-      batch.set(this.uref(), { updatedAt: Store.data.updatedAt || Date.now(), count: words.length, chunks: chunks.length, gen, email: this.user.email });
+      batch.set(this.uref(), { updatedAt: Store.data.updatedAt || Date.now(), count: words.length, chunks: chunks.length, gen, deleted: JSON.stringify(Store.data.deleted || {}), email: this.user.email });
       await batch.commit();
       this.setStatus('Đã đồng bộ lúc ' + new Date().toLocaleTimeString('vi-VN'));
     } catch (e) { this.setStatus('Đồng bộ thất bại: ' + this.errMsg(e)); UI.toast('Đồng bộ thất bại: ' + this.errMsg(e)); }

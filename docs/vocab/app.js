@@ -202,7 +202,7 @@ App.views.words = function () {
       UI.$('#wordForm').addEventListener('submit', (ev) => {
         ev.preventDefault();
         const f = Object.fromEntries(new FormData(ev.target).entries());
-        if (this.editing) { Object.assign(this.byId(this.editing), f); this.editing = null; UI.toast('Đã lưu'); }
+        if (this.editing) { Object.assign(this.byId(this.editing), f, { mod: Date.now() }); this.editing = null; UI.toast('Đã lưu'); }
         else if (!Store.addWord(f)) { UI.toast('Từ này đã có trong danh sách'); return; }
         else UI.toast('Đã thêm “' + f.word + '”');
         Store.save(); this.render();
@@ -339,7 +339,7 @@ App.actions.editRow = function (el, e) { if (e) e.preventDefault(); this.editing
 App.actions.cancelEdit = function () { this.editing = null; this.render(); };
 App.actions.delRow = function (el) {
   const w = this.byId(el.closest('tr').dataset.id);
-  if (w && confirm('Xoá từ “' + w.word + '” và toàn bộ lịch ôn của nó?')) { Store.data.words = this.words().filter((x) => x !== w); Store.save(); this.render(); }
+  if (w && confirm('Xoá từ “' + w.word + '” và toàn bộ lịch ôn của nó?')) { Store.data.words = this.words().filter((x) => x !== w); Store.data.deleted[w.word.trim().toLowerCase()] = Date.now(); Store.save(); this.render(); }
 };
 
 App.actions.lookup = async function () {
@@ -375,7 +375,7 @@ App.actions.import = function () {
     // Từ đã có mà chưa có ví dụ: chỉ bổ sung ví dụ (không đụng vào lịch ôn).
     const wordKey = ((sheetRow ? p[2] : p[0]) || '').toLowerCase(), exNew = (sheetRow ? p[6] : p[4]) || '';
     const existing = wordKey && this.words().find((x) => x.word.toLowerCase() === wordKey);
-    if (existing) { if (exNew && !existing.example) { existing.example = exNew; filled++; } else skipped++; return; }
+    if (existing) { if (exNew && !existing.example) { existing.example = exNew; existing.mod = Date.now(); filled++; } else skipped++; return; }
     let w = null;
     if (sheetRow) {
       if (!p[2]) { skipped++; return; }

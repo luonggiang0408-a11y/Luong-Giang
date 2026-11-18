@@ -9,6 +9,7 @@ const Store = {
     this.data.words = (this.data.words || []).map((w) => SRS.migrate(w));
     this.data.settings = Object.assign({ apiKey: '', model: 'claude-sonnet-5-5', voice: '', rate: 0.95 }, this.data.settings);
     this.data.gen = this.data.gen || { reading: {}, speaking: [], writing: [] };
+    this.data.deleted = this.data.deleted || {};   // dấu vết xoá từ để đồng bộ giữa các thiết bị
     return this.data;
   },
 
