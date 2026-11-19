@@ -1,0 +1,1936 @@
+{
+ "words": [
+  {
+   "word": "mean",
+   "ipa": "/miːn/",
+   "pos": "Adj",
+   "meaning": "Keo kiệt"
+  },
+  {
+   "word": "unpleasant",
+   "ipa": "",
+   "pos": "Adj",
+   "meaning": "Không vui vẻ, dễ chịu"
+  },
+  {
+   "word": "run out = expire",
+   "ipa": "",
+   "pos": "Verb",
+   "meaning": "Hết hạn"
+  },
+  {
+   "word": "engage in N",
+   "ipa": "",
+   "pos": "Verb",
+   "meaning": "Tham gia vào cái gì đó"
+  },
+  {
+   "word": "we’ve been mates ever since.",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Chúng tôi đã là bạn bè kể từ đó đến nay"
+  },
+  {
+   "word": "current",
+   "ipa": "/ˈkɝː.ənt/",
+   "pos": "Adj",
+   "meaning": "Hiện tại, đang diễn ra, hiện hành"
+  },
+  {
+   "word": "tile",
+   "ipa": "/taɪl/",
+   "pos": "",
+   "meaning": "gạch lát/ốp"
+  },
+  {
+   "word": "carpet",
+   "ipa": "/ˈkɑːr.pət/",
+   "pos": "",
+   "meaning": "thảm trải sàn"
+  },
+  {
+   "word": "blinds",
+   "ipa": "",
+   "pos": "",
+   "meaning": "rèm sáo/rèm cuốn"
+  },
+  {
+   "word": "share a bedroom",
+   "ipa": "",
+   "pos": "",
+   "meaning": "ở chung / dùng chung phòng ngủ"
+  },
+  {
+   "word": "have dinner in the dining room",
+   "ipa": "",
+   "pos": "",
+   "meaning": "ăn tối trong phòng ăn"
+  },
+  {
+   "word": "kitchen sink",
+   "ipa": "",
+   "pos": "",
+   "meaning": "bồn rửa trong bếp"
+  },
+  {
+   "word": "a fridge-freezer",
+   "ipa": "/ˌfrɪdʒˈfriː.zɚ/",
+   "pos": "",
+   "meaning": "tủ lạnh kết hợp ngăn/tủ đông"
+  },
+  {
+   "word": "use the washing machine",
+   "ipa": "",
+   "pos": "",
+   "meaning": "sử dụng máy giặt"
+  },
+  {
+   "word": "floor tiles",
+   "ipa": "/taɪl/",
+   "pos": "",
+   "meaning": "gạch lát sàn"
+  },
+  {
+   "word": "a big soft sofa",
+   "ipa": "",
+   "pos": "",
+   "meaning": "một chiếc sofa lớn, mềm"
+  },
+  {
+   "word": "owe sb st",
+   "ipa": "/oʊ/",
+   "pos": "Verb",
+   "meaning": "Nợ ai đó cái gì"
+  },
+  {
+   "word": "deposit",
+   "ipa": "/dɪˈpɑː.zɪt/",
+   "pos": "Verb",
+   "meaning": "(V) Gửi tiền/ (N) Tiền gửi (vào tài khoản ngân hàng)/ (N) tiền đặt cọc"
+  },
+  {
+   "word": "That sounds reasonable to me.",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Tôi thấy điều đó hợp lý"
+  },
+  {
+   "word": "in the long term",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "về lâu dài"
+  },
+  {
+   "word": "in the short term",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "trong ngắn hạn"
+  },
+  {
+   "word": "Here you go",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Đây nhé/của bạn đây (Đưa đồ hoặc tiền cho ai)"
+  },
+  {
+   "word": "There you go.",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Đây nhé/xong rồi đấy (Đưa đồ hoặc xác nhận đã xong)"
+  },
+  {
+   "word": "real quick",
+   "ipa": "",
+   "pos": "Pharse V",
+   "meaning": "rất nhanh / một chút thôi / nhanh nhé (cách nói thân mật)"
+  },
+  {
+   "word": "rucksack",
+   "ipa": "/ˈrʌk.sæk/",
+   "pos": "Noun",
+   "meaning": "ba lô (thường gợi đến ba lô dùng khi đi bộ, đi chơI)"
+  },
+  {
+   "word": "hardly ever wear",
+   "ipa": "",
+   "pos": "",
+   "meaning": "hầu như không bao giờ mặc"
+  },
+  {
+   "word": "queue",
+   "ipa": "/kjuː/",
+   "pos": "Noun",
+   "meaning": "hàng người đang xếp hàng"
+  },
+  {
+   "word": "three for the price of two",
+   "ipa": "/θriː fər ðə praɪs əv tuː/",
+   "pos": "Phrase",
+   "meaning": "mua 3 tính tiền 2"
+  },
+  {
+   "word": "shopping centre",
+   "ipa": "/ˈʃɑː.pɪŋ ˌsen.tɚ/",
+   "pos": "Noun",
+   "meaning": "trung tâm mua sắm"
+  },
+  {
+   "word": "courgette",
+   "ipa": "/kʊrˈʒet/",
+   "pos": "Noun",
+   "meaning": "bí ngòi (BrE)"
+  },
+  {
+   "word": "cut sth into pieces",
+   "ipa": "/kʌt ˌsʌm.θɪŋ ˈɪn.tuː ˈpiː.sɪz/",
+   "pos": "Collocation",
+   "meaning": "cắt cái gì thành từng miếng"
+  },
+  {
+   "word": "mackerel",
+   "ipa": "/ˈmækrəl/",
+   "pos": "Noun",
+   "meaning": "cá thu"
+  },
+  {
+   "word": "agree not to withdraw sth",
+   "ipa": "/əˈɡriː nɒt tə wɪðˈdrɔː/",
+   "pos": "Collocation",
+   "meaning": "đồng ý/cam kết không rút thứ gì"
+  },
+  {
+   "word": "there isn't much to do",
+   "ipa": "/ðeər ˈɪz.ənt mʌtʃ tə duː/",
+   "pos": "Collocation",
+   "meaning": "không có nhiều hoạt động để làm"
+  },
+  {
+   "word": "apart from + N/V-ing",
+   "ipa": "/əˈpɑːt frəm/",
+   "pos": "Phrase V",
+   "meaning": "ngoài, ngoại trừ =Besides"
+  },
+  {
+   "word": "get lost",
+   "ipa": "/ˌɡet ˈlɒst/",
+   "pos": "Phrase V",
+   "meaning": "bị lạc"
+  },
+  {
+   "word": "on my way to somewhere",
+   "ipa": "/ɒn maɪ weɪ tə/",
+   "pos": "Collocation",
+   "meaning": "trên đường tới (nơi nào)"
+  },
+  {
+   "word": "go via somewhere",
+   "ipa": "/ˈvaɪə/",
+   "pos": "Verb",
+   "meaning": "đi qua (nơi nào)"
+  },
+  {
+   "word": "turning",
+   "ipa": "/ˈtɜːnɪŋ/",
+   "pos": "Noun",
+   "meaning": "chỗ rẽ, ngã rẽ"
+  },
+  {
+   "word": "take the wrong turning",
+   "ipa": "/teɪk ðə rɒŋ ˈtɜːnɪŋ/",
+   "pos": "Phrase V",
+   "meaning": "rẽ nhầm đường"
+  },
+  {
+   "word": "ask somebody the way (to somewhere)",
+   "ipa": "/ɑːsk ðə weɪ/",
+   "pos": "Collocation",
+   "meaning": "hỏi đường ai đó"
+  },
+  {
+   "word": "direct somebody to somewhere",
+   "ipa": "/dəˈrekt/",
+   "pos": "Verb",
+   "meaning": "chỉ đường cho ai tới đâu"
+  },
+  {
+   "word": "follow signs to somewhere",
+   "ipa": "/ˈfɒləʊ saɪnz fə/",
+   "pos": "Phrase V",
+   "meaning": "đi theo biển chỉ dẫn tới (nơi nào)"
+  },
+  {
+   "word": "see an accident",
+   "ipa": "/siː ən ˈæksɪdənt/",
+   "pos": "Phrase V",
+   "meaning": "chứng kiến một vụ tai nạn"
+  },
+  {
+   "word": "have an accident",
+   "ipa": "/hæv ən ˈæksɪdənt/",
+   "pos": "Phrase V",
+   "meaning": "bị tai nạn, gặp tai nạn"
+  },
+  {
+   "word": "the main road",
+   "ipa": "/ðə meɪn rəʊd/",
+   "pos": "Noun",
+   "meaning": "đường chính, đường lớn"
+  },
+  {
+   "word": "approach (something/somebody)",
+   "ipa": "/əˈprəʊtʃ/",
+   "pos": "Verb",
+   "meaning": "tiến lại gần"
+  },
+  {
+   "word": "brake (hard)",
+   "ipa": "/breɪk/",
+   "pos": "Verb",
+   "meaning": "phanh, thắng (xe)"
+  },
+  {
+   "word": "swerve (to avoid something)",
+   "ipa": "/swɜːv/",
+   "pos": "Verb",
+   "meaning": "đánh lái đột ngột (mất kiểm soát)"
+  },
+  {
+   "word": "crash into something",
+   "ipa": "/kræʃ ˈɪntuː/",
+   "pos": "Verb",
+   "meaning": "đâm vào cái gì"
+  },
+  {
+   "word": "a parked car",
+   "ipa": "/ə pɑːkt kɑː/",
+   "pos": "Phrase N",
+   "meaning": "xe đang đỗ"
+  },
+  {
+   "word": "on the opposite side of the road",
+   "ipa": "/ɒn ðə ˈɒpəzɪt saɪd əv ðə rəʊd/",
+   "pos": "Prep",
+   "meaning": "ở phía bên kia đường"
+  },
+  {
+   "word": "injure somebody",
+   "ipa": "/ˈɪndʒə/",
+   "pos": "Verb",
+   "meaning": "làm ai bị thương"
+  },
+  {
+   "word": "damage to something",
+   "ipa": "/ˈdæmɪdʒ tuː/",
+   "pos": "Noun",
+   "meaning": "thiệt hại đối với cái gì"
+  },
+  {
+   "word": "pavement",
+   "ipa": "/ˈpeɪvmənt/",
+   "pos": "Noun",
+   "meaning": "vỉa hè (AA), Anh Mỹ là side walk"
+  },
+  {
+   "word": "state school",
+   "ipa": "/ˈsteɪt skuːl/",
+   "pos": "Noun",
+   "meaning": "trường công"
+  },
+  {
+   "word": "private school",
+   "ipa": "/ˈpraɪvət skuːl/",
+   "pos": "Noun",
+   "meaning": "trường tư"
+  },
+  {
+   "word": "be operated by somebody",
+   "ipa": "/ˈɒpəreɪtɪd/",
+   "pos": "Verb phrase",
+   "meaning": "được vận hành, quản lý bởi ai"
+  },
+  {
+   "word": "nursery school",
+   "ipa": "/ˈnɜːsəri skuːl/",
+   "pos": "Noun",
+   "meaning": "trường mầm non, nhà trẻ"
+  },
+  {
+   "word": "primary school",
+   "ipa": "/ˈpraɪməri skuːl/",
+   "pos": "Noun",
+   "meaning": "trường tiểu học"
+  },
+  {
+   "word": "take/do an exam",
+   "ipa": "/teɪk ɪɡˈzæm/",
+   "pos": "Verb phrase",
+   "meaning": "thi, dự thi"
+  },
+  {
+   "word": "in up to ten subjects",
+   "ipa": "/ˈsʌbdʒɪkt/",
+   "pos": "Noun",
+   "meaning": "trong tối đa mười môn"
+  },
+  {
+   "word": "stay at school",
+   "ipa": "/steɪ ət skuːl/",
+   "pos": "Verb phrase",
+   "meaning": "ở lại trường học tiếp"
+  },
+  {
+   "word": "reasonably",
+   "ipa": "/ˈriːznəbli/",
+   "pos": "Adverb",
+   "meaning": "khá, tương đối"
+  },
+  {
+   "word": "learn from your mistakes",
+   "ipa": "/lɜːn frəm jɔː mɪˈsteɪks/",
+   "pos": "Phrase V",
+   "meaning": "học từ những lỗi sai của mình"
+  },
+  {
+   "word": "make progress",
+   "ipa": "/meɪk ˈprəʊɡres/",
+   "pos": "Phrase V",
+   "meaning": "tiến bộ"
+  },
+  {
+   "word": "get on",
+   "ipa": "/ɡet ɒn/",
+   "pos": "Phrase V",
+   "meaning": "tiến triển, học hành/làm việc thế nào"
+  },
+  {
+   "word": "have problems with something",
+   "ipa": "/hæv ˈprɒbləmz wɪð/",
+   "pos": "Collocation",
+   "meaning": "gặp khó khăn với cái gì"
+  }
+ ],
+ "passages": [
+  {
+   "title": "Renovating a Flat",
+   "text": "When Linh bought her first flat in Hanoi, it looked tired and old. The previous owner had left a dirty brown **carpet** in the living room, and the windows had no **blinds**, so strangers could see inside. The first job was the bathroom, where cracked wall **tile** hid a leak. She replaced it with fresh white pieces and then moved on to the kitchen. A rusty **kitchen sink** stood under the window, and it leaked every time she turned on the tap, so a plumber fitted a new one in a day.\n\nThe next weekend she chose new **floor tiles** for the hall; they were cool and easy to clean, which suited the hot climate. In the corner of the kitchen she placed **a fridge-freezer**, tall enough to store a week of food for her family. Finally, she turned to the living room. After a long search she found **a big soft sofa** in a sale and put it by the window. When her friends came to visit, they all agreed that the flat now felt like a real home.",
+   "summary_vi": "Linh mua căn hộ cũ ở Hà Nội và từng bước sửa lại từ nhà tắm, bếp đến phòng khách cho thành một tổ ấm.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "tile",
+       "definition": "a thin square piece of ceramic used to cover walls",
+       "explain": "Tile là viên gạch mỏng ốp tường; bài nói gạch ốp tường nhà tắm bị nứt."
+      },
+      {
+       "word": "carpet",
+       "definition": "thick soft material that covers a floor",
+       "explain": "Carpet là thảm trải sàn, như tấm thảm nâu bẩn trong phòng khách."
+      },
+      {
+       "word": "blinds",
+       "definition": "coverings for a window that can be raised or lowered",
+       "explain": "Blinds là rèm sáo/rèm cuốn, giúp người ngoài không nhìn vào nhà được."
+      },
+      {
+       "word": "kitchen sink",
+       "definition": "a basin in a kitchen where you wash dishes",
+       "explain": "Kitchen sink là bồn rửa trong bếp, nơi vòi nước bị rò rỉ."
+      },
+      {
+       "word": "a fridge-freezer",
+       "definition": "a tall appliance with a cold section and a freezing section",
+       "explain": "A fridge-freezer là tủ lạnh có cả ngăn đông, dùng để trữ thức ăn cả tuần."
+      },
+      {
+       "word": "floor tiles",
+       "definition": "hard flat pieces used to cover the ground inside a building",
+       "explain": "Floor tiles là gạch lát sàn, mát và dễ lau chùi ở hành lang."
+      },
+      {
+       "word": "a big soft sofa",
+       "definition": "a large, comfortable seat for several people",
+       "explain": "A big soft sofa là ghế sofa lớn và mềm, đặt ở phòng khách."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "a big soft sofa",
+      "a fridge-freezer",
+      "blinds",
+      "carpet",
+      "floor tiles",
+      "kitchen sink",
+      "tile"
+     ],
+     "items": [
+      {
+       "q": "The ____ in the bathroom was white and shiny, so the room felt clean.",
+       "answer": "tile",
+       "explain": "Tile là gạch ốp; câu nói phòng tắm sạch nhờ lớp gạch trắng bóng."
+      },
+      {
+       "q": "Our baby loves to crawl on the soft ____ in the bedroom.",
+       "answer": "carpet",
+       "explain": "Carpet là thảm trải sàn mềm, hợp để bé bò."
+      },
+      {
+       "q": "Please close the ____ because the afternoon sun is too bright.",
+       "answer": "blinds",
+       "explain": "Blinds là rèm sáo, kéo xuống để che nắng."
+      },
+      {
+       "q": "There were three dirty plates left in the ____ after the party.",
+       "answer": "kitchen sink",
+       "explain": "Đĩa bẩn thường để trong bồn rửa bếp (kitchen sink)."
+      },
+      {
+       "q": "We keep ice cream and fresh milk in ____ in our kitchen.",
+       "answer": "a fridge-freezer",
+       "explain": "Tủ lạnh kết hợp ngăn đông chứa được cả kem lẫn sữa tươi."
+      },
+      {
+       "q": "It is easier to mop the ____ than to clean a wooden floor.",
+       "answer": "floor tiles",
+       "explain": "Floor tiles là gạch lát sàn, dễ lau hơn sàn gỗ."
+      },
+      {
+       "q": "After work, he fell asleep on ____ in the living room.",
+       "answer": "a big soft sofa",
+       "explain": "Ngủ gật sau giờ làm thì hợp với một chiếc sofa lớn, mềm."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) according to the passage.",
+     "items": [
+      {
+       "q": "Why did Linh need blinds?",
+       "options": [
+        "The sun was too hot",
+        "Strangers could see into the flat",
+        "The windows were broken",
+        "The room was too dark"
+       ],
+       "answer": 1,
+       "explain": "Bài nói cửa sổ không có rèm nên người lạ nhìn thấy bên trong."
+      },
+      {
+       "q": "What was wrong with the old kitchen sink?",
+       "options": [
+        "It was too small",
+        "It leaked",
+        "It had no tap",
+        "It was in the bathroom"
+       ],
+       "answer": 1,
+       "explain": "Bài viết nó rò rỉ mỗi khi mở vòi."
+      },
+      {
+       "q": "Why were the floor tiles a good choice for the hall?",
+       "options": [
+        "They were cheap",
+        "They were warm",
+        "They were cool and easy to clean",
+        "They matched the sofa"
+       ],
+       "answer": 2,
+       "explain": "Bài nói gạch mát, dễ lau và hợp khí hậu nóng."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given according to the passage.",
+     "items": [
+      {
+       "q": "Linh's flat is in Hanoi.",
+       "answer": "True",
+       "explain": "Bài mở đầu nói căn hộ đầu tiên của cô ở Hà Nội."
+      },
+      {
+       "q": "The bathroom tile was hiding a leak.",
+       "answer": "True",
+       "explain": "Gạch ốp tường nứt che giấu một chỗ rò rỉ."
+      },
+      {
+       "q": "A plumber needed a week to fit the new sink.",
+       "answer": "False",
+       "explain": "Bài nói thợ ống nước lắp xong trong một ngày."
+      },
+      {
+       "q": "Linh paid more than 100,000 dollars for the flat.",
+       "answer": "Not Given",
+       "explain": "Bài không đề cập giá căn hộ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Living with Flatmates",
+   "text": "Living with other students is cheaper, but it is not always easy. In my first year at university I had to **share a bedroom** with a boy named Tom. At first it felt strange, and the early weeks were **unpleasant** because we argued about noise and tidiness. Tom was also a little **mean** with money; he never bought milk or soap for the flat, although he used everything.\n\nOne evening, however, we cooked together and talked for hours. That night we decided to **have dinner in the dining room** every Sunday with our other flatmates, and the habit slowly changed the atmosphere. We also made a rota so that everyone could **use the washing machine** fairly, one person at a time. Our **current** flat is much calmer than the old one, and Tom is now one of my closest friends. Looking back, the awkward start did not matter, because **we’ve been mates ever since**.",
+   "summary_vi": "Người kể phải ở chung phòng với Tom, ban đầu khó chịu nhưng nhờ bữa tối chung họ trở thành bạn thân.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "share a bedroom",
+       "definition": "to use the same sleeping room as another person",
+       "explain": "Share a bedroom là ở chung phòng ngủ, như người kể và Tom."
+      },
+      {
+       "word": "have dinner in the dining room",
+       "definition": "to eat the evening meal in the room used for meals",
+       "explain": "Have dinner in the dining room là ăn tối trong phòng ăn; nhóm làm điều này mỗi Chủ nhật."
+      },
+      {
+       "word": "use the washing machine",
+       "definition": "to wash clothes with a machine",
+       "explain": "Use the washing machine là dùng máy giặt, theo lượt từng người."
+      },
+      {
+       "word": "mean",
+       "definition": "not willing to spend or share money",
+       "explain": "Mean là keo kiệt; Tom không bao giờ mua sữa hay xà phòng."
+      },
+      {
+       "word": "unpleasant",
+       "definition": "not pleasant or enjoyable",
+       "explain": "Unpleasant là khó chịu; vài tuần đầu hai người hay cãi nhau."
+      },
+      {
+       "word": "we’ve been mates ever since.",
+       "definition": "we have been friends from that time until now",
+       "explain": "Cụm này nghĩa là từ lúc đó đến giờ vẫn là bạn bè."
+      },
+      {
+       "word": "current",
+       "definition": "happening or existing now",
+       "explain": "Current là hiện tại; căn hộ hiện tại yên tĩnh hơn căn cũ."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "current",
+      "have dinner in the dining room",
+      "mean",
+      "share a bedroom",
+      "unpleasant",
+      "use the washing machine",
+      "we’ve been mates ever since"
+     ],
+     "items": [
+      {
+       "q": "In a small flat, two brothers often have to ____.",
+       "answer": "share a bedroom",
+       "explain": "Căn hộ nhỏ thì hai anh em thường phải ở chung phòng ngủ."
+      },
+      {
+       "q": "On special occasions, our family likes to ____ together.",
+       "answer": "have dinner in the dining room",
+       "explain": "Dịp đặc biệt cả nhà ăn tối trong phòng ăn."
+      },
+      {
+       "q": "You can ____ after ten o'clock, when the electricity is cheaper.",
+       "answer": "use the washing machine",
+       "explain": "Dùng máy giặt sau 10 giờ vì điện rẻ hơn."
+      },
+      {
+       "q": "Don't be so ____! Give your little sister a piece of cake.",
+       "answer": "mean",
+       "explain": "Mean là keo kiệt; câu khuyên đừng keo kiệt với em gái."
+      },
+      {
+       "q": "The weather was cold and wet, so the trip was very ____.",
+       "answer": "unpleasant",
+       "explain": "Thời tiết lạnh và ẩm làm chuyến đi khó chịu (unpleasant)."
+      },
+      {
+       "q": "We met at primary school in 2010, and ____.",
+       "answer": "we’ve been mates ever since",
+       "explain": "Gặp nhau năm 2010 và vẫn là bạn đến giờ."
+      },
+      {
+       "q": "What is your ____ address? I need to send you a letter.",
+       "answer": "current",
+       "explain": "Current address là địa chỉ hiện tại."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) according to the passage.",
+     "items": [
+      {
+       "q": "Why were the first weeks unpleasant?",
+       "options": [
+        "The flat was too small",
+        "They argued about noise and tidiness",
+        "Tom was often away",
+        "The rent was high"
+       ],
+       "answer": 1,
+       "explain": "Bài nói hai người cãi nhau về tiếng ồn và sự gọn gàng."
+      },
+      {
+       "q": "How did the atmosphere in the flat change?",
+       "options": [
+        "They moved to a new city",
+        "They stopped cooking",
+        "They began to eat together on Sundays",
+        "They bought a bigger table"
+       ],
+       "answer": 2,
+       "explain": "Thói quen ăn tối cùng nhau mỗi Chủ nhật làm bầu không khí tốt lên."
+      },
+      {
+       "q": "What does the writer say about the current flat?",
+       "options": [
+        "It is much calmer",
+        "It is cheaper",
+        "It has a bigger kitchen",
+        "It is closer to the university"
+       ],
+       "answer": 0,
+       "explain": "Bài nói căn hộ hiện tại yên tĩnh hơn nhiều so với căn cũ."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given according to the passage.",
+     "items": [
+      {
+       "q": "The writer shared a bedroom in his first year.",
+       "answer": "True",
+       "explain": "Bài nói năm nhất người kể phải ở chung phòng với Tom."
+      },
+      {
+       "q": "Tom always bought milk for the flat.",
+       "answer": "False",
+       "explain": "Bài nói Tom không bao giờ mua sữa hay xà phòng."
+      },
+      {
+       "q": "The flatmates made a rota for the washing machine.",
+       "answer": "True",
+       "explain": "Họ lập lịch để mọi người dùng máy giặt công bằng."
+      },
+      {
+       "q": "Tom now studies medicine.",
+       "answer": "Not Given",
+       "explain": "Bài không nói Tom học ngành gì."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Money Matters",
+   "text": "Minh was twenty-five and had just started his first job. He had one small problem: he still **owed** his cousin two million dong for a laptop. A friend advised him to visit the bank and **deposit** part of his salary each month. The bank offered a special savings account with a high interest rate, and an adviser explained the rules to him.\n\nCustomers must **agree not to withdraw** the money for twelve months, and the offer would **run out** at the end of the month. \"**That sounds reasonable to me**,\" Minh said, after thinking carefully. **In the short term**, he would have less spending money and could not **engage in** expensive hobbies such as weekend trips. But **in the long term**, the savings would grow and give him the freedom to buy a flat of his own. Minh signed the form, paid back his cousin first, and left the bank feeling proud of his plan.",
+   "summary_vi": "Minh nợ anh họ, quyết định gửi tiết kiệm kỳ hạn 12 tháng; ngắn hạn thiếu tiền tiêu nhưng dài hạn có thể mua nhà.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "owe sb st",
+       "definition": "to have to pay money back to someone",
+       "explain": "Owe là nợ; Minh còn nợ anh họ hai triệu đồng."
+      },
+      {
+       "word": "deposit",
+       "definition": "to put money into a bank account; money paid as a first payment",
+       "explain": "Deposit là gửi tiền vào ngân hàng, như Minh gửi một phần lương."
+      },
+      {
+       "word": "That sounds reasonable to me.",
+       "definition": "I think that is fair and sensible",
+       "explain": "Câu này diễn đạt sự đồng ý rằng điều đó hợp lý."
+      },
+      {
+       "word": "in the long term",
+       "definition": "over a long period of time in the future",
+       "explain": "In the long term là về lâu dài; tiền tiết kiệm sẽ tăng."
+      },
+      {
+       "word": "in the short term",
+       "definition": "during the next short period of time",
+       "explain": "In the short term là ngắn hạn; Minh sẽ có ít tiền tiêu hơn."
+      },
+      {
+       "word": "run out = expire",
+       "definition": "to come to an end because the time limit has finished",
+       "explain": "Run out ở đây nghĩa là hết hạn; ưu đãi kết thúc vào cuối tháng."
+      },
+      {
+       "word": "agree not to withdraw sth",
+       "definition": "to promise that you will not take money out of an account",
+       "explain": "Agree not to withdraw là cam kết không rút tiền trong 12 tháng."
+      },
+      {
+       "word": "engage in N",
+       "definition": "to take part in an activity",
+       "explain": "Engage in là tham gia vào hoạt động như sở thích đắt tiền."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "That sounds reasonable to me",
+      "agree not to withdraw",
+      "deposit",
+      "engage in",
+      "in the long term",
+      "in the short term",
+      "owe",
+      "run out"
+     ],
+     "items": [
+      {
+       "q": "I still ____ my landlord one month's rent.",
+       "answer": "owe",
+       "explain": "Owe là nợ; tôi còn nợ chủ nhà tiền thuê một tháng."
+      },
+      {
+       "q": "She decided to ____ her bonus in a savings account.",
+       "answer": "deposit",
+       "explain": "Deposit là gửi tiền vào tài khoản tiết kiệm."
+      },
+      {
+       "q": "A: Let's split the cost. B: ____.",
+       "answer": "That sounds reasonable to me",
+       "explain": "Đồng ý chia tiền là điều hợp lý."
+      },
+      {
+       "q": "Studying hard is difficult now, but ____ it will give you a better career.",
+       "answer": "in the long term",
+       "explain": "Về lâu dài việc học sẽ mang lại sự nghiệp tốt hơn."
+      },
+      {
+       "q": "Working overtime will help ____, but it may make you tired later.",
+       "answer": "in the short term",
+       "explain": "Tăng ca có lợi trước mắt (ngắn hạn)."
+      },
+      {
+       "q": "Hurry! The discount will ____ at midnight.",
+       "answer": "run out",
+       "explain": "Run out ở đây là hết hạn lúc nửa đêm."
+      },
+      {
+       "q": "Before opening the account, you must ____ for six months.",
+       "answer": "agree not to withdraw",
+       "explain": "Mở tài khoản kỳ hạn thì phải cam kết không rút tiền."
+      },
+      {
+       "q": "Children should ____ sports and other healthy activities.",
+       "answer": "engage in",
+       "explain": "Engage in là tham gia vào các hoạt động như thể thao."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) according to the passage.",
+     "items": [
+      {
+       "q": "Why did Minh visit the bank?",
+       "options": [
+        "To borrow money",
+        "To follow his friend's advice about saving",
+        "To change his job",
+        "To pay his cousin"
+       ],
+       "answer": 1,
+       "explain": "Bạn khuyên anh đến ngân hàng để gửi một phần lương."
+      },
+      {
+       "q": "What must customers do with the special account?",
+       "options": [
+        "Pay a monthly fee",
+        "Deposit every week",
+        "Leave the money there for a year",
+        "Spend it on a flat"
+       ],
+       "answer": 2,
+       "explain": "Khách phải cam kết không rút tiền trong 12 tháng."
+      },
+      {
+       "q": "What is Minh's long-term goal?",
+       "options": [
+        "To buy a laptop",
+        "To buy his own flat",
+        "To travel every weekend",
+        "To leave his job"
+       ],
+       "answer": 1,
+       "explain": "Bài nói tiền tiết kiệm cho anh tự do mua căn hộ riêng."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given according to the passage.",
+     "items": [
+      {
+       "q": "Minh owed money to his cousin.",
+       "answer": "True",
+       "explain": "Anh còn nợ anh họ hai triệu đồng."
+      },
+      {
+       "q": "The savings account has a low interest rate.",
+       "answer": "False",
+       "explain": "Bài nói lãi suất cao."
+      },
+      {
+       "q": "The offer would end at the end of the month.",
+       "answer": "True",
+       "explain": "Bài nói ưu đãi sẽ hết hạn vào cuối tháng."
+      },
+      {
+       "q": "Minh's friend works at the bank.",
+       "answer": "Not Given",
+       "explain": "Bài không nói bạn làm ở đâu."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Saturday at the Mall",
+   "text": "Last Saturday I went to the new **shopping centre** near my house because my brother needed a bag for school. I wanted something strong, so I chose a blue **rucksack** with lots of pockets. At the same time, I noticed a shop offering socks at **three for the price of two**, so I took six pairs. My old ones are full of holes, and I **hardly ever wear** them now.\n\nThere was a long **queue** at the till, and I waited for almost ten minutes. When I reached the front, the assistant said, \"Can I check your card **real quick**?\" I handed it over and said, \"**Here you go**.\" She scanned everything and put it all in a paper bag. \"And **there you go**,\" she said with a smile, giving me back my card. I walked home feeling pleased: I had saved money, and I had a useful present for my brother.",
+   "summary_vi": "Người kể đi trung tâm mua sắm, mua ba lô cho em trai và tất giảm giá, xếp hàng thanh toán rồi vui vẻ về nhà.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "Here you go",
+       "definition": "a phrase said when you give something to someone",
+       "explain": "Here you go là câu nói khi đưa đồ (ở đây là thẻ) cho ai."
+      },
+      {
+       "word": "There you go.",
+       "definition": "a phrase said when you hand something back or finish a job",
+       "explain": "There you go dùng khi trả lại đồ hoặc báo xong việc, như trả lại thẻ."
+      },
+      {
+       "word": "real quick",
+       "definition": "very quickly, or just for a moment (informal)",
+       "explain": "Real quick là rất nhanh, cách nói thân mật của nhân viên."
+      },
+      {
+       "word": "rucksack",
+       "definition": "a bag carried on your back, often for hiking or school",
+       "explain": "Rucksack là ba lô, người kể chọn cái màu xanh nhiều túi."
+      },
+      {
+       "word": "hardly ever wear",
+       "definition": "almost never put on clothes",
+       "explain": "Hardly ever wear là hầu như không bao giờ mặc, nên tất cũ bị bỏ."
+      },
+      {
+       "word": "queue",
+       "definition": "a line of people waiting for their turn",
+       "explain": "Queue là hàng người xếp hàng ở quầy thanh toán."
+      },
+      {
+       "word": "three for the price of two",
+       "definition": "an offer where you get three items but pay for only two",
+       "explain": "Three for the price of two là mua 3 tính tiền 2."
+      },
+      {
+       "word": "shopping centre",
+       "definition": "a large building with many shops under one roof",
+       "explain": "Shopping centre là trung tâm mua sắm nơi người kể đến mua đồ."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "Here you go",
+      "There you go",
+      "hardly ever wear",
+      "queue",
+      "real quick",
+      "rucksack",
+      "shopping centre",
+      "three for the price of two"
+     ],
+     "items": [
+      {
+       "q": "When the waiter brought the bill, he put it on the table and said, '____.'",
+       "answer": "Here you go",
+       "explain": "Here you go dùng khi đưa đồ cho người khác, ở đây là hóa đơn."
+      },
+      {
+       "q": "The mechanic tightened the last screw and said, '____. It's fixed.'",
+       "answer": "There you go",
+       "explain": "There you go báo hiệu việc đã xong."
+      },
+      {
+       "q": "Can you hold my bag ____? I need to tie my shoe.",
+       "answer": "real quick",
+       "explain": "Real quick nghĩa là một chút thôi, rất nhanh."
+      },
+      {
+       "q": "He packed a tent and a sleeping bag in his ____ for the trip.",
+       "answer": "rucksack",
+       "explain": "Rucksack là ba lô đi dã ngoại."
+      },
+      {
+       "q": "My sister is very fashionable, but I ____ dresses.",
+       "answer": "hardly ever wear",
+       "explain": "Hầu như không bao giờ mặc váy."
+      },
+      {
+       "q": "There was a long ____ outside the cinema on opening night.",
+       "answer": "queue",
+       "explain": "Queue là hàng người chờ vào rạp."
+      },
+      {
+       "q": "The shop has a special offer: ____ on all T-shirts.",
+       "answer": "three for the price of two",
+       "explain": "Khuyến mãi mua 3 tính tiền 2."
+      },
+      {
+       "q": "The new ____ has a cinema, a supermarket and fifty shops.",
+       "answer": "shopping centre",
+       "explain": "Shopping centre có nhiều cửa hàng, rạp phim, siêu thị."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) according to the passage.",
+     "items": [
+      {
+       "q": "Why did the writer go to the shopping centre?",
+       "options": [
+        "To see a film",
+        "To buy a bag for her brother",
+        "To meet a friend",
+        "To look for a job"
+       ],
+       "answer": 1,
+       "explain": "Bài nói em trai cần một cái túi đi học."
+      },
+      {
+       "q": "How long did the writer wait in the queue?",
+       "options": [
+        "About two minutes",
+        "About five minutes",
+        "Almost ten minutes",
+        "Over an hour"
+       ],
+       "answer": 2,
+       "explain": "Bài nói chờ gần mười phút."
+      },
+      {
+       "q": "How did the writer feel at the end?",
+       "options": [
+        "Angry",
+        "Pleased",
+        "Bored",
+        "Nervous"
+       ],
+       "answer": 1,
+       "explain": "Bài kết thúc với cảm giác hài lòng vì tiết kiệm tiền."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given according to the passage.",
+     "items": [
+      {
+       "q": "The writer chose a rucksack with many pockets.",
+       "answer": "True",
+       "explain": "Bài nói cô chọn ba lô xanh có nhiều túi."
+      },
+      {
+       "q": "The socks were free.",
+       "answer": "False",
+       "explain": "Bài nói chỉ là khuyến mãi mua 3 tính tiền 2."
+      },
+      {
+       "q": "The assistant put the things in a plastic box.",
+       "answer": "False",
+       "explain": "Bài nói nhân viên cho đồ vào túi giấy."
+      },
+      {
+       "q": "The writer paid by credit card.",
+       "answer": "Not Given",
+       "explain": "Bài chỉ nói nhân viên kiểm tra thẻ, không rõ loại thẻ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Seaside Weekend",
+   "text": "My uncle lives in a small fishing village in Cornwall, and I spent a weekend there last summer. There is no cinema or nightclub, so **there isn't much to do** in the evenings. **Apart from** walking along the beach, most visitors just sit in cafés and watch the boats. However, the food is wonderful.\n\nOn Saturday morning we bought a fresh **mackerel** straight from a fisherman, and my uncle showed me how to cook it. He asked me to wash a **courgette** from his garden and to **cut** it **into pieces** while he lit the grill. I usually **have problems with** cooking, so I was nervous, but the recipe was **reasonably** simple. We seasoned the fish with salt and a little lemon, and ten minutes later we were eating on the harbour wall. The fish and vegetables tasted delicious, and I decided that a quiet village is not boring if the food is this good.",
+   "summary_vi": "Người kể cuối tuần ở làng chài của chú, ít hoạt động nhưng cùng chú nấu cá thu và bí ngòi rất ngon.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "courgette",
+       "definition": "a long green vegetable, similar to a small marrow (British English)",
+       "explain": "Courgette là bí ngòi, loại rau người kể rửa và cắt."
+      },
+      {
+       "word": "cut sth into pieces",
+       "definition": "to divide something into smaller parts with a knife",
+       "explain": "Cut sth into pieces là cắt cái gì thành từng miếng."
+      },
+      {
+       "word": "mackerel",
+       "definition": "a common sea fish with a strong taste",
+       "explain": "Mackerel là cá thu, được mua từ ngư dân."
+      },
+      {
+       "word": "there isn't much to do",
+       "definition": "there are few activities or entertainments available",
+       "explain": "There isn't much to do là không có nhiều hoạt động; làng không có rạp phim."
+      },
+      {
+       "word": "apart from + N/V-ing",
+       "definition": "except for; besides",
+       "explain": "Apart from nghĩa là ngoài ra; ngoài đi dạo biển thì không có gì khác."
+      },
+      {
+       "word": "reasonably",
+       "definition": "fairly or quite (not extremely)",
+       "explain": "Reasonably là khá, tương đối; công thức khá đơn giản."
+      },
+      {
+       "word": "have problems with something",
+       "definition": "to find something difficult",
+       "explain": "Have problems with là gặp khó khăn với việc gì, như nấu ăn."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "Apart from",
+      "courgette",
+      "cut",
+      "have problems with",
+      "mackerel",
+      "reasonably",
+      "there isn't much to do"
+     ],
+     "items": [
+      {
+       "q": "Wash the ____ and slice it before you put it in the pan.",
+       "answer": "courgette",
+       "explain": "Courgette là bí ngòi, loại rau thường thái lát rồi xào."
+      },
+      {
+       "q": "Please ____ the cake into eight equal slices.",
+       "answer": "cut",
+       "explain": "Cut sth into pieces là cắt thành từng miếng bằng nhau."
+      },
+      {
+       "q": "We grilled a ____ with garlic and lemon for lunch.",
+       "answer": "mackerel",
+       "explain": "Mackerel là cá thu, hợp để nướng."
+      },
+      {
+       "q": "It is a tiny town, so ____ at night.",
+       "answer": "there isn't much to do",
+       "explain": "Thị trấn nhỏ nên buổi tối không có nhiều hoạt động."
+      },
+      {
+       "q": "____ the cold weather, the holiday was perfect.",
+       "answer": "Apart from",
+       "explain": "Apart from = ngoại trừ thời tiết lạnh."
+      },
+      {
+       "q": "The exam was ____ easy, so most students finished early.",
+       "answer": "reasonably",
+       "explain": "Reasonably là khá, tương đối dễ."
+      },
+      {
+       "q": "Many beginners ____ pronunciation at first.",
+       "answer": "have problems with",
+       "explain": "Người mới học thường gặp khó khăn với phát âm."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) according to the passage.",
+     "items": [
+      {
+       "q": "Why is there little to do in the village in the evenings?",
+       "options": [
+        "It rains every night",
+        "There is no cinema or nightclub",
+        "The cafés close early",
+        "The beach is dirty"
+       ],
+       "answer": 1,
+       "explain": "Bài nêu rõ không có rạp phim hay hộp đêm."
+      },
+      {
+       "q": "Where did they buy the mackerel?",
+       "options": [
+        "From a supermarket",
+        "From a fisherman",
+        "From the uncle's garden",
+        "From a café"
+       ],
+       "answer": 1,
+       "explain": "Bài nói họ mua cá tươi từ ngư dân."
+      },
+      {
+       "q": "How did the writer feel before cooking?",
+       "options": [
+        "Excited",
+        "Bored",
+        "Nervous",
+        "Angry"
+       ],
+       "answer": 2,
+       "explain": "Người kể thường gặp khó khăn khi nấu ăn nên lo lắng."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given according to the passage.",
+     "items": [
+      {
+       "q": "The writer's uncle lives in Cornwall.",
+       "answer": "True",
+       "explain": "Bài nói chú sống ở làng chài Cornwall."
+      },
+      {
+       "q": "The courgette came from a shop.",
+       "answer": "False",
+       "explain": "Bài nói nó lấy từ vườn nhà chú."
+      },
+      {
+       "q": "They ate their meal on the harbour wall.",
+       "answer": "True",
+       "explain": "Bài nói họ ăn trên bờ tường bến cảng."
+      },
+      {
+       "q": "The writer plans to return to the village next year.",
+       "answer": "Not Given",
+       "explain": "Bài không nói kế hoạch quay lại."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Lost on the Way to Da Lat",
+   "text": "Last month I drove to Da Lat for a job interview, and I was very nervous. I was **on my way to** the city centre when I decided to **go via** a small town to avoid the traffic. It was a bad idea. The road had several branches, and at the first **turning** I was not sure which side to choose. I **took the wrong turning** and soon realised that I was climbing into the mountains.\n\nI did not want to **get lost** in the dark, so I stopped at a petrol station and **asked** the owner **the way** to the centre. Instead of explaining, the kind man walked outside and **directed** me **to** the main street with his hand. \"Just **follow signs to** the lake,\" he said. Twenty minutes later I arrived, tired but on time. Now I always check the map before I leave home.",
+   "summary_vi": "Người kể lái xe đi phỏng vấn ở Đà Lạt, rẽ nhầm đường, hỏi đường ở trạm xăng và đến nơi đúng giờ.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "get lost",
+       "definition": "to become unable to find your way",
+       "explain": "Get lost là bị lạc; người kể sợ bị lạc trong bóng tối."
+      },
+      {
+       "word": "on my way to somewhere",
+       "definition": "travelling towards a place",
+       "explain": "On my way to là trên đường tới nơi nào; ở đây là trung tâm thành phố."
+      },
+      {
+       "word": "go via somewhere",
+       "definition": "to travel through a place on the way to another",
+       "explain": "Go via là đi qua nơi nào đó; người kể đi qua một thị trấn nhỏ."
+      },
+      {
+       "word": "turning",
+       "definition": "a place where a road leaves another road",
+       "explain": "Turning là chỗ rẽ; người kể không chắc ở ngã rẽ đầu tiên."
+      },
+      {
+       "word": "take the wrong turning",
+       "definition": "to leave a road at the incorrect place",
+       "explain": "Take the wrong turning là rẽ nhầm đường, khiến ông leo vào núi."
+      },
+      {
+       "word": "ask somebody the way (to somewhere)",
+       "definition": "to request directions from a person",
+       "explain": "Ask somebody the way là hỏi đường ai đó; ông hỏi chủ trạm xăng."
+      },
+      {
+       "word": "direct somebody to somewhere",
+       "definition": "to show someone where to go",
+       "explain": "Direct somebody to somewhere là chỉ đường cho ai; người đàn ông chỉ ra đường chính."
+      },
+      {
+       "word": "follow signs to somewhere",
+       "definition": "to use road markers to reach a place",
+       "explain": "Follow signs to là đi theo biển chỉ dẫn tới hồ."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "ask somebody the way",
+      "directed",
+      "follow signs to",
+      "get lost",
+      "go via",
+      "on my way to",
+      "took the wrong turning",
+      "turning"
+     ],
+     "items": [
+      {
+       "q": "Take a map so you do not ____ in the old town.",
+       "answer": "get lost",
+       "explain": "Get lost là bị lạc, nên mang bản đồ."
+      },
+      {
+       "q": "I met an old friend ____ the airport.",
+       "answer": "on my way to",
+       "explain": "Gặp bạn khi đang trên đường tới sân bay."
+      },
+      {
+       "q": "The bus will ____ the market before it reaches the station.",
+       "answer": "go via",
+       "explain": "Go via là đi qua chợ trước khi đến ga."
+      },
+      {
+       "q": "Go straight and take the second ____ on the left.",
+       "answer": "turning",
+       "explain": "Turning là ngã rẽ ở bên trái."
+      },
+      {
+       "q": "We were late because we ____ near the bridge.",
+       "answer": "took the wrong turning",
+       "explain": "Trễ vì rẽ nhầm đường gần cây cầu."
+      },
+      {
+       "q": "Don't be shy; just ____ at the information desk.",
+       "answer": "ask somebody the way",
+       "explain": "Ask somebody the way là hỏi đường người ở quầy hướng dẫn."
+      },
+      {
+       "q": "A police officer ____ the tourists to the station.",
+       "answer": "directed",
+       "explain": "Direct somebody to somewhere là chỉ đường cho du khách."
+      },
+      {
+       "q": "To reach the beach, ____ and walk for ten minutes.",
+       "answer": "follow signs to",
+       "explain": "Follow signs to là đi theo biển chỉ tới bãi biển."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) according to the passage.",
+     "items": [
+      {
+       "q": "Why did the writer drive to Da Lat?",
+       "options": [
+        "For a holiday",
+        "For a job interview",
+        "To visit a lake",
+        "To buy a map"
+       ],
+       "answer": 1,
+       "explain": "Bài nói anh đi phỏng vấn xin việc."
+      },
+      {
+       "q": "What went wrong at the first turning?",
+       "options": [
+        "The car broke down",
+        "He chose the wrong road",
+        "He ran out of petrol",
+        "He met a friend"
+       ],
+       "answer": 1,
+       "explain": "Anh rẽ nhầm và lên núi."
+      },
+      {
+       "q": "What did the man at the petrol station do?",
+       "options": [
+        "He drove with the writer",
+        "He drew a map",
+        "He pointed the way outside",
+        "He called the police"
+       ],
+       "answer": 2,
+       "explain": "Ông chủ đi ra ngoài và chỉ hướng bằng tay."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given according to the passage.",
+     "items": [
+      {
+       "q": "The writer was nervous about the interview.",
+       "answer": "True",
+       "explain": "Bài mở đầu nói anh rất lo lắng."
+      },
+      {
+       "q": "He wanted to avoid heavy traffic.",
+       "answer": "True",
+       "explain": "Anh đi qua thị trấn nhỏ để tránh kẹt xe."
+      },
+      {
+       "q": "He arrived late for the interview.",
+       "answer": "False",
+       "explain": "Anh đến đúng giờ."
+      },
+      {
+       "q": "The petrol station owner gave him a free drink.",
+       "answer": "Not Given",
+       "explain": "Bài không đề cập đồ uống."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Narrow Escape",
+   "text": "If you ever **see an accident**, you will understand how quickly things can go wrong. Last Tuesday I was standing at a bus stop beside **the main road** when I noticed a delivery van speeding towards a crossing. A boy on a bicycle was **approaching** the same junction from the left. The van driver saw him too late. He **braked hard**, but the wet surface made the van slide.\n\nTo avoid the boy, the driver **swerved** sharply to the right and **crashed into** a lamp post. There was a loud bang, and for a moment everyone on the street stood still. Fortunately, both the boy and the driver were fine. The driver admitted that it was the second time he had **had an accident** this year, and he promised to drive more slowly in future. I walked home thinking that safety on the road depends on patience.",
+   "summary_vi": "Người kể chứng kiến xe tải phanh gấp, đánh lái tránh cậu bé đi xe đạp và đâm vào cột đèn; may mắn không ai bị thương.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "see an accident",
+       "definition": "to watch a crash happen",
+       "explain": "See an accident là chứng kiến một vụ tai nạn."
+      },
+      {
+       "word": "have an accident",
+       "definition": "to be involved in a crash or mishap",
+       "explain": "Have an accident là gặp tai nạn; tài xế đã gặp tai nạn lần thứ hai trong năm."
+      },
+      {
+       "word": "the main road",
+       "definition": "the largest and most important road in an area",
+       "explain": "The main road là đường chính, nơi có trạm xe buýt."
+      },
+      {
+       "word": "approach (something/somebody)",
+       "definition": "to come nearer to something",
+       "explain": "Approach là tiến lại gần; cậu bé tiến lại gần ngã tư."
+      },
+      {
+       "word": "brake (hard)",
+       "definition": "to slow or stop a vehicle suddenly",
+       "explain": "Brake hard là phanh gấp; tài xế phanh mạnh nhưng xe vẫn trượt."
+      },
+      {
+       "word": "swerve (to avoid something)",
+       "definition": "to turn suddenly to avoid something",
+       "explain": "Swerve là đánh lái đột ngột để tránh cậu bé."
+      },
+      {
+       "word": "crash into something",
+       "definition": "to hit something with force while moving",
+       "explain": "Crash into là đâm vào; xe đâm vào cột đèn."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "approach",
+      "brake",
+      "crash into",
+      "had an accident",
+      "see an accident",
+      "swerve",
+      "the main road"
+     ],
+     "items": [
+      {
+       "q": "Call the police if you ____ on your way to work.",
+       "answer": "see an accident",
+       "explain": "See an accident là chứng kiến tai nạn; nên gọi cảnh sát."
+      },
+      {
+       "q": "Dad is a careful driver and has never ____ in thirty years.",
+       "answer": "had an accident",
+       "explain": "Never had an accident là chưa từng gặp tai nạn; dùng có thể chia thì."
+      },
+      {
+       "q": "Our house is only two minutes from ____.",
+       "answer": "the main road",
+       "explain": "The main road là đường chính gần nhà."
+      },
+      {
+       "q": "As the train began to ____ the station, it slowed down.",
+       "answer": "approach",
+       "explain": "Approach là tiến lại gần nhà ga."
+      },
+      {
+       "q": "You must ____ when the traffic light turns red.",
+       "answer": "brake",
+       "explain": "Brake là phanh khi đèn đỏ."
+      },
+      {
+       "q": "The driver had to ____ to miss a dog on the road.",
+       "answer": "swerve",
+       "explain": "Swerve là đánh lái để tránh con chó."
+      },
+      {
+       "q": "Icy roads can make a car ____ a wall.",
+       "answer": "crash into",
+       "explain": "Crash into là đâm vào tường khi đường đóng băng."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) according to the passage.",
+     "items": [
+      {
+       "q": "Where was the writer standing?",
+       "options": [
+        "In a car",
+        "Beside a main road",
+        "On a bridge",
+        "Inside a shop"
+       ],
+       "answer": 1,
+       "explain": "Bài nói anh đứng ở trạm xe buýt cạnh đường chính."
+      },
+      {
+       "q": "Why did the van slide?",
+       "options": [
+        "The driver was sleepy",
+        "The brakes were broken",
+        "The road was wet",
+        "The boy hit it"
+       ],
+       "answer": 2,
+       "explain": "Bài nói mặt đường ướt làm xe trượt."
+      },
+      {
+       "q": "What does the writer conclude?",
+       "options": [
+        "Vans are dangerous",
+        "Road safety needs patience",
+        "Children must not cycle",
+        "Lamp posts are weak"
+       ],
+       "answer": 1,
+       "explain": "Câu cuối nói an toàn đường bộ phụ thuộc vào sự kiên nhẫn."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given according to the passage.",
+     "items": [
+      {
+       "q": "The van hit the boy on the bicycle.",
+       "answer": "False",
+       "explain": "Tài xế đánh lái và đâm vào cột đèn, cậu bé không sao."
+      },
+      {
+       "q": "The accident happened on a Tuesday.",
+       "answer": "True",
+       "explain": "Bài nói thứ Ba tuần trước."
+      },
+      {
+       "q": "The driver had had an accident before this year.",
+       "answer": "Not Given",
+       "explain": "Bài chỉ nói đây là lần thứ hai trong năm nay."
+      },
+      {
+       "q": "The driver promised to drive more slowly.",
+       "answer": "True",
+       "explain": "Bài nói anh hứa sẽ lái chậm hơn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Safer Streets Near Schools",
+   "text": "Parents near Greenfield **primary school** have asked the council to make their street safer. Last month a driver lost control and drove up onto the **pavement**, where children from the nearby **nursery school** usually walk each morning. Luckily, nobody was there at the time, but the car hit **a parked car** and caused serious **damage to** two garden fences.\n\nResidents say the next accident could **injure** a child. The street is narrow, and the school gate is **on the opposite side of the road** from the main car park, so families have to cross twice a day. The council has promised to build a crossing and lower the speed limit. \"We cannot wait for a tragedy,\" said one mother, who walks her four-year-old to nursery every day. A decision will be announced at a public meeting next week, and everyone in the area is welcome.",
+   "summary_vi": "Phụ huynh gần trường tiểu học yêu cầu chính quyền làm đường an toàn hơn sau khi một xe lao lên vỉa hè.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "a parked car",
+       "definition": "a car that has been left stopped at the side of the street",
+       "explain": "A parked car là xe đang đỗ; chiếc xe lao vào nó."
+      },
+      {
+       "word": "on the opposite side of the road",
+       "definition": "across the street from where you are",
+       "explain": "On the opposite side of the road là ở phía bên kia đường; cổng trường đối diện bãi đậu xe."
+      },
+      {
+       "word": "injure somebody",
+       "definition": "to hurt someone physically",
+       "explain": "Injure somebody là làm ai bị thương; cư dân lo cho trẻ em."
+      },
+      {
+       "word": "damage to something",
+       "definition": "harm caused to a thing, making it worth less",
+       "explain": "Damage to something là thiệt hại; hai hàng rào bị hư hại nặng."
+      },
+      {
+       "word": "pavement",
+       "definition": "a path at the side of a road for people walking",
+       "explain": "Pavement là vỉa hè nơi trẻ em đi bộ."
+      },
+      {
+       "word": "nursery school",
+       "definition": "a school for very young children before primary education",
+       "explain": "Nursery school là trường mầm non, nơi bé bốn tuổi học."
+      },
+      {
+       "word": "primary school",
+       "definition": "a school for children from about five to eleven years old",
+       "explain": "Primary school là trường tiểu học, tên Greenfield."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "a parked car",
+      "damage to",
+      "injure",
+      "nursery school",
+      "on the opposite side of the road",
+      "pavement",
+      "primary school"
+     ],
+     "items": [
+      {
+       "q": "The truck knocked into ____ and broke its mirror.",
+       "answer": "a parked car",
+       "explain": "A parked car là xe đang đỗ nên không thể tránh."
+      },
+      {
+       "q": "The bakery is ____ from the post office.",
+       "answer": "on the opposite side of the road",
+       "explain": "Hai nơi nằm đối diện nhau qua đường."
+      },
+      {
+       "q": "Be careful with that knife; you might ____ yourself.",
+       "answer": "injure",
+       "explain": "Injure là làm bị thương."
+      },
+      {
+       "q": "The storm caused serious ____ the roof.",
+       "answer": "damage to",
+       "explain": "Damage to the roof là thiệt hại đối với mái nhà."
+      },
+      {
+       "q": "Please walk on the ____ and not in the road.",
+       "answer": "pavement",
+       "explain": "Pavement là vỉa hè dành cho người đi bộ."
+      },
+      {
+       "q": "My daughter is three, so she goes to ____.",
+       "answer": "nursery school",
+       "explain": "Bé ba tuổi học trường mầm non."
+      },
+      {
+       "q": "My son is eight and he is in ____ now.",
+       "answer": "primary school",
+       "explain": "Trẻ tám tuổi học tiểu học."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) according to the passage.",
+     "items": [
+      {
+       "q": "What did the driver do last month?",
+       "options": [
+        "Hit a tree",
+        "Lost control and drove onto the pavement",
+        "Stopped at the school",
+        "Drove too slowly"
+       ],
+       "answer": 1,
+       "explain": "Bài nói tài xế mất lái và lên vỉa hè."
+      },
+      {
+       "q": "Why do families have to cross the street?",
+       "options": [
+        "The school has no gate",
+        "The gate is opposite the car park",
+        "The pavement is closed",
+        "There is no crossing"
+       ],
+       "answer": 1,
+       "explain": "Cổng trường ở phía bên kia đường so với bãi đậu xe."
+      },
+      {
+       "q": "What has the council promised?",
+       "options": [
+        "To close the school",
+        "To build a crossing",
+        "To buy new cars",
+        "To move the nursery"
+       ],
+       "answer": 1,
+       "explain": "Bài nói chính quyền hứa xây vạch qua đường và giảm tốc độ."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given according to the passage.",
+     "items": [
+      {
+       "q": "A child was hurt in the accident last month.",
+       "answer": "False",
+       "explain": "Bài nói may là không có ai ở đó."
+      },
+      {
+       "q": "The street is narrow.",
+       "answer": "True",
+       "explain": "Bài mô tả đường hẹp."
+      },
+      {
+       "q": "The council will announce a decision next week.",
+       "answer": "True",
+       "explain": "Quyết định công bố tại cuộc họp tuần sau."
+      },
+      {
+       "q": "The driver was arrested by the police.",
+       "answer": "Not Given",
+       "explain": "Bài không nói về việc bắt giữ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Going to School in Britain",
+   "text": "In Britain most children attend a **state school**, which is free and paid for by the government. A smaller number go to a **private school**, where parents pay fees. Some private schools **are operated by** charities or religious groups, while others belong to companies. At sixteen, students **take exams** called GCSEs, usually **in up to ten subjects**.\n\nAfter that, they can **stay at school** for two more years to prepare for university, or they can leave to start a job or training. Teachers say that the most successful pupils are not always the cleverest; they are the ones who **learn from their mistakes** and listen to advice. Regular practice helps students **make progress** even in difficult subjects. At the end of each term, parents often ask how their children **get on**, and a short school report gives them the answer. This system is not perfect, but it gives young people several routes into adult life.",
+   "summary_vi": "Bài mô tả hệ thống trường học ở Anh: trường công, trường tư, kỳ thi GCSE và cách học sinh tiến bộ.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "state school",
+       "definition": "a school paid for by the government",
+       "explain": "State school là trường công, miễn phí và do nhà nước trả tiền."
+      },
+      {
+       "word": "private school",
+       "definition": "a school that charges fees and is not run by the government",
+       "explain": "Private school là trường tư, phụ huynh phải đóng học phí."
+      },
+      {
+       "word": "be operated by somebody",
+       "definition": "managed or run by a person or organisation",
+       "explain": "Be operated by somebody là được vận hành bởi ai đó, như tổ chức từ thiện."
+      },
+      {
+       "word": "take/do an exam",
+       "definition": "to sit a test of your knowledge",
+       "explain": "Take an exam là dự thi; học sinh 16 tuổi thi GCSE."
+      },
+      {
+       "word": "in up to ten subjects",
+       "definition": "a number of different school courses, as many as ten",
+       "explain": "In up to ten subjects là tối đa mười môn."
+      },
+      {
+       "word": "stay at school",
+       "definition": "to continue studying instead of leaving",
+       "explain": "Stay at school là ở lại trường học tiếp thêm hai năm."
+      },
+      {
+       "word": "learn from your mistakes",
+       "definition": "to understand what you did wrong and do better next time",
+       "explain": "Learn from your mistakes là học từ lỗi sai của mình."
+      },
+      {
+       "word": "make progress",
+       "definition": "to improve or move forward in learning",
+       "explain": "Make progress là tiến bộ nhờ luyện tập đều."
+      },
+      {
+       "word": "get on",
+       "definition": "to do well or badly in a situation such as school",
+       "explain": "Get on ở đây là học hành, tiến triển ra sao."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "getting on",
+      "in up to ten subjects",
+      "is operated by",
+      "learn from their mistakes",
+      "make progress",
+      "private school",
+      "state school",
+      "stay at school",
+      "take an exam"
+     ],
+     "items": [
+      {
+       "q": "In my country, a ____ is free for all children.",
+       "answer": "state school",
+       "explain": "State school là trường công miễn phí."
+      },
+      {
+       "q": "She goes to a ____ where the fees are very high.",
+       "answer": "private school",
+       "explain": "Private school thu học phí cao."
+      },
+      {
+       "q": "The museum ____ the city council.",
+       "answer": "is operated by",
+       "explain": "Be operated by là được vận hành bởi hội đồng thành phố."
+      },
+      {
+       "q": "All the students must ____ in June.",
+       "answer": "take an exam",
+       "explain": "Take an exam là dự thi vào tháng Sáu."
+      },
+      {
+       "q": "He passed his test ____, including maths and physics.",
+       "answer": "in up to ten subjects",
+       "explain": "Đạt trong tối đa mười môn."
+      },
+      {
+       "q": "She wants to ____ until she finishes her diploma.",
+       "answer": "stay at school",
+       "explain": "Stay at school là ở lại trường để lấy bằng."
+      },
+      {
+       "q": "A good student will ____ and not repeat them.",
+       "answer": "learn from their mistakes",
+       "explain": "Học từ lỗi sai để không lặp lại."
+      },
+      {
+       "q": "If you practise every day, you will ____ quickly.",
+       "answer": "make progress",
+       "explain": "Luyện tập hằng ngày thì sẽ tiến bộ."
+      },
+      {
+       "q": "How is your sister ____ at her new school?",
+       "answer": "getting on",
+       "explain": "Getting on là hỏi việc học tập ra sao."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) according to the passage.",
+     "items": [
+      {
+       "q": "What is a state school?",
+       "options": [
+        "A school paid for by the government",
+        "A school run by a company",
+        "A school for adults",
+        "A school for sports"
+       ],
+       "answer": 0,
+       "explain": "Bài định nghĩa trường công là miễn phí, nhà nước chi trả."
+      },
+      {
+       "q": "What happens at sixteen?",
+       "options": [
+        "Students leave school",
+        "Students take GCSE exams",
+        "Students go to university",
+        "Students start nursery"
+       ],
+       "answer": 1,
+       "explain": "Bài nói học sinh dự thi GCSE ở tuổi 16."
+      },
+      {
+       "q": "According to teachers, successful pupils",
+       "options": [
+        "are always the cleverest",
+        "learn from mistakes and listen to advice",
+        "never take exams",
+        "change schools often"
+       ],
+       "answer": 1,
+       "explain": "Bài nói họ học từ lỗi sai và nghe lời khuyên."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given according to the passage.",
+     "items": [
+      {
+       "q": "Private schools in Britain are free.",
+       "answer": "False",
+       "explain": "Phụ huynh phải trả phí."
+      },
+      {
+       "q": "Some private schools are run by charities.",
+       "answer": "True",
+       "explain": "Bài nói một số do tổ chức từ thiện hoặc tôn giáo vận hành."
+      },
+      {
+       "q": "Students must stay at school until eighteen.",
+       "answer": "False",
+       "explain": "Bài nói họ có thể ở lại hoặc rời đi để đi làm."
+      },
+      {
+       "q": "All British students study ten subjects.",
+       "answer": "Not Given",
+       "explain": "Bài chỉ nói tối đa mười môn."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
