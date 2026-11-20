@@ -1,0 +1,3217 @@
+{
+ "words": [
+  {
+   "word": "sensible",
+   "ipa": "/ˈsen.sə.bəl/",
+   "pos": "Adj",
+   "meaning": "Biết suy nghĩ, chín chắn"
+  },
+  {
+   "word": "silly = stupid = dumb",
+   "ipa": "/ˈsɪl.i/",
+   "pos": "Adj",
+   "meaning": "Ngớ ngẩn, ngốc nghếch"
+  },
+  {
+   "word": "emotional",
+   "ipa": "/ɪˈmoʊ.ʃən.əl/",
+   "pos": "Adj",
+   "meaning": "dễ xúc động"
+  },
+  {
+   "word": "get/become emotional",
+   "ipa": "",
+   "pos": "Phrase V",
+   "meaning": "trở nên xúc động"
+  },
+  {
+   "word": "confuse",
+   "ipa": "/kənˈfjuːz/",
+   "pos": "Verb",
+   "meaning": "làm ai bối rối, làm ai nhầm lẫn"
+  },
+  {
+   "word": "confused",
+   "ipa": "/kənˈfjuːzd/",
+   "pos": "Adj",
+   "meaning": "cảm thấy bối rối (tính từ chỉ cảm giác)"
+  },
+  {
+   "word": "confusing",
+   "ipa": "/kənˈfjuː.zɪŋ/",
+   "pos": "Adj",
+   "meaning": "gây khó hiểu (tính từ mô tả sự vật)"
+  },
+  {
+   "word": "politician",
+   "ipa": "/ˌpɑː.ləˈtɪʃ.ən/",
+   "pos": "Noun",
+   "meaning": "chính trị gia"
+  },
+  {
+   "word": "curious",
+   "ipa": "/ˈkjʊr.i.əs/",
+   "pos": "Adj",
+   "meaning": "ham học hỏi, ham khám phá."
+  },
+  {
+   "word": "curiosity",
+   "ipa": "/ˌkjʊr.iˈɑː.sə.t̬i/",
+   "pos": "Noun",
+   "meaning": "sự tò mò"
+  },
+  {
+   "word": "curiously",
+   "ipa": "/ˈkjʊr.i.əs.li/",
+   "pos": "Verb",
+   "meaning": "một cách tò mò"
+  },
+  {
+   "word": "jealous (be jealous of + 0)",
+   "ipa": "/ˈdʒel.əs/",
+   "pos": "Adj",
+   "meaning": "ghen tị"
+  },
+  {
+   "word": "jealously",
+   "ipa": "/ˈdʒel.əs.li/",
+   "pos": "Adv",
+   "meaning": "một cách ghen tuông"
+  },
+  {
+   "word": "jealousy",
+   "ipa": "/ˈdʒel.ə.si/",
+   "pos": "Noun",
+   "meaning": "sự ghen tuông"
+  },
+  {
+   "word": "cheerful",
+   "ipa": "/ˈtʃɪr.fəl/",
+   "pos": "Adj",
+   "meaning": "vui vẻ, vui tươi, phấn chấn"
+  },
+  {
+   "word": "miserable",
+   "ipa": "/ˈmɪz.ɚ.ə.bəl/",
+   "pos": "Adj",
+   "meaning": "khổ sở, đau khổ, rất buồn, cực kỳ không vui."
+  },
+  {
+   "word": "suffer from",
+   "ipa": "",
+   "pos": "Pharse V",
+   "meaning": "mắc, chịu đựng một vấn đề"
+  },
+  {
+   "word": "disorder",
+   "ipa": "/dɪˈsɔːr.dɚ/",
+   "pos": "Noun",
+   "meaning": "rối loạn"
+  },
+  {
+   "word": "mental disorders",
+   "ipa": "",
+   "pos": "Phrase V",
+   "meaning": "rối loạn tâm lý"
+  },
+  {
+   "word": "sleep disorders",
+   "ipa": "",
+   "pos": "Phrase V",
+   "meaning": "rối loạn giấc ngủ"
+  },
+  {
+   "word": "anxiety disorders",
+   "ipa": "",
+   "pos": "Phrase V",
+   "meaning": "rối loạn lo âu"
+  },
+  {
+   "word": "eating disorders",
+   "ipa": "",
+   "pos": "Phrase V",
+   "meaning": "rối loạn tiêu hóa"
+  },
+  {
+   "word": "depress",
+   "ipa": "/dɪˈpres/",
+   "pos": "Verb",
+   "meaning": "làm ai đó buồn, chán nản, suy sụp."
+  },
+  {
+   "word": "depressed",
+   "ipa": "/dɪˈprest/",
+   "pos": "Adj",
+   "meaning": "cảm thấy rất buồn/chán nản"
+  },
+  {
+   "word": "depressing",
+   "ipa": "",
+   "pos": "Adj",
+   "meaning": "gây cảm giác buồn/chán"
+  },
+  {
+   "word": "depression",
+   "ipa": "",
+   "pos": "Noun",
+   "meaning": "sự/trạng thái trầm cảm; bệnh trầm cảm"
+  },
+  {
+   "word": "energetically",
+   "ipa": "/ˌen.ɚˈdʒet̬.ɪ.kəl.i/",
+   "pos": "Adv",
+   "meaning": "một cách năng động/đầy năng lượng"
+  },
+  {
+   "word": "be frightened of + 0",
+   "ipa": "/ˈfraɪ.tənd/",
+   "pos": "Adj",
+   "meaning": "sợ điều gì/làm gì"
+  },
+  {
+   "word": "currency",
+   "ipa": "/ˈkɝː.ən.si/",
+   "pos": "Noun",
+   "meaning": "Tiền tệ"
+  },
+  {
+   "word": "sterling",
+   "ipa": "/ˈstɝː.lɪŋ/",
+   "pos": "Noun",
+   "meaning": "Đồng bảng Anh"
+  },
+  {
+   "word": "note",
+   "ipa": "",
+   "pos": "Noun",
+   "meaning": "Tiền giấy"
+  },
+  {
+   "word": "coin",
+   "ipa": "",
+   "pos": "Noun",
+   "meaning": "Tiền xu (tương ứng peice)"
+  },
+  {
+   "word": "be in credit",
+   "ipa": "/ˈkred.ɪt/",
+   "pos": "Collocation",
+   "meaning": "tài khoản còn tiền/dư tiền"
+  },
+  {
+   "word": "cashpoint",
+   "ipa": "/ˈkæʃ.pɔɪnt/",
+   "pos": "Noun",
+   "meaning": "Máy rút tiền (UK)"
+  },
+  {
+   "word": "a cash machine",
+   "ipa": "",
+   "pos": "Noun",
+   "meaning": "Máy rút tiền (US)"
+  },
+  {
+   "word": "take out money",
+   "ipa": "",
+   "pos": "Pharse V",
+   "meaning": "Rút tiền (dùng thường ngày)"
+  },
+  {
+   "word": "student loan",
+   "ipa": "",
+   "pos": "Adj",
+   "meaning": "Khoản vay sinh viên"
+  },
+  {
+   "word": "get a loan",
+   "ipa": "",
+   "pos": "Pharse V",
+   "meaning": "vay một khoản tiền"
+  },
+  {
+   "word": "pay your fees",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "trả học phí/phí"
+  },
+  {
+   "word": "owe someone money",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "nợ ai tiền"
+  },
+  {
+   "word": "pay back money",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "trả lại tiền đã vay"
+  },
+  {
+   "word": "amount of money",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "một khoản/lượng tiền"
+  },
+  {
+   "word": "save up for something/ to V",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "tiết kiệm dần cho mục tiêu"
+  },
+  {
+   "word": "can't afford something",
+   "ipa": "/əˈfɔːrd/",
+   "pos": "Collocation",
+   "meaning": "không đủ khả năng tài chính để mua"
+  },
+  {
+   "word": "pay rent",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "trả tiền thuê nhà"
+  },
+  {
+   "word": "one month's rent",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "tiền thuê nhà một tháng"
+  },
+  {
+   "word": "pay a deposit",
+   "ipa": "/dɪˈpɑː.zɪt/",
+   "pos": "Collocation",
+   "meaning": "đặt cọc"
+  },
+  {
+   "word": "borrow st from sb",
+   "ipa": "",
+   "pos": "Verb",
+   "meaning": "Mượn cái gì đấy từ ai (nhưng không phải trả tiền)"
+  },
+  {
+   "word": "lend sb st",
+   "ipa": "/lend/",
+   "pos": "Verb",
+   "meaning": "Cho ai đó mượn cái gì đấy (không phải trả tiền)"
+  },
+  {
+   "word": "three for the price of two",
+   "ipa": "/θriː fər ðə praɪs əv tuː/",
+   "pos": "Phrase",
+   "meaning": "mua 3 tính tiền 2"
+  },
+  {
+   "word": "Raise one's voice at someone",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Lớn tiếng / quát mắng ai đó"
+  },
+  {
+   "word": "Job description",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Bản mô tả công việc"
+  },
+  {
+   "word": "In the heat of the moment",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Trong lúc nóng giận / trong phút bốc đồng"
+  },
+  {
+   "word": "Tense meeting",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Cuộc họp căng thẳng"
+  },
+  {
+   "word": "Absolute last time",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Lần cuối cùng tuyệt đối (thể hiện thái độ kiên quyết không chấp nhận tái phạm"
+  },
+  {
+   "word": "One-on-one",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Trò chuyện riêng 1-1 / không có người thứ ba"
+  },
+  {
+   "word": "In front of people",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Trước mặt mọi người / chốn đông người"
+  },
+  {
+   "word": "Address someone about something",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Trao đổi / góp ý trực tiếp với ai về vấn đề gì"
+  },
+  {
+   "word": "Have a conversation like adults",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Trao đổi một cách văn minh / ứng xử như những người trưởng thành"
+  },
+  {
+   "word": "Apologize for one's behavior",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Xin lỗi vì hành vi / thái độ của mình"
+  },
+  {
+   "word": "be mature enough to do something",
+   "ipa": "/məˈtʃɔːr/",
+   "pos": "",
+   "meaning": "Đủ trưởng thành / chín chắn (để làm việc gì)"
+  },
+  {
+   "word": "As long as it doesn't happen again",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Miễn là điều đó không tái diễn"
+  },
+  {
+   "word": "certificate of deposit",
+   "ipa": "/səˌtɪf.ɪ.kət əv dɪˈpɒz.ɪt/",
+   "pos": "Noun phrase",
+   "meaning": "chứng chỉ tiền gửi"
+  },
+  {
+   "word": "brake (hard)",
+   "ipa": "/breɪk/",
+   "pos": "Verb",
+   "meaning": "phanh, thắng (xe)"
+  },
+  {
+   "word": "rubber",
+   "ipa": "/ˈrʌbə/",
+   "pos": "Noun",
+   "meaning": "cục tẩy (Anh-Anh; Anh-Mỹ: eraser)"
+  },
+  {
+   "word": "ruler",
+   "ipa": "/ˈruːlə/",
+   "pos": "Noun",
+   "meaning": "thước kẻ"
+  },
+  {
+   "word": "highlighter pen",
+   "ipa": "/ˈhaɪlaɪtə pen/",
+   "pos": "Noun",
+   "meaning": "bút dạ quang"
+  },
+  {
+   "word": "plug",
+   "ipa": "/plʌɡ/",
+   "pos": "Noun",
+   "meaning": "phích cắm điện"
+  },
+  {
+   "word": "socket",
+   "ipa": "/ˈsɒkɪt/",
+   "pos": "Noun",
+   "meaning": "ổ cắm điện"
+  },
+  {
+   "word": "partner",
+   "ipa": "/ˈpɑːtnə/",
+   "pos": "Noun",
+   "meaning": "bạn cặp; đối tác"
+  },
+  {
+   "word": "rub something out",
+   "ipa": "/rʌb ˈaʊt/",
+   "pos": "Phrase V",
+   "meaning": "tẩy, xóa (bằng cục tẩy)"
+  },
+  {
+   "word": "measure something (with a ruler)",
+   "ipa": "/ˈmeʒə/",
+   "pos": "Verb",
+   "meaning": "đo cái gì (bằng thước)"
+  },
+  {
+   "word": "highlight something",
+   "ipa": "/ˈhaɪlaɪt/",
+   "pos": "Verb",
+   "meaning": "đánh dấu bằng bút dạ quang; nhấn mạnh"
+  },
+  {
+   "word": "plug something in (the socket)",
+   "ipa": "/plʌɡ ˈɪn/",
+   "pos": "Phrase V",
+   "meaning": "cắm thiết bị vào ổ điện"
+  },
+  {
+   "word": "borrow something (from somebody)",
+   "ipa": "/ˈbɒrəʊ/",
+   "pos": "Verb",
+   "meaning": "mượn cái gì (từ ai)"
+  },
+  {
+   "word": "lend somebody something",
+   "ipa": "/lend/",
+   "pos": "Verb (lend – lent – lent)",
+   "meaning": "cho ai mượn cái gì"
+  },
+  {
+   "word": "lend something to somebody",
+   "ipa": "/lend/",
+   "pos": "Verb (lend – lent – lent)",
+   "meaning": "cho ai mượn cái gì (cấu trúc với to)"
+  },
+  {
+   "word": "turn something up",
+   "ipa": "/tɜːn ˈʌp/",
+   "pos": "Phrasal verb",
+   "meaning": "vặn to lên (âm lượng, nhiệt độ)"
+  },
+  {
+   "word": "turn something down",
+   "ipa": "/tɜːn ˈdaʊn/",
+   "pos": "Phrasal verb",
+   "meaning": "vặn nhỏ xuống"
+  },
+  {
+   "word": "correct somebody's English",
+   "ipa": "/kəˈrekt/",
+   "pos": "Verb phrase",
+   "meaning": "sửa lỗi tiếng Anh cho ai"
+  },
+  {
+   "word": "work with a partner",
+   "ipa": "/wɜːk wɪð ə ˈpɑːtnə/",
+   "pos": "Verb phrase",
+   "meaning": "làm việc theo cặp với bạn học"
+  },
+  {
+   "word": "share something (with somebody)",
+   "ipa": "/ʃeə/",
+   "pos": "Verb",
+   "meaning": "dùng chung cái gì với ai"
+  },
+  {
+   "word": "repeat something (after somebody)",
+   "ipa": "/rɪˈpiːt/",
+   "pos": "Verb",
+   "meaning": "lặp lại (sau ai)"
+  },
+  {
+   "word": "What does something mean?",
+   "ipa": "/wɒt dʌz ... miːn/",
+   "pos": "Question",
+   "meaning": "... nghĩa là gì?"
+  },
+  {
+   "word": "How do you pronounce something?",
+   "ipa": "/prəˈnaʊns/",
+   "pos": "Question",
+   "meaning": "phát âm ... như thế nào?"
+  },
+  {
+   "word": "How do you spell something?",
+   "ipa": "/spel/",
+   "pos": "Question",
+   "meaning": "đánh vần ... như thế nào?"
+  },
+  {
+   "word": "How do you use the word something?",
+   "ipa": "/juːz/",
+   "pos": "Question",
+   "meaning": "dùng từ ... như thế nào?"
+  },
+  {
+   "word": "explain the difference between A and B",
+   "ipa": "/ɪkˈspleɪn/",
+   "pos": "Verb phrase",
+   "meaning": "giải thích sự khác nhau giữa A và B"
+  },
+  {
+   "word": "take an exam",
+   "ipa": "/teɪk ən ɪɡˈzæm/",
+   "pos": "Verb phrase",
+   "meaning": "thi, dự thi"
+  },
+  {
+   "word": "do an exam",
+   "ipa": "/duː ən ɪɡˈzæm/",
+   "pos": "Verb phrase",
+   "meaning": "thi (đồng nghĩa với take an exam)"
+  },
+  {
+   "word": "pass an exam",
+   "ipa": "/pɑːs ən ɪɡˈzæm/",
+   "pos": "Verb phrase",
+   "meaning": "thi đỗ"
+  },
+  {
+   "word": "fail an exam",
+   "ipa": "/feɪl ən ɪɡˈzæm/",
+   "pos": "Verb phrase",
+   "meaning": "thi trượt"
+  },
+  {
+   "word": "retake an exam",
+   "ipa": "/ˌriːˈteɪk ən ɪɡˈzæm/",
+   "pos": "Verb phrase",
+   "meaning": "thi lại"
+  },
+  {
+   "word": "revise for something",
+   "ipa": "/rɪˈvaɪz fə/",
+   "pos": "Verb phrase",
+   "meaning": "ôn thi (BrE)"
+  },
+  {
+   "word": "do well",
+   "ipa": "/duː wel/",
+   "pos": "Verb phrase",
+   "meaning": "làm bài tốt, đạt kết quả tốt"
+  },
+  {
+   "word": "do badly",
+   "ipa": "/duː ˈbædli/",
+   "pos": "Verb phrase",
+   "meaning": "làm bài kém"
+  },
+  {
+   "word": "do your best",
+   "ipa": "/duː jɔː best/",
+   "pos": "Verb phrase",
+   "meaning": "cố gắng hết sức"
+  },
+  {
+   "word": "try your best",
+   "ipa": "/traɪ jɔː best/",
+   "pos": "Verb phrase",
+   "meaning": "cố gắng hết sức (đồng nghĩa với do your best)"
+  },
+  {
+   "word": "get a good grade",
+   "ipa": "/ɡet ə ɡʊd ɡreɪd/",
+   "pos": "Verb phrase",
+   "meaning": "đạt điểm tốt (grade: hay dùng ở Mỹ, điểm chữ A/B/C)"
+  },
+  {
+   "word": "get a good mark",
+   "ipa": "/ɡet ə ɡʊd mɑːk/",
+   "pos": "Verb phrase",
+   "meaning": "đạt điểm tốt (mark: hay dùng ở Anh, điểm số)"
+  },
+  {
+   "word": "do some revision",
+   "ipa": "/duː səm rɪˈvɪʒn/",
+   "pos": "Verb phrase",
+   "meaning": "ôn tập"
+  },
+  {
+   "word": "do exam preparation",
+   "ipa": "/duː ɪɡˈzæm ˌprepəˈreɪʃn/",
+   "pos": "Verb phrase",
+   "meaning": "luyện thi, chuẩn bị cho kỳ thi"
+  },
+  {
+   "word": "do an essay",
+   "ipa": "/duː ən ˈeseɪ/",
+   "pos": "Verb phrase",
+   "meaning": "làm một bài luận (đồng nghĩa với write an essay)"
+  },
+  {
+   "word": "work on something",
+   "ipa": "/wɜːk ɒn/",
+   "pos": "Phrasal verb",
+   "meaning": "rèn luyện, cải thiện (một kỹ năng)"
+  },
+  {
+   "word": "get through something",
+   "ipa": "/ɡet θruː/",
+   "pos": "Phrasal verb",
+   "meaning": "làm xong, học hết (một lượng nội dung)"
+  },
+  {
+   "word": "find it difficult to do something",
+   "ipa": "/faɪnd ɪt ˈdɪfɪkəlt/",
+   "pos": "Verb phrase",
+   "meaning": "thấy khó khi làm gì"
+  },
+  {
+   "word": "candidate",
+   "ipa": "/ˈkændɪdeɪt/",
+   "pos": "Noun",
+   "meaning": "thí sinh (người đang thi)"
+  },
+  {
+   "word": "grade",
+   "ipa": "/ɡreɪd/",
+   "pos": "Noun",
+   "meaning": "điểm số, xếp loại (syn: mark)"
+  },
+  {
+   "word": "mark",
+   "ipa": "/mɑːk/",
+   "pos": "Noun",
+   "meaning": "điểm số (syn: grade)"
+  },
+  {
+   "word": "hard work",
+   "ipa": "/hɑːd wɜːk/",
+   "pos": "Noun phrase",
+   "meaning": "việc đòi hỏi nhiều nỗ lực"
+  },
+  {
+   "word": "with a bit of luck",
+   "ipa": "/wɪð ə bɪt əv lʌk/",
+   "pos": "Phrase",
+   "meaning": "nếu may mắn một chút"
+  },
+  {
+   "word": "revision",
+   "ipa": "/rɪˈvɪʒn/",
+   "pos": "Noun",
+   "meaning": "việc ôn tập"
+  },
+  {
+   "word": "exam preparation",
+   "ipa": "/ˌprepəˈreɪʃn/",
+   "pos": "Noun",
+   "meaning": "việc chuẩn bị / luyện thi"
+  }
+ ],
+ "passages": [
+  {
+   "title": "A Debate to Remember",
+   "text": "Last week I watched a televised debate between two candidates for mayor. The first **politician**, a retired teacher, gave a calm and **sensible** answer about road safety. His opponent, however, started making **silly** jokes and called his rival's plan \"stupid\". Some viewers thought it was funny, but I found it embarrassing.\n\nThe debate was also **confusing**. Both speakers kept changing the numbers, and the presenter's questions did not help either. I felt **confused**, and so did my sister, who was sitting next to me. \"Why do they **confuse** us on purpose?\" she asked. I think some people hope that voters will not check the facts.\n\nNear the end, the older candidate talked about his father, and his voice shook. It is natural to **get emotional** when you talk about family, and I respected him for being honest. My sister, who is a very **emotional** person, even cried a little. In the end, I voted for him because he seemed more thoughtful than his rival.",
+   "summary_vi": "Người viết xem một cuộc tranh luận của hai ứng viên thị trưởng, thấy một người chín chắn còn người kia ngớ ngẩn và gây khó hiểu.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "sensible",
+       "definition": "showing good judgement; reasonable and practical",
+       "explain": "Sensible là chín chắn, hợp lý, đúng như người ứng viên trả lời bình tĩnh."
+      },
+      {
+       "word": "silly = stupid = dumb",
+       "definition": "not showing good sense; foolish",
+       "explain": "Silly là ngớ ngẩn; đối thủ đã pha trò ngớ ngẩn trong buổi tranh luận."
+      },
+      {
+       "word": "emotional",
+       "definition": "showing strong feelings, especially sadness or happiness",
+       "explain": "Emotional là dễ xúc động, như cô em gái hay khóc."
+      },
+      {
+       "word": "get/become emotional",
+       "definition": "to start feeling strong emotions, often to the point of tears",
+       "explain": "Get emotional là trở nên xúc động khi nói về gia đình."
+      },
+      {
+       "word": "confuse",
+       "definition": "to make someone unable to think clearly or understand",
+       "explain": "Confuse là làm ai đó bối rối, như các con số bị thay đổi liên tục."
+      },
+      {
+       "word": "confused",
+       "definition": "feeling unable to understand or think clearly",
+       "explain": "Confused mô tả cảm giác của người viết sau khi xem."
+      },
+      {
+       "word": "confusing",
+       "definition": "difficult to understand because it is unclear",
+       "explain": "Confusing mô tả sự vật (buổi tranh luận) gây khó hiểu."
+      },
+      {
+       "word": "politician",
+       "definition": "a person whose job is in politics, especially an elected official",
+       "explain": "Politician là chính trị gia, chính là hai ứng viên thị trưởng."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "confuse",
+      "confused",
+      "confusing",
+      "emotional",
+      "get emotional",
+      "politician",
+      "sensible",
+      "silly"
+     ],
+     "items": [
+      {
+       "q": "It is ____ to wear a helmet when you ride a motorbike.",
+       "answer": "sensible",
+       "explain": "Sensible = hợp lý, chín chắn; đội mũ bảo hiểm là việc làm khôn ngoan."
+      },
+      {
+       "q": "Don't be ____ - of course you can't fly by waving your arms!",
+       "answer": "silly",
+       "explain": "Silly = ngớ ngẩn, phù hợp với ý nghĩ vô lý như vậy."
+      },
+      {
+       "q": "My brother is very ____ and often cries at sad films.",
+       "answer": "emotional",
+       "explain": "Emotional = dễ xúc động, hợp với việc hay khóc khi xem phim buồn."
+      },
+      {
+       "q": "Parents often ____ at their children's graduation.",
+       "answer": "get emotional",
+       "explain": "Get emotional = trở nên xúc động, hợp lý với lễ tốt nghiệp của con."
+      },
+      {
+       "q": "Please don't ____ me with so many different instructions.",
+       "answer": "confuse",
+       "explain": "Sau don't cần động từ nguyên mẫu; confuse = làm bối rối."
+      },
+      {
+       "q": "I was completely ____ by the map and took a wrong turn.",
+       "answer": "confused",
+       "explain": "Confused chỉ cảm giác của người (bị bối rối bởi bản đồ)."
+      },
+      {
+       "q": "The new bus timetable is really ____; nobody understands it.",
+       "answer": "confusing",
+       "explain": "Confusing mô tả sự vật gây khó hiểu."
+      },
+      {
+       "q": "The ____ promised to build more schools if he won the election.",
+       "answer": "politician",
+       "explain": "Politician là chính trị gia tranh cử, hứa xây thêm trường."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "What did the writer think of the first politician?",
+       "options": [
+        "He was boring and too quiet",
+        "He was calm and sensible",
+        "He was angry with the presenter",
+        "He was funny and silly"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 1 nói ông ấy đưa ra câu trả lời bình tĩnh và sensible."
+      },
+      {
+       "q": "Why did the writer find the debate confusing?",
+       "options": [
+        "The speakers used difficult words",
+        "The sound was very bad",
+        "The speakers kept changing the numbers",
+        "The debate was too long"
+       ],
+       "answer": 2,
+       "explain": "Đoạn 2: cả hai liên tục thay đổi các con số."
+      },
+      {
+       "q": "Why did the writer vote for the older candidate?",
+       "options": [
+        "He was her father's friend",
+        "He seemed more thoughtful",
+        "He told the best jokes",
+        "He was richer than his rival"
+       ],
+       "answer": 1,
+       "explain": "Câu cuối: ông ấy trông chu đáo hơn đối thủ."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "The retired teacher was one of the candidates.",
+       "answer": "True",
+       "explain": "Đoạn 1 nói ứng viên đầu tiên là một giáo viên đã nghỉ hưu."
+      },
+      {
+       "q": "The writer found the silly jokes very funny.",
+       "answer": "False",
+       "explain": "Người viết thấy chúng đáng xấu hổ (embarrassing)."
+      },
+      {
+       "q": "The writer's sister felt confused during the debate.",
+       "answer": "True",
+       "explain": "Đoạn 2: 'so did my sister' tức cô em cũng thấy bối rối."
+      },
+      {
+       "q": "The writer has voted in every election since she was eighteen.",
+       "answer": "Not Given",
+       "explain": "Bài không nói gì về lịch sử bỏ phiếu của người viết."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Lan and the Radio",
+   "text": "My cousin Lan was a **curious** child. She asked questions about everything: why the sky is blue, where rain comes from, how the neighbour's radio works. Her **curiosity** sometimes got her into trouble, like the day she took the radio apart. My aunt found her sitting among wires, **curiously** studying a small green circuit board.\n\nI was **jealous** of her in those days. At school, teachers praised her, and I used to watch her **jealously** from the back of the class. Looking back, my **jealousy** was pointless, because she never tried to compete with me. She simply loved learning.\n\nLast year I visited her in Da Nang. I expected her to be tired after a hard year at university, but she was as **cheerful** as ever, laughing and singing in the kitchen. I, on the other hand, felt **miserable** because I had failed a driving test that week. Lan listened to me, made tea, and reminded me that one bad day does not define a person. Her kindness made me feel much better.",
+   "summary_vi": "Người viết kể về cô em họ Lan ham tìm tòi, từng khiến mình ghen tị, rồi chính Lan an ủi khi mình buồn.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "curious",
+       "definition": "eager to learn or know about something",
+       "explain": "Curious là ham học hỏi, như Lan hỏi về mọi thứ."
+      },
+      {
+       "word": "curiosity",
+       "definition": "a strong desire to know or learn something",
+       "explain": "Curiosity là danh từ, sự tò mò của Lan."
+      },
+      {
+       "word": "curiously",
+       "definition": "in a way that shows interest in something",
+       "explain": "Curiously là trạng từ, nhìn một cách tò mò."
+      },
+      {
+       "word": "jealous (be jealous of + 0)",
+       "definition": "unhappy because someone has something that you want",
+       "explain": "Jealous of = ghen tị với ai/điều gì."
+      },
+      {
+       "word": "jealously",
+       "definition": "in a way that shows you are unhappy about what someone else has",
+       "explain": "Jealously là trạng từ, nhìn một cách ghen tuông."
+      },
+      {
+       "word": "jealousy",
+       "definition": "the unhappy feeling of wanting what another person has",
+       "explain": "Jealousy là danh từ, sự ghen tuông."
+      },
+      {
+       "word": "cheerful",
+       "definition": "happy and positive",
+       "explain": "Cheerful là vui vẻ, như Lan cười và hát trong bếp."
+      },
+      {
+       "word": "miserable",
+       "definition": "very unhappy",
+       "explain": "Miserable là rất buồn, do trượt bài thi lái xe."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "cheerful",
+      "curiosity",
+      "curious",
+      "curiously",
+      "jealous",
+      "jealously",
+      "jealousy",
+      "miserable"
+     ],
+     "items": [
+      {
+       "q": "Cats are ____ animals and love to explore every box in the house.",
+       "answer": "curious",
+       "explain": "Curious (adj) = ham khám phá, hợp với mèo."
+      },
+      {
+       "q": "Her ____ about space led her to become an astronomer.",
+       "answer": "curiosity",
+       "explain": "Sau her cần danh từ: curiosity = sự tò mò."
+      },
+      {
+       "q": "The little boy looked ____ at the strange insect on the leaf.",
+       "answer": "curiously",
+       "explain": "Cần trạng từ bổ nghĩa cho looked: curiously."
+      },
+      {
+       "q": "He felt ____ of his friend's new bicycle.",
+       "answer": "jealous",
+       "explain": "Be jealous of = ghen tị với; feel + tính từ."
+      },
+      {
+       "q": "The dog watched ____ as the baby got all the attention.",
+       "answer": "jealously",
+       "explain": "Trạng từ bổ nghĩa cho watched: jealously."
+      },
+      {
+       "q": "Her ____ ruined their friendship.",
+       "answer": "jealousy",
+       "explain": "Sau her cần danh từ: jealousy = sự ghen tuông."
+      },
+      {
+       "q": "The waiter was so ____ that everyone in the cafe smiled.",
+       "answer": "cheerful",
+       "explain": "Cheerful = vui vẻ, làm mọi người mỉm cười."
+      },
+      {
+       "q": "We were cold, wet and ____ after waiting two hours for the bus.",
+       "answer": "miserable",
+       "explain": "Miserable = khổ sở, hợp với cảnh lạnh, ướt, chờ lâu."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "What did Lan's aunt find when she looked for her?",
+       "options": [
+        "Lan was sitting among wires",
+        "Lan was sleeping",
+        "Lan was singing",
+        "Lan was crying"
+       ],
+       "answer": 0,
+       "explain": "Đoạn 1: dì thấy Lan ngồi giữa đống dây điện."
+      },
+      {
+       "q": "Why does the writer call her jealousy pointless?",
+       "options": [
+        "Lan was not good at school",
+        "Lan never tried to compete with her",
+        "The teachers did not like Lan",
+        "Lan lived far away"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2: Lan chưa bao giờ cố cạnh tranh với người viết."
+      },
+      {
+       "q": "How did Lan help the writer in Da Nang?",
+       "options": [
+        "She lent her money",
+        "She took her to the driving school",
+        "She listened and made tea",
+        "She gave her a radio"
+       ],
+       "answer": 2,
+       "explain": "Đoạn 3: Lan lắng nghe và pha trà."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "Lan was studying at university.",
+       "answer": "True",
+       "explain": "Đoạn 3 nhắc tới 'a hard year at university' của Lan."
+      },
+      {
+       "q": "The writer passed the driving test.",
+       "answer": "False",
+       "explain": "Người viết đã trượt (failed) bài thi lái xe."
+      },
+      {
+       "q": "Lan was bad-tempered during the visit.",
+       "answer": "False",
+       "explain": "Lan vui vẻ (cheerful) như mọi khi."
+      },
+      {
+       "q": "Lan has two younger brothers.",
+       "answer": "Not Given",
+       "explain": "Bài không nhắc tới anh em của Lan."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "When the Mind Needs Care",
+   "text": "According to a recent health report, nearly one in five young adults will **suffer from** one of the many **mental disorders** at least once in their lives. The term covers a wide range of problems. People with **anxiety disorders**, for example, may feel afraid or worried for no clear reason, while those with **sleep disorders** cannot rest properly at night. **Eating disorders** are also common among teenagers who feel strong pressure about their appearance.\n\nDoctors explain that a **disorder** is not the same as a bad mood. It is a medical condition that affects how a person thinks and behaves every day. **Depression** is one of the best-known examples. Someone with **depression** may feel **depressed** for weeks, lose interest in hobbies, and see everything as **depressing**, even good news.\n\nThe report urges families to take these signs seriously. Talking early, it says, makes treatment much easier. It also recommends that schools provide counselling, so that students do not have to face their problems alone.",
+   "summary_vi": "Báo cáo sức khỏe giải thích các rối loạn tâm lý phổ biến ở người trẻ, như lo âu, mất ngủ, ăn uống và trầm cảm.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "suffer from",
+       "definition": "to experience an illness or a problem",
+       "explain": "Suffer from = mắc, chịu đựng một vấn đề sức khỏe."
+      },
+      {
+       "word": "disorder",
+       "definition": "an illness that makes part of the body or mind work badly",
+       "explain": "Disorder = rối loạn, một tình trạng bệnh lý."
+      },
+      {
+       "word": "mental disorders",
+       "definition": "illnesses that affect a person's thoughts, feelings and behaviour",
+       "explain": "Mental disorders = rối loạn tâm lý."
+      },
+      {
+       "word": "sleep disorders",
+       "definition": "medical problems that stop a person from sleeping normally",
+       "explain": "Sleep disorders = rối loạn giấc ngủ."
+      },
+      {
+       "word": "anxiety disorders",
+       "definition": "conditions in which a person feels extreme and constant worry or fear",
+       "explain": "Anxiety disorders = rối loạn lo âu."
+      },
+      {
+       "word": "eating disorders",
+       "definition": "illnesses in which a person has an unhealthy relationship with food",
+       "explain": "Eating disorders = rối loạn ăn uống."
+      },
+      {
+       "word": "depressed",
+       "definition": "feeling very sad and without hope",
+       "explain": "Depressed là tính từ chỉ cảm giác của người."
+      },
+      {
+       "word": "depressing",
+       "definition": "making you feel sad and without hope",
+       "explain": "Depressing là tính từ mô tả sự vật gây buồn chán."
+      },
+      {
+       "word": "depression",
+       "definition": "a medical condition in which a person feels extremely sad for a long time",
+       "explain": "Depression = bệnh/trạng thái trầm cảm."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "anxiety disorders",
+      "depressed",
+      "depressing",
+      "depression",
+      "disorder",
+      "eating disorders",
+      "mental disorders",
+      "sleep disorders",
+      "suffer from"
+     ],
+     "items": [
+      {
+       "q": "Many office workers ____ back pain because they sit all day.",
+       "answer": "suffer from",
+       "explain": "Suffer from + vấn đề sức khỏe."
+      },
+      {
+       "q": "The doctor said the boy's behaviour was caused by a medical ____.",
+       "answer": "disorder",
+       "explain": "Cần danh từ số ít sau 'a medical': disorder."
+      },
+      {
+       "q": "Schools should teach students how to recognise ____ in their early stages.",
+       "answer": "mental disorders",
+       "explain": "Mental disorders = rối loạn tâm lý, cần nhận biết sớm."
+      },
+      {
+       "q": "People with ____ often feel tired all day, even after eight hours in bed.",
+       "answer": "sleep disorders",
+       "explain": "Mệt dù ngủ đủ giờ là dấu hiệu của sleep disorders."
+      },
+      {
+       "q": "She takes classes to learn how to manage her ____ before public talks.",
+       "answer": "anxiety disorders",
+       "explain": "Lo lắng trước khi phát biểu liên quan đến anxiety disorders."
+      },
+      {
+       "q": "Models and dancers are sometimes at risk of ____ because of pressure to stay thin.",
+       "answer": "eating disorders",
+       "explain": "Áp lực về cân nặng dẫn đến eating disorders."
+      },
+      {
+       "q": "After losing his job, he felt ____ for months.",
+       "answer": "depressed",
+       "explain": "Feel + tính từ chỉ cảm giác: depressed."
+      },
+      {
+       "q": "The weather was so grey and ____ that nobody wanted to go out.",
+       "answer": "depressing",
+       "explain": "Depressing mô tả thời tiết gây chán nản."
+      },
+      {
+       "q": "Regular exercise can help people with mild ____.",
+       "answer": "depression",
+       "explain": "Cần danh từ: depression = trầm cảm."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "According to doctors, what is a disorder?",
+       "options": [
+        "A bad mood",
+        "A medical condition that affects thinking and behaviour",
+        "A kind of school subject",
+        "A type of medicine"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2 định nghĩa disorder là tình trạng y khoa ảnh hưởng đến suy nghĩ và hành vi."
+      },
+      {
+       "q": "How may people with anxiety disorders feel?",
+       "options": [
+        "Afraid or worried for no clear reason",
+        "Too sleepy to work",
+        "Angry at their families",
+        "Proud of themselves"
+       ],
+       "answer": 0,
+       "explain": "Đoạn 1: họ lo sợ không có lý do rõ ràng."
+      },
+      {
+       "q": "What does the report recommend for schools?",
+       "options": [
+        "Longer lessons",
+        "Counselling for students",
+        "Less homework",
+        "More exams"
+       ],
+       "answer": 1,
+       "explain": "Đoạn cuối khuyên trường học cung cấp tư vấn tâm lý."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "People with sleep disorders cannot rest properly at night.",
+       "answer": "True",
+       "explain": "Đoạn 1 nói rõ điều này."
+      },
+      {
+       "q": "A disorder is the same as a bad mood.",
+       "answer": "False",
+       "explain": "Bác sĩ nói disorder KHÔNG giống tâm trạng xấu."
+      },
+      {
+       "q": "Eating disorders only affect girls.",
+       "answer": "Not Given",
+       "explain": "Bài chỉ nói phổ biến ở thanh thiếu niên, không đề cập giới tính."
+      },
+      {
+       "q": "The report says talking early makes treatment easier.",
+       "answer": "True",
+       "explain": "Đoạn cuối: nói chuyện sớm giúp điều trị dễ hơn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Exam Day Nerves",
+   "text": "Every summer, thousands of Vietnamese students **take an exam** to enter university. In Britain, students usually **do an exam** called the A-level instead. The idea is the same: each **candidate** sits in a quiet hall and answers questions for two or three hours, while teachers walk around to make sure nobody cheats.\n\nMy friend Minh was always **frightened of** that day. He worried that he would forget everything he had learned and would **fail an exam** that decided his future. His parents told him that failure was not the end of the world. If he did not **pass an exam**, he could simply **retake an exam** the following year.\n\nMinh felt calmer after that conversation. He studied steadily, slept well, and arrived at the hall early. When the results came out in July, he had passed with a score high enough for his first-choice school. He still says the waiting was the hardest part.",
+   "summary_vi": "Minh sợ kỳ thi đại học nhưng bố mẹ trấn an rằng có thể thi lại, và cuối cùng cậu đã đỗ.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "take an exam",
+       "definition": "to sit an exam and answer its questions",
+       "explain": "Take an exam = dự thi."
+      },
+      {
+       "word": "do an exam",
+       "definition": "to take a test (same meaning as take an exam)",
+       "explain": "Do an exam = thi, đồng nghĩa với take an exam."
+      },
+      {
+       "word": "pass an exam",
+       "definition": "to achieve the score needed to succeed in a test",
+       "explain": "Pass an exam = thi đỗ."
+      },
+      {
+       "word": "fail an exam",
+       "definition": "to not reach the score needed in a test",
+       "explain": "Fail an exam = thi trượt."
+      },
+      {
+       "word": "retake an exam",
+       "definition": "to take the same test again",
+       "explain": "Retake an exam = thi lại."
+      },
+      {
+       "word": "candidate",
+       "definition": "a person who is taking an exam",
+       "explain": "Candidate = thí sinh đang dự thi."
+      },
+      {
+       "word": "be frightened of + 0",
+       "definition": "afraid of something or of doing something",
+       "explain": "Be frightened of = sợ điều gì."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "candidate",
+      "do an exam",
+      "fail an exam",
+      "frightened of",
+      "pass an exam",
+      "retake an exam",
+      "take an exam"
+     ],
+     "items": [
+      {
+       "q": "Students must arrive early when they ____ in the main hall.",
+       "answer": "take an exam",
+       "explain": "Take an exam = dự thi, hợp với 'in the main hall'."
+      },
+      {
+       "q": "In the UK, many sixteen-year-olds ____ called the GCSE.",
+       "answer": "do an exam",
+       "explain": "Do an exam = thi một kỳ thi."
+      },
+      {
+       "q": "You need at least 50 percent to ____ in this course.",
+       "answer": "pass an exam",
+       "explain": "Pass an exam = thi đỗ khi đủ điểm."
+      },
+      {
+       "q": "If you don't study at all, you will probably ____.",
+       "answer": "fail an exam",
+       "explain": "Không học thì dễ trượt: fail an exam."
+      },
+      {
+       "q": "She wasn't happy with her score, so she decided to ____ in December.",
+       "answer": "retake an exam",
+       "explain": "Retake an exam = thi lại vì chưa hài lòng."
+      },
+      {
+       "q": "Each ____ must put their phone in a bag before the test starts.",
+       "answer": "candidate",
+       "explain": "Candidate = thí sinh."
+      },
+      {
+       "q": "Small children are often ____ the dark.",
+       "answer": "frightened of",
+       "explain": "Frightened of + danh từ = sợ cái gì."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "What does each candidate do in the hall?",
+       "options": [
+        "Talks to teachers",
+        "Answers questions for two or three hours",
+        "Watches other students",
+        "Reads a newspaper"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 1: thí sinh trả lời câu hỏi trong 2-3 giờ."
+      },
+      {
+       "q": "What did Minh's parents tell him?",
+       "options": [
+        "He should stop studying",
+        "He could retake the exam next year",
+        "He must pass at any cost",
+        "He should change schools"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2: nếu không đỗ, cậu có thể thi lại năm sau."
+      },
+      {
+       "q": "What does Minh say was the hardest part?",
+       "options": [
+        "The exam itself",
+        "Studying",
+        "The waiting for results",
+        "Getting up early"
+       ],
+       "answer": 2,
+       "explain": "Câu cuối: chờ kết quả là phần khó nhất."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "Teachers walk around the hall during the exam.",
+       "answer": "True",
+       "explain": "Đoạn 1 nói giáo viên đi quanh để chắc không ai gian lận."
+      },
+      {
+       "q": "Minh failed his exam.",
+       "answer": "False",
+       "explain": "Minh đã đỗ với điểm đủ cao."
+      },
+      {
+       "q": "Minh paid for private classes.",
+       "answer": "Not Given",
+       "explain": "Bài không đề cập lớp học thêm."
+      },
+      {
+       "q": "The results came out in July.",
+       "answer": "True",
+       "explain": "Đoạn cuối nói kết quả có vào tháng Bảy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Plan for Revision",
+   "text": "Three weeks before her final exams, Hoa made a plan. She decided to **revise for** each subject at a fixed time, starting at seven every morning. She would **do some revision** in the library, then go for a short walk. In her notebook she wrote: Maths on Monday, History on Tuesday.\n\nHoa's older brother thought her timetable was too strict. \"It will **depress** you,\" he said. \"You'll have no fun.\" But Hoa knew that good **exam preparation** is about balance. She would **do exam preparation** in short blocks of forty minutes and then rest. Each block ended with a quick **revision** of the key points, which helped her remember them.\n\nOn the morning of the first test, Hoa felt ready. She walked **energetically** through the school gate, smiling at her classmates. Her brother was wrong: the plan did not make her unhappy at all. It simply gave her confidence.",
+   "summary_vi": "Hoa lập kế hoạch ôn thi cân bằng, anh trai lo cô sẽ chán nản nhưng kế hoạch lại giúp cô tự tin.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "revise for something",
+       "definition": "to study again what you have learned before a test",
+       "explain": "Revise for = ôn thi (Anh-Anh)."
+      },
+      {
+       "word": "do some revision",
+       "definition": "to spend time reviewing lessons before a test",
+       "explain": "Do some revision = ôn tập một chút."
+      },
+      {
+       "word": "revision",
+       "definition": "the act of reviewing what you have studied",
+       "explain": "Revision = việc ôn tập."
+      },
+      {
+       "word": "do exam preparation",
+       "definition": "to prepare for a test by practising and studying",
+       "explain": "Do exam preparation = luyện thi."
+      },
+      {
+       "word": "exam preparation",
+       "definition": "the work you do to get ready for a test",
+       "explain": "Exam preparation = việc chuẩn bị/luyện thi."
+      },
+      {
+       "word": "depress",
+       "definition": "to make someone feel very sad or without hope",
+       "explain": "Depress = làm ai đó buồn chán, suy sụp."
+      },
+      {
+       "word": "energetically",
+       "definition": "in a very active way, with a lot of energy",
+       "explain": "Energetically = một cách đầy năng lượng."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "depress",
+      "do exam preparation",
+      "do some revision",
+      "energetically",
+      "exam preparation",
+      "revise for",
+      "revision"
+     ],
+     "items": [
+      {
+       "q": "I need to ____ my history test tonight.",
+       "answer": "revise for",
+       "explain": "Revise for + kỳ thi/bài kiểm tra."
+      },
+      {
+       "q": "Before the quiz, let's ____ together in the cafe.",
+       "answer": "do some revision",
+       "explain": "Do some revision = ôn tập cùng nhau."
+      },
+      {
+       "q": "A quick ____ of yesterday's lesson helps you remember the vocabulary.",
+       "answer": "revision",
+       "explain": "Sau 'a quick' cần danh từ: revision."
+      },
+      {
+       "q": "Students often ____ with their classmates in the evening.",
+       "answer": "do exam preparation",
+       "explain": "Do exam preparation = luyện thi cùng bạn."
+      },
+      {
+       "q": "Good ____ includes sleeping well and eating healthy food.",
+       "answer": "exam preparation",
+       "explain": "Danh từ làm chủ ngữ: exam preparation."
+      },
+      {
+       "q": "Bad news on the radio can ____ people who are already tired.",
+       "answer": "depress",
+       "explain": "Sau can cần động từ nguyên mẫu: depress."
+      },
+      {
+       "q": "The children ran ____ across the field to join the game.",
+       "answer": "energetically",
+       "explain": "Trạng từ bổ nghĩa cho ran: energetically."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "How does Hoa organise her study?",
+       "options": [
+        "She studies all night",
+        "She studies in short blocks and rests",
+        "She studies only on weekends",
+        "She studies with her brother"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2: học theo khối 40 phút rồi nghỉ."
+      },
+      {
+       "q": "What did Hoa's brother think of her plan?",
+       "options": [
+        "It was too strict",
+        "It was too easy",
+        "It was perfect",
+        "It was too short"
+       ],
+       "answer": 0,
+       "explain": "Đoạn 2: anh cho rằng thời gian biểu quá nghiêm."
+      },
+      {
+       "q": "How did Hoa feel on the morning of the first test?",
+       "options": [
+        "Ready",
+        "Terrified",
+        "Bored",
+        "Sleepy"
+       ],
+       "answer": 0,
+       "explain": "Đoạn 3: Hoa cảm thấy sẵn sàng."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "Hoa starts studying at seven every morning.",
+       "answer": "True",
+       "explain": "Đoạn 1 nói bắt đầu lúc bảy giờ sáng."
+      },
+      {
+       "q": "Hoa rested between her study blocks.",
+       "answer": "True",
+       "explain": "Đoạn 2: học 40 phút rồi nghỉ."
+      },
+      {
+       "q": "Her brother supported her plan.",
+       "answer": "False",
+       "explain": "Anh trai cho rằng kế hoạch quá nghiêm và sẽ làm cô chán nản."
+      },
+      {
+       "q": "Hoa got the highest score in her class.",
+       "answer": "Not Given",
+       "explain": "Bài không nói về kết quả cuối cùng."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Speech Mr Harris Gives",
+   "text": "At the start of every term, Mr Harris, our English teacher, gives the same speech. \"Some of you will **do well** in this course,\" he says, \"and some will **do badly**. The difference is rarely intelligence. It is effort.\"\n\nHe tells us that nobody expects perfection. \"All I ask is that you **do your best**,\" he says. \"If you **try your best** every day, you will improve, even when it feels slow.\"\n\nMr Harris is also honest about results. In British schools you **get a good mark** by answering clearly and giving examples, and in many American schools you **get a good grade** by doing the same thing. Whatever word you use, a **grade** is only a small piece of information. It tells you what happened on one test, not who you are.\n\nI used to ignore this speech. Now I understand it, because last year I improved from a C to a B simply by working steadily.",
+   "summary_vi": "Thầy Harris khuyên học sinh cố gắng hết sức vì điểm số chỉ là một mẩu thông tin nhỏ.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "do well",
+       "definition": "to achieve good results",
+       "explain": "Do well = làm bài tốt."
+      },
+      {
+       "word": "do badly",
+       "definition": "to achieve poor results",
+       "explain": "Do badly = làm bài kém."
+      },
+      {
+       "word": "do your best",
+       "definition": "to try as hard as you can",
+       "explain": "Do your best = cố gắng hết sức."
+      },
+      {
+       "word": "try your best",
+       "definition": "to make the greatest effort you can",
+       "explain": "Try your best = đồng nghĩa với do your best."
+      },
+      {
+       "word": "get a good grade",
+       "definition": "to receive a high score, especially in American English",
+       "explain": "Get a good grade = đạt điểm tốt (Mỹ)."
+      },
+      {
+       "word": "get a good mark",
+       "definition": "to receive a high score, especially in British English",
+       "explain": "Get a good mark = đạt điểm tốt (Anh)."
+      },
+      {
+       "word": "grade",
+       "definition": "a number or letter that shows how good your work is",
+       "explain": "Grade = điểm số/xếp loại."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "do badly",
+      "do well",
+      "do your best",
+      "get a good grade",
+      "get a good mark",
+      "grade",
+      "try your best"
+     ],
+     "items": [
+      {
+       "q": "If you listen carefully in class, you will probably ____ in the test.",
+       "answer": "do well",
+       "explain": "Do well = làm bài tốt."
+      },
+      {
+       "q": "He didn't sleep before the interview, so he started to ____.",
+       "answer": "do badly",
+       "explain": "Thiếu ngủ nên làm kém: do badly."
+      },
+      {
+       "q": "I don't mind if you lose, as long as you ____.",
+       "answer": "do your best",
+       "explain": "Do your best = cố gắng hết sức."
+      },
+      {
+       "q": "Even when the task feels impossible, always ____.",
+       "answer": "try your best",
+       "explain": "Try your best = nỗ lực hết mình."
+      },
+      {
+       "q": "She studied day and night to ____ in biology.",
+       "answer": "get a good grade",
+       "explain": "Get a good grade = đạt điểm tốt."
+      },
+      {
+       "q": "In the UK, students usually need to ____ in maths to enter that university.",
+       "answer": "get a good mark",
+       "explain": "Get a good mark = đạt điểm tốt (Anh)."
+      },
+      {
+       "q": "The teacher wrote a red B next to my ____ on the report.",
+       "answer": "grade",
+       "explain": "Grade = điểm xếp loại, chữ B."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "What does Mr Harris say makes the difference between students?",
+       "options": [
+        "Intelligence",
+        "Money",
+        "Effort",
+        "Luck"
+       ],
+       "answer": 2,
+       "explain": "Đoạn 1: sự khác biệt hiếm khi là trí thông minh mà là nỗ lực."
+      },
+      {
+       "q": "What does Mr Harris ask students to do?",
+       "options": [
+        "Win every test",
+        "Do their best",
+        "Ask for easier work",
+        "Study alone"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2: 'All I ask is that you do your best'."
+      },
+      {
+       "q": "How did the writer improve last year?",
+       "options": [
+        "By working steadily",
+        "By changing teachers",
+        "By cheating",
+        "By studying only at night"
+       ],
+       "answer": 0,
+       "explain": "Câu cuối: nhờ học đều đặn."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "Mr Harris expects perfect results.",
+       "answer": "False",
+       "explain": "Ông nói không ai mong đợi sự hoàn hảo."
+      },
+      {
+       "q": "He gives the same speech at the start of every term.",
+       "answer": "True",
+       "explain": "Câu đầu bài nói rõ điều này."
+      },
+      {
+       "q": "Mr Harris teaches maths.",
+       "answer": "False",
+       "explain": "Ông là giáo viên tiếng Anh."
+      },
+      {
+       "q": "The writer's grade improved from a C to a B.",
+       "answer": "True",
+       "explain": "Câu cuối bài."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Learning to Write an Essay",
+   "text": "Writing has never been easy for me. I **find it difficult to** organise my ideas, and my first drafts are usually a mess. When my tutor asked us to **do an essay** on city life, I almost panicked.\n\nI decided to **work on** one skill at a time. First, I wrote a plan with three main points. Then I wrote one paragraph a day, instead of trying to **get through** the whole essay on the last night. It was slow, and honestly it was **hard work**, but I could see progress.\n\nWhen the tutor returned the essays, I looked for the **mark** at the bottom of the page. It was 7 out of 10, my best result so far. \"**With a bit of luck**, you could reach eight next time,\" she wrote beside it. I smiled. I knew luck would be only a small part of it; the real reason for my improvement was patience and daily practice.",
+   "summary_vi": "Người viết gặp khó khi viết luận, nhưng luyện từng kỹ năng mỗi ngày nên đạt điểm 7/10.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "find it difficult to do something",
+       "definition": "to think that something is not easy for you",
+       "explain": "Find it difficult to = thấy khó khi làm gì."
+      },
+      {
+       "word": "do an essay",
+       "definition": "to write a short piece of writing on a subject",
+       "explain": "Do an essay = làm một bài luận."
+      },
+      {
+       "word": "work on something",
+       "definition": "to spend time improving a skill",
+       "explain": "Work on = rèn luyện, cải thiện một kỹ năng."
+      },
+      {
+       "word": "get through something",
+       "definition": "to finish a large amount of work or study",
+       "explain": "Get through = làm xong, học hết một lượng nội dung."
+      },
+      {
+       "word": "hard work",
+       "definition": "activity that needs a lot of effort",
+       "explain": "Hard work = việc đòi hỏi nhiều nỗ lực."
+      },
+      {
+       "word": "mark",
+       "definition": "a number or letter given for a piece of work",
+       "explain": "Mark = điểm số bài làm."
+      },
+      {
+       "word": "with a bit of luck",
+       "definition": "if things go well, as we hope",
+       "explain": "With a bit of luck = nếu may mắn một chút."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "do an essay",
+      "find it difficult to",
+      "get through",
+      "hard work",
+      "mark",
+      "with a bit of luck",
+      "work on"
+     ],
+     "items": [
+      {
+       "q": "Many learners ____ understand fast native speakers.",
+       "answer": "find it difficult to",
+       "explain": "Find it difficult to + động từ nguyên mẫu."
+      },
+      {
+       "q": "The teacher asked us to ____ about our favourite festival.",
+       "answer": "do an essay",
+       "explain": "Do an essay = làm một bài luận."
+      },
+      {
+       "q": "I want to ____ my pronunciation this month.",
+       "answer": "work on",
+       "explain": "Work on = rèn luyện/cải thiện."
+      },
+      {
+       "q": "It took three evenings to ____ the whole textbook unit.",
+       "answer": "get through",
+       "explain": "Get through = học hết/làm xong."
+      },
+      {
+       "q": "Learning a language takes a lot of ____, but it is worth it.",
+       "answer": "hard work",
+       "explain": "Hard work = công sức, nỗ lực."
+      },
+      {
+       "q": "I got a high ____ in the speaking test.",
+       "answer": "mark",
+       "explain": "Mark = điểm số."
+      },
+      {
+       "q": "____, we will arrive before the rain starts.",
+       "answer": "with a bit of luck",
+       "explain": "With a bit of luck = nếu may mắn."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "What did the writer do first?",
+       "options": [
+        "Wrote a plan with three main points",
+        "Asked a friend to write it",
+        "Wrote the whole essay in one night",
+        "Read ten books"
+       ],
+       "answer": 0,
+       "explain": "Đoạn 2: viết dàn ý ba ý chính trước."
+      },
+      {
+       "q": "What mark did the writer get?",
+       "options": [
+        "5 out of 10",
+        "6 out of 10",
+        "7 out of 10",
+        "8 out of 10"
+       ],
+       "answer": 2,
+       "explain": "Đoạn 3: 7/10, kết quả tốt nhất."
+      },
+      {
+       "q": "What does the writer believe was the real reason for the improvement?",
+       "options": [
+        "Luck",
+        "Patience and daily practice",
+        "A new tutor",
+        "Longer essays"
+       ],
+       "answer": 1,
+       "explain": "Câu cuối đoạn 3 nêu rõ."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "The writer found essays easy at first.",
+       "answer": "False",
+       "explain": "Câu đầu: viết chưa bao giờ dễ với người viết."
+      },
+      {
+       "q": "The tutor suggested the writer could reach eight next time.",
+       "answer": "True",
+       "explain": "Cô viết bên cạnh điểm số."
+      },
+      {
+       "q": "The essay was about city life.",
+       "answer": "True",
+       "explain": "Đoạn 1 nêu chủ đề city life."
+      },
+      {
+       "q": "The writer's friends helped with the essay.",
+       "answer": "Not Given",
+       "explain": "Bài không nhắc tới bạn bè."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Money in London",
+   "text": "When Linh arrived in London for her master's course, the first thing she needed was local money. The **currency** in the United Kingdom is the pound, often called **sterling** in banks and on the news. Her host family showed her the different forms of money. A paper **note** can be worth five, ten, twenty or fifty pounds, while a metal **coin** is worth less, from one penny to two pounds.\n\nTo get cash, Linh looked for a **cashpoint** near her flat. Americans would call it **a cash machine**, but British people prefer the first word. She used her new debit card to **take out money** for the week, and the machine printed a receipt showing her balance.\n\nLinh had a clear goal for her first year. She wanted to **be in credit** at the end of every month, which meant never spending more than she had. It was not easy in an expensive city, but she kept a notebook and checked it every Sunday evening.",
+   "summary_vi": "Linh đến London, làm quen với tiền Anh, cách rút tiền và đặt mục tiêu luôn còn tiền trong tài khoản.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "currency",
+       "definition": "the system of money used in a country",
+       "explain": "Currency = tiền tệ của một nước."
+      },
+      {
+       "word": "sterling",
+       "definition": "the money system of the United Kingdom, the pound",
+       "explain": "Sterling = đồng bảng Anh."
+      },
+      {
+       "word": "note",
+       "definition": "a piece of paper money",
+       "explain": "Note = tiền giấy."
+      },
+      {
+       "word": "coin",
+       "definition": "a small round piece of metal money",
+       "explain": "Coin = tiền xu."
+      },
+      {
+       "word": "cashpoint",
+       "definition": "a machine in the wall where you can get money (UK)",
+       "explain": "Cashpoint = máy rút tiền (Anh)."
+      },
+      {
+       "word": "a cash machine",
+       "definition": "a machine that gives out money from your bank account (US)",
+       "explain": "A cash machine = máy rút tiền (Mỹ)."
+      },
+      {
+       "word": "take out money",
+       "definition": "to get money from your bank account",
+       "explain": "Take out money = rút tiền."
+      },
+      {
+       "word": "be in credit",
+       "definition": "to have money left in your bank account",
+       "explain": "Be in credit = tài khoản còn tiền."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "a cash machine",
+      "be in credit",
+      "cashpoint",
+      "coin",
+      "currency",
+      "note",
+      "sterling",
+      "take out money"
+     ],
+     "items": [
+      {
+       "q": "Before you travel to Japan, check the exchange rate of the local ____.",
+       "answer": "currency",
+       "explain": "Currency = tiền tệ, đang nói về tiền địa phương."
+      },
+      {
+       "q": "The price in ____ went up after the election.",
+       "answer": "sterling",
+       "explain": "Sterling = đồng bảng Anh."
+      },
+      {
+       "q": "I only have a fifty-pound ____, so can you change it?",
+       "answer": "note",
+       "explain": "Note = tờ tiền giấy."
+      },
+      {
+       "q": "You need a one-pound ____ to unlock the shopping trolley.",
+       "answer": "coin",
+       "explain": "Coin = đồng xu, dùng cho xe đẩy."
+      },
+      {
+       "q": "There is a ____ outside the bank where you can get cash at night.",
+       "answer": "cashpoint",
+       "explain": "Cashpoint = máy rút tiền ngoài ngân hàng."
+      },
+      {
+       "q": "In the US, you can use ____ at the airport to get dollars.",
+       "answer": "a cash machine",
+       "explain": "Cách nói Mỹ: a cash machine."
+      },
+      {
+       "q": "I need to ____ before I go to the market.",
+       "answer": "take out money",
+       "explain": "Take out money = rút tiền trước khi đi chợ."
+      },
+      {
+       "q": "It's good to ____ every month because it means you have spare money.",
+       "answer": "be in credit",
+       "explain": "Be in credit = còn dư tiền trong tài khoản."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "What is the currency of the United Kingdom?",
+       "options": [
+        "The dollar",
+        "The pound",
+        "The euro",
+        "The yen"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 1: đồng tiền là pound (sterling)."
+      },
+      {
+       "q": "Why does the writer say 'cashpoint' is used?",
+       "options": [
+        "Americans prefer it",
+        "British people prefer that word",
+        "It is a bank name",
+        "It is a new machine"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2: người Anh thích từ cashpoint hơn."
+      },
+      {
+       "q": "What was Linh's goal for her first year?",
+       "options": [
+        "To buy a flat",
+        "To be in credit every month",
+        "To open three accounts",
+        "To send money home"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 3: cô muốn luôn còn tiền cuối mỗi tháng."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "Coins in the UK are worth less than the notes.",
+       "answer": "True",
+       "explain": "Xu từ 1 penny đến 2 pound, tiền giấy từ 5 pound trở lên."
+      },
+      {
+       "q": "Linh used a credit card to take out money.",
+       "answer": "False",
+       "explain": "Cô dùng thẻ ghi nợ (debit card)."
+      },
+      {
+       "q": "Linh came to London to start a master's course.",
+       "answer": "True",
+       "explain": "Câu đầu bài viết."
+      },
+      {
+       "q": "Linh opened her account at a large national bank.",
+       "answer": "Not Given",
+       "explain": "Bài không nói tên ngân hàng."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Paying for University",
+   "text": "Going to university can be expensive, so many students apply for a **student loan**. In some countries it is easy to **get a loan** from the government, but you must understand the conditions first. The loan usually helps you **pay your fees** and buy books, but it does not cover everything.\n\nA common mistake is to **owe someone money** and forget about it. If you **borrow** a laptop from a friend, for example, return it on time. If you ask a relative to **lend** you some cash, write down the date and the **amount of money**. Clear records protect friendships.\n\nEventually you will need to **pay back money** that you owe, either to the bank or to people you know. The sooner you start, the smaller the total cost, because interest grows every month. Financial experts also advise students to keep a simple notebook: income on one page, spending on the other. It sounds boring, but it works.",
+   "summary_vi": "Bài khuyên sinh viên cách vay tiền học, vay mượn bạn bè và trả nợ sớm để tránh lãi tăng.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "student loan",
+       "definition": "money borrowed to pay for university",
+       "explain": "Student loan = khoản vay sinh viên."
+      },
+      {
+       "word": "get a loan",
+       "definition": "to receive an amount of money that you must pay back",
+       "explain": "Get a loan = vay một khoản tiền."
+      },
+      {
+       "word": "pay your fees",
+       "definition": "to give the money needed for school or university costs",
+       "explain": "Pay your fees = trả học phí."
+      },
+      {
+       "word": "owe someone money",
+       "definition": "to have to give money back to someone",
+       "explain": "Owe someone money = nợ ai tiền."
+      },
+      {
+       "word": "pay back money",
+       "definition": "to return money that you borrowed",
+       "explain": "Pay back money = trả lại tiền đã vay."
+      },
+      {
+       "word": "amount of money",
+       "definition": "a quantity of money, small or large",
+       "explain": "Amount of money = một khoản tiền."
+      },
+      {
+       "word": "borrow st from sb",
+       "definition": "to take something from someone and give it back later",
+       "explain": "Borrow = mượn từ ai."
+      },
+      {
+       "word": "lend sb st",
+       "definition": "to give someone something for a short time",
+       "explain": "Lend sb st = cho ai mượn cái gì."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "amount of money",
+      "borrow",
+      "get a loan",
+      "lend",
+      "owe someone money",
+      "pay back money",
+      "pay your fees",
+      "student loan"
+     ],
+     "items": [
+      {
+       "q": "After graduation, she spent five years repaying her ____.",
+       "answer": "student loan",
+       "explain": "Student loan = khoản vay sinh viên."
+      },
+      {
+       "q": "It is not easy to ____ if you have no regular income.",
+       "answer": "get a loan",
+       "explain": "Get a loan = vay tiền ngân hàng."
+      },
+      {
+       "q": "You must ____ before the first day of the semester, or you cannot attend classes.",
+       "answer": "pay your fees",
+       "explain": "Pay your fees = đóng học phí."
+      },
+      {
+       "q": "I hate to ____ because I never feel relaxed until I pay it back.",
+       "answer": "owe someone money",
+       "explain": "Owe someone money = nợ tiền ai."
+      },
+      {
+       "q": "When you ____ quickly, lenders trust you more.",
+       "answer": "pay back money",
+       "explain": "Pay back money = trả nợ."
+      },
+      {
+       "q": "A large ____ was stolen from the safe last night.",
+       "answer": "amount of money",
+       "explain": "Amount of money = một khoản tiền lớn."
+      },
+      {
+       "q": "May I ____ your umbrella? I will return it tomorrow.",
+       "answer": "borrow",
+       "explain": "Borrow = mượn; sau may I cần động từ nguyên mẫu."
+      },
+      {
+       "q": "Could you ____ me ten dollars until Friday?",
+       "answer": "lend",
+       "explain": "Lend + người + vật = cho ai mượn."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "What does the student loan usually help with?",
+       "options": [
+        "Fees and books",
+        "Food and travel",
+        "Rent only",
+        "Holidays"
+       ],
+       "answer": 0,
+       "explain": "Đoạn 1: giúp trả học phí và mua sách."
+      },
+      {
+       "q": "What should you write down when a relative lends you cash?",
+       "options": [
+        "Their address",
+        "The date and the amount of money",
+        "The interest rate",
+        "Their job"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2: ghi ngày và số tiền."
+      },
+      {
+       "q": "Why should you start paying back early?",
+       "options": [
+        "Banks give prizes",
+        "Interest grows every month",
+        "Friends will be angry",
+        "Fees become cheaper"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 3: lãi tăng mỗi tháng."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "Student loans cover every cost of university.",
+       "answer": "False",
+       "explain": "Đoạn 1: khoản vay không bao gồm mọi thứ."
+      },
+      {
+       "q": "Interest on a loan grows every month.",
+       "answer": "True",
+       "explain": "Đoạn 3 nêu điều này."
+      },
+      {
+       "q": "In every country it is easy to get a government loan.",
+       "answer": "False",
+       "explain": "Bài chỉ nói 'in some countries'."
+      },
+      {
+       "q": "The writer has a student loan.",
+       "answer": "Not Given",
+       "explain": "Bài không nói về kinh nghiệm của người viết."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "My First Flat",
+   "text": "I recently started my first job in Ho Chi Minh City, and I am learning how expensive independence is. At the moment I **can't afford** a flat alone, so I share one with two colleagues. We **pay rent** on the first day of each month, and my share is cheap but not tiny.\n\nBefore moving in, we had to **pay a deposit** equal to **one month's rent**. The landlord promised to return it when we leave, as long as nothing is broken. To find the money, I decided to **save up for** it by cooking at home and walking to work.\n\nShopping has become a game, too. Supermarkets often offer **three for the price of two** on shampoo or noodles, and I always take advantage of that deal. My aunt, who is good with money, suggested putting my extra savings into a **certificate of deposit** at her bank. It pays higher interest than a normal account, but I cannot touch the money for a year. For now, I am keeping things simple.",
+   "summary_vi": "Người viết mới đi làm ở TP.HCM, ở chung nhà, tiết kiệm đặt cọc và học cách chi tiêu thông minh.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "save up for something/ to V",
+       "definition": "to keep money over time to buy something later",
+       "explain": "Save up for = tiết kiệm dần cho mục tiêu."
+      },
+      {
+       "word": "can't afford something",
+       "definition": "to not have enough money to buy something",
+       "explain": "Can't afford = không đủ tiền mua."
+      },
+      {
+       "word": "pay rent",
+       "definition": "to give money regularly to live in a place you do not own",
+       "explain": "Pay rent = trả tiền thuê nhà."
+      },
+      {
+       "word": "one month's rent",
+       "definition": "the amount you pay to live in a place for one month",
+       "explain": "One month's rent = tiền thuê nhà một tháng."
+      },
+      {
+       "word": "pay a deposit",
+       "definition": "to give an amount of money first to reserve something",
+       "explain": "Pay a deposit = đặt cọc."
+      },
+      {
+       "word": "three for the price of two",
+       "definition": "a shop offer in which you get three items but pay for two",
+       "explain": "Three for the price of two = mua 3 tính tiền 2."
+      },
+      {
+       "word": "certificate of deposit",
+       "definition": "a bank product that pays higher interest if you leave money untouched",
+       "explain": "Certificate of deposit = chứng chỉ tiền gửi."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "can't afford",
+      "certificate of deposit",
+      "one month's rent",
+      "pay a deposit",
+      "pay rent",
+      "save up for",
+      "three for the price of two"
+     ],
+     "items": [
+      {
+       "q": "She plans to ____ a new camera by working at weekends.",
+       "answer": "save up for",
+       "explain": "Save up for + vật muốn mua."
+      },
+      {
+       "q": "We ____ a holiday abroad this year because everything is too expensive.",
+       "answer": "can't afford",
+       "explain": "Can't afford = không đủ khả năng chi trả."
+      },
+      {
+       "q": "Tenants must ____ before the fifth of every month.",
+       "answer": "pay rent",
+       "explain": "Pay rent = trả tiền thuê nhà."
+      },
+      {
+       "q": "The agency asked for ____ as a fee.",
+       "answer": "one month's rent",
+       "explain": "One month's rent = tiền thuê một tháng."
+      },
+      {
+       "q": "To reserve the hotel room online, you need to ____.",
+       "answer": "pay a deposit",
+       "explain": "Pay a deposit = đặt cọc để giữ phòng."
+      },
+      {
+       "q": "The bookshop has a special offer: ____ on all notebooks.",
+       "answer": "three for the price of two",
+       "explain": "Ưu đãi mua 3 tính tiền 2."
+      },
+      {
+       "q": "He put his savings into a ____ that pays 5 percent interest.",
+       "answer": "certificate of deposit",
+       "explain": "Certificate of deposit = chứng chỉ tiền gửi lãi cao."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "Why does the writer share a flat?",
+       "options": [
+        "They like company",
+        "They can't afford a flat alone",
+        "They have a large family",
+        "They work from home"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 1: không đủ tiền thuê một mình."
+      },
+      {
+       "q": "When will the landlord return the deposit?",
+       "options": [
+        "After one month",
+        "When they leave, if nothing is broken",
+        "At the end of the year",
+        "Never"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2 nêu điều kiện trả lại."
+      },
+      {
+       "q": "What is the disadvantage of the certificate of deposit?",
+       "options": [
+        "Low interest",
+        "The money cannot be touched for a year",
+        "High fees",
+        "It is only for aunts"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 3: không thể động tới tiền trong một năm."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "The writer lives with two colleagues.",
+       "answer": "True",
+       "explain": "Đoạn 1 nêu rõ."
+      },
+      {
+       "q": "The rent is paid weekly.",
+       "answer": "False",
+       "explain": "Tiền thuê nhà trả vào ngày đầu mỗi tháng."
+      },
+      {
+       "q": "The writer walks to work to save money.",
+       "answer": "True",
+       "explain": "Đoạn 2: nấu ăn tại nhà và đi bộ đi làm."
+      },
+      {
+       "q": "The writer's aunt works at a bank.",
+       "answer": "Not Given",
+       "explain": "Bài chỉ nói 'her bank', không nói công việc của dì."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Missed Deadline",
+   "text": "On Monday afternoon, our team had a **tense meeting** about a missed deadline. Our manager, Ms Pham, was already angry when she walked in. When Duc admitted that he had forgotten to send the report, she **raised her voice at** him in front of everybody.\n\nDuc replied that sending reports was not in his **job description**, and the argument became worse. Later, Ms Pham admitted that she had spoken **in the heat of the moment**. She said she had been under pressure from the director and had not meant to shout.\n\nThe next morning, she told the team that shouting is unacceptable, and that she would not do it again. Then she turned to Duc: \"This is the **absolute last time** I will accept a missed deadline.\" Duc nodded. Both agreed to move on **as long as it doesn't happen again**. The atmosphere in the office slowly improved, and by Friday people were joking in the kitchen again.",
+   "summary_vi": "Một cuộc họp căng thẳng vì trễ hạn khiến quản lý quát nhân viên, sau đó cả hai nhượng bộ và làm lành.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "Raise one's voice at someone",
+       "definition": "to speak loudly and angrily to someone",
+       "explain": "Raise one's voice at = lớn tiếng với ai."
+      },
+      {
+       "word": "Job description",
+       "definition": "a document that lists the duties of a job",
+       "explain": "Job description = bản mô tả công việc."
+      },
+      {
+       "word": "In the heat of the moment",
+       "definition": "while feeling strong emotion, without thinking carefully",
+       "explain": "In the heat of the moment = trong lúc nóng giận."
+      },
+      {
+       "word": "Tense meeting",
+       "definition": "a meeting in which people feel nervous or angry",
+       "explain": "Tense meeting = cuộc họp căng thẳng."
+      },
+      {
+       "word": "Absolute last time",
+       "definition": "a final warning that something will not be accepted again",
+       "explain": "Absolute last time = lần cuối cùng tuyệt đối."
+      },
+      {
+       "word": "As long as it doesn't happen again",
+       "definition": "on the condition that the problem is not repeated",
+       "explain": "As long as it doesn't happen again = miễn là không tái diễn."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "absolute last time",
+      "as long as it doesn't happen again",
+      "in the heat of the moment",
+      "job description",
+      "raised her voice at",
+      "tense meeting"
+     ],
+     "items": [
+      {
+       "q": "My grandmother never ____ us, even when we broke her favourite vase.",
+       "answer": "raised her voice at",
+       "explain": "Raise one's voice at = lớn tiếng với ai (chia quá khứ)."
+      },
+      {
+       "q": "Cleaning the office is not part of my ____.",
+       "answer": "job description",
+       "explain": "Job description = mô tả công việc."
+      },
+      {
+       "q": "I said something unkind ____, and I regret it now.",
+       "answer": "in the heat of the moment",
+       "explain": "In the heat of the moment = lúc nóng giận."
+      },
+      {
+       "q": "After the ____, nobody wanted to have lunch together.",
+       "answer": "tense meeting",
+       "explain": "Tense meeting = cuộc họp căng thẳng."
+      },
+      {
+       "q": "This is the ____ I lend you my car; you never return it on time.",
+       "answer": "absolute last time",
+       "explain": "Absolute last time = lần cuối cùng, nhấn mạnh."
+      },
+      {
+       "q": "I will forgive you ____.",
+       "answer": "as long as it doesn't happen again",
+       "explain": "Mệnh đề điều kiện: miễn là không tái diễn."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "Why was Ms Pham angry in the meeting?",
+       "options": [
+        "A client cancelled",
+        "A deadline was missed",
+        "The office was untidy",
+        "Duc was late"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 1: cuộc họp về việc trễ hạn và Duc quên gửi báo cáo."
+      },
+      {
+       "q": "Why did Ms Pham shout, according to herself?",
+       "options": [
+        "She was tired of her job",
+        "She was under pressure from the director",
+        "She disliked Duc",
+        "She was ill"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2: bà chịu áp lực từ giám đốc."
+      },
+      {
+       "q": "What did the two agree on?",
+       "options": [
+        "Duc would leave",
+        "To move on if it does not happen again",
+        "To hold more meetings",
+        "To ask the director"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 3: cả hai đồng ý bỏ qua nếu không tái diễn."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "Duc agreed that sending reports was his responsibility.",
+       "answer": "False",
+       "explain": "Duc cho rằng việc đó không thuộc job description."
+      },
+      {
+       "q": "Ms Pham spoke to the team the day after the meeting.",
+       "answer": "True",
+       "explain": "Đoạn 3: sáng hôm sau bà nói với cả nhóm."
+      },
+      {
+       "q": "Duc is the youngest member of the team.",
+       "answer": "Not Given",
+       "explain": "Bài không nói tuổi của Duc."
+      },
+      {
+       "q": "The office atmosphere improved by Friday.",
+       "answer": "True",
+       "explain": "Câu cuối bài."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Talking Like Adults",
+   "text": "After the argument, Duc thought carefully about what to do. He felt hurt that Ms Pham had shouted **in front of people**, but he also knew that he had answered rudely. A friend advised him that the best way to **address** a manager about a conflict is to speak first and listen carefully afterwards. So Duc asked for a **one-on-one** meeting in her office.\n\nAt first, Ms Pham looked surprised. Then she smiled and said, \"Let's **have a conversation like adults**.\" She listened to his complaints without interrupting, and he did the same when it was her turn. Duc then decided to **apologize for** his behavior, because he had been rude about his job. Ms Pham thanked him and added that she felt ashamed of her own tone.\n\nWhen Duc left her office, he felt lighter. Both of them were **mature enough to** admit their mistakes, and that, he realised, was the most important step. A conflict at work does not have to damage a relationship if people deal with it calmly and privately.",
+   "summary_vi": "Duc xin gặp riêng quản lý, cả hai trò chuyện văn minh và cùng xin lỗi nhau.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "In front of people",
+       "definition": "where other people can see or hear",
+       "explain": "In front of people = trước mặt mọi người."
+      },
+      {
+       "word": "Address someone about something",
+       "definition": "to speak directly to someone about a problem",
+       "explain": "Address someone about something = góp ý trực tiếp với ai."
+      },
+      {
+       "word": "One-on-one",
+       "definition": "private, between two people only",
+       "explain": "One-on-one = trò chuyện riêng 1-1."
+      },
+      {
+       "word": "Have a conversation like adults",
+       "definition": "to talk calmly and sensibly",
+       "explain": "Have a conversation like adults = trao đổi văn minh."
+      },
+      {
+       "word": "Apologize for one's behavior",
+       "definition": "to say sorry for the way you acted",
+       "explain": "Apologize for = xin lỗi vì điều gì."
+      },
+      {
+       "word": "be mature enough to do something",
+       "definition": "sensible enough to do something properly",
+       "explain": "Be mature enough to = đủ trưởng thành để làm gì."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "address",
+      "apologize for",
+      "have a conversation like adults",
+      "in front of people",
+      "mature enough to",
+      "one-on-one"
+     ],
+     "items": [
+      {
+       "q": "I don't like to give a speech ____ I don't know.",
+       "answer": "in front of people",
+       "explain": "In front of people = trước mặt người khác."
+      },
+      {
+       "q": "To ____ the problem with the teacher directly is better than complaining to others.",
+       "answer": "address",
+       "explain": "Address = trao đổi trực tiếp về vấn đề."
+      },
+      {
+       "q": "The coach had a ____ talk with each player after the match.",
+       "answer": "one-on-one",
+       "explain": "One-on-one = riêng giữa hai người."
+      },
+      {
+       "q": "Instead of shouting, let's ____ and find a solution.",
+       "answer": "have a conversation like adults",
+       "explain": "Have a conversation like adults = nói chuyện văn minh."
+      },
+      {
+       "q": "You should ____ being late to the interview.",
+       "answer": "apologize for",
+       "explain": "Apologize for + V-ing = xin lỗi vì."
+      },
+      {
+       "q": "At seventeen, he is already ____ take care of his younger brother.",
+       "answer": "mature enough to",
+       "explain": "Mature enough to + V = đủ chín chắn để."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "How did Duc deal with the problem?",
+       "options": [
+        "He quit his job",
+        "He asked for a one-on-one meeting",
+        "He wrote an email to the director",
+        "He ignored it"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 1: Duc xin gặp riêng."
+      },
+      {
+       "q": "How did Ms Pham feel about her own tone?",
+       "options": [
+        "Proud",
+        "Ashamed",
+        "Angry",
+        "Confused"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2: bà thấy xấu hổ."
+      },
+      {
+       "q": "What does the writer say about conflicts at work?",
+       "options": [
+        "They always damage relationships",
+        "They need not damage a relationship if handled calmly and privately",
+        "They should be public",
+        "They are never useful"
+       ],
+       "answer": 1,
+       "explain": "Câu cuối bài."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "Duc and Ms Pham met in the canteen.",
+       "answer": "False",
+       "explain": "Họ gặp trong văn phòng của bà."
+      },
+      {
+       "q": "Ms Pham interrupted Duc many times.",
+       "answer": "False",
+       "explain": "Bà nghe không ngắt lời."
+      },
+      {
+       "q": "Duc felt better after the meeting.",
+       "answer": "True",
+       "explain": "Đoạn 3: Duc cảm thấy nhẹ nhõm."
+      },
+      {
+       "q": "Duc later received a promotion.",
+       "answer": "Not Given",
+       "explain": "Không được nhắc tới."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Art Class Basics",
+   "text": "In today's art and design class, Ms Green asked each of us to bring a few basic tools. I brought a pencil case with a **rubber**, a plastic **ruler**, and a yellow **highlighter pen**.\n\nFirst, we drew a rectangle on a sheet of paper. We had to **measure** each side carefully and write the numbers beside it. When Ben made a mistake, he used his **rubber** to **rub out** the wrong line. Then we used the **highlighter pen** to **highlight** the most important dimensions in our notes.\n\nAfter that, Ms Green showed us how to build a small lamp. She held up the **plug** at the end of the cable and explained that it must always match the **socket** on the wall. \"Never touch a **plug** with wet hands,\" she warned. Later she checked every **socket** in the room before we tried the lamp. We listened carefully and wrote down her safety rules in our notebooks.",
+   "summary_vi": "Trong giờ mỹ thuật, học sinh dùng thước, tẩy, bút dạ quang, rồi học an toàn điện với phích cắm và ổ cắm.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "rubber",
+       "definition": "a small piece of rubber used to remove pencil marks (UK)",
+       "explain": "Rubber (Anh-Anh) = cục tẩy."
+      },
+      {
+       "word": "ruler",
+       "definition": "a flat tool used for drawing straight lines or measuring",
+       "explain": "Ruler = thước kẻ."
+      },
+      {
+       "word": "highlighter pen",
+       "definition": "a bright pen used to mark important words",
+       "explain": "Highlighter pen = bút dạ quang."
+      },
+      {
+       "word": "rub something out",
+       "definition": "to remove a mark with an eraser",
+       "explain": "Rub out = tẩy, xóa."
+      },
+      {
+       "word": "measure something (with a ruler)",
+       "definition": "to find the size of something",
+       "explain": "Measure = đo kích thước."
+      },
+      {
+       "word": "highlight something",
+       "definition": "to mark text with a bright pen or to emphasise something",
+       "explain": "Highlight = đánh dấu/nhấn mạnh."
+      },
+      {
+       "word": "plug",
+       "definition": "the part at the end of a cable that you put into a socket",
+       "explain": "Plug = phích cắm điện."
+      },
+      {
+       "word": "socket",
+       "definition": "a hole in a wall where you put a plug",
+       "explain": "Socket = ổ cắm điện."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "highlight",
+      "highlighter pen",
+      "measure",
+      "plug",
+      "rub out",
+      "rubber",
+      "ruler",
+      "socket"
+     ],
+     "items": [
+      {
+       "q": "I made a mistake, so I need a ____ to correct it.",
+       "answer": "rubber",
+       "explain": "Rubber = cục tẩy."
+      },
+      {
+       "q": "Use a ____ to draw a straight line.",
+       "answer": "ruler",
+       "explain": "Ruler = thước kẻ."
+      },
+      {
+       "q": "She used a pink ____ to mark the key dates in her notes.",
+       "answer": "highlighter pen",
+       "explain": "Highlighter pen = bút dạ quang."
+      },
+      {
+       "q": "Use your eraser to ____ the wrong answer.",
+       "answer": "rub out",
+       "explain": "Rub out = tẩy xóa."
+      },
+      {
+       "q": "Please ____ the table before you buy the cloth.",
+       "answer": "measure",
+       "explain": "Measure = đo kích thước."
+      },
+      {
+       "q": "Try to ____ the main idea of each paragraph.",
+       "answer": "highlight",
+       "explain": "Highlight = đánh dấu ý chính."
+      },
+      {
+       "q": "The ____ of my phone charger is broken.",
+       "answer": "plug",
+       "explain": "Plug = phích cắm."
+      },
+      {
+       "q": "There is no free ____ near my desk, so I can't charge my laptop.",
+       "answer": "socket",
+       "explain": "Socket = ổ cắm."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "What did the students have to do with the rectangle?",
+       "options": [
+        "Colour it",
+        "Measure each side",
+        "Cut it out",
+        "Rub it out"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2: đo cẩn thận từng cạnh."
+      },
+      {
+       "q": "Why did Ben use his rubber?",
+       "options": [
+        "To clean the desk",
+        "To remove a wrong line",
+        "To draw a circle",
+        "To measure"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 2: tẩy đường kẻ sai."
+      },
+      {
+       "q": "What was Ms Green's safety warning?",
+       "options": [
+        "Never touch a plug with wet hands",
+        "Never use a lamp",
+        "Always wear gloves",
+        "Keep the windows open"
+       ],
+       "answer": 0,
+       "explain": "Đoạn 3: không chạm phích cắm khi tay ướt."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "The ruler was made of metal.",
+       "answer": "False",
+       "explain": "Thước bằng nhựa (plastic)."
+      },
+      {
+       "q": "Students used the highlighter pen on their notes.",
+       "answer": "True",
+       "explain": "Đoạn 2 nêu rõ."
+      },
+      {
+       "q": "Ms Green showed students how to build a lamp.",
+       "answer": "True",
+       "explain": "Đoạn 3."
+      },
+      {
+       "q": "The class lasted two hours.",
+       "answer": "Not Given",
+       "explain": "Không được nhắc tới."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Making a Safety Film",
+   "text": "Our class made a short film about road safety, and my **partner**, Quan, and I were responsible for the sound. On the first day we forgot to bring a speaker, so I asked a classmate, \"Could you **lend me** yours?\" She said yes, and she even promised to **lend it to** us for the whole week. Quan and I agreed to **share** the cost of new batteries.\n\nWe also had to **borrow** a camera from our teacher, because ours was broken. After lunch, we went to the school yard, and I had to **plug in** the speaker so that the actors could hear the music. At first it was too quiet, so I tried to **turn up** the volume. A moment later it was far too loud, and Quan ran over to **turn down** the sound before it hurt anyone's ears.\n\nIn the final scene, a cyclist has to **brake hard** to avoid a car. We filmed it five times, because the bike kept sliding on the wet ground. By the end of the day we were tired, but proud of our work.",
+   "summary_vi": "Hai bạn làm phim ngắn về an toàn giao thông, mượn đồ dùng, chia sẻ chi phí và quay cảnh phanh gấp.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "partner",
+       "definition": "a person you do an activity with",
+       "explain": "Partner = bạn cặp, đối tác."
+      },
+      {
+       "word": "share something (with somebody)",
+       "definition": "to use or have something together with another person",
+       "explain": "Share = dùng chung."
+      },
+      {
+       "word": "borrow something (from somebody)",
+       "definition": "to take something from someone and promise to return it",
+       "explain": "Borrow = mượn từ ai."
+      },
+      {
+       "word": "lend somebody something",
+       "definition": "to give someone something for a short time",
+       "explain": "Lend me = cho tôi mượn."
+      },
+      {
+       "word": "lend something to somebody",
+       "definition": "to give something to someone for a short time (to-structure)",
+       "explain": "Lend it to = cho ai đó mượn cái gì."
+      },
+      {
+       "word": "turn something up",
+       "definition": "to increase the volume or temperature",
+       "explain": "Turn up = vặn to lên."
+      },
+      {
+       "word": "turn something down",
+       "definition": "to reduce the volume or temperature",
+       "explain": "Turn down = vặn nhỏ xuống."
+      },
+      {
+       "word": "plug something in (the socket)",
+       "definition": "to connect a device to the electricity supply",
+       "explain": "Plug in = cắm vào ổ điện."
+      },
+      {
+       "word": "brake (hard)",
+       "definition": "to slow down or stop a vehicle suddenly",
+       "explain": "Brake hard = phanh gấp."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "borrow",
+      "brake hard",
+      "lend it to",
+      "lend me",
+      "partner",
+      "plug in",
+      "share",
+      "turn down",
+      "turn up"
+     ],
+     "items": [
+      {
+       "q": "In pair work, my ____ always helps me with pronunciation.",
+       "answer": "partner",
+       "explain": "Partner = bạn cặp."
+      },
+      {
+       "q": "Do you mind if I ____ your umbrella? It's raining heavily.",
+       "answer": "share",
+       "explain": "Share = dùng chung."
+      },
+      {
+       "q": "Can I ____ your pen for a moment?",
+       "answer": "borrow",
+       "explain": "Borrow = mượn."
+      },
+      {
+       "q": "Could you ____ your dictionary until tomorrow?",
+       "answer": "lend me",
+       "explain": "Lend + me + vật."
+      },
+      {
+       "q": "I have a spare bike, and I'm happy to ____ you.",
+       "answer": "lend it to",
+       "explain": "Lend it to you = cho bạn mượn nó."
+      },
+      {
+       "q": "It's too quiet in here. Could you ____ the volume?",
+       "answer": "turn up",
+       "explain": "Turn up = vặn to lên."
+      },
+      {
+       "q": "The music is too loud. Please ____ the volume.",
+       "answer": "turn down",
+       "explain": "Turn down = vặn nhỏ."
+      },
+      {
+       "q": "You need to ____ your laptop before the battery dies.",
+       "answer": "plug in",
+       "explain": "Plug in = cắm sạc."
+      },
+      {
+       "q": "The driver had to ____ when a child ran across the road.",
+       "answer": "brake hard",
+       "explain": "Brake hard = phanh gấp."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "What was the writer responsible for?",
+       "options": [
+        "The costumes",
+        "The sound",
+        "The script",
+        "The editing"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 1: chịu trách nhiệm âm thanh."
+      },
+      {
+       "q": "What did the classmate promise?",
+       "options": [
+        "To act in the film",
+        "To lend her speaker for a week",
+        "To pay for batteries",
+        "To bring a camera"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 1: cho mượn loa cả tuần."
+      },
+      {
+       "q": "Why was the last scene filmed five times?",
+       "options": [
+        "The actor forgot his lines",
+        "The bike kept sliding on wet ground",
+        "The camera broke",
+        "It started to rain heavily"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 3: xe đạp liên tục trượt."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "Quan and the writer shared the cost of batteries.",
+       "answer": "True",
+       "explain": "Đoạn 1."
+      },
+      {
+       "q": "The film was about road safety.",
+       "answer": "True",
+       "explain": "Câu đầu bài."
+      },
+      {
+       "q": "The teacher refused to lend a camera.",
+       "answer": "False",
+       "explain": "Họ đã mượn máy quay từ giáo viên."
+      },
+      {
+       "q": "The film won a school prize.",
+       "answer": "Not Given",
+       "explain": "Không được nhắc tới."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "My First English Class",
+   "text": "On my first day in an English course, I was too nervous to speak. The teacher, Ms Lee, told us to **work with a partner**, and I was paired with a boy from Brazil. At first we only smiled at each other. Then he asked me, \"**How do you pronounce** this word?\" I did not know either, so we asked Ms Lee. She said it slowly and asked us to **repeat** it after her.\n\nOver the next weeks, I learned some useful questions. When I did not understand a new word, I asked, \"**What does it mean**?\" When I was not sure about writing, I asked, \"**How do you spell** it?\" If I could not see how to apply a word in a sentence, I asked, \"**How do you use the word** 'actually'?\"\n\nMs Lee was happy to **correct my English** whenever I wrote something wrong, and she never made me feel ashamed. One afternoon she even taught us to **explain the difference between** 'lend' and 'borrow'. That lesson helped me more than any textbook.",
+   "summary_vi": "Người viết từ lo lắng ngày đầu đến học cách hỏi nghĩa, cách phát âm và cách dùng từ trong lớp tiếng Anh.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each target word or phrase with its English definition.",
+     "items": [
+      {
+       "word": "correct somebody's English",
+       "definition": "to fix someone's mistakes in English",
+       "explain": "Correct my English = sửa lỗi tiếng Anh cho tôi."
+      },
+      {
+       "word": "work with a partner",
+       "definition": "to do an activity together with another student",
+       "explain": "Work with a partner = làm việc theo cặp."
+      },
+      {
+       "word": "repeat something (after somebody)",
+       "definition": "to say something again after another person",
+       "explain": "Repeat = lặp lại."
+      },
+      {
+       "word": "What does something mean?",
+       "definition": "a question used to ask about the meaning of a word",
+       "explain": "What does it mean? = nó nghĩa là gì?"
+      },
+      {
+       "word": "How do you pronounce something?",
+       "definition": "a question used to ask how to say a word",
+       "explain": "How do you pronounce = phát âm như thế nào?"
+      },
+      {
+       "word": "How do you spell something?",
+       "definition": "a question used to ask about the letters in a word",
+       "explain": "How do you spell = đánh vần như thế nào?"
+      },
+      {
+       "word": "How do you use the word something?",
+       "definition": "a question used to ask how to use a word in a sentence",
+       "explain": "How do you use the word = dùng từ như thế nào?"
+      },
+      {
+       "word": "explain the difference between A and B",
+       "definition": "to say how two things are not the same",
+       "explain": "Explain the difference between = giải thích sự khác nhau."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with the correct word or phrase from the word bank.",
+     "wordBank": [
+      "correct my English",
+      "explain the difference between",
+      "how do you pronounce",
+      "how do you spell",
+      "how do you use the word",
+      "repeat",
+      "what does it mean",
+      "work with a partner"
+     ],
+     "items": [
+      {
+       "q": "Please ____ if you hear any mistakes.",
+       "answer": "correct my English",
+       "explain": "Correct my English = sửa tiếng Anh cho tôi."
+      },
+      {
+       "q": "In this exercise, you should ____ and practise the dialogue.",
+       "answer": "work with a partner",
+       "explain": "Work with a partner = làm theo cặp."
+      },
+      {
+       "q": "Please ____ the sentence after me.",
+       "answer": "repeat",
+       "explain": "Repeat = lặp lại câu."
+      },
+      {
+       "q": "I found a new word on the sign. ____?",
+       "answer": "what does it mean",
+       "explain": "What does it mean = hỏi nghĩa của từ."
+      },
+      {
+       "q": "Excuse me, ____ the word 'comfortable'?",
+       "answer": "how do you pronounce",
+       "explain": "How do you pronounce = hỏi cách phát âm."
+      },
+      {
+       "q": "____ your family name?",
+       "answer": "how do you spell",
+       "explain": "How do you spell = hỏi cách đánh vần."
+      },
+      {
+       "q": "I don't understand 'rather'. ____ in a sentence?",
+       "answer": "how do you use the word",
+       "explain": "How do you use the word = hỏi cách dùng."
+      },
+      {
+       "q": "Can you ____ 'fun' and 'funny'?",
+       "answer": "explain the difference between",
+       "explain": "Explain the difference between A and B."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the best answer (A-D) for each question.",
+     "items": [
+      {
+       "q": "How did the writer feel on the first day?",
+       "options": [
+        "Angry",
+        "Nervous",
+        "Bored",
+        "Proud"
+       ],
+       "answer": 1,
+       "explain": "Câu đầu: quá lo lắng để nói."
+      },
+      {
+       "q": "Who was the writer's first partner?",
+       "options": [
+        "A boy from Brazil",
+        "A girl from Japan",
+        "Ms Lee",
+        "A neighbour"
+       ],
+       "answer": 0,
+       "explain": "Đoạn 1: một cậu bé đến từ Brazil."
+      },
+      {
+       "q": "What did Ms Lee never do?",
+       "options": [
+        "Correct the students",
+        "Make the writer feel ashamed",
+        "Teach pronunciation",
+        "Explain differences"
+       ],
+       "answer": 1,
+       "explain": "Đoạn 3: cô không bao giờ làm người viết thấy xấu hổ."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given for each statement.",
+     "items": [
+      {
+       "q": "The writer's first partner was from Brazil.",
+       "answer": "True",
+       "explain": "Đoạn 1."
+      },
+      {
+       "q": "Ms Lee asked students to repeat the word after her.",
+       "answer": "True",
+       "explain": "Đoạn 1."
+      },
+      {
+       "q": "The writer already knew how to pronounce the first word.",
+       "answer": "False",
+       "explain": "Người viết cũng không biết."
+      },
+      {
+       "q": "The course lasted six months.",
+       "answer": "Not Given",
+       "explain": "Không được nhắc tới."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
