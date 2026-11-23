@@ -1,9 +1,7 @@
 name: Tao am thanh Emma
 
+# Đã tắt tự động (hệ thống bài tập hằng ngày cũ đã ngừng). Chỉ còn chạy thủ công khi cần.
 on:
-  push:
-    branches: [main]
-    paths: ['docs/index.html', 'lessons/**/index.html']
   workflow_dispatch:
 
 permissions:
