@@ -1061,7 +1061,44 @@ App.accountPanel = function () {
   return `<section class="panel"><h2>${I('key')} Tài khoản</h2>
     <p>Đang đăng nhập: <b>${UI.esc(Cloud.user ? Cloud.user.email : '(ngoại tuyến)')}</b></p>
     <p class="muted">Dữ liệu học của bạn được lưu riêng cho tài khoản này và đồng bộ giữa các thiết bị.</p>
-    <div class="row"><button class="btn" data-act="cloudSync">Đồng bộ ngay</button><button class="btn danger" data-act="signOut">Đăng xuất</button><span class="muted" id="cloudOut">${UI.esc(Cloud.status)}</span></div></section>`;
+    <div class="row"><button class="btn" data-act="cloudSync">Đồng bộ ngay</button><button class="btn" data-act="cloudCheck">Kiểm tra đồng bộ</button><button class="btn danger" data-act="signOut">Đăng xuất</button><span class="muted" id="cloudOut">${UI.esc(Cloud.status)}</span></div>
+    <div class="diag" id="cloudDiag">${this.diagLocal()}</div>
+    <div class="row"><button class="btn ghost sm" data-act="refreshApp">Làm mới ứng dụng (xoá bản lưu cũ)</button></div></section>`;
+};
+App.recentCounts = function (words) {
+  const t = SRS.today(), out = [];
+  for (let i = 0; i < 4; i++) { const d = SRS.addDays(t, -i); out.push(SRS.fmt(d) + ': ' + words.filter((w) => w.lastReviewed === d).length); }
+  return out.join(' · ');
+};
+App.diagLocal = function () {
+  const w = Store.data.words;
+  const when = Store.data.updatedAt ? new Date(Store.data.updatedAt).toLocaleString('vi-VN') : '—';
+  return `<b>Máy này</b> — phiên bản <code>${UI.esc(window.APP_VERSION || 'cũ')}</code> · ${w.length} từ · ngày máy: ${SRS.fmtFull(SRS.today())}<br>
+    Số từ có lần ôn gần nhất: ${this.recentCounts(w)}<br>Lưu lần cuối: ${when}`;
+};
+App.actions.cloudCheck = async function () {
+  const box = UI.$('#cloudDiag'); box.innerHTML = this.diagLocal() + '<br><i>Đang kiểm tra đám mây...</i>';
+  if (!Cloud.user) { box.innerHTML = this.diagLocal() + '<br>Đang ở chế độ ngoại tuyến.'; return; }
+  try {
+    const r = await Cloud.fetchRemote();
+    if (!r) { box.innerHTML = this.diagLocal() + '<br><b>Đám mây</b>: chưa có dữ liệu nào.'; return; }
+    const local = new Map(Store.data.words.map((w) => [Cloud.key(w), w]));
+    let localNewer = 0, cloudNewer = 0, onlyLocal = 0;
+    r.words.forEach((rw) => { const lw = local.get(Cloud.key(rw)); if (!lw) return; if ((lw.lastReviewed || '') > (rw.lastReviewed || '')) localNewer++; else if ((lw.lastReviewed || '') < (rw.lastReviewed || '')) cloudNewer++; });
+    const rem = new Set(r.words.map((w) => Cloud.key(w)));
+    Store.data.words.forEach((w) => { if (!rem.has(Cloud.key(w))) onlyLocal++; });
+    const when = r.meta.updatedAt ? new Date(r.meta.updatedAt).toLocaleString('vi-VN') : '—';
+    box.innerHTML = this.diagLocal() + `<br><b>Đám mây</b> (${UI.esc(r.meta.email || '?')}) — ${r.words.length} từ · cập nhật lúc ${when}<br>
+      Số từ có lần ôn gần nhất: ${this.recentCounts(r.words)}<br>
+      So với máy này: ${localNewer} từ máy này mới hơn đám mây · ${cloudNewer} từ đám mây mới hơn · ${onlyLocal} từ chỉ có ở máy này.
+      ${localNewer || onlyLocal ? '<br><b>Bấm “Đồng bộ ngay” để đẩy phần mới của máy này lên đám mây.</b>' : ''}`;
+  } catch (e) { box.innerHTML = this.diagLocal() + '<br><b>Lỗi:</b> ' + UI.esc(Cloud.errMsg(e)); }
+};
+App.actions.refreshApp = async function () {
+  if (!confirm('Xoá bản lưu cũ của ứng dụng và tải lại bản mới nhất? Dữ liệu học của bạn KHÔNG bị xoá.')) return;
+  try { const regs = await navigator.serviceWorker.getRegistrations(); await Promise.all(regs.map((r) => r.unregister())); } catch (e) { /* bỏ qua */ }
+  try { const ks = await caches.keys(); await Promise.all(ks.map((k) => caches.delete(k))); } catch (e) { /* bỏ qua */ }
+  location.href = location.pathname + '?r=' + Date.now() + '#settings';
 };
 App.actions.cloudSync = async function () { if (!Cloud.user) { UI.toast('Đang ở chế độ ngoại tuyến.'); return; } Cloud.setStatus('Đang đồng bộ...'); await Cloud.push(); };
 App.actions.signOut = async function () {

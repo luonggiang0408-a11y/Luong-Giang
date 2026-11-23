@@ -1,7 +1,7 @@
 /* Service worker: cho phép mở app khi mất mạng.
    Chiến lược "mạng trước": luôn hỏi máy chủ bản mới nhất (bỏ qua bộ nhớ đệm HTTP 10 phút của GitHub Pages),
    chỉ khi không có mạng mới dùng bản đã lưu. Nhờ vậy cập nhật luôn đến ngay, không bị kẹt bản cũ. */
-const VER = 'vocab-v20261119b';
+const VER = 'vocab-v20261124a';
 const CORE = ['./', 'index.html', 'style.css', 'srs.js', 'ui.js', 'store.js', 'ai.js', 'sync.js', 'quick.js', 'firebase-config.js', 'cloud.js', 'app.js', 'manifest.webmanifest', 'icons/icon-192.png'];
 
 self.addEventListener('install', (e) => {
