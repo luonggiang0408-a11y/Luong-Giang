@@ -21,6 +21,7 @@
   const addDays = (s, n) => { const d = parse(s); d.setDate(d.getDate() + n); return iso(d); };
   const diffDays = (a, b) => Math.round((parse(a) - parse(b)) / 864e5);
   const today = () => iso(new Date());
+  const dayName = (s) => ['Chủ nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'][parse(s).getDay()] + ',';
   const fmt = (s) => { const [, m, d] = s.split('-'); return d + '/' + m; };
   const fmtFull = (s) => { const [y, m, d] = s.split('-'); return d + '/' + m + '/' + y; };
 
@@ -92,7 +93,7 @@
     return (weak.length >= 3 ? weak : sorted).slice(0, 8);
   }
 
-  const api = { DAYS, GROUPS, LEVELS, iso, parse, addDays, diffDays, today, fmt, fmtFull, isNew, isDue, plan, rate, unrate, rerate, migrate, weakWords };
+  const api = { dayName, DAYS, GROUPS, LEVELS, iso, parse, addDays, diffDays, today, fmt, fmtFull, isNew, isDue, plan, rate, unrate, rerate, migrate, weakWords };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.SRS = api;
 })(typeof window !== 'undefined' ? window : globalThis);

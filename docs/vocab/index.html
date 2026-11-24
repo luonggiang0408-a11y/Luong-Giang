@@ -15,30 +15,38 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="style.css?v=20261124d">
+<link rel="stylesheet" href="style.css?v=20261124f">
 </head>
 <body>
-<header class="top">
-  <div class="top-in">
-    <div class="brand"><span class="logo" id="logo"></span><span class="brand-name">Vocab<b>IELTS</b></span><small id="todayLabel"></small></div>
-    <nav id="tabs">
-      <button data-tab="words" data-icon="book"><span>Từ vựng</span></button>
-      <button data-tab="review" data-icon="repeat"><span>Ôn hôm nay</span><span class="badge" style="display:none"></span></button>
-      <button data-tab="reading" data-icon="reading"><span>Bài đọc</span></button>
-      <button data-tab="settings" data-icon="settings"><span>Cài đặt</span></button>
-    </nav>
-  </div>
-</header>
-<main id="view"></main>
-<script>window.APP_VERSION = "20261124d";</script>
-<script src="srs.js?v=20261124d"></script>
-<script src="ui.js?v=20261124d"></script>
-<script src="store.js?v=20261124d"></script>
-<script src="ai.js?v=20261124d"></script>
-<script src="sync.js?v=20261124d"></script>
-<script src="firebase-config.js?v=20261124d"></script>
-<script src="cloud.js?v=20261124d"></script>
-<script src="app.js?v=20261124d"></script>
+<div class="app">
+<aside class="side">
+  <div class="side-brand"><span class="logo" id="logo"></span><span class="brand-name">Vocab<b>IELTS</b></span></div>
+  <nav id="tabs">
+    <button data-tab="review" data-icon="repeat"><span>Ôn hôm nay</span><span class="badge" style="display:none"></span></button>
+    <button data-tab="words" data-icon="book"><span>Kho từ vựng</span></button>
+    <button data-tab="reading" data-icon="reading"><span>Bài đọc</span></button>
+    <button data-tab="settings" data-icon="settings"><span>Cài đặt</span></button>
+  </nav>
+  <div class="side-user" id="sideUser"></div>
+</aside>
+<div class="content">
+  <header class="topbar">
+    <div class="tb-title"><h1 id="pageTitle">Ôn tập hôm nay</h1><small id="todayLabel"></small></div>
+    <div class="tb-prog" id="topProg"></div>
+    <label class="tb-search"><span id="searchIc"></span><input id="globalSearch" placeholder="Tìm kiếm từ vựng..." autocomplete="off"></label>
+  </header>
+  <main id="view"></main>
+</div>
+</div>
+<script>window.APP_VERSION = "20261124f";</script>
+<script src="srs.js?v=20261124f"></script>
+<script src="ui.js?v=20261124f"></script>
+<script src="store.js?v=20261124f"></script>
+<script src="ai.js?v=20261124f"></script>
+<script src="sync.js?v=20261124f"></script>
+<script src="firebase-config.js?v=20261124f"></script>
+<script src="cloud.js?v=20261124f"></script>
+<script src="app.js?v=20261124f"></script>
 <script>
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });

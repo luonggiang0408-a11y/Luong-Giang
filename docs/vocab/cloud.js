@@ -202,7 +202,7 @@ const Cloud = {
     if (this.again) { this.again = false; this.schedule(); }
   },
 
-  setStatus(s) { this.status = s; const el = document.getElementById('cloudOut'); if (el) el.textContent = s; },
+  setStatus(s) { this.status = s; const el = document.getElementById('cloudOut'); if (el) el.textContent = s; if (typeof App !== 'undefined' && App.booted) App.updateBadge(); },
 };
 
 /* Màn hình đăng nhập */
