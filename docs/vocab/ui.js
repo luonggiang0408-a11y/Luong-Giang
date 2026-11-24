@@ -50,9 +50,13 @@ const UI = {
   band(n) { return (Math.round(n * 2) / 2).toFixed(1); },
 };
 
+/* Đọc giọng nói. Ưu tiên file mp3 giọng Emma (tạo sẵn bằng tools/gen_vocab_audio.py) nên mọi thiết bị nghe cùng một giọng;
+   chưa có file thì dùng giọng của trình duyệt. Tên file = cyrb53(văn bản chuẩn hoá) — phải khớp với script Python. */
 const TTS = {
   voices: [],
   queueId: 0,
+  el: null,
+  mode: 'idle',   // 'audio' | 'speech' | 'idle'
 
   init() {
     if (!('speechSynthesis' in window)) return;
@@ -61,7 +65,26 @@ const TTS = {
     speechSynthesis.onvoiceschanged = load;
   },
 
-  // Ưu tiên giọng tự nhiên (Edge "Natural", Google US, Apple Samantha...).
+  /* ---- chuẩn hoá văn bản + tên file (giống hệt tools/gen_vocab_audio.py) ---- */
+  ws(s) { return String(s || '').replace(/\s+/g, ' ').trim(); },
+  wordText(w) {
+    return this.ws(String(w || '').replace(/\(([^)]*)\)/g, ' $1 ').replace(/\bsb\b/gi, 'somebody').replace(/\bsth\b/gi, 'something').replace(/\s*[=\/]\s*/g, ', '));
+  },
+  exampleText(e) { return this.ws(String(e || '').split('→')[0]); },
+  sentText(s) { return this.ws(String(s || '').replace(/\*\*/g, '')); },
+  hash(s) {
+    let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+    for (let i = 0; i < s.length; i++) { const ch = s.charCodeAt(i); h1 = Math.imul(h1 ^ ch, 2654435761); h2 = Math.imul(h2 ^ ch, 1597334677); }
+    h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507); h1 ^= Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+    h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507); h2 ^= Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+    return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(16);
+  },
+  fileFor(text) { return 'audio/' + this.hash(text) + '.mp3'; },
+
+  // Một thẻ <audio> dùng chung (iOS chỉ cho phát tiếp sau khi người dùng đã chạm một lần).
+  audioEl() { if (!this.el) { this.el = new Audio(); this.el.preload = 'auto'; } return this.el; },
+
+  // Ưu tiên giọng tự nhiên của trình duyệt (dự phòng khi chưa có file Emma).
   pick() {
     const want = Store.data.settings.voice;
     if (want) { const v = this.voices.find((x) => x.voiceURI === want); if (v) return v; }
@@ -71,25 +94,59 @@ const TTS = {
     return pool.slice().sort((a, b) => rank(a) - rank(b))[0] || null;
   },
 
-  say(text, opts = {}) {
-    if (!('speechSynthesis' in window)) { UI.toast('Trình duyệt không hỗ trợ đọc giọng nói'); return null; }
+  // Giọng trình duyệt (dự phòng)
+  browserSay(text, opts) {
+    if (!('speechSynthesis' in window)) { UI.toast('Chưa có file âm thanh và trình duyệt không hỗ trợ đọc giọng nói'); opts.onend && opts.onend(); return; }
     const u = new SpeechSynthesisUtterance(text);
     const v = this.pick();
     if (v) { u.voice = v; u.lang = v.lang; } else u.lang = 'en-US';
     u.rate = opts.rate || Store.data.settings.rate || 0.95;
     if (opts.onend) u.onend = opts.onend;
-    if (opts.onerror) u.onerror = opts.onerror;
+    u.onerror = () => { opts.onerror ? opts.onerror() : opts.onend && opts.onend(); };
+    this.mode = 'speech';
     speechSynthesis.speak(u);
-    return u;
+  },
+
+  // Phát file mp3 của đúng văn bản này; không có file thì gọi fail().
+  playFile(text, opts, fail) {
+    const a = this.audioEl(), id = this.queueId;
+    const speed = Math.max(0.6, Math.min(1.5, (opts.rate || Store.data.settings.rate || 0.95) / 0.95));
+    a.onended = () => { if (id === this.queueId) { this.mode = 'idle'; opts.onend && opts.onend(); } };
+    a.onerror = () => { if (id === this.queueId) fail(); };
+    a.src = this.fileFor(text);
+    a.playbackRate = speed;
+    this.mode = 'audio';
+    const p = a.play();
+    if (p && p.catch) p.catch((e) => { if (id === this.queueId && !(e && e.name === 'AbortError')) fail(); });
+  },
+
+  say(text, opts = {}) {
+    const t = this.ws(text);
+    if (!t) { opts.onend && opts.onend(); return; }
+    const id = this.queueId;
+    this.playFile(t, opts, () => { if (id === this.queueId) this.browserSay(t, opts); });
   },
 
   speakWord(w) {
     this.stop();
-    if (w.audio) { const a = new Audio(w.audio); a.play().catch(() => this.say(w.word, { rate: 0.85 })); }
-    else this.say(w.word, { rate: 0.85 });
+    const t = this.wordText(w.word), id = this.queueId;
+    const opts = { rate: 0.9 };
+    this.playFile(t, opts, () => {
+      if (id !== this.queueId) return;
+      if (w.audio) { const a = this.audioEl(); a.onerror = () => { if (id === this.queueId) this.browserSay(t, { rate: 0.85 }); }; a.onended = null; a.src = w.audio; a.playbackRate = 1; a.play().catch(() => this.browserSay(t, { rate: 0.85 })); }
+      else this.browserSay(t, { rate: 0.85 });
+    });
   },
 
-  stop() { this.queueId++; if ('speechSynthesis' in window) speechSynthesis.cancel(); },
+  speakExample(text) { this.stop(); this.say(this.exampleText(text)); },
+
+  stop() {
+    this.queueId++; this.mode = 'idle';
+    if (this.el) { this.el.onended = null; this.el.onerror = null; try { this.el.pause(); } catch (e) { /* bỏ qua */ } }
+    if ('speechSynthesis' in window) speechSynthesis.cancel();
+  },
+  pause() { if (this.mode === 'audio' && this.el) this.el.pause(); else if ('speechSynthesis' in window) speechSynthesis.pause(); },
+  resume() { if (this.mode === 'audio' && this.el) this.el.play().catch(() => {}); else if ('speechSynthesis' in window) speechSynthesis.resume(); },
 
   // Đọc lần lượt các câu; onSentence(i) để tô sáng câu đang đọc.
   readList(sentences, { rate, onSentence, onDone, from = 0 }) {
@@ -99,7 +156,7 @@ const TTS = {
       if (id !== this.queueId) return;
       if (i >= sentences.length) { onDone && onDone(); return; }
       onSentence && onSentence(i);
-      this.say(sentences[i], { rate, onend: () => next(i + 1), onerror: () => next(i + 1) });
+      this.say(this.sentText(sentences[i]), { rate, onend: () => next(i + 1), onerror: () => next(i + 1) });
     };
     next(from);
   },

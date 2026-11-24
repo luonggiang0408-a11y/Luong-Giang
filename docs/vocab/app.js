@@ -18,6 +18,23 @@ const App = {
   },
 
   booted: false,
+
+  // So sánh phiên bản đang chạy với index.html mới nhất trên máy chủ; khác thì tự tải lại.
+  async checkUpdate() {
+    if (location.protocol === 'file:' || Date.now() - (this.lastCheck || 0) < 60000) return;
+    this.lastCheck = Date.now();
+    try {
+      const r = await fetch('index.html?t=' + Date.now(), { cache: 'no-store' });
+      const m = /APP_VERSION\s*=\s*"([^"]+)"/.exec(await r.text());
+      if (m && m[1] !== window.APP_VERSION) {
+        const b = document.createElement('div'); b.className = 'upd'; b.textContent = 'Có phiên bản mới — đang cập nhật...';
+        document.body.appendChild(b);
+        try { const ks = await caches.keys(); await Promise.all(ks.map((k) => caches.delete(k))); } catch (e) { /* bỏ qua */ }
+        setTimeout(() => location.reload(), 900);
+      }
+    } catch (e) { /* ngoại tuyến */ }
+  },
+
   boot(offline) {
     if (Cloud.user && !offline) Cloud.bindStore(Cloud.user.uid); else if (!offline) Store.load();
     if (this.booted) { this.autoStart(); this.go(this.tab); return; }
@@ -30,8 +47,10 @@ const App = {
     UI.$$('#tabs button').forEach((b) => { b.insertAdjacentHTML('afterbegin', I(b.dataset.icon, 20)); b.addEventListener('click', () => this.go(b.dataset.tab)); });
     document.addEventListener('click', (e) => this.onClick(e));
     this.go(location.hash.slice(1) || 'review');
+    this.checkUpdate();
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) this.checkUpdate(); });
     if (Cloud.user && !offline) {
-      Cloud.pull().then((changed) => { if (changed) { this.autoStart(); this.render(); } });
+      Cloud.pull().then((changed) => { if (changed) { this.autoStart(); this.render(); } if (Sync.enabled()) Sync.schedule(); });
       document.addEventListener('visibilitychange', () => { if (!document.hidden && Cloud.user) Cloud.pull().then((c) => { if (c) { this.autoStart(); this.render(); } }); });
     } else {
       Sync.pull().then((changed) => { if (changed) { this.autoStart(); this.render(); } });
@@ -59,7 +78,10 @@ const App = {
     this.render();
   },
 
+  closeTip() { const tp = UI.$('#wtip'); if (tp) tp.remove(); this.tipFor = null; },
+
   render() {
+    this.closeTip();
     const v = this.views[this.tab].call(this);
     UI.$('#view').innerHTML = v.html;
     if (v.after) v.after.call(this);
@@ -84,7 +106,8 @@ const App = {
       const st = Cloud.user ? (Cloud.status || 'Đã đăng nhập') : 'Chế độ ngoại tuyến';
       su.innerHTML = `<div class="su-id"><span class="av">${UI.esc((email[0] || '?').toUpperCase())}</span><div><b>${UI.esc(email || 'Chưa đăng nhập')}</b><small><i class="sdot ${Cloud.user ? 'on' : ''}"></i>${UI.esc(st.length > 38 ? st.slice(0, 36) + '…' : st)}</small></div></div>
         <button class="btn sbtn" data-act="gotoSync">${I('cloud', 15)} Kiểm tra đồng bộ</button>
-        <button class="btn sbtn" data-act="refreshApp">${I('repeat', 15)} Làm mới ứng dụng</button>`;
+        <button class="btn sbtn" data-act="refreshApp">${I('repeat', 15)} Làm mới ứng dụng</button>
+        <div class="verline">Phiên bản ${UI.esc(window.APP_VERSION || '')}</div>`;
     }
   },
 
@@ -123,6 +146,7 @@ const App = {
   },
 
   onClick(e) {
+    if (!e.target.closest('#wtip') && !e.target.closest('mark[data-act]')) this.closeTip();
     const el = e.target.closest('[data-act]');
     if (!el) return;
     const act = el.dataset.act;
@@ -366,7 +390,7 @@ App.actions.sample = function () {
 App.actions.pagePrev = function () { this.wordPage = (this.wordPage || 0) - 1; this.render(); const p = UI.$('.pager'); if (p) p.scrollIntoView({ block: 'center' }); };
 App.actions.pageNext = function () { this.wordPage = (this.wordPage || 0) + 1; this.render(); const p = UI.$('.pager'); if (p) p.scrollIntoView({ block: 'center' }); };
 App.actions.speakRow = function (el) { const w = this.byId(el.closest('tr').dataset.id); if (w) TTS.speakWord(w); };
-App.actions.speakEx = function (el) { const w = this.byId(el.closest('tr').dataset.id); if (w && w.example) { TTS.stop(); TTS.say(w.example); } };
+App.actions.speakEx = function (el) { const w = this.byId(el.closest('tr').dataset.id); if (w && w.example) TTS.speakExample(w.example); };
 App.actions.editRow = function (el, e) { if (e) e.preventDefault(); this.editing = el.closest('tr').dataset.id; this.render(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
 App.actions.cancelEdit = function () { this.editing = null; this.render(); };
 App.actions.delRow = function (el) {
@@ -763,15 +787,15 @@ App.readFrom = function (from) {
 };
 App.actions.play = function () {
   const R = this.reader;
-  if (R.state === 'playing') { speechSynthesis.pause(); R.state = 'paused'; this.readUI(); }
-  else if (R.state === 'paused') { speechSynthesis.resume(); R.state = 'playing'; this.readUI(); }
+  if (R.state === 'playing') { TTS.pause(); R.state = 'paused'; this.readUI(); }
+  else if (R.state === 'paused') { TTS.resume(); R.state = 'playing'; this.readUI(); }
   else this.readFrom(0);
 };
 App.actions.stopRead = function () { this.readStop(); };
 App.actions.setRate = function (el) {
   const R = this.reader; R.rate = +el.dataset.r;
   UI.$$('.speeds button').forEach((b) => b.classList.toggle('on', b === el));
-  if (R.state !== 'idle') { speechSynthesis.resume(); this.readFrom(R.idx); }
+  if (R.state !== 'idle') this.readFrom(R.idx);
 };
 
 /* ---- Tra nghĩa nhanh khi bấm vào từ tô sáng ---- */
@@ -783,19 +807,23 @@ App.wordInfo = function (key) {
   return pool.find((w) => norm(w.word) === k) || pool.find((w) => { const n = norm(w.word); return n && (n.startsWith(k + ' ') || k.startsWith(n + ' ')); }) || null;
 };
 App.actions.wordTip = function (el) {
-  const old = UI.$('#wtip'); if (old) old.remove();
+  const same = this.tipFor === el;
+  this.closeTip();
+  if (same) return;   // bấm lại đúng từ đó thì ẩn
+  this.tipFor = el;
   const k = el.textContent;
   const w = this.wordInfo(k);
   const tip = document.createElement('div');
   tip.id = 'wtip'; tip.className = 'wtip';
   tip.innerHTML = w
-    ? `<b>${UI.esc(w.word.replace(/\s*\(.*\)\s*$/, ''))}</b> <span class="ipa">${UI.esc(w.ipa || '')}</span> ${w.pos ? `<span class="pos">${UI.esc(UI.posAbbr(w.pos))}</span>` : ''}<div class="wt-m">${UI.esc(w.meaning)}</div>${w.example ? `<div class="wt-e">${UI.esc(w.example)}</div>` : ''}<div class="row"><button class="btn sm" data-act="tipSpeak" data-k="${UI.esc(w.word)}">${I('volume', 14)} Phát âm</button></div>`
-    : `<b>${UI.esc(k)}</b><div class="wt-m muted">Chưa có nghĩa trong kho từ vựng.</div><div class="row"><button class="btn sm" data-act="tipSpeak" data-k="${UI.esc(k)}">${I('volume', 14)} Phát âm</button></div>`;
+    ? `<b>${UI.esc(w.word.replace(/\s*\(.*\)\s*$/, ''))}</b> <span class="ipa">${UI.esc(w.ipa || '')}</span> ${w.pos ? `<span class="pos">${UI.esc(UI.posAbbr(w.pos))}</span>` : ''}<div class="wt-m">${UI.esc(w.meaning)}</div>${w.example ? `<div class="wt-e">${UI.esc(w.example)}</div>` : ''}<div class="row"><button class="btn sm" data-act="tipSpeak" data-k="${UI.esc(w.word)}">${I('volume', 14)} Phát âm</button><button class="btn ghost sm" data-act="closeTip">Đóng</button></div>`
+    : `<b>${UI.esc(k)}</b><div class="wt-m muted">Chưa có nghĩa trong kho từ vựng.</div><div class="row"><button class="btn sm" data-act="tipSpeak" data-k="${UI.esc(k)}">${I('volume', 14)} Phát âm</button><button class="btn ghost sm" data-act="closeTip">Đóng</button></div>`;
   document.body.appendChild(tip);
   const r = el.getBoundingClientRect();
   tip.style.top = (r.bottom + window.scrollY + 8) + 'px';
   tip.style.left = Math.max(8, Math.min(window.innerWidth - tip.offsetWidth - 8, r.left + window.scrollX)) + 'px';
 };
+App.actions.closeTip = function () { this.closeTip(); };
 App.actions.tipSpeak = function (el) { const w = this.wordInfo(el.dataset.k); TTS.speakWord(w || { word: el.dataset.k.replace(/\s*\(.*\)\s*$/, '') }); };
 
 App.exerciseHTML = function (ex, pi, ei) {
@@ -900,11 +928,11 @@ App.fcRender = function (noSpeak) {
   const frontWord = F.front === 'word';
   const pos = w.pos ? `<span class="pos">${UI.esc(UI.posAbbr(w.pos))}</span>` : '';
   const front = frontWord
-    ? `<div class="fc-word">${UI.esc(w.word)}</div>${w.ipa ? `<div class="ipa">${UI.esc(w.ipa)} <button class="lnk" data-act="fcSpeak">${I('volume', 14)} Nghe phát âm</button></div>` : ''}`
+    ? `<div class="fc-word">${UI.esc(w.word)}</div><div class="ipa">${w.ipa ? UI.esc(w.ipa) : ''}</div><button class="fc-spk" data-act="fcSpeak" aria-label="Nghe phát âm">${I('volume', 22)} <span>Nghe phát âm</span></button>`
     : `<div class="fc-mean">${UI.esc(w.meaning)}</div>${pos}`;
   const back = frontWord
-    ? `${pos}<div class="fc-mean">${UI.esc(w.meaning)}</div>${w.example ? `<div class="ex">${UI.esc(w.example)}</div>` : ''}`
-    : `<div class="fc-word">${UI.esc(w.word)}</div>${w.ipa ? `<div class="ipa">${UI.esc(w.ipa)}</div>` : ''}${w.example ? `<div class="ex">${UI.esc(w.example)}</div>` : ''}`;
+    ? `${pos}<div class="fc-mean">${UI.esc(w.meaning)}</div>${w.example ? `<div class="ex">${UI.esc(w.example)} <button class="lnk" data-act="fcSpeakEx">${I('volume', 14)} Đọc ví dụ</button></div>` : ''}`
+    : `<div class="fc-word">${UI.esc(w.word)}</div>${w.ipa ? `<div class="ipa">${UI.esc(w.ipa)}</div>` : ''}<button class="fc-spk" data-act="fcSpeak" aria-label="Nghe phát âm">${I('volume', 22)} <span>Nghe phát âm</span></button>${w.example ? `<div class="ex">${UI.esc(w.example)} <button class="lnk" data-act="fcSpeakEx">${I('volume', 14)} Đọc ví dụ</button></div>` : ''}`;
   const lv = SRS.isNew(w) ? '' : `Mốc hiện tại: ${SRS.LEVELS[w.level].days} ngày · chấm lúc ${w.lastReviewed ? SRS.fmt(w.lastReviewed) : '—'}`;
   el.innerHTML = `<div class="fcbox">
     <div class="fc-top"><label class="check small"><input type="checkbox" data-act="fcSide" ${frontWord ? '' : 'checked'}> Mặt trước là nghĩa</label>
@@ -932,8 +960,9 @@ App.fcRateHTML = function (F, mine) {
 };
 App.actions.fcGroup = function (el) { this.fc.pickG = +el.dataset.g; this.fcRender(true); };
 App.actions.fcBack = function () { this.fc.pickG = null; this.fcRender(true); };
-App.actions.fcFlip = function (el, e) { if (e && e.target.closest('.lnk')) return; this.fc.flipped = true; this.fcRender(true); };
+App.actions.fcFlip = function (el, e) { if (e && e.target.closest('.lnk, .fc-spk')) return; this.fc.flipped = true; this.fcRender(true); };
 App.actions.fcSpeak = function (el, e) { if (e) e.stopPropagation(); TTS.speakWord(this.byId(this.fc.ids[this.fc.i])); };
+App.actions.fcSpeakEx = function (el, e) { if (e) e.stopPropagation(); const w = this.byId(this.fc.ids[this.fc.i]); if (w && w.example) TTS.speakExample(w.example); };
 App.actions.fcSide = function (el) { this.fc.front = el.checked ? 'meaning' : 'word'; this.fc.flipped = false; this.fcRender(); };
 App.actions.fcPrev = function () { this.fcGo(this.fc.i - 1); };
 App.actions.fcNext = function () { this.fcGo(this.fc.i + 1); };
@@ -987,8 +1016,8 @@ App.views.settings = function () {
   </section>
   <section class="panel">
     <h2>${I('volume')} Giọng đọc</h2>
-    <p class="muted">Giọng chất lượng cao nhất có sẵn trên máy: trên Edge chọn các giọng có chữ “Natural” (vd. Microsoft Aria/Jenny Online (Natural)).</p>
-    <label>Giọng<select id="voiceSel"><option value="">Tự chọn giọng tự nhiên nhất</option>${TTS.voices.map((v) => `<option value="${UI.esc(v.voiceURI)}" ${v.voiceURI === s.voice ? 'selected' : ''}>${UI.esc(v.name)} (${v.lang})</option>`).join('')}</select></label>
+    <p class="muted">Từ vựng, câu ví dụ và bài đọc dùng <b>giọng Emma</b> (giọng người thật, tải từ file âm thanh) nên giống hệt nhau trên máy tính, iPad và điện thoại. Giọng bên dưới chỉ là dự phòng khi từ/câu đó chưa có file âm thanh.</p>
+    <label>Giọng dự phòng<select id="voiceSel"><option value="">Tự chọn giọng tự nhiên nhất</option>${TTS.voices.map((v) => `<option value="${UI.esc(v.voiceURI)}" ${v.voiceURI === s.voice ? 'selected' : ''}>${UI.esc(v.name)} (${v.lang})</option>`).join('')}</select></label>
     <label>Tốc độ <span id="rateVal">${s.rate}</span><input id="rateRange" type="range" min="0.6" max="1.3" step="0.05" value="${s.rate}"></label>
     <button class="btn" data-act="testVoice">Nghe thử</button>
   </section>
@@ -1097,3 +1126,6 @@ App.actions.wipe = function () {
 };
 
 document.addEventListener('DOMContentLoaded', () => App.init());
+
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') App.closeTip(); });
+window.addEventListener('scroll', () => { if (App.tipFor) App.closeTip(); }, { passive: true });

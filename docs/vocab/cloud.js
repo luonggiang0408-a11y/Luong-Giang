@@ -153,6 +153,7 @@ const Cloud = {
     Store.data.gen.speaking = this.mergeArr(Store.data.gen.speaking, r.gen.speaking);
     Store.data.gen.writing = this.mergeArr(Store.data.gen.writing, r.gen.writing);
     if (changed) {
+      if (typeof Sync !== 'undefined') Sync.schedule();
       Store.data.words = merged;
       Store.data.updatedAt = Math.max(Store.data.updatedAt || 0, r.meta.updatedAt || 0);
     }

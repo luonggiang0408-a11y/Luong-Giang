@@ -365,3 +365,32 @@ details.wl { margin-top: 6px; }
   .fcbox .rate { grid-template-columns: repeat(2, 1fr); } .fcbox .rate .lv:last-child { grid-column: span 2; }
   .fc-word { font-size: 26px; }
 }
+
+/* ===================== v4: tràn đầy màn hình + máy tính bảng ===================== */
+main { max-width: 1840px; width: 100%; margin: 0 auto; }
+.fc-spk { display: inline-flex; align-items: center; gap: 8px; border: 0; cursor: pointer; border-radius: 999px; padding: 9px 18px; margin-top: 8px; font: inherit; font-weight: 600; background: color-mix(in srgb, var(--brand) 12%, transparent); color: var(--brand); }
+.fc-spk:hover, .fc-spk:active { background: var(--brand); color: var(--brand-ink); }
+.fc-card .ipa { min-height: 1.2em; font-size: 17px; }
+.verline { color: #7f90b0; font-size: 11px; text-align: center; margin-top: 2px; }
+.upd { position: fixed; left: 50%; top: 14px; transform: translateX(-50%); z-index: 90; background: #0f766e; color: #fff; padding: 9px 16px; border-radius: 999px; font-size: 14px; box-shadow: 0 8px 24px rgba(0,0,0,.25); }
+
+/* máy tính bảng (iPad ngang/dọc) và laptop nhỏ: thanh bên thu gọn còn biểu tượng */
+@media (min-width: 761px) and (max-width: 1180px) {
+  .app { grid-template-columns: 74px minmax(0, 1fr); }
+  .side { padding: 16px 8px; align-items: center; }
+  .side-brand { padding: 0 0 12px; } .side-brand .brand-name { display: none; }
+  .side nav button { justify-content: center; padding: 12px 0; } .side nav button span:not(.badge) { display: none; }
+  .side nav .badge { position: absolute; top: 2px; right: 6px; margin: 0; font-size: 10px; padding: 0 5px; }
+  .su-id > div, .side-user .sbtn span, .side-user .verline { display: none; } .side-user { align-items: center; } .btn.sbtn { padding: 8px; }
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cols, .rcols { grid-template-columns: 1fr; } .qpanel { position: static; max-height: none; }
+  main { padding: 16px; } .topbar { padding: 10px 16px; }
+}
+@media (min-width: 1181px) and (max-width: 1400px) { .tb-search { min-width: 190px; } }
+/* điện thoại: nới thao tác chạm */
+@media (max-width: 760px) {
+  .app { display: block; }
+  .btn, .lv, .lv2 { min-height: 42px; }
+  .fc-card { padding: 18px 12px; min-height: 170px; } .kpi b { font-size: 22px; }
+  .tbl { font-size: 13px; } .pbar { padding: 14px; } .pb-row { gap: 10px; }
+}
