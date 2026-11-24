@@ -142,6 +142,11 @@ App.views.words = function () {
   // Từ thêm gần nhất xếp trước; cùng ngày thì từ nhập sau xếp trước.
   const filtered = all.map((w, i) => ({ w, i })).filter(({ w }) => !q || (w.word + ' ' + w.meaning + ' ' + (w.example || '')).toLowerCase().includes(q))
     .sort((x, y) => (y.w.added || '').localeCompare(x.w.added || '') || y.i - x.i).map(({ w }) => w);
+  const size = this.pageSize === 20 ? 20 : 10;
+  const pages = Math.max(1, Math.ceil(filtered.length / size));
+  const page = Math.max(0, Math.min(pages - 1, this.wordPage || 0));
+  this.wordPage = page;
+  const pageRows = filtered.slice(page * size, page * size + size);
   const e = this.editing ? this.byId(this.editing) : null;
   const html = `
   <section class="panel">
@@ -179,23 +184,27 @@ App.views.words = function () {
     <h2>${I('folder')} Tất cả từ <span class="count">${all.length}</span></h2>
     <input id="wordSearch" class="search" placeholder="Tìm từ hoặc nghĩa..." value="${UI.esc(this.wordQuery || '')}">
     <div class="table-wrap"><table class="tbl">
-      <thead><tr><th>Từ</th><th>Phiên âm</th><th>Loại</th><th>Nghĩa</th><th>Ví dụ</th><th>Mức</th><th>Ôn tiếp</th><th>Ngày thêm</th><th></th></tr></thead>
-      <tbody>${filtered.map((w) => {
-        const lv = SRS.isNew(w) ? null : SRS.LEVELS[w.level];
+      <thead><tr><th>Từ</th><th>Phiên âm</th><th>Loại</th><th>Nghĩa</th><th>Ví dụ</th><th>Ngày thêm</th><th></th></tr></thead>
+      <tbody>${pageRows.map((w) => {
         return `<tr class="wcard-row" data-id="${w.id}"><td><button class="spk sm" data-act="speakRow">${I('volume', 16)}</button> <b>${UI.esc(w.word)}</b></td><td>${UI.esc(w.ipa)}</td><td>${UI.esc(UI.posAbbr(w.pos))}</td><td>${UI.esc(w.meaning)}</td>
         <td class="excell">${w.example ? `<button class="spk sm" data-act="speakEx" aria-label="Nghe câu ví dụ">${I('volume', 16)}</button> <span class="exs">${UI.esc(w.example)}</span>` : '<a href="#" class="muted" data-act="editRow">+ thêm ví dụ</a>'}</td>
-        <td>${lv ? `<span class="tag ${lv.cls}">${lv.short}</span>` : '<span class="tag new">Mới</span>'}</td>
-        <td>${w.mastered ? '✔ xong' : w.schedule.length ? SRS.fmtFull(w.schedule[0]) : '—'}</td>
         <td class="nowrap">${w.added ? SRS.fmtFull(w.added) : '—'}</td>
         <td class="nowrap"><button class="icon" data-act="editRow" title="Sửa">${I('pen', 16)}</button><button class="icon" data-act="delRow" title="Xoá">${I('trash', 16)}</button></td></tr>`;
-      }).join('') || '<tr><td colspan="9" class="muted">Không có từ nào.</td></tr>'}</tbody>
+      }).join('') || '<tr><td colspan="7" class="muted">Không có từ nào.</td></tr>'}</tbody>
     </table></div>
+    <div class="row pager">
+      <button class="btn sm" data-act="pagePrev" ${page === 0 ? 'disabled' : ''}>◀ Quay lại</button>
+      <span class="muted">Trang ${page + 1}/${pages} · ${filtered.length} từ</span>
+      <button class="btn sm" data-act="pageNext" ${page >= pages - 1 ? 'disabled' : ''}>Trang sau ▶</button>
+      <label class="muted">Hiển thị <select id="pageSize"><option value="10" ${size === 10 ? 'selected' : ''}>10</option><option value="20" ${size === 20 ? 'selected' : ''}>20</option></select> từ/trang</label>
+    </div>
   </section>`;
   return {
     html,
     after() {
+      UI.$('#pageSize').addEventListener('change', (ev) => { this.pageSize = +ev.target.value; this.wordPage = 0; this.render(); });
       const s = UI.$('#wordSearch');
-      s.addEventListener('input', () => { this.wordQuery = s.value; const pos = s.selectionStart; this.render(); const n = UI.$('#wordSearch'); n.focus(); n.setSelectionRange(pos, pos); });
+      s.addEventListener('input', () => { this.wordQuery = s.value; this.wordPage = 0; const pos = s.selectionStart; this.render(); const n = UI.$('#wordSearch'); n.focus(); n.setSelectionRange(pos, pos); });
       UI.$('#importFile2').addEventListener('change', (ev) => {
         const f = ev.target.files[0]; if (!f) return;
         f.text().then((txt) => { UI.$('#importBox').value = txt; UI.$('#importInfo').textContent = f.name + ': ' + txt.split(/\r?\n/).filter((l) => l.trim()).length + ' dòng. Bấm “Nhập” để hoàn tất.'; });
@@ -334,6 +343,8 @@ App.actions.sample = function () {
   SAMPLE.forEach(([word, ipa, pos, meaning, example]) => Store.addWord({ word, ipa, pos, meaning, example }));
   Store.save(); this.render();
 };
+App.actions.pagePrev = function () { this.wordPage = (this.wordPage || 0) - 1; this.render(); const p = UI.$('.pager'); if (p) p.scrollIntoView({ block: 'center' }); };
+App.actions.pageNext = function () { this.wordPage = (this.wordPage || 0) + 1; this.render(); const p = UI.$('.pager'); if (p) p.scrollIntoView({ block: 'center' }); };
 App.actions.speakRow = function (el) { const w = this.byId(el.closest('tr').dataset.id); if (w) TTS.speakWord(w); };
 App.actions.speakEx = function (el) { const w = this.byId(el.closest('tr').dataset.id); if (w && w.example) { TTS.stop(); TTS.say(w.example); } };
 App.actions.editRow = function (el, e) { if (e) e.preventDefault(); this.editing = el.closest('tr').dataset.id; this.render(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
