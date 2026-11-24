@@ -1,4 +1,4 @@
-/* Giao diện chính: Từ vựng, Ôn hôm nay, Bài đọc, Bài nói, Bài viết, Cài đặt */
+/* Giao diện chính: Từ vựng, Ôn hôm nay, Bài đọc, Cài đặt */
 const App = {
   tab: 'review',
   hideMeaning: false,
@@ -48,8 +48,6 @@ const App = {
 
   go(tab) {
     TTS.stop();
-    if (this.rec.on) this.stopRec();
-    clearInterval(this.rec.timer); this.rec.timer = null; this.rec.seconds = 0;
     if (!this.views[tab]) tab = 'review';
     this.tab = tab;
     location.hash = tab;
@@ -138,10 +136,12 @@ const App = {
 
 /* ======================= TỪ VỰNG ======================= */
 App.views.words = function () {
-  const nw = this.newWords();
+  const nw = this.newWords().slice().reverse();
   const all = this.words();
   const q = (this.wordQuery || '').toLowerCase();
-  const filtered = all.filter((w) => !q || (w.word + ' ' + w.meaning + ' ' + (w.example || '')).toLowerCase().includes(q));
+  // Từ thêm gần nhất xếp trước; cùng ngày thì từ nhập sau xếp trước.
+  const filtered = all.map((w, i) => ({ w, i })).filter(({ w }) => !q || (w.word + ' ' + w.meaning + ' ' + (w.example || '')).toLowerCase().includes(q))
+    .sort((x, y) => (y.w.added || '').localeCompare(x.w.added || '') || y.i - x.i).map(({ w }) => w);
   const e = this.editing ? this.byId(this.editing) : null;
   const html = `
   <section class="panel">
@@ -179,15 +179,16 @@ App.views.words = function () {
     <h2>${I('folder')} Tất cả từ <span class="count">${all.length}</span></h2>
     <input id="wordSearch" class="search" placeholder="Tìm từ hoặc nghĩa..." value="${UI.esc(this.wordQuery || '')}">
     <div class="table-wrap"><table class="tbl">
-      <thead><tr><th>Từ</th><th>Phiên âm</th><th>Loại</th><th>Nghĩa</th><th>Ví dụ</th><th>Mức</th><th>Ôn tiếp</th><th></th></tr></thead>
+      <thead><tr><th>Từ</th><th>Phiên âm</th><th>Loại</th><th>Nghĩa</th><th>Ví dụ</th><th>Mức</th><th>Ôn tiếp</th><th>Ngày thêm</th><th></th></tr></thead>
       <tbody>${filtered.map((w) => {
         const lv = SRS.isNew(w) ? null : SRS.LEVELS[w.level];
         return `<tr class="wcard-row" data-id="${w.id}"><td><button class="spk sm" data-act="speakRow">${I('volume', 16)}</button> <b>${UI.esc(w.word)}</b></td><td>${UI.esc(w.ipa)}</td><td>${UI.esc(UI.posAbbr(w.pos))}</td><td>${UI.esc(w.meaning)}</td>
         <td class="excell">${w.example ? `<button class="spk sm" data-act="speakEx" aria-label="Nghe câu ví dụ">${I('volume', 16)}</button> <span class="exs">${UI.esc(w.example)}</span>` : '<a href="#" class="muted" data-act="editRow">+ thêm ví dụ</a>'}</td>
         <td>${lv ? `<span class="tag ${lv.cls}">${lv.short}</span>` : '<span class="tag new">Mới</span>'}</td>
         <td>${w.mastered ? '✔ xong' : w.schedule.length ? SRS.fmtFull(w.schedule[0]) : '—'}</td>
+        <td class="nowrap">${w.added ? SRS.fmtFull(w.added) : '—'}</td>
         <td class="nowrap"><button class="icon" data-act="editRow" title="Sửa">${I('pen', 16)}</button><button class="icon" data-act="delRow" title="Xoá">${I('trash', 16)}</button></td></tr>`;
-      }).join('') || '<tr><td colspan="8" class="muted">Không có từ nào.</td></tr>'}</tbody>
+      }).join('') || '<tr><td colspan="9" class="muted">Không có từ nào.</td></tr>'}</tbody>
     </table></div>
   </section>`;
   return {
@@ -475,7 +476,7 @@ App.views.review = function () {
   </section>
   <section class="panel" id="trackPanel">
     <h2>${I('list')} Từ đang theo dõi (${active.length})</h2>
-    <p class="muted">Chia theo 10 mốc ôn. Bấm vào từng mốc để xem danh sách từ, ngày ôn tiếp theo, số lần ôn và số lần quên.</p>
+    <p class="muted">Chia theo 10 mốc ôn. Bấm vào từng mốc để xem danh sách từ, ngày ôn tiếp theo, số lần ôn và số lần quên. <b>Xong chu kỳ</b>: từ đang ở mốc cuối “Thành thạo · 120d” mà đến hạn ôn lần nữa và bạn lại chọn “Thành thạo · 120d” thì từ được đánh dấu xong, không còn xuất hiện trong lịch ôn.</p>
     ${trackHTML || '<div class="empty">Chưa có từ nào đang theo dõi.</div>'}
   </section>`;
   return {
@@ -497,6 +498,8 @@ App.views.reading = function () {
   const saved = Store.data.gen.reading[t];
   const tw = this.targetWords();
   const words = saved ? saved.words : tw.words;
+  const have = new Set((saved ? saved.words : []).map((w) => (w.word || '').trim().toLowerCase()));
+  const missing = saved && !tw.fallback ? tw.words.filter((w) => !have.has(w.word.trim().toLowerCase())) : [];
   const html = `
   ${this.syncBanner()}
   <section class="panel">
@@ -507,27 +510,35 @@ App.views.reading = function () {
       <button class="btn primary" data-act="genReading" ${words.length ? '' : 'disabled'}>${saved ? 'Tạo lại bài đọc' : 'Tạo bài đọc'}</button>
       <span class="muted" id="genStatus"></span>
     </div>
+    ${missing.length ? `<p class="note">Bài đọc tạo sẵn <b>chưa có ${missing.length}/${tw.words.length}</b> từ đến hạn hôm nay (danh sách ôn đã thay đổi sau khi bài được tạo): ${missing.slice(0, 12).map((w) => UI.esc(w.word)).join(', ')}${missing.length > 12 ? '…' : ''}.<br><button class="btn primary sm" data-act="genMissing">Tạo thêm bài cho ${missing.length} từ còn thiếu</button></p>` : ''}
     ${AI.hasKey() ? '' : '<p class="note">Chưa có API key: ứng dụng sẽ hướng dẫn bạn sao chép prompt sang Claude và dán kết quả về (xem tab Cài đặt để tự động hoá).</p>'}
   </section>
   <div id="passages">${saved ? saved.passages.map((p, i) => this.passageHTML(p, i)).join('') : ''}</div>`;
   return {
     html,
     after() {
-      if (saved || this.readingChecked === t) return;
+      if ((saved && saved.manual) || this.readingChecked === t) return;   // bài tự tạo thì giữ nguyên; bài tải sẵn thì luôn đối chiếu với bản mới nhất
       this.readingChecked = t;
-      UI.$('#genStatus').textContent = 'Đang kiểm tra bài đọc tạo sẵn...';
+      if (!saved) UI.$('#genStatus').textContent = 'Đang kiểm tra bài đọc tạo sẵn...';
       Sync.fetchReading(t).then((j) => {
-        if (j) { Store.data.gen.reading[t] = { words: j.words || [], passages: j.passages }; Store.prune(); Store.save(); if (this.tab === 'reading') this.render(); }
-        else { const s = UI.$('#genStatus'); if (s) s.textContent = 'Chưa có bài đọc tạo sẵn cho hôm nay.'; }
+        if (j) {
+          const sig = j.passages.length + '|' + j.passages.map((p) => p.title).join('|');
+          if (!saved || saved.sig !== sig) { Store.data.gen.reading[t] = { words: j.words || [], passages: j.passages, sig }; Store.prune(); Store.save(); if (this.tab === 'reading') this.render(); }
+        } else if (!saved) { const s = UI.$('#genStatus'); if (s) s.textContent = 'Chưa có bài đọc tạo sẵn cho hôm nay.'; }
       });
     },
   };
 };
 
-App.actions.genReading = async function (btn) {
+App.actions.genMissing = function (btn) { return this.actions.genReading.call(this, btn, true); };
+App.actions.genReading = async function (btn, onlyMissing) {
   const t = SRS.today();
   const saved = Store.data.gen.reading[t];
-  const words = saved ? saved.words : this.targetWords().words;
+  let words = saved ? saved.words : this.targetWords().words;
+  if (onlyMissing === true && saved) {
+    const have = new Set(saved.words.map((w) => (w.word || '').trim().toLowerCase()));
+    words = this.targetWords().words.filter((w) => !have.has(w.word.trim().toLowerCase()));
+  }
   if (!words.length) return;
   const snap = words.map((w) => ({ id: w.id, word: w.word, ipa: w.ipa, pos: w.pos, meaning: w.meaning }));
   const n = Math.min(snap.length, snap.length <= 12 ? 3 : snap.length <= 20 ? 4 : 5);
@@ -536,7 +547,7 @@ App.actions.genReading = async function (btn) {
   btn.disabled = true;
   const status = UI.$('#genStatus');
   const box = UI.$('#passages');
-  box.innerHTML = '';
+  if (onlyMissing !== true) box.innerHTML = '';
   const passages = [];
   try {
     if (AI.hasKey()) {
@@ -554,7 +565,8 @@ App.actions.genReading = async function (btn) {
       const r = await AI.askJSON({ system: pr.system, user: pr.user });
       passages.push(...r.passages);
     }
-    Store.data.gen.reading[t] = { words: snap, passages };
+    if (onlyMissing === true && saved) Store.data.gen.reading[t] = { words: saved.words.concat(snap), passages: saved.passages.concat(passages), manual: true };
+    else Store.data.gen.reading[t] = { words: snap, passages, manual: true };
     Store.prune(); Store.save();
     status.textContent = '';
     this.render();
@@ -666,254 +678,11 @@ App.actions.pause = function (btn) {
 App.actions.stopRead = function (btn) { TTS.stop(); UI.$$('.sent.now').forEach((s) => s.classList.remove('now')); };
 App.actions.rateSel = function () { /* đổi tốc độ áp dụng ở lần bấm Nghe tiếp theo */ };
 
-/* ======================= BÀI NÓI ======================= */
-const SPEAK_BANK = [
-  { kw: 'memory remember forget brain learn study recall revise review', topic: 'Describe something you learned that you still remember very well.', points: ['You should say:', 'what you learned', 'when and how you learned it', 'why you still remember it', 'and explain how it has helped you.'], part3: ['What helps people remember information?', 'Is it better to learn by heart or by understanding?'] },
-  { kw: 'study school exam teacher student education course class', topic: 'Describe a teacher who helped you a lot in your studies.', points: ['You should say:', 'who the teacher was', 'what subject they taught', 'how they helped you', 'and explain why you remember them.'], part3: ['What makes a good teacher?', 'How is learning different today from the past?'] },
-  { kw: 'habit routine decision resolution goal plan change effort', topic: 'Describe a goal or resolution you made and tried to keep.', points: ['You should say:', 'what the goal was', 'why you set it', 'how you tried to achieve it', 'and explain whether you kept it.'], part3: ['Why do people find it hard to keep their resolutions?', 'Do goals motivate people?'] },
-  { kw: 'problem solve difficult challenge tackle deal', topic: 'Describe a time when you had to solve a difficult problem.', points: ['You should say:', 'what the problem was', 'how you dealt with it', 'who helped you', 'and explain how you felt afterwards.'], part3: ['Why do some people avoid facing problems?', 'How can schools teach problem-solving?'] },
-  { kw: 'city place community public park building town', topic: 'Describe a place in your city that is important for the community.', points: ['You should say:', 'where it is', 'what people do there', 'how often you go there', 'and explain why it matters.'], part3: ['How do public places change a city?', 'Should governments spend more on public spaces?'] },
-  { kw: 'person influence friend family role model', topic: 'Describe a person who has influenced you.', points: ['You should say:', 'who the person is', 'how you know them', 'what they did', 'and explain why they influenced you.'], part3: ['What makes someone a good role model?', 'Do celebrities have a responsibility to set an example?'] },
-  { kw: 'technology phone internet computer online device app', topic: 'Describe a piece of technology you use every day.', points: ['You should say:', 'what it is', 'how you use it', 'how long you have had it', 'and explain why it is important to you.'], part3: ['Does technology make life easier or more stressful?', 'How will technology change education?'] },
-  { kw: 'health sleep exercise food stress body mind tired', topic: 'Describe something you do to stay healthy.', points: ['You should say:', 'what you do', 'how often you do it', 'when you started', 'and explain how it affects you.'], part3: ['Why do people find it hard to lead a healthy lifestyle?', 'Who is responsible for public health?'] },
-  { kw: 'environment pollution nature climate sustainable energy waste', topic: 'Describe something you do to help protect the environment.', points: ['You should say:', 'what you do', 'when you started', 'why you do it', 'and explain whether it makes a difference.'], part3: ['Who should do more for the environment, individuals or governments?', 'Will people care more about nature in the future?'] },
-  { kw: 'travel trip holiday journey visit tourist', topic: 'Describe a memorable trip you took.', points: ['You should say:', 'where you went', 'who you went with', 'what you did', 'and explain why it was memorable.'], part3: ['Why do people like travelling?', 'How does tourism affect local places?'] },
-  { kw: 'work job career office company business', topic: 'Describe a job or kind of work you would like to do in the future.', points: ['You should say:', 'what the job is', 'what skills it needs', 'why it interests you', 'and explain how you could prepare for it.'], part3: ['What do people look for in a job today?', 'Is working from home a good idea?'] },
-];
-const WRITE_BANK = [
-  { kw: 'memory remember forget brain learn study recall revise review', topic: 'Some people believe that the best way to improve memory is to use learning techniques, while others think memory depends mainly on natural ability. Discuss both views and give your own opinion.', type: 'discussion' },
-  { kw: 'study school exam teacher student education course class learn', topic: 'Some people think that students should memorise facts, while others believe it is more important to understand ideas. Discuss both views and give your opinion.', type: 'discussion' },
-  { kw: 'habit routine decision resolution goal plan change effort', topic: 'Many people make resolutions but fail to keep them. What are the reasons for this, and what can be done to help people achieve their goals?', type: 'problem-solution' },
-  { kw: 'transport city public road traffic building', topic: 'Some people believe that governments should spend more money on public transport rather than building new roads. To what extent do you agree or disagree?', type: 'opinion' },
-  { kw: 'health sleep exercise food stress body mind tired', topic: 'Many young people today find it difficult to manage stress. What are the causes of this, and what can be done to help?', type: 'problem-solution' },
-  { kw: 'work job career office company business technology', topic: 'Some people believe that working from home is better for employees, while others think working in an office is more effective. Discuss both views and give your opinion.', type: 'discussion' },
-  { kw: 'technology phone internet computer online device app', topic: 'The use of technology in classrooms has increased greatly. Do the advantages of this development outweigh the disadvantages?', type: 'adv-disadv' },
-  { kw: 'environment pollution nature climate sustainable energy waste', topic: 'Some people think that individuals can do little to protect the environment and that only governments and large companies can make a difference. To what extent do you agree or disagree?', type: 'opinion' },
-];
-
-// Chọn chủ đề khớp nhất với các từ hay quên (đếm từ khoá trùng); không có thì chọn ngẫu nhiên.
-App.pickTopic = function (kind) {
-  const bank = kind === 'speaking' ? SPEAK_BANK : WRITE_BANK;
-  const weak = this.weakSource();
-  const text = weak.map((w) => w.word + ' ' + w.meaning).join(' ').toLowerCase();
-  const toks = new Set(text.match(/[a-z]+/g) || []);
-  const scored = bank.map((t) => ({ t, s: t.kw.split(' ').filter((k) => toks.has(k) || text.includes(k)).length + Math.random() * 0.5 }));
-  scored.sort((a, b) => b.s - a.s);
-  return Object.assign({}, scored[0].t, { suggested: weak.slice(0, 6).map((w) => w.word) });
-};
-
-App.weakSource = function () {
-  const due = this.dueWords();
-  const pool = due.length ? due : this.words().filter((w) => !SRS.isNew(w));
-  return SRS.weakWords(pool);
-};
-
-App.productionView = function (kind) {
-  const weak = this.weakSource();
-  const key = kind === 'speaking' ? 'speakTopic' : 'writeTopic';
-  if (!this[key] && weak.length) this[key] = this.pickTopic(kind);
-  const topic = this[key];
-  const hist = Store.data.gen[kind].slice(-5).reverse();
-  const isS = kind === 'speaking';
-  const html = `
-  <section class="panel">
-    <h2>${isS ? `${I('mic')} Bài nói` : `${I('pen')} Bài viết`} — vận dụng các từ hay quên</h2>
-    <p class="muted">Các từ bạn hay quên (lấy từ danh sách ôn hôm nay):</p>
-    <div class="chips">${weak.map((w) => `<span class="chip warn" title="${UI.esc(w.meaning)}">${UI.esc(w.word)}</span>`).join('') || '<span class="muted">Chưa có từ nào để luyện. Hãy học và đánh dấu mức nhớ trước.</span>'}</div>
-    <div class="row">
-      <button class="btn primary" data-act="genTopic" data-kind="${kind}" ${weak.length ? '' : 'disabled'}>Tạo chủ đề từ các từ này</button>
-      <button class="btn" data-act="bankTopic" data-kind="${kind}">Chủ đề có sẵn</button>
-    </div>
-  </section>
-  ${topic ? `<section class="panel topic" id="topicBox">
-    <h3>${isS ? 'Cue card' : 'Task 2'}</h3>
-    <p class="big">${UI.esc(topic.topic)}</p>
-    ${isS ? `<ul>${(topic.points || []).map((x) => `<li>${UI.esc(x)}</li>`).join('')}</ul>${(topic.part3 || []).length ? `<p class="muted"><b>Part 3:</b> ${topic.part3.map(UI.esc).join(' • ')}</p>` : ''}`
-      : topic.outline_vi ? `<p class="muted">${UI.esc(topic.outline_vi)}</p>` : ''}
-    ${(topic.suggested || []).length ? `<p>Thử dùng: ${topic.suggested.map((w) => `<span class="chip">${UI.esc(w)}</span>`).join('')}</p>` : ''}
-  </section>
-  <section class="panel">
-    ${isS ? `
-      <div class="recbar"><button class="btn rec" id="recBtn" data-act="toggleRec">Bắt đầu nói</button><span id="timer" class="timer">00:00</span><span class="muted" id="recHint">Nói 1–2 phút. Dùng Chrome/Edge để nhận dạng giọng nói.</span></div>
-      <audio id="playback" controls hidden></audio>
-      <label>Bản ghi (có thể sửa lại trước khi chấm)<textarea id="answerBox" rows="7" placeholder="Văn bản nhận dạng sẽ hiện ở đây. Nếu trình duyệt không hỗ trợ, hãy gõ lại những gì bạn nói."></textarea></label>`
-    : `
-      <div class="recbar"><button class="btn" data-act="toggleTimer" id="wTimerBtn">Bắt đầu tính giờ (40 phút)</button><span id="timer" class="timer">00:00</span><span class="counter" id="wc">0 từ</span></div>
-      <label>Bài viết của bạn (tối thiểu 250 từ)<textarea id="answerBox" rows="16" placeholder="Viết bài của bạn ở đây..."></textarea></label>`}
-    <div class="row"><button class="btn primary" data-act="gradeQuick" data-kind="${kind}">Chấm nhanh (tự động, miễn phí)</button><button class="btn" data-act="grade" data-kind="${kind}">Chấm sâu bằng Claude</button><span class="muted" id="gradeStatus"></span></div>
-    <p class="muted">Chấm nhanh dùng thuật toán trong trình duyệt (đếm từ, từ nối, từ vựng đã dùng, lỗi phổ biến${isS ? ', tốc độ nói, độ rõ của giọng' : ''}) nên chỉ là điểm ước tính. Chấm sâu bằng Claude cho góp ý chi tiết hơn (cần API key hoặc sao chép-dán).</p>
-  </section>
-  <div id="result"></div>` : ''}
-  ${hist.length ? `<section class="panel"><h3>Lịch sử gần đây</h3><div class="hist">${hist.map((h) => `<div><span class="muted">${SRS.fmtFull(h.date)}</span> <b>Band ${UI.band(h.overall)}</b> — ${UI.esc(h.topic.slice(0, 90))}…</div>`).join('')}</div></section>` : ''}`;
-  return {
-    html,
-    after() {
-      const box = UI.$('#answerBox');
-      if (box && !isS) box.addEventListener('input', () => { UI.$('#wc').textContent = this.countWords(box.value) + ' từ'; });
-    },
-  };
-};
-App.views.speaking = function () { return this.productionView('speaking'); };
-App.views.writing = function () { return this.productionView('writing'); };
-App.countWords = (s) => (s.trim().match(/[A-Za-z0-9'’-]+/g) || []).length;
-
-App.actions.bankTopic = function (el) {
-  const kind = el.dataset.kind;
-  this[kind === 'speaking' ? 'speakTopic' : 'writeTopic'] = this.pickTopic(kind);
-  this.render();
-};
-
-App.actions.genTopic = async function (el) {
-  const kind = el.dataset.kind;
-  if (!AI.hasKey()) { this.actions.bankTopic.call(this, el); UI.toast('Đã chọn chủ đề phù hợp nhất từ kho có sẵn (cần API key để Claude tự viết chủ đề riêng).'); return; }
-  el.disabled = true; el.textContent = 'Đang tạo...';
-  try {
-    const pr = AI.topicPrompt(kind, this.weakSource());
-    const t = await AI.askJSON(pr);
-    this[kind === 'speaking' ? 'speakTopic' : 'writeTopic'] = t;
-    this.render();
-  } catch (e) { UI.toast(e.message || 'Không tạo được chủ đề'); this.render(); }
-};
-
-/* --- ghi âm + nhận dạng giọng nói --- */
-App.rec = { on: false, final: '', confs: [], t0: 0, timer: null, recognizer: null, media: null, chunks: [] };
-
-App.actions.toggleRec = async function (btn) {
-  const R = this.rec;
-  const box = UI.$('#answerBox');
-  if (R.on) { this.stopRec(); return; }
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!SR) UI.toast('Trình duyệt này không nhận dạng giọng nói — hãy dùng Chrome/Edge hoặc gõ văn bản.');
-  R.on = true; R.final = box.value ? box.value + ' ' : ''; R.confs = []; R.t0 = Date.now(); R.chunks = [];
-  btn.textContent = 'Dừng'; btn.classList.add('on'); box.readOnly = true;
-  UI.$('#playback').hidden = true;
-  R.timer = setInterval(() => { const s = Math.floor((Date.now() - R.t0) / 1000); UI.$('#timer').textContent = String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); }, 500);
-  try {
-    R.media = await navigator.mediaDevices.getUserMedia({ audio: true });
-    const mr = new MediaRecorder(R.media);
-    mr.ondataavailable = (e) => R.chunks.push(e.data);
-    mr.onstop = () => { const a = UI.$('#playback'); if (a) { a.src = URL.createObjectURL(new Blob(R.chunks, { type: 'audio/webm' })); a.hidden = false; } };
-    mr.start(); R.mr = mr;
-  } catch (e) { UI.toast('Không truy cập được micro. Hãy cho phép micro cho trang này.'); }
-  if (SR) {
-    const rc = new SR();
-    rc.lang = 'en-US'; rc.continuous = true; rc.interimResults = true;
-    rc.onresult = (ev) => {
-      let interim = '';
-      for (let i = ev.resultIndex; i < ev.results.length; i++) {
-        const r = ev.results[i];
-        if (r.isFinal) { R.final += r[0].transcript.trim() + ' '; if (r[0].confidence) R.confs.push(r[0].confidence); }
-        else interim += r[0].transcript;
-      }
-      const b = UI.$('#answerBox'); if (b) b.value = R.final + interim;
-    };
-    rc.onend = () => { if (R.on) { try { rc.start(); } catch (e) { /* đang chạy */ } } };
-    rc.onerror = (ev) => { if (ev.error === 'not-allowed') { UI.toast('Micro bị chặn'); } };
-    rc.start(); R.recognizer = rc;
-  }
-};
-
-App.stopRec = function () {
-  const R = this.rec;
-  R.on = false; clearInterval(R.timer);
-  R.seconds = Math.round((Date.now() - R.t0) / 1000);
-  try { R.recognizer && R.recognizer.stop(); } catch (e) { /* bỏ qua */ }
-  try { R.mr && R.mr.state !== 'inactive' && R.mr.stop(); } catch (e) { /* bỏ qua */ }
-  if (R.media) R.media.getTracks().forEach((t) => t.stop());
-  const btn = UI.$('#recBtn'), box = UI.$('#answerBox');
-  if (btn) { btn.textContent = 'Nói lại / nói tiếp'; btn.classList.remove('on'); }
-  if (box) { box.readOnly = false; box.value = R.final.trim() || box.value; }
-};
-
-App.actions.toggleTimer = function (btn) {
-  const R = this.rec;
-  if (R.timer) { clearInterval(R.timer); R.timer = null; R.seconds = Math.round((Date.now() - R.t0) / 1000); btn.textContent = 'Tiếp tục tính giờ'; return; }
-  R.t0 = Date.now() - (R.seconds || 0) * 1000;
-  btn.textContent = 'Dừng giờ';
-  R.timer = setInterval(() => { const s = Math.floor((Date.now() - R.t0) / 1000); const el = UI.$('#timer'); if (!el) return; el.textContent = String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); el.classList.toggle('over', s > 2400); }, 500);
-};
-
-App.actions.grade = async function (btn) {
-  const kind = btn.dataset.kind;
-  const isS = kind === 'speaking';
-  const R = this.rec;
-  if (isS && R.on) this.stopRec();
-  const text = UI.$('#answerBox').value.trim();
-  const count = this.countWords(text);
-  if (count < (isS ? 25 : 60)) { UI.toast(isS ? 'Bài nói quá ngắn để chấm (cần ít nhất ~25 từ).' : 'Bài viết quá ngắn để chấm.'); return; }
-  const topic = isS ? this.speakTopic : this.writeTopic;
-  const words = this.weakSource();
-  const status = UI.$('#gradeStatus');
-  btn.disabled = true; status.textContent = 'Đang chấm bài...';
-  try {
-    let pr;
-    if (isS) {
-      const secs = R.seconds || Math.max(30, Math.round(count / 2.2));
-      const conf = R.confs.length ? (R.confs.reduce((a, b) => a + b, 0) / R.confs.length).toFixed(2) : 'n/a (typed or unavailable)';
-      const fillers = (text.match(/\b(um+|uh+|er+|erm|you know)\b/gi) || []).length;
-      pr = AI.speakingPrompt(topic, words, { seconds: secs, words: count, wpm: Math.round(count / secs * 60), conf, fillers }, text);
-    } else {
-      const mins = R.seconds ? Math.round(R.seconds / 60) : 0;
-      pr = AI.writingPrompt(topic, words, text, count, mins);
-    }
-    const r = await AI.askJSON(pr);
-    const keys = Object.keys(r.bands);
-    r.overall = Math.round(keys.reduce((a, k) => a + Number(r.bands[k]), 0) / keys.length * 2) / 2;
-    Store.data.gen[kind].push({ date: SRS.today(), topic: topic.topic, overall: r.overall, bands: r.bands, text });
-    Store.prune(); Store.save();
-    UI.$('#result').innerHTML = this.resultHTML(kind, r);
-    UI.$('#result').scrollIntoView({ behavior: 'smooth' });
-  } catch (e) { UI.toast(e.message || 'Chấm bài thất bại'); }
-  btn.disabled = false; status.textContent = '';
-};
-
-App.actions.gradeQuick = function (btn) {
-  const kind = btn.dataset.kind, isS = kind === 'speaking', R = this.rec;
-  if (isS && R.on) this.stopRec();
-  const text = UI.$('#answerBox').value.trim();
-  const count = this.countWords(text);
-  if (count < (isS ? 10 : 40)) { UI.toast(isS ? 'Hãy nói hoặc gõ thêm một chút để chấm.' : 'Bài viết quá ngắn để chấm.'); return; }
-  const words = this.weakSource();
-  let r;
-  if (isS) r = Quick.speaking(words, text, R.seconds || 0, R.confs);
-  else r = Quick.writing(words, text, R.seconds ? Math.round(R.seconds / 60) : 0);
-  const topic = isS ? this.speakTopic : this.writeTopic;
-  Store.data.gen[kind].push({ date: SRS.today(), topic: topic.topic, overall: r.overall, bands: r.bands, text, quick: true });
-  Store.prune(); Store.save();
-  UI.$('#result').innerHTML = this.resultHTML(kind, r);
-  UI.$('#result').scrollIntoView({ behavior: 'smooth' });
-};
-
-App.resultHTML = function (kind, r) {
-  const labels = kind === 'speaking'
-    ? { pronunciation: 'Phát âm', vocabulary: 'Từ vựng', grammar: 'Ngữ pháp', fluency: 'Độ trôi chảy', clarity: 'Mức độ rõ ý' }
-    : { task: 'Task Response', coherence: 'Coherence & Cohesion', lexical: 'Lexical Resource', grammar: 'Grammar' };
-  const c = r.comments || {};
-  return `<section class="panel result">
-    <div class="overall"><span>Band tổng</span><b>${UI.band(r.overall)}</b></div>
-    <div class="bands">${Object.keys(labels).map((k) => `<div class="bandcard"><small>${labels[k]}</small><b>${r.bands[k] == null ? '—' : UI.band(r.bands[k])}</b><div class="track"><i style="width:${(r.bands[k] || 0) / 9 * 100}%"></i></div><p>${UI.esc(c[k] || '')}</p></div>`).join('')}</div>
-    ${r.quick ? '<p class="note">Điểm ước tính bằng thuật toán, không phải giám khảo thật. Muốn góp ý chi tiết về lỗi và cách diễn đạt hay hơn, bấm “Chấm sâu bằng Claude”.</p>' : ''}
-    ${kind === 'speaking' && !r.quick ? '<p class="note">Điểm phát âm chỉ là ước lượng từ văn bản nhận dạng giọng nói và độ tin cậy của trình nhận dạng — không nghe được âm thanh thật. Hãy coi đó là gợi ý.</p>' : ''}
-    <h3>Từ mục tiêu</h3>
-    <p>✅ Đã dùng: ${(r.used_words || []).map((w) => `<span class="chip good">${UI.esc(w)}</span>`).join('') || '—'}</p>
-    <p>Chưa dùng: ${(r.missed_words || []).map((w) => `<span class="chip warn">${UI.esc(w)}</span>`).join('') || '—'}</p>
-    ${r.word_use_feedback ? `<p class="muted">${UI.esc(r.word_use_feedback)}</p>` : ''}
-    <h3>Lỗi cần sửa</h3>
-    <div class="errs">${(r.errors || []).map((x) => `<div class="err"><div class="o">✗ ${UI.esc(x.original)}</div>${x.better ? `<div class="b">✓ ${UI.esc(x.better)}</div>` : ''}<div class="w">${UI.esc(x.why)}</div></div>`).join('') || '<p class="muted">Không có lỗi đáng kể.</p>'}</div>
-    ${r.better_version ? `<h3>Phiên bản tốt hơn (gợi ý)</h3>
-    <blockquote>${UI.esc(r.better_version).replace(/\n/g, '<br>')}</blockquote>
-    <button class="btn" data-act="sayText" data-text="${UI.esc(r.better_version)}">Nghe bản mẫu</button>` : ''}
-    <h3>Việc cần luyện tiếp</h3>
-    <ul>${(r.next_steps || []).map((x) => `<li>${UI.esc(x)}</li>`).join('')}</ul>
-  </section>`;
-};
-App.actions.sayText = function (el) { TTS.stop(); TTS.say(el.dataset.text); };
-
 
 /* ======================= FLASHCARD ======================= */
 App.fc = { ids: [], i: 0, flipped: false, front: 'word', done: {}, snap: {} };
 App.actions.fcStart = function () {
-  this.fc = { ids: UI.shuffle(this.dueWords().map((w) => w.id)), i: 0, flipped: false, front: this.fc.front || 'word', done: {}, snap: {} };
+  this.fc = { ids: this.dueWords().map((w) => w.id), i: 0, flipped: false, front: this.fc.front || 'word', done: {}, snap: {} };
   if (!this.fc.ids.length) return;
   const el = document.createElement('div');
   el.id = 'fcModal'; el.className = 'modal';
@@ -1011,7 +780,7 @@ App.views.settings = function () {
   const html = `
   ${this.accountPanel()}
   <section class="panel">
-    <h2>${I('key')} Kết nối Claude (tạo bài đọc & chấm bài tự động)</h2>
+    <h2>${I('key')} Kết nối Claude (tạo bài đọc tự động)</h2>
     <p class="muted">Khoá API được lưu <b>chỉ trong trình duyệt này</b> và gửi thẳng tới api.anthropic.com. Không nhập khoá trên máy dùng chung. Có thể bỏ trống để dùng chế độ thủ công (sao chép prompt sang claude.ai).</p>
     <label>API key<input id="apiKey" type="password" autocomplete="off" placeholder="sk-ant-..." value="${UI.esc(s.apiKey)}"></label>
     <label>Model<input id="model" value="${UI.esc(s.model)}"></label>

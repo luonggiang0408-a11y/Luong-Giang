@@ -109,6 +109,12 @@ const Cloud = {
     if (mod) r.mod = mod;
     return r;
   },
+  // Hai từ cùng id nhưng khác tên = một từ đã bị đổi tên trên một thiết bị: giữ bản mới hơn, bỏ bản còn lại.
+  dedupeById(words) {
+    const byId = new Map();
+    words.forEach((w) => { const o = byId.get(w.id); byId.set(w.id, !o || !w.id ? w : (this.better(w, o) ? w : o)); });
+    return words.filter((w) => !w.id || byId.get(w.id) === w);
+  },
   merge(localWords, remoteWords, deleted) {
     const map = new Map();
     localWords.forEach((w) => map.set(this.key(w), w));

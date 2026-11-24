@@ -1,4 +1,4 @@
-/* Gọi Claude để tạo bài đọc / chủ đề / chấm bài.
+/* Gọi Claude để tạo bài đọc.
    Có API key  -> gọi trực tiếp từ trình duyệt.
    Không có key -> chế độ thủ công: sao chép prompt, dán câu trả lời JSON. */
 const AI = {
@@ -121,65 +121,5 @@ JSON shape:
 ]}]}
 Return exactly ${subsets.length} passage(s) in "passages".`;
     return { system, user };
-  },
-
-  /* ---------- Chủ đề nói / viết ---------- */
-  topicPrompt(kind, words) {
-    const list = words.map((w) => `${w.word}: ${w.meaning}`).join('; ');
-    const system = 'You are an IELTS examiner. Reply with ONE JSON object only, no markdown fences.';
-    const user = kind === 'speaking'
-      ? `Learner often forgets these words/phrases: ${list}.
-Create an IELTS Speaking Part 2 cue card whose natural answer lets the learner use as many of these words as possible (without telling them to use specific words in the prompt text).
-JSON: {"topic":"Describe ...","points":["You should say:","...","...","and explain ..."],"part3":["follow-up question 1","follow-up question 2"],"suggested":["words from the list that fit best"]}`
-      : `Learner often forgets these words/phrases: ${list}.
-Create an IELTS Writing Task 2 question (opinion, discussion, advantages/disadvantages or problem-solution) on a topic where these words fit naturally.
-JSON: {"topic":"full Task 2 question text","type":"opinion|discussion|adv-disadv|problem-solution","suggested":["words from the list that fit best"],"outline_vi":"2-3 câu gợi ý dàn ý bằng tiếng Việt"}`;
-    return { system, user, maxTokens: 800 };
-  },
-
-  /* ---------- Chấm bài ---------- */
-  speakingPrompt(topic, words, stats, transcript) {
-    const system = `You are a certified IELTS Speaking examiner and a kind coach for a Vietnamese learner (target band 6.5-7.0).
-Score using the official IELTS band descriptors (0-9, half bands allowed). Be honest, not generous.
-IMPORTANT: you only have an automatic speech-recognition transcript, not the audio. Estimate Pronunciation from recognition confidence, words the recogniser got wrong/odd, and likely Vietnamese-speaker issues (final consonants, stress, th/s/sh, linking); say clearly that this is an estimate.
-Write all feedback in Vietnamese, keep English examples in English. Reply with ONE JSON object only, no markdown fences.`;
-    const user = `Cue card: ${topic.topic}\n${(topic.points || []).join(' | ')}
-Target words the learner should activate: ${words.map((w) => w.word).join(', ')}
-Stats: duration ${stats.seconds}s, ${stats.words} words (~${stats.wpm} wpm), avg recognition confidence ${stats.conf}, fillers (um/uh/er/like/you know): ${stats.fillers}
-Transcript:
-"""
-${transcript}
-"""
-JSON shape:
-{"bands":{"pronunciation":0,"vocabulary":0,"grammar":0,"fluency":0,"clarity":0},"overall":0,
- "comments":{"pronunciation":"","vocabulary":"","grammar":"","fluency":"","clarity":""},
- "errors":[{"original":"","better":"","why":""}],
- "used_words":[""],"missed_words":[""],
- "better_version":"a stronger band-7 version of the learner's answer, keeping their ideas",
- "next_steps":["3 concrete things to practise"]}
-"clarity" = clarity and development of ideas (answers the question, organised, examples). Give 3-6 errors.`;
-    return { system, user, maxTokens: 3000 };
-  },
-
-  writingPrompt(topic, words, text, count, minutes) {
-    const system = `You are a certified IELTS Writing examiner and a kind coach for a Vietnamese learner (target band 6.5-7.0).
-Score Task 2 using the official four criteria (Task Response, Coherence & Cohesion, Lexical Resource, Grammatical Range & Accuracy), half bands allowed. Be honest, not generous.
-Write all feedback in Vietnamese, keep English quotes in English. Reply with ONE JSON object only, no markdown fences.`;
-    const user = `Question: ${topic.topic}
-Target words the learner should activate: ${words.map((w) => w.word).join(', ')}
-Word count: ${count}${minutes ? `, time used: ${minutes} min` : ''}${count < 250 ? ' (below the 250-word minimum: penalise Task Response)' : ''}
-Essay:
-"""
-${text}
-"""
-JSON shape:
-{"bands":{"task":0,"coherence":0,"lexical":0,"grammar":0},"overall":0,
- "comments":{"task":"","coherence":"","lexical":"","grammar":""},
- "errors":[{"original":"","better":"","why":""}],
- "used_words":[""],"missed_words":[""],"word_use_feedback":"were the target words used correctly?",
- "better_version":"rewrite of the weakest paragraph at band 7+, keeping the learner's ideas",
- "next_steps":["3 concrete things to practise"]}
-Give 4-8 errors.`;
-    return { system, user, maxTokens: 3500 };
   },
 };

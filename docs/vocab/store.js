@@ -7,6 +7,7 @@ const Store = {
     try { this.data = JSON.parse(localStorage.getItem(this.KEY)); } catch (e) { this.data = null; }
     if (!this.data) this.data = {};
     this.data.words = (this.data.words || []).map((w) => SRS.migrate(w));
+    if (typeof Cloud !== 'undefined') this.data.words = Cloud.dedupeById(this.data.words);
     this.data.settings = Object.assign({ apiKey: '', model: 'claude-sonnet-5-5', voice: '', rate: 0.95 }, this.data.settings);
     this.data.gen = this.data.gen || { reading: {}, speaking: [], writing: [] };
     this.data.deleted = this.data.deleted || {};   // dấu vết xoá từ để đồng bộ giữa các thiết bị
@@ -24,13 +25,14 @@ const Store = {
   newWord(o) {
     return Object.assign({
       id: this.uid(), word: '', ipa: '', pos: '', meaning: '', example: '', audio: '',
-      added: SRS.today(), v: 2, level: null, schedule: [], history: [], lapses: 0, reviews: 0, mastered: false, lastReviewed: '',
+      added: SRS.today(), mod: Date.now(), v: 2, level: null, schedule: [], history: [], lapses: 0, reviews: 0, mastered: false, lastReviewed: '',
     }, o);
   },
 
   addWord(o) {
     const key = (o.word || '').trim().toLowerCase();
     if (!key || this.data.words.some((w) => w.word.toLowerCase() === key)) return null;
+    if (this.data.deleted) delete this.data.deleted[key];   // thêm lại từ đã xoá: bỏ dấu vết xoá để đồng bộ không xoá mất
     const w = this.newWord(Object.assign({}, o, { word: o.word.trim() }));
     this.data.words.push(w);
     return w;
