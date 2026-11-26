@@ -640,21 +640,23 @@ App.normWord = function (s) {
 // Các dạng của một từ trong kho: "have a good/bad accent" → hai dạng good / bad.
 App.wordForms = function (name) {
   const raw = String(name || '').toLowerCase();
-  const m = /(\w+)\/(\w+)/.exec(raw);
-  const list = m ? [raw.replace(m[0], m[1]), raw.replace(m[0], m[2])] : [raw];
+  const m = /(\w+)\s*\/\s*(\w+)(?:\s*\/\s*(\w+))?/.exec(raw);
+  const list = m ? [m[1], m[2], m[3]].filter(Boolean).map((alt) => raw.replace(m[0], alt)) : [raw];   // good/bad → hai dạng
   return list.map((x) => this.normWord(x)).filter(Boolean);
 };
 App.markMatches = function (mark, name) {
-  const k = this.normWord(mark), kt = k.split(' ');
+  const stem = (t) => (t.length > 3 ? t.replace(/s$/, '') : t);   // weeks ≈ week
+  const k = this.normWord(mark), kt = k.split(' ').map(stem);
   return this.wordForms(name).some((n) => {
-    if (n === k || n.startsWith(k + ' ') || k.startsWith(n + ' ')) return true;
-    const nt = n.split(' ');
-    let j = 0;
-    kt.forEach((t) => { if (j < nt.length && t === nt[j]) j++; });
-    return j === nt.length && kt.length <= nt.length + 4;   // các từ của cụm xuất hiện theo thứ tự, chen thêm tối đa vài từ
+    const nt = n.split(' ').map(stem);
+    if (nt.join(' ') === kt.join(' ')) return true;
+    let p = 0;
+    kt.forEach((t) => { if (p < nt.length && t === nt[p]) p++; });
+    if (p === nt.length && kt.length <= nt.length + 4) return true;    // các từ của cụm xuất hiện theo thứ tự (chèn thêm vài từ: have got paint on)
+    return kt.join(' ').startsWith(nt.join(' ') + ' ') || nt.join(' ').startsWith(kt.join(' ') + ' ');
   });
 };
-// Đối chiếu từng bài đọc với danh sách hôm nay: bài nào chứa từ cần ôn thì xếp trước; từ chưa có trong bài nào thì báo thiếu.
+
 App.readingPlan = function (saved) {
   const today = this.todayWords();
   const lookup = (m) => today.find((w) => this.wordForms(w.word).includes(this.normWord(m))) || today.find((w) => this.markMatches(m, w.word)) || null;
