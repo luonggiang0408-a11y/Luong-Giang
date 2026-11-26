@@ -995,6 +995,96 @@
    "ipa": "/wɜːk ɒn/",
    "pos": "Phrasal verb",
    "meaning": "Tập trung làm hoặc cải thiện một việc cụ thể."
+  },
+  {
+   "word": "take someone to + place",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "đưa/dẫn ai đến đâu"
+  },
+  {
+   "word": "get to know",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "dần hiểu nhau/ dần quen nhau"
+  },
+  {
+   "word": "go out with sb",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "hẹn hò với ai"
+  },
+  {
+   "word": "break up",
+   "ipa": "",
+   "pos": "Pharse V",
+   "meaning": "chia tay"
+  },
+  {
+   "word": "get engaged to",
+   "ipa": "/ɪnˈɡeɪdʒd/",
+   "pos": "Collocation",
+   "meaning": "đính hôn"
+  },
+  {
+   "word": "go on honeymoon",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "đi hưởng tuần trăng mật"
+  },
+  {
+   "word": "get pregnant",
+   "ipa": "",
+   "pos": "Phrase V",
+   "meaning": "Mang thai"
+  },
+  {
+   "word": "Come around",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Đến thăm nhà"
+  },
+  {
+   "word": "have got st on st",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "dính cái gì trên cái gì"
+  },
+  {
+   "word": "sleeve",
+   "ipa": "/sliːv/",
+   "pos": "Noun",
+   "meaning": "tay áo"
+  },
+  {
+   "word": "earring",
+   "ipa": "/ˈɪr.ɪŋ/",
+   "pos": "Noun",
+   "meaning": "khuyên tai"
+  },
+  {
+   "word": "get on with st",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "tiếp tục làm việc đó / bắt tay vào làm đi (đừng trì hoãn nữa)"
+  },
+  {
+   "word": "have a wide vocabulary",
+   "ipa": "/hæv ə waɪd vəˈkæbjələri/",
+   "pos": "Phrase V",
+   "meaning": "có vốn từ vựng phong phú"
+  },
+  {
+   "word": "have a good/bad accent",
+   "ipa": "/ˈæksent/",
+   "pos": "Collocation",
+   "meaning": "phát âm (giọng) tốt/chưa tốt"
+  },
+  {
+   "word": "be injured",
+   "ipa": "/ˈɪndʒə/",
+   "pos": "Verb",
+   "meaning": "bị thương"
   }
  ],
  "passages": [
@@ -4625,6 +4715,343 @@
        "q": "The party was a success in the end.",
        "answer": "True",
        "explain": "'a great success'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "From a First Coffee to a Honeymoon",
+   "text": "Tuan was shy, so it took him months to invite Hoa for a coffee. When she finally said yes, he decided to **take someone to** a quiet café by the river, a place he had always loved. They talked for hours, and over the following weeks they began to **get to know** each other's families, habits and dreams. Within a year they were happy to **go out with** each other openly, and their friends stopped teasing them.\n\nNot every story is so smooth. Hoa's cousin dated a man for five years, but the two had to **break up** when he moved abroad. Hoa and Tuan were luckier. Two years later he asked her to **get engaged to** him on the same bench by the river, and the following summer they chose to **go on honeymoon** in Da Lat. Hoa laughed when her doctor said she was likely to **get pregnant** soon, because they had planned a quiet year. \"Life never follows the plan,\" she told Tuan, \"but I would not change this one.\"",
+   "summary_vi": "Câu chuyện tình của Tuan và Hoa: từ buổi cà phê đầu tiên, tìm hiểu nhau, đính hôn, đi tuần trăng mật đến tin vui có em bé.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "take someone to",
+       "definition": "To go with a person to a place and bring them there.",
+       "explain": "Take someone to + nơi chốn = đưa/dẫn ai đến đâu."
+      },
+      {
+       "word": "get to know",
+       "definition": "To gradually learn about someone and become familiar with them.",
+       "explain": "Get to know = dần hiểu nhau, dần quen nhau."
+      },
+      {
+       "word": "go out with",
+       "definition": "To have a romantic relationship with someone.",
+       "explain": "Go out with sb = hẹn hò với ai."
+      },
+      {
+       "word": "break up",
+       "definition": "To end a romantic relationship.",
+       "explain": "Break up = chia tay (cụm động từ, không cần tân ngữ)."
+      },
+      {
+       "word": "get engaged to",
+       "definition": "To make a formal promise to marry someone.",
+       "explain": "Get engaged to sb = đính hôn với ai."
+      },
+      {
+       "word": "go on honeymoon",
+       "definition": "To take a holiday together just after getting married.",
+       "explain": "Go on honeymoon = đi hưởng tuần trăng mật."
+      },
+      {
+       "word": "get pregnant",
+       "definition": "To start to have a baby inside your body.",
+       "explain": "Get pregnant = mang thai."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box. Use the exact form given.",
+     "wordBank": [
+      "take someone to",
+      "get to know",
+      "go out with",
+      "break up",
+      "get engaged to",
+      "go on honeymoon",
+      "get pregnant"
+     ],
+     "items": [
+      {
+       "q": "I would like to ____ a nice restaurant for her birthday.",
+       "answer": "take someone to",
+       "explain": "Sau chỗ trống là nơi chốn (a nice restaurant): take someone to."
+      },
+      {
+       "q": "It takes time to ____ a new colleague and understand how they work.",
+       "answer": "get to know",
+       "explain": "Dần hiểu một đồng nghiệp mới: get to know."
+      },
+      {
+       "q": "She has been ____ a boy from her class for about six months.",
+       "answer": "go out with",
+       "explain": "Hiện tại hoàn thành tiếp diễn: been going out with — dạng điền là cụm go out with."
+      },
+      {
+       "q": "They argued so often that they decided to ____ after two years.",
+       "answer": "break up",
+       "explain": "Cãi nhau nhiều nên chia tay: break up."
+      },
+      {
+       "q": "My brother is going to ____ his girlfriend at the end of the year.",
+       "answer": "get engaged to",
+       "explain": "Sau chỗ trống là người (his girlfriend): get engaged to."
+      },
+      {
+       "q": "After the wedding, they plan to ____ in Italy for ten days.",
+       "answer": "go on honeymoon",
+       "explain": "Sau đám cưới: đi tuần trăng mật."
+      },
+      {
+       "q": "The doctor said it was safe for her to ____ next year.",
+       "answer": "get pregnant",
+       "explain": "Mang thai: get pregnant."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "Where did Tuan take Hoa on their first meeting?",
+       "options": [
+        "To a noisy restaurant",
+        "To a quiet café by the river",
+        "To a cinema",
+        "To her family home"
+       ],
+       "answer": 1,
+       "explain": "Bài nói anh đưa cô đến một quán cà phê yên tĩnh bên sông."
+      },
+      {
+       "q": "Why did Hoa's cousin break up with her boyfriend?",
+       "options": [
+        "They argued about money",
+        "He moved abroad",
+        "He was too shy",
+        "Her family disagreed"
+       ],
+       "answer": 1,
+       "explain": "Người yêu của chị họ chuyển ra nước ngoài nên hai người chia tay."
+      },
+      {
+       "q": "What does Hoa mean by \"Life never follows the plan\"?",
+       "options": [
+        "She is unhappy",
+        "Things often happen differently from what we expect",
+        "She dislikes planning",
+        "She wants to travel"
+       ],
+       "answer": 1,
+       "explain": "Cô muốn nói mọi việc thường không đúng như kế hoạch nhưng cô vẫn hài lòng."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Tuan found it easy to invite Hoa for a coffee.",
+       "answer": "False",
+       "explain": "Anh nhút nhát nên mất nhiều tháng mới dám mời."
+      },
+      {
+       "q": "Tuan and Hoa went on honeymoon in Da Lat.",
+       "answer": "True",
+       "explain": "\"they chose to go on honeymoon in Da Lat\"."
+      },
+      {
+       "q": "Tuan asked Hoa to marry him in a restaurant.",
+       "answer": "False",
+       "explain": "Anh cầu hôn trên chiếc ghế dài bên sông."
+      },
+      {
+       "q": "Hoa's cousin later married someone abroad.",
+       "answer": "Not Given",
+       "explain": "Bài không nói gì về sau này của người chị họ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A Messy Saturday",
+   "text": "On Saturday my friend Mai decided to **come around** and help me prepare for an English interview. She arrived late, because she had been painting her flat. \"Sorry, I **have got paint on** my jacket,\" she said, pointing at the **sleeve**. She had also lost one **earring** in the mess, which made us both laugh.\n\n\"Let's **get on with** the practice,\" she said, and she opened her notebook. A good speaker, she explained, should **have a wide vocabulary**, because repeating the same simple words makes your answers sound weak. She also reminded me that it does not matter whether you **have a good accent** or not, as long as people can understand you.\n\nBefore leaving, she warned me about the old staircase outside my flat. \"It is very easy to **be injured** there when the steps are wet,\" she said. I promised to be careful, and we agreed to meet again the following Saturday.",
+   "summary_vi": "Mai ghé nhà giúp bạn luyện phỏng vấn tiếng Anh dù đang lấm sơn, và nhắc bạn về vốn từ, giọng nói và cầu thang trơn.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its meaning.",
+     "items": [
+      {
+       "word": "come around",
+       "definition": "To visit someone at their home.",
+       "explain": "Come around (Anh-Anh: come round) = ghé nhà ai chơi."
+      },
+      {
+       "word": "have got paint on",
+       "definition": "To have a substance, such as paint, on something (e.g. clothes).",
+       "explain": "Have got st on st = bị dính cái gì lên cái gì."
+      },
+      {
+       "word": "sleeve",
+       "definition": "The part of a shirt or jacket that covers your arm.",
+       "explain": "Sleeve = tay áo."
+      },
+      {
+       "word": "earring",
+       "definition": "A piece of jewellery worn on the ear.",
+       "explain": "Earring = khuyên tai."
+      },
+      {
+       "word": "get on with",
+       "definition": "To continue doing something, especially without delay.",
+       "explain": "Get on with st = tiếp tục/bắt tay vào làm việc đó."
+      },
+      {
+       "word": "have a wide vocabulary",
+       "definition": "To know a large number of words.",
+       "explain": "Have a wide vocabulary = có vốn từ vựng phong phú."
+      },
+      {
+       "word": "have a good accent",
+       "definition": "To pronounce a language in a clear and natural way.",
+       "explain": "Have a good/bad accent = phát âm (giọng) tốt/chưa tốt."
+      },
+      {
+       "word": "be injured",
+       "definition": "To be hurt, especially in an accident.",
+       "explain": "Be injured = bị thương."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box. Use the exact form given.",
+     "wordBank": [
+      "come around",
+      "have got",
+      "sleeve",
+      "earring",
+      "get on with",
+      "have a wide vocabulary",
+      "have a good accent",
+      "be injured"
+     ],
+     "items": [
+      {
+       "q": "Why don't you ____ for dinner tonight? I'm cooking pasta.",
+       "answer": "come around",
+       "explain": "Mời ai ghé nhà ăn tối: come around."
+      },
+      {
+       "q": "Look at your tie — you ____ coffee on it.",
+       "answer": "have got",
+       "explain": "Dính cà phê lên cà vạt: have got ... on."
+      },
+      {
+       "q": "The ____ of this shirt is torn, so I need to fix it.",
+       "answer": "sleeve",
+       "explain": "Bộ phận của áo bị rách: tay áo."
+      },
+      {
+       "q": "She lost one ____ at the party and spent an hour looking for it.",
+       "answer": "earring",
+       "explain": "Mất một chiếc khuyên tai."
+      },
+      {
+       "q": "Stop talking and ____ your homework!",
+       "answer": "get on with",
+       "explain": "Đừng nói nữa, làm tiếp bài tập: get on with."
+      },
+      {
+       "q": "To score well in the writing test you need to ____.",
+       "answer": "have a wide vocabulary",
+       "explain": "Muốn viết tốt cần vốn từ phong phú."
+      },
+      {
+       "q": "He doesn't ____, so I sometimes ask him to repeat himself.",
+       "answer": "have a good accent",
+       "explain": "Không phát âm tốt nên phải hỏi lại: have a good accent (dạng phủ định)."
+      },
+      {
+       "q": "Two cyclists were ____ when the van turned left without signalling.",
+       "answer": "be injured",
+       "explain": "Bị động: were injured (dạng điền là be injured)."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "Why was Mai late?",
+       "options": [
+        "She missed the bus",
+        "She had been painting her flat",
+        "She forgot the time",
+        "She was ill"
+       ],
+       "answer": 1,
+       "explain": "Bài: \"she had been painting her flat\"."
+      },
+      {
+       "q": "What does Mai say about accents?",
+       "options": [
+        "A perfect accent is essential",
+        "Accent matters less than being understood",
+        "Accents cannot change",
+        "Teachers should avoid accents"
+       ],
+       "answer": 1,
+       "explain": "Cô nói không quan trọng giọng thế nào, miễn người khác hiểu."
+      },
+      {
+       "q": "What did Mai warn the writer about?",
+       "options": [
+        "The weather",
+        "The old wet staircase",
+        "The interview questions",
+        "The noisy neighbours"
+       ],
+       "answer": 1,
+       "explain": "Cô cảnh báo cầu thang cũ trơn khi ướt."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Mai arrived early.",
+       "answer": "False",
+       "explain": "Cô đến muộn vì đang sơn nhà."
+      },
+      {
+       "q": "Mai teaches English.",
+       "answer": "Not Given",
+       "explain": "Bài không nói rõ nghề nghiệp của Mai."
+      },
+      {
+       "q": "Mai thinks a wide vocabulary helps answers sound stronger.",
+       "answer": "True",
+       "explain": "Lặp lại từ đơn giản làm câu trả lời yếu."
+      },
+      {
+       "q": "The writer fell down the stairs.",
+       "answer": "False",
+       "explain": "Mai chỉ cảnh báo, người viết không bị ngã."
       }
      ]
     }

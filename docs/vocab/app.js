@@ -255,7 +255,12 @@ App.views.words = function () {
       UI.$('#wordForm').addEventListener('submit', (ev) => {
         ev.preventDefault();
         const f = Object.fromEntries(new FormData(ev.target).entries());
-        if (this.editing) { Object.assign(this.byId(this.editing), f, { mod: Date.now() }); this.editing = null; UI.toast('Đã lưu'); }
+        if (this.editing) {
+          const cur = this.byId(this.editing), oldKey = (cur.word || '').trim().toLowerCase();
+          Object.assign(cur, f, { mod: Date.now() });
+          if (oldKey && oldKey !== cur.word.trim().toLowerCase()) Store.data.deleted[oldKey] = Date.now();
+          this.editing = null; UI.toast('Đã lưu');
+        }
         else if (!Store.addWord(f)) { UI.toast('Từ này đã có trong danh sách'); return; }
         else UI.toast('Đã thêm “' + f.word + '”');
         Store.save(); this.render();
@@ -618,38 +623,83 @@ document.addEventListener('change', (e) => {
 
 /* ======================= BÀI ĐỌC ======================= */
 App.targetWords = function () {
-  const due = this.dueWords();
+  const due = this.todayWords();
   if (due.length) return { words: due, fallback: false };
   const learned = this.words().filter((w) => !SRS.isNew(w)).slice(-10);
   return { words: learned.length ? learned : this.words().slice(-10), fallback: true };
+};
+
+/* Từ cần ôn hôm nay = từ đang đến hạn + từ đã ôn hôm nay (danh sách này đổi theo từng lần chấm) */
+App.todayWords = function () {
+  const t = SRS.today();
+  return this.words().filter((w) => SRS.isDue(w, t) || (w.lastReviewed === t && !SRS.isNew(w)));
+};
+App.normWord = function (s) {
+  return String(s || '').toLowerCase().replace(/\([^)]*\)/g, ' ').replace(/\b(sb|sth|st|something|someone|somewhere|place)\b/g, ' ').replace(/[^a-z' -]/g, ' ').replace(/\s+/g, ' ').trim();
+};
+// Các dạng của một từ trong kho: "have a good/bad accent" → hai dạng good / bad.
+App.wordForms = function (name) {
+  const raw = String(name || '').toLowerCase();
+  const m = /(\w+)\/(\w+)/.exec(raw);
+  const list = m ? [raw.replace(m[0], m[1]), raw.replace(m[0], m[2])] : [raw];
+  return list.map((x) => this.normWord(x)).filter(Boolean);
+};
+App.markMatches = function (mark, name) {
+  const k = this.normWord(mark), kt = k.split(' ');
+  return this.wordForms(name).some((n) => {
+    if (n === k || n.startsWith(k + ' ') || k.startsWith(n + ' ')) return true;
+    const nt = n.split(' ');
+    let j = 0;
+    kt.forEach((t) => { if (j < nt.length && t === nt[j]) j++; });
+    return j === nt.length && kt.length <= nt.length + 4;   // các từ của cụm xuất hiện theo thứ tự, chen thêm tối đa vài từ
+  });
+};
+// Đối chiếu từng bài đọc với danh sách hôm nay: bài nào chứa từ cần ôn thì xếp trước; từ chưa có trong bài nào thì báo thiếu.
+App.readingPlan = function (saved) {
+  const today = this.todayWords();
+  const lookup = (m) => today.find((w) => this.wordForms(w.word).includes(this.normWord(m))) || today.find((w) => this.markMatches(m, w.word)) || null;
+  const covered = new Set();
+  const info = saved.passages.map((p, i) => {
+    const hit = new Set();
+    (p.text.match(/\*\*(.+?)\*\*/g) || []).forEach((m) => {
+      const t2 = m.slice(2, -2);
+      today.forEach((w) => { if (this.markMatches(t2, w.word)) { hit.add(w.id); covered.add(w.id); } });   // mọi từ hôm nay xuất hiện trong cụm này
+    });
+    return { i, n: hit.size };
+  });
+  const rel = info.filter((x) => x.n > 0).sort((a, b) => b.n - a.n || a.i - b.i);
+  const other = info.filter((x) => x.n === 0);
+  return { today, rel, other, order: rel.concat(other).map((x) => x.i), nOf: (i) => info[i].n, lookup, missing: today.filter((w) => !covered.has(w.id)), covered: covered.size };
 };
 
 App.readIdx = 0;
 App.views.reading = function () {
   const t = SRS.today();
   const saved = Store.data.gen.reading[t];
-  const tw = this.targetWords();
-  const words = saved ? saved.words : tw.words;
-  const have = new Set((saved ? saved.words : []).map((w) => (w.word || '').trim().toLowerCase()));
-  const missing = saved && !tw.fallback ? tw.words.filter((w) => !have.has(w.word.trim().toLowerCase())) : [];
-  if (this.readDate !== t) { this.readDate = t; this.readIdx = 0; }
+  const plan = saved ? this.readingPlan(saved) : null;
+  const today = plan ? plan.today : this.todayWords();
+  if (this.readDate !== t) { this.readDate = t; this.readIdx = null; }
   const n = saved ? saved.passages.length : 0;
-  const pi = Math.min(this.readIdx || 0, Math.max(0, n - 1));
+  if (plan && !plan.order.includes(this.readIdx)) this.readIdx = plan.order[0];
+  const pi = this.readIdx || 0;
+  const pos = plan ? plan.order.indexOf(pi) : 0;
   const p = saved && saved.passages[pi];
+  const pill = (x) => `<button class="pill2 ${x.i === pi ? 'on' : ''}" data-act="selPassage" data-i="${x.i}"><b>${x.i + 1}</b> ${UI.esc(saved.passages[x.i].title)} ${x.n ? `<small>· ${x.n} từ</small>` : ''}</button>`;
   const html = `
   ${this.syncBanner()}
   <section class="panel rhead">
-    <div class="ph spread">${I('reading', 16)} <b>Bài đọc hôm nay</b>
-      <span class="muted">${saved ? `${n} bài · ${words.length} từ cần ôn` : tw.fallback ? 'Hôm nay chưa có từ đến hạn — dùng các từ học gần nhất.' : 'Bài đọc dùng đúng các từ trong danh sách ôn hôm nay.'}</span>
+    <div class="ph spread">${I('reading', 16)} <b>Bài đọc theo từ cần ôn hôm nay</b>
+      <span class="muted">${plan ? `${plan.rel.length} bài phù hợp · phủ ${plan.covered}/${today.length} từ cần ôn` : today.length ? `${today.length} từ cần ôn hôm nay` : 'Hôm nay chưa có từ đến hạn — dùng các từ học gần nhất.'}</span>
       <span class="grow"></span>
-      <button class="btn ${saved ? '' : 'primary'} sm" data-act="genReading" ${words.length ? '' : 'disabled'}>${saved ? 'Tạo lại bài đọc' : 'Tạo bài đọc'}</button>
+      <button class="btn ${saved ? '' : 'primary'} sm" data-act="genReading" ${(today.length || this.words().length) ? '' : 'disabled'}>${saved ? 'Tạo lại bài đọc' : 'Tạo bài đọc'}</button>
       <span class="muted" id="genStatus"></span></div>
-    ${n ? `<div class="pills">${saved.passages.map((q, i) => `<button class="pill2 ${i === pi ? 'on' : ''}" data-act="selPassage" data-i="${i}"><b>${i + 1}</b> ${UI.esc(q.title)}</button>`).join('')}</div>` : ''}
-    ${missing.length ? `<p class="note">Bài đọc tạo sẵn <b>chưa có ${missing.length}/${tw.words.length}</b> từ đến hạn hôm nay (danh sách ôn đã thay đổi sau khi bài được tạo): ${missing.slice(0, 12).map((w) => UI.esc(w.word)).join(', ')}${missing.length > 12 ? '…' : ''}.<br><button class="btn primary sm" data-act="genMissing">Tạo thêm bài cho ${missing.length} từ còn thiếu</button></p>` : ''}
-    ${AI.hasKey() ? '' : '<p class="note">Chưa có API key: nút “Tạo bài đọc” sẽ hướng dẫn bạn sao chép prompt sang Claude và dán kết quả về (xem tab Cài đặt để tự động hoá). Bài đọc do routine 5:05 sáng tạo sẵn vẫn hiện bình thường.</p>'}
-    ${words.length ? `<details class="wl"><summary>Từ vựng của bài đọc hôm nay (${words.length})</summary><div class="chips">${words.map((w) => `<span class="chip">${UI.esc(w.word)}</span>`).join('')}</div></details>` : '<p class="muted">Chưa có từ nào. Hãy thêm từ trước.</p>'}
+    ${plan ? `<div class="pills">${plan.rel.map(pill).join('')}</div>` : ''}
+    ${plan && plan.other.length ? `<details class="wl"><summary>Bài khác (${plan.other.length}) — không chứa từ cần ôn hôm nay</summary><div class="pills">${plan.other.map(pill).join('')}</div></details>` : ''}
+    ${plan && plan.missing.length ? `<p class="note">Có <b>${plan.missing.length}/${today.length}</b> từ cần ôn hôm nay chưa xuất hiện trong bài đọc nào: ${plan.missing.slice(0, 12).map((w) => UI.esc(w.word)).join(', ')}${plan.missing.length > 12 ? '…' : ''}.<br><button class="btn primary sm" data-act="genMissing">Tạo thêm bài cho ${plan.missing.length} từ còn thiếu</button></p>` : ''}
+    ${AI.hasKey() ? '' : '<p class="note">Chưa có API key: nút “Tạo bài đọc” sẽ hướng dẫn bạn sao chép prompt sang Claude và dán kết quả về (xem tab Cài đặt để tự động hoá).</p>'}
+    ${today.length ? `<details class="wl"><summary>Từ cần ôn hôm nay (${today.length})</summary><div class="chips">${today.map((w) => `<span class="chip">${UI.esc(w.word)}</span>`).join('')}</div></details>` : '<p class="muted">Chưa có từ nào. Hãy thêm từ trước.</p>'}
   </section>
-  <div id="passages">${p ? this.passageHTML(p, pi, n) : ''}</div>`;
+  <div id="passages">${p ? this.passageHTML(p, pi, pos, n, plan) : ''}</div>`;
   return {
     html,
     after() {
@@ -673,8 +723,7 @@ App.actions.genReading = async function (btn, onlyMissing) {
   const saved = Store.data.gen.reading[t];
   let words = saved ? saved.words : this.targetWords().words;
   if (onlyMissing === true && saved) {
-    const have = new Set(saved.words.map((w) => (w.word || '').trim().toLowerCase()));
-    words = this.targetWords().words.filter((w) => !have.has(w.word.trim().toLowerCase()));
+    words = this.readingPlan(saved).missing;
   }
   if (!words.length) return;
   const snap = words.map((w) => ({ id: w.id, word: w.word, ipa: w.ipa, pos: w.pos, meaning: w.meaning }));
@@ -718,18 +767,18 @@ App.splitSentences = function (para) {
   return para.match(/[^.!?]+[.!?]+["')\]]*\s*|[^.!?]+$/g) || [para];
 };
 
-App.passageHTML = function (p, pi, n) {
+App.passageHTML = function (p, pi, pos, n, plan) {
   const paras = p.text.split(/\n\s*\n/).map((x) => x.trim()).filter(Boolean);
   let si = 0, marks = 0;
   const body = paras.map((para) => '<p>' + this.splitSentences(para).map((s) => {
-    const html = UI.esc(s.trim()).replace(/\*\*(.+?)\*\*/g, (m, k) => { marks++; return `<mark data-act="wordTip" data-k="${k}">${k}</mark>`; });
+    const html = UI.esc(s.trim()).replace(/\*\*(.+?)\*\*/g, (m, k) => { marks++; return `<mark class="${plan && !plan.lookup(k) ? 'mk-off' : ''}" data-act="wordTip" data-k="${k}">${k}</mark>`; });
     return `<span class="sent" data-i="${si++}">${html}</span> `;
   }).join('') + '</p>').join('');
   const wc = p.text.replace(/\*\*/g, '').split(/\s+/).filter(Boolean).length;
   const tabs = ['Nối từ', 'Điền từ', 'Trắc nghiệm', 'True/False/NG'];
   const exs = (p.exercises || []);
   return `<div class="pbar" data-n="${si}">
-      <div class="pb-title">${I('volume', 16)} Bài đọc #${pi + 1}: ${UI.esc(p.title)} <small>(B1+ → B2)</small></div>
+      <div class="pb-title">${I('volume', 16)} Bài đọc ${pos + 1}/${plan ? plan.order.length : n}: ${UI.esc(p.title)} <small>(B1+ → B2)</small></div>
       <div class="pb-row">
         <button class="pplay" data-act="play" aria-label="Nghe / Tạm dừng"></button>
         <div class="pprog"><i id="pbFill"></i></div><span class="pbtime" id="pbTime">0/${si} câu</span>
@@ -740,7 +789,7 @@ App.passageHTML = function (p, pi, n) {
     <div class="rcols">
       <article class="panel passage" data-p="${pi}">
         <h2 class="ptitle">${UI.esc(p.title)}</h2>
-        <div class="meta">B1+ / B2 · ${wc} từ · ${marks} cụm từ mục tiêu <span class="muted">— bấm vào từ tô sáng để xem nghĩa</span></div>
+        <div class="meta">B1+ / B2 · ${wc} từ · ${plan ? plan.nOf(pi) : marks} từ cần ôn hôm nay <span class="muted">— bấm vào từ tô sáng để xem nghĩa</span></div>
         <div class="text" id="readText">${body}</div>
         ${p.summary_vi ? `<details><summary>Tóm tắt tiếng Việt</summary><p>${UI.esc(p.summary_vi)}</p></details>` : ''}
       </article>
@@ -748,14 +797,20 @@ App.passageHTML = function (p, pi, n) {
         <div class="ph spread">${I('check', 16)} <b>Bài tập &amp; đáp án</b></div>
         <div class="segs">${exs.map((ex, ei) => `<button class="seg ${ei === 0 ? 'on' : ''}" data-act="exTab" data-e="${ei}">${String.fromCharCode(65 + ei)}. ${tabs[['match', 'gapfill', 'mcq', 'tfng'].indexOf(ex.type)] || ''}</button>`).join('')}</div>
         ${exs.map((ex, ei) => `<div class="exwrap" data-e="${ei}" ${ei ? 'hidden' : ''}>${this.exerciseHTML(ex, pi, ei)}</div>`).join('')}
-        <div class="row spread"><button class="btn" data-act="readPrev" ${pi === 0 ? 'disabled' : ''}>◀ Bài trước</button><button class="btn primary" data-act="readNext" ${pi >= n - 1 ? 'disabled' : ''}>Bài tiếp theo ▶</button></div>
+        <div class="row spread"><button class="btn" data-act="readPrev" ${pos <= 0 ? 'disabled' : ''}>◀ Bài trước</button><button class="btn primary" data-act="readNext" ${plan && pos >= plan.order.length - 1 ? 'disabled' : ''}>Bài tiếp theo ▶</button></div>
       </aside>
     </div>`;
 };
 
 App.actions.selPassage = function (el) { this.readStop(); this.readIdx = +el.dataset.i; this.refresh(); window.scrollTo(0, 0); };
-App.actions.readPrev = function () { this.readStop(); this.readIdx = Math.max(0, (this.readIdx || 0) - 1); this.refresh(); window.scrollTo(0, 0); };
-App.actions.readNext = function () { this.readStop(); this.readIdx = (this.readIdx || 0) + 1; this.refresh(); window.scrollTo(0, 0); };
+App.readMove = function (d) {
+  const saved = Store.data.gen.reading[SRS.today()]; if (!saved) return;
+  const o = this.readingPlan(saved).order, k = o.indexOf(this.readIdx) + d;
+  if (k < 0 || k >= o.length) return;
+  this.readStop(); this.readIdx = o[k]; this.refresh(); window.scrollTo(0, 0);
+};
+App.actions.readPrev = function () { this.readMove(-1); };
+App.actions.readNext = function () { this.readMove(1); };
 App.actions.exTab = function (el) {
   const e = el.dataset.e;
   UI.$$('.qpanel .segs .seg').forEach((b) => b.classList.toggle('on', b === el));
@@ -800,11 +855,10 @@ App.actions.setRate = function (el) {
 
 /* ---- Tra nghĩa nhanh khi bấm vào từ tô sáng ---- */
 App.wordInfo = function (key) {
-  const norm = (s) => String(s || '').toLowerCase().replace(/\([^)]*\)/g, ' ').replace(/\b(sb|sth|something|someone|somewhere)\b/g, ' ').replace(/[^a-z' -]/g, ' ').replace(/\s+/g, ' ').trim();
-  const k = norm(key);
   const saved = Store.data.gen.reading[SRS.today()];
   const pool = this.words().concat(saved ? saved.words : []);
-  return pool.find((w) => norm(w.word) === k) || pool.find((w) => { const n = norm(w.word); return n && (n.startsWith(k + ' ') || k.startsWith(n + ' ')); }) || null;
+  const k = this.normWord(key);
+  return pool.find((w) => this.wordForms(w.word).includes(k)) || pool.find((w) => this.markMatches(key, w.word)) || null;
 };
 App.actions.wordTip = function (el) {
   const same = this.tipFor === el;

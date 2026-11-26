@@ -110,17 +110,22 @@ const Cloud = {
     return r;
   },
   // Hai từ cùng id nhưng khác tên = một từ đã bị đổi tên trên một thiết bị: giữ bản mới hơn, bỏ bản còn lại.
-  dedupeById(words) {
+  dedupeById(words, deleted) {
     const byId = new Map();
     words.forEach((w) => { const o = byId.get(w.id); byId.set(w.id, !o || !w.id ? w : (this.better(w, o) ? w : o)); });
-    return words.filter((w) => !w.id || byId.get(w.id) === w);
+    return words.filter((w) => {
+      if (!w.id || byId.get(w.id) === w) return true;
+      const k = this.key(w), keep = this.key(byId.get(w.id));
+      if (deleted && k && k !== keep) deleted[k] = Date.now();   // để thiết bị khác cũng bỏ bản trùng
+      return false;
+    });
   },
   merge(localWords, remoteWords, deleted) {
     const map = new Map();
     localWords.forEach((w) => map.set(this.key(w), w));
     remoteWords.forEach((rw) => { const k = this.key(rw); const lw = map.get(k); map.set(k, lw ? this.mergeWord(lw, rw) : rw); });
     Object.keys(deleted || {}).forEach((k) => { const w = map.get(k); if (w && deleted[k] > (w.mod || 0)) map.delete(k); });
-    return Array.from(map.values());
+    return this.dedupeById(Array.from(map.values()), deleted);
   },
   mergeArr(a, b) {
     const seen = new Set();

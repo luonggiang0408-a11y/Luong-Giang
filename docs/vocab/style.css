@@ -394,3 +394,6 @@ main { max-width: 1840px; width: 100%; margin: 0 auto; }
   .fc-card { padding: 18px 12px; min-height: 170px; } .kpi b { font-size: 22px; }
   .tbl { font-size: 13px; } .pbar { padding: 14px; } .pb-row { gap: 10px; }
 }
+
+.passage .text mark.mk-off { background: transparent; color: inherit; border-bottom: 1px dotted var(--muted); font-weight: 600; }
+.pill2 small { opacity: .75; }
