@@ -693,6 +693,7 @@ App.views.reading = function () {
     <div class="ph spread">${I('reading', 16)} <b>Bài đọc theo từ cần ôn hôm nay</b>
       <span class="muted">${plan ? `${plan.rel.length} bài phù hợp · phủ ${plan.covered}/${today.length} từ cần ôn` : today.length ? `${today.length} từ cần ôn hôm nay` : 'Hôm nay chưa có từ đến hạn — dùng các từ học gần nhất.'}</span>
       <span class="grow"></span>
+      <button class="btn sm" data-act="reloadReading">Tải bài đọc mới nhất</button>
       <button class="btn ${saved ? '' : 'primary'} sm" data-act="genReading" ${(today.length || this.words().length) ? '' : 'disabled'}>${saved ? 'Tạo lại bài đọc' : 'Tạo bài đọc'}</button>
       <span class="muted" id="genStatus"></span></div>
     ${plan ? `<div class="pills">${plan.rel.map(pill).join('')}</div>` : ''}
@@ -719,6 +720,12 @@ App.views.reading = function () {
   };
 };
 
+App.actions.reloadReading = function () {
+  delete Store.data.gen.reading[SRS.today()]; Store.save();
+  this.readingChecked = null; this.readIdx = null;
+  UI.toast('Đang tải bài đọc mới nhất từ máy chủ...');
+  this.render();
+};
 App.actions.genMissing = function (btn) { return this.actions.genReading.call(this, btn, true); };
 App.actions.genReading = async function (btn, onlyMissing) {
   const t = SRS.today();
