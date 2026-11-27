@@ -1,0 +1,1059 @@
+{
+ "words": [
+  {
+   "word": "jealousy",
+   "ipa": "/ˈdʒel.ə.si/",
+   "pos": "Noun",
+   "meaning": "sự ghen tuông"
+  },
+  {
+   "word": "Give birth",
+   "ipa": "",
+   "pos": "Phrase V",
+   "meaning": "Sinh con"
+  },
+  {
+   "word": "Have a late night",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Go to bed very late"
+  },
+  {
+   "word": "Have an early night",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Go to bed early"
+  },
+  {
+   "word": "Have a sleep",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Take a nap - Ngủ 1 giấc ngắn"
+  },
+  {
+   "word": "Fall asleep",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Ngủ thiếp đi"
+  },
+  {
+   "word": "Have a light lunch",
+   "ipa": "",
+   "pos": "Noun",
+   "meaning": "Có 1 bữa trưa nhẹ nhàng"
+  },
+  {
+   "word": "bother to do st",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Mất công làm việc gì"
+  },
+  {
+   "word": "oder a takeaway",
+   "ipa": "",
+   "pos": "Noun",
+   "meaning": "Đồ ăn mang đi"
+  },
+  {
+   "word": "Feed = give good",
+   "ipa": "",
+   "pos": "Verb",
+   "meaning": "Cho ăn"
+  },
+  {
+   "word": "Have a quick wash",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Rửa ráy nhanh"
+  },
+  {
+   "word": "Have a shave",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Cạo râu"
+  },
+  {
+   "word": "Do the washing",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Giặt quần áo"
+  },
+  {
+   "word": "Do the ironing",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Là quần áo"
+  },
+  {
+   "word": "Do the shopping",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "Đi siêu thị mua đồ ăn"
+  },
+  {
+   "word": "Stay in",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "= stay at home - Ở nhà"
+  },
+  {
+   "word": "a cash machine",
+   "ipa": "",
+   "pos": "Noun",
+   "meaning": "Máy rút tiền (US)"
+  },
+  {
+   "word": "sportsman",
+   "ipa": "/ˈspɔːrts.mən/",
+   "pos": "Noun",
+   "meaning": "người chơi thể thao (nhấn mạnh một người đàn ông chơi/tham gia thể thao)"
+  },
+  {
+   "word": "assume",
+   "ipa": "/əˈsuːm/",
+   "pos": "Verb",
+   "meaning": "cho rằng, giả định điều gì là đúng khi chưa chắc chắn"
+  },
+  {
+   "word": "position",
+   "ipa": "/pəˈzɪʃ.ən/",
+   "pos": "Noun",
+   "meaning": "vị trí/ địa vị/ chức vụ"
+  },
+  {
+   "word": "In the heat of the moment",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Trong lúc nóng giận / trong phút bốc đồng"
+  },
+  {
+   "word": "Absolute last time",
+   "ipa": "",
+   "pos": "",
+   "meaning": "Lần cuối cùng tuyệt đối (thể hiện thái độ kiên quyết không chấp nhận tái phạm"
+  },
+  {
+   "word": "be (just) around the corner from + địa điểm",
+   "ipa": "/əˌraʊnd ðə ˈkɔː.nər/",
+   "pos": "Collocation",
+   "meaning": "gần đây = nearby"
+  },
+  {
+   "word": "be (just) around the corner",
+   "ipa": "/əˌraʊnd ðə ˈkɔː.nər/",
+   "pos": "Collocation",
+   "meaning": "sắp đến"
+  },
+  {
+   "word": "There's/There are + danh từ + around the corner",
+   "ipa": "/əˌraʊnd ðə ˈkɔː.nər/",
+   "pos": "Collocation",
+   "meaning": "gần đây = nearby"
+  },
+  {
+   "word": "stretch",
+   "ipa": "/stretʃ/",
+   "pos": "Verb",
+   "meaning": "kéo dài, trải dài"
+  },
+  {
+   "word": "stressful",
+   "ipa": "/ˈstresfl/",
+   "pos": "Adj",
+   "meaning": "gây căng thẳng (nói về sự việc)"
+  },
+  {
+   "word": "stressed",
+   "ipa": "/strest/",
+   "pos": "Adj",
+   "meaning": "cảm thấy căng thẳng (nói về người)"
+  },
+  {
+   "word": "nightlife",
+   "ipa": "/ˈnaɪtlaɪf/",
+   "pos": "Noun",
+   "meaning": "cuộc sống về đêm"
+  },
+  {
+   "word": "cultural activities",
+   "ipa": "/ˈkʌltʃərəl ækˈtɪvətiz/",
+   "pos": "Phrase N",
+   "meaning": "hoạt động văn hóa"
+  },
+  {
+   "word": "crime rate",
+   "ipa": "/kraɪm reɪt/",
+   "pos": "Phrase N",
+   "meaning": "tỷ lệ tội phạm"
+  },
+  {
+   "word": "a mix of",
+   "ipa": "/ə mɪks əv/",
+   "pos": "Collocation",
+   "meaning": "sự pha trộn của"
+  },
+  {
+   "word": "be going on",
+   "ipa": "/ˈɡəʊɪŋ ɒn/",
+   "pos": "Phrase V",
+   "meaning": "đang diễn ra"
+  },
+  {
+   "word": "poor value for money",
+   "ipa": "",
+   "pos": "Collocation",
+   "meaning": "không đáng đồng tiền"
+  },
+  {
+   "word": "get a/the phương tiện công cộng (bus, train, taxi, tram...)",
+   "ipa": "",
+   "pos": "Phrase V",
+   "meaning": "bắt xe bus, bắt taxi,..."
+  },
+  {
+   "word": "different flavours",
+   "ipa": "/ˈdɪfrənt ˈfleɪvəz/",
+   "pos": "Noun",
+   "meaning": "nhiều hương vị khác nhau"
+  },
+  {
+   "word": "retake an exam",
+   "ipa": "/ˌriːˈteɪk ən ɪɡˈzæm/",
+   "pos": "Verb phrase",
+   "meaning": "thi lại"
+  },
+  {
+   "word": "get a place (at somewhere)",
+   "ipa": "/ɡet ə pleɪs/",
+   "pos": "Verb phrase",
+   "meaning": "đỗ / có suất học (ở trường nào)"
+  },
+  {
+   "word": "study for / do a degree (in something)",
+   "ipa": "/ˈstʌdi fər ə dɪˈɡriː/",
+   "pos": "Verb phrase",
+   "meaning": "học lấy bằng đại học (ngành gì)"
+  },
+  {
+   "word": "have / get a degree (in something)",
+   "ipa": "/hæv ə dɪˈɡriː/",
+   "pos": "Verb phrase",
+   "meaning": "có bằng (ngành gì)"
+  },
+  {
+   "word": "complete a course successfully",
+   "ipa": "/kəmˈpliːt ə kɔːs səkˈsesfəli/",
+   "pos": "Verb phrase",
+   "meaning": "hoàn thành khóa học thành công"
+  },
+  {
+   "word": "receive a certificate",
+   "ipa": "/rɪˈsiːv ə səˈtɪfɪkət/",
+   "pos": "Verb phrase",
+   "meaning": "nhận chứng chỉ"
+  },
+  {
+   "word": "attend a lecture",
+   "ipa": "/əˈtend ə ˈlektʃə/",
+   "pos": "Verb phrase",
+   "meaning": "dự một bài giảng"
+  },
+  {
+   "word": "qualification (in something)",
+   "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+   "pos": "Noun",
+   "meaning": "bằng cấp, trình độ"
+  },
+  {
+   "word": "qualify as something",
+   "ipa": "/ˈkwɒlɪfaɪ əz/",
+   "pos": "Verb",
+   "meaning": "đủ điều kiện hành nghề"
+  },
+  {
+   "word": "succeed in doing something",
+   "ipa": "/səkˈsiːd ɪn ˈduːɪŋ/",
+   "pos": "Verb",
+   "meaning": "thành công trong việc gì"
+  },
+  {
+   "word": "qualified",
+   "ipa": "/ˈkwɒlɪfaɪd/",
+   "pos": "Adjective",
+   "meaning": "có đủ trình độ / đủ điều kiện"
+  }
+ ],
+ "passages": [
+  {
+   "title": "A Week of Small Routines",
+   "text": "Last week my brother Minh, a junior accountant, finally admitted that his daily habits needed fixing. On Monday he **had a late night** finishing a report, and by Tuesday he could hardly keep his eyes open. At lunchtime he only had time for **a light lunch**, a salad from the canteen, and then he tried to **have a sleep** on the sofa in the staff room, but his boss walked in. After that embarrassing moment, he decided to **have an early night** on Wednesday. He turned off the lights at nine and managed to **fall asleep** within minutes.\n\nThe mornings were another problem. Minh used to wake up late, so he would only **have a quick wash** and rush out of the house without breakfast. His girlfriend joked that he should at least **have a shave** before meetings, because he looked tired and untidy. At the weekend they shared the housework. She offered to **do the washing**, and he agreed to **do the ironing** because his shirts were a disaster. They also had to **do the shopping**, so they wrote a list and went to the market together. In the evening it rained heavily, and they preferred to **stay in** rather than go out. Neither of them felt like cooking, so they decided to **order a takeaway** and watch a film. \"Maybe good habits start with small steps,\" Minh said.",
+   "summary_vi": "Minh sửa lại thói quen hằng ngày như ngủ sớm, làm việc nhà và ở nhà cùng bạn gái vào cuối tuần.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its definition.",
+     "items": [
+      {
+       "word": "Have a late night",
+       "definition": "to go to bed much later than usual",
+       "explain": "Late night = khuya; have a late night là thức khuya, đi ngủ muộn hơn thường lệ."
+      },
+      {
+       "word": "Have an early night",
+       "definition": "to go to bed earlier than usual",
+       "explain": "Early night là đi ngủ sớm, đối lập với late night."
+      },
+      {
+       "word": "Have a sleep",
+       "definition": "to take a short rest by sleeping, a nap",
+       "explain": "Have a sleep là ngủ một giấc ngắn, giống nap."
+      },
+      {
+       "word": "Fall asleep",
+       "definition": "to begin sleeping",
+       "explain": "Fall asleep chỉ khoảnh khắc bắt đầu ngủ, ngủ thiếp đi."
+      },
+      {
+       "word": "Have a quick wash",
+       "definition": "to wash yourself briefly",
+       "explain": "Quick wash là rửa ráy nhanh, không tắm kỹ."
+      },
+      {
+       "word": "Have a shave",
+       "definition": "to remove facial hair with a razor",
+       "explain": "Shave là cạo râu, have a shave = cạo râu một lần."
+      },
+      {
+       "word": "Do the washing",
+       "definition": "to clean dirty clothes",
+       "explain": "Washing là quần áo cần giặt, do the washing = giặt đồ."
+      },
+      {
+       "word": "Do the ironing",
+       "definition": "to press clothes flat with a hot iron",
+       "explain": "Ironing là việc là quần áo bằng bàn là."
+      },
+      {
+       "word": "Do the shopping",
+       "definition": "to buy food and other things you need at home",
+       "explain": "Do the shopping là đi mua đồ ăn, đồ dùng hằng ngày."
+      },
+      {
+       "word": "Have a light lunch",
+       "definition": "to eat a small meal in the middle of the day",
+       "explain": "Light lunch là bữa trưa nhẹ, không nhiều."
+      },
+      {
+       "word": "oder a takeaway",
+       "definition": "to ask for cooked food that you eat at home",
+       "explain": "Takeaway là đồ ăn mua mang về, order a takeaway = gọi đồ ăn mang về."
+      },
+      {
+       "word": "Stay in",
+       "definition": "to remain at home instead of going out",
+       "explain": "Stay in = stay at home, ở nhà không đi ra ngoài."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "do the washing",
+      "have an early night",
+      "fall asleep",
+      "order a takeaway",
+      "stay in",
+      "have a shave",
+      "have a light lunch",
+      "do the ironing"
+     ],
+     "items": [
+      {
+       "q": "My flatmate and I take turns to ____ on Sundays because we have a huge pile of dirty clothes.",
+       "answer": "do the washing",
+       "explain": "Dirty clothes (quần áo bẩn) cần giặt nên dùng do the washing."
+      },
+      {
+       "q": "I have an exam at 8 a.m., so I am going to ____ tonight.",
+       "answer": "have an early night",
+       "explain": "Có kỳ thi sáng sớm nên cần đi ngủ sớm: have an early night."
+      },
+      {
+       "q": "After the long flight, he was so tired that he could ____ on the bus.",
+       "answer": "fall asleep",
+       "explain": "Quá mệt nên có thể ngủ thiếp đi: fall asleep."
+      },
+      {
+       "q": "It is too hot to cook, so let's ____ from the Thai restaurant.",
+       "answer": "order a takeaway",
+       "explain": "Không muốn nấu ăn, gọi đồ ăn từ nhà hàng mang về: order a takeaway."
+      },
+      {
+       "q": "The weather is awful, so we will ____ and play cards.",
+       "answer": "stay in",
+       "explain": "Thời tiết xấu nên ở nhà chơi bài: stay in."
+      },
+      {
+       "q": "Dad wants to ____ before the wedding because his beard is too long.",
+       "answer": "have a shave",
+       "explain": "Beard (râu) quá dài nên cần cạo râu: have a shave."
+      },
+      {
+       "q": "I am not very hungry, so I will just ____ of soup and bread.",
+       "answer": "have a light lunch",
+       "explain": "Không đói nên chỉ ăn bữa trưa nhẹ: have a light lunch."
+      },
+      {
+       "q": "My shirts are all wrinkled, so I must ____ before the interview.",
+       "answer": "do the ironing",
+       "explain": "Áo nhăn cần được là: do the ironing."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "Why was Minh so tired on Tuesday?",
+       "options": [
+        "He watched a film all night",
+        "He stayed up late to finish a report",
+        "He went running in the morning",
+        "He cooked for his girlfriend"
+       ],
+       "answer": 1,
+       "explain": "Bài viết nói anh ấy thức khuya hoàn thành báo cáo vào thứ Hai."
+      },
+      {
+       "q": "What happened when Minh tried to nap in the staff room?",
+       "options": [
+        "He fell asleep for an hour",
+        "His boss came in",
+        "He missed a meeting",
+        "His girlfriend called him"
+       ],
+       "answer": 1,
+       "explain": "Sếp bước vào khi anh đang cố ngủ, nên anh rất xấu hổ."
+      },
+      {
+       "q": "What did the couple do on the rainy evening?",
+       "options": [
+        "They cooked a big dinner",
+        "They went to the cinema",
+        "They ordered food and watched a film",
+        "They did the ironing"
+       ],
+       "answer": 2,
+       "explain": "Họ không muốn nấu ăn nên gọi đồ ăn mang về và xem phim."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Minh works as a junior accountant.",
+       "answer": "True",
+       "explain": "Câu đầu nêu rõ Minh là a junior accountant."
+      },
+      {
+       "q": "Minh's girlfriend does the ironing at the weekend.",
+       "answer": "False",
+       "explain": "Cô ấy giặt đồ (washing), còn Minh là quần áo (ironing)."
+      },
+      {
+       "q": "The couple wrote a list before they went shopping.",
+       "answer": "True",
+       "explain": "Bài viết nói họ viết danh sách rồi cùng ra chợ."
+      },
+      {
+       "q": "Minh's boss gave him a warning about sleeping at work.",
+       "answer": "Not Given",
+       "explain": "Bài chỉ nói sếp bước vào, không nói sếp cảnh cáo."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Price of Winning",
+   "text": "When my older brother Tuan became a national **sportsman**, our whole family changed. I am not proud of it, but I felt **jealousy** every time the neighbours praised him. I **assumed** that our parents loved him more, because they spent so much money on his training and drove him to every competition. Tuan's life looked perfect from the outside, yet his **position** as team captain was extremely **stressful**. He was often **stressed** before big matches and barely spoke to anyone at home.\n\nLast year we had a terrible argument. **In the heat of the moment**, I told him he was selfish and never **bothered to ask** how I was doing. He shouted back that it was the **absolute last time** he would listen to my complaints. For weeks we did not speak.\n\nEverything changed when his wife **gave birth** to a baby girl in March. Suddenly the famous athlete was learning how to **feed** a newborn at three in the morning, looking completely lost. I went to help, and we ended up laughing together for the first time in months. He admitted that he had been lonely, and I admitted my **jealousy**. Now we meet every weekend, and I no longer compare myself with him.",
+   "summary_vi": "Người em kể về sự ghen tị với anh trai là vận động viên và cách cả hai làm hòa sau khi em bé chào đời.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its definition.",
+     "items": [
+      {
+       "word": "sportsman",
+       "definition": "a man who plays or takes part in sport",
+       "explain": "Sportsman là nam vận động viên, người chơi thể thao."
+      },
+      {
+       "word": "jealousy",
+       "definition": "an unhappy feeling when you want what someone else has",
+       "explain": "Jealousy là sự ghen tị/ghen tuông."
+      },
+      {
+       "word": "assume",
+       "definition": "to believe something is true without being sure",
+       "explain": "Assume là cho rằng điều gì đúng khi chưa chắc chắn."
+      },
+      {
+       "word": "position",
+       "definition": "a job or a role in a team or organisation",
+       "explain": "Position ở đây là vị trí, chức vụ như đội trưởng."
+      },
+      {
+       "word": "stressful",
+       "definition": "causing worry and mental pressure",
+       "explain": "Stressful mô tả sự việc gây căng thẳng."
+      },
+      {
+       "word": "stressed",
+       "definition": "feeling worried and unable to relax",
+       "explain": "Stressed mô tả người cảm thấy căng thẳng."
+      },
+      {
+       "word": "In the heat of the moment",
+       "definition": "while you are very angry or excited and not thinking carefully",
+       "explain": "Nghĩa là trong lúc nóng giận, bốc đồng nên nói/làm không suy nghĩ."
+      },
+      {
+       "word": "Absolute last time",
+       "definition": "the final occasion, with no more chances",
+       "explain": "Nhấn mạnh đây là lần cuối cùng tuyệt đối, không chấp nhận lặp lại."
+      },
+      {
+       "word": "bother to do st",
+       "definition": "to take the trouble to do something",
+       "explain": "Bother to do là mất công làm việc gì."
+      },
+      {
+       "word": "Give birth",
+       "definition": "to have a baby",
+       "explain": "Give birth là sinh con."
+      },
+      {
+       "word": "Feed = give good",
+       "definition": "to give food to a person or an animal",
+       "explain": "Feed là cho ăn."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "jealousy",
+      "assume",
+      "sportsman",
+      "feed",
+      "stressful",
+      "stressed",
+      "give birth",
+      "bother"
+     ],
+     "items": [
+      {
+       "q": "She could not hide her ____ when her best friend won the prize.",
+       "answer": "jealousy",
+       "explain": "Ghen tị khi bạn thắng giải: danh từ jealousy."
+      },
+      {
+       "q": "Don't ____ that he knows the answer; ask him first.",
+       "answer": "assume",
+       "explain": "Đừng cho rằng điều gì đúng khi chưa chắc: assume."
+      },
+      {
+       "q": "A professional ____ has to train for many hours every day.",
+       "answer": "sportsman",
+       "explain": "Người tập luyện nhiều giờ mỗi ngày là vận động viên: sportsman."
+      },
+      {
+       "q": "My neighbour has to ____ her baby every three hours.",
+       "answer": "feed",
+       "explain": "Em bé cần được cho ăn: feed."
+      },
+      {
+       "q": "Moving house can be very ____ because there is so much to organise.",
+       "answer": "stressful",
+       "explain": "Việc chuyển nhà gây căng thẳng nên dùng stressful."
+      },
+      {
+       "q": "I always feel ____ before my driving test.",
+       "answer": "stressed",
+       "explain": "Feel + tính từ chỉ cảm xúc của người: stressed."
+      },
+      {
+       "q": "Her sister is going to ____ in the hospital next week.",
+       "answer": "give birth",
+       "explain": "Sinh con ở bệnh viện: give birth."
+      },
+      {
+       "q": "He is so lazy that he does not even ____ to answer my messages.",
+       "answer": "bother",
+       "explain": "Bother to do st là chịu mất công làm gì."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "Why did the writer feel jealous of Tuan?",
+       "options": [
+        "Tuan was richer than the neighbours",
+        "People praised Tuan all the time",
+        "Tuan had a bigger house",
+        "Tuan won a prize at school"
+       ],
+       "answer": 1,
+       "explain": "Người viết ghen tị vì hàng xóm khen ngợi Tuan liên tục."
+      },
+      {
+       "q": "What made Tuan's life stressful?",
+       "options": [
+        "Looking after a baby only",
+        "His job as a teacher",
+        "His responsibilities as team captain",
+        "Arguments with neighbours"
+       ],
+       "answer": 2,
+       "explain": "Vị trí đội trưởng khiến anh rất căng thẳng."
+      },
+      {
+       "q": "What brought the two brothers closer together?",
+       "options": [
+        "A big competition",
+        "The birth of a baby",
+        "A holiday abroad",
+        "A new house"
+       ],
+       "answer": 1,
+       "explain": "Sau khi vợ Tuan sinh con, hai anh em cùng chăm bé và làm hòa."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "The writer is older than Tuan.",
+       "answer": "False",
+       "explain": "Tuan là my older brother nên anh lớn hơn người viết."
+      },
+      {
+       "q": "Tuan's wife had a baby in March.",
+       "answer": "True",
+       "explain": "Bài viết nói vợ anh gave birth vào tháng Ba."
+      },
+      {
+       "q": "The brothers did not speak for several weeks after the argument.",
+       "answer": "True",
+       "explain": "Câu For weeks we did not speak xác nhận điều này."
+      },
+      {
+       "q": "Tuan plans to retire from sport next year.",
+       "answer": "Not Given",
+       "explain": "Bài không nhắc đến việc Tuan sẽ giải nghệ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Choosing Where to Live in Da Nang",
+   "text": "Choosing where to live is not only about the price of the flat. Lan, a student in Da Nang, found a room in a district that is **a mix of** old family houses and modern cafés. Her university is **just around the corner from** her building, so she can walk to class. **There's a cheap noodle shop around the corner**, and a **cash machine** outside the supermarket, which is useful because many stalls do not accept cards. The long beach **stretches** for kilometres, and at weekends there are always events **going on** along the seafront, so she never feels bored.\n\nLan's friend chose a different area in the city centre. It offers excellent **nightlife** and many **cultural activities**, such as concerts and art shows. The **crime rate** is also very low. However, her rent is expensive and the tiny room is **poor value for money**. She has to **get the bus** to university every morning, and it is often late. Lan likes the ice-cream café on her street, where you can try **different flavours** like coconut, coffee and lychee. Now that exams are **just around the corner**, she is glad she can study close to home.",
+   "summary_vi": "Lan so sánh hai khu phố ở Đà Nẵng: khu yên tĩnh gần trường và khu trung tâm sôi động nhưng đắt đỏ.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its definition.",
+     "items": [
+      {
+       "word": "a cash machine",
+       "definition": "a machine in the street where you take money out of your bank account",
+       "explain": "Cash machine (ATM) là máy rút tiền."
+      },
+      {
+       "word": "be (just) around the corner from + địa điểm",
+       "definition": "to be very near a particular place",
+       "explain": "Around the corner from + nơi chốn nghĩa là ngay gần chỗ đó."
+      },
+      {
+       "word": "be (just) around the corner",
+       "definition": "to be going to happen very soon",
+       "explain": "Với thời gian (exams are around the corner) nghĩa là sắp đến."
+      },
+      {
+       "word": "There's/There are + danh từ + around the corner",
+       "definition": "used to say that something is close by",
+       "explain": "Cấu trúc này nói có thứ gì ở gần đây (nearby)."
+      },
+      {
+       "word": "stretch",
+       "definition": "to cover a long distance or area",
+       "explain": "Stretch ở đây là trải dài, kéo dài."
+      },
+      {
+       "word": "nightlife",
+       "definition": "entertainment available in the evening, such as clubs and bars",
+       "explain": "Nightlife là cuộc sống về đêm."
+      },
+      {
+       "word": "cultural activities",
+       "definition": "events such as concerts, exhibitions and festivals",
+       "explain": "Cultural activities là các hoạt động văn hóa."
+      },
+      {
+       "word": "crime rate",
+       "definition": "the number of crimes in a place",
+       "explain": "Crime rate là tỷ lệ tội phạm."
+      },
+      {
+       "word": "a mix of",
+       "definition": "a combination of different things",
+       "explain": "A mix of là sự pha trộn của nhiều thứ."
+      },
+      {
+       "word": "be going on",
+       "definition": "to be happening",
+       "explain": "Be going on là đang diễn ra."
+      },
+      {
+       "word": "poor value for money",
+       "definition": "not worth the price you pay",
+       "explain": "Poor value for money là không đáng đồng tiền."
+      },
+      {
+       "word": "get a/the phương tiện công cộng (bus, train, taxi, tram...)",
+       "definition": "to travel by a bus, train or taxi",
+       "explain": "Get the bus/train là đi bằng xe buýt/tàu."
+      },
+      {
+       "word": "different flavours",
+       "definition": "many kinds of taste, for example in ice cream",
+       "explain": "Different flavours là nhiều hương vị khác nhau."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "a cash machine",
+      "nightlife",
+      "crime rate",
+      "stretch",
+      "poor value for money",
+      "cultural activities",
+      "different flavours",
+      "a mix of"
+     ],
+     "items": [
+      {
+       "q": "I need to find ____ because I have no money for the taxi.",
+       "answer": "a cash machine",
+       "explain": "Cần rút tiền mặt nên tìm máy rút tiền: a cash machine."
+      },
+      {
+       "q": "Young tourists love this city because of its exciting ____.",
+       "answer": "nightlife",
+       "explain": "Hoạt động về đêm hấp dẫn khách trẻ: nightlife."
+      },
+      {
+       "q": "The police say the ____ has fallen since last year.",
+       "answer": "crime rate",
+       "explain": "Cảnh sát nói về mức giảm của tỷ lệ tội phạm: crime rate."
+      },
+      {
+       "q": "The desert seems to ____ for hundreds of kilometres.",
+       "answer": "stretch",
+       "explain": "Sa mạc trải dài hàng trăm km: stretch."
+      },
+      {
+       "q": "The hotel was expensive and dirty, so it was ____.",
+       "answer": "poor value for money",
+       "explain": "Đắt mà bẩn nên không đáng đồng tiền: poor value for money."
+      },
+      {
+       "q": "The museum organises many ____, including music nights and film shows.",
+       "answer": "cultural activities",
+       "explain": "Âm nhạc, phim là hoạt động văn hóa: cultural activities."
+      },
+      {
+       "q": "This shop sells ice cream in twelve ____.",
+       "answer": "different flavours",
+       "explain": "Kem có nhiều hương vị khác nhau: different flavours."
+      },
+      {
+       "q": "The salad is ____ fruit, nuts and fresh herbs.",
+       "answer": "a mix of",
+       "explain": "Món salad kết hợp nhiều thứ: a mix of."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "Why is a cash machine useful for Lan?",
+       "options": [
+        "Banks are closed at weekends",
+        "Many stalls do not accept cards",
+        "She likes collecting coins",
+        "Her rent is paid in cash only"
+       ],
+       "answer": 1,
+       "explain": "Bài viết nói nhiều quầy hàng không nhận thẻ."
+      },
+      {
+       "q": "What is the problem with her friend's room?",
+       "options": [
+        "It is far from the centre",
+        "It is noisy and dangerous",
+        "It is small and expensive",
+        "It has no bus stop"
+       ],
+       "answer": 2,
+       "explain": "Phòng nhỏ và giá thuê đắt nên không đáng tiền."
+      },
+      {
+       "q": "How does Lan get to university?",
+       "options": [
+        "By bus",
+        "By taxi",
+        "By motorbike",
+        "On foot"
+       ],
+       "answer": 3,
+       "explain": "Trường ở ngay gần nên cô ấy đi bộ đến lớp."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Lan's university is near her building.",
+       "answer": "True",
+       "explain": "Trường just around the corner from tòa nhà của Lan."
+      },
+      {
+       "q": "The area where Lan's friend lives has a high crime rate.",
+       "answer": "False",
+       "explain": "Bài viết nói tỷ lệ tội phạm ở đó rất thấp."
+      },
+      {
+       "q": "Lan's friend takes the bus to university.",
+       "answer": "True",
+       "explain": "Bạn của Lan phải đi xe buýt đến trường mỗi sáng."
+      },
+      {
+       "q": "Lan's favourite ice cream flavour is coconut.",
+       "answer": "Not Given",
+       "explain": "Bài chỉ liệt kê các vị, không nói vị yêu thích."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "From Entrance Test to Qualification",
+   "text": "Hanh always dreamed of becoming a teacher, but the road was longer than she expected. She failed the entrance test the first time, so she studied harder and decided to **retake the exam** the following summer. This time she **got a place** at a university in Hue, where she began to **study for a degree** in English education.\n\nDuring her first year, she **attended a lecture** almost every morning and took careful notes. She also joined a short evening class on classroom management. When she **completed the course successfully**, she was proud to **receive a certificate** from the head of the department. Employers often prefer applicants with an extra **qualification**, and Hanh knew that this certificate would help.\n\nAfter four years of hard work, she finally **has a degree** in teaching, and she hopes to **qualify as** a primary school teacher next year. Some of her classmates thought it was impossible, but she **succeeded in passing** every exam. Her mother, who never went to university, says that a **qualified** teacher can change many lives. Hanh agrees, and she plans to continue learning throughout her career.",
+   "summary_vi": "Hạnh thi lại, đỗ đại học, hoàn thành khóa học và lấy bằng để trở thành giáo viên đủ tiêu chuẩn.",
+   "exercises": [
+    {
+     "type": "match",
+     "instruction": "Match each word or phrase with its definition.",
+     "items": [
+      {
+       "word": "retake an exam",
+       "definition": "to take a test again after failing it",
+       "explain": "Retake an exam là thi lại."
+      },
+      {
+       "word": "get a place (at somewhere)",
+       "definition": "to be accepted as a student by a school or university",
+       "explain": "Get a place là đỗ, có suất học ở trường nào."
+      },
+      {
+       "word": "study for / do a degree (in something)",
+       "definition": "to follow a university programme to get a qualification",
+       "explain": "Study for a degree là học lấy bằng đại học."
+      },
+      {
+       "word": "have / get a degree (in something)",
+       "definition": "to have finished university with an official award",
+       "explain": "Have a degree là đã có bằng đại học."
+      },
+      {
+       "word": "complete a course successfully",
+       "definition": "to finish a course and pass it",
+       "explain": "Hoàn thành khóa học và đạt kết quả tốt."
+      },
+      {
+       "word": "receive a certificate",
+       "definition": "to be given an official paper showing you finished a course",
+       "explain": "Receive a certificate là nhận chứng chỉ."
+      },
+      {
+       "word": "attend a lecture",
+       "definition": "to go to a talk given by a teacher at university",
+       "explain": "Attend a lecture là dự một bài giảng."
+      },
+      {
+       "word": "qualification (in something)",
+       "definition": "an exam or course you have passed that allows you to do a job",
+       "explain": "Qualification là bằng cấp, trình độ."
+      },
+      {
+       "word": "qualify as something",
+       "definition": "to pass the exams needed to work in a profession",
+       "explain": "Qualify as là đủ điều kiện hành nghề (teacher, doctor...)."
+      },
+      {
+       "word": "succeed in doing something",
+       "definition": "to manage to achieve what you tried to do",
+       "explain": "Succeed in doing là thành công trong việc gì."
+      },
+      {
+       "word": "qualified",
+       "definition": "having the skills and exams needed for a job",
+       "explain": "Qualified là có đủ trình độ, đủ điều kiện."
+      }
+     ]
+    },
+    {
+     "type": "gapfill",
+     "instruction": "Complete each sentence with a word or phrase from the box.",
+     "wordBank": [
+      "retake an exam",
+      "get a place",
+      "attend a lecture",
+      "receive a certificate",
+      "qualification",
+      "qualify as",
+      "qualified",
+      "succeed in"
+     ],
+     "items": [
+      {
+       "q": "If you fail the test, you can ____ in June.",
+       "answer": "retake an exam",
+       "explain": "Trượt thì có thể thi lại: retake an exam."
+      },
+      {
+       "q": "Only fifty students will ____ on this competitive course.",
+       "answer": "get a place",
+       "explain": "Chỉ 50 sinh viên được nhận vào học: get a place."
+      },
+      {
+       "q": "Professor Lee asked all first-year students to ____ on Monday morning.",
+       "answer": "attend a lecture",
+       "explain": "Đi dự bài giảng của giáo sư: attend a lecture."
+      },
+      {
+       "q": "At the ceremony, every graduate will ____ from the dean.",
+       "answer": "receive a certificate",
+       "explain": "Nhận chứng chỉ trong lễ tốt nghiệp: receive a certificate."
+      },
+      {
+       "q": "A nursing ____ is required for this job.",
+       "answer": "qualification",
+       "explain": "Công việc đòi hỏi bằng cấp: danh từ qualification."
+      },
+      {
+       "q": "She wants to ____ a lawyer after five years of study.",
+       "answer": "qualify as",
+       "explain": "Đủ điều kiện hành nghề luật sư: qualify as."
+      },
+      {
+       "q": "We need a ____ electrician to fix the wiring safely.",
+       "answer": "qualified",
+       "explain": "Cần thợ điện có trình độ: tính từ qualified."
+      },
+      {
+       "q": "After many tries, she managed to ____ passing her driving test.",
+       "answer": "succeed in",
+       "explain": "Succeed in + V-ing là thành công trong việc gì."
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "instruction": "Choose the correct answer.",
+     "items": [
+      {
+       "q": "What did Hanh do after failing the entrance test?",
+       "options": [
+        "She gave up her dream",
+        "She retook the exam the next summer",
+        "She went abroad",
+        "She found a job"
+       ],
+       "answer": 1,
+       "explain": "Cô học chăm hơn và thi lại vào mùa hè năm sau."
+      },
+      {
+       "q": "Where did Hanh study for her degree?",
+       "options": [
+        "In Hanoi",
+        "In Da Nang",
+        "In Hue",
+        "In Saigon"
+       ],
+       "answer": 2,
+       "explain": "Bài viết nói cô đỗ vào một trường đại học ở Huế."
+      },
+      {
+       "q": "Why was the certificate useful?",
+       "options": [
+        "It gave her free tuition",
+        "Employers like extra qualifications",
+        "It replaced her degree",
+        "It was required by her mother"
+       ],
+       "answer": 1,
+       "explain": "Nhà tuyển dụng thường ưu tiên người có thêm bằng cấp."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "instruction": "Write True, False or Not Given.",
+     "items": [
+      {
+       "q": "Hanh passed the entrance test on her first attempt.",
+       "answer": "False",
+       "explain": "Bài viết nói cô trượt lần đầu."
+      },
+      {
+       "q": "Hanh's mother went to university.",
+       "answer": "False",
+       "explain": "Mẹ cô never went to university."
+      },
+      {
+       "q": "The head of the department gave Hanh her certificate.",
+       "answer": "True",
+       "explain": "Cô nhận chứng chỉ từ the head of the department."
+      },
+      {
+       "q": "Hanh studied at a private university.",
+       "answer": "Not Given",
+       "explain": "Bài không nói trường tư hay công."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
